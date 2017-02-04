@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2016-12-08 08:39">
+	<shop>
+		<name>AMOLED</name>
+		<company></company>
+		<url>http://amoled.fo.ru/</url>
+		<currencies>
+			<currency id="RUB" rate="1"  />
+		</currencies>
+
+		<categories>
+			<category id="390552" >Мобильные телефоны</category>
+		</categories>
+
+		<offers>
+		<offer id="1" available="true" bid="1" cbid="1">
+				<url>http://amoled.fo.ru/shop/390552/1022232</url>
+				<price>18490</price>
+				<currencyId>RUB</currencyId>
+				<categoryId>390552</categoryId>
+				<picture>http://amoled.p.fl2.fo.ru/image/chunk103/9735322/390552_shop/1022232_ce9cc7df66f877ef6d97ac1edfb88716.jpg</picture>
+				<delivery>true</delivery>
+				<local_delivery_cost>0</local_delivery_cost>
+				<name>Apple iPhone 5S 16Gb Серый космос</name>
+			<description>Смартфон Apple iPhone 5s это целый набор потрясающих технологий в удивительно тонком и легком металлическом корпусе. Датчик идентификации по отпечатку пальца Touch ID. A7 первый мобильный процессор с 64-битной архитектурой. Улучшенная, еще более впечатляющая камера iSight. И сверхскоростная беспроводная связь.</description>
+			</offer>
+		<offer id="2" available="true" bid="1" cbid="1">
+				<url>http://amoled.fo.ru/shop/390552/1022230</url>
+				<price>18490</price>
+				<currencyId>RUB</currencyId>
+				<categoryId>390552</categoryId>
+				<picture>http://amoled.p.fl2.fo.ru/image/chunk103/9735322/390552_shop/1022230_da30c60c4995b9f3241956d2cc7fdb54.jpg</picture>
+				<delivery>true</delivery>
+				<local_delivery_cost>0</local_delivery_cost>
+				<name>Apple iPhone 5S 16Gb Серебристый</name>
+			<description>Смартфон Apple iPhone 5s это целый набор потрясающих технологий в удивительно тонком и легком металлическом корпусе. Датчик идентификации по отпечатку пальца Touch ID. A7 первый мобильный процессор с 64-битной архитектурой. Улучшенная, еще более впечатляющая камера iSight. И сверхскоростная беспроводная связь.</description>
+			</offer>
+		<offer id="3" available="true" bid="1" cbid="1">
+				<url>http://amoled.fo.ru/shop/390552/1022224</url>
+				<price>34990</price>
+				<currencyId>RUB</currencyId>
+				<categoryId>390552</categoryId>
+				<picture>http://amoled.p.fl2.fo.ru/image/chunk103/9735322/390552_shop/1022224_46d729bd474f62ad2941ae3087ad1ea1.jpg</picture>
+				<delivery>true</delivery>
+				<local_delivery_cost>0</local_delivery_cost>
+				<name>Apple iPhone 6S 16Gb Золотистый</name>
+			<description>Единственная новость все по-новому едва начав пользоваться iPhone 6s, вы сразу почувствуете, насколько все изменилось. Технология 3D Touch открывает потрясающие новые возможности достаточно одного нажатия. А функция Live Photos позволяет буквально оживить ваши воспоминания. И это только начало. Присмотритесь к iPhone 6s внимательнее, и вы увидите инновации на всех уровнях. Выдающийся дизайн. Новый шаг вперед инновации не всегда очевидны, но присмотревшись к iPhone 6s внимательнее, вы увидите фундаментальные перемены. Корпус изготовлен из нового сплава на основе алюминия серии 7000, который применяется в аэрокосмической отрасли. Стекло дисплея iPhone 6s прочнее любого другого стекла для смартфона.</description>
+			</offer>
+		<offer id="4" available="true" bid="1" cbid="1">
+				<url>http://amoled.fo.ru/shop/390552/1022226</url>
+				<price>34990</price>
+				<currencyId>RUB</currencyId>
+				<categoryId>390552</categoryId>
+				<picture>http://amoled.p.fl2.fo.ru/image/chunk103/9735322/390552_shop/1022226_e08b58d0d3dfcd255ee7357c7087e3de.jpg</picture>
+				<delivery>true</delivery>
+				<local_delivery_cost>0</local_delivery_cost>
+				<name>Apple iPhone 6S 16Gb Серый космос</name>
+			<description>Единственная новость все по-новому едва начав пользоваться iPhone 6s, вы сразу почувствуете, насколько все изменилось. Технология 3D Touch открывает потрясающие новые возможности достаточно одного нажатия. А функция Live Photos позволяет буквально оживить ваши воспоминания. И это только начало. Присмотритесь к iPhone 6s внимательнее, и вы увидите инновации на всех уровнях. Выдающийся дизайн. Новый шаг вперед инновации не всегда очевидны, но присмотревшись к iPhone 6s внимательнее, вы увидите фундаментальные перемены. Корпус изготовлен из нового сплава на основе алюминия серии 7000, который применяется в аэрокосмической отрасли. Стекло дисплея iPhone 6s прочнее любого другого стекла для смартфона.</description>
+			</offer>
+		<offer id="5" available="true" bid="1" cbid="1">
+				<url>http://amoled.fo.ru/shop/390552/1022218</url>
+				<price>27990</price>
+				<currencyId>RUB</currencyId>
+				<categoryId>390552</categoryId>
+				<picture>http://amoled.p.fl2.fo.ru/image/chunk103/9735322/390552_shop/1022218_6508d454c8744bc5b76084253f41fe7c.jpg</picture>
+				<delivery>true</delivery>
+				<local_delivery_cost>0</local_delivery_cost>
+				<name>Samsung Galaxy S6 SM-G920F 32Gb Черный сапфир</name>
+			<description>Элегантные контуры и излучающая свет стеклянная поверхность корпуса отражают все богатство цветовой палитры. Samsung Galaxy S6 доступен в широком выборе роскошных цветов: белый жемчуг, черный сапфир, ослепительная платина и синий топаз. Премиальный и вместе с тем глубоко продуманный дизайн смартфона дополняется абсолютно новым облегченным интерфейсом, который повышает удобство использования и расширяет функциональность.</description>
+			</offer>
+		<offer id="6" available="true" bid="1" cbid="1">
+				<url>http://amoled.fo.ru/shop/390552/1022220</url>
+				<price>27990</price>
+				<currencyId>RUB</currencyId>
+				<categoryId>390552</categoryId>
+				<picture>http://amoled.p.fl2.fo.ru/image/chunk103/9735322/390552_shop/1022220_acfc7aa9e1c6cb197c90f46e156a3e21.jpg</picture>
+				<delivery>true</delivery>
+				<local_delivery_cost>0</local_delivery_cost>
+				<name>Samsung Galaxy S6 SM-G920F 32Gb Золотая платина</name>
+			<description>Элегантные контуры и излучающая свет стеклянная поверхность корпуса отражают все богатство цветовой палитры. Samsung Galaxy S6 доступен в широком выборе роскошных цветов: белый жемчуг, черный сапфир, ослепительная платина и синий топаз. Премиальный и вместе с тем глубоко продуманный дизайн смартфона дополняется абсолютно новым облегченным интерфейсом, который повышает удобство использования и расширяет функциональность.</description>
+			</offer>
+		<offer id="7" available="true" bid="1" cbid="1">
+				<url>http://amoled.fo.ru/shop/390552/1022222</url>
+				<price>44990</price>
+				<currencyId>RUB</currencyId>
+				<categoryId>390552</categoryId>
+				<picture>http://amoled.p.fl2.fo.ru/image/chunk103/9735322/390552_shop/1022222_b8ec55f805650d1d9564c72036e86be1.jpg</picture>
+				<delivery>true</delivery>
+				<local_delivery_cost>0</local_delivery_cost>
+				<name>Samsung Galaxy S6 Edge Plus 32Gb Золотая платина</name>
+			<description>Благодаря быстрой работе смартфона и загрузке приложений, устройство не имеет себе равных по производительности и энергосбережению. Первый в мире 64-битный 8-ядерный мобильный процессор, изготовленный по 14-нм технологии, обеспечивает производительность и энергоэффективность.</description>
+			</offer>
+		<offer id="8" available="true" bid="1" cbid="1">
+				<url>http://amoled.fo.ru/shop/390552/1022228</url>
+				<price>54990</price>
+				<currencyId>RUB</currencyId>
+				<categoryId>390552</categoryId>
+				<picture>http://amoled.p.fl2.fo.ru/image/chunk103/9735322/390552_shop/1022228_4172ee90005ffee98b37c13572570864.jpg</picture>
+				<delivery>true</delivery>
+				<local_delivery_cost>0</local_delivery_cost>
+				<name>Samsung Galaxy S7 Edge 32GB Черный</name>
+			<description>Samsung Galaxy S7 Edge - необычный смартфон с изогнутым с двух сторон дисплеем. Это не только оригинально выглядит, но и обеспечивает владельцу дополнительные возможности. Реалистичное изображение на экране
+изображение на 5,5-дюймовом экране с разрешением 2560 x 1440 пикселей, выполненном по технологии Super AMOLED, выглядит максимально реалистично, оно яркое, чёткое, разборчивое - владельцу не составит труда рассмотреть мельчайшие детали. Корпус, Защищённый от пыли и влаги
+смартфон выглядит стильно и оригинально, для изготовления его корпуса использовались закалённое стекло и лёгкий прочный алюминий. Он надёжно защищён от пыли и влаги. Работа на высоких скоростях
+современный высокопроизводительный процессор позволяет не только решать с помощью смартфона повседневные задачи, но и смотреть видео и играть в ресурсоёмкие игры. Благодаря поддержке 4GLTE владелец может оперативно находить важную информацию в интернете, смотреть или передавать потоковое видео и так далее. Отличные снимки в любых условиях
+12-мегапиксельная камера смартфона позволяет вне зависимости от условий делать снимки и видеоролики, по качеству сопоставимые с профессиональными.</description>
+			</offer>
+		</offers>
+
+
+	</shop>
+</yml_catalog>
