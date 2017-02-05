@@ -1,22 +1,19 @@
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Scanner;
+import java.util.*;
 
 public class Solution {
-    static Gadgets iphones[] = new Gadgets[Gadgets.CITIES.length];
+    final static String[] CITIES = new String[]{"Казань", "Москва"};
+    static Gadgets iphones;
     static Gadgets galaxys;
 
-    private static void computeIPhones(int cityId) {
-        iphones[cityId] = new Gadgets();
-        iphones[cityId].initializeIPhones(cityId);
+    private static void computeIPhones() {
+        iphones = new Gadgets();
+        iphones.initializeIPhones();
         try {
             Scanner inScanner = new Scanner(new FileInputStream("input.txt"));
-            ArrayList<String> iphonesPriceListNames = new ArrayList<String>();
-            ArrayList<String> pricesMonthWarranty = new ArrayList<>();
-            ArrayList<String> pricesYearWarranty = new ArrayList<>();
+            HashMap<String, ArrayList<String>> mapGadgetNamePrices = new HashMap<>();
             while (inScanner.hasNextLine()) {
                 String line = inScanner.nextLine();
                 String[] words = line.split(" ");
@@ -24,30 +21,49 @@ public class Solution {
                     continue;
                 }
                 int i = 0;
-                String name = "Apple";
+                String gadgetName = "Apple";
                 do {
                     i++;
-                    name += " " + words[i];
+                    gadgetName += " " + words[i];
                 } while (!words[i].contains("Gb"));
                 if (words[i + 1].equals("Без")) {
-                    name += " Б/О";
+                    gadgetName += " Б/О";
                 }
-                iphonesPriceListNames.add(name);
-                pricesYearWarranty.add(words[words.length - Gadgets.CITIES.length - 1]);
-                pricesMonthWarranty.add(words[words.length - Gadgets.CITIES.length + cityId]);
+                ArrayList<String> prices = new ArrayList<>();
+                for (int priceId = 2 * CITIES.length + 2; priceId > 0; priceId--) {
+                    prices.add(words[words.length - priceId]);
+                }
+                mapGadgetNamePrices.put(gadgetName, prices);
             }
-            iphones[cityId].initializePrices(pricesMonthWarranty, pricesYearWarranty, iphonesPriceListNames);
-            iphones[cityId].generateGadgets(0, new ArrayList<String>());
-            iphones[cityId].generateGadgetFiles();
+            iphones.initializePrices(mapGadgetNamePrices);
+            iphones.generateGadgets(0, new ArrayList<String>());
+            Collections.shuffle(iphones.gadgets, new Random(17351));
+            File directory = new File("Output");
+            String fileName = "temp.txt";
+            File file = new File(directory, fileName.replaceAll("[\\s/]", ""));
+            file.getParentFile().mkdirs();
+            BufferedWriter outWriter = null;
+            String temp = "";
+            for (ArrayList<String> gadget : iphones.gadgets) {
+                temp += iphones.getAvitoAdName(gadget) + "\n";
+            }
+            try {
+                OutputStream os = new BufferedOutputStream(Files.newOutputStream(Paths.get(file.getCanonicalPath())));
+                outWriter = new BufferedWriter(new OutputStreamWriter(os));
+                outWriter.write(temp);
+                outWriter.flush();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
             inScanner.close();
         } catch (FileNotFoundException e) {
             System.out.print("Exception: Input file not found!");
         }
     }
 
-    public static void computeGalaxys() {
+    /*public static void computeGalaxys() {
         galaxys = new Gadgets();
-        galaxys.initializeGalaxys();
+//        galaxys.initializeGalaxys();
         try {
             Scanner inScanner = new Scanner(new FileInputStream("input.txt"));
             ArrayList<String> galaxyPriceListNames = new ArrayList<String>();
@@ -76,7 +92,7 @@ public class Solution {
         } catch (FileNotFoundException e) {
             System.out.print("Exception: Input file not found!");
         }
-    }
+    }*/
 
     public static void computeYMIdIncremental() {
         Scanner inScanner = null;
@@ -221,39 +237,15 @@ public class Solution {
 
 
     private static void computeXML() {
-//        int iphonesSize = iphones.gadgets.size();
-//        int galaxysSize = galaxys.gadgets.size();
-//        System.out.print(iphonesSize + " " + galaxysSize);
-//        Gadgets gadgets = iphones;//new Gadgets();
-//        int[] daySequence = new int[]{2, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 2, 1};
-//        int iphoneI = 0;
-//        int galaxyI = 0;
-//        for (int day = 0; day < Gadgets.DAYS_COUNT; day++) {
-//            for (int aDaySequence : daySequence) {
-//                if (aDaySequence % 2 == 0) {
-//                    gadgets.gadgets.add(galaxys.gadgets.get(galaxyI));
-//                    galaxyI++;
-//                } else {
-//                    gadgets.gadgets.add(iphones.gadgets.get(iphoneI));
-//                    iphoneI++;
-//                }
-//            }
-//        }
-//        System.out.println(gadgets.gadgets.size());
-//        for (ArrayList<String> gadget : gadgets.gadgets) {
-//            System.out.println(gadget);
-//        }
         String xml = "<Ads formatVersion=\"3\" target=\"Avito.ru\">\n";
         ArrayList<String> xmls = new ArrayList<>();
-
 //        Gadgets gadgets = iphones[cityId];
         int gadgetsPerDay = 16;//gadgets.gadgets.size() / Gadgets.DAYS_COUNT;
         for (int xmlDay = 1; xmlDay <= 30; xmlDay++) {
             for (int gadgetId = (xmlDay - 1) * gadgetsPerDay; gadgetId < xmlDay * gadgetsPerDay; gadgetId++) {
-                for (int cityId = 0; cityId < Gadgets.CITIES.length; cityId++) {
-//                    xmls.add(gadgets.getXmlAd(gadgetId, xmlDay, cities[cityId]));
-                    xml += iphones[cityId].getXmlAd(gadgetId, xmlDay, Gadgets.CITIES[cityId]);
-                }
+//                for (int cityId = 0; cityId < Gadgets.CITIES.length; cityId++) {
+//                    xml += iphones[cityId].getXmlAd(gadgetId, xmlDay, Gadgets.CITIES[cityId]);
+//                }
             }
         }
 
@@ -287,11 +279,9 @@ public class Solution {
 
     public static void main(String[] args) {
         Gadgets.initialize();
-        for (int i = 0; i < Gadgets.CITIES.length; i++) {
-            computeIPhones(i);
-        }
+        computeIPhones();
 //        computeGalaxys();
-        computeXML();
+//        computeXML();
 //        iphones.generateGadgetFiles();
 //        galaxys.generateGadgetFiles();
 //        computeYMIdIncremental();

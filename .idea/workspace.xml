@@ -2,719 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/EKZ/Gadgets.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/EKZ/Solution.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/EKZ_ear_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EKZ.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/META-INF/application.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Output/AdsXML.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Output/output.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Output/price_list.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/price_list_ispark_info.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gadgets.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/10-0/КакновыйiPhone5C16GBA1450ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/10-0/КакновыйiPhone5C16GBA1480ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/10-0/НовыйiPhone5S16GBБОA1450ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/10-0/НовыйiPhone5S16GbБОГарантияA1450.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/10-0/НовыйiPhone6Plus64GBБОA1481Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/10-0/НовыйiPhone6Plus64GBБОA1482Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/10-0/НовыйiPhone6Plus64GBБОA1511Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/10-0/НовыйiPhone6Plus64GbБОГарантияA1511.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/10-0/НовыйЕвротестiPhone5S16GbБОГарантияA1450.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/10-0/НовыйЕвротестiPhone5S16GbБОКредитA1450.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/10-0/НовыйЕвротестiPhone6Plus64GbБОГарантияA1511.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/10-0/НовыйЕвротестiPhone6Plus64GbБОКредитA1511.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/10-0/СгарантиейiPhone5C16GBA1450РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/10-0/СгарантиейiPhone5C16GBA1480РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/11-0/КакновыйiPhone5S16GBA1451ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/11-0/КакновыйiPhone5S16GBA1481ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/11-0/НовыйiPhone616GBA1483ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/11-0/НовыйiPhone616GBA1486ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/11-0/НовыйiPhone616GBA1513ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/11-0/НовыйiPhone616GbГарантияA1513.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/11-0/НовыйiPhone6Plus64GBБОA1451Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/11-0/НовыйiPhone6Plus64GbБОГарантияA1451.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/11-0/НовыйЕвротестiPhone616GbГарантияA1513.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/11-0/НовыйЕвротестiPhone616GbКредитA1513.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/11-0/НовыйЕвротестiPhone6Plus64GbБОГарантияA1451.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/11-0/НовыйЕвротестiPhone6Plus64GbБОКредитA1451.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/11-0/СгарантиейiPhone5S16GBA1451РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/11-0/СгарантиейiPhone5S16GBA1481РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/12-0/КакновыйiPhone616GBA1452ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/12-0/КакновыйiPhone616GBA1482ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/12-0/НовыйiPhone5S32GBA1452ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/12-0/НовыйiPhone5S32GbГарантияA1452.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/12-0/НовыйiPhone6Plus64GBA1485ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/12-0/НовыйiPhone6Plus64GBA1490ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/12-0/НовыйiPhone6Plus64GBA1515ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/12-0/НовыйiPhone6Plus64GbГарантияA1515.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/12-0/НовыйЕвротестiPhone5S32GbГарантияA1452.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/12-0/НовыйЕвротестiPhone5S32GbКредитA1452.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/12-0/НовыйЕвротестiPhone6Plus64GbГарантияA1515.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/12-0/НовыйЕвротестiPhone6Plus64GbКредитA1515.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/12-0/СгарантиейiPhone616GBA1452РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/12-0/СгарантиейiPhone616GBA1482РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/13-0/КакновыйiPhone4S16GBA1453ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/13-0/КакновыйiPhone4S16GBA1483ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/13-0/НовыйiPhone616GBA1453ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/13-0/НовыйiPhone616GbГарантияA1453.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/13-0/НовыйiPhone664GBБОA1487ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/13-0/НовыйiPhone664GBБОA1494ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/13-0/НовыйiPhone664GBБОA1517ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/13-0/НовыйiPhone664GbБОГарантияA1517.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/13-0/НовыйЕвротестiPhone616GbГарантияA1453.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/13-0/НовыйЕвротестiPhone616GbКредитA1453.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/13-0/НовыйЕвротестiPhone664GbБОГарантияA1517.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/13-0/НовыйЕвротестiPhone664GbБОКредитA1517.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/13-0/СгарантиейiPhone4S16GBA1453РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/13-0/СгарантиейiPhone4S16GBA1483РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/14-0/КакновыйiPhone6Plus16GBA1454Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/14-0/КакновыйiPhone6Plus16GBA1484Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/14-0/НовыйiPhone5S64GBБОA1454ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/14-0/НовыйiPhone5S64GbБОГарантияA1454.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/14-0/НовыйiPhone6Plus16GBA1489ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/14-0/НовыйiPhone6Plus16GBA1498ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/14-0/НовыйiPhone6Plus16GBA1519ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/14-0/НовыйiPhone6Plus16GbГарантияA1519.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/14-0/НовыйЕвротестiPhone5S64GbБОГарантияA1454.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/14-0/НовыйЕвротестiPhone5S64GbБОКредитA1454.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/14-0/НовыйЕвротестiPhone6Plus16GbГарантияA1519.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/14-0/НовыйЕвротестiPhone6Plus16GbКредитA1519.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/14-0/СгарантиейiPhone6Plus16GBA1454Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/14-0/СгарантиейiPhone6Plus16GBA1484Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/15-0/КакновыйiPhone5S32GBA1455ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/15-0/КакновыйiPhone5S32GBA1485ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/15-0/НовыйiPhone664GBA1491ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/15-0/НовыйiPhone664GBA1502ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/15-0/НовыйiPhone664GBA1521ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/15-0/НовыйiPhone664GbГарантияA1521.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/15-0/НовыйiPhone6Plus64GBA1455ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/15-0/НовыйiPhone6Plus64GbГарантияA1455.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/15-0/НовыйЕвротестiPhone664GbГарантияA1521.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/15-0/НовыйЕвротестiPhone664GbКредитA1521.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/15-0/НовыйЕвротестiPhone6Plus64GbГарантияA1455.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/15-0/НовыйЕвротестiPhone6Plus64GbКредитA1455.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/15-0/СгарантиейiPhone5S32GBA1455РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/15-0/СгарантиейiPhone5S32GBA1485РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/16-0/КакновыйiPhone664GBA1456ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/16-0/КакновыйiPhone664GBA1486ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/16-0/НовыйiPhone6Plus16GBБОA1493Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/16-0/НовыйiPhone6Plus16GBБОA1506Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/16-0/НовыйiPhone6Plus16GBБОA1523Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/16-0/НовыйiPhone6Plus16GbБОГарантияA1523.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/16-0/НовыйiPhone6S16GBA1456ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/16-0/НовыйiPhone6S16GbГарантияA1456.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/16-0/НовыйЕвротестiPhone6Plus16GbБОГарантияA1523.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/16-0/НовыйЕвротестiPhone6Plus16GbБОКредитA1523.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/16-0/НовыйЕвротестiPhone6S16GbГарантияA1456.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/16-0/НовыйЕвротестiPhone6S16GbКредитA1456.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/16-0/СгарантиейiPhone664GBA1456РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/16-0/СгарантиейiPhone664GBA1486РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/17-0/КакновыйiPhone5S64GBБОA1457Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/17-0/КакновыйiPhone5S64GBБОA1487Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/17-0/НовыйiPhone616GBБОA1495ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/17-0/НовыйiPhone616GBБОA1510ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/17-0/НовыйiPhone616GBБОA1525ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/17-0/НовыйiPhone616GbБОГарантияA1525.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/17-0/НовыйiPhone664GBБОA1457ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/17-0/НовыйiPhone664GbБОГарантияA1457.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/17-0/НовыйЕвротестiPhone616GbБОГарантияA1525.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/17-0/НовыйЕвротестiPhone616GbБОКредитA1525.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/17-0/НовыйЕвротестiPhone664GbБОГарантияA1457.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/17-0/НовыйЕвротестiPhone664GbБОКредитA1457.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/17-0/СгарантиейiPhone5S64GBБОA1457Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/17-0/СгарантиейiPhone5S64GBБОA1487Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/18-0/КакновыйiPhone6Plus16GBБОA1458Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/18-0/КакновыйiPhone6Plus16GBБОA1488Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/18-0/НовыйiPhone5S64GBA1458ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/18-0/НовыйiPhone5S64GbГарантияA1458.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/18-0/НовыйiPhone6Plus64GBБОA1482Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/18-0/НовыйiPhone6Plus64GBБОA1483Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/18-0/НовыйiPhone6Plus64GBБОA1512Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/18-0/НовыйiPhone6Plus64GbБОГарантияA1512.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/18-0/НовыйЕвротестiPhone5S64GbГарантияA1458.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/18-0/НовыйЕвротестiPhone5S64GbКредитA1458.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/18-0/НовыйЕвротестiPhone6Plus64GbБОГарантияA1512.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/18-0/НовыйЕвротестiPhone6Plus64GbБОКредитA1512.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/18-0/СгарантиейiPhone6Plus16GBБОA1458Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/18-0/СгарантиейiPhone6Plus16GBБОA1488Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/19-0/КакновыйiPhone5S16GBБОA1459Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/19-0/КакновыйiPhone5S16GBБОA1489Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/19-0/НовыйiPhone616GBA1484ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/19-0/НовыйiPhone616GBA1487ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/19-0/НовыйiPhone616GBA1514ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/19-0/НовыйiPhone616GbГарантияA1514.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/19-0/НовыйiPhone6Plus16GBA1459ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/19-0/НовыйiPhone6Plus16GbГарантияA1459.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/19-0/НовыйЕвротестiPhone616GbГарантияA1514.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/19-0/НовыйЕвротестiPhone616GbКредитA1514.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/19-0/НовыйЕвротестiPhone6Plus16GbГарантияA1459.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/19-0/НовыйЕвротестiPhone6Plus16GbКредитA1459.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/19-0/СгарантиейiPhone5S16GBБОA1459Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/19-0/СгарантиейiPhone5S16GBБОA1489Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/20-0/КакновыйiPhone664GBБОA1460ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/20-0/КакновыйiPhone664GBБОA1490ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/20-0/НовыйiPhone5S32GBБОA1460ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/20-0/НовыйiPhone5S32GbБОГарантияA1460.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/20-0/НовыйiPhone6Plus64GBA1486ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/20-0/НовыйiPhone6Plus64GBA1491ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/20-0/НовыйiPhone6Plus64GBA1516ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/20-0/НовыйiPhone6Plus64GbГарантияA1516.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/20-0/НовыйЕвротестiPhone5S32GbБОГарантияA1460.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/20-0/НовыйЕвротестiPhone5S32GbБОКредитA1460.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/20-0/НовыйЕвротестiPhone6Plus64GbГарантияA1516.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/20-0/НовыйЕвротестiPhone6Plus64GbКредитA1516.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/20-0/СгарантиейiPhone664GBБОA1460Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/20-0/СгарантиейiPhone664GBБОA1490Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/20-0/СгарантиейiPhone732GBA1460РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/20-0/СгарантиейiPhone732GBA1490РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/21-0/КакновыйiPhone732GBA1461ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/21-0/КакновыйiPhone732GBA1491ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/21-0/НовыйiPhone664GBA1461ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/21-0/НовыйiPhone664GBБОA1488ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/21-0/НовыйiPhone664GBБОA1495ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/21-0/НовыйiPhone664GBБОA1518ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/21-0/НовыйiPhone664GbБОГарантияA1518.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/21-0/НовыйiPhone664GbГарантияA1461.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/21-0/НовыйЕвротестiPhone664GbБОГарантияA1518.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/21-0/НовыйЕвротестiPhone664GbБОКредитA1518.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/21-0/НовыйЕвротестiPhone664GbГарантияA1461.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/21-0/НовыйЕвротестiPhone664GbКредитA1461.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/21-0/СгарантиейiPhone6S64GBA1461РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/21-0/СгарантиейiPhone6S64GBA1491РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/21-0/СгарантиейiPhone732GBA1461РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/21-0/СгарантиейiPhone732GBA1491РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/22-0/КакновыйiPhone6S64GBA1462ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/22-0/КакновыйiPhone6S64GBA1492ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/22-0/НовыйiPhone5S16GBA1462ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/22-0/НовыйiPhone5S16GbГарантияA1462.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/22-0/НовыйiPhone6Plus16GBA1490ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/22-0/НовыйiPhone6Plus16GBA1499ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/22-0/НовыйiPhone6Plus16GBA1520ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/22-0/НовыйiPhone6Plus16GbГарантияA1520.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/22-0/НовыйЕвротестiPhone5S16GbГарантияA1462.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/22-0/НовыйЕвротестiPhone5S16GbКредитA1462.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/22-0/НовыйЕвротестiPhone6Plus16GbГарантияA1520.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/22-0/НовыйЕвротестiPhone6Plus16GbКредитA1520.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/22-0/СгарантиейiPhone6Plus64GBA1462Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/22-0/СгарантиейiPhone6Plus64GBA1492Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/22-0/СгарантиейiPhone6S64GBA1462РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/22-0/СгарантиейiPhone6S64GBA1492РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/23-0/КакновыйiPhone6Plus64GBA1463Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/23-0/КакновыйiPhone6Plus64GBA1493Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/23-0/НовыйiPhone664GBA1492ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/23-0/НовыйiPhone664GBA1503ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/23-0/НовыйiPhone664GBA1522ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/23-0/НовыйiPhone664GbГарантияA1522.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/23-0/НовыйiPhone6Plus16GBБОA1463Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/23-0/НовыйiPhone6Plus16GbБОГарантияA1463.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/23-0/НовыйЕвротестiPhone664GbГарантияA1522.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/23-0/НовыйЕвротестiPhone664GbКредитA1522.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/23-0/НовыйЕвротестiPhone6Plus16GbБОГарантияA1463.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/23-0/НовыйЕвротестiPhone6Plus16GbБОКредитA1463.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/23-0/СгарантиейiPhone4S32GBA1463РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/23-0/СгарантиейiPhone4S32GBA1493РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/23-0/СгарантиейiPhone6Plus64GBA1463Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/23-0/СгарантиейiPhone6Plus64GBA1493Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/24-0/КакновыйiPhone5S32GBБОA1464Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/24-0/КакновыйiPhone5S32GBБОA1494Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/24-0/НовыйiPhone6Plus16GBБОA1494Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/24-0/НовыйiPhone6Plus16GBБОA1507Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/24-0/НовыйiPhone6Plus16GBБОA1524Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/24-0/НовыйiPhone6Plus16GbБОГарантияA1524.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/24-0/НовыйiPhone6S64GBA1464ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/24-0/НовыйiPhone6S64GbГарантияA1464.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/24-0/НовыйЕвротестiPhone6Plus16GbБОГарантияA1524.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/24-0/НовыйЕвротестiPhone6Plus16GbБОКредитA1524.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/24-0/НовыйЕвротестiPhone6S64GbГарантияA1464.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/24-0/НовыйЕвротестiPhone6S64GbКредитA1464.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/24-0/СгарантиейiPhone5S32GBБОA1464Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/24-0/СгарантиейiPhone5S32GBБОA1494Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/25-0/КакновыйiPhone616GBБОA1465ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/25-0/КакновыйiPhone616GBБОA1495ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/25-0/НовыйiPhone616GBБОA1465ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/25-0/НовыйiPhone616GBБОA1496ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/25-0/НовыйiPhone616GBБОA1511ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/25-0/НовыйiPhone616GBБОA1526ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/25-0/НовыйiPhone616GbБОГарантияA1465.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/25-0/НовыйiPhone616GbБОГарантияA1526.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/25-0/НовыйЕвротестiPhone616GbБОГарантияA1465.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/25-0/НовыйЕвротестiPhone616GbБОГарантияA1526.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/25-0/НовыйЕвротестiPhone616GbБОКредитA1465.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/25-0/НовыйЕвротестiPhone616GbБОКредитA1526.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/25-0/СгарантиейiPhone616GBБОA1465Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/25-0/СгарантиейiPhone616GBБОA1495Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/26-0/СгарантиейiPhone5C16GBA1451РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/27-0/СгарантиейiPhone5S16GBA1452РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/28-0/СгарантиейiPhone616GBA1453РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/29-0/СгарантиейiPhone4S16GBA1454РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/30-0/СгарантиейiPhone6Plus16GBA1455Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/31-0/СгарантиейiPhone5S32GBA1456РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/32-0/СгарантиейiPhone664GBA1457РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/33-0/СгарантиейiPhone5S64GBБОA1458Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/34-0/СгарантиейiPhone6Plus16GBБОA1459Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/35-0/СгарантиейiPhone5S16GBБОA1460Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/36-0/СгарантиейiPhone732GBA1461РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/37-0/СгарантиейiPhone6S64GBA1462РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/38-0/СгарантиейiPhone6Plus64GBA1463Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/39-0/СгарантиейiPhone4S32GBA1464РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/40-0/СгарантиейiPhone5S32GBБОA1465Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day1/41-0/СгарантиейiPhone616GBБОA1466Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/10-0/КакновыйiPhone5C16GBA1459ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/10-0/КакновыйiPhone5C16GBA1489ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/10-0/НовыйiPhone5S16GBБОA1459ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/10-0/НовыйiPhone5S16GbБОГарантияA1459.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/10-0/НовыйiPhone6Plus64GBБОA1499Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/10-0/НовыйiPhone6Plus64GBБОA1500Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/10-0/НовыйiPhone6Plus64GBБОA1529Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/10-0/НовыйiPhone6Plus64GbБОГарантияA1529.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/10-0/НовыйЕвротестiPhone5S16GbБОГарантияA1459.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/10-0/НовыйЕвротестiPhone5S16GbБОКредитA1459.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/10-0/НовыйЕвротестiPhone6Plus64GbБОГарантияA1529.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/10-0/НовыйЕвротестiPhone6Plus64GbБОКредитA1529.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/10-0/СгарантиейiPhone5C16GBA1459РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/10-0/СгарантиейiPhone5C16GBA1468РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/10-0/СгарантиейiPhone5C16GBA1489РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/11-0/КакновыйiPhone5S16GBA1460ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/11-0/КакновыйiPhone5S16GBA1490ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/11-0/НовыйiPhone616GBA1501ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/11-0/НовыйiPhone616GBA1504ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/11-0/НовыйiPhone616GBA1531ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/11-0/НовыйiPhone616GbГарантияA1531.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/11-0/НовыйiPhone6Plus64GBБОA1460Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/11-0/НовыйiPhone6Plus64GbБОГарантияA1460.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/11-0/НовыйЕвротестiPhone616GbГарантияA1531.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/11-0/НовыйЕвротестiPhone616GbКредитA1531.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/11-0/НовыйЕвротестiPhone6Plus64GbБОГарантияA1460.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/11-0/НовыйЕвротестiPhone6Plus64GbБОКредитA1460.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/11-0/СгарантиейiPhone5S16GBA1460РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/11-0/СгарантиейiPhone5S16GBA1469РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/11-0/СгарантиейiPhone5S16GBA1490РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/12-0/КакновыйiPhone616GBA1461ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/12-0/КакновыйiPhone616GBA1491ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/12-0/НовыйiPhone5S32GBA1461ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/12-0/НовыйiPhone5S32GbГарантияA1461.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/12-0/НовыйiPhone6Plus64GBA1503ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/12-0/НовыйiPhone6Plus64GBA1508ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/12-0/НовыйiPhone6Plus64GBA1533ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/12-0/НовыйiPhone6Plus64GbГарантияA1533.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/12-0/НовыйЕвротестiPhone5S32GbГарантияA1461.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/12-0/НовыйЕвротестiPhone5S32GbКредитA1461.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/12-0/НовыйЕвротестiPhone6Plus64GbГарантияA1533.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/12-0/НовыйЕвротестiPhone6Plus64GbКредитA1533.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/12-0/СгарантиейiPhone616GBA1461РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/12-0/СгарантиейiPhone616GBA1470РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/12-0/СгарантиейiPhone616GBA1491РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/13-0/КакновыйiPhone4S16GBA1462ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/13-0/КакновыйiPhone4S16GBA1492ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/13-0/НовыйiPhone616GBA1462ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/13-0/НовыйiPhone616GbГарантияA1462.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/13-0/НовыйiPhone664GBБОA1505ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/13-0/НовыйiPhone664GBБОA1512ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/13-0/НовыйiPhone664GBБОA1535ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/13-0/НовыйiPhone664GbБОГарантияA1535.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/13-0/НовыйЕвротестiPhone616GbГарантияA1462.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/13-0/НовыйЕвротестiPhone616GbКредитA1462.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/13-0/НовыйЕвротестiPhone664GbБОГарантияA1535.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/13-0/НовыйЕвротестiPhone664GbБОКредитA1535.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/13-0/СгарантиейiPhone4S16GBA1462РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/13-0/СгарантиейiPhone4S16GBA1471РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/13-0/СгарантиейiPhone4S16GBA1492РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/14-0/КакновыйiPhone6Plus16GBA1463Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/14-0/КакновыйiPhone6Plus16GBA1493Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/14-0/НовыйiPhone5S64GBБОA1463ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/14-0/НовыйiPhone5S64GbБОГарантияA1463.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/14-0/НовыйiPhone6Plus16GBA1507ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/14-0/НовыйiPhone6Plus16GBA1516ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/14-0/НовыйiPhone6Plus16GBA1537ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/14-0/НовыйiPhone6Plus16GbГарантияA1537.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/14-0/НовыйЕвротестiPhone5S64GbБОГарантияA1463.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/14-0/НовыйЕвротестiPhone5S64GbБОКредитA1463.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/14-0/НовыйЕвротестiPhone6Plus16GbГарантияA1537.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/14-0/НовыйЕвротестiPhone6Plus16GbКредитA1537.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/14-0/СгарантиейiPhone6Plus16GBA1463Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/14-0/СгарантиейiPhone6Plus16GBA1472Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/14-0/СгарантиейiPhone6Plus16GBA1493Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/15-0/КакновыйiPhone5S32GBA1464ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/15-0/КакновыйiPhone5S32GBA1494ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/15-0/НовыйiPhone664GBA1509ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/15-0/НовыйiPhone664GBA1520ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/15-0/НовыйiPhone664GBA1539ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/15-0/НовыйiPhone664GbГарантияA1539.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/15-0/НовыйiPhone6Plus64GBA1464ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/15-0/НовыйiPhone6Plus64GbГарантияA1464.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/15-0/НовыйЕвротестiPhone664GbГарантияA1539.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/15-0/НовыйЕвротестiPhone664GbКредитA1539.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/15-0/НовыйЕвротестiPhone6Plus64GbГарантияA1464.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/15-0/НовыйЕвротестiPhone6Plus64GbКредитA1464.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/15-0/СгарантиейiPhone5S32GBA1464РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/15-0/СгарантиейiPhone5S32GBA1473РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/15-0/СгарантиейiPhone5S32GBA1494РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/16-0/КакновыйiPhone664GBA1465ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/16-0/КакновыйiPhone664GBA1495ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/16-0/НовыйiPhone6Plus16GBБОA1511Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/16-0/НовыйiPhone6Plus16GBБОA1524Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/16-0/НовыйiPhone6Plus16GBБОA1541Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/16-0/НовыйiPhone6Plus16GbБОГарантияA1541.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/16-0/НовыйiPhone6S16GBA1465ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/16-0/НовыйiPhone6S16GbГарантияA1465.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/16-0/НовыйЕвротестiPhone6Plus16GbБОГарантияA1541.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/16-0/НовыйЕвротестiPhone6Plus16GbБОКредитA1541.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/16-0/НовыйЕвротестiPhone6S16GbГарантияA1465.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/16-0/НовыйЕвротестiPhone6S16GbКредитA1465.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/16-0/СгарантиейiPhone664GBA1465РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/16-0/СгарантиейiPhone664GBA1474РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/16-0/СгарантиейiPhone664GBA1495РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/17-0/КакновыйiPhone5S64GBБОA1466Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/17-0/КакновыйiPhone5S64GBБОA1496Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/17-0/НовыйiPhone616GBБОA1513ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/17-0/НовыйiPhone616GBБОA1528ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/17-0/НовыйiPhone616GBБОA1543ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/17-0/НовыйiPhone616GbБОГарантияA1543.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/17-0/НовыйiPhone664GBБОA1466ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/17-0/НовыйiPhone664GbБОГарантияA1466.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/17-0/НовыйЕвротестiPhone616GbБОГарантияA1543.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/17-0/НовыйЕвротестiPhone616GbБОКредитA1543.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/17-0/НовыйЕвротестiPhone664GbБОГарантияA1466.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/17-0/НовыйЕвротестiPhone664GbБОКредитA1466.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/17-0/СгарантиейiPhone5S64GBБОA1466Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/17-0/СгарантиейiPhone5S64GBБОA1475Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/17-0/СгарантиейiPhone5S64GBБОA1496Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/18-0/КакновыйiPhone6Plus16GBБОA1467Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/18-0/КакновыйiPhone6Plus16GBБОA1497Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/18-0/НовыйiPhone5S64GBA1467ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/18-0/НовыйiPhone5S64GbГарантияA1467.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/18-0/НовыйiPhone6Plus64GBБОA1500Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/18-0/НовыйiPhone6Plus64GBБОA1501Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/18-0/НовыйiPhone6Plus64GBБОA1530Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/18-0/НовыйiPhone6Plus64GbБОГарантияA1530.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/18-0/НовыйЕвротестiPhone5S64GbГарантияA1467.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/18-0/НовыйЕвротестiPhone5S64GbКредитA1467.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/18-0/НовыйЕвротестiPhone6Plus64GbБОГарантияA1530.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/18-0/НовыйЕвротестiPhone6Plus64GbБОКредитA1530.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/18-0/СгарантиейiPhone6Plus16GBБОA1467Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/18-0/СгарантиейiPhone6Plus16GBБОA1476Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/18-0/СгарантиейiPhone6Plus16GBБОA1497Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/19-0/КакновыйiPhone5S16GBБОA1468Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/19-0/КакновыйiPhone5S16GBБОA1498Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/19-0/НовыйiPhone616GBA1502ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/19-0/НовыйiPhone616GBA1505ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/19-0/НовыйiPhone616GBA1532ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/19-0/НовыйiPhone616GbГарантияA1532.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/19-0/НовыйiPhone6Plus16GBA1468ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/19-0/НовыйiPhone6Plus16GbГарантияA1468.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/19-0/НовыйЕвротестiPhone616GbГарантияA1532.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/19-0/НовыйЕвротестiPhone616GbКредитA1532.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/19-0/НовыйЕвротестiPhone6Plus16GbГарантияA1468.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/19-0/НовыйЕвротестiPhone6Plus16GbКредитA1468.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/19-0/СгарантиейiPhone5S16GBБОA1468Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/19-0/СгарантиейiPhone5S16GBБОA1477Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/19-0/СгарантиейiPhone5S16GBБОA1498Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/20-0/КакновыйiPhone664GBБОA1469ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/20-0/КакновыйiPhone664GBБОA1499ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/20-0/НовыйiPhone5S32GBБОA1469ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/20-0/НовыйiPhone5S32GbБОГарантияA1469.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/20-0/НовыйiPhone6Plus64GBA1504ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/20-0/НовыйiPhone6Plus64GBA1509ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/20-0/НовыйiPhone6Plus64GBA1534ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/20-0/НовыйiPhone6Plus64GbГарантияA1534.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/20-0/НовыйЕвротестiPhone5S32GbБОГарантияA1469.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/20-0/НовыйЕвротестiPhone5S32GbБОКредитA1469.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/20-0/НовыйЕвротестiPhone6Plus64GbГарантияA1534.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/20-0/НовыйЕвротестiPhone6Plus64GbКредитA1534.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/20-0/СгарантиейiPhone664GBБОA1469Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/20-0/СгарантиейiPhone664GBБОA1499Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/20-0/СгарантиейiPhone732GBA1469РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/20-0/СгарантиейiPhone732GBA1478РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/20-0/СгарантиейiPhone732GBA1499РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/21-0/КакновыйiPhone732GBA1470ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/21-0/КакновыйiPhone732GBA1500ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/21-0/НовыйiPhone664GBA1470ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/21-0/НовыйiPhone664GBБОA1506ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/21-0/НовыйiPhone664GBБОA1513ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/21-0/НовыйiPhone664GBБОA1536ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/21-0/НовыйiPhone664GbБОГарантияA1536.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/21-0/НовыйiPhone664GbГарантияA1470.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/21-0/НовыйЕвротестiPhone664GbБОГарантияA1536.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/21-0/НовыйЕвротестiPhone664GbБОКредитA1536.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/21-0/НовыйЕвротестiPhone664GbГарантияA1470.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/21-0/НовыйЕвротестiPhone664GbКредитA1470.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/21-0/СгарантиейiPhone6S64GBA1470РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/21-0/СгарантиейiPhone6S64GBA1479РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/21-0/СгарантиейiPhone6S64GBA1500РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/21-0/СгарантиейiPhone732GBA1470РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/21-0/СгарантиейiPhone732GBA1500РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/22-0/КакновыйiPhone6S64GBA1471ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/22-0/КакновыйiPhone6S64GBA1501ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/22-0/НовыйiPhone5S16GBA1471ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/22-0/НовыйiPhone5S16GbГарантияA1471.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/22-0/НовыйiPhone6Plus16GBA1508ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/22-0/НовыйiPhone6Plus16GBA1517ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/22-0/НовыйiPhone6Plus16GBA1538ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/22-0/НовыйiPhone6Plus16GbГарантияA1538.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/22-0/НовыйЕвротестiPhone5S16GbГарантияA1471.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/22-0/НовыйЕвротестiPhone5S16GbКредитA1471.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/22-0/НовыйЕвротестiPhone6Plus16GbГарантияA1538.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/22-0/НовыйЕвротестiPhone6Plus16GbКредитA1538.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/22-0/СгарантиейiPhone6Plus64GBA1471Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/22-0/СгарантиейiPhone6Plus64GBA1480Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/22-0/СгарантиейiPhone6Plus64GBA1501Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/22-0/СгарантиейiPhone6S64GBA1471РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/22-0/СгарантиейiPhone6S64GBA1501РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/23-0/КакновыйiPhone6Plus64GBA1472Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/23-0/КакновыйiPhone6Plus64GBA1502Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/23-0/НовыйiPhone664GBA1510ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/23-0/НовыйiPhone664GBA1521ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/23-0/НовыйiPhone664GBA1540ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/23-0/НовыйiPhone664GbГарантияA1540.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/23-0/НовыйiPhone6Plus16GBБОA1472Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/23-0/НовыйiPhone6Plus16GbБОГарантияA1472.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/23-0/НовыйЕвротестiPhone664GbГарантияA1540.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/23-0/НовыйЕвротестiPhone664GbКредитA1540.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/23-0/НовыйЕвротестiPhone6Plus16GbБОГарантияA1472.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/23-0/НовыйЕвротестiPhone6Plus16GbБОКредитA1472.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/23-0/СгарантиейiPhone4S32GBA1472РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/23-0/СгарантиейiPhone4S32GBA1481РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/23-0/СгарантиейiPhone4S32GBA1502РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/23-0/СгарантиейiPhone6Plus64GBA1472Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/23-0/СгарантиейiPhone6Plus64GBA1502Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/24-0/КакновыйiPhone5S32GBБОA1473Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/24-0/КакновыйiPhone5S32GBБОA1503Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/24-0/НовыйiPhone6Plus16GBБОA1512Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/24-0/НовыйiPhone6Plus16GBБОA1525Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/24-0/НовыйiPhone6Plus16GBБОA1542Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/24-0/НовыйiPhone6Plus16GbБОГарантияA1542.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/24-0/НовыйiPhone6S64GBA1473ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/24-0/НовыйiPhone6S64GbГарантияA1473.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/24-0/НовыйЕвротестiPhone6Plus16GbБОГарантияA1542.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/24-0/НовыйЕвротестiPhone6Plus16GbБОКредитA1542.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/24-0/НовыйЕвротестiPhone6S64GbГарантияA1473.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/24-0/НовыйЕвротестiPhone6S64GbКредитA1473.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/24-0/СгарантиейiPhone5S32GBБОA1473Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/24-0/СгарантиейiPhone5S32GBБОA1482Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/24-0/СгарантиейiPhone5S32GBБОA1503Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/25-0/КакновыйiPhone616GBБОA1474ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/25-0/КакновыйiPhone616GBБОA1504ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/25-0/НовыйiPhone616GBБОA1474ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/25-0/НовыйiPhone616GBБОA1514ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/25-0/НовыйiPhone616GBБОA1529ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/25-0/НовыйiPhone616GBБОA1544ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/25-0/НовыйiPhone616GbБОГарантияA1474.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/25-0/НовыйiPhone616GbБОГарантияA1544.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/25-0/НовыйЕвротестiPhone616GbБОГарантияA1474.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/25-0/НовыйЕвротестiPhone616GbБОГарантияA1544.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/25-0/НовыйЕвротестiPhone616GbБОКредитA1474.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/25-0/НовыйЕвротестiPhone616GbБОКредитA1544.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/25-0/СгарантиейiPhone616GBБОA1474Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/25-0/СгарантиейiPhone616GBБОA1483Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/25-0/СгарантиейiPhone616GBБОA1504Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/26-0/СгарантиейiPhone5C16GBA1469РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/27-0/СгарантиейiPhone5S16GBA1470РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/28-0/СгарантиейiPhone616GBA1471РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/29-0/СгарантиейiPhone4S16GBA1472РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/30-0/СгарантиейiPhone6Plus16GBA1473Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/31-0/СгарантиейiPhone5S32GBA1474РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/32-0/СгарантиейiPhone664GBA1475РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/33-0/СгарантиейiPhone5S64GBБОA1476Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/34-0/СгарантиейiPhone6Plus16GBБОA1477Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/35-0/СгарантиейiPhone5S16GBБОA1478Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/36-0/СгарантиейiPhone732GBA1479РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/37-0/СгарантиейiPhone6S64GBA1480РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/38-0/СгарантиейiPhone6Plus64GBA1481Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/39-0/СгарантиейiPhone4S32GBA1482РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/40-0/СгарантиейiPhone5S32GBБОA1483Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day10/41-0/СгарантиейiPhone616GBБОA1484Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/10-0/КакновыйiPhone5C16GBA1460ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/10-0/КакновыйiPhone5C16GBA1490ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/10-0/НовыйiPhone5S16GBБОA1460ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/10-0/НовыйiPhone5S16GbБОГарантияA1460.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/10-0/НовыйiPhone6Plus64GBБОA1501Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/10-0/НовыйiPhone6Plus64GBБОA1502Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/10-0/НовыйiPhone6Plus64GBБОA1531Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/10-0/НовыйiPhone6Plus64GbБОГарантияA1531.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/10-0/НовыйЕвротестiPhone5S16GbБОГарантияA1460.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/10-0/НовыйЕвротестiPhone5S16GbБОКредитA1460.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/10-0/НовыйЕвротестiPhone6Plus64GbБОГарантияA1531.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/10-0/НовыйЕвротестiPhone6Plus64GbБОКредитA1531.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/10-0/СгарантиейiPhone5C16GBA1460РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/10-0/СгарантиейiPhone5C16GBA1470РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/10-0/СгарантиейiPhone5C16GBA1490РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/11-0/КакновыйiPhone5S16GBA1461ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/11-0/КакновыйiPhone5S16GBA1491ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/11-0/НовыйiPhone616GBA1503ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/11-0/НовыйiPhone616GBA1506ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/11-0/НовыйiPhone616GBA1533ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/11-0/НовыйiPhone616GbГарантияA1533.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/11-0/НовыйiPhone6Plus64GBБОA1461Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/11-0/НовыйiPhone6Plus64GbБОГарантияA1461.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/11-0/НовыйЕвротестiPhone616GbГарантияA1533.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/11-0/НовыйЕвротестiPhone616GbКредитA1533.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/11-0/НовыйЕвротестiPhone6Plus64GbБОГарантияA1461.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/11-0/НовыйЕвротестiPhone6Plus64GbБОКредитA1461.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/11-0/СгарантиейiPhone5S16GBA1461РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/11-0/СгарантиейiPhone5S16GBA1471РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/11-0/СгарантиейiPhone5S16GBA1491РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/12-0/КакновыйiPhone616GBA1462ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/12-0/КакновыйiPhone616GBA1492ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/12-0/НовыйiPhone5S32GBA1462ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/12-0/НовыйiPhone5S32GbГарантияA1462.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/12-0/НовыйiPhone6Plus64GBA1505ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/12-0/НовыйiPhone6Plus64GBA1510ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/12-0/НовыйiPhone6Plus64GBA1535ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/12-0/НовыйiPhone6Plus64GbГарантияA1535.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/12-0/НовыйЕвротестiPhone5S32GbГарантияA1462.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/12-0/НовыйЕвротестiPhone5S32GbКредитA1462.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/12-0/НовыйЕвротестiPhone6Plus64GbГарантияA1535.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/12-0/НовыйЕвротестiPhone6Plus64GbКредитA1535.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/12-0/СгарантиейiPhone616GBA1462РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/12-0/СгарантиейiPhone616GBA1472РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/12-0/СгарантиейiPhone616GBA1492РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/13-0/КакновыйiPhone4S16GBA1463ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/13-0/КакновыйiPhone4S16GBA1493ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/13-0/НовыйiPhone616GBA1463ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/13-0/НовыйiPhone616GbГарантияA1463.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/13-0/НовыйiPhone664GBБОA1507ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/13-0/НовыйiPhone664GBБОA1514ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/13-0/НовыйiPhone664GBБОA1537ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/13-0/НовыйiPhone664GbБОГарантияA1537.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/13-0/НовыйЕвротестiPhone616GbГарантияA1463.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/13-0/НовыйЕвротестiPhone616GbКредитA1463.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/13-0/НовыйЕвротестiPhone664GbБОГарантияA1537.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/13-0/НовыйЕвротестiPhone664GbБОКредитA1537.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/13-0/СгарантиейiPhone4S16GBA1463РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/13-0/СгарантиейiPhone4S16GBA1473РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/13-0/СгарантиейiPhone4S16GBA1493РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/14-0/КакновыйiPhone6Plus16GBA1464Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/14-0/КакновыйiPhone6Plus16GBA1494Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/14-0/НовыйiPhone5S64GBБОA1464ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/14-0/НовыйiPhone5S64GbБОГарантияA1464.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/14-0/НовыйiPhone6Plus16GBA1509ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/14-0/НовыйiPhone6Plus16GBA1518ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/14-0/НовыйiPhone6Plus16GBA1539ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/14-0/НовыйiPhone6Plus16GbГарантияA1539.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/14-0/НовыйЕвротестiPhone5S64GbБОГарантияA1464.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/14-0/НовыйЕвротестiPhone5S64GbБОКредитA1464.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/14-0/НовыйЕвротестiPhone6Plus16GbГарантияA1539.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/14-0/НовыйЕвротестiPhone6Plus16GbКредитA1539.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/14-0/СгарантиейiPhone6Plus16GBA1464Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/14-0/СгарантиейiPhone6Plus16GBA1474Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/14-0/СгарантиейiPhone6Plus16GBA1494Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/15-0/КакновыйiPhone5S32GBA1465ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/15-0/КакновыйiPhone5S32GBA1495ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/15-0/НовыйiPhone664GBA1511ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/15-0/НовыйiPhone664GBA1522ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/15-0/НовыйiPhone664GBA1541ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/15-0/НовыйiPhone664GbГарантияA1541.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/15-0/НовыйiPhone6Plus64GBA1465ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/15-0/НовыйiPhone6Plus64GbГарантияA1465.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/15-0/НовыйЕвротестiPhone664GbГарантияA1541.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/15-0/НовыйЕвротестiPhone664GbКредитA1541.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/15-0/НовыйЕвротестiPhone6Plus64GbГарантияA1465.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/15-0/НовыйЕвротестiPhone6Plus64GbКредитA1465.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/15-0/СгарантиейiPhone5S32GBA1465РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/15-0/СгарантиейiPhone5S32GBA1475РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/15-0/СгарантиейiPhone5S32GBA1495РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/16-0/КакновыйiPhone664GBA1466ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/16-0/КакновыйiPhone664GBA1496ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/16-0/НовыйiPhone6Plus16GBБОA1513Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/16-0/НовыйiPhone6Plus16GBБОA1526Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/16-0/НовыйiPhone6Plus16GBБОA1543Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/16-0/НовыйiPhone6Plus16GbБОГарантияA1543.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/16-0/НовыйiPhone6S16GBA1466ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/16-0/НовыйiPhone6S16GbГарантияA1466.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/16-0/НовыйЕвротестiPhone6Plus16GbБОГарантияA1543.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/16-0/НовыйЕвротестiPhone6Plus16GbБОКредитA1543.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/16-0/НовыйЕвротестiPhone6S16GbГарантияA1466.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/16-0/НовыйЕвротестiPhone6S16GbКредитA1466.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/16-0/СгарантиейiPhone664GBA1466РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/16-0/СгарантиейiPhone664GBA1476РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/16-0/СгарантиейiPhone664GBA1496РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/17-0/КакновыйiPhone5S64GBБОA1467Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/17-0/КакновыйiPhone5S64GBБОA1497Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/17-0/НовыйiPhone616GBБОA1515ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/17-0/НовыйiPhone616GBБОA1530ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/17-0/НовыйiPhone616GBБОA1545ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/17-0/НовыйiPhone616GbБОГарантияA1545.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/17-0/НовыйiPhone664GBБОA1467ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/17-0/НовыйiPhone664GbБОГарантияA1467.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/17-0/НовыйЕвротестiPhone616GbБОГарантияA1545.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/17-0/НовыйЕвротестiPhone616GbБОКредитA1545.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/17-0/НовыйЕвротестiPhone664GbБОГарантияA1467.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/17-0/НовыйЕвротестiPhone664GbБОКредитA1467.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/17-0/СгарантиейiPhone5S64GBБОA1467Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/17-0/СгарантиейiPhone5S64GBБОA1477Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/17-0/СгарантиейiPhone5S64GBБОA1497Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/18-0/КакновыйiPhone6Plus16GBБОA1468Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/18-0/КакновыйiPhone6Plus16GBБОA1498Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/18-0/НовыйiPhone5S64GBA1468ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/18-0/НовыйiPhone5S64GbГарантияA1468.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/18-0/НовыйiPhone6Plus64GBБОA1502Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/18-0/НовыйiPhone6Plus64GBБОA1503Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/18-0/НовыйiPhone6Plus64GBБОA1532Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/18-0/НовыйiPhone6Plus64GbБОГарантияA1532.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/18-0/НовыйЕвротестiPhone5S64GbГарантияA1468.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/18-0/НовыйЕвротестiPhone5S64GbКредитA1468.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/18-0/НовыйЕвротестiPhone6Plus64GbБОГарантияA1532.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/18-0/НовыйЕвротестiPhone6Plus64GbБОКредитA1532.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/18-0/СгарантиейiPhone6Plus16GBБОA1468Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/18-0/СгарантиейiPhone6Plus16GBБОA1478Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/18-0/СгарантиейiPhone6Plus16GBБОA1498Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/19-0/КакновыйiPhone5S16GBБОA1469Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/19-0/КакновыйiPhone5S16GBБОA1499Гарантия.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/19-0/НовыйiPhone616GBA1504ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/19-0/НовыйiPhone616GBA1507ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/19-0/НовыйiPhone616GBA1534ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/19-0/НовыйiPhone616GbГарантияA1534.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/19-0/НовыйiPhone6Plus16GBA1469ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/19-0/НовыйiPhone6Plus16GbГарантияA1469.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/19-0/НовыйЕвротестiPhone616GbГарантияA1534.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/19-0/НовыйЕвротестiPhone616GbКредитA1534.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/19-0/НовыйЕвротестiPhone6Plus16GbГарантияA1469.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/19-0/НовыйЕвротестiPhone6Plus16GbКредитA1469.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/19-0/СгарантиейiPhone5S16GBБОA1469Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/19-0/СгарантиейiPhone5S16GBБОA1479Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/19-0/СгарантиейiPhone5S16GBБОA1499Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/20-0/КакновыйiPhone664GBБОA1470ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/20-0/КакновыйiPhone664GBБОA1500ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/20-0/НовыйiPhone5S32GBБОA1470ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/20-0/НовыйiPhone5S32GbБОГарантияA1470.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/20-0/НовыйiPhone6Plus64GBA1506ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/20-0/НовыйiPhone6Plus64GBA1511ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/20-0/НовыйiPhone6Plus64GBA1536ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/20-0/НовыйiPhone6Plus64GbГарантияA1536.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/20-0/НовыйЕвротестiPhone5S32GbБОГарантияA1470.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/20-0/НовыйЕвротестiPhone5S32GbБОКредитA1470.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/20-0/НовыйЕвротестiPhone6Plus64GbГарантияA1536.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/20-0/НовыйЕвротестiPhone6Plus64GbКредитA1536.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/20-0/СгарантиейiPhone664GBБОA1470Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/20-0/СгарантиейiPhone664GBБОA1500Рассрочка.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/20-0/СгарантиейiPhone732GBA1470РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/20-0/СгарантиейiPhone732GBA1480РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/20-0/СгарантиейiPhone732GBA1500РассрочкаМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/21-0/КакновыйiPhone732GBA1471ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/21-0/КакновыйiPhone732GBA1501ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/21-0/НовыйiPhone664GBA1471ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/21-0/НовыйiPhone664GBБОA1508ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/21-0/НовыйiPhone664GBБОA1515ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/21-0/НовыйiPhone664GBБОA1538ГарантияМагазин.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/21-0/НовыйiPhone664GbБОГарантияA1538.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/21-0/НовыйiPhone664GbГарантияA1471.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/21-0/НовыйЕвротестiPhone664GbБОГарантияA1538.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/21-0/НовыйЕвротестiPhone664GbБОКредитA1538.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/21-0/НовыйЕвротестiPhone664GbГарантияA1471.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Готовые тексты/day11/21-0/НовыйЕвротестiPhone664GbКредитA1471.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EKZ/Gadgets.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EKZ/Solution.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/AdsXML.xml" afterPath="$PROJECT_DIR$/Output/AdsXML.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input.txt" afterPath="$PROJECT_DIR$/input.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gadgets.java" afterPath="$PROJECT_DIR$/src/Gadgets.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution.java" afterPath="$PROJECT_DIR$/src/Solution.java" />
     </list>
     <ignored path="EKZ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -738,8 +32,20 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="18">
+              <caret line="233" column="13" selection-start-line="233" selection-start-column="13" selection-end-line="233" selection-end-column="13" />
+              <folding>
+                <marker date="1486245569373" expanded="false" signature="2846:2854" ph="&lt;~&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="temp.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Output/temp.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="390" column="38" selection-start-line="390" selection-start-column="35" selection-end-line="390" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -748,8 +54,8 @@
       <file leaf-file-name="input.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="334">
+              <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -758,13 +64,14 @@
       <file leaf-file-name="Gadgets.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="622" column="52" selection-start-line="622" selection-start-column="52" selection-end-line="622" selection-end-column="52" />
+            <state relative-caret-position="108">
+              <caret line="124" column="17" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#12143#12144#0" expanded="true" />
-                <element signature="e#12194#12195#0" expanded="true" />
-                <marker date="1486118984386" expanded="true" signature="9803:9878" ph="..." />
+                <element signature="e#7040#7048#0" expanded="true" />
+                <element signature="e#8265#8266#0" expanded="true" />
+                <element signature="e#8316#8317#0" expanded="true" />
+                <marker date="1486245272513" expanded="true" signature="7675:7750" ph="..." />
               </folding>
             </state>
           </provider>
@@ -794,10 +101,8 @@
         <entry file="file://$PROJECT_DIR$/Output/AdsXML.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-              <folding>
-                <marker date="1486118989582" expanded="true" signature="2400813:2400820" ph="..." />
-              </folding>
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -823,8 +128,11 @@
         <option value="$PROJECT_DIR$/Output/output.txt" />
         <option value="$PROJECT_DIR$/Output/price_list.xml" />
         <option value="$PROJECT_DIR$/Output/AdsXML.xml" />
-        <option value="$PROJECT_DIR$/src/Solution.java" />
+        <option value="$PROJECT_DIR$/src/IPhones.java" />
+        <option value="$PROJECT_DIR$/src/iPhones.java" />
         <option value="$PROJECT_DIR$/input.txt" />
+        <option value="$PROJECT_DIR$/src/Solution.java" />
+        <option value="$PROJECT_DIR$/Output/temp.txt" />
         <option value="$PROJECT_DIR$/src/Gadgets.java" />
       </list>
     </option>
@@ -1255,21 +563,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.4941435" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22131148" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22131148" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22131148" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22131148" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.48421052" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262295" sideWeight="0.49121523" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1285,7 +594,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1334,7 +642,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1343,23 +651,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3726">
-          <caret line="211" column="39" selection-start-line="211" selection-start-column="39" selection-end-line="211" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3762">
           <caret line="209" column="25" selection-start-line="209" selection-start-column="25" selection-end-line="209" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12143#12144#0" expanded="true" />
-            <element signature="e#12194#12195#0" expanded="true" />
-            <marker date="1486118984386" expanded="true" signature="9803:9878" ph="..." />
+            <element signature="e#7040#7048#0" expanded="true" />
+            <element signature="e#8265#8266#0" expanded="true" />
+            <element signature="e#8316#8317#0" expanded="true" />
+            <marker date="1486245272513" expanded="true" signature="7675:7750" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1368,9 +669,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1486118989582" expanded="true" signature="2400813:2400820" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1386,7 +685,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1486245569373" expanded="false" signature="2846:2854" ph="&lt;~&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1404,9 +705,10 @@
           <caret line="364" column="23" selection-start-line="364" selection-start-column="23" selection-end-line="364" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12143#12144#0" expanded="true" />
-            <element signature="e#12194#12195#0" expanded="true" />
-            <marker date="1486118984386" expanded="true" signature="9803:9878" ph="..." />
+            <element signature="e#7040#7048#0" expanded="true" />
+            <element signature="e#8265#8266#0" expanded="true" />
+            <element signature="e#8316#8317#0" expanded="true" />
+            <marker date="1486245272513" expanded="true" signature="7675:7750" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1415,7 +717,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="201" column="32" selection-start-line="201" selection-start-column="32" selection-end-line="201" selection-end-column="32" />
-          <folding />
+          <folding>
+            <marker date="1486245569373" expanded="false" signature="2846:2854" ph="&lt;~&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1433,9 +737,10 @@
           <caret line="361" column="53" selection-start-line="361" selection-start-column="49" selection-end-line="361" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12143#12144#0" expanded="true" />
-            <element signature="e#12194#12195#0" expanded="true" />
-            <marker date="1486118984386" expanded="true" signature="9803:9878" ph="..." />
+            <element signature="e#7040#7048#0" expanded="true" />
+            <element signature="e#8265#8266#0" expanded="true" />
+            <element signature="e#8316#8317#0" expanded="true" />
+            <marker date="1486245272513" expanded="true" signature="7675:7750" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1444,7 +749,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1486245569373" expanded="false" signature="2846:2854" ph="&lt;~&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1462,9 +769,10 @@
           <caret line="38" column="222" selection-start-line="38" selection-start-column="222" selection-end-line="38" selection-end-column="222" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12143#12144#0" expanded="true" />
-            <element signature="e#12194#12195#0" expanded="true" />
-            <marker date="1486118984386" expanded="true" signature="9803:9878" ph="..." />
+            <element signature="e#7040#7048#0" expanded="true" />
+            <element signature="e#8265#8266#0" expanded="true" />
+            <element signature="e#8316#8317#0" expanded="true" />
+            <marker date="1486245272513" expanded="true" signature="7675:7750" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1473,7 +781,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1486245569373" expanded="false" signature="2846:2854" ph="&lt;~&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1491,9 +801,10 @@
           <caret line="38" column="222" selection-start-line="38" selection-start-column="222" selection-end-line="38" selection-end-column="222" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12143#12144#0" expanded="true" />
-            <element signature="e#12194#12195#0" expanded="true" />
-            <marker date="1486118984386" expanded="true" signature="9803:9878" ph="..." />
+            <element signature="e#7040#7048#0" expanded="true" />
+            <element signature="e#8265#8266#0" expanded="true" />
+            <element signature="e#8316#8317#0" expanded="true" />
+            <marker date="1486245272513" expanded="true" signature="7675:7750" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1502,7 +813,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1486245569373" expanded="false" signature="2846:2854" ph="&lt;~&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1520,9 +833,10 @@
           <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12143#12144#0" expanded="true" />
-            <element signature="e#12194#12195#0" expanded="true" />
-            <marker date="1486118984386" expanded="true" signature="9803:9878" ph="..." />
+            <element signature="e#7040#7048#0" expanded="true" />
+            <element signature="e#8265#8266#0" expanded="true" />
+            <element signature="e#8316#8317#0" expanded="true" />
+            <marker date="1486245272513" expanded="true" signature="7675:7750" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1531,7 +845,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-          <folding />
+          <folding>
+            <marker date="1486245569373" expanded="false" signature="2846:2854" ph="&lt;~&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1549,9 +865,10 @@
           <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12143#12144#0" expanded="true" />
-            <element signature="e#12194#12195#0" expanded="true" />
-            <marker date="1486118984386" expanded="true" signature="9803:9878" ph="..." />
+            <element signature="e#7040#7048#0" expanded="true" />
+            <element signature="e#8265#8266#0" expanded="true" />
+            <element signature="e#8316#8317#0" expanded="true" />
+            <marker date="1486245272513" expanded="true" signature="7675:7750" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1560,7 +877,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="96" column="21" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
-          <folding />
+          <folding>
+            <marker date="1486245569373" expanded="false" signature="2846:2854" ph="&lt;~&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1660,9 +979,10 @@
           <caret line="190" column="45" selection-start-line="190" selection-start-column="45" selection-end-line="190" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12143#12144#0" expanded="true" />
-            <element signature="e#12194#12195#0" expanded="true" />
-            <marker date="1486118984386" expanded="true" signature="9803:9878" ph="..." />
+            <element signature="e#7040#7048#0" expanded="true" />
+            <element signature="e#8265#8266#0" expanded="true" />
+            <element signature="e#8316#8317#0" expanded="true" />
+            <marker date="1486245272513" expanded="true" signature="7675:7750" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1671,7 +991,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1486245569373" expanded="false" signature="2846:2854" ph="&lt;~&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1689,9 +1011,10 @@
           <caret line="190" column="21" selection-start-line="190" selection-start-column="21" selection-end-line="190" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12143#12144#0" expanded="true" />
-            <element signature="e#12194#12195#0" expanded="true" />
-            <marker date="1486118984386" expanded="true" signature="9803:9878" ph="..." />
+            <element signature="e#7040#7048#0" expanded="true" />
+            <element signature="e#8265#8266#0" expanded="true" />
+            <element signature="e#8316#8317#0" expanded="true" />
+            <marker date="1486245272513" expanded="true" signature="7675:7750" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1700,7 +1023,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1486245569373" expanded="false" signature="2846:2854" ph="&lt;~&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1718,9 +1043,10 @@
           <caret line="45" column="192" selection-start-line="45" selection-start-column="192" selection-end-line="45" selection-end-column="192" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12143#12144#0" expanded="true" />
-            <element signature="e#12194#12195#0" expanded="true" />
-            <marker date="1486118984386" expanded="true" signature="9803:9878" ph="..." />
+            <element signature="e#7040#7048#0" expanded="true" />
+            <element signature="e#8265#8266#0" expanded="true" />
+            <element signature="e#8316#8317#0" expanded="true" />
+            <marker date="1486245272513" expanded="true" signature="7675:7750" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1729,7 +1055,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding />
+          <folding>
+            <marker date="1486245569373" expanded="false" signature="2846:2854" ph="&lt;~&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1739,9 +1067,10 @@
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12143#12144#0" expanded="true" />
-            <element signature="e#12194#12195#0" expanded="true" />
-            <marker date="1486118984386" expanded="true" signature="9803:9878" ph="..." />
+            <element signature="e#7040#7048#0" expanded="true" />
+            <element signature="e#8265#8266#0" expanded="true" />
+            <element signature="e#8316#8317#0" expanded="true" />
+            <marker date="1486245272513" expanded="true" signature="7675:7750" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1758,7 +1087,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1486245569373" expanded="false" signature="2846:2854" ph="&lt;~&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1768,9 +1099,10 @@
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12143#12144#0" expanded="true" />
-            <element signature="e#12194#12195#0" expanded="true" />
-            <marker date="1486118984386" expanded="true" signature="9803:9878" ph="..." />
+            <element signature="e#7040#7048#0" expanded="true" />
+            <element signature="e#8265#8266#0" expanded="true" />
+            <element signature="e#8316#8317#0" expanded="true" />
+            <marker date="1486245272513" expanded="true" signature="7675:7750" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1787,7 +1119,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
+          <folding>
+            <marker date="1486245569373" expanded="false" signature="2846:2854" ph="&lt;~&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1846,6 +1180,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Output/AdsXML.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Output/price_list.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -1854,41 +1196,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="334">
+          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Output/AdsXML.xml">
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        <state relative-caret-position="18">
+          <caret line="233" column="13" selection-start-line="233" selection-start-column="13" selection-end-line="233" selection-end-column="13" />
           <folding>
-            <marker date="1486118989582" expanded="true" signature="2400813:2400820" ph="..." />
+            <marker date="1486245569373" expanded="false" signature="2846:2854" ph="&lt;~&gt;" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Output/temp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="390" column="38" selection-start-line="390" selection-start-column="35" selection-end-line="390" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="622" column="52" selection-start-line="622" selection-start-column="52" selection-end-line="622" selection-end-column="52" />
+        <state relative-caret-position="108">
+          <caret line="124" column="17" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12143#12144#0" expanded="true" />
-            <element signature="e#12194#12195#0" expanded="true" />
-            <marker date="1486118984386" expanded="true" signature="9803:9878" ph="..." />
+            <element signature="e#7040#7048#0" expanded="true" />
+            <element signature="e#8265#8266#0" expanded="true" />
+            <element signature="e#8316#8317#0" expanded="true" />
+            <marker date="1486245272513" expanded="true" signature="7675:7750" ph="..." />
           </folding>
         </state>
       </provider>
