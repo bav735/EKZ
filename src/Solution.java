@@ -1,64 +1,18 @@
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Solution {
-    final static String[] CITIES = new String[]{"Казань", "Москва"};
     static Gadgets iphones;
     static Gadgets galaxys;
 
     private static void computeIPhones() {
         iphones = new Gadgets();
         iphones.initializeIPhones();
-        try {
-            Scanner inScanner = new Scanner(new FileInputStream("input.txt"));
-            HashMap<String, ArrayList<String>> mapGadgetNamePrices = new HashMap<>();
-            while (inScanner.hasNextLine()) {
-                String line = inScanner.nextLine();
-                String[] words = line.split(" ");
-                if (!words[1].equals("iPhone")) {
-                    continue;
-                }
-                int i = 0;
-                String gadgetName = "Apple";
-                do {
-                    i++;
-                    gadgetName += " " + words[i];
-                } while (!words[i].contains("Gb"));
-                if (words[i + 1].equals("Без")) {
-                    gadgetName += " Б/О";
-                }
-                ArrayList<String> prices = new ArrayList<>();
-                for (int priceId = 2 * CITIES.length + 2; priceId > 0; priceId--) {
-                    prices.add(words[words.length - priceId]);
-                }
-                mapGadgetNamePrices.put(gadgetName, prices);
-            }
-            iphones.initializePrices(mapGadgetNamePrices);
-            iphones.generateGadgets(0, new ArrayList<String>());
-            Collections.shuffle(iphones.gadgets, new Random(17351));
-            File directory = new File("Output");
-            String fileName = "temp.txt";
-            File file = new File(directory, fileName.replaceAll("[\\s/]", ""));
-            file.getParentFile().mkdirs();
-            BufferedWriter outWriter = null;
-            String temp = "";
-            for (ArrayList<String> gadget : iphones.gadgets) {
-                temp += iphones.getAvitoAdName(gadget) + "\n";
-            }
-            try {
-                OutputStream os = new BufferedOutputStream(Files.newOutputStream(Paths.get(file.getCanonicalPath())));
-                outWriter = new BufferedWriter(new OutputStreamWriter(os));
-                outWriter.write(temp);
-                outWriter.flush();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            inScanner.close();
-        } catch (FileNotFoundException e) {
-            System.out.print("Exception: Input file not found!");
-        }
+        iphones.generateGadgets(0, new ArrayList<String>());
+        iphones.distributeIPhones();
     }
 
     /*public static void computeGalaxys() {
@@ -239,13 +193,12 @@ public class Solution {
     private static void computeXML() {
         String xml = "<Ads formatVersion=\"3\" target=\"Avito.ru\">\n";
         ArrayList<String> xmls = new ArrayList<>();
-//        Gadgets gadgets = iphones[cityId];
-        int gadgetsPerDay = 16;//gadgets.gadgets.size() / Gadgets.DAYS_COUNT;
+        int gadgetsPerDay = Gadgets.ADS_PER_DAY;
         for (int xmlDay = 1; xmlDay <= 30; xmlDay++) {
             for (int gadgetId = (xmlDay - 1) * gadgetsPerDay; gadgetId < xmlDay * gadgetsPerDay; gadgetId++) {
-//                for (int cityId = 0; cityId < Gadgets.CITIES.length; cityId++) {
-//                    xml += iphones[cityId].getXmlAd(gadgetId, xmlDay, Gadgets.CITIES[cityId]);
-//                }
+                for (int cityId = 0; cityId < Gadgets.CITIES.length; cityId++) {
+                    xml += iphones.getXmlAd(gadgetId + cityId * Gadgets.ADS_PER_MONTH, xmlDay, cityId);
+                }
             }
         }
 
@@ -281,7 +234,7 @@ public class Solution {
         Gadgets.initialize();
         computeIPhones();
 //        computeGalaxys();
-//        computeXML();
+        computeXML();
 //        iphones.generateGadgetFiles();
 //        galaxys.generateGadgetFiles();
 //        computeYMIdIncremental();
