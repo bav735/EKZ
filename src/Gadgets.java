@@ -1,9 +1,13 @@
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.StandardCopyOption;
 import java.util.*;
 
 public class Gadgets {
-    final static String NAME_BEGIN = "Новый";
+    final static String NAME_BEGIN = "Новые";
     final static String CERTIFICATION = "Сертификация";
     final static String VENDOR = "Производитель";
     final static String MODEL_LINE = "Модельный ряд";
@@ -13,8 +17,8 @@ public class Gadgets {
     final static String FINGER_PRINT = "Наличие отпечатка";
     final static String COLOR = "Цвет";
     final static String TOUCH_LOCKED = "Б/О";
-    final static String EST = "ЕСТ";
-    final static String RST = "РСТ";
+    final static String EST = "EST";
+    final static String RST = "RST";
     final static String[] CITIES = new String[]{"Казань", "Москва"};
     final static int DISTRIBUTION_SIZE = 5;
     final static int ADS_PER_DAY = 16;
@@ -189,6 +193,7 @@ public class Gadgets {
                         newGadget.add(mapNameGadgetAttributeNumber.get(SUBMODEL), submodel);
                         newGadget.add(mapNameGadgetAttributeNumber.get(COLOR), color);
                         gadgets.add(newGadget);
+                        generateDirsPhotos(newGadget);
                     }
                 }
             }
@@ -324,9 +329,11 @@ public class Gadgets {
         String gadgetName = getGadgetName(gadget);
         String city = CITIES[cityId];
         text += "<p>Уважаемый покупатель,<br>" +
-                "Вас приветствует <strong>интернет-магазин iSPARK!</strong><br>" +
-                "(нажмите на иконку магазина, чтобы увидеть весь ассортимент)</p>" +
-                "<p><strong>Почему iSPARK?</strong><br>" +
+                "Вас приветствует <strong>интернет-магазин iSPARK!</strong>";
+        if (city.equals("Казань")) {
+            text += "<br>(нажмите на иконку магазина, чтобы увидеть весь наш ассортимент)";
+        }
+        text += "</p><p><strong>Почему iSPARK?</strong><br>" +
                 "1) Мы всегда идем навстречу нашим клиентам и дорожим своей репутацией.<br>" +
                 "2) Мы предлагаем гибкие возможности вашей покупки: КРЕДИТ. ТРЕЙД-ИН. ДОСТАВКА ПО РФ. ОПТ.<br>" +
                 "3) Работаем на рынке электроники с 2009 года!";
@@ -367,7 +374,9 @@ public class Gadgets {
                 "- оплата осуществляется только по факту полной проверки товара<br>" +
                 "- при покупке выдается чек и гарантийный талон<br>" +
                 "- пожалуйста предварительно резервируйте интересующий вас товар</p>" +
-                "<p><strong>Режим работы (обслуживание по телефону): 9.00-21.00, ежедневно</strong></p>";
+                "<p><strong>Режим работы:</strong><br>" +
+                "Прием звонков: 9.00-21.00, ежедневно<br>" +
+                "(заказы на нашем сайте можно оставлять круглосуточно)</p>";
         if (city.equals("Казань")) {
             text += "<p><strong>Местоположение iSPARK в Казани</strong> (о нас знают 2GIS, Google Maps, Яндекс.Карты):<br>" +
                     "СЦ iSPARK Сервис - ул. Спартаковская, д. 2, к. 1</p>";
@@ -403,7 +412,7 @@ public class Gadgets {
         Calendar calendarZero = Calendar.getInstance();
         calendarZero.set(Calendar.YEAR, 2017);
         calendarZero.set(Calendar.MONTH, 1);//february
-        calendarZero.set(Calendar.DAY_OF_MONTH, 5);
+        calendarZero.set(Calendar.DAY_OF_MONTH, 6);
         Calendar calendarCurr = Calendar.getInstance();
 //        System.out.println(calendarCurr.get(Calendar.DAY_OF_MONTH) + " " + calendarCurr.get(Calendar.MONTH) + " " + calendarCurr.get(Calendar.YEAR));
         long seconds = (calendarCurr.getTimeInMillis() - calendarZero.getTimeInMillis()) / 1000;
@@ -443,17 +452,39 @@ public class Gadgets {
         }
         ad += "\t\t<Price>" + price + "</Price>\n";
         ad += "\t\t<Images>\n";
-        String imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/" + gadget.get(
-                mapNameGadgetAttributeNumber.get(MODEL_LINE)).substring(1) + "/" + gadget.get(
-                mapNameGadgetAttributeNumber.get(MODEL)).substring(1) + gadget.get(
-                mapNameGadgetAttributeNumber.get(MEMORY)) + gadget.get(
-                mapNameGadgetAttributeNumber.get(FINGER_PRINT)).replaceAll("/", "") + "/" + gadget.get(
-                mapNameGadgetAttributeNumber.get(COLOR)).substring(1) + ".jpg";
+        String imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/" +
+                getGadgetPath(gadget, COLOR) + "img.jpg";
         ad += "\t\t\t<Image url=\"" + imgLink + "\"/>\n";
 //        imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/price_iphone.png";
 //        ad += "\t\t\t<Image url=\"" + imgLink + "\"/>\n";
         ad += "\t\t</Images>\n";
         ad += "\t</Ad>\n";
         return ad;
+    }
+
+    private String getGadgetPath(ArrayList<String> gadget, String lastAttr) {
+        String path = "";
+        for (int i = 0; i <= mapNameGadgetAttributeNumber.get(lastAttr); i++) {
+            String attr = gadget.get(i);
+            attr.replaceAll("/", "");
+            if (attr.isEmpty()) {
+                attr = "СО";
+            }
+            path += attr + "/";
+        }
+        return path;
+    }
+
+    public void generateDirsPhotos(ArrayList<String> gadget) {
+        String rootDir = "C:/AMOLED/";
+        File gadgetDirImg = new File(rootDir + getGadgetPath(gadget, COLOR));
+        gadgetDirImg.mkdirs();
+        gadgetDirImg = new File(gadgetDirImg, "img.jpg");
+        File gadgetImg = new File(rootDir + getGadgetPath(gadget, MODEL) + "img.jpg");
+        try {
+            Files.copy(gadgetImg.toPath(), gadgetDirImg.toPath(), StandardCopyOption.REPLACE_EXISTING);
+        } catch (IOException e) {
+            System.out.println(e.toString());
+        }
     }
 }

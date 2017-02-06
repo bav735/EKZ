@@ -1,6 +1,7 @@
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -216,18 +217,24 @@ public class Solution {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        try {
+            Files.copy(new File("C:/EKZ/Output/AdsXML.xml").toPath(), new File("C:/AMOLED/AdsXML.xml").toPath(),
+                    StandardCopyOption.REPLACE_EXISTING);
+        } catch (IOException e) {
+            System.out.println(e.toString());
+        }
     }
 
     private static void computePhotos() {
-        File photosDir = new File("C:/AMOLED/iPhone");
-        File[] subdirList = photosDir.listFiles();
-        for (File subDir : subdirList) {
-//        File subDir = new File("C:/AMOLED/iPhone/6 Plus 64Gb БО1");
-            File[] photos = subDir.listFiles();
-            for (int i = 0; i < photos.length; i++) {
-                photos[i].renameTo(new File(subDir, "A" + (1510 + i) + ".jpg"));
-            }
-        }
+        File photosDir = new File("C:/AMOLED");
+
+//        File[] subdirList = photosDir.listFiles();
+//        for (File subDir : subdirList) {
+//            File[] photos = subDir.listFiles();
+//            for (int i = 0; i < photos.length; i++) {
+//                photos[i].renameTo(new File(subDir, "A" + (1510 + i) + ".jpg"));
+//            }
+//        }
     }
 
     public static void main(String[] args) {
