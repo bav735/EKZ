@@ -7,7 +7,7 @@ import java.nio.file.StandardCopyOption;
 import java.util.*;
 
 public class Gadgets {
-    final static String NAME_BEGIN = "Новые";
+    //    final static String NAME_BEGIN = "";
     final static String CERTIFICATION = "Сертификация";
     final static String VENDOR = "Производитель";
     final static String MODEL_LINE = "Модельный ряд";
@@ -24,7 +24,7 @@ public class Gadgets {
     final static int ADS_PER_DAY = 16;
     final static int ADS_PER_MONTH = 480;
 
-    static HashMap<String, Integer> mapNameGadgetAttributeNumber;
+    static HashMap<String, Integer> mapAttributeNumber;
     static String[] gadgetAttributeNames = new String[]{
             CERTIFICATION,
             VENDOR,
@@ -59,9 +59,9 @@ public class Gadgets {
     int[][] iphonesDistribution;
 
     public static void initialize() {
-        mapNameGadgetAttributeNumber = new HashMap<String, Integer>();
+        mapAttributeNumber = new HashMap<String, Integer>();
         for (int i = 0; i < gadgetAttributeNames.length; i++) {
-            mapNameGadgetAttributeNumber.put(gadgetAttributeNames[i], i);
+            mapAttributeNumber.put(gadgetAttributeNames[i], i);
         }
     }
 
@@ -183,15 +183,15 @@ public class Gadgets {
             if (mapGadgetNamePrices.containsKey(getGadgetName(gadget))) {
                 ArrayList<String> prices = mapGadgetNamePrices.get(getGadgetName(gadget));
                 if (prices.get(prices.size() - 1).length() == 1 &&
-                        gadget.get(mapNameGadgetAttributeNumber.get(CERTIFICATION)).equals(RST)) {
+                        gadget.get(mapAttributeNumber.get(CERTIFICATION)).equals(RST)) {
                     return;
                 }
-                String model = gadget.get(mapNameGadgetAttributeNumber.get(MODEL));
+                String model = gadget.get(mapAttributeNumber.get(MODEL));
                 for (String submodel : mapGadgetModelSubmodel.get(model)) {
                     for (String color : mapGadgetModelColor.get(model)) {
                         ArrayList<String> newGadget = new ArrayList<String>(gadget);
-                        newGadget.add(mapNameGadgetAttributeNumber.get(SUBMODEL), submodel);
-                        newGadget.add(mapNameGadgetAttributeNumber.get(COLOR), color);
+                        newGadget.add(mapAttributeNumber.get(SUBMODEL), submodel);
+                        newGadget.add(mapAttributeNumber.get(COLOR), color);
                         gadgets.add(newGadget);
                         generateDirsPhotos(newGadget);
                     }
@@ -211,7 +211,7 @@ public class Gadgets {
         Collections.shuffle(gadgets, new Random(735));
         mapGadgetModelGadgets = new HashMap<>();
         for (ArrayList<String> gadget : gadgets) {
-            String model = gadget.get(mapNameGadgetAttributeNumber.get(MODEL));
+            String model = gadget.get(mapAttributeNumber.get(MODEL));
             if (!mapGadgetModelGadgets.containsKey(model)) {
                 mapGadgetModelGadgets.put(model, new ArrayList<ArrayList<String>>());
             }
@@ -282,22 +282,26 @@ public class Gadgets {
     }
 
     public String getAvitoAdName(ArrayList<String> gadget) {
-        String name = NAME_BEGIN + " " + gadget.get(mapNameGadgetAttributeNumber.get(CERTIFICATION));
-        int lastAttr = mapNameGadgetAttributeNumber.get(COLOR);
-        for (int i = mapNameGadgetAttributeNumber.get(MODEL_LINE); i <= lastAttr; i++) {
+        String name = /*NAME_BEGIN + " " + */gadget.get(mapAttributeNumber.get(CERTIFICATION));
+        int lastAttr = mapAttributeNumber.get(COLOR);
+        for (int i = mapAttributeNumber.get(MODEL_LINE); i <= lastAttr; i++) {
             if (!gadget.get(i).isEmpty()) {
                 name += " " + gadget.get(i);
             }
         }
-//        if (name.length() < 43) {
-//            name = name + " Кредит";
-//        }
+        name = name + " Кредит 6 мес";
+        if (name.length() < 42) {
+            name += " Гарантия";
+        }
+        if (name.length() > 50) {
+            name = name.substring(0, 50);
+        }
         return name;
     }
 
     private String getGadgetName(ArrayList<String> gadget) {
-        int lastAttr = mapNameGadgetAttributeNumber.get(FINGER_PRINT);
-        int firstAttr = mapNameGadgetAttributeNumber.get(VENDOR);
+        int lastAttr = mapAttributeNumber.get(FINGER_PRINT);
+        int firstAttr = mapAttributeNumber.get(VENDOR);
         String name = gadget.get(firstAttr);
         for (int i = firstAttr + 1; i <= lastAttr; i++) {
             if (!gadget.get(i).isEmpty()) {
@@ -324,7 +328,7 @@ public class Gadgets {
     }
 
     private String getNewText(ArrayList<String> gadget, int cityId) {
-        String color = gadget.get(mapNameGadgetAttributeNumber.get(COLOR));
+        String color = gadget.get(mapAttributeNumber.get(COLOR));
         String text = "<![CDATA[";
         String gadgetName = getGadgetName(gadget);
         String city = CITIES[cityId];
@@ -335,15 +339,18 @@ public class Gadgets {
         }
         text += "</p><p><strong>Почему iSPARK?</strong><br>" +
                 "1) Мы всегда идем навстречу нашим клиентам и дорожим своей репутацией.<br>" +
-                "2) Мы предлагаем гибкие возможности вашей покупки: КРЕДИТ. ТРЕЙД-ИН. ДОСТАВКА ПО РФ. ОПТ.<br>" +
+                "2) Мы предлагаем гибкие возможности вашей покупки:<br>" +
+                "- Кредит от 6 до 36 мес под 2% в мес<br>" +
+                "- Трейд-ин (обмен вашего телефона на наш)<br>" +
+                "- Доставка по РФ наложенным платежом<br>" +
+                "- Опт (высылаем прайс-лист по запросу)<br>" +
                 "3) Работаем на рынке электроники с 2009 года!";
         if (city.equals("Казань")) {
             text += " Опыт работы в Казани - более 2-х лет.";
         }
-        text += "</p><p>Рады радовать вас наличием новых <strong>" + gadgetName + " цвета " + color + "</strong>" +
-                " по очень приятным ценам:<strong>";
-        String s = "";
-        if (gadget.get(mapNameGadgetAttributeNumber.get(CERTIFICATION)).equals(EST)) {
+        text += "</p><p>Рады радовать вас наличием новых <strong>" + gadgetName + "</strong> цвета <strong>" + color +
+                "</strong> по очень приятным ценам:<strong>";
+        if (gadget.get(mapAttributeNumber.get(CERTIFICATION)).equals(EST)) {
             text += "<br>";
             text += getPriceOfferByWarranty(gadgetName, 1, cityId);
             text += getPriceOfferByWarranty(gadgetName, 6, cityId);
@@ -356,21 +363,27 @@ public class Gadgets {
             text += "</p><p>";
             text += "- продукция Ростест, гарантия официальная, предоставляется Apple (на всей территории РФ)<br>";
         }
-        String store = "";
+        String s = "";
         String os = "";
-        if (gadget.get(mapNameGadgetAttributeNumber.get(VENDOR)).contains("Apple")) {
+        if (gadget.get(mapAttributeNumber.get(VENDOR)).contains("Apple")) {
             os = "iOS";
-            store = "App Store, iCloud/iTunes";
+            s = "App Store, iCloud/iTunes";
+            if (gadget.get(mapAttributeNumber.get(FINGER_PRINT)).isEmpty() &&
+                    gadgetName.contains("iPhone 5S") ||
+                    gadgetName.contains("iPhone 6") ||
+                    gadgetName.contains("iPhone 6S")) {
+                s += ", работает TouchID (отпечаток пальца)";
+            }
         } else {
             os = "Android";
-            store = "Play Market";
+            s = "Play Market";
         }
-        text += "- успешно обновляются, регистрируются в официальном магазине приложений " + store + "<br>" +
+        text += "- успешно обновляются, регистрируются в официальном магазине приложений " + s + "<br>" +
                 "- к каждому аппарату предоставляется полный комплект аксессуаров: коробка, з/у, кабель, аудио-гарнитура, инструкции<br>" +
                 "- полностью запечатаны в фабричные пленки, без следов эксплуатации, вскрытие и проверка происходят при вас</p>" +
                 "<p><strong>Условия покупки:</strong><br>" +
 //                "- самовывоз, бесплатно<br>" +
-                "- быстрая доставка, 200 руб<br>" +
+                "- быстрая доставка 200 руб<br>" +
                 "- оплата осуществляется только по факту полной проверки товара<br>" +
                 "- при покупке выдается чек и гарантийный талон<br>" +
                 "- пожалуйста предварительно резервируйте интересующий вас товар</p>" +
@@ -418,7 +431,11 @@ public class Gadgets {
         long seconds = (calendarCurr.getTimeInMillis() - calendarZero.getTimeInMillis()) / 1000;
         int dayNum = (int) (seconds / 3600 / 24) + 1;
         int divideDay = (dayNum - 1) % 30 + 1;
+//        System.out.println(divideDay);
         calendarZero.add(Calendar.DAY_OF_MONTH, dayNum - divideDay - 1 + xmlDay);
+        if (xmlDay < divideDay - 1) {
+            calendarZero.add(Calendar.DAY_OF_MONTH, 30);
+        }
         String dateBegin = getDateByCalendar(calendarZero);
         ad += "\t\t<Id>" + gadgetNum + "</Id>\n";
         ad += "\t\t<DateBegin>" + dateBegin + "</DateBegin>\n";
@@ -432,7 +449,7 @@ public class Gadgets {
         ad += "\t\t<City>" + city + "</City>\n";
         ad += "\t\t<Category>Телефоны</Category>\n";
         String goodsType = "";
-        if (gadget.get(mapNameGadgetAttributeNumber.get(Gadgets.VENDOR)).contains("Apple")) {
+        if (gadget.get(mapAttributeNumber.get(Gadgets.VENDOR)).contains("Apple")) {
             goodsType = "iPhone";
         } else {
             goodsType = "Samsung";
@@ -442,7 +459,7 @@ public class Gadgets {
         ad += "\t\t<Description>" + getNewText(gadget, cityId) + "</Description>\n";
         String price;
         String gadgetName = getGadgetName(gadget);
-        if (gadget.get(mapNameGadgetAttributeNumber.get(CERTIFICATION)).equals(EST)) {
+        if (gadget.get(mapAttributeNumber.get(CERTIFICATION)).equals(EST)) {
             price = getPriceByWarranty(gadgetName, 1, cityId);
             if (price.length() == 1) {
                 price = getPriceByWarranty(gadgetName, 12, cityId);
@@ -453,7 +470,7 @@ public class Gadgets {
         ad += "\t\t<Price>" + price + "</Price>\n";
         ad += "\t\t<Images>\n";
         String imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/" +
-                getGadgetPath(gadget, COLOR) + "img.jpg";
+                getGadgetPath(gadget, SUBMODEL) + "img.jpg";
         ad += "\t\t\t<Image url=\"" + imgLink + "\"/>\n";
 //        imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/price_iphone.png";
 //        ad += "\t\t\t<Image url=\"" + imgLink + "\"/>\n";
@@ -464,20 +481,26 @@ public class Gadgets {
 
     private String getGadgetPath(ArrayList<String> gadget, String lastAttr) {
         String path = "";
-        for (int i = 0; i <= mapNameGadgetAttributeNumber.get(lastAttr); i++) {
+        for (int i = mapAttributeNumber.get(VENDOR); i <= mapAttributeNumber.get(lastAttr); i++) {
             String attr = gadget.get(i);
-            attr.replaceAll("/", "");
-            if (attr.isEmpty()) {
-                attr = "СО";
+            if (i == mapAttributeNumber.get(FINGER_PRINT)) {
+                if (attr.isEmpty()) {
+                    attr = "СО";
+                } else {
+                    attr = "БО";
+                }
             }
             path += attr + "/";
+            if (i == mapAttributeNumber.get(MODEL)) {
+                path += gadget.get(mapAttributeNumber.get(COLOR)) + "/";
+            }
         }
         return path;
     }
 
     public void generateDirsPhotos(ArrayList<String> gadget) {
         String rootDir = "C:/AMOLED/";
-        File gadgetDirImg = new File(rootDir + getGadgetPath(gadget, COLOR));
+        File gadgetDirImg = new File(rootDir + getGadgetPath(gadget, SUBMODEL));
         gadgetDirImg.mkdirs();
         gadgetDirImg = new File(gadgetDirImg, "img.jpg");
         File gadgetImg = new File(rootDir + getGadgetPath(gadget, MODEL) + "img.jpg");
@@ -486,5 +509,14 @@ public class Gadgets {
         } catch (IOException e) {
             System.out.println(e.toString());
         }
+    }
+
+    private void deleteFile(File f) throws IOException {
+        if (f.isDirectory()) {
+            for (File c : f.listFiles())
+                deleteFile(c);
+        }
+        if (!f.delete())
+            throw new FileNotFoundException("Failed to deleteFile file: " + f);
     }
 }
