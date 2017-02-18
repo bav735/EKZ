@@ -134,7 +134,7 @@ public class Gadgets {
                 "7 Plus")));
         ArrayList<ArrayList<String>> submodels = new ArrayList<>();
         submodels.add(new ArrayList<String>(Arrays.asList("A1349", "A1332")));
-        submodels.add(new ArrayList<String>(Arrays.asList("A1431", "A1387", "A1387")));
+        submodels.add(new ArrayList<String>(Arrays.asList("A1431", "A1387", "A1378")));
         submodels.add(new ArrayList<String>(Arrays.asList("A1428", "A1429", "A1442")));
         submodels.add(new ArrayList<String>(Arrays.asList("A1456", "A1507", "A1516", "A1529", "A1532")));
         submodels.add(new ArrayList<String>(Arrays.asList("A1453", "A1457", "A1518", "A1528", "A1530", "A1533")));
@@ -194,6 +194,7 @@ public class Gadgets {
                         newGadget.add(mapAttributeNumber.get(COLOR), color);
                         gadgets.add(newGadget);
                         generateDirsPhotos(newGadget);
+                        System.out.println(getAvitoAdName(newGadget));
                     }
                 }
             }
