@@ -19,7 +19,7 @@ public class Gadgets {
     final static String TOUCH_LOCKED = "Б/О";
     final static String EST = "EST";
     final static String RST = "RST";
-    final static String[] CITIES = new String[]{"Казань", "Москва"};
+    final static String[] CITIES = new String[]{"Казань"};
     final static int DISTRIBUTION_SIZE = 5;
     final static int ADS_PER_DAY = 16;
     final static int ADS_PER_MONTH = 480;
@@ -357,7 +357,7 @@ public class Gadgets {
             text += "- продукция Евротест, гарантия предоставляется СЦ iSPARK Сервис (г. Казань и Москва)<br>";
             text += "- гарантия полноценная (обмен/возврат в течение 14 дней, по истечению - бесплатное устранение неисправности)<br>";
         } else {
-            text += " " + mapGadgetNamePrices.get(gadgetName).get(5) + " руб</strong>";
+            text += " " + mapGadgetNamePrices.get(gadgetName).get(1 + 2 * CITIES.length) + " руб</strong>";
             text += "</p><p>";
             text += "- продукция Ростест, гарантия официальная, предоставляется Apple (на всей территории РФ)<br>";
         }
@@ -467,7 +467,7 @@ public class Gadgets {
                 price = getPriceByWarranty(gadgetName, 12, cityId);
             }
         } else {
-            price = mapGadgetNamePrices.get(gadgetName).get(5);
+            price = mapGadgetNamePrices.get(gadgetName).get(1 + 2 * CITIES.length);
         }
         ad += "\t\t<Price>" + price + "</Price>\n";
         ad += "\t\t<Images>\n";
