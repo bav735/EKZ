@@ -19,6 +19,7 @@ public class Gadgets {
     final static String TOUCH_LOCKED = "Б/О";
     final static String EST = "EST";
     final static String RST = "RST";
+    final static int PRICES_COUNT = 7;
     final static String[] CITIES = new String[]{"Казань"};
     final static int DISTRIBUTION_SIZE = 5;
     final static int ADS_PER_DAY = 16;
@@ -88,7 +89,7 @@ public class Gadgets {
                     gadgetName += " Б/О";
                 }
                 ArrayList<String> prices = new ArrayList<>();
-                for (int priceId = 2 * CITIES.length + 2; priceId > 0; priceId--) {
+                for (int priceId = PRICES_COUNT; priceId > 0; priceId--) {
                     prices.add(words[words.length - priceId]);
                 }
                 mapGadgetNamePrices.put(gadgetName, prices);
@@ -320,6 +321,14 @@ public class Gadgets {
         return months + " мес гарантии = " + price + " руб<br>";
     }
 
+    private String getWholesaleOffer(String gadgetName) {
+        String price = mapGadgetNamePrices.get(gadgetName).get(PRICES_COUNT - 2);
+        if (price.length() == 1) {
+            return "";
+        }
+        return "Опт (от 6 шт) = " + price + " руб<br>";
+    }
+
     private String getPriceByWarranty(String gadgetName, int months, int cityId) {
         int priceId = months % 4;
         if (cityId == 1 && priceId != 0) {
@@ -341,7 +350,7 @@ public class Gadgets {
         text += "</p><p><strong>Почему iSPARK?</strong><br>" +
                 "1) Мы всегда идем навстречу нашим клиентам и дорожим своей репутацией.<br>" +
                 "2) Мы предлагаем гибкие возможности вашей покупки:<br>" +
-                "- Кредит от 6 до 36 мес под 2% в мес<br>" +
+                "- Кредит от 6 до 36 мес под 2% в мес (условия см. на нашем сайте)<br>" +
                 "- Трейд-ин (обмен вашего телефона на наш)<br>" +
                 "- Доставка по РФ наложенным платежом через CDEK (~2 дня)<br>" +
                 "- Опт (высылаем прайс-лист по запросу)<br>" +
@@ -353,6 +362,7 @@ public class Gadgets {
             text += getPriceOfferByWarranty(gadgetName, 1, cityId);
             text += getPriceOfferByWarranty(gadgetName, 6, cityId);
             text += getPriceOfferByWarranty(gadgetName, 12, cityId);
+            text += getWholesaleOffer(gadgetName);
             text += "</strong></p><p>";
             text += "- продукция Евротест, гарантия предоставляется СЦ iSPARK Сервис (г. Казань и Москва)<br>";
             text += "- гарантия полноценная (обмен/возврат в течение 14 дней, по истечению - бесплатное устранение неисправности)<br>";
@@ -395,7 +405,10 @@ public class Gadgets {
                 "(заказы на нашем сайте можно оставлять круглосуточно)</p>";
         if (city.equals("Казань")) {
             text += "<p><strong>Местоположение iSPARK в Казани</strong> (о нас знают 2GIS, Google Maps, Яндекс.Карты):<br>" +
-                    "СЦ iSPARK Сервис - ул. Спартаковская, д. 2, к. 1 (пункт выдачи заказов)</p>";
+                    "СЦ iSPARK Сервис - ул. Спартаковская, д. 2, к. 1 (+пункт выдачи заказов)<br>" +
+                    "- время работы: 11.00-19.00<br>" +
+                    "iSPARK Магазин - ул. Лушникова, д. 8<br>" +
+                    "- время работы: 17.00-21.00</p>";
         } else {
             text += "<p><strong>Местоположение iSPARK в Москве:</strong><br>" +
                     "iSPARK Магазин - ул. Молодежная, д. 4, офис 3 (пункт выдачи заказов)</p>";
@@ -433,10 +446,18 @@ public class Gadgets {
         long seconds = (calendarCurr.getTimeInMillis() - calendarZero.getTimeInMillis()) / 1000;
         int dayNum = (int) (seconds / 3600 / 24) + 1;
         int divideDay = (dayNum - 1) % 30 + 1;
-//        System.out.println(divideDay);
+//        System.out.println(dayNum + " " + divideDay);
         calendarZero.add(Calendar.DAY_OF_MONTH, dayNum - divideDay - 1 + xmlDay);
-        if (xmlDay < divideDay - 1) {
-            calendarZero.add(Calendar.DAY_OF_MONTH, 30);
+        int offset = 0;
+        if (divideDay <= offset) {
+            int tDivideDay = divideDay + 30 - offset;
+            if (xmlDay >= tDivideDay) {
+                calendarZero.add(Calendar.DAY_OF_MONTH, -30);
+            }
+        } else {
+            if (xmlDay < divideDay - offset) {
+                calendarZero.add(Calendar.DAY_OF_MONTH, 30);
+            }
         }
         String dateBegin = getDateByCalendar(calendarZero);
         ad += "\t\t<Id>" + gadgetNum + "</Id>\n";
@@ -467,7 +488,7 @@ public class Gadgets {
                 price = getPriceByWarranty(gadgetName, 12, cityId);
             }
         } else {
-            price = mapGadgetNamePrices.get(gadgetName).get(1 + 2 * CITIES.length);
+            price = mapGadgetNamePrices.get(gadgetName).get(PRICES_COUNT - 1);
         }
         ad += "\t\t<Price>" + price + "</Price>\n";
         ad += "\t\t<Images>\n";
