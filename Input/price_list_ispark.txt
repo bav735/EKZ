@@ -1,0 +1,55 @@
+Apple iPhone 4 8Gb	7190	5190	4600	167	-	-
+Apple iPhone 4 16Gb	8090	5790	5175	192	-	-
+Apple iPhone 4 32Gb	8990	6490	5750	208	-	-
+Apple iPhone 4S 8Gb	8690	6490	5750	183	-	-
+Apple iPhone 4S 16Gb	9590	7090	6325	208	-	-
+Apple iPhone 4S 32Gb	10490	7790	6900	225	-	-
+Apple iPhone 4S 64Gb	11290	8390	7475	242	-	-
+Apple iPhone 5 16Gb	13990	10390	9200	300	-	-
+Apple iPhone 5 32Gb	14790	10990	9775	317	-	-
+Apple iPhone 5 64Gb	15690	11690	10350	333	-	-
+Apple iPhone 5C 8Gb	12590	9090	8050	292	-	-
+Apple iPhone 5C 16Gb	13490	9690	8625	317	-	-
+Apple iPhone 5C 32Gb	14390	10390	9200	333	-	-
+Apple iPhone 5S 16Gb	15290	11690	10350	300	18690	17850
+Apple iPhone 5S 32Gb	16990	12990	11500	333	24090	23100
+Apple iPhone 5S 64Gb	18690	14290	12650	367	29990	28750
+Apple iPhone 5S 16Gb Без Отпечатка	13590	10390	9200	267	-	-
+Apple iPhone 5S 32Gb Без Отпечатка	15290	11690	10350	300	-	-
+Apple iPhone 5S 64Gb Без Отпечатка	16990	12990	11500	333	-	-
+Apple iPhone 6 16Gb	22190	16890	14950	442	28590	27300
+Apple iPhone 6 64Gb	26290	20090	17825	517	35590	34100
+Apple iPhone 6 128Gb	30590	23390	20700	600	43190	41400
+Apple iPhone 6 16Gb Без Отпечатка	19190	14790	12650	367	-	-
+Apple iPhone 6 64Gb Без Отпечатка	22690	17490	14950	433	-	-
+Apple iPhone 6 128Gb Без Отпечатка	26190	20190	17250	500	-	-
+Apple iPhone 6 Plus 16Gb	24490	20990	19250	292	26390	25200
+Apple iPhone 6 Plus 64Gb	28690	24590	22550	342	30790	29400
+Apple iPhone 6 Plus 128Gb	32890	28190	25850	392	34090	32550
+Apple iPhone 6 Plus 16Gb Без Отпечатка	21690	18590	17050	258	-	-
+Apple iPhone 6 Plus 64Gb Без Отпечатка	25890	22190	20350	308	-	-
+Apple iPhone 6 Plus 128Gb Без Отпечатка	30090	25790	23650	358	-	-
+Apple iPhone 6S 16Gb	29690	23390	19800	525	34490	33000
+Apple iPhone 6S 32Gb	35990	31190	26400	400	37890	36300
+Apple iPhone 6S 64Gb	36690	31790	26950	408	41390	39600
+Apple iPhone 6S 128Gb	39690	34390	29150	442	44790	42900
+Apple iPhone 6S 16Gb Без Отпечатка	25490	21390	18150	342	-	-
+Apple iPhone 6S 32Gb Без Отпечатка	30990	25990	22000	417	-	-
+Apple iPhone 6S 64Gb Без Отпечатка	31690	26590	22550	425	-	-
+Apple iPhone 6S 128Gb Без Отпечатка	37890	31790	26950	508	-	-
+Apple iPhone 6S Plus 16Gb	35690	30590	28050	425	38490	36750
+Apple iPhone 6S Plus 32Gb	42690	36590	33550	508	43690	41800
+Apple iPhone 6S Plus 64Gb	43390	37190	34100	517	47990	46000
+Apple iPhone 6S Plus 128Gb	47590	40790	37400	567	52790	50600
+Apple iPhone 6S Plus 16Gb Без Отпечатка	34290	29390	26950	408	-	-
+Apple iPhone 6S Plus 32Gb Без Отпечатка	41290	35390	32450	492	-	-
+Apple iPhone 6S Plus 64Gb Без Отпечатка	41990	35990	33000	500	-	-
+Apple iPhone 6S Plus 128Gb Без Отпечатка	46190	39590	36300	550	-	-
+Apple iPhone SE 16Gb	24090	-	-	-	25290	24200
+Apple iPhone SE 64Gb	28790	-	-	-	29990	28750
+Apple iPhone 7 32Gb	41390	-	-	-	42490	40700
+Apple iPhone 7 128Gb	47090	-	-	-	48290	46200
+Apple iPhone 7 256Gb	52890	-	-	-	53990	51700
+Apple iPhone 7 Plus 32Gb	49390	-	-	-	50590	48400
+Apple iPhone 7 Plus 128Gb	56290	-	-	-	57490	55000
+Apple iPhone 7 Plus 256Gb	63190	-	-	-	64390	61600
