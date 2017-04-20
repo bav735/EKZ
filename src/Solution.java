@@ -1,20 +1,13 @@
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Solution {
-    static AvitoGadgets iphones;
+    static AvitoGadgets iphonesAvito;
+    static YoulaGadgets iphonesYoula;
     static AvitoGadgets galaxys;
-
-    private static void computeIPhones() {
-        iphones = new AvitoGadgets();
-        iphones.initializeIPhones();
-        iphones.generateGadgets(0, new ArrayList<String>());
-        iphones.distributeIPhones();
-    }
 
     /*public static void computeGalaxys() {
         galaxys = new AvitoGadgets();
@@ -48,67 +41,6 @@ public class Solution {
             System.out.print("Exception: Input file not found!");
         }
     }*/
-
-    public static void computeYMIdIncremental() {
-        Scanner inScanner = getInputScanner("price_list.xml");
-        BufferedWriter outWriter = getOutputWriter("price_list_out.xml");
-        String inputs = "";
-        String line;
-        int count = 1;
-        while (inScanner.hasNextLine()) {
-            line = inScanner.nextLine();
-            if (line.contains("<offer id='")) {
-                line = "\t\t<offer id='" + count + "' available='true' bid='1' cbid='1'>";
-                count++;
-            }
-            inputs += line + "\n";
-        }
-        System.out.print(inputs);
-//        outWriter.write(inputs.replace("'", "\""));
-//        outWriter.flush();
-        inScanner.close();
-    }
-
-    public static void computeYMUpperCase() {
-        BufferedReader br = null;
-        BufferedWriter outWriter = null;
-        try {
-            br = new BufferedReader(new InputStreamReader(new FileInputStream("price_list.xml")));
-            File directory = new File("Output");
-            String fileName = "price_list.xml";
-            File file = new File(directory, fileName.replaceAll("[\\s/]", ""));
-            file.getParentFile().mkdirs();
-            OutputStream os = new BufferedOutputStream(Files.newOutputStream(Paths.get(file.getCanonicalPath())));
-            outWriter = new BufferedWriter(new OutputStreamWriter(os));
-            String inputs = "";
-            String line;
-            while ((line = br.readLine()) != null) {
-                inputs += line + "\n";
-            }
-            char[] inputc = inputs.toCharArray();
-
-            for (int i = 2; i < inputc.length; i++) {
-                boolean isRusCurr = Character.UnicodeBlock.CYRILLIC.equals(Character.UnicodeBlock.of(inputc[i]));
-                boolean isRusPrev = Character.UnicodeBlock.CYRILLIC.equals(Character.UnicodeBlock.of(inputc[i - 1]));
-                boolean isRusPrevPrev = Character.UnicodeBlock.CYRILLIC.equals(Character.UnicodeBlock.of(inputc[i - 2]));
-                if (isRusCurr && (isRusPrev || isRusPrevPrev)) {
-                    inputc[i] = Character.toLowerCase(inputc[i]);
-                }
-            }
-            outWriter.write(new String(inputc));
-            outWriter.flush();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            if (br != null) {
-                try {
-                    br.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-    }
 
     public static void computeYMDescription() {
         BufferedReader br = null;
@@ -176,41 +108,6 @@ public class Solution {
         }
     }
 
-
-    private static void computeAvitoXML() {
-        String xml = "<Ads formatVersion=\"3\" target=\"Avito.ru\">\n";
-        ArrayList<String> xmls = new ArrayList<>();
-        int gadgetsPerDay = AvitoGadgets.ADS_PER_DAY;
-        for (int xmlDay = 1; xmlDay <= 30; xmlDay++) {
-            for (int gadgetId = (xmlDay - 1) * gadgetsPerDay; gadgetId < xmlDay * gadgetsPerDay; gadgetId++) {
-                for (int cityId = 0; cityId < AvitoGadgets.CITIES.length; cityId++) {
-                    xml += iphones.getXmlAd(gadgetId + cityId * AvitoGadgets.ADS_PER_MONTH, xmlDay, cityId);
-                }
-            }
-        }
-
-        xml += "</Ads>";
-        File directory = new File("Output");
-        String fileName = "AdsXML.xml";
-        File file = new File(directory, fileName.replaceAll("[\\s/]", ""));
-        file.getParentFile().mkdirs();
-        BufferedWriter outWriter = null;
-        try {
-            OutputStream os = new BufferedOutputStream(Files.newOutputStream(Paths.get(file.getCanonicalPath())));
-            outWriter = new BufferedWriter(new OutputStreamWriter(os));
-            outWriter.write(xml);
-            outWriter.flush();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        try {
-            Files.copy(new File("C:/EKZ/Output/AdsXML.xml").toPath(), new File(Gadgets.ROOT_DIR + "AdsXML.xml")
-                    .toPath(), StandardCopyOption.REPLACE_EXISTING);
-        } catch (IOException e) {
-            System.out.println(e.toString());
-        }
-    }
-
     public static Scanner getInputScanner(String fileName) {
         try {
             Scanner inScanner = new Scanner(new FileInputStream(new File("C:/EKZ/Input/" + fileName)));
@@ -222,9 +119,9 @@ public class Solution {
         }
     }
 
-    public static BufferedWriter getOutputWriter(String fileName) {
+    public static BufferedWriter getOutputWriter(String directoryName, String fileName) {
         try {
-            File directory = new File("Output");
+            File directory = new File(directoryName);
             File file = new File(directory, fileName.replaceAll("[\\s/]", ""));
             file.getParentFile().mkdirs();
             OutputStream os = new BufferedOutputStream(Files.newOutputStream(Paths.get(file.getCanonicalPath())));
@@ -260,21 +157,29 @@ public class Solution {
 
         //Avito
 //        renamePhotosFiles(new File(Gadgets.ROOT_DIR), new File(Gadgets.ROOT_DIR + "Apple"));
-        computeIPhones();
-        computeAvitoXML();
+        iphonesAvito = new AvitoGadgets();
+        iphonesAvito.initializeIPhones();
+        iphonesAvito.generateGadgets(0, new ArrayList<String>());
+        iphonesAvito.distributeIPhones();
+        iphonesAvito.generateXML();
+
+        //Youla
+//        renamePhotosFiles(new File(Gadgets.ROOT_DIR), new File(Gadgets.ROOT_DIR + "Apple"));
+        iphonesYoula = new YoulaGadgets();
+        iphonesYoula.initializeIPhones();
+        iphonesYoula.generateGadgets(0, new ArrayList<String>());
+        iphonesYoula.distributeIPhones();
+        iphonesYoula.generateFiles();
 
         //WebSite
         WebSiteGadgets webSiteGadgets = new WebSiteGadgets();
         webSiteGadgets.initializeFromCSV();
         webSiteGadgets.synchronizePrices();
-        webSiteGadgets.printCSVGadgets(getOutputWriter("shop_items.csv"));
+        webSiteGadgets.printCSVGadgets(getOutputWriter("Output", "shop_items.csv"));
 
         //Yandex-Market
-        webSiteGadgets.printYMGadgets(getOutputWriter("yandex_market_items.csv"));
-//        iphones.generateGadgetFiles();
+        webSiteGadgets.printYMGadgets(getOutputWriter("Output", "yandex_market_items.csv"));
+//        iphonesAvito.generateGadgetFiles();
 //        galaxys.generateGadgetFiles();
-//        computeYMIdIncremental();
-//        computeYMDescription();
-//        computeYMUpperCase();
     }
 }

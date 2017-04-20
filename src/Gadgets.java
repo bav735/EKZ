@@ -2,6 +2,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -74,5 +75,20 @@ public class Gadgets {
         } catch (FileNotFoundException e) {
             System.out.print("Exception: Input file not found!");
         }
+    }
+
+    public int[] mergeArrays(int[] a1, int[] a2, int[] order) {
+        int[][] a = new int[2][];
+        a[0] = a1;
+        a[1] = a2;
+        int[] rezult = new int[a[0].length + a[1].length];
+        int[] i = new int[2];
+        Arrays.fill(i, 0);
+        for (int j = 0; j < rezult.length; j++) {
+            int t = order[j % order.length];
+            rezult[j] = a[t][i[t]];
+            i[t]++;
+        }
+        return rezult;
     }
 }
