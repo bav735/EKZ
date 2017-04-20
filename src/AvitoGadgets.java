@@ -135,7 +135,7 @@ public class AvitoGadgets extends Gadgets {
                         newGadget.add(mapGadgetAttributeNumber.get(COLOR), color);
                         gadgets.add(newGadget);
                         generateDirsPhotos(newGadget);
-                        System.out.println(getGadgetName(newGadget));
+//                        System.out.println(getGadgetName(newGadget));
                     }
                 }
             }

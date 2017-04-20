@@ -10,7 +10,7 @@ public class YoulaGadgets extends Gadgets {
     final static String COLOR = "Цвет";
     final static String TOUCH_LOCKED = "Б/О";
     final static String NEW = "Новый";
-    final static String RFB = "Новый";
+    final static String RFB = "";
     final static int DISTRIBUTION_SIZE = 6;
     final static int ADS_PER_DAY = 5;
     final static int IPHONES_COUNT = 12;
@@ -93,11 +93,11 @@ public class YoulaGadgets extends Gadgets {
     public void generateGadgets(int attribute, ArrayList<String> gadget) {
         if (attribute == gadgetAttributesVariants.size()) {
             if (mapGadgetNamePrices.containsKey(getGadgetName(gadget))) {
-                if (!gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).isEmpty() &&
-                        !gadget.get(mapGadgetAttributeNumber.get(MODEL)).equals("5S") &&
-                        !gadget.get(mapGadgetAttributeNumber.get(MODEL)).equals("6")) {
-                    return;
-                }
+//                if (!gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).isEmpty() &&
+//                        !gadget.get(mapGadgetAttributeNumber.get(MODEL)).equals("5S") &&
+//                        !gadget.get(mapGadgetAttributeNumber.get(MODEL)).equals("6")) {
+//                    return;
+//                }
                 ArrayList<String> prices = mapGadgetNamePrices.get(getGadgetName(gadget));
                 if (prices.get(mapPriceAttributeNumber.get(EST_RETAIL_MIN)).length() > 1) {
                     gadget.set(mapGadgetAttributeNumber.get(QUALITY), RFB);
@@ -175,6 +175,9 @@ public class YoulaGadgets extends Gadgets {
                 name += " " + gadget.get(i);
             }
         }
+        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
+            name += "с гарантией";
+        }
         return name;
     }
 
@@ -205,15 +208,14 @@ public class YoulaGadgets extends Gadgets {
 
     private String getYoulaDescription(ArrayList<String> gadget) {
         String text = "";
-        text += "Новый ";
         if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
-            text += " восстановленный ";
+            text += " Восстановленный ";
         }
         text += getYoulaAdName(gadget);
         if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
-            text += " с гарантией от 1 месяца до 1 года";
+            text += ", гарантия от 1 месяца до 1 года";
         } else {
-            text += " с официальной гарантией 1 год";
+            text += ", официальная гарантия 1 год";
         }
         text += ". Также выполняем качественный ремонт любой электроники с гарантией результата." +
                 " Звоните по всем интересующим вопросам!";
@@ -228,6 +230,8 @@ public class YoulaGadgets extends Gadgets {
         String imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/" +
                 getGadgetPath(gadget, MODEL) + AvitoGadgets.IMG_FILE_NAME + ".jpg";
         adText += "Ссылка на картинку:" + imgLink;
+        adText = adText.replace(TOUCH_LOCKED, "(без отпечатка)");
+        adText = adText.replace("  ", " ");
         return adText;
     }
 
