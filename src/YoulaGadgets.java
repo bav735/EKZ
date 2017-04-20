@@ -205,9 +205,9 @@ public class YoulaGadgets extends Gadgets {
 
     private String getYoulaDescription(ArrayList<String> gadget) {
         String text = "";
-        text+="Новый ";
+        text += "Новый ";
         if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
-            text+=" восстановленный ";
+            text += " восстановленный ";
         }
         text += getYoulaAdName(gadget);
         if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
@@ -215,7 +215,7 @@ public class YoulaGadgets extends Gadgets {
         } else {
             text += " с официальной гарантией 1 год";
         }
-        text+=". Также выполняем качественный ремонт любой электроники с гарантией результата." +
+        text += ". Также выполняем качественный ремонт любой электроники с гарантией результата." +
                 " Звоните по всем интересующим вопросам!";
         return text;
     }
@@ -253,7 +253,11 @@ public class YoulaGadgets extends Gadgets {
     public void generateFiles() {
         for (int day = 1; day <= 30; day++) {
             for (int gadgetId = (day - 1) * ADS_PER_DAY; gadgetId < day * ADS_PER_DAY; gadgetId++) {
-                Solution.writeText(Solution.getOutputWriter("Output/Youla/Day" + day, (gadgetId % ADS_PER_DAY + 1)
+                String dayNum = "" + day;
+                if (day < 10) {
+                    dayNum = "0" + dayNum;
+                }
+                Solution.writeText(Solution.getOutputWriter("Output/Youla/Day" + dayNum, (gadgetId % ADS_PER_DAY + 1)
                         + ".txt"), getAdText(gadgets.get(gadgetId)));
             }
         }
