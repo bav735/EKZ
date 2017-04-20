@@ -2,7 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/YoulaGadgets.java" afterPath="$PROJECT_DIR$/src/YoulaGadgets.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day1/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day1/2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day1/3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day1/4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day1/5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day2/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day2/2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day2/3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day2/4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day2/5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day3/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day3/2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day3/3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day3/4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day3/5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day4/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day4/2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day4/3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day4/4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day4/5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day5/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day5/2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day5/3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day5/4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day5/5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day6/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day6/2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day6/3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day6/4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day6/5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day7/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day7/2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day7/3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day7/4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day7/5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day8/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day8/2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day8/3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day8/4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day8/5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day9/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day9/2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day9/3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day9/4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day9/5.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EKZ.iws" />
     <ignored path=".idea/workspace.xml" />
