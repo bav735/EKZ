@@ -93,11 +93,11 @@ public class YoulaGadgets extends Gadgets {
     public void generateGadgets(int attribute, ArrayList<String> gadget) {
         if (attribute == gadgetAttributesVariants.size()) {
             if (mapGadgetNamePrices.containsKey(getGadgetName(gadget))) {
-//                if (!gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).isEmpty() &&
-//                        !gadget.get(mapGadgetAttributeNumber.get(MODEL)).equals("5S") &&
-//                        !gadget.get(mapGadgetAttributeNumber.get(MODEL)).equals("6")) {
-//                    return;
-//                }
+                if (!gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).isEmpty() &&
+                        !gadget.get(mapGadgetAttributeNumber.get(MODEL)).equals("5S") &&
+                        !gadget.get(mapGadgetAttributeNumber.get(MODEL)).equals("6")) {
+                    return;
+                }
                 ArrayList<String> prices = mapGadgetNamePrices.get(getGadgetName(gadget));
                 if (prices.get(mapPriceAttributeNumber.get(EST_RETAIL_MIN)).length() > 1) {
                     gadget.set(mapGadgetAttributeNumber.get(QUALITY), RFB);
@@ -176,7 +176,7 @@ public class YoulaGadgets extends Gadgets {
             }
         }
         if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
-            name += "с гарантией";
+            name += " с гарантией";
         }
         return name;
     }
@@ -229,7 +229,7 @@ public class YoulaGadgets extends Gadgets {
         adText += "Цена: " + getMinPrice(gadget) + "\n";
         String imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/" +
                 getGadgetPath(gadget, MODEL) + AvitoGadgets.IMG_FILE_NAME + ".jpg";
-        adText += "Ссылка на картинку:" + imgLink;
+        adText += "Ссылка на картинку: " + imgLink;
         adText = adText.replace(TOUCH_LOCKED, "(без отпечатка)");
         adText = adText.replace("  ", " ");
         return adText;

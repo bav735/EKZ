@@ -20,7 +20,7 @@ public class AvitoGadgets extends Gadgets {
     final static String IMG_FILE_NAME = "avito_picture";
     final static int DISTRIBUTION_SIZE = 4;
     final static int ADS_PER_DAY = 19;
-    final static int DAYS_OFFSET = 1;
+    final static int DAYS_OFFSET = -1;
     final static int IPHONES_COUNT = 12;
     final static int MAX_FREQUENCE = 4;
 
