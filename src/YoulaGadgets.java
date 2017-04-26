@@ -109,7 +109,7 @@ public class YoulaGadgets extends Gadgets {
                     ArrayList<String> newGadget = new ArrayList<String>(gadget);
                     newGadget.add(mapGadgetAttributeNumber.get(COLOR), color);
                     gadgets.add(newGadget);
-                    System.out.println(getGadgetName(newGadget));
+//                    System.out.println(getGadgetName(newGadget));
                 }
             }
         } else {
@@ -150,10 +150,6 @@ public class YoulaGadgets extends Gadgets {
                     gadgetGroup.add(extractGadgetByModel(modelId));
                 }
             }
-            for (ArrayList<String> g : gadgetGroup) {
-                System.out.print(getGadgetName(g) + " ");
-            }
-            System.out.println();
             gadgets.addAll(gadgetGroup);
         }
     }

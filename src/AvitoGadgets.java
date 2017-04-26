@@ -15,12 +15,12 @@ public class AvitoGadgets extends Gadgets {
     final static String COLOR = "Цвет";
     final static String TOUCH_LOCKED = "Б/О";
     final static String NEW = "Новый";
-    final static String RFB = "Реф";
-    final static String[] CITIES = new String[]{"Казань"};
-    final static String IMG_FILE_NAME = "avito_picture";
+    final static String RFB = "";
+//    final static String[] CITIES = new String[]{"Казань"};
+    final static String IMG_FILE_NAME = "avito_img";
     final static int DISTRIBUTION_SIZE = 4;
     final static int ADS_PER_DAY = 19;
-    final static int DAYS_OFFSET = -1;
+    final static int DAYS_OFFSET = 1;
     final static int IPHONES_COUNT = 12;
     final static int MAX_FREQUENCE = 4;
 
@@ -255,7 +255,15 @@ public class AvitoGadgets extends Gadgets {
         if (price.length() == 1) {
             return "";
         }
-        return "цена 1 мес гарантии = " + price + "₽<br>";
+        return "- цена 1 мес доп. гарантии = " + price + "₽<br>";
+    }
+
+    private String getPriceOfferYearWarranty(String gadgetName) {
+        String price = mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(EST_RETAIL_MAX));
+        if (price.length() == 1) {
+            return "";
+        }
+        return "- с годом гарантии = " + price + "₽: аксессуары ориг. качества<br>";
     }
 
     private String getWholesaleOffer(String gadgetName) {
@@ -267,11 +275,13 @@ public class AvitoGadgets extends Gadgets {
     }
 
     private String getCreditOffer(ArrayList<String> gadget) {
-        return "в кредит на 6 мес = от " + getCreditPrice(gadget) + "₽ в мес<br>";
+        if (getMinPrice(gadget).isEmpty()) {
+            return "";
+        }
+        return "- в кредит на 6 мес = от " + getCreditPrice(gadget) + "₽ в мес<br>";
     }
 
     private int getCreditPrice(ArrayList<String> gadget) {
-        String gadgetName = getGadgetName(gadget);
         int creditPrice = Integer.parseInt(getMinPrice(gadget)) * 112 / 600;
         return (creditPrice / 50 + 1) * 50;
     }
@@ -296,31 +306,39 @@ public class AvitoGadgets extends Gadgets {
 //        String city = CITIES[cityId];
         text += "<p>Уважаемый клиент,<br>" +
                 "Вас приветствует <strong>iSPARK</strong>";
-        text += "</p><p>-> Внимание! Акция: Получите скидку до 500₽ на ремонт вашего устройства " +
-                "<strong>(выполняем качественный ремонт любой электроники с гарантией результата!)</strong>" +
-                " или покупку за опубликованный отзыв";
+        text += "</p><p>-> Акция: Получите скидку до 500₽ на ремонт " +
+                "<strong>(выполняем качественный ремонт любой электроники)</strong>" +
+                " или покупку за опубликованный отзыв!";
         text += "</p><p><strong>Почему iSPARK?</strong><br>" +
-                "1) Мы всегда идем навстречу нашим клиентам и дорожим своей репутацией.<br>" +
+                "1) Мы всегда идем навстречу нашим клиентам и дорожим своей репутацией<br>" +
                 "2) Мы предлагаем гибкие возможности вашей покупки:<br>" +
                 "- Кредит (1.5% в мес)<br>" +
                 "- Трейд-ин (обмен)<br>" +
                 "- Доставка по РФ, ~300₽ (CDEK)<br>" +
                 "- Самовывоз, бесплатно (Казань и Москва)<br>" +
                 "- Опт (от 6 шт)<br>" +
-                "3) На рынке электроники с 2009 года. Опыт интернет-торговли более 2-х лет!</p><p>";
+                "3) На рынке электроники с 2009 года. Опыт интернет-торговли более 2-х лет</p><p>";
         if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
-            text += "Предлагаем вам восстановленные";
+            text += "Предлагаем вам ";
         } else {
             text += "Рады радовать вас новыми";
         }
+        int len = getMinPrice(gadget).length();
         text += " <strong>" + gadgetName + "</strong> цвета <strong>" +
-                color + "</strong> всего за <strong>" + getMinPrice(gadget) + "₽</strong><br>";
+                color + "</strong> всего за <strong>" + getMinPrice(gadget).substring(0, len - 3) + " "
+                + getMinPrice(gadget).substring(len - 3, len) + "₽!</strong><br>";
         if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
+            text += "- стандартно: 2 мес гарантии<br>";
+//            text += getCreditOffer(gadget);
             text += getPriceOfferPerMonthWarranty(gadgetName);
-            text += getCreditOffer(gadget);
+            text += getPriceOfferYearWarranty(gadgetName);
 //            text += getWholesaleOffer(gadgetName);
             text += "</p><p>";
-            text += "- продукция Реф (~б/у), гарантия от iSPARK<br>";
+            text += "- продукция Евротест";
+            if (!gadgetName.contains("SE")) {
+                text += "/Реф";
+            }
+            text += ", гарантия от iSPARK<br>";
             text += "- гарантия полноценная: замена либо бесплатный ремонт (работа мастера и запчасти бесплатно)<br>";
         } else {
             text += getCreditOffer(gadget);
@@ -345,7 +363,7 @@ public class AvitoGadgets extends Gadgets {
                 "- к каждому аппарату предоставляется полный комплект аксессуаров: коробка, ";*/
         if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
             text += "- полностью запечатаны, без следов эксплуатации, полный " +
-                    "комплект (коробка, usb кабель, з/у), проверка при вас<br>";
+                    "комплект, вскрытие и проверка при вас<br>";
         }
 //                        "<p><strong>Условия покупки:</strong><br>" +
 //                        "- предзаказ, скидка до 5%<br>" +
@@ -360,7 +378,7 @@ public class AvitoGadgets extends Gadgets {
         if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
             text += " и гарантийный талон";
         }
-        text += "<br>- пожалуйста предварительно уточняйте наличие товара</p>";
+        text += "<br>- пожалуйста, перед визитом уточняйте наличие товара!</p>";
         text += "<p><strong>Местоположение iSPARK</strong> (см. в Яндекс.Картах, 2ГИС, Google Maps):<br>" +
                 "- г. Казань, ул. Лушникова, д. 8, оф. 1<br>" +
                 "- г. Москва, ул. Молодежная, д. 4, оф. 3<br>" +

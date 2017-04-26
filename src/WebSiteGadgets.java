@@ -100,20 +100,21 @@ public class WebSiteGadgets extends Gadgets {
 
     public void synchronizePrices() {
         for (ArrayList<String> gadget : gadgets) {
-            if (!gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("iPhone ")) {
-                continue;
-            }
             String oldGadgetName = gadget.get(mapGadgetAttributeNumber.get(NAME));
             String[] nameParts = oldGadgetName.substring(1, oldGadgetName.length() - 1).split(" ");
             String gadgetName = "";
             int partId = 0;
-            while (!nameParts[partId].toLowerCase().contains("gb")) {
+            while (partId < nameParts.length && !nameParts[partId].toLowerCase().contains("gb")) {
                 gadgetName += nameParts[partId] + " ";
                 partId++;
             }
-            gadgetName += nameParts[partId].substring(0, nameParts[partId].length() - 2) + "Gb";
+            if (partId < nameParts.length) {
+                gadgetName += nameParts[partId].substring(0, nameParts[partId].length() - 2) + "Gb";
+            }
             String price = "";
-            System.out.println(gadgetName);
+            if (!mapGadgetNamePrices.containsKey(gadgetName)) {
+                continue;
+            }
             if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("RST")) {
                 price = mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(RST_RETAIL));
             } else {
@@ -122,13 +123,15 @@ public class WebSiteGadgets extends Gadgets {
                     s = " Б/О";
                 }
                 price = mapGadgetNamePrices.get(gadgetName + s).get(mapPriceAttributeNumber.get(EST_RETAIL_MAX));
+                if (price.length() == 1) {
+                    price = mapGadgetNamePrices.get(gadgetName + s).get(mapPriceAttributeNumber.get(EST_RETAIL_MIN));
+                }
             }
             partId++;
             while (partId < nameParts.length) {
                 gadgetName += " " + nameParts[partId];
                 partId++;
             }
-            gadgetName = gadgetName.replace("космос", "Космос");
             gadget.set(mapGadgetAttributeNumber.get(NAME), "\"" + gadgetName + "\"");
             gadget.set(mapGadgetAttributeNumber.get(PRICE), price);
         }
@@ -163,6 +166,7 @@ public class WebSiteGadgets extends Gadgets {
 
     public void printYMGadgets(BufferedWriter outWriter) {
         Scanner inScanner = Solution.getInputScanner("selected_ym_items.txt");
+        System.out.println("YM Gadgets..");
         HashSet<String> setSelectedItems = new HashSet<>();
         while (inScanner.hasNextLine()) {
             setSelectedItems.add(inScanner.nextLine());
@@ -170,32 +174,37 @@ public class WebSiteGadgets extends Gadgets {
         String outText = "id;available;price;currencyId;category;picture;url;name;description;manufacturer_warranty\n";
         for (int i = 0; i < gadgets.size(); i++) {
             ArrayList<String> gadget = gadgets.get(i);
-            if (!gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("iPhone ")) {
-                continue;
-            }
             String gadgetName = gadget.get(mapGadgetAttributeNumber.get(NAME)).replace("\"", "");
-            String YMItem = gadget.get(mapGadgetAttributeNumber.get(CATEGORY));
+            if (gadgetName.contains("восстановленный")) {
+                gadgetName = gadgetName.substring(0, gadgetName.length() - 18);
+            }
+            String s = "";
+            if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("EST")) {
+                s = "EST";
+            }
+            if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("RST")) {
+                s = "RST";
+            }
             String warranty = "true";
-            if (YMItem.contains("EST")) {
+            if (s.equals("EST")) {
                 warranty = "false";
             }
-            YMItem = YMItem.substring(YMItem.length() - 3, YMItem.length()) + " " + gadgetName;
-//            System.out.println("-" + YMItem + "-");
-            if (setSelectedItems.contains(YMItem)) {
+//            System.out.println(gadget.get(mapGadgetAttributeNumber.get(CATEGORY)));
+            if (setSelectedItems.contains(s + " " + gadgetName)) {
                 outText += i + ";true;";
                 outText += gadget.get(mapGadgetAttributeNumber.get(PRICE)) + ";RUR;Мобильные телефоны;";
                 outText += gadget.get(mapGadgetAttributeNumber.get(PICTURE)) + ";";
                 outText += gadget.get(mapGadgetAttributeNumber.get(URL)) + ";";
                 outText += gadget.get(mapGadgetAttributeNumber.get(NAME)) + ";";
                 if (warranty.equals("true")) {
-                    outText += "\"Официальная гарантия от Apple - 1 год. ";
+                    outText += "\"Официальная гарантия от Apple - 1 год с момента покупки. ";
                 } else {
-                    outText += "\"Полноценная гарантия от iSPARK - 1 год. ";
+                    outText += "\"Гарантия от iSPARK - 1 год с момента покупки. ";
                 }
                 outText += gadgetName + " будет с тобой каждую секунду жизни. Быстрый, отзывчивый, " +
                         "незаменимый, словно надежный и проверенный друг, которому просто и легко довериться. Он" +
                         " создан сделать твою жизнь проще и позволит получить удовольствие от каждого её мгновения. " +
-                        "Купите новый " + gadgetName + ", и в этом легко будет убедиться!\";";
+                        "Купите " + gadgetName + ", и в этом легко будет убедиться!\";";
                 outText += warranty + "\n";
             }
         }

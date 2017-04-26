@@ -156,7 +156,7 @@ public class Solution {
         Gadgets.initializeFromPriceList();
 
         //Avito
-//        renamePhotosFiles(new File(Gadgets.ROOT_DIR), new File(Gadgets.ROOT_DIR + "Apple"));
+        renamePhotosFiles(new File(Gadgets.ROOT_DIR), new File(Gadgets.ROOT_DIR + "Apple"));
         iphonesAvito = new AvitoGadgets();
         iphonesAvito.initializeIPhones();
         iphonesAvito.generateGadgets(0, new ArrayList<String>());
@@ -164,7 +164,6 @@ public class Solution {
         iphonesAvito.generateXML();
 
         //Youla
-//        renamePhotosFiles(new File(Gadgets.ROOT_DIR), new File(Gadgets.ROOT_DIR + "Apple"));
         iphonesYoula = new YoulaGadgets();
         iphonesYoula.initializeIPhones();
         iphonesYoula.generateGadgets(0, new ArrayList<String>());
