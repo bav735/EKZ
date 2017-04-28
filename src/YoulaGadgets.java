@@ -209,9 +209,9 @@ public class YoulaGadgets extends Gadgets {
         }
         text += getYoulaAdName(gadget);
         if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
-            text += ", гарантия от 1 месяца до 1 года";
+            text += ", гарантия от 2 месяцев до 1 года с момента покупки";
         } else {
-            text += ", официальная гарантия 1 год";
+            text += ", официальная гарантия 1 год с момента покупки";
         }
         text += ". Также выполняем качественный ремонт любой электроники с гарантией результата." +
                 " Звоните по всем интересующим вопросам!";

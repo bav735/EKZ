@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/WebSiteGadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/WebSiteGadgets.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/YoulaGadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/YoulaGadgets.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/price_list_ispark.txt" afterPath="$PROJECT_DIR$/Input/price_list_ispark.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/selected_ym_items.txt" afterPath="$PROJECT_DIR$/Input/selected_ym_items.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/shop_items.csv" afterPath="$PROJECT_DIR$/Input/shop_items.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/AdsXML.xml" afterPath="$PROJECT_DIR$/Output/AdsXML.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day01/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day01/1.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day01/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day01/2.txt" />
@@ -162,9 +158,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day30/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day30/5.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/shop_items.csv" afterPath="$PROJECT_DIR$/Output/shop_items.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/yandex_market_items.csv" afterPath="$PROJECT_DIR$/Output/yandex_market_items.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AvitoGadgets.java" afterPath="$PROJECT_DIR$/src/AvitoGadgets.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution.java" afterPath="$PROJECT_DIR$/src/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WebSiteGadgets.java" afterPath="$PROJECT_DIR$/src/WebSiteGadgets.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/YoulaGadgets.java" afterPath="$PROJECT_DIR$/src/YoulaGadgets.java" />
     </list>
     <ignored path="EKZ.iws" />
@@ -198,15 +191,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AvitoGadgets.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AvitoGadgets.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="336" column="41" selection-start-line="336" selection-start-column="41" selection-end-line="336" selection-end-column="41" />
+            <state relative-caret-position="313">
+              <caret line="350" column="41" selection-start-line="350" selection-start-column="41" selection-end-line="350" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1493214551800" expanded="true" signature="15811:15825" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YoulaGadgets.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/YoulaGadgets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="213" column="59" selection-start-line="213" selection-start-column="59" selection-end-line="213" selection-end-column="59" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -226,8 +229,8 @@
       <file leaf-file-name="yandex_market_items.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Output/yandex_market_items.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="72">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -236,8 +239,8 @@
       <file leaf-file-name="price_list_ispark.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Input/price_list_ispark.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+            <state relative-caret-position="125">
+              <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -265,24 +268,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shop_items.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Input/shop_items.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AdsXML.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Output/AdsXML.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="107810">
               <caret line="9681" column="8" selection-start-line="9681" selection-start-column="8" selection-end-line="9681" selection-end-column="8" />
               <folding>
-                <marker date="1493214584218" expanded="true" signature="40:1314" ph="..." />
-                <marker date="1493214584218" expanded="true" signature="46:496" ph="..." />
+                <marker date="1493398439219" expanded="true" signature="40:1150" ph="..." />
+                <marker date="1493398439219" expanded="true" signature="46:496" ph="..." />
               </folding>
             </state>
           </provider>
@@ -333,16 +326,16 @@
         <option value="$PROJECT_DIR$/Input/shop_items.csv" />
         <option value="$PROJECT_DIR$/Input/distribution.txt" />
         <option value="$PROJECT_DIR$/Input/distribution_youla.txt" />
-        <option value="$PROJECT_DIR$/src/YoulaGadgets.java" />
         <option value="$PROJECT_DIR$/src/Gadgets.java" />
         <option value="$PROJECT_DIR$/Output/yandex_market_items.csv" />
         <option value="$PROJECT_DIR$/Output/AdsXML.xml" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/WebSiteGadgets.java" />
-        <option value="$PROJECT_DIR$/Input/selected_ym_items.txt" />
         <option value="$PROJECT_DIR$/Output/shop_items.csv" />
-        <option value="$PROJECT_DIR$/Input/price_list_ispark.txt" />
         <option value="$PROJECT_DIR$/src/AvitoGadgets.java" />
+        <option value="$PROJECT_DIR$/Input/price_list_ispark.txt" />
+        <option value="$PROJECT_DIR$/Input/selected_ym_items.txt" />
+        <option value="$PROJECT_DIR$/src/YoulaGadgets.java" />
       </list>
     </option>
   </component>
@@ -1198,14 +1191,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/YoulaGadgets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="152" column="40" selection-start-line="152" selection-start-column="40" selection-end-line="152" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -1247,33 +1232,9 @@
         <state relative-caret-position="107810">
           <caret line="9681" column="8" selection-start-line="9681" selection-start-column="8" selection-end-line="9681" selection-end-column="8" />
           <folding>
-            <marker date="1493214584218" expanded="true" signature="40:1314" ph="..." />
-            <marker date="1493214584218" expanded="true" signature="46:496" ph="..." />
+            <marker date="1493398439219" expanded="true" signature="40:1150" ph="..." />
+            <marker date="1493398439219" expanded="true" signature="46:496" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Input/selected_ym_items.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Output/yandex_market_items.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Output/shop_items.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1289,20 +1250,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Input/price_list_ispark.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+        <state relative-caret-position="125">
+          <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Output/shop_items.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/selected_ym_items.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Output/yandex_market_items.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="336" column="41" selection-start-line="336" selection-start-column="41" selection-end-line="336" selection-end-column="41" />
+        <state relative-caret-position="313">
+          <caret line="350" column="41" selection-start-line="350" selection-start-column="41" selection-end-line="350" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1493214551800" expanded="true" signature="15811:15825" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/YoulaGadgets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="213" column="59" selection-start-line="213" selection-start-column="59" selection-end-line="213" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
