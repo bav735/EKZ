@@ -2,22 +2,159 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/WebSiteGadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/WebSiteGadgets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/YoulaGadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/YoulaGadgets.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/price_list_ispark.txt" afterPath="$PROJECT_DIR$/Input/price_list_ispark.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/selected_ym_items.txt" afterPath="$PROJECT_DIR$/Input/selected_ym_items.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/shop_items.csv" afterPath="$PROJECT_DIR$/Input/shop_items.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/AdsXML.xml" afterPath="$PROJECT_DIR$/Output/AdsXML.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day01/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day01/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day01/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day01/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day01/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day01/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day01/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day01/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day01/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day01/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day02/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day02/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day02/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day02/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day02/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day02/3.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day02/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day02/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day02/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day02/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day03/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day03/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day03/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day03/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day03/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day03/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day03/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day03/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day03/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day03/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day04/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day04/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day04/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day04/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day04/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day04/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day04/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day04/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day04/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day04/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day05/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day05/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day05/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day05/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day05/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day05/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day05/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day05/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day05/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day05/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day06/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day06/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day06/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day06/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day06/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day06/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day06/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day06/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day06/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day06/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day07/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day07/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day07/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day07/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day07/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day07/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day07/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day07/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day07/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day07/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day08/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day08/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day08/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day08/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day08/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day08/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day08/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day08/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day08/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day08/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day09/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day09/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day09/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day09/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day09/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day09/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day09/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day09/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day09/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day09/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day10/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day10/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day10/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day10/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day10/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day10/3.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day10/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day10/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day10/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day10/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day11/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day11/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day11/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day11/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day11/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day11/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day11/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day11/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day11/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day11/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day12/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day12/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day12/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day12/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day12/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day12/3.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day12/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day12/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day12/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day12/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day13/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day13/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day13/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day13/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day13/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day13/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day13/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day13/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day13/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day13/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day14/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day14/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day14/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day14/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day14/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day14/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day14/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day14/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day14/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day14/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day15/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day15/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day15/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day15/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day15/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day15/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day15/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day15/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day15/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day15/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day16/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day16/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day16/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day16/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day16/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day16/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day16/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day16/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day16/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day16/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day17/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day17/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day17/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day17/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day17/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day17/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day17/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day17/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day17/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day17/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day18/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day18/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day18/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day18/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day18/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day18/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day18/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day18/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day18/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day18/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day19/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day19/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day19/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day19/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day19/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day19/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day19/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day19/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day19/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day19/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day20/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day20/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day20/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day20/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day20/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day20/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day20/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day20/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day20/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day20/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day21/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day21/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day21/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day21/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day21/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day21/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day21/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day21/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day21/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day21/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day22/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day22/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day22/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day22/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day22/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day22/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day22/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day22/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day22/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day22/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day23/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day23/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day23/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day23/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day23/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day23/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day23/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day23/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day23/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day23/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day24/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day24/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day24/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day24/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day24/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day24/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day24/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day24/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day24/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day24/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day25/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day25/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day25/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day25/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day25/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day25/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day25/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day25/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day25/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day25/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day26/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day26/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day26/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day26/2.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day26/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day26/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day26/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day26/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day26/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day26/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day27/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day27/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day27/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day27/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day27/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day27/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day27/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day27/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day27/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day27/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day28/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day28/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day28/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day28/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day28/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day28/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day28/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day28/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day28/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day28/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day29/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day29/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day29/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day29/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day29/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day29/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day29/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day29/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day29/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day29/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day30/1.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day30/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day30/2.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day30/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day30/3.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day30/3.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day30/4.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day30/4.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/shop_items.csv" afterPath="$PROJECT_DIR$/Output/shop_items.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/yandex_market_items.csv" afterPath="$PROJECT_DIR$/Output/yandex_market_items.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AvitoGadgets.java" afterPath="$PROJECT_DIR$/src/AvitoGadgets.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WebSiteGadgets.java" afterPath="$PROJECT_DIR$/src/WebSiteGadgets.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Youla/Day30/5.txt" afterPath="$PROJECT_DIR$/Output/Youla/Day30/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/YoulaGadgets.java" afterPath="$PROJECT_DIR$/src/YoulaGadgets.java" />
     </list>
     <ignored path="EKZ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,11 +200,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YoulaGadgets.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="YoulaGadgets.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/YoulaGadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3834">
-              <caret line="213" column="59" selection-start-line="213" selection-start-column="59" selection-end-line="213" selection-end-column="59" />
+            <state relative-caret-position="249">
+              <caret line="217" column="57" selection-start-line="217" selection-start-column="57" selection-end-line="217" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -115,7 +252,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdsXML.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdsXML.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Output/AdsXML.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -173,13 +310,13 @@
         <option value="$PROJECT_DIR$/src/Gadgets.java" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/Output/shop_items.csv" />
-        <option value="$PROJECT_DIR$/src/YoulaGadgets.java" />
         <option value="$PROJECT_DIR$/Output/yandex_market_items.csv" />
         <option value="$PROJECT_DIR$/src/WebSiteGadgets.java" />
         <option value="$PROJECT_DIR$/Input/selected_ym_items.txt" />
         <option value="$PROJECT_DIR$/src/AvitoGadgets.java" />
-        <option value="$PROJECT_DIR$/Output/AdsXML.xml" />
         <option value="$PROJECT_DIR$/Input/price_list_ispark.txt" />
+        <option value="$PROJECT_DIR$/Output/AdsXML.xml" />
+        <option value="$PROJECT_DIR$/src/YoulaGadgets.java" />
       </list>
     </option>
   </component>
@@ -1060,14 +1197,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/YoulaGadgets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3834">
-          <caret line="213" column="59" selection-start-line="213" selection-start-column="59" selection-end-line="213" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Input/shop_items.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -1132,6 +1261,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/YoulaGadgets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="217" column="57" selection-start-line="217" selection-start-column="57" selection-end-line="217" selection-end-column="57" />
           <folding />
         </state>
       </provider>
