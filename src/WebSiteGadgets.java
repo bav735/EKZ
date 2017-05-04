@@ -178,21 +178,23 @@ public class WebSiteGadgets extends Gadgets {
             if (gadgetName.contains("восстановленный")) {
                 gadgetName = gadgetName.substring(0, gadgetName.length() - 18);
             }
+            String category = "Мобильные телефоны;";
             String s = "";
             if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("EST")) {
-                s = "EST";
+                s = "EST ";
+            } else if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("RST")) {
+                s = "RST ";
+            } else {
+                category = "Моноколеса и гироскутеры;";
             }
-            if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("RST")) {
-                s = "RST";
+            String warranty = "false";
+            if (s.equals("RST")) {
+                warranty = "true";
             }
-            String warranty = "true";
-            if (s.equals("EST")) {
-                warranty = "false";
-            }
-//            System.out.println(gadget.get(mapGadgetAttributeNumber.get(CATEGORY)));
-            if (setSelectedItems.contains(s + " " + gadgetName)) {
+            System.out.println(gadgetName);
+            if (setSelectedItems.contains(s + gadgetName)) {
                 outText += i + ";true;";
-                outText += gadget.get(mapGadgetAttributeNumber.get(PRICE)) + ";RUR;Мобильные телефоны;";
+                outText += gadget.get(mapGadgetAttributeNumber.get(PRICE)) + ";RUR;" + category;
                 outText += gadget.get(mapGadgetAttributeNumber.get(PICTURE)) + ";";
                 outText += gadget.get(mapGadgetAttributeNumber.get(URL)) + ";";
                 outText += gadget.get(mapGadgetAttributeNumber.get(NAME)) + ";";

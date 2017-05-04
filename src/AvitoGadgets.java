@@ -16,11 +16,11 @@ public class AvitoGadgets extends Gadgets {
     final static String TOUCH_LOCKED = "Б/О";
     final static String NEW = "Новый";
     final static String RFB = "";
-//    final static String[] CITIES = new String[]{"Казань"};
+    //    final static String[] CITIES = new String[]{"Казань"};
     final static String IMG_FILE_NAME = "avito_img";
     final static int DISTRIBUTION_SIZE = 4;
     final static int ADS_PER_DAY = 19;
-    final static int DAYS_OFFSET = 1;
+    final static int DAYS_OFFSET = 0;
     final static int IPHONES_COUNT = 12;
     final static int MAX_FREQUENCE = 4;
 
@@ -221,14 +221,13 @@ public class AvitoGadgets extends Gadgets {
     }
 
     public String getAvitoAdName(ArrayList<String> gadget) {
-        String name = /*NAME_BEGIN + " " + */gadget.get(mapGadgetAttributeNumber.get(QUALITY));
+        String name = "Рассрочка 0-0-6";
         int lastAttr = mapGadgetAttributeNumber.get(COLOR);
         for (int i = mapGadgetAttributeNumber.get(MODEL_LINE); i <= lastAttr; i++) {
             if (!gadget.get(i).isEmpty()) {
                 name += " " + gadget.get(i);
             }
         }
-        name = name + " Кредит 6 мес";
         if (name.length() < 42) {
             name += " Магазин";
         }
@@ -263,7 +262,7 @@ public class AvitoGadgets extends Gadgets {
         if (price.length() == 1) {
             return "";
         }
-        return "- с годом гарантии = " + price + "₽: аксессуары ориг. качества<br>";
+        return "- с годом гарантии = " + formatPrice(price) + "₽: аксессуары ориг. качества<br>";
     }
 
     private String getWholesaleOffer(String gadgetName) {
@@ -299,6 +298,11 @@ public class AvitoGadgets extends Gadgets {
         return price;
     }
 
+    private String formatPrice(String price) {
+        int len = price.length();
+        return price.substring(0, len - 3) + " " + price.substring(len - 3, len);
+    }
+
     private String getNewText(ArrayList<String> gadget) {
         String color = gadget.get(mapGadgetAttributeNumber.get(COLOR));
         String text = "<![CDATA[";
@@ -306,27 +310,30 @@ public class AvitoGadgets extends Gadgets {
 //        String city = CITIES[cityId];
         text += "<p>Уважаемый клиент,<br>" +
                 "Вас приветствует <strong>iSPARK</strong>";
-        text += "</p><p>-> Акция: Получите скидку до 500₽ на ремонт " +
-                "<strong>(выполняем качественный ремонт любой электроники)</strong>" +
-                " или покупку за опубликованный отзыв!";
+        text += "</p><p>-> Акция: Получите скидку до 500₽ на ремонт" +
+//                "выполняем качественный ремонт любой электроники, " +
+                " или покупку за опубликованный отзыв (ВК/Яндекс.Маркет)!";
         text += "</p><p><strong>Почему iSPARK?</strong><br>" +
-                "1) Мы всегда идем навстречу нашим клиентам и дорожим своей репутацией<br>" +
-                "2) Мы предлагаем гибкие возможности вашей покупки:<br>" +
-                "- Кредит (1.5% в мес)<br>" +
+                "1) Мы всегда идем навстречу нашим клиентам и дорожим своей репутацией.<br>" +
+                "2) Предлагаем гибкие возможности вашей покупки:<br>" +
+                "- Рассрочка (0-0-6)<br>" +
+                "- Кредит (~1.5% в мес)<br>" +
+                "- Безналичная оплата (юрлицам)<br>" +
+                "- Оплата по банковской карте (в т.ч. кредитной)<br>" +
+                "- Доставка по РФ, ~300₽ (через CDEK)<br>" +
+                "- Самовывоз (Казань и Москва)<br>" +
                 "- Трейд-ин (обмен)<br>" +
-                "- Доставка по РФ, ~300₽ (CDEK)<br>" +
-                "- Самовывоз, бесплатно (Казань и Москва)<br>" +
                 "- Опт (от 6 шт)<br>" +
-                "3) На рынке электроники с 2009 года. Опыт интернет-торговли более 2-х лет</p><p>";
-        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
-            text += "Предлагаем вам ";
-        } else {
-            text += "Рады радовать вас новыми";
-        }
+                "- Выкуп<br>" +
+                "3) На рынке электроники с 2009 года. Опыт ведения бизнеса в Интернете более 2-х лет.</p><p>";
+//        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
+//            text += "Предлагаем вам";
+//        } else {
+//            text += "Рады радовать вас новыми";
+//        }
         int len = getMinPrice(gadget).length();
-        text += " <strong>" + gadgetName + "</strong> цвета <strong>" +
-                color + "</strong> всего за <strong>" + getMinPrice(gadget).substring(0, len - 3) + " "
-                + getMinPrice(gadget).substring(len - 3, len) + "₽!</strong><br>";
+        text += "В наличии/под заказ <strong>" + gadgetName + "</strong> цвета <strong>" +
+                color + "</strong> всего за <strong>" + formatPrice(getMinPrice(gadget)) + "₽!</strong><br>";
         if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
             text += "- стандартно: 2 мес гарантии<br>";
 //            text += getCreditOffer(gadget);
@@ -334,16 +341,18 @@ public class AvitoGadgets extends Gadgets {
             text += getPriceOfferYearWarranty(gadgetName);
 //            text += getWholesaleOffer(gadgetName);
             text += "</p><p>";
-            text += "- продукция Евротест";
+            text += "- продукция ";
             if (!gadgetName.contains("SE")) {
-                text += "/Реф";
+                text += "Евротест/Реф";
+            } else {
+                text += " США, неактивированный";
             }
             text += ", гарантия от iSPARK<br>";
             text += "- гарантия полноценная: замена либо бесплатный ремонт (работа мастера и запчасти бесплатно)<br>";
         } else {
             text += getCreditOffer(gadget);
             text += "</p><p>";
-            text += "- официальная гарантия от Apple: 1 год<br>";
+            text += "- неактивированный, официальная гарантия от Apple: 1 год<br>";
         }
         /*String os = "";
         if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).contains("Apple")) {
@@ -432,7 +441,7 @@ public class AvitoGadgets extends Gadgets {
             }
         }
         String dateBegin = getDateByCalendar(calendarZero);
-        ad += "\t\t<Id>n" + gadgetNum + "</Id>\n";
+        ad += "\t\t<Id>a" + gadgetNum + "</Id>\n";
         ad += "\t\t<DateBegin>" + dateBegin + "</DateBegin>\n";
         ad += "\t\t<AllowEmail>Да</AllowEmail>\n";
         ad += "\t\t<ManagerName>Оператор-консультант</ManagerName>\n";
