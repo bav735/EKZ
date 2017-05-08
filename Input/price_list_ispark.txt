@@ -1,6 +1,6 @@
 Apple iPhone 4 8Gb	-	3700	2640	-	-	-
 Apple iPhone 4 16Gb	-	4000	3120	-	-	-
-Apple iPhone 4 32Gb	-	4800	3410	-	-	-
+Apple iPhone 4 32Gb	-	5000	3410	-	-	-
 Apple iPhone 4S 8Gb	-	4700	3520	-	-	-
 Apple iPhone 4S 16Gb	-	5000	3850	-	-	-
 Apple iPhone 4S 32Gb	-	6500	5280	-	-	-
@@ -17,9 +17,9 @@ Apple iPhone 5S 64Gb	-	16000	10450	-	-	-
 Apple iPhone 5S 16Gb Без Отпечатка	12500	10000	7150	250	-	-
 Apple iPhone 5S 32Gb Без Отпечатка	14500	12000	7700	250	-	-
 Apple iPhone 5S 64Gb Без Отпечатка	-	14000	8800	-	-	-
-Apple iPhone 6 16Gb	20000	16500	13200	350	-	-
+Apple iPhone 6 16Gb	20500	17000	13200	350	-	-
 Apple iPhone 6 64Gb	24000	20500	16500	350	-	-
-Apple iPhone 6 128Gb	-	24500	19800	-	-	-
+Apple iPhone 6 128Gb	-	24000	19800	-	-	-
 Apple iPhone 6 16Gb Без Отпечатка	17500	14000	10450	350	-	-
 Apple iPhone 6 64Gb Без Отпечатка	20500	17000	12650	350	-	-
 Apple iPhone 6 128Gb Без Отпечатка	-	20000	14850	-	-	-
@@ -29,21 +29,21 @@ Apple iPhone 6 Plus 128Gb	-	30000	26950	-	-	-
 Apple iPhone 6 Plus 16Gb Без Отпечатка	22000	18500	15950	350	-	-
 Apple iPhone 6 Plus 64Gb Без Отпечатка	26000	22500	19800	350	-	-
 Apple iPhone 6 Plus 128Gb Без Отпечатка	-	26500	22550	-	-	-
-Apple iPhone 6S 16Gb	26000	22000	18700	400	34500	33000
-Apple iPhone 6S 32Gb	-	-	-	-	35000	33472
-Apple iPhone 6S 64Gb	35500	31500	26950	400	39600	37800
-Apple iPhone 6S 128Gb	-	-	-	-	41300	39390
-Apple iPhone 6S Plus 16Gb	-	-	-	-	37100	35350
-Apple iPhone 6S Plus 32Gb	-	-	-	-	40200	38380
-Apple iPhone 6S Plus 64Gb	-	-	-	-	42400	40400
-Apple iPhone 6S Plus 128Gb	-	-	-	-	50600	48400
+Apple iPhone 6S 16Gb	28000	24000	18700	400	33500	32103
+Apple iPhone 6S 32Gb	-	-	-	-	36500	34934
+Apple iPhone 6S 64Gb	34000	30000	23650	400	40000	38305
+Apple iPhone 6S 128Gb	-	-	-	-	43500	41656
+Apple iPhone 6S Plus 16Gb	-	-	-	-	37000	35280
+Apple iPhone 6S Plus 32Gb	-	-	-	-	41500	39585
+Apple iPhone 6S Plus 64Gb	-	-	-	-	43500	41520
+Apple iPhone 6S Plus 128Gb	-	-	-	-	47000	44880
 Apple iPhone SE 16Gb	-	-	-	-	23000	22000
-Apple iPhone SE 32Gb	-	22500	-	-	28100	26950
-Apple iPhone SE 64Gb	-	22500	-	-	30000	28750
-Apple iPhone SE 128Gb	-	-	-	-	36000	34500
-Apple iPhone 7 32Gb	-	-	-	-	42000	40182
-Apple iPhone 7 128Gb	-	-	-	-	48000	45990
+Apple iPhone SE 32Gb	-	22500	-	-	26500	25300
+Apple iPhone SE 64Gb	-	22500	-	-	30000	28704
+Apple iPhone SE 128Gb	-	-	-	-	34500	34500
+Apple iPhone 7 32Gb	-	-	-	-	42500	40700
+Apple iPhone 7 128Gb	-	-	-	-	48500	46410
 Apple iPhone 7 256Gb	-	-	-	-	54000	51700
-Apple iPhone 7 Plus 32Gb	-	-	-	-	50600	48400
-Apple iPhone 7 Plus 128Gb	-	-	-	-	57500	55000
-Apple iPhone 7 Plus 256Gb	-	-	-	-	64400	61600
+Apple iPhone 7 Plus 32Gb	-	-	-	-	50500	48356
+Apple iPhone 7 Plus 128Gb	-	-	-	-	59500	56992
+Apple iPhone 7 Plus 256Gb	-	-	-	-	64500	61712

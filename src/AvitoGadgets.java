@@ -20,7 +20,7 @@ public class AvitoGadgets extends Gadgets {
     final static String IMG_FILE_NAME = "avito_img";
     final static int DISTRIBUTION_SIZE = 4;
     final static int ADS_PER_DAY = 19;
-    final static int DAYS_OFFSET = 0;
+    final static int DAYS_OFFSET = 2;
     final static int IPHONES_COUNT = 12;
     final static int MAX_FREQUENCE = 4;
 
@@ -262,7 +262,7 @@ public class AvitoGadgets extends Gadgets {
         if (price.length() == 1) {
             return "";
         }
-        return "- с годом гарантии = " + formatPrice(price) + "₽: аксессуары ориг. качества<br>";
+        return "- с годом гарантии = " + formatPrice(price) + "₽<br>";
     }
 
     private String getWholesaleOffer(String gadgetName) {
@@ -299,8 +299,9 @@ public class AvitoGadgets extends Gadgets {
     }
 
     private String formatPrice(String price) {
-        int len = price.length();
-        return price.substring(0, len - 3) + " " + price.substring(len - 3, len);
+//        int len = price.length();
+//        return price.substring(0, len - 3) + " " + price.substring(len - 3, len);
+        return price;
     }
 
     private String getNewText(ArrayList<String> gadget) {
@@ -310,69 +311,60 @@ public class AvitoGadgets extends Gadgets {
 //        String city = CITIES[cityId];
         text += "<p>Уважаемый клиент,<br>" +
                 "Вас приветствует <strong>iSPARK</strong>";
-        text += "</p><p>-> Акция: Получите скидку до 500₽ на ремонт" +
-//                "выполняем качественный ремонт любой электроники, " +
-                " или покупку за опубликованный отзыв (ВК/Яндекс.Маркет)!";
+        text += "</p><p>->Акция: Гарантия лучшей цены: Нашли дешевле в другом магазине?" +
+                " Сделаем скидку!";
         text += "</p><p><strong>Почему iSPARK?</strong><br>" +
                 "1) Мы всегда идем навстречу нашим клиентам и дорожим своей репутацией.<br>" +
-                "2) Предлагаем гибкие возможности вашей покупки:<br>" +
-                "- Рассрочка (0-0-6)<br>" +
-                "- Кредит (~1.5% в мес)<br>" +
-                "- Безналичная оплата (юрлицам)<br>" +
-                "- Оплата по банковской карте (в т.ч. кредитной)<br>" +
-                "- Доставка по РФ, ~300₽ (через CDEK)<br>" +
-                "- Самовывоз (Казань и Москва)<br>" +
-                "- Трейд-ин (обмен)<br>" +
-                "- Опт (от 6 шт)<br>" +
-                "- Выкуп<br>" +
-                "3) На рынке электроники с 2009 года. Опыт ведения бизнеса в Интернете более 2-х лет.</p><p>";
+                "2) Предлагаем широкие возможности вашей покупки:<br>" +
+//                "- Рассрочка (0-0-6)<br>" +
+//                "- Кредит (~1.5% в мес)<br>" +
+//                "- Безналичная оплата (юрлицам)<br>" +
+//                "- Оплата по банковской карте (в т.ч. кредитной)<br>" +
+//                "- Доставка по РФ, ~300₽ (через CDEK)<br>" +
+//                "- Самовывоз (Казань и Москва)<br>" +
+//                "- Трейд-ин (обмен)<br>" +
+//                "- Опт (от 6 шт)<br>" +
+//                "- Выкуп<br>" +
+                "- КРЕДИТ 1.5% в мес<br>" +
+                "- РАССРОЧКА сроком до 6 мес<br>" +
+                "- ОПЛАТА ПО КАРТЕ дебетовой/кредитной<br>" +
+                "- БЕЗНАЛИЧНАЯ ОПЛАТА для юридических лиц<br>" +
+                "- САМОВЫВОЗ КАЗАНЬ/МОСКВА, бесплатно<br>" +
+                "- ДОСТАВКА ПО РФ от 2 дней, ~300₽<br>" +
+                "- ТРЕЙД-ИН, система обмена<br>" +
+                "- ВЫКУП в течение 10 мин<br>" +
+                "- ОПТ от 6 шт<br>" +
+                "3) Специализируемся на продаже и ремонте электроники с 2009 года.</p><p>";
 //        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
 //            text += "Предлагаем вам";
 //        } else {
 //            text += "Рады радовать вас новыми";
 //        }
         int len = getMinPrice(gadget).length();
-        text += "В наличии/под заказ <strong>" + gadgetName + "</strong> цвета <strong>" +
-                color + "</strong> всего за <strong>" + formatPrice(getMinPrice(gadget)) + "₽!</strong><br>";
+        text += "Рады предложить <strong>" + gadgetName + "</strong> цвета <strong>" +
+                color + "</strong> по лучшей цене в Казани = <strong>" + formatPrice(getMinPrice(gadget)) + "₽!</strong> <br>" +
+                "(в наличии/под заказ имеется ВЕСЬ модельный ряд iPhone)<br>";
         if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
-            text += "- стандартно: 2 мес гарантии<br>";
+            text += "- стандартно: 1 мес гарантии + сервисное обслуживание на 2 года<br>";
 //            text += getCreditOffer(gadget);
             text += getPriceOfferPerMonthWarranty(gadgetName);
             text += getPriceOfferYearWarranty(gadgetName);
 //            text += getWholesaleOffer(gadgetName);
             text += "</p><p>";
-            text += "- продукция ";
+            text += "- характеристики смартфонов смотрите на сайте ispark info<br>";
             if (!gadgetName.contains("SE")) {
-                text += "Евротест/Реф";
+                text += "- РЕФ (восстановленный)*";
             } else {
-                text += " США, неактивированный";
+                text += "- НЕ РЕФ, не восстановленные";
             }
-            text += ", гарантия от iSPARK<br>";
-            text += "- гарантия полноценная: замена либо бесплатный ремонт (работа мастера и запчасти бесплатно)<br>";
+            text += ", гарантия предоставляется iSPARK<br>";
+            text += "- полностью запечатаны, без следов эксплуатации, хороший подарок<br>";
         } else {
-            text += getCreditOffer(gadget);
+//            text += getCreditOffer(gadget);
             text += "</p><p>";
-            text += "- неактивированный, официальная гарантия от Apple: 1 год<br>";
-        }
-        /*String os = "";
-        if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).contains("Apple")) {
-            os = "iOS";
-            s = "App Store, iCloud/iTunes";
-            if (gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).isEmpty() &&
-                    gadgetName.contains("iPhone 5S") ||
-                    gadgetName.contains("iPhone 6") ||
-                    gadgetName.contains("iPhone 6S")) {
-                s += ", работает TouchID (отпечаток пальца)";
-            }
-        } else {
-            os = "Android";
-            s = "Play Market";
-        }
-        text += "- успешно обновляются, регистрируются в официальном магазине приложений " + s + "<br>" +
-                "- к каждому аппарату предоставляется полный комплект аксессуаров: коробка, ";*/
-        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
-            text += "- полностью запечатаны, без следов эксплуатации, полный " +
-                    "комплект, вскрытие и проверка при вас<br>";
+            text += "- характеристики смартфонов смотрите на сайте ispark info<br>";
+            text += "- НЕ РЕФ, не восстановленные, ОФИЦИАЛЬНАЯ гарантия от Apple, 1 ГОД<br>";
+            text += "- полностью запечатаны, без следов эксплуатации, отличный подарок<br>";
         }
 //                        "<p><strong>Условия покупки:</strong><br>" +
 //                        "- предзаказ, скидка до 5%<br>" +
@@ -383,21 +375,22 @@ public class AvitoGadgets extends Gadgets {
         } else {
             text += "350₽<br>";
         }*/
-        text += "- при покупке выдается чек";
-        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
-            text += " и гарантийный талон";
-        }
-        text += "<br>- пожалуйста, перед визитом уточняйте наличие товара!</p>";
-        text += "<p><strong>Местоположение iSPARK</strong> (см. в Яндекс.Картах, 2ГИС, Google Maps):<br>" +
-                "- г. Казань, ул. Лушникова, д. 8, оф. 1<br>" +
-                "- г. Москва, ул. Молодежная, д. 4, оф. 3<br>" +
+        text += "- при покупке выдается товарный чек и гарантийный талон";
+        text += "<br>- пожалуйста, перед визитом уточняйте наличие товара</p>";
+        text += "<p><strong>Местоположение iSPARK в Казани</strong> (см. в Яндекс.Картах, 2ГИС, Google Maps):<br>" +
+                "- г. Казань, ул. Лушникова, д. 8, оф. 5<br>" +
+//                "- г. Москва, ул. Молодежная, д. 4, оф. 3<br>" +
                 "- время работы (пн-сб): 13.00-21.00</p>";
-        text += "<p>Прием звонков: 9.00-21.00, ежедневно<br>" +
+        text += "<p>Прием звонков: 9.00-21.00, без выходных<br>" +
                 "(заказы на нашем сайте можно оставлять круглосуточно)</p>" +
-                "<p>У нас вы всегда найдете наиболее выгодное предложение по приобретению и ремонту" +
+                "<p>У нас вы найдете наиболее выгодное предложение по приобретению и ремонту" +
                 " электроники!<br>" +
                 "С уважением,<br>" +
-                "<strong>Ваш iSPARK<strong/></p>";
+                "<strong>iSPARK<strong/></p>";
+        if (!gadgetName.contains("SE") && gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
+            text += "<br><p>*РЕФ (восстановленный) - телефон, прошедший заводскую процедуру восстановления до" +
+                    " состояния нового путем замены корпуса, экрана, и др. запчастей</p>";
+        }
         text = text.replace(TOUCH_LOCKED, "без отпечатка");
         text += "]]>";
         return text;

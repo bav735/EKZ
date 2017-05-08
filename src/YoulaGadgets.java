@@ -171,9 +171,6 @@ public class YoulaGadgets extends Gadgets {
                 name += " " + gadget.get(i);
             }
         }
-        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
-            name += " с гарантией";
-        }
         return name;
     }
 
@@ -208,9 +205,9 @@ public class YoulaGadgets extends Gadgets {
             text += " Восстановленный ";
         }
         text += getYoulaAdName(gadget);
-        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
-            text += ", гарантия от 1 месяца с момента покупки";
-        } else {
+        if (!gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
+//            text += ", гарантия от 1 месяца с момента покупки";
+//        } else {
             text += ", официальная гарантия 1 год с момента покупки";
         }
         text += ". В продаже имеется весь модельный ряд iPhone!" +
@@ -221,7 +218,7 @@ public class YoulaGadgets extends Gadgets {
 
     public String getAdText(ArrayList<String> gadget) {
         String adText = "";
-        adText += "Название: " + getYoulaAdName(gadget) + "\n";
+        adText += "Название: " + getYoulaAdName(gadget) + " с гарантией\n";
         adText += "Описание: " + getYoulaDescription(gadget) + "\n";
         adText += "Цена: " + getMinPrice(gadget) + "\n";
         String imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/" +

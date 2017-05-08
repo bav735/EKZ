@@ -122,10 +122,10 @@ public class WebSiteGadgets extends Gadgets {
                 if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("БО")) {
                     s = " Б/О";
                 }
-                price = mapGadgetNamePrices.get(gadgetName + s).get(mapPriceAttributeNumber.get(EST_RETAIL_MAX));
-                if (price.length() == 1) {
-                    price = mapGadgetNamePrices.get(gadgetName + s).get(mapPriceAttributeNumber.get(EST_RETAIL_MIN));
-                }
+                price = mapGadgetNamePrices.get(gadgetName + s).get(mapPriceAttributeNumber.get(EST_RETAIL_MIN));
+//                if (price.length() == 1) {
+//                    price = mapGadgetNamePrices.get(gadgetName + s).get(mapPriceAttributeNumber.get(EST_RETAIL_MIN));
+//                }
             }
             partId++;
             while (partId < nameParts.length) {
@@ -188,7 +188,7 @@ public class WebSiteGadgets extends Gadgets {
                 category = "Моноколеса и гироскутеры;";
             }
             String warranty = "false";
-            if (s.equals("RST")) {
+            if (s.equals("RST ")) {
                 warranty = "true";
             }
             System.out.println(gadgetName);
@@ -199,9 +199,9 @@ public class WebSiteGadgets extends Gadgets {
                 outText += gadget.get(mapGadgetAttributeNumber.get(URL)) + ";";
                 outText += gadget.get(mapGadgetAttributeNumber.get(NAME)) + ";";
                 if (warranty.equals("true")) {
-                    outText += "\"Официальная гарантия от Apple - 1 год с момента покупки. ";
+                    outText += "\"Официальная гарантия от Apple - 1 год с момента покупки! ";
                 } else {
-                    outText += "\"Гарантия от iSPARK - 1 год с момента покупки. ";
+                    outText += "\"Гарантия от iSPARK! ";
                 }
                 outText += gadgetName + " будет с тобой каждую секунду жизни. Быстрый, отзывчивый, " +
                         "незаменимый, словно надежный и проверенный друг, которому просто и легко довериться. Он" +
