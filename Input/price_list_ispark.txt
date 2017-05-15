@@ -1,10 +1,10 @@
 Apple iPhone 4 8Gb	-	3700	2640	-	-	-
 Apple iPhone 4 16Gb	-	4000	3120	-	-	-
 Apple iPhone 4 32Gb	-	5000	3410	-	-	-
-Apple iPhone 4S 8Gb	-	4700	3520	-	-	-
-Apple iPhone 4S 16Gb	-	5000	3850	-	-	-
-Apple iPhone 4S 32Gb	-	6500	5280	-	-	-
-Apple iPhone 4S 64Gb	-	7900	6050	-	-	-
+Apple iPhone 4S 8Gb	-	5200	3520	-	-	-
+Apple iPhone 4S 16Gb	-	5500	3850	-	-	-
+Apple iPhone 4S 32Gb	-	6500	4950	-	-	-
+Apple iPhone 4S 64Gb	-	8000	6050	-	-	-
 Apple iPhone 5 16Gb	-	9700	8800	-	-	-
 Apple iPhone 5 32Gb	-	11700	9350	-	-	-
 Apple iPhone 5 64Gb	-	13700	9900	-	-	-
@@ -38,9 +38,9 @@ Apple iPhone 6S Plus 32Gb	-	-	-	-	41500	39585
 Apple iPhone 6S Plus 64Gb	-	-	-	-	43500	41520
 Apple iPhone 6S Plus 128Gb	-	-	-	-	47000	44880
 Apple iPhone SE 16Gb	-	-	-	-	23000	22000
-Apple iPhone SE 32Gb	-	22500	-	-	26500	25300
-Apple iPhone SE 64Gb	-	22500	-	-	30000	28704
-Apple iPhone SE 128Gb	-	-	-	-	34500	34500
+Apple iPhone SE 32Gb	-	-	-	-	25000	24200
+Apple iPhone SE 64Gb	-	-	-	-	30000	28704
+Apple iPhone SE 128Gb	-	-	-	-	33500	33350
 Apple iPhone 7 32Gb	-	-	-	-	42500	40700
 Apple iPhone 7 128Gb	-	-	-	-	48500	46410
 Apple iPhone 7 256Gb	-	-	-	-	54000	51700
