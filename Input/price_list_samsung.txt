@@ -1,0 +1,26 @@
+Samsung Galaxy S3 16Gb	6590	7090	5828	5170	-	-	-	-
+Samsung Galaxy S4 16Gb	8490	9090	7440	6600	-	-	-	-
+Samsung Galaxy S5 16Gb	10990	11790	9672	8580	-	-	-	-
+Samsung Galaxy S6 32Gb	16390	17590	14641	13159	-	-	-	-
+Samsung Galaxy S6 Edge 32Gb	20590	22190	18644	16985	-	-	-	-
+Samsung Galaxy S7 32Gb	21390	22990	19118	17183	37990	41490	36570	35363
+Samsung Galaxy S7 Edge 32Gb	30990	33390	28084	25585	43690	47590	41808	40170
+Samsung Galaxy S8 64Gb	-	-	-	-	49290	53690	47168	45320
+Samsung Galaxy S8 Plus 64Gb	-	-	-	-	54590	59590	52700	51125
+Samsung Galaxy A3 (2015) 8Gb	9190	9890	8260	7525	-	-	-	-
+Samsung Galaxy A3 (2016) 16Gb	-	-	-	-	14390	15690	13625	12969
+Samsung Galaxy A3 (2017) 16Gb	-	-	-	-	19490	21190	18421	17534
+Samsung Galaxy A5 (2015) 16Gb	11490	12390	10384	9460	-	-	-	-
+Samsung Galaxy A5 (2016) 16Gb	15490	16790	14448	13545	18490	20090	17440	16600
+Samsung Galaxy A5 (2017) 16Gb	-	-	-	-	23890	25990	22834	21939
+Samsung Galaxy A7 (2015) 16Gb	14890	15990	13452	12255	-	-	-	-
+Samsung Galaxy A7 (2016) 16Gb	17290	18690	15870	14663	-	-	-	-
+Samsung Galaxy A7 (2017) 16Gb	-	-	-	-	27890	30390	26693	25647
+Samsung Galaxy J1 (2016) 8Gb	-	-	-	-	5990	6390	5324	4785
+Samsung Galaxy J2 (2016) 8Gb	-	-	-	-	8690	9390	8175	7781
+Samsung Galaxy J3 (2016) 8Gb	9190	9890	8395	7756	-	-	-	-
+Samsung Galaxy J5 (2016) 16Gb	12590	13490	11253	10114	-	-	-	-
+Samsung Galaxy J7 (2016) 16Gb	13590	14690	12656	11865	15090	16390	14279	13591
+Samsung Galaxy Note 3 16Gb	11890	12790	10648	9570	-	-	-	-
+Samsung Galaxy Note 4 32Gb	15290	16390	13673	12289	-	-	-	-
+Samsung Galaxy Note 5 32Gb	22090	23690	19723	17726	-	-	-	-

@@ -186,15 +186,12 @@ public class YoulaGadgets extends Gadgets {
         return name;
     }
 
-    private String getMinPrice(ArrayList<String> gadget) {
+    private String getPrice(ArrayList<String> gadget) {
         String price = "";
         String gadgetName = getGadgetName(gadget);
-        price = mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(EST_RETAIL_MIN));
+        price = mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(EST_RETAIL_MAX));
         if (price.length() == 1) {
-            price = mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(EST_RETAIL_MAX));
-        }
-        if (price.length() == 1) {
-            price = mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(RST_RETAIL));
+            price = mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(RST_RETAIL_MAX));
         }
         return price;
     }
@@ -220,7 +217,7 @@ public class YoulaGadgets extends Gadgets {
         String adText = "";
         adText += "Название: " + getYoulaAdName(gadget) + " с гарантией\n";
         adText += "Описание: " + getYoulaDescription(gadget) + "\n";
-        adText += "Цена: " + getMinPrice(gadget) + "\n";
+        adText += "Цена: " + getPrice(gadget) + "\n";
         String imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/" +
                 getGadgetPath(gadget, MODEL) + AvitoGadgets.IMG_FILE_NAME + ".jpg";
         adText += "Ссылка на картинку: " + imgLink;

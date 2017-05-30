@@ -1,112 +1,13 @@
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Scanner;
 
 public class Solution {
     static AvitoGadgets iphonesAvito;
+    static AvitoGadgets samsungsAvito;
     static YoulaGadgets iphonesYoula;
-    static AvitoGadgets galaxys;
-
-    /*public static void computeGalaxys() {
-        galaxys = new AvitoGadgets();
-//        galaxys.initializeGalaxys();
-        try {
-            Scanner inScanner = new Scanner(new FileInputStream("input.txt"));
-            ArrayList<String> galaxyPriceListNames = new ArrayList<String>();
-            ArrayList<String> onePrices = new ArrayList<>();
-            ArrayList<String> secondPrices = new ArrayList<>();
-            while (inScanner.hasNextLine()) {
-                String line = inScanner.nextLine();
-                String[] words = line.split(" ");
-                if (!words[1].equals("Galaxy")) {
-                    continue;
-                }
-                int i = 0;
-                String name = "Samsung";
-                do {
-                    i++;
-                    name += " " + words[i];
-                } while (!words[i].contains("Gb"));
-                galaxyPriceListNames.add(name);
-                onePrices.add(words[words.length - 2]);
-                secondPrices.add(words[words.length - 1]);
-            }
-            galaxys.initializeFromPriceList(onePrices, secondPrices, galaxyPriceListNames);
-            galaxys.generateGadgets(0, new ArrayList<String>());
-            galaxys.generateGadgetFiles();
-            inScanner.close();
-        } catch (FileNotFoundException e) {
-            System.out.print("Exception: Input file not found!");
-        }
-    }*/
-
-    public static void computeYMDescription() {
-        BufferedReader br = null;
-        BufferedWriter outWriter = null;
-        try {
-            br = new BufferedReader(new InputStreamReader(new FileInputStream("price_list.xml")));
-            File directory = new File("Output");
-            String fileName = "price_list.xml";
-            File file = new File(directory, fileName.replaceAll("[\\s/]", ""));
-            file.getParentFile().mkdirs();
-            OutputStream os = new BufferedOutputStream(Files.newOutputStream(Paths.get(file.getCanonicalPath())));
-            outWriter = new BufferedWriter(new OutputStreamWriter(os));
-            String inputs = "";
-            String line;
-            while ((line = br.readLine()) != null) {
-                if (line.contains("<description>")) {
-                    boolean isDesc = false;
-                    while (!isDesc) {
-                        char[] inputc = line.toCharArray();
-                        for (int i = 0; i < inputc.length; i++) {
-                            if (Character.UnicodeBlock.CYRILLIC.equals(Character.UnicodeBlock.of(inputc[i]))) {
-                                isDesc = true;
-                                break;
-                            }
-                        }
-                        if (!isDesc) {
-                            line = br.readLine();
-                        }
-                    }
-                    String description = line.substring(line.indexOf(">") + 1, line.length());
-                    description = description.replace("p&amp;", "");
-                    description = description.replace("amp", "");
-                    description = description.replace("lt", "");
-                    description = description.replace("gt", "");
-                    description = description.replace("nbsp", "");
-                    description = description.replace("span", "");
-                    description = description.replace("ndash", "");
-                    description = description.replace(";", "");
-                    description = description.replace("&", "");
-                    description = description.replace("/", "");
-                    description = description.replace("br br", "");
-                    description = description.replace("br ", "\n");
-                    description = description.replace("  ", " ");
-                    while (!line.contains("</description>")) {
-                        line = br.readLine();
-                    }
-                    inputs += "\t\t\t<description>" + description + "</description>";
-                } else {
-                    inputs += line;
-                }
-                inputs += "\n";
-            }
-            outWriter.write(inputs);
-            outWriter.flush();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            if (br != null) {
-                try {
-                    br.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-    }
 
     public static Scanner getInputScanner(String fileName) {
         try {
@@ -152,33 +53,96 @@ public class Solution {
         }
     }
 
+    private static void computeYML() {
+        Scanner inScanner = Solution.getInputScanner("categories_ids.txt");
+        HashSet<Integer> presentItems = new HashSet<>();
+        while (inScanner.hasNextInt()) {
+            presentItems.add(inScanner.nextInt());
+        }
+        inScanner.close();
+        inScanner = Solution.getInputScanner("shop_items_global.xml");
+        String resultYML = "";
+        boolean isOffer = false;
+        String offer;
+        int offerCount = 0;
+        while (inScanner.hasNextLine()) {
+            String line = inScanner.nextLine();
+            if (line.contains("<offer id")) {
+                isOffer = true;
+                offer = line + "\n";
+                boolean isCategoryPresent = false;
+                boolean isSamsungApple = false;
+                while (inScanner.hasNextLine()) {
+                    String offerLine = inScanner.nextLine();
+                    if (offerLine.contains("<categoryId>")) {
+                        int pos = offerLine.indexOf(">");
+                        int category = Integer.parseInt(offerLine.substring(pos + 1, pos + 8));
+                        isCategoryPresent = presentItems.contains(category);
+                    }
+                    if (offerLine.contains("<name>")) {
+                        isSamsungApple = offerLine.contains("Samsung") ||
+                                offerLine.contains("Apple") ||
+                                offerLine.contains("Sony") ||
+                                offerLine.contains("Xiaomi");
+                    }
+                    offer += offerLine + "\n";
+                    if (offerLine.contains("</offer>")) {
+                        break;
+                    }
+                }
+                if (isCategoryPresent && isSamsungApple) {
+                    resultYML += offer;
+                    offerCount++;
+//                    if (offerCount > 3000) {
+//                        break;
+//                    }
+                }
+            } else {
+                isOffer = false;
+            }
+            if (!isOffer) {
+                resultYML += line + "\n";
+            }
+        }
+        System.out.println(offerCount);
+        Solution.writeText(Solution.getOutputWriter("Output", "shop_items_result.xml"), resultYML);
+    }
+
     public static void main(String[] args) {
-        Gadgets.initializeFromPriceList();
+        computeYML();
+
+        /*Gadgets.initializeFromPriceList();
+        AvitoGadgets.initializeExcludeAds();
 
         //Avito
         renamePhotosFiles(new File(Gadgets.ROOT_DIR), new File(Gadgets.ROOT_DIR + "Apple"));
+
         iphonesAvito = new AvitoGadgets();
         iphonesAvito.initializeIPhones();
         iphonesAvito.generateGadgets(0, new ArrayList<String>());
-        iphonesAvito.distributeIPhones();
-        iphonesAvito.generateXML();
+        iphonesAvito.generateFiles();
+
+        samsungsAvito = new AvitoGadgets();
+        samsungsAvito.initializeSamsungs();
+        samsungsAvito.generateGadgets(0, new ArrayList<String>());
+        samsungsAvito.generateFiles();*/
 
         //Youla
-        iphonesYoula = new YoulaGadgets();
-        iphonesYoula.initializeIPhones();
-        iphonesYoula.generateGadgets(0, new ArrayList<String>());
-        iphonesYoula.distributeIPhones();
-        iphonesYoula.generateFiles();
+//        iphonesYoula = new YoulaGadgets();
+//        iphonesYoula.initializeIPhones();
+//        iphonesYoula.generateGadgets(0, new ArrayList<String>());
+//        iphonesYoula.distributeIPhones();
+//        iphonesYoula.generateFiles();
 
         //WebSite
-        WebSiteGadgets webSiteGadgets = new WebSiteGadgets();
-        webSiteGadgets.initializeFromCSV();
-        webSiteGadgets.synchronizePrices();
-        webSiteGadgets.printCSVGadgets(getOutputWriter("Output", "shop_items.csv"));
+//        WebSiteGadgets webSiteGadgets = new WebSiteGadgets();
+//        webSiteGadgets.initializeFromCSV();
+//        webSiteGadgets.synchronizePrices();
+//        webSiteGadgets.printCSVGadgets(getOutputWriter("Output", "shop_items.csv"));
 
         //Yandex-Market
-        webSiteGadgets.printYMGadgets(getOutputWriter("Output", "yandex_market_items.csv"));
-//        iphonesAvito.generateGadgetFiles();
-//        galaxys.generateGadgetFiles();
+//        webSiteGadgets.printYMGadgets(getOutputWriter("Output", "yandex_market_items.csv"));
+////        iphonesAvito.generateGadgetFiles();
+////        galaxys.generateGadgetFiles();
     }
 }

@@ -1,0 +1,55 @@
+Apple iPhone 4 8Gb	4190	4490	3591	3071	-	-	-	-
+Apple iPhone 4 16Gb	4390	4690	3770	3263	-	-	-	-
+Apple iPhone 4 32Gb	5490	5790	4655	3981	-	-	-	-
+Apple iPhone 4S 8Gb	5290	5690	4550	3938	-	-	-	-
+Apple iPhone 4S 16Gb	5890	6290	5080	4450	-	-	-	-
+Apple iPhone 4S 32Gb	7690	8290	6731	5896	-	-	-	-
+Apple iPhone 4S 64Gb	8290	8890	7150	6188	-	-	-	-
+Apple iPhone 5 16Gb	8190	8790	7192	6380	-	-	-	-
+Apple iPhone 5 32Gb	10590	11390	9438	8483	-	-	-	-
+Apple iPhone 5 64Gb	12090	13090	10974	9998	-	-	-	-
+Apple iPhone 5C 8Gb	8490	9090	7440	6600	-	-	-	-
+Apple iPhone 5C 16Gb	8690	9390	7688	6820	-	-	-	-
+Apple iPhone 5C 32Gb	11390	12090	9906	8678	-	-	-	-
+Apple iPhone 5S 16Gb	11090	11890	9796	8690	18090	19690	17384	16810
+Apple iPhone 5S 32Gb	12490	13290	10790	9338	-	-	-	-
+Apple iPhone 5S 64Gb	14290	15190	12446	10903	-	-	-	-
+Apple iPhone 5S 16Gb Без Отпечатка	9290	9990	8184	7260	-	-	-	-
+Apple iPhone 5S 32Gb Без Отпечатка	10390	11190	9176	8140	-	-	-	-
+Apple iPhone 5S 64Gb Без Отпечатка	12590	13490	11253	10114	-	-	-	-
+Apple iPhone 6 16Gb	16790	18090	15410	14238	-	-	-	-
+Apple iPhone 6 32Gb	-	-	-	-	26590	28990	25512	24630
+Apple iPhone 6 64Gb	20390	22090	18745	17319	-	-	-	-
+Apple iPhone 6 128Gb	22690	24390	20532	18705	-	-	-	-
+Apple iPhone 6 16Gb Без Отпечатка	14390	15390	12826	11528	-	-	-	-
+Apple iPhone 6 64Gb Без Отпечатка	16390	17690	14868	13545	-	-	-	-
+Apple iPhone 6 128Gb Без Отпечатка	19290	20790	17464	15910	-	-	-	-
+Apple iPhone 6 Plus 16Gb	22890	24790	21045	19444	-	-	-	-
+Apple iPhone 6 Plus 64Gb	29190	31490	26795	24756	-	-	-	-
+Apple iPhone 6 Plus 128Gb	35390	38290	32545	30069	-	-	-	-
+Apple iPhone 6 Plus 16Gb Без Отпечатка	18190	19390	15875	13906	-	-	-	-
+Apple iPhone 6 Plus 64Gb Без Отпечатка	24290	25990	21452	19030	-	-	-	-
+Apple iPhone 6 Plus 128Gb Без Отпечатка	30390	32690	27225	24469	-	-	-	-
+Apple iPhone 6S 16Gb	21690	23390	19895	18381	30190	32190	26130	22613
+Apple iPhone 6S 32Gb	-	-	-	-	34590	37590	32700	31125
+Apple iPhone 6S 64Gb	27690	29990	25760	24150	36090	39090	33600	31500
+Apple iPhone 6S 128Gb	-	-	-	-	40990	44690	39432	38130
+Apple iPhone 6S 16Gb Без Отпечатка	17290	18690	15694	14298	-	-	-	-
+Apple iPhone 6S 32Gb Без Отпечатка	19990	21590	18243,4	16760	-	-	-	-
+Apple iPhone 6S 64Gb Без Отпечатка	21590	23290	19780	18275	-	-	-	-
+Apple iPhone 6S Plus 16Gb	28290	30590	26320	24675	38590	42090	37100	35875
+Apple iPhone 6S Plus 32Gb	-	-	-	-	42990	46890	41340	39975
+Apple iPhone 6S Plus 64Gb	33390	36190	31136	29190	44090	48090	42400	41000
+Apple iPhone 6S Plus 128Gb	-	-	-	-	48490	52890	46640	45100
+Apple iPhone 6S Plus 16Gb Без Отпечатка	22390	24090	20296	18490	-	-	-	-
+Apple iPhone 6S Plus 64Gb Без Отпечатка	25390	27290	22748	20445	-	-	-	-
+Apple iPhone SE 16Gb	18990	20590	17696	16590	21690	23690	20882	20193
+Apple iPhone SE 32Gb	-	-	-	-	24390	26590	23108	21995
+Apple iPhone SE 64Gb	-	-	-	-	28290	30890	27242	26343
+Apple iPhone SE 128Gb	-	-	-	-	30390	33190	29256	28290
+Apple iPhone 7 32Gb	35890	39090	34008	32370	40190	43890	38690	37413
+Apple iPhone 7 128Gb	-	-	-	-	46790	51090	45050	43563
+Apple iPhone 7 256Gb	-	-	-	-	50090	54690	48230	46638
+Apple iPhone 7 Plus 32Gb	-	-	-	-	48490	52890	46640	45100
+Apple iPhone 7 Plus 128Gb	-	-	-	-	56190	61290	54060	52275
+Apple iPhone 7 Plus 256Gb	-	-	-	-	59990	65490	57770	55863

@@ -116,13 +116,13 @@ public class WebSiteGadgets extends Gadgets {
                 continue;
             }
             if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("RST")) {
-                price = mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(RST_RETAIL));
+                price = mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(RST_RETAIL_MAX));
             } else {
                 String s = "";
                 if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("БО")) {
                     s = " Б/О";
                 }
-                price = mapGadgetNamePrices.get(gadgetName + s).get(mapPriceAttributeNumber.get(EST_RETAIL_MIN));
+                price = mapGadgetNamePrices.get(gadgetName + s).get(mapPriceAttributeNumber.get(EST_RETAIL_MAX));
 //                if (price.length() == 1) {
 //                    price = mapGadgetNamePrices.get(gadgetName + s).get(mapPriceAttributeNumber.get(EST_RETAIL_MIN));
 //                }
