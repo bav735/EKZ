@@ -89,18 +89,9 @@ public class Solution {
                         isCategoryPresent = presentItems.contains(category);
                     }
                     String vendor = getValueByTag(offerLine, "vendor");
-                    if (vendor != null) {
-                        isSamsungApple = true;
-//                                vendor.contains("Samsung") ||
-//                                vendor.contains("Apple") ||
-//                                vendor.contains("Sony") ||
-//                                vendor.contains("Xiaomi") ||
-//                                vendor.contains("GoPro") ||
-//                                vendor.contains("Microsoft") ||
-//                                vendor.contains("Meizu");
-                    }
                     offer += offerLine + "\n";
                     if (offerLine.contains("</offer>") || !inScanner.hasNextLine()) {
+                        offer = offer.replaceAll("<description>[\\S\\s]+<\\/description>", "<description></description>");
                         break;
                     }
                     offerLine = inScanner.nextLine();

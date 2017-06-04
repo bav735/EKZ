@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-            <yml_catalog date="2017-05-30 23:26">
-        <shop><name>iSPARK</name>
+   <yml_catalog date="2017-05-30 23:26">
+  <shop><name>iSPARK</name>
 <company>Интернет-магазин iSPARK</company>
 <url>www.ispark.info</url>
 <currencies>
@@ -12,21 +12,6 @@
 	<category id="512" parentId="10">Кнопочные телефоны</category>
 </categories>
 <offers>
-<offer available="1" bid="10" cbid="10" id="30024649" type="vendor.model"><barcode>8806088276380</barcode><categoryId>761</categoryId><currencyId>RUR</currencyId><delivery>true</delivery><description>Проводная гарнитура: в комплекте,
-Датчик ускорения (G-sensor): Да,
-Диагональ/разрешение: 5.1"/2560х1440 пикс.,
-Беспроводная зарядка: Да,
-Макс. емкость карты памяти: 200 ГБ,
-Модель: SM-G930FD,
-Сенсорный дисплей: Да,
-Количество ядер: 8,
-Поддержка Wi-Fi: IEEE 802.11 a/b/g/n/ac,
-Габаритные размеры (В*Ш*Г): 143*70*8 мм,
-Серия: Galaxy S7,
-Тип процессора: Exynos 8890,
-Частота процессора: 2.3 ГГц,
-Базовый цвет: черный ,
-Цифровой компас: Да,
-Оперативная память (RAM): 4 ГБ,
-Технология Wi-Fi Direct: Да</description><local_delivery_cost>0</local_delivery_cost><manufacturer_warranty>true</manufacturer_warranty><model>Galaxy S7 32GB DS SM-G930FD Black Onyx</model><modified_time>1496178928</modified_time><name>Смартфон Samsung</name><param name="Вес" unit="г">152</param><param name="Ширина" unit="мм">70</param><param name="Глубина" unit="мм">8</param><param name="Высота" unit="мм">143</param><param name="Цвет" unit="">черный</param><pickup>true</pickup><picture>http://img.mvideo.ru/Pdb/30024649b.jpg</picture><price>39990.0</price><store>false</store><typePrefix>Смартфон</typePrefix><url>https://ad.admitad.com/g/c9f1ad68bc6911fc90163a3184f61a/?i=5&amp;ulp=http%3A%2F%2Fwww.mvideo.ru%2Fproducts%2Fsmartfon-samsung-galaxy-s7-32gb-ds-sm-g930fd-black-onyx-30024649%3FcityId%3DCityCZ_975</url><vendor>Samsung</vendor></offer>
+<offer available="true" bid="10" cbid="10" id="30024622" type="vendor.model"><barcode>8806088212722</barcode><categoryId>761</categoryId><currencyId>RUR</currencyId><delivery>false</delivery><description></description><local_delivery_cost>0</local_delivery_cost><manufacturer_warranty>true</manufacturer_warranty><model>Galaxy J mini SM-J105H/DS Gold</model><modified_time>1496178928</modified_time><name>Смартфон Samsung</name><param name="Вес" unit="г">123</param><param name="Ширина" unit="мм">63</param><param name="Глубина" unit="мм">11</param><param name="Высота" unit="мм">122</param><param name="Цвет" unit="">золотистый</param><pickup>true</pickup><picture>http://img.mvideo.ru/Pdb/30024622b.jpg</picture><price>4990.0</price><store>false</store><typePrefix>Смартфон</typePrefix><url>https://ad.admitad.com/g/c9f1ad68bc6911fc90163a3184f61a/?i=5ulp=http%3A%2F%2Fwww.mvideo.ru%2Fproducts%2Fsmartfon-samsung-galaxy-j-mini-sm-j105h-ds-gold-30024622%3FcityId%3DCityCZ_975</url><vendor>Samsung</vendor></offer>
+<offer available="true" bid="10" cbid="10" id="30024649" type="vendor.model"><barcode>8806088276380</barcode><categoryId>761</categoryId><currencyId>RUR</currencyId><delivery>false</delivery><description></description><local_delivery_cost>0</local_delivery_cost><manufacturer_warranty>true</manufacturer_warranty><model>Galaxy S7 32GB DS SM-G930FD Black Onyx</model><modified_time>1496178928</modified_time><name>Смартфон Samsung</name><param name="Вес" unit="г">152</param><param name="Ширина" unit="мм">70</param><param name="Глубина" unit="мм">8</param><param name="Высота" unit="мм">143</param><param name="Цвет" unit="">черный</param><pickup>true</pickup><picture>http://img.mvideo.ru/Pdb/30024649b.jpg</picture><price>39990.0</price><store>false</store><typePrefix>Смартфон</typePrefix><url>https://ad.admitad.com/g/c9f1ad68bc6911fc90163a3184f61a/?i=5ulp=http%3A%2F%2Fwww.mvideo.ru%2Fproducts%2Fsmartfon-samsung-galaxy-s7-32gb-ds-sm-g930fd-black-onyx-30024649%3FcityId%3DCityCZ_975</url><vendor>Samsung</vendor></offer>
 </offers></shop></yml_catalog>
