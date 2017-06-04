@@ -1,6 +1,7 @@
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Scanner;
 
@@ -66,9 +67,9 @@ public class Solution {
 
     private static void computeYML() {
         Scanner inScanner = Solution.getInputScanner("categories_ids.txt");
-        HashSet<String> presentItems = new HashSet<>();
+        HashSet<String> categories = new HashSet<>();
         while (inScanner.hasNext()) {
-            presentItems.add(inScanner.next());
+            categories.add(inScanner.next());
         }
         inScanner.close();
         inScanner = Solution.getInputScanner("shop_items_global.xml");
@@ -76,6 +77,8 @@ public class Solution {
         boolean isOffer;
         String offer;
         int offerCount = 0;
+        HashSet<String> vendors = new HashSet<>();
+        HashMap<String, String> subcategories = new HashMap<>();
         while (inScanner.hasNextLine()) {
             String offerLine = inScanner.nextLine();
             if (offerLine.contains("<offer ")) {
@@ -86,9 +89,10 @@ public class Solution {
                 while (true) {
                     String category = getValueByTag(offerLine, "categoryId");
                     if (category != null) {
-                        isCategoryPresent = presentItems.contains(category);
+                        isCategoryPresent = categories.contains(category);
                     }
                     String vendor = getValueByTag(offerLine, "vendor");
+                    vendors.add(vendor);
                     offer += offerLine + "\n";
                     if (offerLine.contains("</offer>") || !inScanner.hasNextLine()) {
                         offer = offer.replaceAll("<description>[\\S\\s]+<\\/description>", "<description></description>");
