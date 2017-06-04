@@ -12,7 +12,7 @@
 	<category id="512" parentId="10">Кнопочные телефоны</category>
 </categories>
 <offers>
-<offer available="true" bid="10" cbid="10" id="30024649" type="vendor.model"><barcode>8806088276380</barcode><categoryId>761</categoryId><currencyId>RUR</currencyId><delivery>false</delivery><description>Проводная гарнитура: в комплекте,
+<offer available="true" bid="10" cbid="10" id="30024649" type="vendor.model"><barcode>8806088276380</barcode><categoryId>761</categoryId><currencyId>RUR</currencyId><delivery>true</delivery><description>Проводная гарнитура: в комплекте,
 Датчик ускорения (G-sensor): Да,
 Диагональ/разрешение: 5.1"/2560х1440 пикс.,
 Беспроводная зарядка: Да,
