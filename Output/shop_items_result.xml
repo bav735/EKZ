@@ -40,6 +40,7 @@
 	<category id="410" parentId="25">Радиоприемники</category>
 	<category id="723" parentId="25">Цифровые диктофоны</category>	
 </categories>
+<offers>
 <offer available="true" bid="10" cbid="10" id="30019052" type="vendor.model"><barcode>4905524931143</barcode><categoryId>812</categoryId><currencyId>RUR</currencyId><delivery>false</delivery><description>Материал корпуса: металл/ пластик,
 Порт miniUSB 2.0: 1,
 Наушники высокого класса: доп.опция,
