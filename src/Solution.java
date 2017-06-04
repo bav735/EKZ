@@ -53,55 +53,70 @@ public class Solution {
         }
     }
 
+    private static String getValueByTag(String from, String tag) {
+        String openTag = '<' + tag + '>';
+        String closeTag = "</" + tag + ">";
+        int posL = from.indexOf(openTag);
+        if (posL == -1) {
+            return null;
+        }
+        int posR = from.indexOf(closeTag);
+        return from.substring(posL + openTag.length(), posR);
+    }
+
     private static void computeYML() {
         Scanner inScanner = Solution.getInputScanner("categories_ids.txt");
-        HashSet<Integer> presentItems = new HashSet<>();
-        while (inScanner.hasNextInt()) {
-            presentItems.add(inScanner.nextInt());
+        HashSet<String> presentItems = new HashSet<>();
+        while (inScanner.hasNext()) {
+            presentItems.add(inScanner.next());
         }
         inScanner.close();
         inScanner = Solution.getInputScanner("shop_items_global.xml");
         String resultYML = "";
-        boolean isOffer = false;
+        boolean isOffer;
         String offer;
         int offerCount = 0;
         while (inScanner.hasNextLine()) {
-            String line = inScanner.nextLine();
-            if (line.contains("<offer id")) {
+            String offerLine = inScanner.nextLine();
+            if (offerLine.contains("<offer ")) {
+                offer = "";
                 isOffer = true;
-                offer = line + "\n";
                 boolean isCategoryPresent = false;
-                boolean isSamsungApple = false;
-                while (inScanner.hasNextLine()) {
-                    String offerLine = inScanner.nextLine();
-                    if (offerLine.contains("<categoryId>")) {
-                        int pos = offerLine.indexOf(">");
-                        int category = Integer.parseInt(offerLine.substring(pos + 1, pos + 8));
+                boolean isSamsungApple = true;
+                while (true) {
+                    String category = getValueByTag(offerLine, "categoryId");
+                    if (category != null) {
                         isCategoryPresent = presentItems.contains(category);
                     }
-                    if (offerLine.contains("<name>")) {
-                        isSamsungApple = offerLine.contains("Samsung") ||
-                                offerLine.contains("Apple") ||
-                                offerLine.contains("Sony") ||
-                                offerLine.contains("Xiaomi");
+                    String vendor = getValueByTag(offerLine, "vendor");
+                    if (vendor != null) {
+                        isSamsungApple = true;
+//                                vendor.contains("Samsung") ||
+//                                vendor.contains("Apple") ||
+//                                vendor.contains("Sony") ||
+//                                vendor.contains("Xiaomi") ||
+//                                vendor.contains("GoPro") ||
+//                                vendor.contains("Microsoft") ||
+//                                vendor.contains("Meizu");
                     }
                     offer += offerLine + "\n";
-                    if (offerLine.contains("</offer>")) {
+                    if (offerLine.contains("</offer>") || !inScanner.hasNextLine()) {
                         break;
                     }
+                    offerLine = inScanner.nextLine();
                 }
                 if (isCategoryPresent && isSamsungApple) {
                     resultYML += offer;
                     offerCount++;
-//                    if (offerCount > 3000) {
-//                        break;
-//                    }
+                    if (offerCount > 10000) {
+                        break;
+                    }
                 }
             } else {
                 isOffer = false;
             }
             if (!isOffer) {
-                resultYML += line + "\n";
+                resultYML += offerLine + "\n";
             }
         }
         System.out.println(offerCount);
@@ -114,7 +129,6 @@ public class Solution {
         /*Gadgets.initializeFromPriceList();
         AvitoGadgets.initializeExcludeAds();
 
-        //Avito
         renamePhotosFiles(new File(Gadgets.ROOT_DIR), new File(Gadgets.ROOT_DIR + "Apple"));
 
         iphonesAvito = new AvitoGadgets();
