@@ -6,14 +6,94 @@
 <currencies>
 	<currency id="RUR" rate="1"/>
 </currencies>
-<categories>	
+<categories>
 	<category id="10">Мобильные телефоны</category>	
 	<category id="761" parentId="10">Смартфоны</category>
 	<category id="512" parentId="10">Кнопочные телефоны</category>
+	<category id="8">Ноутбуки и планшеты</category>	
+	<category id="927" parentId="8">Планшеты</category>
+	<category id="987" parentId="8">Ноутбуки</category>
+	<category id="1224" parentId="8">Ноутбуки-трансформеры</category>		
+	<category id="25">Аудиотехника</category>
+	<category id="812" parentId="25">MP3 плееры</category>	
+	<category id="454" parentId="25">Радио-часы</category>
+	<category id="410" parentId="25">Радиоприемники</category>
+	<category id="723" parentId="25">Цифровые диктофоны</category>
+	<category id="5001">Гироскутеры и самокаты</category>	
+	<category id="5000" parentId="5001">Гироскутеры</category>
+	<category id="4228" parentId="5000">Гироскутеры 10 дюймов</category>
+	<category id="3629" parentId="5000">Гироскутеры 6.5 дюймов</category>
+	<category id="4809" parentId="5000">Гироскутеры 8 дюймов</category>
+	<category id="4008" parentId="5001">Электрические самокаты</category>	
+	<category id="4007" parentId="5001">Моноколесо</category>
+	<category id="64">Гаджеты</category>
+	<category id="2948" parentId="64">Умные часы</category>
+	<category id="2291" parentId="64">Экшн камеры</category>				
+	<category id="3387" parentId="64">Очки виртуальной реальности</category>	
+	<category id="1338" parentId="64">Смарт браслеты</category>	
+	<category id="1254" parentId="64">Спортивные часы</category>	
+	<category id="1347" parentId="64">Устройства для спорта и здоровья</category>
+	<category id="1339" parentId="64">Фитнес трекеры</category>		
+	<category id="56">Радиоуправляемые устройства</category>
+	<category id="3874" parentId="56">Квадрокоптеры</category>
+	<category id="3873" parentId="56">Вертолеты</category>
+	<category id="3877" parentId="56">Катеры и подводные лодки</category>
+	<category id="3876" parentId="56">Машины</category>
+	<category id="3878" parentId="56">Танки</category>		
+	<category id="5002">Аксессуары</category>
+	<category id="54" parentId="5002">Наушники</category>
+	<category id="4307" parentId="54">Наушники Плеер</category>
+	<category id="1706" parentId="54">Наушники Bluetooth</category>	
+	<category id="1151" parentId="54">Наушники накладные</category>
+	<category id="1152" parentId="54">Наушники полноразмерные</category>
+	<category id="4167" parentId="54">Наушники с костной проводимостью звука</category>
+	<category id="1150" parentId="54">Наушники-вкладыши</category>
+	<category id="2789" parentId="54">Спортивные наушники</category>
+	<category id="2909" parentId="54">Спортивные наушники Bluetooth</category>	
+	<category id="58" parentId="5002">Аксессуары для телефонов</category>
+	<category id="1008" parentId="58">Сетевые зарядные устройства</category>
+	<category id="1191" parentId="58">Автомобильные зарядные устройства</category>
+	<category id="2129" parentId="58">Беспроводные зарядные устройства</category>
+	<category id="1009" parentId="58">Кабели USB</category>
+	<category id="1705" parentId="58">Кабели AUX</category>
+	<category id="1189" parentId="58">Чехлы</category>	
+	<category id="1227" parentId="58">Чехлы-аккумуляторы</category>	
+	<category id="1228" parentId="58">Внешние аккумуляторы</category>
+	<category id="1523" parentId="58">Защитные стекла</category>	
+	<category id="876" parentId="58">Защитные пленки</category>
+	<category id="2169" parentId="58">Моноподы (селфи-палка)</category>	
+	<category id="1097" parentId="58">Адаптеры-Переходники</category>
+	<category id="4907" parentId="58">Геймпады</category>
+	<category id="2345" parentId="58">Док-станции</category>		
+	<category id="1073" parentId="58">Карты памяти</category>
+	<category id="1383" parentId="58">Медиа-стримеры</category>		
+	<category id="3388" parentId="58">Перчатки с гарнитурой</category>			
+	<category id="1193" parentId="58">Bluetooth USB адаптер для телефона</category>
+	<category id="974" parentId="58">Bluetooth гарнитуры</category>
+	<category id="47" parentId="5002">Аксессуары для планшетов</category>
+	<category id="1259" parentId="47">Автомобильные зарядные устройства</category>
+	<category id="1109" parentId="47">Чехлы</category>
+	<category id="2090" parentId="47">Защитные стекла</category>
+	<category id="1110" parentId="47">Защитные пленки</category>
+	<category id="1112" parentId="47">Адаптеры-переходники</category>				
+	<category id="1221" parentId="47">Клавиатуры</category>		
+	<category id="3010" parentId="47">Стилусы</category>		
+	<category id="24" parentId="5002">Компьютерные аксессуары</category>	
+	<category id="843" parentId="24">Проводные мыши</category>
+	<category id="453" parentId="24">Беспроводные мыши</category>
+	<category id="852" parentId="24">Проводные клавиатуры</category>
+	<category id="597" parentId="24">Беспроводные клавиатуры</category>	
+	<category id="907" parentId="24">Чехлы для внешнего жесткого диска</category>
+	<category id="971" parentId="24">Чехлы для ноутбуков</category>	
+	<category id="826" parentId="24">Коврики для мыши</category>	
+	<category id="757" parentId="24">Комплекты (клавиатура и мышь)</category>	
+	<category id="972" parentId="24">Подставки к ноутбукам</category>	
+	<category id="781" parentId="24">Флешки</category>
+	<category id="1659" parentId="24">Средства для чистки</category>	
+	<category id="4368" parentId="5002">Аксессуары для умных часов</category>
+	<category id="1209" parentId="5002">Аксессуары для экшн камер</category>	
+	<category id="3369" parentId="5002">Аксессуары для радиоуправляемых устройств</category>	
+	<category id="1124" parentId="5002">Мультимедийные аксессуары</category>
 </categories>
 <offers>
-<offer available="true" bid="10" cbid="10" id="30024622" type="vendor.model"><barcode>8806088212722</barcode><categoryId>761</categoryId><currencyId>RUR</currencyId><delivery>false</delivery><description></description><local_delivery_cost>0</local_delivery_cost><manufacturer_warranty>true</manufacturer_warranty><model>Galaxy J mini SM-J105H/DS Gold</model><modified_time>1496178928</modified_time><name>Смартфон Samsung1</name><param name="Вес" unit="г">123</param><param name="Ширина" unit="мм">63</param><param name="Глубина" unit="мм">11</param><param name="Высота" unit="мм">122</param><param name="Цвет" unit="">золотистый</param><pickup>true</pickup><picture>http://img.mvideo.ru/Pdb/30024622b.jpg</picture><price>4990.0</price><store>false</store><typePrefix>Смартфон</typePrefix><url>a1</url><vendor>Samsung</vendor></offer>
-<offer available="true" bid="10" cbid="10" id="30024649" type="vendor.model"><barcode>8806088276380</barcode><categoryId>761</categoryId><currencyId>RUR</currencyId><delivery>false</delivery><description></description><local_delivery_cost>0</local_delivery_cost><manufacturer_warranty>true</manufacturer_warranty><model>Galaxy S7 32GB DS SM-G930FD Black Onyx</model><modified_time>1496178928</modified_time><name>Смартфон Samsung2</name><param name="Вес" unit="г">152</param><param name="Ширина" unit="мм">70</param><param name="Глубина" unit="мм">8</param><param name="Высота" unit="мм">143</param><param name="Цвет" unit="">черный</param><pickup>true</pickup><picture>http://img.mvideo.ru/Pdb/30024649b.jpg</picture><price>39990.0</price><store>false</store><typePrefix>Смартфон</typePrefix><url>b2</url><vendor>Samsung</vendor></offer>
-<offer available="true" bid="10" cbid="10" id="30024650" type="vendor.model"><barcode>8806088277011</barcode><categoryId>761</categoryId><currencyId>RUR</currencyId><delivery>false</delivery><description></description><local_delivery_cost>0</local_delivery_cost><manufacturer_warranty>true</manufacturer_warranty><model>Galaxy S7 32GB DS SM-G930FD Silver Titanium</model><modified_time>1496135071</modified_time><name>Смартфон Samsung3</name><param name="Вес" unit="г">152</param><param name="Ширина" unit="мм">70</param><param name="Глубина" unit="мм">8</param><param name="Высота" unit="мм">143</param><param name="Цвет" unit="">серебр./титановый</param><pickup>true</pickup><picture>http://img.mvideo.ru/Pdb/30024650b.jpg</picture><price>39990.0</price><store>false</store><typePrefix>Смартфон</typePrefix><url>c3</url><vendor>Samsung</vendor></offer>
-<offer available="true" bid="10" cbid="10" id="30024651" type="vendor.model"><barcode>8806088176161</barcode><categoryId>761</categoryId><currencyId>RUR</currencyId><delivery>false</delivery><description></description><local_delivery_cost>0</local_delivery_cost><manufacturer_warranty>true</manufacturer_warranty><model>Galaxy S7 32GB DS SM-G930FD Gold Platinum</model><modified_time>1496135071</modified_time><name>Смартфон Samsung4</name><param name="Вес" unit="г">152</param><param name="Ширина" unit="мм">70</param><param name="Глубина" unit="мм">8</param><param name="Высота" unit="мм">143</param><param name="Цвет" unit="">золотистый</param><pickup>true</pickup><picture>http://img.mvideo.ru/Pdb/30024651b.jpg</picture><price>39990.0</price><store>false</store><typePrefix>Смартфон</typePrefix><url>d4</url><vendor>Samsung</vendor></offer>
 </offers></shop></yml_catalog>

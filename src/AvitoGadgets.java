@@ -394,7 +394,7 @@ public class AvitoGadgets extends Gadgets {
         String color = gadget.get(mapGadgetAttributeNumber.get(COLOR));
         String offer = "➡" + gadgetName + " " + color + " - " + refPrice + "₽ (";
         if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).contains("Apple")) {
-            offer += "РЕФ США";
+            offer += "РЕФ";
         } else {
             offer += "ЕСТ";
         }
@@ -411,7 +411,7 @@ public class AvitoGadgets extends Gadgets {
         String color = gadget.get(mapGadgetAttributeNumber.get(COLOR));
         String offer = "➡" + gadgetName + " " + color + " - " + newPrice + "₽ (";
         if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).contains("Apple")) {
-            offer += "НОВЫЙ РСТ), гарантия от APPLE\uD83C\uDF4E";
+            offer += "РСТ), гарантия от APPLE\uD83C\uDF4E";
         } else {
             offer += "РСТ), гарантия от Samsung\uD83D\uDCF1";
         }
@@ -529,25 +529,24 @@ public class AvitoGadgets extends Gadgets {
         String text = "";
 //        String gadgetName = getGadgetName(gadget);
 //        String city = CITIES[cityId];
-        text += "Уважаемый клиент,\n" +
+        text += "Уважаемый клиент\n" +
                 "Вас приветствует iSPARK\uD83D\uDD25\n\n";
-        text += "\uD83D\uDCA3Акция: Гарантия лучшей цены: Нашли дешевле в другом магазине?" +
-                " Сделаем скидку❗\n\n";
-        text += "1) Мы всегда идем навстречу нашим клиентам и дорожим своей репутацией.\n" +
-                "2) Предлагаем широкие возможности вашей покупки:\n" +
-                "\uD83D\uDD39РАССРОЧКА сроком до 6 мес\n" +
-                "\uD83D\uDD39КРЕДИТ от банков ОТП/Хоум Кредит\n" +
-                "\uD83D\uDD39ОПЛАТА ПО КАРТЕ дебетовой/кредитной\n" +
+        text += "\uD83D\uDCA3Акция: Гарантия лучшей цены: Нашли дешевле в другом магазине? - " +
+                "Сделаем скидку❗\n\n";
+        text += "❤ Мы всегда идем навстречу нашим клиентам и дорожим своей репутацией.\n" +
+                "\uD83D\uDC47 Предлагаем широкие возможности вашей покупки:\n" +
+                "\uD83D\uDD39РАССРОЧКА/КРЕДИТ от банков ОТП/Хоум Кредит\n" +
                 "\uD83D\uDD39БЕЗНАЛИЧНАЯ ОПЛАТА для юридических лиц\n" +
+                "\uD83D\uDD39ОПЛАТА ПО КАРТЕ дебетовой/кредитной\n" +
                 "\uD83D\uDD39САМОВЫВОЗ КАЗАНЬ/МОСКВА, бесплатно\n" +
                 "\uD83D\uDD39ДОСТАВКА ПО РФ от 2 дней, ~300₽\n" +
                 "\uD83D\uDD39ТРЕЙД-ИН, система обмена\n" +
                 "\uD83D\uDD39ВЫКУП в течение 10 мин\n" +
-                "\uD83D\uDD39ОПТ от 3 шт\n" +
-                "3) Специализируемся на продаже и ремонте электроники с 2009 года.\n\n";
+                "\uD83D\uDD39ОПТ, от 3 шт\n" +
+                "\uD83D\uDD1DСпециализируемся на продаже и ремонте электроники с 2009 года.\n\n";
         if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).contains("Apple")) {
-            text += "Рады предложить оригинальные \uD83D\uDCF1iPhone 4/4s/5/5c/5s/6/6s/SE/7 всех цветов и объемов памяти" +
-                    " по лучшим ценам в Казани! \uD83D\uDE0A\n\n";
+            text += "Рады предложить \uD83D\uDCAFоригинальные айфоны 4/4s/5/5c/5s/6/6s/se/7 всех цветов и объемов памяти" +
+                    " по лучшим ценам в Казани!\uD83D\uDE0A\n\n";
         } else {
             text += "Рады предложить оригинальные Samsung Galaxy s3/s4/s5/s6/s7/s8 edge/plus," +
                     " a3/a5/a7 2015/2015/2017, note 3/4/5 всех цветов и объемов памяти" +
@@ -562,11 +561,11 @@ public class AvitoGadgets extends Gadgets {
         text += "✔ предложение ограничено, пожалуйста уточняйте наличие товара\n\n";
         text += "Местоположение iSPARK, см. в Яндекс.Картах, 2ГИС, Google Maps \uD83C\uDF0D\n" +
                 "▶ г. Казань, ул. Лушникова, д. 8, оф. 5; время работы (пн-сб): 13.00-21.00 ⏰\n\n";
-        text += "\uD83D\uDCDEПрием звонков: 9.00-21.00, без выходных\n\n" +
+        text += "\uD83D\uDCDE Прием звонков: 10.00-20.00, без выходных\n\n" +
 //                "(заказы на нашем сайте можно оставлять круглосуточно)\n\n" +
                 "У нас вы найдете наиболее выгодное предложение по приобретению и ремонту" +
-                " электроники!\uD83D\uDC4D\n" +
-                "С уважением,\n" +
+                " электроники\uD83D\uDC4D\n" +
+                "С уважением\n" +
                 "iSPARK\uD83D\uDD25";
         text = text.replace(TOUCH_LOCKED, "без отпечатка");
         return text;
@@ -728,8 +727,7 @@ public class AvitoGadgets extends Gadgets {
             if (!excludeAds.contains(getAvitoAdName(gadget))) {
                 Solution.writeText(Solution.getOutputWriter("Output/Avito/" +
                                 gadget.get(mapGadgetAttributeNumber.get(VENDOR)) + "/" +
-                                gadget.get(mapGadgetAttributeNumber.get(MODEL)) + "/" +
-                                gadget.get(mapGadgetAttributeNumber.get(MEMORY)), getAvitoAdName(gadget) + ".txt"),
+                                gadget.get(mapGadgetAttributeNumber.get(MODEL)), getAvitoAdName(gadget) + ".txt"),
                         getAdText(gadgets.get(gadgetId)));
             }
         }
