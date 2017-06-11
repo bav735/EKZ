@@ -116,25 +116,39 @@ public class Solution {
                     CategoryTree subcatTree = categoryTree.getChildTree("ignore" + category, category);
                     CategoryTree vendorTree = subcatTree.getChildTree(vendor, null);
                     CategoryTree modelTree = vendorTree;
-                    ArrayList<String> modelSplit = new ArrayList<>(Arrays.asList(model.split("[ \\-,]")));
+                    int tildaCount = 0;
+                    for (int i = 0; i < model.length();i++) {
+                        if(model.charAt(i) == '-') {
+                            tildaCount++;
+                        }
+                    }
+                    ArrayList<String> modelSplit;
+                    if (tildaCount < 2) {
+                        modelSplit = new ArrayList<>(Arrays.asList(model.split("[ ,]")));
+                    } else {
+                        modelSplit = new ArrayList<>(Arrays.asList(model.split("[ \\-,]")));
+                    }
                     int plusId = -1;
-                    for (int i = 0; i < modelSplit.size(); i++) {
-                        if (modelSplit.get(i).equals("Plus")) {
+                    for (int i = 1; i < modelSplit.size(); i++) {
+                        if (modelSplit.get(i).equals("Plus") ||
+                                modelSplit.get(i).equals("Edge") ||
+                                modelSplit.get(i).equals("mini") ||
+                                modelSplit.get(i).equals("Cover")) {
                             plusId = i;
+                            modelSplit.set(plusId - 1, modelSplit.get(plusId - 1) + " " + modelSplit.get(plusId));
                         }
                     }
                     if (plusId != -1) {
-                        modelSplit.set(plusId - 1, modelSplit.get(plusId - 1) + " Plus");
                         modelSplit.remove(plusId);
                     }
                     for (int i = 0; i < modelSplit.size() && i < 4; i++) {
                         String modelPart = modelSplit.get(i);
-                        System.out.println(modelPart);
+//                        System.out.println(modelPart);
                         if (!modelPart.isEmpty()) {
                             modelTree = modelTree.getChildTree(modelPart, null);
-                            CategoryTree.count[Integer.parseInt(modelTree.catId)]++;
                         }
                     }
+                    CategoryTree.count[Integer.parseInt(modelTree.catId)]++;
                 }
             } else {
                 isOffer = false;
@@ -145,6 +159,7 @@ public class Solution {
         }
 
         categoryTree.condenseTree();
+        categoryTree.removeLeaves();
         categoryTree.print(true, Solution.getOutputWriter("Output", "category_result.xml"));
         System.out.println(offerCount);
         Solution.writeText(Solution.getOutputWriter("Output", "shop_items_result.xml"), resultYML);
@@ -157,11 +172,12 @@ public class Solution {
             e.printStackTrace();
         }
 
-        Gadgets.initializeFromPriceList();
-        AvitoGadgets.initializeExcludeAds();
 
 //        renamePhotosFiles(new File("C:/Users/A/Desktop/Фото Авито/Новая папка"),
 //                new File("C:/Users/A/Desktop/Фото Авито/Новая папка/original"), 0);
+
+        /*Gadgets.initializeFromPriceList();
+        AvitoGadgets.initializeExcludeAds();
 
         iphonesAvito = new AvitoGadgets();
         iphonesAvito.initializeIPhones();
@@ -171,7 +187,7 @@ public class Solution {
         samsungsAvito = new AvitoGadgets();
         samsungsAvito.initializeSamsungs();
         samsungsAvito.generateGadgets(0, new ArrayList<String>());
-        samsungsAvito.generateFiles();
+        samsungsAvito.generateFiles();*/
 
         //Youla
 //        iphonesYoula = new YoulaGadgets();

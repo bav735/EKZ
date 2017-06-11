@@ -40,10 +40,10 @@ public class CategoryTree {
         if (children.isEmpty() && isLastCat) {
             bufferedWriter.flush();
         } else {
-            int count = 1;
+            int countCat = 1;
             for (String catName : children.keySet()) {
-                boolean isLast = isLastCat && (count == children.size());
-                count++;
+                boolean isLast = isLastCat && (countCat == children.size());
+                countCat++;
                 CategoryTree child = children.get(catName);
                 if (!child.catName.startsWith("ignore")) {
                     bufferedWriter.write("<category id=\"" + child.catId + "\" parentId=\"" + this.catId + "\">" +
@@ -54,17 +54,11 @@ public class CategoryTree {
         }
     }
 
-    public void condenseCategories() {
-        for (String child : children.keySet()) {
-            CategoryTree childTree = children.get(child);
-
-        }
-    }
-
-    public void condenseTree() {
+    public void removeLeaves() {
         boolean remove = true;
         for (String child : children.keySet()) {
             CategoryTree childTree = children.get(child);
+            System.out.println(childTree.catName + " " + catId + " " + count[Integer.parseInt(childTree.catId)]);
             if (count[Integer.parseInt(childTree.catId)] == 0 ||
                     count[Integer.parseInt(childTree.catId)] > 2) {
                 remove = false;
@@ -73,6 +67,13 @@ public class CategoryTree {
         if (remove) {
             children = new HashMap<>();
         }
+        for (String child : children.keySet()) {
+            CategoryTree childTree = children.get(child);
+            childTree.removeLeaves();
+        }
+    }
+
+    public void condenseTree() {
         if (children.size() == 1) {
             for (String child : children.keySet()) {
                 CategoryTree childTree = children.get(child);
