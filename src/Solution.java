@@ -157,13 +157,13 @@ public class Solution {
             e.printStackTrace();
         }
 
-//        Gadgets.initializeFromPriceList();
-//        AvitoGadgets.initializeExcludeAds();
+        Gadgets.initializeFromPriceList();
+        AvitoGadgets.initializeExcludeAds();
 
 //        renamePhotosFiles(new File("C:/Users/A/Desktop/Фото Авито/Новая папка"),
 //                new File("C:/Users/A/Desktop/Фото Авито/Новая папка/original"), 0);
 
-        /*iphonesAvito = new AvitoGadgets();
+        iphonesAvito = new AvitoGadgets();
         iphonesAvito.initializeIPhones();
         iphonesAvito.generateGadgets(0, new ArrayList<String>());
         iphonesAvito.generateFiles();
@@ -171,7 +171,7 @@ public class Solution {
         samsungsAvito = new AvitoGadgets();
         samsungsAvito.initializeSamsungs();
         samsungsAvito.generateGadgets(0, new ArrayList<String>());
-        samsungsAvito.generateFiles();*/
+        samsungsAvito.generateFiles();
 
         //Youla
 //        iphonesYoula = new YoulaGadgets();
