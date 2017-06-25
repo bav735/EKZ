@@ -5,8 +5,9 @@ import java.nio.file.StandardCopyOption;
 import java.util.*;
 
 public class AvitoGadgets extends Gadgets {
+    static int tSize = 11266;
     final static String NAME_BEGIN = "Рассрочка";
-    //    final static String QUALITY = "Качество";
+    final static String QUALITY = "Качество";
     final static String VENDOR = "Производитель";
     final static String MODEL_LINE = "Модельный ряд";
     final static String MODEL = "Модель";
@@ -18,7 +19,7 @@ public class AvitoGadgets extends Gadgets {
     final static String NEW = "Новый";
     final static String RFB = "";
     //    final static String[] CITIES = new String[]{"Казань"};
-    final static String IMG_FILE_NAME = "avito_img";
+    final static String IMG_FILE_NAME = "img";
     final static int DISTRIBUTION_SIZE = 4;
     final static int ADS_PER_DAY = 19;
     final static int DAYS_OFFSET = 3;
@@ -28,6 +29,7 @@ public class AvitoGadgets extends Gadgets {
     HashMap<String, ArrayList<String>> mapGadgetModelSubmodel;
     HashMap<String, ArrayList<ArrayList<String>>> mapGadgetModelGadgets;
     HashMap<String, ArrayList<String>> mapGadgetModelColor;
+    ArrayList<String> gadgetQuality;
     ArrayList<ArrayList<String>> gadgetAttributesVariants;
     static HashSet<String> excludeAds;
     int[][] gadgetsDistribution;
@@ -37,18 +39,17 @@ public class AvitoGadgets extends Gadgets {
 
     public void initializeIPhones() {
         gadgetAttributeNames = new String[]{
-//                QUALITY,
                 VENDOR,
                 MODEL_LINE,
                 MODEL,
                 MEMORY,
                 FINGER_PRINT,
+                QUALITY,
                 SUBMODEL,
                 COLOR
         };
         initializeMapGadgetAttributeNumber();
         gadgetAttributesVariants = new ArrayList<ArrayList<String>>();
-//        gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("")));
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("Apple")));
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("iPhone")));
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList(
@@ -109,6 +110,7 @@ public class AvitoGadgets extends Gadgets {
                 "128Gb",
                 "256Gb")));
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("", TOUCH_LOCKED)));
+        gadgetQuality = new ArrayList<>(Arrays.asList("", "ЕСТ "));
     }
 
     public void initializeSamsungs() {
@@ -197,7 +199,6 @@ public class AvitoGadgets extends Gadgets {
                 "16Gb",
                 "32Gb",
                 "64Gb")));
-        gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("")));
     }
 
     public void initializeDistribution() {
@@ -220,6 +221,13 @@ public class AvitoGadgets extends Gadgets {
                 excludeAds.add(line);
             }
         }
+        inScanner = Solution.getInputScanner("include_avito_ads.txt");
+        while (inScanner.hasNextLine()) {
+            String line = inScanner.nextLine();
+            if (line.contains(NAME_BEGIN)) {
+                excludeAds.remove(line);
+            }
+        }
         inScanner.close();
     }
 
@@ -230,24 +238,101 @@ public class AvitoGadgets extends Gadgets {
                         gadget.get(mapGadgetAttributeNumber.get(COLOR)).contains("Jet"));
     }
 
+    private boolean excludeModel(String model, String memory, String color) {
+        return model.contains("7") && memory.contains("32") &&
+                (color.contains("Red") || color.contains("Jet"));
+    }
+
+    private String transformColor(String model, String color) {
+        switch (color) {
+            case "Black":
+                if (!model.startsWith("4") && !model.equals("5") && !model.contains("7")) {
+                    return "Space Gray";
+                }
+                break;
+            case "White":
+                if (!model.startsWith("4") && !model.equals("5") && !model.equals("5C")) {
+                    return "Silver";
+                }
+                break;
+            case "Pink":
+                if (!model.equals("5C")) {
+                    return "Rose Gold";
+                }
+                break;
+            case "Red":
+                return "(PRODUCT)RED";
+        }
+        return color;
+    }
+
+    public void printGadgets(int attribute, ArrayList<String> gadget) {
+        if (attribute == gadgetAttributesVariants.size()) {
+            if (mapGadgetNamePrices.containsKey(getGadgetName(gadget))) {
+                if (gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).equals("Б/О")) {
+                    return;
+                }
+                String memory = gadget.get(mapGadgetAttributeNumber.get(MEMORY));
+                System.out.println("!!!!" + memory + ";;;;;;;;;;;;1;;;;;;;" + tSize + ";;;;;;;;;;;;;;;");
+                tSize++;
+                ArrayList<String> prices = mapGadgetNamePrices.get(getGadgetName(gadget));
+                String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
+                for (String quality : gadgetQuality) {
+                    if (quality.isEmpty()) {
+                        if (prices.get(Gadgets.mapPriceAttributeNumber.get(Gadgets.RST_RETAIL_MIN)).length() == 1) {
+                            continue;
+                        }
+                    }
+                    for (String color : mapGadgetModelColor.get(model)) {
+                        if (!quality.isEmpty()) {
+                            if (prices.get(Gadgets.mapPriceAttributeNumber.get(Gadgets.EST_RETAIL_MIN)).length() == 1
+                                    || (model.contains("7") && (color.equals("Red") || color.equals("Jet Black")
+                                    || color.equals("Pink"))) || excludeModel(model, memory, color)) {
+                                continue;
+                            }
+                        }
+//                        gadget.add(color);
+                        String name = "Смартфон Apple iPhone " + model + " " + memory + " " +
+                                quality + transformColor(model, color);
+                        String imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/" +
+                                getGadgetPathSite(gadget, color) + IMG_FILE_NAME + ".jpg";
+                        System.out.println(name + ";;;RUB;6990;1;0;0;0;;;;1;" + memory + ";;;;;;" +
+                                CategoryTree.translit(name) + ";;;;;;;;;;;;;;;" + imgLink);
+                    }
+                }
+            }
+        } else {
+            int attributeVariantsSize = gadgetAttributesVariants.get(attribute).size();
+            for (int attributeVariant = 0; attributeVariant < attributeVariantsSize; attributeVariant++) {
+                ArrayList<String> newGadget = new ArrayList<String>(gadget);
+                newGadget.add(gadgetAttributesVariants.get(attribute).get(attributeVariant));
+                if (attribute == mapGadgetAttributeNumber.get(MODEL)) {
+                    System.out.println("!!!iPhone " + newGadget.get(attribute) + ";;;;;;;;;;;;1;;;;;;;" +
+                            tSize + ";;;;;;;;;;;;;;;");
+                    tSize++;
+                }
+                printGadgets(attribute + 1, newGadget);
+            }
+        }
+    }
+
     public void generateGadgets(int attribute, ArrayList<String> gadget) {
         if (attribute == gadgetAttributesVariants.size()) {
             if (mapGadgetNamePrices.containsKey(getGadgetName(gadget))) {
-                ArrayList<String> prices = mapGadgetNamePrices.get(getGadgetName(gadget));
+//                ArrayList<String> prices = mapGadgetNamePrices.get(getGadgetName(gadget));
 //                if (prices.get(mapPriceAttributeNumber.get(EST_RETAIL_MIN)).length() > 1) {
-//                    gadget.set(mapGadgetAttributeNumber.get(QUALITY), RFB);
+//                    gadgets.set(mapGadgetAttributeNumber.get(QUALITY), RFB);
 //                } else {
-//                    gadget.set(mapGadgetAttributeNumber.get(QUALITY), NEW);
+//                    gadgets.set(mapGadgetAttributeNumber.get(QUALITY), NEW);
 //                }
                 String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
-                for (String submodel : mapGadgetModelSubmodel.get(model)) {
-                    for (String color : mapGadgetModelColor.get(model)) {
+                for (String color : mapGadgetModelColor.get(model)) {
+                    for (String submodel : mapGadgetModelSubmodel.get(model)) {
                         ArrayList<String> newGadget = new ArrayList<String>(gadget);
                         newGadget.add(mapGadgetAttributeNumber.get(SUBMODEL), submodel);
                         newGadget.add(mapGadgetAttributeNumber.get(COLOR), color);
                         if (!excludeModel(newGadget)) {
                             gadgets.add(newGadget);
-//                            generateDirsPhotos(newGadget);
                         }
                     }
                 }
@@ -317,7 +402,7 @@ public class AvitoGadgets extends Gadgets {
                 }
             }
 //            for (ArrayList<String> g : gadgetGroup) {
-//                System.out.print(getGadgetName(g));
+//                System.out.printYML(getGadgetName(g));
 //            }
 //            System.out.println();
             gadgets.addAll(gadgetGroup);
@@ -355,7 +440,7 @@ public class AvitoGadgets extends Gadgets {
     }
 
     private String getGadgetName(ArrayList<String> gadget) {
-        System.out.println(gadget.toString());
+//        System.out.println(gadget.toString());
         int lastAttr = mapGadgetAttributeNumber.get(FINGER_PRINT);
         if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).contains("Samsung")) {
             lastAttr--;
@@ -440,10 +525,10 @@ public class AvitoGadgets extends Gadgets {
         return price;
     }
 
-    /*private String getNewTextXml(ArrayList<String> gadget) {
-        String color = gadget.get(mapGadgetAttributeNumber.get(COLOR));
+    /*private String getNewTextXml(ArrayList<String> gadgets) {
+        String color = gadgets.get(mapGadgetAttributeNumber.get(COLOR));
         String text = "<![CDATA[";
-        String gadgetName = getGadgetName(gadget);
+        String gadgetName = getGadgetName(gadgets);
 //        String city = CITIES[cityId];
         text += "<p>Уважаемый клиент,<br>" +
                 "Вас приветствует <strong>iSPARK</strong>";
@@ -471,17 +556,17 @@ public class AvitoGadgets extends Gadgets {
                 "- ВЫКУП в течение 10 мин<br>" +
                 "- ОПТ от 6 шт<br>" +
                 "3) Специализируемся на продаже и ремонте электроники с 2009 года.</p><p>";
-//        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
+//        if (gadgets.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
 //            text += "Предлагаем вам";
 //        } else {
 //            text += "Рады радовать вас новыми";
 //        }
-        int len = getMinPrice(gadget).length();
+        int len = getMinPrice(gadgets).length();
         text += "Рады предложить <strong>" + gadgetName + "</strong> цвета <strong>" +
-                color + "</strong> по лучшей цене в Казани = <strong>" + formatPrice(getMinPrice(gadget)) + "₽!</strong> <br>" +
+                color + "</strong> по лучшей цене в Казани = <strong>" + formatPrice(getMinPrice(gadgets)) + "₽!</strong> <br>" +
                 "(в наличии/под заказ имеется ВЕСЬ модельный ряд iPhone)<br>";
-        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
-//            text += getCreditOffer(gadget);
+        if (gadgets.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
+//            text += getCreditOffer(gadgets);
 //            text += getWholesaleOffer(gadgetName);
             text += "</p><p>";
             text += "- характеристики смартфонов смотрите на сайте ispark info<br>";
@@ -489,7 +574,7 @@ public class AvitoGadgets extends Gadgets {
             text += ", гарантия предоставляется iSPARK<br>";
             text += "- полностью запечатаны, без следов эксплуатации, хороший подарок<br>";
         } else {
-//            text += getCreditOffer(gadget);
+//            text += getCreditOffer(gadgets);
             text += "</p><p>";
             text += "- характеристики смартфонов смотрите на сайте ispark info<br>";
             text += "- НЕ РЕФ, не восстановленные, ОФИЦИАЛЬНАЯ гарантия от Apple, 1 ГОД<br>";
@@ -516,7 +601,7 @@ public class AvitoGadgets extends Gadgets {
                 " электроники!<br>" +
                 "С уважением,<br>" +
                 "<strong>iSPARK<strong/></p>";
-        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
+        if (gadgets.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
             text += "<br><p>*РЕФ (восстановленный) - телефон, прошедший заводскую процедуру восстановления до" +
                     " состояния нового путем замены корпуса, экрана, и др. запчастей</p>";
         }
@@ -527,7 +612,7 @@ public class AvitoGadgets extends Gadgets {
 
     private String getNewText(ArrayList<String> gadget) {
         String text = "";
-//        String gadgetName = getGadgetName(gadget);
+//        String gadgetName = getGadgetName(gadgets);
 //        String city = CITIES[cityId];
         text += "Уважаемый клиент\n" +
                 "Вас приветствует iSPARK\uD83D\uDD25\n\n";
@@ -628,15 +713,15 @@ public class AvitoGadgets extends Gadgets {
         }
         ad += "\t\t<GoodsType>" + goodsType + "</GoodsType>\n";
         ad += "\t\t<Title>" + getAvitoAdName(gadget) + "</Title>\n";
-//        ad += "\t\t<Description>" + getNewTextXml(gadget) + "</Description>\n";
-//        int price = Integer.parseInt(getMinPrice(gadget, cityId));
+//        ad += "\t\t<Description>" + getNewTextXml(gadgets) + "</Description>\n";
+//        int price = Integer.parseInt(getMinPrice(gadgets, cityId));
 //        price = price * 95 / 100;
 //        price += 100 - price % 100;
 //        System.out.println(price);
         ad += "\t\t<Price>" + getMinPrice(gadget) + "</Price>\n";
         ad += "\t\t<Images>\n";
         String imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/" +
-                getGadgetPath(gadget, SUBMODEL) + IMG_FILE_NAME + ".jpg";
+                getGadgetPathAvito(gadget, SUBMODEL) + IMG_FILE_NAME + ".jpg";
         ad += "\t\t\t<Image url=\"" + imgLink + "\"/>\n";
 //        imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/price_iphone.png";
 //        ad += "\t\t\t<Image url=\"" + imgLink + "\"/>\n";
@@ -661,7 +746,7 @@ public class AvitoGadgets extends Gadgets {
         return ad;
     }
 
-    private String getGadgetPath(ArrayList<String> gadget, String lastAttr) {
+    private String getGadgetPathAvito(ArrayList<String> gadget, String lastAttr) {
         String path = "";
         for (int i = mapGadgetAttributeNumber.get(VENDOR); i <= mapGadgetAttributeNumber.get(lastAttr); i++) {
             String attr = gadget.get(i);
@@ -680,11 +765,20 @@ public class AvitoGadgets extends Gadgets {
         return path;
     }
 
+    private String getGadgetPathSite(ArrayList<String> gadget, String color) {
+        String path = "";
+        for (int i = mapGadgetAttributeNumber.get(VENDOR); i <= mapGadgetAttributeNumber.get(MODEL); i++) {
+            String attr = gadget.get(i);
+            path += attr + "/";
+        }
+        return (path + color + "/").replace(" ", "");
+    }
+
     public void generateDirsPhotos(ArrayList<String> gadget) {
-        File gadgetDirImg = new File(ROOT_DIR + getGadgetPath(gadget, SUBMODEL));
+        File gadgetDirImg = new File(ROOT_DIR + getGadgetPathAvito(gadget, SUBMODEL));
         gadgetDirImg.mkdirs();
         gadgetDirImg = new File(gadgetDirImg, IMG_FILE_NAME + ".jpg");
-        File gadgetImg = new File(ROOT_DIR + getGadgetPath(gadget, MODEL) + IMG_FILE_NAME + ".jpg");
+        File gadgetImg = new File(ROOT_DIR + getGadgetPathAvito(gadget, MODEL) + IMG_FILE_NAME + ".jpg");
         try {
             Files.copy(gadgetImg.toPath(), gadgetDirImg.toPath(), StandardCopyOption.REPLACE_EXISTING);
         } catch (IOException e) {
@@ -725,9 +819,15 @@ public class AvitoGadgets extends Gadgets {
         for (int gadgetId = 0; gadgetId < gadgets.size(); gadgetId++) {
             ArrayList<String> gadget = gadgets.get(gadgetId);
             if (!excludeAds.contains(getAvitoAdName(gadget))) {
+                String name = gadget.get(mapGadgetAttributeNumber.get(SUBMODEL)) + "_";
+                if (!gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).isEmpty()) {
+                    name += "без_отпечатка";
+                }
                 Solution.writeText(Solution.getOutputWriter("Output/Avito/" +
                                 gadget.get(mapGadgetAttributeNumber.get(VENDOR)) + "/" +
-                                gadget.get(mapGadgetAttributeNumber.get(MODEL)), getAvitoAdName(gadget) + ".txt"),
+                                gadget.get(mapGadgetAttributeNumber.get(MODEL)) + "/" +
+                                gadget.get(mapGadgetAttributeNumber.get(COLOR)) + "/" +
+                                gadget.get(mapGadgetAttributeNumber.get(MEMORY)), name + ".txt"),
                         getAdText(gadgets.get(gadgetId)));
             }
         }

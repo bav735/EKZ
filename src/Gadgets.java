@@ -10,7 +10,7 @@ import java.util.Scanner;
  */
 public class Gadgets {
     final static int PRICES_COUNT = 8;
-    final static String ROOT_DIR = "C:/AMOLED/";
+    final static String ROOT_DIR = "C:/EKZ/";
     final static String EST_RETAIL_MIN = "евротест авито/нал";
     final static String EST_RETAIL_MAX = "евротест сайт/маркет";
     final static String EST_RETAIL_OPT_MAX = "евротест опт от 3шт";

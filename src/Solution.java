@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class Solution {
     static AvitoGadgets iphonesAvito;
@@ -56,78 +57,86 @@ public class Solution {
         }
     }
 
-    private static String getValueByTag(String from, String tag) {
-        if (!from.contains(tag)) {
-            return null;
+    public static int getNumber(String s) {
+        try {
+            return Integer.parseInt(s);
+        } catch (Exception e) {
+            return -1;
         }
-        String openTag = '<' + tag + '>';
-        String closeTag = "</" + tag + ">";
-        int posL = from.indexOf(openTag);
-        if (posL == -1) {
-            return null;
-        }
-        int posR = from.indexOf(closeTag);
-//        System.out.println(from + " " + posL + " " + posR);
-        return from.substring(posL + openTag.length(), posR);
     }
 
-    private static void computeYML() throws IOException {
-        Scanner inScanner = Solution.getInputScanner("categories_ids.txt");
+    private static void computeWebsite() throws IOException {
+        Scanner inScanner = Solution.getInputScanner("shop_items_global.xml");
         HashSet<String> categories = new HashSet<>();
+        CategoryTree root = new CategoryTree(CategoryTree.ROOT_CATEGORY, null);
         while (inScanner.hasNext()) {
-            categories.add(inScanner.next());
+            String line = inScanner.nextLine();
+            if (line.contains("<category ")) {
+                String[] lineSplit = line.split("[\"<>]");
+                String catId = lineSplit[2];
+                if (getNumber(lineSplit[4]) == -1) {
+                    root.getTreeByCatNameOrCreate(lineSplit[4], catId);
+                } else {
+                    CategoryTree tree = root.getTreeByCatId(lineSplit[4]);
+                    tree.getTreeByCatNameOrCreate(lineSplit[6], catId);
+                }
+                categories.add(catId);
+            }
+            if (line.contains("</categories>")) {
+                break;
+            }
         }
-        inScanner.close();
-        inScanner = Solution.getInputScanner("shop_items_global.xml");
         String resultYML = "";
         boolean isOffer;
         String offer;
-        int offerCount = 0;
-        CategoryTree categoryTree = new CategoryTree("ROOT", null);
         while (inScanner.hasNextLine()) {
-            String offerLine = inScanner.nextLine();
-            if (offerLine.contains("<offer ")) {
+            String line = inScanner.nextLine();
+            if (line.contains("<offer ")) {
                 offer = "";
                 isOffer = true;
-                String category = null;
-                String vendor = null;
-                String model = null;
-                while (true) {
-                    if (category == null) {
-                        category = getValueByTag(offerLine, "categoryId");
-                    }
-                    if (vendor == null) {
-                        vendor = getValueByTag(offerLine, "vendor");
-                    }
-                    if (model == null) {
-                        model = getValueByTag(offerLine, "model");
-                    }
-                    offer += offerLine + "\n";
-                    if (offerLine.contains("</offer>") || !inScanner.hasNextLine()) {
-                        offer = offer.replaceAll("<description>[\\S\\s]+<\\/description>",
-                                "<description></description>");
+                while (inScanner.hasNextLine()) {
+                    offer += line + "\n";
+                    if (line.contains("</offer>")) {
                         break;
                     }
-                    offerLine = inScanner.nextLine();
+                    line = inScanner.nextLine();
                 }
-                if (categories.contains(category)) {
-//                    subcategorieVendor.put(category, vendor);
-//                    resultYML += offer;
-                    CategoryTree subcatTree = categoryTree.getChildTree("ignore" + category, category);
-                    CategoryTree vendorTree = subcatTree.getChildTree(vendor, null);
-                    CategoryTree modelTree = vendorTree;
-                    int tildaCount = 0;
-                    for (int i = 0; i < model.length();i++) {
-                        if(model.charAt(i) == '-') {
-                            tildaCount++;
+                String catId = Gadget.getValueByTag(offer, "categoryId");
+                Gadget gadget = new Gadget(offer);
+                if (categories.contains(catId)) {
+                    resultYML += offer;
+                    CategoryTree catTree = root.getTreeByCatId(catId);
+                    CategoryTree subcatTree = catTree.getTreeByCatNameOrCreate(gadget.vendor, null);
+//                    int tildaCount = 0;
+//                    for (int i = 0; i < gadget.model.length(); i++) {
+//                        if (gadget.model.charAt(i) == '-') {
+//                            tildaCount++;
+//                        }
+//                    }
+                    ArrayList<String> modelSplit;
+//                    if (tildaCount < 2) {
+//                        modelSplit = new ArrayList<>(Arrays.asList(gadget.model.split("[ ,]")));
+//                    } else {
+                    modelSplit = new ArrayList<>(Arrays.asList(gadget.model.split("[ ,\\-]")));
+//                    }
+                    int j = 0;
+                    ArrayList<String> modelSplitT = new ArrayList<>();
+                    while (j < modelSplit.size()) {
+                        if (Pattern.matches(".*\\p{InCyrillic}.*", modelSplit.get(j))) {
+                            String s = modelSplit.get(j);
+                            j++;
+                            while (j < modelSplit.size() &&
+                                    Pattern.matches(".*\\p{InCyrillic}.*", modelSplit.get(j))) {
+                                s += " " + modelSplit.get(j);
+                                j++;
+                            }
+                            modelSplitT.add(s);
+                        } else {
+                            modelSplitT.add(modelSplit.get(j));
+                            j++;
                         }
                     }
-                    ArrayList<String> modelSplit;
-                    if (tildaCount < 2) {
-                        modelSplit = new ArrayList<>(Arrays.asList(model.split("[ ,]")));
-                    } else {
-                        modelSplit = new ArrayList<>(Arrays.asList(model.split("[ \\-,]")));
-                    }
+                    modelSplit = modelSplitT;
                     int plusId = -1;
                     for (int i = 1; i < modelSplit.size(); i++) {
                         if (modelSplit.get(i).equals("Plus") ||
@@ -143,51 +152,70 @@ public class Solution {
                     }
                     for (int i = 0; i < modelSplit.size() && i < 4; i++) {
                         String modelPart = modelSplit.get(i);
-//                        System.out.println(modelPart);
                         if (!modelPart.isEmpty()) {
-                            modelTree = modelTree.getChildTree(modelPart, null);
+//                            modelPart = Gadget.formatString(modelPart, gadget.vendor);
+                            subcatTree = subcatTree.getTreeByCatNameOrCreate(modelPart, null);
+//                            System.out.println(modelTree.catName+":"+modelTree.catId);
                         }
                     }
-                    CategoryTree.count[Integer.parseInt(modelTree.catId)]++;
+                    boolean isPresent = true;
+                    for (Gadget gadgetCurrent : subcatTree.gadgets) {
+                        if (gadgetCurrent.name.equals(gadget.name)) {
+                            isPresent = false;
+                        }
+                    }
+                    if (isPresent) {
+                        subcatTree.gadgets.add(gadget);
+                    }
+//                    System.out.println("added to " + modelTree.catId);
                 }
             } else {
                 isOffer = false;
             }
             if (!isOffer) {
-                resultYML += offerLine + "\n";
+                resultYML += line + "\n";
             }
         }
-
-        categoryTree.condenseTree();
-        categoryTree.removeLeaves();
-        categoryTree.print(true, Solution.getOutputWriter("Output", "category_result.xml"));
-        System.out.println(offerCount);
-        Solution.writeText(Solution.getOutputWriter("Output", "shop_items_result.xml"), resultYML);
+        inScanner.close();
+        root.condenseTree();
+        root.removeLeaves();
+        root.removeLeaves();
+        root.calcHeightAndCatId(-1);
+        BufferedWriter bufferedWriter = Solution.getOutputWriter("Output/Website", "shop_items.csv");
+        bufferedWriter.write(CategoryTree.CSV_BEGIN);
+        root.printCSV(true, bufferedWriter);
+//        Solution.writeText(Solution.getOutputWriter("Output/Website", "shop_items_result.xml"), resultYML);
     }
 
-    public static void main(String[] args) {
-        try {
-            computeYML();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-
-//        renamePhotosFiles(new File("C:/Users/A/Desktop/Фото Авито/Новая папка"),
+    public static void computeAvito() {
+        //        renamePhotosFiles(new File("C:/Users/A/Desktop/Фото Авито/Новая папка"),
 //                new File("C:/Users/A/Desktop/Фото Авито/Новая папка/original"), 0);
 
-        /*Gadgets.initializeFromPriceList();
+        Gadgets.initializeFromPriceList();
         AvitoGadgets.initializeExcludeAds();
 
         iphonesAvito = new AvitoGadgets();
         iphonesAvito.initializeIPhones();
-        iphonesAvito.generateGadgets(0, new ArrayList<String>());
-        iphonesAvito.generateFiles();
+//        iphonesAvito.generateGadgets(0, new ArrayList<String>());
+        iphonesAvito.printGadgets(0, new ArrayList<String>());
+//        iphonesAvito.generateFiles();
 
-        samsungsAvito = new AvitoGadgets();
-        samsungsAvito.initializeSamsungs();
-        samsungsAvito.generateGadgets(0, new ArrayList<String>());
-        samsungsAvito.generateFiles();*/
+//        samsungsAvito = new AvitoGadgets();
+//        samsungsAvito.initializeSamsungs();
+//        samsungsAvito.generateGadgets(0, new ArrayList<String>());
+//        samsungsAvito.generateFiles();
+    }
+
+
+
+    public static void main(String[] args) {
+//        try {
+//            computeWebsite();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+
+        computeAvito();
 
         //Youla
 //        iphonesYoula = new YoulaGadgets();
