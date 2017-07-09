@@ -19,21 +19,13 @@ public class YoulaGadgets extends Gadgets {
     HashMap<String, ArrayList<String>> mapGadgetModelColor;
     ArrayList<ArrayList<String>> gadgetAttributesVariants;
     int[][] gadgetsDistribution;
+    String[] gadgetAttributeNames = AvitoGadgets.gadgetAttributeNames;
 
     public YoulaGadgets() {
     }
 
     public void initializeIPhones() {
-        gadgetAttributeNames = new String[]{
-                QUALITY,
-                VENDOR,
-                MODEL_LINE,
-                MODEL,
-                MEMORY,
-                FINGER_PRINT,
-                COLOR,
-        };
-        initializeMapGadgetAttributeNumber();
+        initializeMapGadgetAttributeNumber(gadgetAttributeNames);
         gadgetAttributesVariants = new ArrayList<ArrayList<String>>();
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("")));
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("Apple")));
@@ -99,7 +91,7 @@ public class YoulaGadgets extends Gadgets {
                     return;
                 }
                 ArrayList<String> prices = mapGadgetNamePrices.get(getGadgetName(gadget));
-                if (prices.get(mapPriceAttributeNumber.get(EST_RETAIL_MIN)).length() > 1) {
+                if (prices.get(mapPriceAttributeNumber.get(EST_RETAIL_AMOLED)).length() > 1) {
                     gadget.set(mapGadgetAttributeNumber.get(QUALITY), RFB);
                 } else {
                     gadget.set(mapGadgetAttributeNumber.get(QUALITY), NEW);
@@ -189,9 +181,9 @@ public class YoulaGadgets extends Gadgets {
     private String getPrice(ArrayList<String> gadget) {
         String price = "";
         String gadgetName = getGadgetName(gadget);
-        price = mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(EST_RETAIL_MAX));
+        price = mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(EST_RETAIL_ISPARK));
         if (price.length() == 1) {
-            price = mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(RST_RETAIL_MAX));
+            price = mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(RST_RETAIL_ISPARK));
         }
         return price;
     }

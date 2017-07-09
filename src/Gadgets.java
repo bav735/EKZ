@@ -1,5 +1,3 @@
-import java.io.File;
-import java.io.FileInputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -11,34 +9,34 @@ import java.util.Scanner;
 public class Gadgets {
     final static int PRICES_COUNT = 8;
     final static String ROOT_DIR = "C:/EKZ/";
-    final static String EST_RETAIL_MIN = "евротест авито/нал";
-    final static String EST_RETAIL_MAX = "евротест сайт/маркет";
+    final static String NO_PRICE = "-";
+    final static String EST_RETAIL_AMOLED = "евротест авито/нал";
+    final static String EST_RETAIL_ISPARK = "евротест сайт/маркет";
     final static String EST_RETAIL_OPT_MAX = "евротест опт от 3шт";
     final static String EST_RETAIL_OPT_MIN = "евротест опт от 10шт";
-    final static String RST_RETAIL_MIN = "ростест авито/нал";
-    final static String RST_RETAIL_MAX = "ростест сайт/маркет";
+    final static String RST_RETAIL_AMOLED = "ростест авито/нал";
+    final static String RST_RETAIL_ISPARK = "ростест сайт/маркет";
     final static String RST_RETAIL_OPT_MAX = "ростест опт от 3шт";
     final static String RST_RETAIL_OPT_MIN = "ростест опт от 10шт";
 
     public static HashMap<String, ArrayList<String>> mapGadgetNamePrices;
     public static HashMap<String, Integer> mapPriceAttributeNumber;
     public static String[] priceAttributeNames = new String[]{
-            EST_RETAIL_MIN,
-            EST_RETAIL_MAX,
+            EST_RETAIL_AMOLED,
+            EST_RETAIL_ISPARK,
             EST_RETAIL_OPT_MAX,
             EST_RETAIL_OPT_MIN,
-            RST_RETAIL_MIN,
-            RST_RETAIL_MAX,
+            RST_RETAIL_AMOLED,
+            RST_RETAIL_ISPARK,
             RST_RETAIL_OPT_MAX,
             RST_RETAIL_OPT_MIN,
     };
 
     public ArrayList<ArrayList<String>> gadgets = new ArrayList<ArrayList<String>>();
     public HashMap<String, Integer> mapGadgetAttributeNumber;
-    public String[] gadgetAttributeNames;
 
 
-    public void initializeMapGadgetAttributeNumber() {
+    public void initializeMapGadgetAttributeNumber(String[] gadgetAttributeNames) {
         mapGadgetAttributeNumber = new HashMap<String, Integer>();
         for (int i = 0; i < gadgetAttributeNames.length; i++) {
             mapGadgetAttributeNumber.put(gadgetAttributeNames[i], i);
@@ -69,6 +67,7 @@ public class Gadgets {
                 prices.add(words[words.length - priceId]);
             }
             mapGadgetNamePrices.put(gadgetName, prices);
+//            System.out.println(gadgetName);
         }
         inScanner.close();
         inScanner = Solution.getInputScanner("price_list_samsung.txt");

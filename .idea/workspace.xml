@@ -2,651 +2,469 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Input/categories_ids.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5/РассрочкаiPhone516GbA1429BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5/РассрочкаiPhone516GbA1429WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5/РассрочкаiPhone532GbA1428WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5/РассрочкаiPhone532GbA1429BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5/РассрочкаiPhone532GbA1429WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5/РассрочкаiPhone532GbA1442BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5/РассрочкаiPhone532GbA1442WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5/РассрочкаiPhone564GbA1428WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5/РассрочкаiPhone564GbA1429BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5/РассрочкаiPhone564GbA1429WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5/РассрочкаiPhone564GbA1442BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C16GbA1456GreenМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C16GbA1456WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C16GbA1456YellowМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C16GbA1507BlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C16GbA1507GreenМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C16GbA1507PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C16GbA1507WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C16GbA1507YellowМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C16GbA1516BlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C16GbA1516GreenМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C16GbA1516PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C16GbA1516WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C16GbA1516YellowМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C16GbA1529BlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C16GbA1529GreenМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C16GbA1529WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C16GbA1532BlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C16GbA1532PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1456GreenМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1456PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1456WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1456YellowМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1507BlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1507GreenМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1507PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1507WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1507YellowМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1516BlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1516GreenМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1516PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1516WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1516YellowМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1529BlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1529GreenМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1529PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1529YellowМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1532BlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1532GreenМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1532WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C32GbA1532YellowМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1456GreenМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1456WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1507BlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1507GreenМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1507PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1507WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1507YellowМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1516BlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1516GreenМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1516PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1516WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1516YellowМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1529BlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1529GreenМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1529PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1529WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1529YellowМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1532BlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1532GreenМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1532PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1532WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/РассрочкаiPhone5C8GbA1532YellowМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S16GbA1453GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S16GbA1453WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S16GbA1457BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S16GbA1457GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S16GbA1457WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S16GbA1518BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S16GbA1518GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S16GbA1528BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S16GbA1530GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S16GbБОA1518BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S16GbБОA1518GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S16GbБОA1518WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S16GbБОA1528BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S16GbБОA1528GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S16GbБОA1528WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S16GbБОA1530BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S16GbБОA1530GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S16GbБОA1533GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S16GbБОA1533WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbA1453BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbA1453GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbA1453WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbA1457BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbA1457GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbA1457WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbA1518BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbA1518GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbA1518WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbA1528BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbA1528GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbA1528WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbA1530BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbA1530GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbA1533BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbБОA1457BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbБОA1518BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbБОA1518GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbБОA1518WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbБОA1528BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbБОA1528GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbБОA1528WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbБОA1530GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbБОA1530WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbБОA1533BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbБОA1533GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S32GbБОA1533WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbA1453GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbA1453WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbA1457BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbA1457GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbA1457WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbA1518BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbA1518GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbA1518WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbA1528BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbA1528GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbA1528WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbA1530BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbA1530GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbA1533BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbБОA1453WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbБОA1457BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbБОA1457GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbБОA1457WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbБОA1518BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbБОA1518GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbБОA1518WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbБОA1528BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbБОA1528GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbБОA1528WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbБОA1530BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbБОA1530GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbБОA1530WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbБОA1533BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbБОA1533GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/РассрочкаiPhone5S64GbБОA1533WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus128GbA1522BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus128GbA1522GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus128GbA1522WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus128GbA1524BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus128GbA1524GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus128GbA1524WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus128GbA1593BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus128GbA1593GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus128GbA1593WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus128GbБОA1522Black.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus128GbБОA1522Gold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus128GbБОA1522White.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus128GbБОA1524Black.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus128GbБОA1524Gold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus128GbБОA1524White.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus128GbБОA1593Black.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus128GbБОA1593Gold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus128GbБОA1593White.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus16GbA1522WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus16GbA1524BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus16GbA1524GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus16GbA1524WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus16GbA1593BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus16GbA1593GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus16GbБОA1524Black.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus16GbБОA1524Gold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus16GbБОA1524White.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus16GbБОA1593Black.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus16GbБОA1593Gold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus16GbБОA1593White.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus64GbA1522BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus64GbA1522GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus64GbA1524BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus64GbA1524GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus64GbA1524WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus64GbA1593BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus64GbA1593GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus64GbБОA1522Black.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus64GbБОA1522Gold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus64GbБОA1522White.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus64GbБОA1524Black.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus64GbБОA1524Gold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus64GbБОA1593Black.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus64GbБОA1593Gold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/РассрочкаiPhone6Plus64GbБОA1593White.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone6128GbA1549BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone6128GbA1549GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone6128GbA1549WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone6128GbA1586BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone6128GbA1586GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone6128GbA1586WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone6128GbA1589BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone6128GbA1589GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone6128GbБОA1549BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone6128GbБОA1549GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone6128GbБОA1549WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone6128GbБОA1586BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone6128GbБОA1586GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone6128GbБОA1586WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone6128GbБОA1589BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone6128GbБОA1589GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone6128GbБОA1589WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone616GbБОA1549BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone616GbБОA1549GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone616GbБОA1549WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone616GbБОA1586GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone616GbБОA1586WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone616GbБОA1589BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone616GbБОA1589GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone632GbA1549WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone632GbA1586GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone632GbA1586WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone632GbA1589GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone632GbA1589WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone664GbA1549BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone664GbA1549GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone664GbA1549WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone664GbБОA1549GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone664GbБОA1586BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone664GbБОA1586WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone664GbБОA1589BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone664GbБОA1589GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/РассрочкаiPhone664GbБОA1589WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus128GbA1634GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus128GbA1634PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus128GbA1634White.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus128GbA1687Black.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus128GbA1687GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus128GbA1687PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus128GbA1699Black.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus128GbA1699GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus128GbA1699PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus128GbA1699White.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbA1634BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbA1634GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbA1634PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbA1634WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbA1687BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbA1687GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbA1687PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbA1687WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbA1699GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbA1699PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbБОA1634Black.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbБОA1634Gold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbБОA1634Pink.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbБОA1634White.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbБОA1687Black.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbБОA1687Gold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbБОA1687Pink.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbБОA1687White.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbБОA1699Black.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbБОA1699Gold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbБОA1699Pink.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus16GbБОA1699White.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus32GbA1634BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus32GbA1634GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus32GbA1634PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus32GbA1634WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus32GbA1687BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus32GbA1687GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus32GbA1687WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus32GbA1699BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus32GbA1699GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus32GbA1699PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus64GbA1634GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus64GbA1634PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus64GbA1634WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus64GbA1687BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus64GbA1687PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus64GbA1687WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus64GbA1699GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus64GbA1699PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus64GbA1699WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus64GbБОA1634Black.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus64GbБОA1634Gold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus64GbБОA1634Pink.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus64GbБОA1634White.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus64GbБОA1687Black.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus64GbБОA1687Gold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus64GbБОA1687Pink.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus64GbБОA1687White.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus64GbБОA1699Gold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus64GbБОA1699Pink.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/РассрочкаiPhone6SPlus64GbБОA1699White.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S128GbA1633GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S128GbA1633PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S128GbA1633WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S128GbA1688BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S128GbA1688GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S128GbA1688PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S128GbA1688WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S128GbA1700BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S128GbA1700GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S128GbA1700PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S16GbA1633GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S16GbA1633PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S16GbA1688BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S16GbA1688GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S16GbA1688PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S16GbA1700GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S16GbБОA1633PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S16GbБОA1633WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S16GbБОA1688BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S16GbБОA1688GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S16GbБОA1688PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S16GbБОA1688WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S16GbБОA1700BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S16GbБОA1700GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S16GbБОA1700PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S16GbБОA1700WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S32GbA1633BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S32GbA1633GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S32GbA1633PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S32GbA1633WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S32GbA1688BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S32GbA1688GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S32GbA1688PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S32GbA1700BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S32GbБОA1633GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S32GbБОA1633PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S32GbБОA1633WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S32GbБОA1688BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S32GbБОA1688GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S32GbБОA1688PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S32GbБОA1688WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S32GbБОA1700BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S32GbБОA1700GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S32GbБОA1700PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S32GbБОA1700WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S64GbA1633BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S64GbA1633GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S64GbA1633PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S64GbA1633WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S64GbA1688BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S64GbA1688GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S64GbA1688PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S64GbA1688WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S64GbБОA1633BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S64GbБОA1633GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S64GbБОA1633PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S64GbБОA1633WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S64GbБОA1688BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S64GbБОA1688GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S64GbБОA1688PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S64GbБОA1688WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S64GbБОA1700BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S64GbБОA1700GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S64GbБОA1700PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/РассрочкаiPhone6S64GbБОA1700WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus128GbA1661BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus128GbA1661GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus128GbA1661JetBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus128GbA1661PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus128GbA1661RedМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus128GbA1661WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus128GbA1784BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus128GbA1784GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus128GbA1784JetBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus128GbA1784PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus128GbA1784RedМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus128GbA1784WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus128GbA1785BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus128GbA1785GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus128GbA1785PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus128GbA1785RedМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus128GbA1785WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus256GbA1661GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus256GbA1661JetBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus256GbA1661RedМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus256GbA1661WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus256GbA1784BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus256GbA1784GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus256GbA1784JetBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus256GbA1784PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus256GbA1784RedМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus256GbA1784WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus256GbA1785BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus256GbA1785GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus256GbA1785JetBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus256GbA1785PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus256GbA1785RedМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus256GbA1785WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus32GbA1661GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus32GbA1661PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus32GbA1784GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus32GbA1784PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus32GbA1784WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus32GbA1785BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/РассрочкаiPhone7Plus32GbA1785PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7128GbA1660GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7128GbA1660JetBlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7128GbA1660WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7128GbA1778GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7128GbA1778PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7128GbA1778RedМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7128GbA1778WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7128GbA1779BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7128GbA1779GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7128GbA1779RedМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7128GbA1779WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7256GbA1660GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7256GbA1660JetBlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7256GbA1660PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7256GbA1660RedМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7256GbA1660WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7256GbA1778BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7256GbA1778GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7256GbA1778JetBlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7256GbA1778PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7256GbA1778WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7256GbA1779BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7256GbA1779GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7256GbA1779JetBlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7256GbA1779PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7256GbA1779RedМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone7256GbA1779WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone732GbA1778BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone732GbA1778GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/РассрочкаiPhone732GbA1779GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE128GbA1662GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE128GbA1662PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE128GbA1662WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE128GbA1723BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE128GbA1723GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE128GbA1723PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE128GbA1723WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE128GbA1724BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE128GbA1724GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE128GbA1724PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE128GbA1724WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE16GbA1662GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE16GbA1662PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE16GbA1662WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE16GbA1723BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE16GbA1723GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE16GbA1723PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE16GbA1723WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE16GbA1724BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE32GbA1662BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE32GbA1662GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE32GbA1662PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE32GbA1662WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE32GbA1723BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE32GbA1723GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE32GbA1723WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE32GbA1724BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE32GbA1724GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE32GbA1724PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE64GbA1662GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE64GbA1662PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE64GbA1662WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE64GbA1723BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE64GbA1723GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE64GbA1723PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE64GbA1723WhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE64GbA1724BlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE64GbA1724GoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/РассрочкаiPhoneSE64GbA1724PinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2015)/НовыйРассрочкаGalaxyA3(2015)8GbBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2015)/НовыйРассрочкаGalaxyA3(2015)8GbBlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2015)/НовыйРассрочкаGalaxyA3(2015)8GbDuosBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2015)/НовыйРассрочкаGalaxyA3(2015)8GbDuosBlue.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2015)/НовыйРассрочкаGalaxyA3(2015)8GbDuosPink.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2015)/НовыйРассрочкаGalaxyA3(2015)8GbDuosWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2015)/НовыйРассрочкаGalaxyA3(2015)8GbGoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2015)/НовыйРассрочкаGalaxyA3(2015)8GbPinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2015)/НовыйРассрочкаGalaxyA3(2015)8GbWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2016)/НовыйРассрочкаGalaxyA3(2016)16GbDuosBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2016)/НовыйРассрочкаGalaxyA3(2016)16GbDuosGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2016)/НовыйРассрочкаGalaxyA3(2016)16GbDuosPink.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2016)/НовыйРассрочкаGalaxyA3(2016)16GbDuosWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2016)/НовыйРассрочкаGalaxyA3(2016)16GbGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2016)/НовыйРассрочкаGalaxyA3(2016)16GbPink.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2016)/НовыйРассрочкаGalaxyA3(2016)16GbWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2017)/НовыйРассрочкаGalaxyA3(2017)16GbBlue.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2017)/НовыйРассрочкаGalaxyA3(2017)16GbDuosBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2017)/НовыйРассрочкаGalaxyA3(2017)16GbDuosBlue.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2017)/НовыйРассрочкаGalaxyA3(2017)16GbDuosGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2017)/НовыйРассрочкаGalaxyA3(2017)16GbGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2015)/НовыйРассрочкаGalaxyA5(2015)16GbBlue.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2015)/НовыйРассрочкаGalaxyA5(2015)16GbDuosBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2015)/НовыйРассрочкаGalaxyA5(2015)16GbDuosBlue.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2015)/НовыйРассрочкаGalaxyA5(2015)16GbDuosGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2015)/НовыйРассрочкаGalaxyA5(2015)16GbDuosPink.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2015)/НовыйРассрочкаGalaxyA5(2015)16GbDuosWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2015)/НовыйРассрочкаGalaxyA5(2015)16GbGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2015)/НовыйРассрочкаGalaxyA5(2015)16GbPink.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2015)/НовыйРассрочкаGalaxyA5(2015)16GbWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2016)/НовыйРассрочкаGalaxyA5(2016)16GbDuosBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2016)/НовыйРассрочкаGalaxyA5(2016)16GbDuosGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2016)/НовыйРассрочкаGalaxyA5(2016)16GbDuosPink.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2016)/НовыйРассрочкаGalaxyA5(2016)16GbDuosWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2016)/НовыйРассрочкаGalaxyA5(2016)16GbGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2016)/НовыйРассрочкаGalaxyA5(2016)16GbPink.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2016)/НовыйРассрочкаGalaxyA5(2016)16GbWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2017)/НовыйРассрочкаGalaxyA5(2017)16GbBlue.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2017)/НовыйРассрочкаGalaxyA5(2017)16GbDuosBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2017)/НовыйРассрочкаGalaxyA5(2017)16GbDuosBlue.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2017)/НовыйРассрочкаGalaxyA5(2017)16GbDuosGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2017)/НовыйРассрочкаGalaxyA5(2017)16GbGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2015)/НовыйРассрочкаGalaxyA7(2015)16GbBlue.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2015)/НовыйРассрочкаGalaxyA7(2015)16GbDuosBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2015)/НовыйРассрочкаGalaxyA7(2015)16GbDuosBlue.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2015)/НовыйРассрочкаGalaxyA7(2015)16GbDuosGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2015)/НовыйРассрочкаGalaxyA7(2015)16GbDuosPink.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2015)/НовыйРассрочкаGalaxyA7(2015)16GbDuosWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2015)/НовыйРассрочкаGalaxyA7(2015)16GbGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2015)/НовыйРассрочкаGalaxyA7(2015)16GbPink.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2015)/НовыйРассрочкаGalaxyA7(2015)16GbWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2016)/НовыйРассрочкаGalaxyA7(2016)16GbBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2016)/НовыйРассрочкаGalaxyA7(2016)16GbDuosBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2016)/НовыйРассрочкаGalaxyA7(2016)16GbDuosGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2016)/НовыйРассрочкаGalaxyA7(2016)16GbDuosPink.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2016)/НовыйРассрочкаGalaxyA7(2016)16GbDuosWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2016)/НовыйРассрочкаGalaxyA7(2016)16GbGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2016)/НовыйРассрочкаGalaxyA7(2016)16GbPink.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2017)/НовыйРассрочкаGalaxyA7(2017)16GbBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2017)/НовыйРассрочкаGalaxyA7(2017)16GbBlue.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2017)/НовыйРассрочкаGalaxyA7(2017)16GbDuosBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2017)/НовыйРассрочкаGalaxyA7(2017)16GbDuosBlue.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2017)/НовыйРассрочкаGalaxyA7(2017)16GbDuosGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2017)/НовыйРассрочкаGalaxyA7(2017)16GbGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J1 (2016)/НовыйРассрочкаGalaxyJ1(2016)8GbDuosBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J1 (2016)/НовыйРассрочкаGalaxyJ1(2016)8GbDuosGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J1 (2016)/НовыйРассрочкаGalaxyJ1(2016)8GbDuosWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J1 (2016)/НовыйРассрочкаGalaxyJ1(2016)8GbGoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J1 (2016)/НовыйРассрочкаGalaxyJ1(2016)8GbWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J2 (2016)/НовыйРассрочкаGalaxyJ2(2016)8GbDuosBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J2 (2016)/НовыйРассрочкаGalaxyJ2(2016)8GbDuosGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J2 (2016)/НовыйРассрочкаGalaxyJ2(2016)8GbDuosSilver.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J2 (2016)/НовыйРассрочкаGalaxyJ2(2016)8GbGoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J2 (2016)/НовыйРассрочкаGalaxyJ2(2016)8GbSilver.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J3 (2016)/НовыйРассрочкаGalaxyJ3(2016)8GbDuosBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J3 (2016)/НовыйРассрочкаGalaxyJ3(2016)8GbDuosGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J3 (2016)/НовыйРассрочкаGalaxyJ3(2016)8GbDuosWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J3 (2016)/НовыйРассрочкаGalaxyJ3(2016)8GbGoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J3 (2016)/НовыйРассрочкаGalaxyJ3(2016)8GbWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J5 (2016)/НовыйРассрочкаGalaxyJ5(2016)16GbDuosBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J5 (2016)/НовыйРассрочкаGalaxyJ5(2016)16GbDuosGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J5 (2016)/НовыйРассрочкаGalaxyJ5(2016)16GbDuosWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J5 (2016)/НовыйРассрочкаGalaxyJ5(2016)16GbGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J5 (2016)/НовыйРассрочкаGalaxyJ5(2016)16GbWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J7 (2016)/НовыйРассрочкаGalaxyJ7(2016)16GbDuosBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J7 (2016)/НовыйРассрочкаGalaxyJ7(2016)16GbDuosGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J7 (2016)/НовыйРассрочкаGalaxyJ7(2016)16GbDuosWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J7 (2016)/НовыйРассрочкаGalaxyJ7(2016)16GbGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J7 (2016)/НовыйРассрочкаGalaxyJ7(2016)16GbWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 3/НовыйРассрочкаGalaxyNote316GbBlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 3/НовыйРассрочкаGalaxyNote316GbDuosBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 3/НовыйРассрочкаGalaxyNote316GbDuosPink.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 3/НовыйРассрочкаGalaxyNote316GbDuosWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 3/НовыйРассрочкаGalaxyNote316GbPinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 3/НовыйРассрочкаGalaxyNote316GbWhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 4/НовыйРассрочкаGalaxyNote432GbDuosBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 4/НовыйРассрочкаGalaxyNote432GbDuosGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 4/НовыйРассрочкаGalaxyNote432GbDuosPink.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 4/НовыйРассрочкаGalaxyNote432GbDuosWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 4/НовыйРассрочкаGalaxyNote432GbGoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 4/НовыйРассрочкаGalaxyNote432GbPinkМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 4/НовыйРассрочкаGalaxyNote432GbWhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 5/НовыйРассрочкаGalaxyNote532GbDuosBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 5/НовыйРассрочкаGalaxyNote532GbDuosGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 5/НовыйРассрочкаGalaxyNote532GbDuosSilver.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 5/НовыйРассрочкаGalaxyNote532GbDuosWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 5/НовыйРассрочкаGalaxyNote532GbGoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 5/НовыйРассрочкаGalaxyNote532GbSilverМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 5/НовыйРассрочкаGalaxyNote532GbWhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S3/НовыйРассрочкаGalaxyS316GbBlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S3/НовыйРассрочкаGalaxyS316GbDuosBlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S3/НовыйРассрочкаGalaxyS316GbDuosBlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S3/НовыйРассрочкаGalaxyS316GbDuosWhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S3/НовыйРассрочкаGalaxyS316GbWhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S4/НовыйРассрочкаGalaxyS416GbBlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S4/НовыйРассрочкаGalaxyS416GbDuosBlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S4/НовыйРассрочкаGalaxyS416GbDuosBlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S4/НовыйРассрочкаGalaxyS416GbDuosWhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S4/НовыйРассрочкаGalaxyS416GbWhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S5/НовыйРассрочкаGalaxyS516GbDuosBlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S5/НовыйРассрочкаGalaxyS516GbDuosGoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S5/НовыйРассрочкаGalaxyS516GbDuosWhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S5/НовыйРассрочкаGalaxyS516GbGoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S5/НовыйРассрочкаGalaxyS516GbWhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6 Edge/НовыйРассрочкаGalaxyS6Edge32GbBlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6 Edge/НовыйРассрочкаGalaxyS6Edge32GbDuosBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6 Edge/НовыйРассрочкаGalaxyS6Edge32GbDuosBlue.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6 Edge/НовыйРассрочкаGalaxyS6Edge32GbDuosGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6 Edge/НовыйРассрочкаGalaxyS6Edge32GbDuosGreen.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6 Edge/НовыйРассрочкаGalaxyS6Edge32GbDuosWhite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6 Edge/НовыйРассрочкаGalaxyS6Edge32GbGoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6 Edge/НовыйРассрочкаGalaxyS6Edge32GbGreenМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6 Edge/НовыйРассрочкаGalaxyS6Edge32GbWhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6/НовыйРассрочкаGalaxyS632GbBlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6/НовыйРассрочкаGalaxyS632GbDuosBlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6/НовыйРассрочкаGalaxyS632GbDuosBlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6/НовыйРассрочкаGalaxyS632GbDuosGoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6/НовыйРассрочкаGalaxyS632GbDuosWhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6/НовыйРассрочкаGalaxyS632GbGoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6/НовыйРассрочкаGalaxyS632GbWhiteМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S7 Edge/НовыйРассрочкаGalaxyS7Edge32GbDuosBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S7 Edge/НовыйРассрочкаGalaxyS7Edge32GbDuosGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S7 Edge/НовыйРассрочкаGalaxyS7Edge32GbDuosSilver.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S7 Edge/НовыйРассрочкаGalaxyS7Edge32GbGoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S7 Edge/НовыйРассрочкаGalaxyS7Edge32GbSilver.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S7/НовыйРассрочкаGalaxyS732GbDuosBlackМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S7/НовыйРассрочкаGalaxyS732GbDuosGoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S7/НовыйРассрочкаGalaxyS732GbDuosSilver.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S7/НовыйРассрочкаGalaxyS732GbGoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S7/НовыйРассрочкаGalaxyS732GbSilverМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S8 Plus/НовыйРассрочкаGalaxyS8Plus64GbBlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S8 Plus/НовыйРассрочкаGalaxyS8Plus64GbDuosBlack.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S8 Plus/НовыйРассрочкаGalaxyS8Plus64GbDuosBlue.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S8 Plus/НовыйРассрочкаGalaxyS8Plus64GbDuosGold.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S8 Plus/НовыйРассрочкаGalaxyS8Plus64GbGoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S8/НовыйРассрочкаGalaxyS864GbBlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S8/НовыйРассрочкаGalaxyS864GbDuosBlueМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S8/НовыйРассрочкаGalaxyS864GbDuosGoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S8/НовыйРассрочкаGalaxyS864GbGoldМагазин.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/category_result.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/output.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/shop_items.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/shop_items_result.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/temp.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/CategoryTree.class" afterPath="$PROJECT_DIR$/out/production/EKZ/CategoryTree.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Input/shop_items_shop_script.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/4/White/32Gb/A1349_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/4S/Black/16Gb/A1431_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/4S/White/64Gb/A1431_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5/Black/16Gb/A1428_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5/White/16Gb/A1442_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Blue/16Gb/A1507_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Blue/16Gb/A1516_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Blue/16Gb/A1529_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Blue/32Gb/A1507_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Blue/32Gb/A1516_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Blue/32Gb/A1529_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Blue/32Gb/A1532_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Green/16Gb/A1456_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Green/16Gb/A1507_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Green/16Gb/A1516_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Green/16Gb/A1529_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Green/32Gb/A1456_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Green/32Gb/A1507_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Green/32Gb/A1516_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Green/32Gb/A1529_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Green/32Gb/A1532_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Green/8Gb/A1456_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Green/8Gb/A1507_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Green/8Gb/A1516_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Green/8Gb/A1529_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Green/8Gb/A1532_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Pink/16Gb/A1507_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Pink/16Gb/A1516_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Pink/16Gb/A1529_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Pink/16Gb/A1532_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Pink/32Gb/A1456_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Pink/32Gb/A1507_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Pink/32Gb/A1516_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Pink/32Gb/A1529_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Pink/8Gb/A1516_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Pink/8Gb/A1529_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Pink/8Gb/A1532_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/White/16Gb/A1456_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/White/16Gb/A1507_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/White/16Gb/A1516_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/White/16Gb/A1529_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/White/32Gb/A1456_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/White/32Gb/A1507_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/White/32Gb/A1516_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/White/32Gb/A1532_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/White/8Gb/A1516_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/White/8Gb/A1529_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/White/8Gb/A1532_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Yellow/16Gb/A1456_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Yellow/16Gb/A1507_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Yellow/16Gb/A1516_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Yellow/32Gb/A1456_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Yellow/32Gb/A1507_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Yellow/32Gb/A1516_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Yellow/32Gb/A1529_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Yellow/32Gb/A1532_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Yellow/8Gb/A1507_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Yellow/8Gb/A1516_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Yellow/8Gb/A1529_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5C/Yellow/8Gb/A1532_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Black/16Gb/A1453_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Black/32Gb/A1530_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Black/64Gb/A1453_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Black/64Gb/A1457_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Black/64Gb/A1518_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Black/64Gb/A1528_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Black/64Gb/A1528_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Black/64Gb/A1530_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Black/64Gb/A1533_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Black/64Gb/A1533_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Gold/16Gb/A1453_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Gold/32Gb/A1457_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Gold/32Gb/A1530_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Gold/32Gb/A1533_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Gold/64Gb/A1457_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Gold/64Gb/A1457_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Gold/64Gb/A1518_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Gold/64Gb/A1518_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Gold/64Gb/A1528_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Gold/64Gb/A1528_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Gold/64Gb/A1530_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Gold/64Gb/A1530_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/Gold/64Gb/A1533_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/White/16Gb/A1530_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/White/16Gb/A1533_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/White/32Gb/A1453_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/White/32Gb/A1518_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/White/32Gb/A1518_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/White/32Gb/A1528_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/White/32Gb/A1528_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/White/32Gb/A1530_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/White/32Gb/A1533_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/White/64Gb/A1453_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/White/64Gb/A1453_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/White/64Gb/A1457_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/White/64Gb/A1457_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/White/64Gb/A1518_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/White/64Gb/A1518_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/White/64Gb/A1528_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/White/64Gb/A1528_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/White/64Gb/A1530_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/5S/White/64Gb/A1533_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Black/128Gb/A1522_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Black/128Gb/A1522_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Black/128Gb/A1524_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Black/128Gb/A1524_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Black/128Gb/A1593_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Black/128Gb/A1593_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Black/16Gb/A1522_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Black/16Gb/A1524_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Black/64Gb/A1522_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Black/64Gb/A1522_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Black/64Gb/A1524_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Black/64Gb/A1524_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Black/64Gb/A1593_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Black/64Gb/A1593_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Gold/128Gb/A1522_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Gold/128Gb/A1522_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Gold/128Gb/A1524_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Gold/128Gb/A1524_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Gold/128Gb/A1593_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Gold/128Gb/A1593_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Gold/16Gb/A1522_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Gold/64Gb/A1522_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Gold/64Gb/A1522_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Gold/64Gb/A1524_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Gold/64Gb/A1524_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Gold/64Gb/A1593_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/Gold/64Gb/A1593_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/White/128Gb/A1522_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/White/128Gb/A1522_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/White/128Gb/A1524_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/White/128Gb/A1524_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/White/128Gb/A1593_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/White/128Gb/A1593_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/White/16Gb/A1593_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/White/64Gb/A1522_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/White/64Gb/A1522_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/White/64Gb/A1524_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6 Plus/White/64Gb/A1593_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/Black/16Gb/A1586_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/Black/32Gb/A1549_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/Black/64Gb/A1586_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/Gold/16Gb/A1549_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/White/128Gb/A1589_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6/White/64Gb/A1549_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Black/128Gb/A1687_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Black/128Gb/A1699_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Black/16Gb/A1634_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Black/16Gb/A1687_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Black/16Gb/A1699_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Black/32Gb/A1634_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Black/32Gb/A1687_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Black/32Gb/A1699_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Black/64Gb/A1634_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Black/64Gb/A1687_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Black/64Gb/A1687_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Gold/128Gb/A1634_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Gold/128Gb/A1687_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Gold/128Gb/A1699_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Gold/16Gb/A1634_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Gold/16Gb/A1687_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Gold/16Gb/A1687_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Gold/16Gb/A1699_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Gold/16Gb/A1699_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Gold/32Gb/A1634_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Gold/32Gb/A1687_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Gold/64Gb/A1634_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Gold/64Gb/A1634_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Gold/64Gb/A1687_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Gold/64Gb/A1699_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Gold/64Gb/A1699_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Pink/128Gb/A1634_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Pink/128Gb/A1687_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Pink/128Gb/A1699_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Pink/16Gb/A1634_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Pink/16Gb/A1687_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Pink/16Gb/A1699_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Pink/32Gb/A1634_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Pink/32Gb/A1687_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Pink/32Gb/A1699_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Pink/64Gb/A1634_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Pink/64Gb/A1634_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Pink/64Gb/A1687_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Pink/64Gb/A1687_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Pink/64Gb/A1699_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/Pink/64Gb/A1699_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/White/128Gb/A1634_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/White/128Gb/A1687_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/White/128Gb/A1699_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/White/16Gb/A1634_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/White/16Gb/A1687_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/White/16Gb/A1699_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/White/32Gb/A1634_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/White/32Gb/A1687_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/White/64Gb/A1634_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/White/64Gb/A1634_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/White/64Gb/A1687_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/White/64Gb/A1687_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/White/64Gb/A1699_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S Plus/White/64Gb/A1699_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Black/128Gb/A1700_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Gold/128Gb/A1633_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Gold/128Gb/A1688_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Gold/128Gb/A1700_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Gold/32Gb/A1633_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Gold/32Gb/A1688_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Gold/32Gb/A1700_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Gold/64Gb/A1633_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Gold/64Gb/A1633_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Gold/64Gb/A1688_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Gold/64Gb/A1688_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Gold/64Gb/A1700_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Pink/128Gb/A1633_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Pink/128Gb/A1688_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Pink/128Gb/A1700_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Pink/32Gb/A1688_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Pink/32Gb/A1700_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Pink/32Gb/A1700_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Pink/64Gb/A1633_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Pink/64Gb/A1633_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Pink/64Gb/A1688_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/Pink/64Gb/A1700_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/White/128Gb/A1633_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/White/128Gb/A1688_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/White/16Gb/A1700_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/White/32Gb/A1633_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/White/32Gb/A1633_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/White/32Gb/A1688_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/White/32Gb/A1700_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/White/32Gb/A1700_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/White/64Gb/A1633_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/White/64Gb/A1633_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/White/64Gb/A1688_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/White/64Gb/A1688_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/6S/White/64Gb/A1700_без_отпечатка.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Black/256Gb/A1784_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Black/256Gb/A1785_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Gold/128Gb/A1661_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Gold/128Gb/A1784_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Gold/128Gb/A1785_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Gold/256Gb/A1661_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Gold/256Gb/A1784_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Gold/256Gb/A1785_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Gold/32Gb/A1661_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Gold/32Gb/A1784_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Jet Black/128Gb/A1784_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Jet Black/256Gb/A1661_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Jet Black/256Gb/A1784_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Jet Black/256Gb/A1785_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Jet Black/32Gb/A1661_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Jet Black/32Gb/A1784_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Jet Black/32Gb/A1785_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Pink/128Gb/A1661_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Pink/128Gb/A1784_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Pink/128Gb/A1785_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Pink/256Gb/A1784_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Pink/256Gb/A1785_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Pink/32Gb/A1784_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Pink/32Gb/A1785_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Red/128Gb/A1661_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Red/128Gb/A1784_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Red/128Gb/A1785_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Red/256Gb/A1661_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Red/256Gb/A1784_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Red/256Gb/A1785_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Red/32Gb/A1661_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Red/32Gb/A1784_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/Red/32Gb/A1785_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/White/128Gb/A1661_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/White/128Gb/A1784_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/White/128Gb/A1785_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/White/256Gb/A1661_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/White/256Gb/A1784_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/White/256Gb/A1785_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/White/32Gb/A1661_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7 Plus/White/32Gb/A1784_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/Gold/128Gb/A1778_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/Gold/256Gb/A1660_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/Gold/256Gb/A1778_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/Gold/256Gb/A1779_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/Gold/32Gb/A1660_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/Jet Black/128Gb/A1778_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/Jet Black/32Gb/A1660_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/Jet Black/32Gb/A1778_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/Pink/32Gb/A1778_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/Red/256Gb/A1778_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/Red/32Gb/A1660_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/Red/32Gb/A1778_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/Red/32Gb/A1779_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/White/128Gb/A1778_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/White/128Gb/A1779_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/White/256Gb/A1660_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/White/256Gb/A1778_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/7/White/256Gb/A1779_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Black/128Gb/A1723_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Black/128Gb/A1724_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Black/32Gb/A1662_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Black/32Gb/A1723_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Black/32Gb/A1724_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Black/64Gb/A1723_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Black/64Gb/A1724_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Gold/128Gb/A1662_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Gold/128Gb/A1723_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Gold/128Gb/A1724_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Gold/16Gb/A1662_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Gold/16Gb/A1723_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Gold/16Gb/A1724_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Gold/32Gb/A1723_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Gold/32Gb/A1724_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Gold/64Gb/A1662_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Gold/64Gb/A1723_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Gold/64Gb/A1724_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Pink/128Gb/A1662_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Pink/128Gb/A1723_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Pink/128Gb/A1724_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Pink/32Gb/A1724_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Pink/64Gb/A1662_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Pink/64Gb/A1723_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/Pink/64Gb/A1724_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/White/128Gb/A1662_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/White/128Gb/A1723_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/White/128Gb/A1724_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/White/16Gb/A1662_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/White/16Gb/A1723_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/White/32Gb/A1662_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/White/32Gb/A1723_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/White/64Gb/A1662_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Apple/SE/White/64Gb/A1723_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2015)/Black/8Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2015)/Black/8Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2015)/Blue/8Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2015)/Blue/8Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2015)/Gold/8Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2015)/Pink/8Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2015)/Pink/8Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2015)/White/8Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2015)/White/8Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2016)/Gold/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2016)/Gold/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2016)/Pink/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2016)/Pink/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2016)/White/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2016)/White/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2017)/Blue/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2017)/Gold/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A3 (2017)/Gold/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2015)/Blue/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2015)/Blue/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2015)/Gold/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2015)/Gold/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2015)/Pink/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2015)/Pink/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2015)/White/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2015)/White/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2016)/Black/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2016)/Gold/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2016)/Pink/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2016)/Pink/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2016)/White/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2017)/Black/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2017)/Blue/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2017)/Blue/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2017)/Gold/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A5 (2017)/Gold/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2015)/Black/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2015)/Blue/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2015)/Blue/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2015)/Gold/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2015)/Gold/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2015)/Pink/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2015)/Pink/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2015)/White/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2015)/White/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2016)/Black/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2016)/Black/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2016)/Gold/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2016)/Pink/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2016)/Pink/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2016)/White/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2017)/Black/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2017)/Black/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2017)/Blue/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2017)/Blue/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/A7 (2017)/Gold/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J1 (2016)/Gold/8Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J1 (2016)/White/8Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J1 (2016)/White/8Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J2 (2016)/Black/8Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J2 (2016)/Gold/8Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J2 (2016)/Gold/8Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J2 (2016)/Silver/8Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J2 (2016)/Silver/8Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J3 (2016)/Black/8Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J3 (2016)/Gold/8Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J3 (2016)/White/8Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J3 (2016)/White/8Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J5 (2016)/Black/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J5 (2016)/Gold/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J5 (2016)/Gold/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J5 (2016)/White/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J7 (2016)/Gold/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J7 (2016)/Gold/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J7 (2016)/White/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/J7 (2016)/White/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 3/Black/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 3/Pink/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 3/Pink/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 3/White/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 3/White/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 4/Gold/32Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 4/Gold/32Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 4/Pink/32Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 4/Pink/32Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 4/White/32Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 4/White/32Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 5/Black/32Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 5/Gold/32Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 5/Silver/32Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 5/Silver/32Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 5/White/32Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/Note 5/White/32Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S3/Black/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S3/Blue/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S4/White/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S4/White/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S5/Black/16Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S5/Gold/16Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6 Edge/Blue/32Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6 Edge/Gold/32Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6 Edge/Gold/32Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6 Edge/Green/32Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6 Edge/Green/32Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6 Edge/White/32Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6 Edge/White/32Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6/Gold/32Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6/Gold/32Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6/White/32Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S6/White/32Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S7 Edge/Gold/32Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S7 Edge/Silver/32Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S7/Gold/32Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S7/Gold/32Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S8 Plus/Blue/64Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S8 Plus/Gold/64Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S8 Plus/Gold/64Gb/_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S8/Gold/64Gb/Duos_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/Samsung/S8/Gold/64Gb/_.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/Gadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/Gadgets.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/Solution.class" afterPath="$PROJECT_DIR$/out/production/EKZ/Solution.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/WebSiteGadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/WebSiteGadgets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/YoulaGadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/YoulaGadgets.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/exclude_avito_ads.txt" afterPath="$PROJECT_DIR$/Input/exclude_avito_ads.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/price_list_iphone.txt" afterPath="$PROJECT_DIR$/Input/price_list_iphone.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/price_list_samsung.txt" afterPath="$PROJECT_DIR$/Input/price_list_samsung.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/shop_items_global.xml" afterPath="$PROJECT_DIR$/Input/shop_items_global.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AvitoGadgets.java" afterPath="$PROJECT_DIR$/src/AvitoGadgets.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CategoryTree.java" afterPath="$PROJECT_DIR$/src/CategoryTree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gadgets.java" afterPath="$PROJECT_DIR$/src/Gadgets.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution.java" afterPath="$PROJECT_DIR$/src/Solution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WebSiteGadgets.java" afterPath="$PROJECT_DIR$/src/WebSiteGadgets.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/YoulaGadgets.java" afterPath="$PROJECT_DIR$/src/YoulaGadgets.java" />
     </list>
     <ignored path="EKZ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -670,8 +488,8 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="214" column="29" selection-start-line="214" selection-start-column="26" selection-end-line="214" selection-end-column="29" />
+            <state relative-caret-position="195">
+              <caret line="206" column="35" selection-start-line="206" selection-start-column="35" selection-end-line="206" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -682,11 +500,9 @@
       <file leaf-file-name="CategoryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CategoryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="151" column="17" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="594">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -694,8 +510,8 @@
       <file leaf-file-name="Gadgets.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="18">
+              <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -703,11 +519,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="YoulaGadgets.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/YoulaGadgets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Gadget.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Gadget.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -723,24 +549,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="include_avito_ads.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Input/include_avito_ads.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AvitoGadgets.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="289" column="98" selection-start-line="289" selection-start-column="98" selection-end-line="289" selection-end-column="98" />
+            <state relative-caret-position="180">
+              <caret line="495" column="21" selection-start-line="495" selection-start-column="21" selection-end-line="495" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1498375706570" expanded="true" signature="27368:27382" ph="..." />
+                <element signature="e#2724#2733#0" expanded="true" />
+                <element signature="e#15323#15331#0" expanded="true" />
+                <element signature="e#17920#17928#0" expanded="true" />
+                <marker date="1499609783837" expanded="true" signature="28255:28269" ph="..." />
               </folding>
             </state>
           </provider>
@@ -760,7 +579,7 @@
         <entry file="file://$PROJECT_DIR$/Input/price_list_samsung.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="341">
-              <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
+              <caret line="35" column="73" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -769,8 +588,8 @@
       <file leaf-file-name="WebSiteGadgets.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WebSiteGadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            <state relative-caret-position="152">
+              <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -815,19 +634,19 @@
         <option value="$PROJECT_DIR$/Output/yandex_market_items.csv" />
         <option value="$PROJECT_DIR$/Output/shop_items.csv" />
         <option value="$PROJECT_DIR$/Input/selected_ym_items.txt" />
-        <option value="$PROJECT_DIR$/src/WebSiteGadgets.java" />
-        <option value="$PROJECT_DIR$/src/YoulaGadgets.java" />
         <option value="$PROJECT_DIR$/Input/price_list_ispark.txt" />
         <option value="$PROJECT_DIR$/Output/shop_items_result.xml" />
         <option value="$PROJECT_DIR$/src/Category.java" />
         <option value="$PROJECT_DIR$/Input/categories_ids.txt" />
         <option value="$PROJECT_DIR$/Input/include_avito_ads.txt" />
         <option value="$PROJECT_DIR$/Input/exclude_avito_ads.txt" />
-        <option value="$PROJECT_DIR$/Input/price_list_samsung.txt" />
-        <option value="$PROJECT_DIR$/Input/price_list_iphone.txt" />
-        <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/Gadget.java" />
         <option value="$PROJECT_DIR$/src/CategoryTree.java" />
+        <option value="$PROJECT_DIR$/Input/price_list_samsung.txt" />
+        <option value="$PROJECT_DIR$/src/YoulaGadgets.java" />
+        <option value="$PROJECT_DIR$/src/WebSiteGadgets.java" />
+        <option value="$PROJECT_DIR$/src/Solution.java" />
+        <option value="$PROJECT_DIR$/Input/price_list_iphone.txt" />
         <option value="$PROJECT_DIR$/src/Gadgets.java" />
         <option value="$PROJECT_DIR$/src/AvitoGadgets.java" />
       </list>
@@ -836,7 +655,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -870,6 +689,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -932,8 +753,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1279,8 +1098,8 @@
     <option name="totallyTimeSpent" value="197850000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1289,12 +1108,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22131148" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32786885" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32786885" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.48421052" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.48421052" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32459018" sideWeight="0.49121523" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1385,7 +1204,10 @@
           <caret line="190" column="21" selection-start-line="190" selection-start-column="21" selection-end-line="190" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1498375706570" expanded="true" signature="27368:27382" ph="..." />
+            <element signature="e#2724#2733#0" expanded="true" />
+            <element signature="e#15323#15331#0" expanded="true" />
+            <element signature="e#17920#17928#0" expanded="true" />
+            <marker date="1499609783837" expanded="true" signature="28255:28269" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1407,7 +1229,10 @@
           <caret line="45" column="192" selection-start-line="45" selection-start-column="192" selection-end-line="45" selection-end-column="192" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1498375706570" expanded="true" signature="27368:27382" ph="..." />
+            <element signature="e#2724#2733#0" expanded="true" />
+            <element signature="e#15323#15331#0" expanded="true" />
+            <element signature="e#17920#17928#0" expanded="true" />
+            <marker date="1499609783837" expanded="true" signature="28255:28269" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1428,7 +1253,10 @@
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1498375706570" expanded="true" signature="27368:27382" ph="..." />
+            <element signature="e#2724#2733#0" expanded="true" />
+            <element signature="e#15323#15331#0" expanded="true" />
+            <element signature="e#17920#17928#0" expanded="true" />
+            <marker date="1499609783837" expanded="true" signature="28255:28269" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1450,7 +1278,10 @@
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1498375706570" expanded="true" signature="27368:27382" ph="..." />
+            <element signature="e#2724#2733#0" expanded="true" />
+            <element signature="e#15323#15331#0" expanded="true" />
+            <element signature="e#17920#17928#0" expanded="true" />
+            <marker date="1499609783837" expanded="true" signature="28255:28269" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1467,13 +1298,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/input.txt" />
-    <entry file="file://$PROJECT_DIR$/Output/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1513" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Output/output.txt" />
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1490,13 +1315,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Output/temp.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="390" column="38" selection-start-line="390" selection-start-column="35" selection-end-line="390" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Output/temp.txt" />
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1545,25 +1364,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Output/shop_items.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2214">
-          <caret line="123" column="43" selection-start-line="123" selection-start-column="43" selection-end-line="123" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Output/shop_items.csv" />
     <entry file="file://$PROJECT_DIR$/Input/distribution_avito.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/YoulaGadgets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4590">
-          <caret line="255" column="69" selection-start-line="254" selection-start-column="16" selection-end-line="255" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1575,13 +1380,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Output/shop_items_result.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="93" column="63" selection-start-line="93" selection-start-column="63" selection-end-line="93" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Output/shop_items_result.xml" />
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1590,18 +1389,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Input/categories_ids.txt">
+    <entry file="file://$PROJECT_DIR$/Input/categories_ids.txt" />
+    <entry file="file://$PROJECT_DIR$/Input/include_avito_ads.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+        <state relative-caret-position="1026">
+          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Input/include_avito_ads.txt">
+    <entry file="file://$PROJECT_DIR$/src/CategoryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+        <state relative-caret-position="594">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1617,8 +1417,42 @@
     <entry file="file://$PROJECT_DIR$/Input/price_list_samsung.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
-          <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
+          <caret line="35" column="73" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WebSiteGadgets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gadget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/YoulaGadgets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="206" column="35" selection-start-line="206" selection-start-column="35" selection-end-line="206" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1630,46 +1464,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WebSiteGadgets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="214" column="29" selection-start-line="214" selection-start-column="26" selection-end-line="214" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gadget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CategoryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="151" column="17" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="18">
+          <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1678,11 +1476,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="289" column="98" selection-start-line="289" selection-start-column="98" selection-end-line="289" selection-end-column="98" />
+        <state relative-caret-position="180">
+          <caret line="495" column="21" selection-start-line="495" selection-start-column="21" selection-end-line="495" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1498375706570" expanded="true" signature="27368:27382" ph="..." />
+            <element signature="e#2724#2733#0" expanded="true" />
+            <element signature="e#15323#15331#0" expanded="true" />
+            <element signature="e#17920#17928#0" expanded="true" />
+            <marker date="1499609783837" expanded="true" signature="28255:28269" ph="..." />
           </folding>
         </state>
       </provider>

@@ -196,16 +196,16 @@ public class Solution {
 
         iphonesAvito = new AvitoGadgets();
         iphonesAvito.initializeIPhones();
-//        iphonesAvito.generateGadgets(0, new ArrayList<String>());
-        iphonesAvito.printGadgets(0, new ArrayList<String>());
-//        iphonesAvito.generateFiles();
+        iphonesAvito.generateGadgets(0, new ArrayList<String>());
+//        iphonesAvito.printGadgets(0, new ArrayList<String>());
+        iphonesAvito.generateFolders();
+        iphonesAvito.generateFilesRobot();
 
-//        samsungsAvito = new AvitoGadgets();
-//        samsungsAvito.initializeSamsungs();
-//        samsungsAvito.generateGadgets(0, new ArrayList<String>());
-//        samsungsAvito.generateFiles();
+        samsungsAvito = new AvitoGadgets();
+        samsungsAvito.initializeSamsungs();
+        samsungsAvito.generateGadgets(0, new ArrayList<String>());
+        samsungsAvito.generateFolders();
     }
-
 
 
     public static void main(String[] args) {
@@ -222,7 +222,7 @@ public class Solution {
 //        iphonesYoula.initializeIPhones();
 //        iphonesYoula.generateGadgets(0, new ArrayList<String>());
 //        iphonesYoula.distributeIPhones();
-//        iphonesYoula.generateFiles();
+//        iphonesYoula.generateFolders();
 
         //WebSite
 //        WebSiteGadgets webSiteGadgets = new WebSiteGadgets();

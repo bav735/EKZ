@@ -19,27 +19,26 @@ public class WebSiteGadgets extends Gadgets {
     final static String TAGS = "TAGS";
     final static String CATEGORY_ID = "CATEGORY_ID";
     final static String SUBCATEGORY_ID = "SUBCATEGORY_ID";
-
+    String[] gadgetAttributeNames = new String[]{
+            ID,
+            AVAILABLE,
+            PRICE,
+            CURRENCY_ID,
+            CATEGORY,
+            PICTURE,
+            URL,
+            NAME,
+            DESCRIPTION,
+            TAGS,
+            CATEGORY_ID,
+            SUBCATEGORY_ID,
+    };
 
     public WebSiteGadgets() {
     }
 
     public void initializeFromCSV() {
-        gadgetAttributeNames = new String[]{
-                ID,
-                AVAILABLE,
-                PRICE,
-                CURRENCY_ID,
-                CATEGORY,
-                PICTURE,
-                URL,
-                NAME,
-                DESCRIPTION,
-                TAGS,
-                CATEGORY_ID,
-                SUBCATEGORY_ID,
-        };
-        initializeMapGadgetAttributeNumber();
+        initializeMapGadgetAttributeNumber(gadgetAttributeNames);
         Scanner inScanner = Solution.getInputScanner("shop_items.csv");
         String csvText = "";
         inScanner.nextLine();
@@ -116,15 +115,15 @@ public class WebSiteGadgets extends Gadgets {
                 continue;
             }
             if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("RST")) {
-                price = mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(RST_RETAIL_MAX));
+                price = mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(RST_RETAIL_ISPARK));
             } else {
                 String s = "";
                 if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("БО")) {
                     s = " Б/О";
                 }
-                price = mapGadgetNamePrices.get(gadgetName + s).get(mapPriceAttributeNumber.get(EST_RETAIL_MAX));
+                price = mapGadgetNamePrices.get(gadgetName + s).get(mapPriceAttributeNumber.get(EST_RETAIL_ISPARK));
 //                if (price.length() == 1) {
-//                    price = mapGadgetNamePrices.get(gadgetName + s).get(mapPriceAttributeNumber.get(EST_RETAIL_MIN));
+//                    price = mapGadgetNamePrices.get(gadgetName + s).get(mapPriceAttributeNumber.get(EST_RETAIL_AMOLED));
 //                }
             }
             partId++;
