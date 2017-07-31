@@ -187,7 +187,12 @@ public class CategoryTree {
                         gadget.description = ("Тип товара: Евротест (EST)\n").concat(gadget.description);
                         gadget.manufacturerWarranty = false;
                     }
-                    
+                    modelSplit = gadget.getGithubName().split(" ");
+                    gadget.imageUrl = "https://raw.githubusercontent.com/bav735/EKZ/master/";
+                    for (String part : modelSplit) {
+                        gadget.imageUrl += part + "/";
+                    }
+                    gadget.imageUrl += "img.jpg";
                 }
             }
             child.synchronizeWithPriceList();

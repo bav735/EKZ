@@ -45,11 +45,15 @@ public class Gadget {
         } else {
             quality += "EST";
         }
+        return quality + " " + getGithubName();
+    }
+
+    public String getGithubName() {
         int posSpace = model.lastIndexOf(" ");
         if (posSpace == -1) {
             posSpace = model.length();
         }
-        return quality + " " + vendor + " " + model.substring(0, posSpace);
+        return vendor + " " + model.substring(0, posSpace);
     }
 
 //    public static String formatString(String s, String tag) {
