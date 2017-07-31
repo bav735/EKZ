@@ -2,40 +2,54 @@
  * Created by A on 14.06.2017.
  */
 public class Gadget {
-    String name;
+    public static int size = 103379;
+
     String imageUrl;
     String price;
     String vendor;
     String model;
     String description;
+    String initialCategoryId;
+    String id;
+    String params;
+    String namePrefix;
+    boolean manufacturerWarranty;
 
-    public Gadget(String offer) {
-        vendor = getValueByTag(offer, "vendor");
-        model = getValueByTag(offer, "model");
-        imageUrl = getValueByTag(offer, "picture");
-        description = getValueByTag(offer, "description");
-        price = getValueByTag(offer, "price");
+    public Gadget(String offer, String initialCategoryId) {
+        vendor = Solution.getValueByTag(offer, "vendor");
+        model = Solution.getValueByTag(offer, "model");
+        imageUrl = Solution.getValueByTag(offer, "picture");
+        description = Solution.getValueByTag(offer, "description");
+        price = Solution.getValueByTag(offer, "price");
+        namePrefix = Solution.getValueByTag(offer, "typePrefix");
         price = price.substring(0, price.length() - 2);
-        name = getValueByTag(offer, "name") + " " + model;
+        this.initialCategoryId = initialCategoryId;
+        if (Solution.SHOP_ITEMS_XML.equals(Solution.CUSTOM_XML)) {
+            id = Solution.getValueByPrefix(offer, "id=\"", '"');
+        }
+        if (id == null) {
+            id = "" + size++;
+        }
+        params = Solution.getValueByTag(offer, "<param ", "</param>");
 //        System.out.println(description);
     }
 
-    public static String getValueByTag(String from, String tag) {
-        if (!from.contains(tag)) {
-            return null;
+    public String getWebsiteName() {
+        return namePrefix + " " + vendor + " " + model;
+    }
+
+    public String getGoogleSheetsName() {
+        String quality = "";
+        if (manufacturerWarranty) {
+            quality += "RST";
+        } else {
+            quality += "EST";
         }
-        String openTag = '<' + tag + '>';
-        String closeTag = "</" + tag + ">";
-        int posL = from.indexOf(openTag);
-        if (posL == -1) {
-            return null;
+        int posSpace = model.lastIndexOf(" ");
+        if (posSpace == -1) {
+            posSpace = model.length();
         }
-        int posR = from.indexOf(closeTag);
-//        String res = from.substring(posL + openTag.length(), posR);
-//        if (tag.equals("vendor") || tag.equals("model")) {
-//            res = formatString(res, tag);
-//        }
-        return from.substring(posL + openTag.length(), posR);
+        return quality + " " + vendor + " " + model.substring(0, posSpace);
     }
 
 //    public static String formatString(String s, String tag) {

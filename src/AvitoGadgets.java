@@ -39,12 +39,56 @@ public class AvitoGadgets extends Gadgets {
             SUBMODEL,
             COLOR
     };
+    final static String[] iphonesModels = new String[]{
+            "4",
+            "4S",
+            "5",
+            "5C",
+            "5S",
+            "6",
+            "6 Plus",
+            "6S",
+            "6S Plus",
+            "SE",
+            "7",
+            "7 Plus"};
+    final static String[] galaxyModels = new String[]{
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S6 Edge",
+            "S7",
+            "S7 Edge",
+            "S8",
+            "S8 Plus",
+            "A3 (2015)",
+            "A3 (2016)",
+            "A3 (2017)",
+            "A5 (2015)",
+            "A5 (2016)",
+            "A5 (2017)",
+            "A7 (2015)",
+            "A7 (2016)",
+            "A7 (2017)",
+            "J mini (2016)",
+            "J1 (2016)",
+            "J2 (2016)",
+            "J3 (2016)",
+            "J5 (2016)",
+            "J7 (2016)",
+            "Note 3",
+            "Note 4",
+            "Note 5"};
+
+    public static ArrayList<ArrayList<String>> iPhonesSubModels;
 
     HashMap<String, ArrayList<String>> mapGadgetModelSubmodel;
     HashMap<String, ArrayList<ArrayList<String>>> mapGadgetModelGadgets;
     HashMap<String, ArrayList<String>> mapGadgetModelColor;
     HashMap<String, Integer> mapGadgetModelGadgetCount;
     ArrayList<String> gadgetQuality;
+    ArrayList<String> gadgetModels;
     ArrayList<ArrayList<String>> gadgetAttributesVariants;
     static HashSet<String> excludeAds;
     int[][] gadgetsDistribution;
@@ -58,19 +102,8 @@ public class AvitoGadgets extends Gadgets {
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList(NEW, RFB)));
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("Apple")));
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("iPhone")));
-        gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList(
-                "4",
-                "4S",
-                "5",
-                "5C",
-                "5S",
-                "6",
-                "6 Plus",
-                "6S",
-                "6S Plus",
-                "SE",
-                "7",
-                "7 Plus")));
+        gadgetModels = new ArrayList<String>(Arrays.asList(iphonesModels));
+        gadgetAttributesVariants.add(gadgetModels);
         ArrayList<Integer> gadgetCount = new ArrayList<Integer>(Arrays.asList(
                 113,
                 156,
@@ -84,28 +117,27 @@ public class AvitoGadgets extends Gadgets {
                 52,
                 197,
                 58));
-        ArrayList<ArrayList<String>> submodels = new ArrayList<>();
-        submodels.add(new ArrayList<String>(Arrays.asList("A1349", "A1332")));
-        submodels.add(new ArrayList<String>(Arrays.asList("A1431", "A1387")));
-        submodels.add(new ArrayList<String>(Arrays.asList("A1428", "A1429", "A1442")));
-        submodels.add(new ArrayList<String>(Arrays.asList("A1456", "A1507", "A1516", "A1529", "A1532")));
-        submodels.add(new ArrayList<String>(Arrays.asList("A1453", "A1457", "A1518", "A1528", "A1530", "A1533")));
-        submodels.add(new ArrayList<String>(Arrays.asList("A1549", "A1586", "A1589")));
-        submodels.add(new ArrayList<String>(Arrays.asList("A1522", "A1524", "A1593")));
-        submodels.add(new ArrayList<String>(Arrays.asList("A1633", "A1688", "A1700")));
-        submodels.add(new ArrayList<String>(Arrays.asList("A1634", "A1687", "A1699")));
-        submodels.add(new ArrayList<String>(Arrays.asList("A1723", "A1662", "A1724")));
-        submodels.add(new ArrayList<String>(Arrays.asList("A1660", "A1778", "A1779")));
-        submodels.add(new ArrayList<String>(Arrays.asList("A1661", "A1784", "A1785")));
+        iPhonesSubModels = new ArrayList<>();
+        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1332", "A1349")));//iphone 4
+        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1387", "A1431")));//iphone 4s
+        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1428", "A1429", "A1442")));//iphone 5
+        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1532", "A1456", "A1516", "A1529", "A1507")));//iphone 5c
+        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1533", "A1457", "A1518", "A1528", "A1530", "A1453")));//iphone 5s
+        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1549", "A1586", "A1589")));//iphone 6
+        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1522", "A1524", "A1593")));//iphone 6+
+        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1633", "A1688", "A1700")));//iphone 6s
+        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1634", "A1687", "A1699")));//iphone 6s+
+        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1662", "A1723", "A1724")));//iphone se
+        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1660", "A1778", "A1779")));//iphone 7
+        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1661", "A1784", "A1785")));//iphone 7+
         mapGadgetModelSubmodel = new HashMap<>();
         mapGadgetModelGadgetCount = new HashMap<>();
-        ArrayList<String> models = gadgetAttributesVariants.get(gadgetAttributesVariants.size() - 1);
-        /*for (int i = 0; i < models.size(); i++) {
-            submodels.add(new ArrayList<>(Arrays.asList("")));
+        /*for (int i = 0; i < models.baseSize(); i++) {
+            iPhonesSubModels.add(new ArrayList<>(Arrays.asList("")));
         }*/
-        for (int i = 0; i < models.size(); i++) {
-            mapGadgetModelSubmodel.put(models.get(i), submodels.get(i));
-            mapGadgetModelGadgetCount.put(models.get(i), gadgetCount.get(i) / TOP_COUNT);
+        for (int i = 0; i < gadgetModels.size(); i++) {
+            mapGadgetModelSubmodel.put(gadgetModels.get(i), iPhonesSubModels.get(i));
+            mapGadgetModelGadgetCount.put(gadgetModels.get(i), gadgetCount.get(i) / TOP_COUNT);
         }
         ArrayList<ArrayList<String>> colors = new ArrayList<>();
         colors.add(new ArrayList<String>(Arrays.asList("Black", "White")));
@@ -121,8 +153,8 @@ public class AvitoGadgets extends Gadgets {
         colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Jet Black", "Gold", "Pink", "Red")));
         colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Jet Black", "Gold", "Pink", "Red")));
         mapGadgetModelColor = new HashMap<>();
-        for (int i = 0; i < models.size(); i++) {
-            mapGadgetModelColor.put(models.get(i), colors.get(i));
+        for (int i = 0; i < gadgetModels.size(); i++) {
+            mapGadgetModelColor.put(gadgetModels.get(i), colors.get(i));
         }
         gadgetAttributesVariants.add(new ArrayList<>(Arrays.asList("8Gb",
                 "16Gb",
@@ -136,37 +168,10 @@ public class AvitoGadgets extends Gadgets {
     public void initializeSamsungs() {
         initializeMapGadgetAttributeNumber(gadgetAttributeNames);
         gadgetAttributesVariants = new ArrayList<ArrayList<String>>();
-        gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList(RST, EST)));
+        gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList(RFB, NEW)));
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("Samsung")));
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("Galaxy")));
-        gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList(
-                "S3",
-                "S4",
-                "S5",
-                "S6",
-                "S6 Edge",
-                "S7",
-                "S7 Edge",
-                "S8",
-                "S8 Plus",
-                "A3 (2015)",
-                "A3 (2016)",
-                "A3 (2017)",
-                "A5 (2015)",
-                "A5 (2016)",
-                "A5 (2017)",
-                "A7 (2015)",
-                "A7 (2016)",
-                "A7 (2017)",
-                "J1 (2016)",
-                "J2 (2016)",
-                "J3 (2016)",
-                "J5 (2016)",
-                "J7 (2016)",
-                "Note 3",
-                "Note 4",
-                "Note 5"
-        )));
+        gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList(galaxyModels)));
         ArrayList<ArrayList<String>> submodels = new ArrayList<>();
         mapGadgetModelSubmodel = new HashMap<>();
         ArrayList<String> models = gadgetAttributesVariants.get(gadgetAttributesVariants.size() - 1);
@@ -195,6 +200,7 @@ public class AvitoGadgets extends Gadgets {
         colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Pink", "Blue")));//a7 2015
         colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Pink")));//a7 2016
         colors.add(new ArrayList<String>(Arrays.asList("Black", "Gold", "Blue")));//a7 2017
+        colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//j1 mini
         colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//j1
         colors.add(new ArrayList<String>(Arrays.asList("Black", "Silver", "Gold")));//j2
         colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//j3
@@ -417,7 +423,7 @@ public class AvitoGadgets extends Gadgets {
                 }
             }
 //            for (ArrayList<String> g : gadgetGroup) {
-//                System.out.printYML(getGadgetName(g));
+//                System.out.printYMLCategories(getGadgetName(g));
 //            }
 //            System.out.println();
             gadgets.addAll(gadgetGroup);
@@ -489,21 +495,19 @@ public class AvitoGadgets extends Gadgets {
         String gadgetName = getGadgetName(gadget);
         String color = gadget.get(mapGadgetAttributeNumber.get(COLOR));
         String quality = gadget.get(mapGadgetAttributeNumber.get(QUALITY));
-        String offer = "➡" + gadgetName + " " + color + " = " + getPrice(gadget) + "₽ (" + quality + ") " +
+        String offer = quality + " " + gadgetName + " " + color + " = " + getPrice(gadget) + " руб, " +
                 "ГАРАНТИЯ 1 ГОД ";
         switch (gadget.get(mapGadgetAttributeNumber.get(QUALITY))) {
             case EST:
             case RFB:
-                offer += "от СЦ iSPARK\uD83D\uDD25 (Казань/Москва)";
+                offer += "(восстановленный)";
                 break;
             case RST:
             case NEW:
                 if (!notEnoughModel(gadget)) {
-                    if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).contains("Apple")) {
-                        offer += "от Apple\uD83C\uDF4E";
-                    } else {
-                        offer += "от Samsung\uD83D\uDCF1";
-                    }
+                    offer += "(НОВЫЙ, НЕ РЕФ)";
+                } else {
+                    offer += "(как новый)";
                 }
         }
         offer += "\n";
@@ -548,127 +552,39 @@ public class AvitoGadgets extends Gadgets {
         return price;
     }
 
-    /*private String getNewTextXml(ArrayList<String> gadgets) {
-        String color = gadgets.get(mapGadgetAttributeNumber.get(COLOR));
-        String text = "<![CDATA[";
-        String gadgetName = getGadgetName(gadgets);
-//        String city = CITIES[cityId];
-        text += "<p>Уважаемый клиент,<br>" +
-                "Вас приветствует <strong>iSPARK</strong>";
-        text += "</p><p>->Акция: Гарантия лучшей цены: Нашли дешевле в другом магазине?" +
-                " Сделаем скидку!";
-        text += "</p><p><strong>Почему iSPARK?</strong><br>" +
-                "1) Мы всегда идем навстречу нашим клиентам и дорожим своей репутацией.<br>" +
-                "2) Предлагаем широкие возможности вашей покупки:<br>" +
-//                "- Рассрочка (0-0-6)<br>" +
-//                "- Кредит (~1.5% в мес)<br>" +
-//                "- Безналичная оплата (юрлицам)<br>" +
-//                "- Оплата по банковской карте (в т.ч. кредитной)<br>" +
-//                "- Доставка по РФ, ~300₽ (через CDEK)<br>" +
-//                "- Самовывоз (Казань и Москва)<br>" +
-//                "- Трейд-ин (обмен)<br>" +
-//                "- Опт (от 6 шт)<br>" +
-//                "- Выкуп<br>" +
-                "- КРЕДИТ 1.5% в мес<br>" +
-                "- РАССРОЧКА сроком до 6 мес<br>" +
-                "- ОПЛАТА ПО КАРТЕ дебетовой/кредитной<br>" +
-                "- БЕЗНАЛИЧНАЯ ОПЛАТА для юридических лиц<br>" +
-                "- САМОВЫВОЗ КАЗАНЬ/МОСКВА, бесплатно<br>" +
-                "- ДОСТАВКА ПО РФ от 2 дней, ~300₽<br>" +
-                "- ТРЕЙД-ИН, система обмена<br>" +
-                "- ВЫКУП в течение 10 мин<br>" +
-                "- ОПТ от 6 шт<br>" +
-                "3) Специализируемся на продаже и ремонте электроники с 2009 года.</p><p>";
-//        if (gadgets.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
-//            text += "Предлагаем вам";
-//        } else {
-//            text += "Рады радовать вас новыми";
-//        }
-        int len = getPrice(gadgets).length();
-        text += "Рады предложить <strong>" + gadgetName + "</strong> цвета <strong>" +
-                color + "</strong> по лучшей цене в Казани = <strong>" + formatPrice(getPrice(gadgets)) + "₽!</strong> <br>" +
-                "(в наличии/под заказ имеется ВЕСЬ модельный ряд iPhone)<br>";
-        if (gadgets.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
-//            text += getCreditOffer(gadgets);
-//            text += getWholesaleOffer(gadgetName);
-            text += "</p><p>";
-            text += "- характеристики смартфонов смотрите на сайте ispark info<br>";
-            text += "- РЕФ (восстановленный)*";
-            text += ", гарантия предоставляется iSPARK<br>";
-            text += "- полностью запечатаны, без следов эксплуатации, хороший подарок<br>";
-        } else {
-//            text += getCreditOffer(gadgets);
-            text += "</p><p>";
-            text += "- характеристики смартфонов смотрите на сайте ispark info<br>";
-            text += "- НЕ РЕФ, не восстановленные, ОФИЦИАЛЬНАЯ гарантия от Apple, 1 ГОД<br>";
-            text += "- полностью запечатаны, без следов эксплуатации, отличный подарок<br>";
-        }
-//                        "<p><strong>Условия покупки:</strong><br>" +
-//                        "- предзаказ, скидка до 5%<br>" +
-//                        "- самовывоз, бесплатно<br>" +
-//                        "- быстрая доставка, ";
-        if (city.equals("Казань")) {
-            text += "200₽<br>";
-        } else {
-            text += "350₽<br>";
-        }
-        text += "- при покупке выдается товарный чек и гарантийный талон";
-        text += "<br>- пожалуйста, перед визитом уточняйте наличие товара</p>";
-        text += "<p><strong>Местоположение iSPARK в Казани</strong> (см. в Яндекс.Картах, 2ГИС, Google Maps):<br>" +
-                "- г. Казань, ул. Лушникова, д. 8, оф. 5<br>" +
-//                "- г. Москва, ул. Молодежная, д. 4, оф. 3<br>" +
-                "- время работы (пн-сб): 13.00-21.00</p>";
-        text += "<p>Прием звонков: 9.00-21.00, без выходных<br>" +
-                "(заказы на нашем сайте можно оставлять круглосуточно)</p>" +
-                "<p>У нас вы найдете наиболее выгодное предложение по приобретению и ремонту" +
-                " электроники!<br>" +
-                "С уважением,<br>" +
-                "<strong>iSPARK<strong/></p>";
-        if (gadgets.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
-            text += "<br><p>*РЕФ (восстановленный) - телефон, прошедший заводскую процедуру восстановления до" +
-                    " состояния нового путем замены корпуса, экрана, и др. запчастей</p>";
-        }
-        text = text.replace(TOUCH_LOCKED, "без отпечатка");
-        text += "]]>";
-        return text;
-    }*/
-
     private String getAdText(ArrayList<String> gadget) {
         String text = "";
-//        String gadgetName = getGadgetName(gadgets);
-//        String city = CITIES[cityId];
         text += "Уважаемый покупатель,\n" +
-                "Добро пожаловать в магазин AMOLED\uD83D\uDCF2\n\n";
-        text += "⚡АКЦИЯ, аксессуар на выбор в ПОДАРОК за отзыв❗\n\n";
-        text += "\uD83D\uDC91 Мы всегда идем навстречу нашим покупателям и дорожим своей репутацией.\n" +
-                "\uD83D\uDC47 Гибкие возможности вашей покупки:\n" +
-                "⚬ОПЛАТА кредитной/дебетовой КАРТОЙ\n" +
-                "⚬ТРЕЙД-ИН, ОБМЕН старого телефона \n" +
-                "⚬ДОСТАВКА ПО РФ через ТК CDEK\n" +
-                "⚬РАССРОЧКА, банки ОТП/Хоум-Кредит\n" +
-                "⚬ОПТ, ОПЛАТА ЧЕРЕЗ Р/С (для юрид лиц)\n" +
-                "\uD83D\uDD1DОпыт продаж в сфере цифровой электроники с 2009 года.\n\n";
+                "Добро пожаловать в магазин AMOLED\n\n";
+        text += "-> АКЦИЯ, аксессуар на выбор в ПОДАРОК за отзыв!\n\n";
+        text += "Мы всегда идем навстречу нашим покупателям и дорожим своей репутацией.\n" +
+                "Гибкие возможности вашей покупки:\n" +
+                "1) ОПЛАТА кредитной/дебетовой КАРТОЙ\n" +
+                "2) ТРЕЙД-ИН, ОБМЕН старого телефона \n" +
+                "3) ДОСТАВКА ПО РФ через ТК CDEK\n" +
+                "4) РАССРОЧКА, банки ОТП/Хоум-Кредит\n" +
+                "5) ОПТ, ОПЛАТА ЧЕРЕЗ Р/С (для юрид лиц)\n" +
+                "Опыт продаж в сфере цифровой электроники с 2009 года.\n\n";
         if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).contains("Apple")) {
-            text += "В нашем ассортименте \uD83D\uDCAFоригинальные айфоны 4/4s/5/5c/5s/6/6s/se/7 plus всех цветов и объемов памяти" +
-                    " по лучшей цене в Казани!\uD83D\uDE0A\n\n";
+            text += "В нашем ассортименте оригинальный айфон 4/4s/5/5c/5s/6/6s/se/7/plus всех цветов и объемов памяти" +
+                    " по лучшей цене в Казани!\n\n";
         } else {
-            text += "В нашем ассортименте \uD83D\uDCAFоригинальные Samsung Galaxy s3/s4/s5/s6/s7/s8 edge/plus," +
+            text += "В нашем ассортименте оригинальный самсунг галакси s3/s4/s5/s6/s7/s8 edge/plus," +
                     " a3/a5/a7 2015/2015/2017, note 3/4/5 всех цветов и объемов памяти" +
-                    " по лучшей цене в Казани! \uD83D\uDE0A\n\n";
+                    " по лучшей цене в Казани!\n\n";
         }
         text += getOffer(gadget);
-        text += "\n✔ выдаем чек и гарантийный талон, заверенные печатью\n";
-        text += "✔ цена действует при оплате полной стоимости товара наличными\n";
-//        text += "✔ характеристики смотрите на сайте ispark info или в нашей группе ВК\n";
-        text += "✔ в заводской пленке, без следов эксплуатации, отличный подарок\n";
-        text += "✔ кол-во товара ограничено, уточняйте актуальное наличие\n\n";
+        text += "\n- цена действует при оплате полной стоимости товара наличными\n";
+        text += "- выдаем товарный чек и гарантийный талон, заверенные печатью\n";
+        text += "- количество товара ограничено, уточняйте актуальное наличие\n";
+        text += "- в заводской пленке, без следов эксплуатации, отличный подарок\n\n";
 //        text += "Местоположение iSPARK, см. в Яндекс.Картах, 2ГИС, Google Maps \uD83C\uDF0D\n" +
 //                "▶ г. Казань, ул. Лушникова, д. 8, оф. 5; время работы (пн-сб): 13.00-21.00 ⏰\n\n";
-        text += "\uD83D\uDCDE Звоните: 10.00-20.00, ежедневно\n\n" +
+        text += "-> Звоните: 10.00-20.00, ежедневно\n\n" +
 //                "(заказы на нашем сайте можно оставлять круглосуточно)\n\n" +
-                "У нас вы сможете наиболее выгодно и дешево купить интересующий вас гаджет или аксессуар\uD83D\uDC4D\n" +
+                "У нас вы сможете наиболее выгодно и дешево купить интересующий вас гаджет или аксессуар!\n" +
 //                "С уважением\n" +
-                "Магазин AMOLED\uD83D\uDCF2";
+                "Магазин AMOLED";
         text = text.replace(TOUCH_LOCKED, "без отпечатка");
         return text;
     }
@@ -851,15 +767,17 @@ public class AvitoGadgets extends Gadgets {
         }
     }
 
-    public String getRobotText(String model, ArrayList<ArrayList<String>> gadgets) {
+    public String getRobotText(String model, ArrayList<ArrayList<String>> gadgets, int gadgetNumT, int size) {
         String res = "";
         Collections.shuffle(gadgets, new Random(7351));
-        for (int i = 1; i <= gadgets.size() && i <= mapGadgetModelGadgetCount.get(model); i++) {
+        int gadgetNum = gadgetNumT + 1;
+        for (int i = 1; i <= size; i++) {
             ArrayList<String> gadget = gadgets.get(i - 1);
             res += "\"" + getAvitoAdName(gadget) + "\";\"" +
                     getAdText(gadget) + "\";\"" +
                     getPrice(gadget) + "\";\"" +
-                    i + ".jpg" + ",0.jpg\"\n";
+                    i + ".jpg" + ",price" + gadgetNum + ".jpg\"\n";
+            gadgetNum++;
         }
         return res;
     }
@@ -873,10 +791,13 @@ public class AvitoGadgets extends Gadgets {
             }
             mapGadgetModelGadgets.get(model).add(gadget);
         }
-        for (String model : mapGadgetModelGadgets.keySet()) {
+        int gadgetNum = 0;
+        for (String model : gadgetModels) {
+            int size = Math.min(mapGadgetModelGadgetCount.get(model), mapGadgetModelGadgets.get(model).size());
             Solution.writeText(Solution.getOutputWriter("Output/AvitoRobot/" + model, "ads.csv"),
-                    getRobotText(model, mapGadgetModelGadgets.get(model)));
-//            c += Math.min(mapGadgetModelGadgetCount.get(model), mapGadgetModelGadgets.get(model).size());
+                    getRobotText(model, mapGadgetModelGadgets.get(model), gadgetNum, size));
+            gadgetNum += size;
+//            c += Math.min(mapGadgetModelGadgetCount.get(model), mapGadgetModelGadgets.get(model).baseSize());
         }
     }
 }

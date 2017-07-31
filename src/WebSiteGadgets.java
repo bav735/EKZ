@@ -159,7 +159,7 @@ public class WebSiteGadgets extends Gadgets {
         description = description.replaceAll("@", "<strong>");
         description = description.replaceAll("#", "</strong>");
         description = description.replaceAll("~", "<br><br>");
-        description = "\"<span style=\"\"font-size: medium;\"\">" + description + "</span>\"";
+        description = "\"<span style=\"\"font-baseSize: medium;\"\">" + description + "</span>\"";
         return description;
     }
 

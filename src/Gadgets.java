@@ -10,6 +10,8 @@ public class Gadgets {
     final static int PRICES_COUNT = 8;
     final static String ROOT_DIR = "C:/EKZ/";
     final static String NO_PRICE = "-";
+    final static String ISPARK = "iSPARK";
+    final static String AMOLED = "iSPARK";
     final static String EST_RETAIL_AMOLED = "евротест авито/нал";
     final static String EST_RETAIL_ISPARK = "евротест сайт/маркет";
     final static String EST_RETAIL_OPT_MAX = "евротест опт от 3шт";
