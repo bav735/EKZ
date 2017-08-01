@@ -178,7 +178,7 @@ public class CategoryTree {
                         }
                     }
                     String submodel = modelSplit[modelSplit.length - 1];
-                    if (submodel.equals(AvitoGadgets.iPhonesSubModels.get(modelNum).get(1))) {
+                    if (submodel.equals(AvitoGadgets.iPhoneSubModels.get(modelNum).get(1))) {
                         gadget.price = getPrice(model, "RST") - 10 + "";
                         gadget.description = ("Тип товара: Ростест (RST)\n").concat(gadget.description);
                         gadget.manufacturerWarranty = true;
@@ -188,11 +188,29 @@ public class CategoryTree {
                         gadget.manufacturerWarranty = false;
                     }
                     modelSplit = gadget.getGithubName().split(" ");
-                    gadget.imageUrl = "https://raw.githubusercontent.com/bav735/EKZ/master/";
-                    for (String part : modelSplit) {
-                        gadget.imageUrl += part + "/";
+                    gadget.imageUrl = "https://raw.githubusercontent.com/bav735/EKZ/master";
+                    int gbPos = modelSplit.length;
+                    for (int i = 0; i < modelSplit.length; i++) {
+                        String part = modelSplit[i];
+                        if (part.toLowerCase().contains("gb")) {
+                            gbPos = i;
+                            gadget.imageUrl += "/";
+                        }
+                        if (i < gbPos) {
+                            if (part.equals("Plus")) {
+                                gadget.imageUrl += " " + part;
+                            } else {
+                                gadget.imageUrl += "/" + part;
+                            }
+                        }
+                        if (i == gbPos + 1) {
+                            gadget.imageUrl += part;
+                        }
+                        if (i == gbPos + 2) {
+                            gadget.imageUrl += " " + part;
+                        }
                     }
-                    gadget.imageUrl += "img.jpg";
+                    gadget.imageUrl += "/img.jpg";
                 }
             }
             child.synchronizeWithPriceList();
@@ -216,7 +234,7 @@ public class CategoryTree {
                 bufferedWriter.write(";1;0;0;");
                 String present = "0";
                 if (presentItems.contains(gadget.getGoogleSheetsName())) {
-                    present = "1";
+                    present = new Random(System.nanoTime()).nextInt(3) + 1 + "";
                 }
                 bufferedWriter.write(present + ";;");
                 if (Solution.SHOP_ITEMS_XML.equals(Solution.MVIDEO_XML)) {
@@ -238,7 +256,7 @@ public class CategoryTree {
     }
 
     private int getPrice(String gadgetName, String quality) {
-        System.out.println(gadgetName);
+//        System.out.println(gadgetName);
         switch (quality) {
             case "EST":
                 return Integer.parseInt(Gadgets.mapGadgetNamePrices.get(gadgetName)

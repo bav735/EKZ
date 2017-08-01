@@ -248,10 +248,10 @@ public class Solution {
         iphonesAvito.generateFolders();
         iphonesAvito.generateFilesRobot();
 
-        samsungsAvito = new AvitoGadgets();
-        samsungsAvito.initializeSamsungs();
-        samsungsAvito.generateGadgets(0, new ArrayList<String>());
-        samsungsAvito.generateFolders();
+//        samsungsAvito = new AvitoGadgets();
+//        samsungsAvito.initializeSamsungs();
+//        samsungsAvito.generateGadgets(0, new ArrayList<String>());
+//        samsungsAvito.generateFolders();
     }
 
 

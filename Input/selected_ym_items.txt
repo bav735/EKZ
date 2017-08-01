@@ -2,6 +2,4 @@ RST Apple iPhone 6S 16Gb Gold
 RST Apple iPhone 7 128Gb Jet Black
 RST Apple iPhone 6S 32Gb Silver
 RST Apple iPhone 6S 16Gb Space Gray
-RST Apple iPhone SE 32Gb Gold
 RST Apple iPhone 7 32Gb Rose Gold
-EST Apple iPhone 6S Plus 64Gb Space Gray

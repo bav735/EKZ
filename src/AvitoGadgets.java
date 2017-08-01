@@ -53,11 +53,18 @@ public class AvitoGadgets extends Gadgets {
             "7",
             "7 Plus"};
     final static String[] galaxyModels = new String[]{
+            "Grand Prime",
+            "Core Prime",
+            "Alpha",
             "S3",
+            "S3 Mini",
             "S4",
+            "S4 Mini",
             "S5",
+            "S5 Mini",
             "S6",
             "S6 Edge",
+            "S6 Edge Plus",
             "S7",
             "S7 Edge",
             "S8",
@@ -71,7 +78,6 @@ public class AvitoGadgets extends Gadgets {
             "A7 (2015)",
             "A7 (2016)",
             "A7 (2017)",
-            "J mini (2016)",
             "J1 (2016)",
             "J2 (2016)",
             "J3 (2016)",
@@ -81,7 +87,8 @@ public class AvitoGadgets extends Gadgets {
             "Note 4",
             "Note 5"};
 
-    public static ArrayList<ArrayList<String>> iPhonesSubModels;
+    public static ArrayList<ArrayList<String>> iPhoneSubModels;
+    public static ArrayList<ArrayList<String>> galaxySubModels;
 
     HashMap<String, ArrayList<String>> mapGadgetModelSubmodel;
     HashMap<String, ArrayList<ArrayList<String>>> mapGadgetModelGadgets;
@@ -105,38 +112,38 @@ public class AvitoGadgets extends Gadgets {
         gadgetModels = new ArrayList<String>(Arrays.asList(iphonesModels));
         gadgetAttributesVariants.add(gadgetModels);
         ArrayList<Integer> gadgetCount = new ArrayList<Integer>(Arrays.asList(
-                113,
-                156,
-                215,
-                64,
-                758,
-                582,
-                65,
-                312,
-                59,
-                52,
-                197,
-                58));
-        iPhonesSubModels = new ArrayList<>();
-        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1332", "A1349")));//iphone 4
-        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1387", "A1431")));//iphone 4s
-        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1428", "A1429", "A1442")));//iphone 5
-        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1532", "A1456", "A1516", "A1529", "A1507")));//iphone 5c
-        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1533", "A1457", "A1518", "A1528", "A1530", "A1453")));//iphone 5s
-        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1549", "A1586", "A1589")));//iphone 6
-        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1522", "A1524", "A1593")));//iphone 6+
-        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1633", "A1688", "A1700")));//iphone 6s
-        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1634", "A1687", "A1699")));//iphone 6s+
-        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1662", "A1723", "A1724")));//iphone se
-        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1660", "A1778", "A1779")));//iphone 7
-        iPhonesSubModels.add(new ArrayList<String>(Arrays.asList("A1661", "A1784", "A1785")));//iphone 7+
+                107,//4
+                205,//4s
+                220,//5
+                75,//5c
+                770,//5s
+                612,//6
+                63,//6+
+                308,//6s
+                50,//6s+
+                60,//se
+                288,//7
+                70));//7+
+        iPhoneSubModels = new ArrayList<>();
+        iPhoneSubModels.add(new ArrayList<String>(Arrays.asList("A1332", "A1349")));//iphone 4
+        iPhoneSubModels.add(new ArrayList<String>(Arrays.asList("A1387", "A1431")));//iphone 4s
+        iPhoneSubModels.add(new ArrayList<String>(Arrays.asList("A1428", "A1429", "A1442")));//iphone 5
+        iPhoneSubModels.add(new ArrayList<String>(Arrays.asList("A1532", "A1456", "A1516", "A1529", "A1507")));//iphone 5c
+        iPhoneSubModels.add(new ArrayList<String>(Arrays.asList("A1533", "A1457", "A1518", "A1528", "A1530", "A1453")));//iphone 5s
+        iPhoneSubModels.add(new ArrayList<String>(Arrays.asList("A1549", "A1586", "A1589")));//iphone 6
+        iPhoneSubModels.add(new ArrayList<String>(Arrays.asList("A1522", "A1524", "A1593")));//iphone 6+
+        iPhoneSubModels.add(new ArrayList<String>(Arrays.asList("A1633", "A1688", "A1700")));//iphone 6s
+        iPhoneSubModels.add(new ArrayList<String>(Arrays.asList("A1634", "A1687", "A1699")));//iphone 6s+
+        iPhoneSubModels.add(new ArrayList<String>(Arrays.asList("A1662", "A1723", "A1724")));//iphone se
+        iPhoneSubModels.add(new ArrayList<String>(Arrays.asList("A1660", "A1778", "A1779")));//iphone 7
+        iPhoneSubModels.add(new ArrayList<String>(Arrays.asList("A1661", "A1784", "A1785")));//iphone 7+
         mapGadgetModelSubmodel = new HashMap<>();
         mapGadgetModelGadgetCount = new HashMap<>();
         /*for (int i = 0; i < models.baseSize(); i++) {
-            iPhonesSubModels.add(new ArrayList<>(Arrays.asList("")));
+            iPhoneSubModels.add(new ArrayList<>(Arrays.asList("")));
         }*/
         for (int i = 0; i < gadgetModels.size(); i++) {
-            mapGadgetModelSubmodel.put(gadgetModels.get(i), iPhonesSubModels.get(i));
+            mapGadgetModelSubmodel.put(gadgetModels.get(i), iPhoneSubModels.get(i));
             mapGadgetModelGadgetCount.put(gadgetModels.get(i), gadgetCount.get(i) / TOP_COUNT);
         }
         ArrayList<ArrayList<String>> colors = new ArrayList<>();
@@ -171,7 +178,42 @@ public class AvitoGadgets extends Gadgets {
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList(RFB, NEW)));
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("Samsung")));
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("Galaxy")));
-        gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList(galaxyModels)));
+        gadgetModels = new ArrayList<String>(Arrays.asList(galaxyModels));
+        gadgetAttributesVariants.add(gadgetModels);
+        ArrayList<Integer> gadgetCount = new ArrayList<Integer>(Arrays.asList(
+                12,//"Grand Prime",
+                4,//"Core Prime",
+                8,//"Alpha",
+                60,//"S3",
+                5,//"S3 Mini",
+                47,//"S4",
+                18,//"S4 Mini",
+                40,//"S5",
+                12,//"S5 Mini",
+                60,//"S6",
+                18,//"S6 Edge",
+                3,//"S6 Edge Plus",
+                83,//"S7",
+                40,//"S7 Edge",
+                37,//"S8",
+                2,//"S8 Plus",
+                8,//"A3 (2015)",
+                19,//"A3 (2016)",
+                2,//"A3 (2017)",
+                7,//"A5 (2015)",
+                21,//"A5 (2016)",
+                8,//"A5 (2017)",
+                3,//"A7 (2015)",
+                5,//"A7 (2016)",
+                4,//"A7 (2017)",
+                25,//"J1 (2016)",
+                7,//"J2 (2016)",
+                21,//"J3 (2016)",
+                17,//"J5 (2016)",
+                5,//"J7 (2016)",
+                15,//"Note 3",
+                11,//"Note 4",
+                2));//"Note 5"));
         ArrayList<ArrayList<String>> submodels = new ArrayList<>();
         mapGadgetModelSubmodel = new HashMap<>();
         ArrayList<String> models = gadgetAttributesVariants.get(gadgetAttributesVariants.size() - 1);
