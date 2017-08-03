@@ -237,7 +237,7 @@ public class YoulaGadgets extends Gadgets {
         return path;
     }
 
-    public void generateFiles() {
+    /*public void generateFiles() {
         for (int day = 1; day <= 30; day++) {
             for (int gadgetId = (day - 1) * ADS_PER_DAY; gadgetId < day * ADS_PER_DAY; gadgetId++) {
                 String dayNum = "" + day;
@@ -248,5 +248,5 @@ public class YoulaGadgets extends Gadgets {
                         + ".txt"), getAdText(gadgets.get(gadgetId)));
             }
         }
-    }
+    }*/
 }

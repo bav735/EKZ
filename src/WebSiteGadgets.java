@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 public class WebSiteGadgets extends Gadgets {
-    final static String ID = "id";
+    /*final static String ID = "id";
     final static String AVAILABLE = "AVAILABLE";
     final static String PRICE = "PRICE";
     final static String CURRENCY_ID = "Валюта";
@@ -67,7 +67,7 @@ public class WebSiteGadgets extends Gadgets {
             gadgets.add(gadget);
         }
 
-        /*while (inScanner.hasNextLine()) {
+        *//*while (inScanner.hasNextLine()) {
             int beginTagId = csvLine.indexOf("\"<");
             if (beginTagId != -1) {
                 String newCsvLine = String.copyValueOf(csvLine.toCharArray());
@@ -79,7 +79,7 @@ public class WebSiteGadgets extends Gadgets {
                 csvLine = newCsvLine;
 //                csvLine = csvLine.substring(0, beginTagId) + "\"описание\";";
             }
-        }*/
+        }*//*
         inScanner.close();
     }
 
@@ -210,5 +210,5 @@ public class WebSiteGadgets extends Gadgets {
             }
         }
         Solution.writeText(outWriter, outText);
-    }
+    }*/
 }

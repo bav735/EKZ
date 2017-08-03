@@ -35,26 +35,57 @@ public class Gadget {
     }
 
     public String getWebsiteName() {
-        return namePrefix + " " + vendor + " " + model;
+        String res = namePrefix + " " + vendor + " " + model;
+        String[] modelSplit = res.split(" ");
+        if (namePrefix.equals("Смартфон") && model.contains("iPhone")) {
+            int colorPos = modelSplit.length - 1;
+            while (!modelSplit[colorPos].startsWith("A1")) {
+                colorPos--;
+            }
+            colorPos--;
+            modelSplit[colorPos] = AvitoGadgets.getLongColor(modelSplit[colorPos]);
+        }
+        return String.join(" ", modelSplit);
     }
 
     public String getGoogleSheetsName() {
-        String quality = "";
+        String res = getWebsiteName();
         if (manufacturerWarranty) {
-            quality += "RST";
+            res = res.replace("Смартфон", "RST");
         } else {
-            quality += "EST";
+            res = res.replace("Смартфон", "EST");
         }
-        return quality + " " + getGithubName();
+        int posSpace = res.lastIndexOf(" ");
+        if (posSpace == -1) {
+            posSpace = res.length();
+        }
+        return res.substring(0, posSpace);
     }
 
-    public String getGithubName() {
-        int posSpace = model.lastIndexOf(" ");
-        if (posSpace == -1) {
-            posSpace = model.length();
+    /*public String getImageUrlByModel() {
+        String[] modelSplit = getGithubName().split(" ");
+        String resUrl = "https://raw.githubusercontent.com/bav735/EKZ/master";
+        int gbPos = modelSplit.length;
+        for (int i = 0; i < modelSplit.length; i++) {
+            String part = modelSplit[i];
+            if (part.toLowerCase().contains("gb")) {
+                gbPos = i;
+                resUrl += "/";
+            }
+            if (i < gbPos) {
+                if (part.equals("Plus")) {
+                    resUrl += part;
+                } else {
+                    resUrl += "/" + part;
+                }
+            }
+            if (i > gbPos) {
+                resUrl += part;
+            }
         }
-        return vendor + " " + model.substring(0, posSpace);
-    }
+        resUrl += "/img.jpg";
+        return resUrl;
+    }*/
 
 //    public static String formatString(String s, String tag) {
 //        return s;

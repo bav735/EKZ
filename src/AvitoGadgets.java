@@ -16,8 +16,6 @@ public class AvitoGadgets extends Gadgets {
     final static String FINGER_PRINT = "Наличие отпечатка";
     final static String COLOR = "Цвет";
     final static String TOUCH_LOCKED = "Б/О";
-    final static String RFB = "RFB";
-    final static String NEW = "NEW";
     final static String RST = "RST";
     final static String EST = "EST";
     //    final static String[] CITIES = new String[]{"Казань"};
@@ -39,6 +37,7 @@ public class AvitoGadgets extends Gadgets {
             SUBMODEL,
             COLOR
     };
+
     final static String[] iphonesModels = new String[]{
             "4",
             "4S",
@@ -52,6 +51,8 @@ public class AvitoGadgets extends Gadgets {
             "SE",
             "7",
             "7 Plus"};
+    public static HashMap<String, Integer> mapIphonesModelsNum;
+    public static HashMap<String, String> mapIphonesModelDescription;
     final static String[] galaxyModels = new String[]{
             "Grand Prime",
             "Core Prime",
@@ -86,6 +87,8 @@ public class AvitoGadgets extends Gadgets {
             "Note 3",
             "Note 4",
             "Note 5"};
+    public static HashMap<String, Integer> mapGalaxysModelsNum;
+    public static HashMap<String, String> mapGalaxysModelDescription;
 
     public static ArrayList<ArrayList<String>> iPhoneSubModels;
     public static ArrayList<ArrayList<String>> galaxySubModels;
@@ -106,24 +109,32 @@ public class AvitoGadgets extends Gadgets {
     public void initializeIPhones() {
         initializeMapGadgetAttributeNumber(gadgetAttributeNames);
         gadgetAttributesVariants = new ArrayList<ArrayList<String>>();
-        gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList(NEW, RFB)));
+        gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList(RST, EST)));
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("Apple")));
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("iPhone")));
         gadgetModels = new ArrayList<String>(Arrays.asList(iphonesModels));
+        mapIphonesModelsNum = new HashMap<>();
+        for (int i = 0; i < iphonesModels.length; i++) {
+            mapIphonesModelsNum.put(iphonesModels[i], i);
+        }
+        mapIphonesModelDescription = new HashMap<>();
+        for (int i = 0; i < iphonesModels.length; i++) {
+            mapIphonesModelDescription.put(iphonesModels[i], getDescriptionByModel(iphonesModels[i]));
+        }
         gadgetAttributesVariants.add(gadgetModels);
         ArrayList<Integer> gadgetCount = new ArrayList<Integer>(Arrays.asList(
-                107,//4
-                205,//4s
-                220,//5
-                75,//5c
-                770,//5s
-                612,//6
-                63,//6+
-                308,//6s
-                50,//6s+
-                60,//se
-                288,//7
-                70));//7+
+                109,//4
+                199,//4s
+                211,//5
+                67,//5c
+                761,//5s
+                607,//6
+                67,//6+
+                311,//6s
+                71,//6s+
+                73,//se
+                307,//7
+                79));//7+
         iPhoneSubModels = new ArrayList<>();
         iPhoneSubModels.add(new ArrayList<String>(Arrays.asList("A1332", "A1349")));//iphone 4
         iPhoneSubModels.add(new ArrayList<String>(Arrays.asList("A1387", "A1431")));//iphone 4s
@@ -139,26 +150,23 @@ public class AvitoGadgets extends Gadgets {
         iPhoneSubModels.add(new ArrayList<String>(Arrays.asList("A1661", "A1784", "A1785")));//iphone 7+
         mapGadgetModelSubmodel = new HashMap<>();
         mapGadgetModelGadgetCount = new HashMap<>();
-        /*for (int i = 0; i < models.baseSize(); i++) {
-            iPhoneSubModels.add(new ArrayList<>(Arrays.asList("")));
-        }*/
         for (int i = 0; i < gadgetModels.size(); i++) {
             mapGadgetModelSubmodel.put(gadgetModels.get(i), iPhoneSubModels.get(i));
             mapGadgetModelGadgetCount.put(gadgetModels.get(i), gadgetCount.get(i) / TOP_COUNT);
         }
         ArrayList<ArrayList<String>> colors = new ArrayList<>();
-        colors.add(new ArrayList<String>(Arrays.asList("Black", "White")));
-        colors.add(new ArrayList<String>(Arrays.asList("Black", "White")));
-        colors.add(new ArrayList<String>(Arrays.asList("Black", "White")));
-        colors.add(new ArrayList<String>(Arrays.asList("White", "Blue", "Green", "Yellow", "Pink")));
-        colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));
-        colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));
-        colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));
-        colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Pink")));
-        colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Pink")));
-        colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Pink")));
-        colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Jet Black", "Gold", "Pink", "Red")));
-        colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Jet Black", "Gold", "Pink", "Red")));
+        colors.add(new ArrayList<>(Arrays.asList("Black", "White")));//4
+        colors.add(new ArrayList<>(Arrays.asList("Black", "White")));//4s
+        colors.add(new ArrayList<>(Arrays.asList("Black", "White")));//5
+        colors.add(new ArrayList<>(Arrays.asList("White", "Blue", "Green", "Yellow", "Pink")));//5c
+        colors.add(new ArrayList<>(Arrays.asList("Gray", "Silver", "Gold")));//5s
+        colors.add(new ArrayList<>(Arrays.asList("Gray", "Silver", "Gold")));//6
+        colors.add(new ArrayList<>(Arrays.asList("Gray", "Silver", "Gold")));//6+
+        colors.add(new ArrayList<>(Arrays.asList("Gray", "Silver", "Gold", "Rose")));//6s
+        colors.add(new ArrayList<>(Arrays.asList("Gray", "Silver", "Gold", "Rose")));//6s+
+        colors.add(new ArrayList<>(Arrays.asList("Gray", "Silver", "Gold", "Rose")));//se
+        colors.add(new ArrayList<>(Arrays.asList("Black", "Silver", "Jet", "Gold", "Rose", "Red")));//7
+        colors.add(new ArrayList<>(Arrays.asList("Black", "Silver", "Jet", "Gold", "Rose", "Red")));//7+
         mapGadgetModelColor = new HashMap<>();
         for (int i = 0; i < gadgetModels.size(); i++) {
             mapGadgetModelColor.put(gadgetModels.get(i), colors.get(i));
@@ -172,63 +180,125 @@ public class AvitoGadgets extends Gadgets {
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("", TOUCH_LOCKED)));
     }
 
+    public static String getLongColor(String shortColor) {
+        switch (shortColor) {
+            case "Jet":
+                return "Jet Black";
+            case "Rose":
+                return "Rose Gold";
+            case "Gray":
+                return "Space Gray";
+            case "Red":
+                return "(PRODUCT)RED";
+            default:
+                return shortColor;
+        }
+    }
+
     public void initializeSamsungs() {
         initializeMapGadgetAttributeNumber(gadgetAttributeNames);
         gadgetAttributesVariants = new ArrayList<ArrayList<String>>();
-        gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList(RFB, NEW)));
+        gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList(RST, EST)));
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("Samsung")));
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("Galaxy")));
         gadgetModels = new ArrayList<String>(Arrays.asList(galaxyModels));
+        mapGalaxysModelsNum = new HashMap<>();
+        for (int i = 0; i < galaxyModels.length; i++) {
+            mapGalaxysModelsNum.put(galaxyModels[i], i);
+        }
+        mapGalaxysModelDescription = new HashMap<>();
+        for (int i = 0; i < iphonesModels.length; i++) {
+            mapGalaxysModelDescription.put(galaxyModels[i], getDescriptionByModel(galaxyModels[i]));
+        }
         gadgetAttributesVariants.add(gadgetModels);
         ArrayList<Integer> gadgetCount = new ArrayList<Integer>(Arrays.asList(
-                12,//"Grand Prime",
-                4,//"Core Prime",
-                8,//"Alpha",
-                60,//"S3",
+                13,//"Grand Prime",
+                5,//"Core Prime",
+                7,//"Alpha",
+                61,//"S3",
                 5,//"S3 Mini",
                 47,//"S4",
-                18,//"S4 Mini",
-                40,//"S5",
-                12,//"S5 Mini",
-                60,//"S6",
-                18,//"S6 Edge",
+                19,//"S4 Mini",
+                43,//"S5",
+                11,//"S5 Mini",
+                59,//"S6",
+                23,//"S6 Edge",
                 3,//"S6 Edge Plus",
                 83,//"S7",
-                40,//"S7 Edge",
+                41,//"S7 Edge",
                 37,//"S8",
-                2,//"S8 Plus",
+                3,//"S8 Plus",
                 8,//"A3 (2015)",
                 19,//"A3 (2016)",
                 2,//"A3 (2017)",
                 7,//"A5 (2015)",
-                21,//"A5 (2016)",
+                23,//"A5 (2016)",
                 8,//"A5 (2017)",
                 3,//"A7 (2015)",
                 5,//"A7 (2016)",
-                4,//"A7 (2017)",
-                25,//"J1 (2016)",
+                5,//"A7 (2017)",
+                23,//"J1 (2016)",
                 7,//"J2 (2016)",
                 21,//"J3 (2016)",
                 17,//"J5 (2016)",
                 5,//"J7 (2016)",
-                15,//"Note 3",
+                13,//"Note 3",
                 11,//"Note 4",
-                2));//"Note 5"));
+                6));//"Note 5"));
         ArrayList<ArrayList<String>> submodels = new ArrayList<>();
+        galaxySubModels = new ArrayList<>();
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-G531", "SM-G531H")));//"Grand Prime",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-G360", "SM-G360H")));//"Core Prime",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-G850", "SM-G850F")));//"Alpha",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("GT-I9300", "GT-I9300I")));//"S3",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("GT-I8190", "GT-I8190I")));//"S3 Mini",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("GT-I9500", "GT-I9505")));//"S4",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("GT-I9192", "GT-I9192D")));//"S4 Mini",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-G900", "SM-G900F")));//"S5",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-G800", "SM-G800F")));//"S5 Mini",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-G920", "SM-G920F")));//"S6",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-G925", "SM-G925F")));//"S6 Edge",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-G928", "SM-G928F")));//"S6 Edge Plus",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-G930", "SM-G930F")));//"S7",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-G935", "SM-G935F")));//"S7 Edge",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-G950", "SM-G950F")));//"S8",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-G955", "SM-G955F")));//"S8 Plus",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-A300", "SM-A300F")));//"A3 (2015)",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-A310", "SM-A310F")));//"A3 (2016)",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-A320", "SM-A320F")));//"A3 (2017)",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-A500", "SM-A500F")));//"A5 (2015)",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-A510", "SM-A510F")));//"A5 (2016)",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-A520", "SM-A520F")));//"A5 (2017)",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-A700", "SM-A700F")));//"A7 (2015)",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-A710", "SM-A710F")));//"A7 (2016)",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-A720", "SM-A720F")));//"A7 (2017)",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-J120", "SM-J120F")));//"J1 (2016)",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-G532", "SM-G532F")));//"J2 (2016)",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-J320", "SM-J320F")));//"J3 (2016)",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-J510", "SM-J510F")));//"J5 (2016)",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-J710", "SM-J710F")));//"J7 (2016)",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-N900", "SM-N900F")));//"Note 3",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-N910", "SM-N910F")));//"Note 4",
+        galaxySubModels.add(new ArrayList<String>(Arrays.asList("SM-N920", "SM-N920F")));//"Note 5"};
         mapGadgetModelSubmodel = new HashMap<>();
-        ArrayList<String> models = gadgetAttributesVariants.get(gadgetAttributesVariants.size() - 1);
-        for (int i = 0; i < models.size(); i++) {
-            submodels.add(new ArrayList<>(Arrays.asList("", "Duos")));
-        }
-        for (int i = 0; i < models.size(); i++) {
-            mapGadgetModelSubmodel.put(models.get(i), submodels.get(i));
+        mapGadgetModelGadgetCount = new HashMap<>();
+        for (int i = 0; i < gadgetModels.size(); i++) {
+            mapGadgetModelSubmodel.put(gadgetModels.get(i), galaxySubModels.get(i));
+            mapGadgetModelGadgetCount.put(gadgetModels.get(i), gadgetCount.get(i) / TOP_COUNT);
         }
         ArrayList<ArrayList<String>> colors = new ArrayList<>();
+        colors.add(new ArrayList<String>(Arrays.asList("Gray", "White", "Gold")));//"Grand Prime",
+        colors.add(new ArrayList<String>(Arrays.asList("Gray", "White", "Black")));//"Core Prime",
+        colors.add(new ArrayList<String>(Arrays.asList("Gray", "White", "Gold")));//"Alpha",
         colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Blue")));//s3
+        colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Blue")));//s3 mini
         colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Blue")));//s4
+        colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Blue")));//s4 mini
         colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//s5
+        colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//s5 mini
         colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Blue")));//s6
         colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Green", "Blue")));//s6 edge
+        colors.add(new ArrayList<String>(Arrays.asList("White", "Gold", "Blue")));//s6 edge+
         colors.add(new ArrayList<String>(Arrays.asList("Black", "Silver", "Gold")));//s7
         colors.add(new ArrayList<String>(Arrays.asList("Black", "Silver", "Gold")));//s7 edge
         colors.add(new ArrayList<String>(Arrays.asList("Black", "Blue", "Gold")));//s8
@@ -242,7 +312,6 @@ public class AvitoGadgets extends Gadgets {
         colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Pink", "Blue")));//a7 2015
         colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Pink")));//a7 2016
         colors.add(new ArrayList<String>(Arrays.asList("Black", "Gold", "Blue")));//a7 2017
-        colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//j1 mini
         colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//j1
         colors.add(new ArrayList<String>(Arrays.asList("Black", "Silver", "Gold")));//j2
         colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//j3
@@ -252,8 +321,8 @@ public class AvitoGadgets extends Gadgets {
         colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Pink")));//note 4
         colors.add(new ArrayList<String>(Arrays.asList("Black", "White", "Silver", "Gold")));//note 5
         mapGadgetModelColor = new HashMap<>();
-        for (int i = 0; i < models.size(); i++) {
-            mapGadgetModelColor.put(models.get(i), colors.get(i));
+        for (int i = 0; i < gadgetModels.size(); i++) {
+            mapGadgetModelColor.put(gadgetModels.get(i), colors.get(i));
         }
         gadgetAttributesVariants.add(new ArrayList<>(Arrays.asList("8Gb",
                 "16Gb",
@@ -292,7 +361,7 @@ public class AvitoGadgets extends Gadgets {
         inScanner.close();
     }
 
-    private String transformColor(String model, String color) {
+    /*private String transformColor(String model, String color) {
         switch (color) {
             case "Black":
                 if (!model.startsWith("4") && !model.equals("5") && !model.contains("7")) {
@@ -313,9 +382,9 @@ public class AvitoGadgets extends Gadgets {
                 return "(PRODUCT)RED";
         }
         return color;
-    }
+    }*/
 
-    public void printGadgets(int attribute, ArrayList<String> gadget) {
+    /*public void printWebsiteCSV(int attribute, ArrayList<String> gadget) {
         if (attribute == gadgetAttributesVariants.size()) {
             if (mapGadgetNamePrices.containsKey(getGadgetName(gadget))) {
                 if (gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).equals("Б/О")) {
@@ -360,9 +429,61 @@ public class AvitoGadgets extends Gadgets {
                             tSize + ";;;;;;;;;;;;;;;");
                     tSize++;
                 }
-                printGadgets(attribute + 1, newGadget);
+                printWebsiteCSV(attribute + 1, newGadget);
             }
         }
+    }*/
+
+    public void printWebsiteYML() throws IOException {
+        BufferedWriter bufferedWriter = Solution.getOutputWriter("Output/Website", "iphones.xml");
+        for (ArrayList<String> gadget : gadgets) {
+            int price = -1;
+            String quality = gadget.get(mapGadgetAttributeNumber.get(QUALITY));
+            String subModel = gadget.get(mapGadgetAttributeNumber.get(SUBMODEL));
+            String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
+            if (quality.equals(EST) && subModel.equals(iPhoneSubModels.get(mapIphonesModelsNum.get(model)).get(0))) {
+                price = getPriceISPARK(getGadgetName(gadget), 0);
+            }
+            if (quality.equals(RST) && subModel.equals(iPhoneSubModels.get(mapIphonesModelsNum.get(model)).get(1))) {
+                price = getPriceISPARK(getGadgetName(gadget), 1);
+            }
+            if (price > 0) {
+                String color = gadget.get(mapGadgetAttributeNumber.get(COLOR));
+                if (model.contains("7") && color.toLowerCase().contains("red")) {
+                    price = getIncreasedPrice(price) - 10;
+                }
+                bufferedWriter.write("<offer>\n" +
+                        "<initialCategoryId>2</initialCategoryId>\n" +
+                        "<typePrefix>Смартфон</typePrefix>\n" +
+                        "<model>iPhone " + model + " " + gadget.get(mapGadgetAttributeNumber.get(MEMORY)) + " " +
+                        color + " " + subModel);
+                String fingerPrint = gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT));
+                if (!fingerPrint.isEmpty()) {
+                    bufferedWriter.write(" " + fingerPrint);
+                }
+                bufferedWriter.write("</model>\n" +
+                        "<vendor>Apple</vendor>\n" +
+                        "<price>" + price + ".0</price>\n" +
+                        "<description>" + mapIphonesModelDescription.get(model) + "</description>\n" +
+                        "<picture>" + getImageUrlByModelAndColor(model, color) + "</picture>\n" +
+                        "</offer>\n");
+            }
+        }
+        bufferedWriter.flush();
+    }
+
+    private String getDescriptionByModel(String model) {
+        Scanner inScanner = Solution.getInputScanner("Website/Spec/Apple/iPhone/" + model + ".txt");
+        String res = inScanner.nextLine();
+        while (inScanner.hasNextLine()) {
+            res += "\n" + inScanner.nextLine();
+        }
+        return res;
+    }
+
+    public String getImageUrlByModelAndColor(String model, String color) {
+        return "https://raw.githubusercontent.com/bav735/EKZ/master/Apple/iPhone/" +
+                model.replace(" ", "") + "/" + getLongColor(color).replace(" ", "") + "/img.jpg";
     }
 
     private boolean notEnoughModel(ArrayList<String> gadget) {
@@ -378,13 +499,11 @@ public class AvitoGadgets extends Gadgets {
                 System.out.println(getGadgetName(gadget));
                 switch (gadget.get(mapGadgetAttributeNumber.get(QUALITY))) {
                     case EST:
-                    case RFB:
                         if (prices.get(mapPriceAttributeNumber.get(EST_RETAIL_AMOLED)).equals(NO_PRICE)) {
                             return;
                         }
                         break;
                     case RST:
-                    case NEW:
                         if (prices.get(mapPriceAttributeNumber.get(RST_RETAIL_AMOLED)).equals(NO_PRICE) &&
                                 !notEnoughModel(gadget)) {
                             return;
@@ -396,7 +515,9 @@ public class AvitoGadgets extends Gadgets {
                         ArrayList<String> newGadget = new ArrayList<>(gadget);
                         newGadget.add(mapGadgetAttributeNumber.get(SUBMODEL), submodel);
                         newGadget.add(mapGadgetAttributeNumber.get(COLOR), color);
-                        gadgets.add(newGadget);
+                        if (!excludeModel(model, color, newGadget.get(mapGadgetAttributeNumber.get(MEMORY)))) {
+                            gadgets.add(newGadget);
+                        }
                     }
                 }
             }
@@ -408,6 +529,11 @@ public class AvitoGadgets extends Gadgets {
                 generateGadgets(attribute + 1, newGadget);
             }
         }
+    }
+
+    public boolean excludeModel(String model, String color, String memory) {
+        return model.contains("7") &&
+                memory.contains("32") && (color.contains("Jet") || color.toLowerCase().contains("red"));
     }
 
     public void distributeIPhones() {
@@ -527,7 +653,7 @@ public class AvitoGadgets extends Gadgets {
     }
 
     private String getCreditOffer(ArrayList<String> gadget) {
-        if (getPrice(gadget).isEmpty()) {
+        if (getPriceAMOLED(gadget).isEmpty()) {
             return "";
         }
         return "- в кредит на 6 мес = от " + getCreditPrice(gadget) + "₽ в мес<br>";
@@ -537,15 +663,13 @@ public class AvitoGadgets extends Gadgets {
         String gadgetName = getGadgetName(gadget);
         String color = gadget.get(mapGadgetAttributeNumber.get(COLOR));
         String quality = gadget.get(mapGadgetAttributeNumber.get(QUALITY));
-        String offer = quality + " " + gadgetName + " " + color + " = " + getPrice(gadget) + " руб, " +
+        String offer = quality + " " + gadgetName + " " + color + " = " + getPriceAMOLED(gadget) + " руб, " +
                 "ГАРАНТИЯ 1 ГОД ";
         switch (gadget.get(mapGadgetAttributeNumber.get(QUALITY))) {
             case EST:
-            case RFB:
                 offer += "(восстановленный)";
                 break;
             case RST:
-            case NEW:
                 if (!notEnoughModel(gadget)) {
                     offer += "(НОВЫЙ, НЕ РЕФ)";
                 } else {
@@ -557,21 +681,29 @@ public class AvitoGadgets extends Gadgets {
     }
 
     private int getCreditPrice(ArrayList<String> gadget) {
-        int creditPrice = Integer.parseInt(getPrice(gadget)) * 112 / 600;
+        int creditPrice = Integer.parseInt(getPriceAMOLED(gadget)) * 112 / 600;
         return (creditPrice / 50 + 1) * 50;
     }
 
-    private String getPrice(ArrayList<String> gadget) {
+    private int getPriceISPARK(String gadgetName, int submodelNum) {
+        if (submodelNum == 0) {
+            return Solution.getNumber(Gadgets.mapGadgetNamePrices.get(gadgetName)
+                    .get(Gadgets.mapPriceAttributeNumber.get(Gadgets.EST_RETAIL_ISPARK))) - 10;
+        } else {
+            return Solution.getNumber(Gadgets.mapGadgetNamePrices.get(gadgetName)
+                    .get(Gadgets.mapPriceAttributeNumber.get(Gadgets.RST_RETAIL_ISPARK))) - 10;
+        }
+    }
+
+    private String getPriceAMOLED(ArrayList<String> gadget) {
         String gadgetName = getGadgetName(gadget);
         int price = 0;
         switch (gadget.get(mapGadgetAttributeNumber.get(QUALITY))) {
             case EST:
-            case RFB:
                 price = Integer.parseInt(
                         mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(EST_RETAIL_AMOLED)));
                 break;
             case RST:
-            case NEW:
                 if (notEnoughModel(gadget)) {
                     price = Integer.parseInt(
                             mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(EST_RETAIL_AMOLED)));
@@ -582,10 +714,15 @@ public class AvitoGadgets extends Gadgets {
                 }
         }
         if (gadget.get(mapGadgetAttributeNumber.get(COLOR)).equals("Red")) {
-            price = price * 11 / 10;
-            price = price / 500 * 500 + 500;
+            price = getIncreasedPrice(price);
         }
         return price + "";
+    }
+
+    private int getIncreasedPrice(int price) {
+        price = price * 11 / 10;
+        price = price / 500 * 500 + 500;
+        return price;
     }
 
     private String formatPrice(String price) {
@@ -689,11 +826,11 @@ public class AvitoGadgets extends Gadgets {
         ad += "\t\t<GoodsType>" + goodsType + "</GoodsType>\n";
         ad += "\t\t<Title>" + getAvitoAdName(gadget) + "</Title>\n";
 //        ad += "\t\t<Description>" + getNewTextXml(gadgets) + "</Description>\n";
-//        int price = Integer.parseInt(getPrice(gadgets, cityId));
+//        int price = Integer.parseInt(getPriceAMOLED(gadgets, cityId));
 //        price = price * 95 / 100;
 //        price += 100 - price % 100;
 //        System.out.println(price);
-        ad += "\t\t<Price>" + getPrice(gadget) + "</Price>\n";
+        ad += "\t\t<Price>" + getPriceAMOLED(gadget) + "</Price>\n";
         ad += "\t\t<Images>\n";
         String imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/" +
                 getGadgetPathAvito(gadget, SUBMODEL) + IMG_FILE_NAME + ".jpg";
@@ -716,7 +853,7 @@ public class AvitoGadgets extends Gadgets {
         }
         ad += "Вид товара: " + goodsType + "\n";
         ad += "Название: " + getAvitoAdName(gadget) + "\n";
-        ad += "Цена: " + getPrice(gadget) + "\n";
+        ad += "Цена: " + getPriceAMOLED(gadget) + "\n";
         ad += "Текст: " + getAdText(gadget) + "\n";
         return ad;
     }
@@ -790,7 +927,7 @@ public class AvitoGadgets extends Gadgets {
         }
     }
 
-    public void generateFolders() {
+    public void generateFolders() throws IOException {
         for (int gadgetId = 0; gadgetId < gadgets.size(); gadgetId++) {
             ArrayList<String> gadget = gadgets.get(gadgetId);
 //            if (!excludeAds.contains(getAvitoAdName(gadget))) {
@@ -799,12 +936,13 @@ public class AvitoGadgets extends Gadgets {
             if (!gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).isEmpty()) {
                 name += "без_отпечатка";
             }
-            Solution.writeText(Solution.getOutputWriter("Output/Avito/" +
-                            gadget.get(mapGadgetAttributeNumber.get(VENDOR)) + "/" +
-                            gadget.get(mapGadgetAttributeNumber.get(MODEL)) + "/" +
-                            gadget.get(mapGadgetAttributeNumber.get(COLOR)) + "/" +
-                            gadget.get(mapGadgetAttributeNumber.get(MEMORY)), name + ".txt"),
-                    getAdFileContent(gadgets.get(gadgetId)));
+            BufferedWriter bufferedWriter = Solution.getOutputWriter("Output/Avito/" +
+                    gadget.get(mapGadgetAttributeNumber.get(VENDOR)) + "/" +
+                    gadget.get(mapGadgetAttributeNumber.get(MODEL)) + "/" +
+                    gadget.get(mapGadgetAttributeNumber.get(COLOR)) + "/" +
+                    gadget.get(mapGadgetAttributeNumber.get(MEMORY)), name + ".txt");
+            bufferedWriter.write(getAdFileContent(gadgets.get(gadgetId)));
+            bufferedWriter.flush();
 //            }
         }
     }
@@ -817,14 +955,14 @@ public class AvitoGadgets extends Gadgets {
             ArrayList<String> gadget = gadgets.get(i - 1);
             res += "\"" + getAvitoAdName(gadget) + "\";\"" +
                     getAdText(gadget) + "\";\"" +
-                    getPrice(gadget) + "\";\"" +
+                    getPriceAMOLED(gadget) + "\";\"" +
                     i + ".jpg" + ",price" + gadgetNum + ".jpg\"\n";
             gadgetNum++;
         }
         return res;
     }
 
-    public void generateFilesRobot() {
+    public void generateFilesAvibot() throws IOException {
         mapGadgetModelGadgets = new HashMap<>();
         for (ArrayList<String> gadget : gadgets) {
             String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
@@ -836,8 +974,9 @@ public class AvitoGadgets extends Gadgets {
         int gadgetNum = 0;
         for (String model : gadgetModels) {
             int size = Math.min(mapGadgetModelGadgetCount.get(model), mapGadgetModelGadgets.get(model).size());
-            Solution.writeText(Solution.getOutputWriter("Output/AvitoRobot/" + model, "ads.csv"),
-                    getRobotText(model, mapGadgetModelGadgets.get(model), gadgetNum, size));
+            BufferedWriter bufferedWriter = Solution.getOutputWriter("Output/AvitoRobot/" + model, "ads.csv");
+            bufferedWriter.write(getRobotText(model, mapGadgetModelGadgets.get(model), gadgetNum, size));
+            bufferedWriter.flush();
             gadgetNum += size;
 //            c += Math.min(mapGadgetModelGadgetCount.get(model), mapGadgetModelGadgets.get(model).baseSize());
         }

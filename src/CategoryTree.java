@@ -144,8 +144,13 @@ public class CategoryTree {
             Gadget gadget = gadgets.get(i);
             if (selectedItems.contains(gadget.getGoogleSheetsName())) {
                 bufferedWriter.write(gadget.id + ";true;" + gadget.price + ";RUR;Мобильные телефоны;" +
-                        gadget.imageUrl + ";http://ispark.info/" + gadget.id + ";\"" + gadget.getWebsiteName() + "\";" +
-                        "\"Гарантия 1 год. Возможна скидка при предоплате!\";" + gadget.manufacturerWarranty + "\n");
+                        gadget.imageUrl + ";http://ispark.info/" + gadget.id + ";\"" + gadget.getWebsiteName() + "\";");
+                if (gadget.manufacturerWarranty) {
+                    bufferedWriter.write("\"Официальная гарантия. Варианты оплаты: наличными, в кредит, по карте.\";");
+                } else {
+                    bufferedWriter.write("\"Гарантия 1 год. Варианты оплаты: в рассрочку, по карте, наличными.\";");
+                }
+                bufferedWriter.write(gadget.manufacturerWarranty + "\n");
             }
         }
         for (CategoryTree child : children) {
@@ -171,46 +176,16 @@ public class CategoryTree {
                             break;
                         }
                     }
-                    int modelNum = 0;
-                    for (int i = 0; i < AvitoGadgets.iphonesModels.length; i++) {
-                        if (AvitoGadgets.iphonesModels[i].equals(metaModel)) {
-                            modelNum = i;
-                        }
-                    }
                     String submodel = modelSplit[modelSplit.length - 1];
-                    if (submodel.equals(AvitoGadgets.iPhoneSubModels.get(modelNum).get(1))) {
-                        gadget.price = getPrice(model, "RST") - 10 + "";
+                    if (submodel.equals(AvitoGadgets.iPhoneSubModels.get(
+                            AvitoGadgets.mapIphonesModelsNum.get(metaModel)).get(1))) {
                         gadget.description = ("Тип товара: Ростест (RST)\n").concat(gadget.description);
                         gadget.manufacturerWarranty = true;
                     } else {
-                        gadget.price = getPrice(model, "EST") - 10 + "";
                         gadget.description = ("Тип товара: Евротест (EST)\n").concat(gadget.description);
                         gadget.manufacturerWarranty = false;
                     }
-                    modelSplit = gadget.getGithubName().split(" ");
-                    gadget.imageUrl = "https://raw.githubusercontent.com/bav735/EKZ/master";
-                    int gbPos = modelSplit.length;
-                    for (int i = 0; i < modelSplit.length; i++) {
-                        String part = modelSplit[i];
-                        if (part.toLowerCase().contains("gb")) {
-                            gbPos = i;
-                            gadget.imageUrl += "/";
-                        }
-                        if (i < gbPos) {
-                            if (part.equals("Plus")) {
-                                gadget.imageUrl += " " + part;
-                            } else {
-                                gadget.imageUrl += "/" + part;
-                            }
-                        }
-                        if (i == gbPos + 1) {
-                            gadget.imageUrl += part;
-                        }
-                        if (i == gbPos + 2) {
-                            gadget.imageUrl += " " + part;
-                        }
-                    }
-                    gadget.imageUrl += "/img.jpg";
+//                    gadget.imageUrl = gadget.getImageUrlByModel();
                 }
             }
             child.synchronizeWithPriceList();
@@ -253,19 +228,6 @@ public class CategoryTree {
             }
             child.printCSV(bufferedWriter, presentItems);
         }
-    }
-
-    private int getPrice(String gadgetName, String quality) {
-//        System.out.println(gadgetName);
-        switch (quality) {
-            case "EST":
-                return Integer.parseInt(Gadgets.mapGadgetNamePrices.get(gadgetName)
-                        .get(Gadgets.mapPriceAttributeNumber.get(Gadgets.EST_RETAIL_ISPARK)));
-            case "RST":
-                return Integer.parseInt(Gadgets.mapGadgetNamePrices.get(gadgetName)
-                        .get(Gadgets.mapPriceAttributeNumber.get(Gadgets.RST_RETAIL_ISPARK)));
-        }
-        return -1;
     }
 
     public void removeLeaves() {

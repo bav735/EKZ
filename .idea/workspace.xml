@@ -2,37 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/5S/Space Gray/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/6 Plus/Gold/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/6 Plus/Silver/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/6 Plus/Space Gray/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/6/Space Gray/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/6S Plus/Gold/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/6S Plus/Rose Gold/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/6S Plus/Silver/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/6S Plus/Space Gray/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/6S/Rose Gold/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/6S/Space Gray/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/7 Plus/(PRODUCT)RED/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/7 Plus/Black/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/7 Plus/Gold/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/7 Plus/Jet Black/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/7 Plus/Rose Gold/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/7 Plus/Silver/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/7/Jet Black/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/7/Rose Gold/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/SE/Rose Gold/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/iPhone/SE/Space Gray/img.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/CategoryTree$1.class" afterPath="$PROJECT_DIR$/out/production/EKZ/CategoryTree$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/CategoryTree$CustomComparator.class" afterPath="$PROJECT_DIR$/out/production/EKZ/CategoryTree$CustomComparator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/CategoryTree.class" afterPath="$PROJECT_DIR$/out/production/EKZ/CategoryTree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/Gadget.class" afterPath="$PROJECT_DIR$/out/production/EKZ/Gadget.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/Gadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/Gadgets.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/Solution.class" afterPath="$PROJECT_DIR$/out/production/EKZ/Solution.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/WebSiteGadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/WebSiteGadgets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/YoulaGadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/YoulaGadgets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/present_items.txt" afterPath="$PROJECT_DIR$/Input/present_items.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/price_list_iphone.txt" afterPath="$PROJECT_DIR$/Input/price_list_iphone.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/selected_ym_items.txt" afterPath="$PROJECT_DIR$/Input/selected_ym_items.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/shop_items.xml" afterPath="$PROJECT_DIR$/Input/shop_items.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/ads.csv" afterPath="$PROJECT_DIR$/Output/AvitoRobot/4/ads.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/ads.csv" afterPath="$PROJECT_DIR$/Output/AvitoRobot/4S/ads.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/ads.csv" afterPath="$PROJECT_DIR$/Output/AvitoRobot/5C/ads.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/ads.csv" afterPath="$PROJECT_DIR$/Output/AvitoRobot/5S/ads.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/ads.csv" afterPath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/ads.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/ads.csv" afterPath="$PROJECT_DIR$/Output/AvitoRobot/6/ads.csv" />
@@ -46,7 +30,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Website/ym_shop_items.csv" afterPath="$PROJECT_DIR$/Output/Website/ym_shop_items.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AvitoGadgets.java" afterPath="$PROJECT_DIR$/src/AvitoGadgets.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CategoryTree.java" afterPath="$PROJECT_DIR$/src/CategoryTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gadget.java" afterPath="$PROJECT_DIR$/src/Gadget.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution.java" afterPath="$PROJECT_DIR$/src/Solution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WebSiteGadgets.java" afterPath="$PROJECT_DIR$/src/WebSiteGadgets.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/YoulaGadgets.java" afterPath="$PROJECT_DIR$/src/YoulaGadgets.java" />
     </list>
     <ignored path="EKZ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,11 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="253" column="42" selection-start-line="253" selection-start-column="42" selection-end-line="253" selection-end-column="42" />
+            <state relative-caret-position="288">
+              <caret line="234" column="14" selection-start-line="234" selection-start-column="14" selection-end-line="234" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,8 +69,8 @@
       <file leaf-file-name="CategoryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CategoryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+            <state relative-caret-position="115">
+              <caret line="144" column="63" selection-start-line="144" selection-start-column="63" selection-end-line="144" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,21 +81,11 @@
       <file leaf-file-name="Gadgets.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="297">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="YoulaGadgets.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/YoulaGadgets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -116,27 +93,23 @@
       <file leaf-file-name="Gadget.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Gadget.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-              <folding>
-                <element signature="e#1218#1219#0" expanded="true" />
-                <element signature="e#1280#1281#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="115">
+              <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AvitoGadgets.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AvitoGadgets.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="155" column="63" selection-start-line="155" selection-start-column="63" selection-end-line="155" selection-end-column="63" />
+            <state relative-caret-position="495">
+              <caret line="597" column="5" selection-start-line="597" selection-start-column="5" selection-end-line="597" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3769#3778#0" expanded="true" />
-                <element signature="e#8153#8162#0" expanded="true" />
-                <element signature="e#17101#17109#0" expanded="true" />
-                <element signature="e#19698#19706#0" expanded="true" />
+                <element signature="e#4360#4369#0" expanded="true" />
+                <element signature="e#9370#9379#0" expanded="true" />
+                <element signature="e#27715#27723#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,8 +118,8 @@
       <file leaf-file-name="price_list_iphone.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Input/price_list_iphone.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="337">
+              <caret line="54" column="89" selection-start-line="54" selection-start-column="89" selection-end-line="54" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -165,8 +138,8 @@
       <file leaf-file-name="selected_ym_items.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Input/selected_ym_items.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="54">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -175,11 +148,21 @@
       <file leaf-file-name="WebSiteGadgets.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WebSiteGadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="171" column="9" selection-start-line="166" selection-start-column="8" selection-end-line="171" selection-end-column="9" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YoulaGadgets.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/YoulaGadgets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="247" column="7" selection-start-line="247" selection-start-column="7" selection-end-line="247" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -229,24 +212,47 @@
         <option value="$PROJECT_DIR$/Input/include_avito_ads.txt" />
         <option value="$PROJECT_DIR$/Input/exclude_avito_ads.txt" />
         <option value="$PROJECT_DIR$/Input/price_list_samsung.txt" />
-        <option value="$PROJECT_DIR$/src/YoulaGadgets.java" />
-        <option value="$PROJECT_DIR$/src/WebSiteGadgets.java" />
+        <option value="$PROJECT_DIR$/Output/Website/iphones.txt" />
         <option value="$PROJECT_DIR$/src/Gadgets.java" />
-        <option value="$PROJECT_DIR$/Input/price_list_iphone.txt" />
+        <option value="$PROJECT_DIR$/src/WebSiteGadgets.java" />
+        <option value="$PROJECT_DIR$/src/YoulaGadgets.java" />
+        <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/Input/present_items.txt" />
         <option value="$PROJECT_DIR$/src/Gadget.java" />
-        <option value="$PROJECT_DIR$/src/CategoryTree.java" />
-        <option value="$PROJECT_DIR$/src/AvitoGadgets.java" />
-        <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/Input/selected_ym_items.txt" />
+        <option value="$PROJECT_DIR$/src/CategoryTree.java" />
+        <option value="$PROJECT_DIR$/Input/price_list_iphone.txt" />
+        <option value="$PROJECT_DIR$/src/AvitoGadgets.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1378" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Since15</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -337,6 +343,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Output" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EKZ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EKZ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Input" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -354,7 +378,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
@@ -688,7 +712,7 @@
     <option name="totallyTimeSpent" value="197850000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -698,12 +722,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22131148" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33442622" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33442622" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.48421052" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.48421052" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32459018" sideWeight="0.49121523" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -777,20 +801,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="190" column="21" selection-start-line="190" selection-start-column="21" selection-end-line="190" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3769#3778#0" expanded="true" />
-            <element signature="e#8153#8162#0" expanded="true" />
-            <element signature="e#17101#17109#0" expanded="true" />
-            <element signature="e#19698#19706#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -808,10 +818,9 @@
           <caret line="45" column="192" selection-start-line="45" selection-start-column="192" selection-end-line="45" selection-end-column="192" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3769#3778#0" expanded="true" />
-            <element signature="e#8153#8162#0" expanded="true" />
-            <element signature="e#17101#17109#0" expanded="true" />
-            <element signature="e#19698#19706#0" expanded="true" />
+            <element signature="e#4360#4369#0" expanded="true" />
+            <element signature="e#9370#9379#0" expanded="true" />
+            <element signature="e#27715#27723#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -832,10 +841,9 @@
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3769#3778#0" expanded="true" />
-            <element signature="e#8153#8162#0" expanded="true" />
-            <element signature="e#17101#17109#0" expanded="true" />
-            <element signature="e#19698#19706#0" expanded="true" />
+            <element signature="e#4360#4369#0" expanded="true" />
+            <element signature="e#9370#9379#0" expanded="true" />
+            <element signature="e#27715#27723#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -857,10 +865,9 @@
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3769#3778#0" expanded="true" />
-            <element signature="e#8153#8162#0" expanded="true" />
-            <element signature="e#17101#17109#0" expanded="true" />
-            <element signature="e#19698#19706#0" expanded="true" />
+            <element signature="e#4360#4369#0" expanded="true" />
+            <element signature="e#9370#9379#0" expanded="true" />
+            <element signature="e#27715#27723#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -986,47 +993,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/YoulaGadgets.java">
+    <entry file="file://$PROJECT_DIR$/Output/Website/iphones.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+        <state relative-caret-position="108">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/io/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="124">
           <caret line="155" column="16" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
+    <entry file="file://$PROJECT_DIR$/src/YoulaGadgets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WebSiteGadgets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="171" column="9" selection-start-line="166" selection-start-column="8" selection-end-line="171" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Input/price_list_iphone.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="291">
+          <caret line="247" column="7" selection-start-line="247" selection-start-column="7" selection-end-line="247" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="234" column="14" selection-start-line="234" selection-start-column="14" selection-end-line="234" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1038,21 +1035,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gadget.java">
+    <entry file="file://$PROJECT_DIR$/src/CategoryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        <state relative-caret-position="115">
+          <caret line="144" column="63" selection-start-line="144" selection-start-column="63" selection-end-line="144" selection-end-column="63" />
           <folding>
-            <element signature="e#1218#1219#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CategoryTree.java">
+    <entry file="file://$PROJECT_DIR$/Input/price_list_iphone.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+        <state relative-caret-position="337">
+          <caret line="54" column="89" selection-start-line="54" selection-start-column="89" selection-end-line="54" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/selected_ym_items.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WebSiteGadgets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gadget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1061,32 +1091,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="155" column="63" selection-start-line="155" selection-start-column="63" selection-end-line="155" selection-end-column="63" />
+        <state relative-caret-position="495">
+          <caret line="597" column="5" selection-start-line="597" selection-start-column="5" selection-end-line="597" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3769#3778#0" expanded="true" />
-            <element signature="e#8153#8162#0" expanded="true" />
-            <element signature="e#17101#17109#0" expanded="true" />
-            <element signature="e#19698#19706#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Input/selected_ym_items.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="253" column="42" selection-start-line="253" selection-start-column="42" selection-end-line="253" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#4360#4369#0" expanded="true" />
+            <element signature="e#9370#9379#0" expanded="true" />
+            <element signature="e#27715#27723#0" expanded="true" />
           </folding>
         </state>
       </provider>

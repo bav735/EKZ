@@ -42,14 +42,14 @@ public class Solution {
         }
     }
 
-    public static void writeText(BufferedWriter bufferedWriter, String text) {
+    /*public static void writeText(BufferedWriter bufferedWriter, String text) {
         try {
             bufferedWriter.write(text);
             bufferedWriter.flush();
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
+    }*/
 
     private static void renamePhotosFiles(File parentDir, File dirOrFile, int num) {
         File[] subdirs = dirOrFile.listFiles();
@@ -147,6 +147,7 @@ public class Solution {
                                 modelSplit.get(i).equals("mini") ||
                                 modelSplit.get(i).equals("Cover") ||
                                 modelSplit.get(i).equals("Lite") ||
+                                modelSplit.get(i).equals("Lite") ||
                                 modelSplit.get(i).equals("Prime")) {
                             plusId = i;
                             modelSplit.set(plusId - 1, modelSplit.get(plusId - 1) + " " + modelSplit.get(plusId));
@@ -171,6 +172,7 @@ public class Solution {
                     for (int i = 0; i < modelSplit.size() && i < 4; i++) {
                         String modelPart = modelSplit.get(i);
                         if (!modelPart.isEmpty()) {
+                            modelPart = AvitoGadgets.getLongColor(modelPart);
                             subcatTree = subcatTree.getTreeByCatNameOrCreate(modelPart, null, isCatIdInitialized);
                         }
                     }
@@ -212,8 +214,8 @@ public class Solution {
         bufferedWriter = Solution.getOutputWriter("Output/Website", "shop_items.xml");
         bufferedWriter.write(CategoryTree.YML_BEGIN);
         bufferedWriter.write("<categories>\n");
-//        root.printYMLCategories(bufferedWriter);
-        bufferedWriter.write(categoriesInitial);
+        root.printYMLCategories(bufferedWriter);
+//        bufferedWriter.write(categoriesInitial);
         bufferedWriter.write("</categories>\n");
 
         bufferedWriter.write("<offers>\n");
@@ -234,7 +236,7 @@ public class Solution {
         bufferedWriter.flush();
     }
 
-    public static void computeAvito() {
+    public static void computeAvito() throws IOException {
         //        renamePhotosFiles(new File("C:/Users/A/Desktop/Фото Авито/Новая папка"),
 //                new File("C:/Users/A/Desktop/Фото Авито/Новая папка/original"), 0);
 
@@ -244,9 +246,10 @@ public class Solution {
         iphonesAvito = new AvitoGadgets();
         iphonesAvito.initializeIPhones();
         iphonesAvito.generateGadgets(0, new ArrayList<String>());
-//        iphonesAvito.printGadgets(0, new ArrayList<String>());
+//        iphonesAvito.printWebsiteCSV(0, new ArrayList<String>());
+        iphonesAvito.printWebsiteYML();
         iphonesAvito.generateFolders();
-        iphonesAvito.generateFilesRobot();
+//        iphonesAvito.generateFilesAvibot();
 
 //        samsungsAvito = new AvitoGadgets();
 //        samsungsAvito.initializeSamsungs();
@@ -256,9 +259,8 @@ public class Solution {
 
 
     public static void main(String[] args) {
-        computeAvito();
-
         try {
+            computeAvito();
             computeCategoryTreeFromXML();
         } catch (Exception e) {
             e.printStackTrace();
