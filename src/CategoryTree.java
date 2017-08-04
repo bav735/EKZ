@@ -6,7 +6,7 @@ import java.util.*;
  * Created by A on 09.06.2017.
  */
 public class CategoryTree {
-    public final static int LEAF_MIN_SIZE = 3;
+    public final static int LEAF_MIN_SIZE = 4;
     public static int baseSize = 83;
     public static int size = 6283;
 
@@ -177,8 +177,7 @@ public class CategoryTree {
                         }
                     }
                     String submodel = modelSplit[modelSplit.length - 1];
-                    if (submodel.equals(AvitoGadgets.iPhoneSubModels.get(
-                            AvitoGadgets.mapIphonesModelsNum.get(metaModel)).get(1))) {
+                    if (submodel.equals(Gadgets.mapGadgetModelSubmodelByModelLine.get("iPhone").get(metaModel).get(1))) {
                         gadget.description = ("Тип товара: Ростест (RST)\n").concat(gadget.description);
                         gadget.manufacturerWarranty = true;
                     } else {
@@ -193,7 +192,11 @@ public class CategoryTree {
     }
 
     public void printCSV(BufferedWriter bufferedWriter, HashSet<String> presentItems) throws IOException {
-        Collections.sort(children, new CustomComparator());
+        if (height > 2) {
+            Collections.sort(children, new CustomComparator(true));
+        } else {
+            Collections.sort(children, new CustomComparator(false));
+        }
         for (CategoryTree child : children) {
             for (int i = 0; i < child.height; i++) {
                 bufferedWriter.write("!");
@@ -327,40 +330,49 @@ public class CategoryTree {
     }
 
     private class CustomComparator implements Comparator<CategoryTree> {
+        boolean isModel;
+
+        public CustomComparator(boolean isModel) {
+            this.isModel = isModel;
+        }
+
         @Override
         public int compare(CategoryTree o1, CategoryTree o2) {
-            int memory1 = getMemory(o1.name);
-            int memory2 = getMemory(o2.name);
-            if (memory1 != -1 && memory2 != -1) {
-                return memory1 - memory2;
-            }
-            int modelOrder1 = getModelOrder(o1.name);
+            if (!isModel) {
+                int memory1 = getMemory(o1.name);
+                int memory2 = getMemory(o2.name);
+                if (memory1 != -1 && memory2 != -1) {
+                    return memory1 - memory2;
+                }
+            /*int modelOrder1 = getModelOrder(o1.name);
             int modelOrder2 = getModelOrder(o2.name);
             if (modelOrder1 != -1 && modelOrder2 != -1) {
                 return modelOrder1 - modelOrder2;
+            }*/
+                int k1 = getVendorOrder(o1.name);
+                int k2 = getVendorOrder(o2.name);
+                return k1 - k2;
+            } else {
+                return o1.name.compareTo(o2.name);
             }
-            int k1 = getVendorOrder(o1.name);
-            int k2 = getVendorOrder(o2.name);
-            return k1 - k2;
-//                    o1.name.compareTo(o2.name);
         }
     }
 
     private int getModelOrder(String model) {
-        if ((model.startsWith("iPhone") || model.startsWith("Galaxy")) && model.length() > 7) {
+        /*String modelLine;
+        switch (model) {
+            case "iPhone":
+                modelLine
+        }
+        if ((model.startsWith("iPhone")) && model.length() > 7) {
             model = model.substring(7);
-            for (int i = 0; i < AvitoGadgets.iphonesModels.length; i++) {
-                if (AvitoGadgets.iphonesModels[i].contains(model)) {
-                    return i;
-                }
-            }
-            for (int i = 0; i < AvitoGadgets.galaxyModels.length; i++) {
-                if (AvitoGadgets.galaxyModels[i].contains(model)) {
+            for (int i = 0; i < Gadgets.modelsByModelLine.get(modelLine).size(); i++) {
+                if (Gadgets.modelsByModelLine.get(modelLine).get(i).contains(model)) {
                     return i;
                 }
             }
             return 100;
-        }
+        }*/
         return -1;
     }
 

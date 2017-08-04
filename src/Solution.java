@@ -15,7 +15,7 @@ public class Solution {
 //    public static int counter = 0;
 
     private static AvitoGadgets iphonesAvito;
-    private static AvitoGadgets samsungsAvito;
+    private static AvitoGadgets galaxysAvito;
 //    static YoulaGadgets iphonesYoula;
 
     public static Scanner getInputScanner(String fileName) {
@@ -140,22 +140,8 @@ public class Solution {
                         }
                     }
                     modelSplit = modelSplitT;
-                    int plusId = -1;
-                    for (int i = 1; i < modelSplit.size(); i++) {
-                        if (modelSplit.get(i).equals("Plus") ||
-                                modelSplit.get(i).equals("Edge") ||
-                                modelSplit.get(i).equals("mini") ||
-                                modelSplit.get(i).equals("Cover") ||
-                                modelSplit.get(i).equals("Lite") ||
-                                modelSplit.get(i).equals("Lite") ||
-                                modelSplit.get(i).equals("Prime")) {
-                            plusId = i;
-                            modelSplit.set(plusId - 1, modelSplit.get(plusId - 1) + " " + modelSplit.get(plusId));
-                        }
-                    }
-                    if (plusId != -1) {
-                        modelSplit.remove(plusId);
-                    }
+                    condenseModelSplit(modelSplit);
+                    condenseModelSplit(modelSplit);
                     if (gadget.namePrefix.equals("Смартфон") && (gadget.model.contains("Galaxy S") ||
                             gadget.model.contains("Galaxy A") ||
                             gadget.model.contains("Galaxy J") ||
@@ -172,7 +158,9 @@ public class Solution {
                     for (int i = 0; i < modelSplit.size() && i < 4; i++) {
                         String modelPart = modelSplit.get(i);
                         if (!modelPart.isEmpty()) {
-                            modelPart = AvitoGadgets.getLongColor(modelPart);
+                            if (modelPart.equals("S6 Edge Edge Plus")) {
+                                modelPart = "S6 Edge Plus";
+                            }
                             subcatTree = subcatTree.getTreeByCatNameOrCreate(modelPart, null, isCatIdInitialized);
                         }
                     }
@@ -236,25 +224,47 @@ public class Solution {
         bufferedWriter.flush();
     }
 
+    public static void condenseModelSplit(ArrayList<String> modelSplit) {
+        int plusId = -1;
+        for (int i = 1; i < modelSplit.size(); i++) {
+            if (modelSplit.get(i).equals("Plus") ||
+                    modelSplit.get(i).equals("Edge") ||
+                    modelSplit.get(i).equals("Edge Plus") ||
+                    modelSplit.get(i).equals("Mini") ||
+                    modelSplit.get(i).equals("Cover") ||
+                    modelSplit.get(i).equals("Lite") ||
+//                                modelSplit.get(i).equals("Prime")||
+                    modelSplit.get(i).equals("Lite")) {
+                plusId = i;
+                modelSplit.set(plusId - 1, modelSplit.get(plusId - 1) + " " + modelSplit.get(plusId));
+            }
+        }
+        if (plusId != -1) {
+            modelSplit.remove(plusId);
+        }
+    }
+
     public static void computeAvito() throws IOException {
         //        renamePhotosFiles(new File("C:/Users/A/Desktop/Фото Авито/Новая папка"),
 //                new File("C:/Users/A/Desktop/Фото Авито/Новая папка/original"), 0);
 
-        Gadgets.initializeFromPriceList();
-        AvitoGadgets.initializeExcludeAds();
+//        Gadgets.initializeFromPriceList();
+//        AvitoGadgets.initializeExcludeAds();
 
-        iphonesAvito = new AvitoGadgets();
-        iphonesAvito.initializeIPhones();
+        iphonesAvito = new AvitoGadgets(Solution.getInputScanner("price_list_iphone.txt"));
+        iphonesAvito.initialize("Apple", "iPhone");
         iphonesAvito.generateGadgets(0, new ArrayList<String>());
+        iphonesAvito.printWebsiteYML(Solution.getOutputWriter("Output/Website", "iphones.xml"));
 //        iphonesAvito.printWebsiteCSV(0, new ArrayList<String>());
-        iphonesAvito.printWebsiteYML();
-        iphonesAvito.generateFolders();
+//        iphonesAvito.generateFolders();
 //        iphonesAvito.generateFilesAvibot();
 
-//        samsungsAvito = new AvitoGadgets();
-//        samsungsAvito.initializeSamsungs();
-//        samsungsAvito.generateGadgets(0, new ArrayList<String>());
-//        samsungsAvito.generateFolders();
+        galaxysAvito = new AvitoGadgets(Solution.getInputScanner("price_list_galaxys.txt"));
+        galaxysAvito.initialize("Samsung", "Galaxy");
+        galaxysAvito.generateGadgets(0, new ArrayList<String>());
+        galaxysAvito.printWebsiteYML(Solution.getOutputWriter("Output/Website", "galaxys.xml"));
+//        galaxysAvito.generateGadgets(0, new ArrayList<String>());
+//        galaxysAvito.generateFolders();
     }
 
 
@@ -268,7 +278,7 @@ public class Solution {
 
         //Youla
 //        iphonesYoula = new YoulaGadgets();
-//        iphonesYoula.initializeIPhones();
+//        iphonesYoula.initialize();
 //        iphonesYoula.generateGadgets(0, new ArrayList<String>());
 //        iphonesYoula.distributeIPhones();
 //        iphonesYoula.generateFolders();

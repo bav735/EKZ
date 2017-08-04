@@ -1,0 +1,36 @@
+Samsung Galaxy Grand Prime 8Gb	6500	7500	5660	4925	-	-	-	-
+Samsung Galaxy Core Prime 8Gb	7500	8500	6700	6000	-	-	-	-
+Samsung Galaxy Alpha 32Gb	10000	11000	8960	8050	-	-	-	-
+Samsung Galaxy S3 16Gb	6000	7000	5480	5025	-	-	-	-
+Samsung Galaxy S3 Mini 16Gb	5000	6000	4600	4250	-	-	-	-
+Samsung Galaxy S4 16Gb	8500	9500	7060	5800	-	-	-	-
+Samsung Galaxy S4 Mini 16Gb	8000	9000	6680	5525	-	-	-	-
+Samsung Galaxy S5 16Gb	11000	12000	9400	8000	-	-	-	-
+Samsung Galaxy S5 Mini 16Gb	11500	12500	10100	8875	-	-	-	-
+Samsung Galaxy S6 32Gb	14000	15000	12600	11375	-	-	-	-
+Samsung Galaxy S6 Edge 32Gb	19000	20000	17200	15625	-	-	-	-
+Samsung Galaxy S6 Edge Plus 32Gb	25000	26000	22800	20875	-	-	-	-
+Samsung Galaxy S7 32Gb	20000	21000	17800	15875	32500	33000	31100	29875
+Samsung Galaxy S7 Edge 32Gb	26000	27000	23840	21950	34500	35000	33900	33375
+Samsung Galaxy S8 64Gb	-	-	-	-	44500	45000	42700	41125
+Samsung Galaxy S8 Plus 64Gb	-	-	-	-	50500	51000	47900	45625
+Samsung Galaxy A3 (2015) 8Gb	8500	9500	7780	7150	-	-	-	-
+Samsung Galaxy A3 (2016) 16Gb	11500	12500	10900	10375	-	-	-	-
+Samsung Galaxy A3 (2017) 16Gb	-	-	-	-	19000	19500	17360	15925
+Samsung Galaxy A5 (2015) 16Gb	10000	11000	9080	8275	-	-	-	-
+Samsung Galaxy A5 (2016) 16Gb	15000	16000	13720	12600	-	-	-	-
+Samsung Galaxy A5 (2017) 16Gb	-	-	-	-	24000	24500	22800	21750
+Samsung Galaxy A7 (2015) 16Gb	14000	15000	12960	12050	-	-	-	-
+Samsung Galaxy A7 (2016) 16Gb	17500	18500	15500	13750	-	-	-	-
+Samsung Galaxy A7 (2017) 16Gb	-	-	-	-	26000	26500	24080	22400
+Samsung Galaxy J1 (2016) 8Gb	-	-	-	-	6500	7000	5660	4925
+Samsung Galaxy J2 (2016) 8Gb	-	-	-	-	8500	9000	7620	6850
+Samsung Galaxy J3 (2016) 8Gb	-	-	-	-	9500	10000	8780	8150
+Samsung Galaxy J3 (2017) 16Gb	-	-	-	-	12000	12500	11200	10500
+Samsung Galaxy J5 (2016) 16Gb	11000	12000	10160	9425			-	-
+Samsung Galaxy J5 (2017) 16Gb			-	-	17000	17500	15800	14750
+Samsung Galaxy J7 (2016) 16Gb	13000	14000	12080	11275	-	-	-	-
+Samsung Galaxy J7 (2017) 16Gb			-	-	19000	19500	17800	16750
+Samsung Galaxy Note 3 16Gb	12000	13000	10400	9000	-	-	-	-
+Samsung Galaxy Note 4 32Gb	16000	17000	13720	11725	-	-	-	-
+Samsung Galaxy Note 5 32Gb	21000	22000	18520	16350	-	-	-	-

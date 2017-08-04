@@ -43,7 +43,7 @@ public class Gadget {
                 colorPos--;
             }
             colorPos--;
-            modelSplit[colorPos] = AvitoGadgets.getLongColor(modelSplit[colorPos]);
+            modelSplit[colorPos] = /*AvitoGadgets.getLongColor(*/modelSplit[colorPos]/*)*/;
         }
         return String.join(" ", modelSplit);
     }

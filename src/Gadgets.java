@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Scanner;
 
 /**
  * Created by A on 13.03.2017.
@@ -20,10 +19,7 @@ public class Gadgets {
     final static String RST_RETAIL_ISPARK = "ростест сайт/маркет";
     final static String RST_RETAIL_OPT_MAX = "ростест опт от 3шт";
     final static String RST_RETAIL_OPT_MIN = "ростест опт от 10шт";
-
-    public static HashMap<String, ArrayList<String>> mapGadgetNamePrices;
-    public static HashMap<String, Integer> mapPriceAttributeNumber;
-    public static String[] priceAttributeNames = new String[]{
+    public final static String[] priceAttributeNames = new String[]{
             EST_RETAIL_AMOLED,
             EST_RETAIL_ISPARK,
             EST_RETAIL_OPT_MAX,
@@ -34,61 +30,49 @@ public class Gadgets {
             RST_RETAIL_OPT_MIN,
     };
 
+    public final static HashMap<String, ArrayList<String>> modelsByModelLine;
+
+    static {
+        modelsByModelLine = new HashMap<>();
+        modelsByModelLine.put("iPhone", iPhones.models);
+        modelsByModelLine.put("Galaxy", Galaxys.models);
+    }
+
+    public final static HashMap<String, ArrayList<ArrayList<String>>> colorsByModelLine;
+
+    static {
+        colorsByModelLine = new HashMap<>();
+        colorsByModelLine.put("iPhone", iPhones.colors);
+        colorsByModelLine.put("Galaxy", Galaxys.colors);
+    }
+
+    public final static HashMap<String, ArrayList<Integer>> gadgetPerMonthCountByModelLine;
+
+    static {
+        gadgetPerMonthCountByModelLine = new HashMap<>();
+        gadgetPerMonthCountByModelLine.put("iPhone", iPhones.gadgetPerMonthCount);
+        gadgetPerMonthCountByModelLine.put("Galaxy", Galaxys.gadgetPerMonthCount);
+    }
+
+    public final static HashMap<String, HashMap<String, ArrayList<String>>> mapGadgetModelSubmodelByModelLine;
+
+    static {
+        mapGadgetModelSubmodelByModelLine = new HashMap<>();
+        mapGadgetModelSubmodelByModelLine.put("iPhone", iPhones.mapModelSubmodel);
+        mapGadgetModelSubmodelByModelLine.put("Galaxy", Galaxys.mapModelSubmodel);
+    }
+
+    public HashMap<String, ArrayList<String>> mapGadgetNamePrices;
+    public HashMap<String, Integer> mapPriceAttributeNumber;
+
     public ArrayList<ArrayList<String>> gadgets = new ArrayList<ArrayList<String>>();
     public HashMap<String, Integer> mapGadgetAttributeNumber;
-
 
     public void initializeMapGadgetAttributeNumber(String[] gadgetAttributeNames) {
         mapGadgetAttributeNumber = new HashMap<String, Integer>();
         for (int i = 0; i < gadgetAttributeNames.length; i++) {
             mapGadgetAttributeNumber.put(gadgetAttributeNames[i], i);
         }
-    }
-
-    public static void initializeFromPriceList() {
-        mapPriceAttributeNumber = new HashMap<String, Integer>();
-        for (int i = 0; i < priceAttributeNames.length; i++) {
-            mapPriceAttributeNumber.put(priceAttributeNames[i], i);
-        }
-        Scanner inScanner = Solution.getInputScanner("price_list_iphone.txt");
-        mapGadgetNamePrices = new HashMap<>();
-        while (inScanner.hasNextLine()) {
-            String line = inScanner.nextLine();
-            String[] words = line.split("\\s+");
-            int i = 0;
-            String gadgetName = "Apple";
-            do {
-                i++;
-                gadgetName += " " + words[i];
-            } while (!words[i].contains("Gb"));
-            if (words[i + 1].equals("Без")) {
-                gadgetName += " Б/О";
-            }
-            ArrayList<String> prices = new ArrayList<>();
-            for (int priceId = PRICES_COUNT; priceId > 0; priceId--) {
-                prices.add(words[words.length - priceId]);
-            }
-            mapGadgetNamePrices.put(gadgetName, prices);
-//            System.out.println(gadgetName);
-        }
-        inScanner.close();
-        inScanner = Solution.getInputScanner("price_list_samsung.txt");
-        while (inScanner.hasNextLine()) {
-            String line = inScanner.nextLine();
-            String[] words = line.split("\\s+");
-            int i = 0;
-            String gadgetName = "Samsung";
-            do {
-                i++;
-                gadgetName += " " + words[i];
-            } while (!words[i].contains("Gb"));
-            ArrayList<String> prices = new ArrayList<>();
-            for (int priceId = PRICES_COUNT; priceId > 0; priceId--) {
-                prices.add(words[words.length - priceId]);
-            }
-            mapGadgetNamePrices.put(gadgetName, prices);
-        }
-        inScanner.close();
     }
 
     public int[] mergeArrays(int[] a1, int[] a2, int[] order) {
