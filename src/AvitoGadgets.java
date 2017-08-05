@@ -51,7 +51,7 @@ public class AvitoGadgets extends Gadgets {
     ArrayList<ArrayList<String>> gadgetAttributesVariants;
 
     public AvitoGadgets(Scanner inScanner) {
-        mapPriceAttributeNumber = new HashMap<String, Integer>();
+        mapPriceAttributeNumber = new HashMap<>();
         for (int i = 0; i < priceAttributeNames.length; i++) {
             mapPriceAttributeNumber.put(priceAttributeNames[i], i);
         }
@@ -63,6 +63,7 @@ public class AvitoGadgets extends Gadgets {
             String gadgetName = String.join(" ", Arrays.copyOfRange(words, 0, words.length - PRICES_COUNT));
             String[] prices = Arrays.copyOfRange(words, words.length - PRICES_COUNT, words.length);
             mapGadgetNamePrices.put(gadgetName, new ArrayList<>(Arrays.asList(prices)));
+            System.out.println(gadgetName+"|");
         }
         inScanner.close();
     }
@@ -270,9 +271,9 @@ public class AvitoGadgets extends Gadgets {
 
     public void generateGadgets(int attribute, ArrayList<String> gadget) {
         if (attribute == gadgetAttributesVariants.size()) {
-//            System.out.println(getGadgetName(gadget));
             ArrayList<String> prices = mapGadgetNamePrices.get(getGadgetName(gadget));
             if (prices != null) {
+                System.out.println(getGadgetName(gadget));
                 switch (gadget.get(mapGadgetAttributeNumber.get(QUALITY))) {
                     case EST:
                         if (prices.get(mapPriceAttributeNumber.get(EST_RETAIL_AMOLED)).equals(NO_PRICE)) {

@@ -161,6 +161,11 @@ public class Solution {
                             if (modelPart.equals("S6 Edge Edge Plus")) {
                                 modelPart = "S6 Edge Plus";
                             }
+                            if (modelSplit.size() > 3) {
+                                if (modelPart.equals("Galaxy") && modelSplit.get(i + 1).equals("Note")) {
+                                    modelSplit.set(i + 2, "Note ".concat(modelSplit.get(i + 2)));
+                                }
+                            }
                             subcatTree = subcatTree.getTreeByCatNameOrCreate(modelPart, null, isCatIdInitialized);
                         }
                     }

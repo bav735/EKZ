@@ -86328,7 +86328,7 @@ USB концентратор: Да
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S7 32Gb Silver Titan SM-G930</model>
+<model>Galaxy S7 32Gb Silver Titanium SM-G930</model>
 <vendor>Samsung</vendor>
 <price>20990.0</price>
 <description>﻿смартфон, Android 7.0
@@ -86339,7 +86339,7 @@ USB концентратор: Да
 объем оперативной памяти 4 Гб
 аккумулятор 3000 мА?ч
 вес 152 г, ШxВxТ 69.60x142.40x7.90 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S7/SilverTitan/img.jpg</picture>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S7/SilverTitanium/img.jpg</picture>
 </offer>
 <offer>
 <initialCategoryId>2</initialCategoryId>
@@ -86376,7 +86376,7 @@ USB концентратор: Да
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S7 Edge 32Gb Silver Titan SM-G935</model>
+<model>Galaxy S7 Edge 32Gb Silver Titanium SM-G935</model>
 <vendor>Samsung</vendor>
 <price>26990.0</price>
 <description>﻿смартфон, Android 6.0
@@ -86387,7 +86387,7 @@ USB концентратор: Да
 объем оперативной памяти 4 Гб
 аккумулятор 3600 мА?ч
 вес 157 г, ШxВxТ 72.60x150.90x7.70 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S7Edge/SilverTitan/img.jpg</picture>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S7Edge/SilverTitanium/img.jpg</picture>
 </offer>
 <offer>
 <initialCategoryId>2</initialCategoryId>
@@ -86883,6 +86883,57 @@ USB концентратор: Да
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
+<model>Galaxy J5 (2016) 16Gb Black SM-J510</model>
+<vendor>Samsung</vendor>
+<price>11990.0</price>
+<description>﻿смартфон, Android 5.1
+поддержка двух SIM-карт
+экран 5", разрешение 1280x720
+камера 13 МП, автофокус
+память 8 Гб, слот для карты памяти
+3G, 4G LTE, Wi-Fi, Bluetooth, GPS, ГЛОНАСС
+объем оперативной памяти 1.50 Гб
+аккумулятор 2600 мА?ч
+вес 146 г, ШxВxТ 71.80x142.10x7.90 мм</description>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J5(2016)/Black/img.jpg</picture>
+</offer>
+<offer>
+<initialCategoryId>2</initialCategoryId>
+<typePrefix>Смартфон</typePrefix>
+<model>Galaxy J5 (2016) 16Gb White SM-J510</model>
+<vendor>Samsung</vendor>
+<price>11990.0</price>
+<description>﻿смартфон, Android 5.1
+поддержка двух SIM-карт
+экран 5", разрешение 1280x720
+камера 13 МП, автофокус
+память 8 Гб, слот для карты памяти
+3G, 4G LTE, Wi-Fi, Bluetooth, GPS, ГЛОНАСС
+объем оперативной памяти 1.50 Гб
+аккумулятор 2600 мА?ч
+вес 146 г, ШxВxТ 71.80x142.10x7.90 мм</description>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J5(2016)/White/img.jpg</picture>
+</offer>
+<offer>
+<initialCategoryId>2</initialCategoryId>
+<typePrefix>Смартфон</typePrefix>
+<model>Galaxy J5 (2016) 16Gb Gold SM-J510</model>
+<vendor>Samsung</vendor>
+<price>11990.0</price>
+<description>﻿смартфон, Android 5.1
+поддержка двух SIM-карт
+экран 5", разрешение 1280x720
+камера 13 МП, автофокус
+память 8 Гб, слот для карты памяти
+3G, 4G LTE, Wi-Fi, Bluetooth, GPS, ГЛОНАСС
+объем оперативной памяти 1.50 Гб
+аккумулятор 2600 мА?ч
+вес 146 г, ШxВxТ 71.80x142.10x7.90 мм</description>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J5(2016)/Gold/img.jpg</picture>
+</offer>
+<offer>
+<initialCategoryId>2</initialCategoryId>
+<typePrefix>Смартфон</typePrefix>
 <model>Galaxy J7 (2016) 16Gb Black SM-J710</model>
 <vendor>Samsung</vendor>
 <price>13990.0</price>
@@ -87030,6 +87081,22 @@ USB концентратор: Да
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
+<model>Galaxy Note 4 32Gb Pink SM-N910</model>
+<vendor>Samsung</vendor>
+<price>16990.0</price>
+<description>﻿смартфон, Android 4.4
+экран 5.7", разрешение 2560x1440
+камера 16 МП, автофокус
+память 16 Гб, слот для карты памяти
+3G, 4G LTE, Wi-Fi, Bluetooth, NFC, GPS, ГЛОНАСС
+объем оперативной памяти 3 Гб
+аккумулятор 3000 мА?ч
+вес 175 г, ШxВxТ 78.60x153.50x8.50 мм</description>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/Note4/Pink/img.jpg</picture>
+</offer>
+<offer>
+<initialCategoryId>2</initialCategoryId>
+<typePrefix>Смартфон</typePrefix>
 <model>Galaxy Note 5 32Gb Black Sapphire SM-N920</model>
 <vendor>Samsung</vendor>
 <price>21990.0</price>
@@ -87078,6 +87145,22 @@ USB концентратор: Да
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
+<model>Galaxy Note 5 32Gb Silver Titanium SM-N920</model>
+<vendor>Samsung</vendor>
+<price>21990.0</price>
+<description>﻿смартфон, Android 5.1
+экран 5.7", разрешение 2560x1440
+камера 16 МП, автофокус, F/1.9
+память 32 Гб, без слота для карт памяти
+3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS, ГЛОНАСС
+объем оперативной памяти 4 Гб
+аккумулятор 3000 мА?ч
+вес 171 г, ШxВxТ 76.10x153.20x7.60 мм</description>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/Note5/SilverTitanium/img.jpg</picture>
+</offer>
+<offer>
+<initialCategoryId>2</initialCategoryId>
+<typePrefix>Смартфон</typePrefix>
 <model>Galaxy S7 32Gb Black Onyx SM-G930F</model>
 <vendor>Samsung</vendor>
 <price>32990.0</price>
@@ -87094,7 +87177,7 @@ USB концентратор: Да
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S7 32Gb Silver Titan SM-G930F</model>
+<model>Galaxy S7 32Gb Silver Titanium SM-G930F</model>
 <vendor>Samsung</vendor>
 <price>32990.0</price>
 <description>﻿смартфон, Android 7.0
@@ -87105,7 +87188,7 @@ USB концентратор: Да
 объем оперативной памяти 4 Гб
 аккумулятор 3000 мА?ч
 вес 152 г, ШxВxТ 69.60x142.40x7.90 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S7/SilverTitan/img.jpg</picture>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S7/SilverTitanium/img.jpg</picture>
 </offer>
 <offer>
 <initialCategoryId>2</initialCategoryId>
@@ -87142,7 +87225,7 @@ USB концентратор: Да
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S7 Edge 32Gb Silver Titan SM-G935F</model>
+<model>Galaxy S7 Edge 32Gb Silver Titanium SM-G935F</model>
 <vendor>Samsung</vendor>
 <price>34990.0</price>
 <description>﻿смартфон, Android 6.0
@@ -87153,7 +87236,7 @@ USB концентратор: Да
 объем оперативной памяти 4 Гб
 аккумулятор 3600 мА?ч
 вес 157 г, ШxВxТ 72.60x150.90x7.70 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S7Edge/SilverTitan/img.jpg</picture>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S7Edge/SilverTitanium/img.jpg</picture>
 </offer>
 <offer>
 <initialCategoryId>2</initialCategoryId>
@@ -87639,4 +87722,157 @@ USB концентратор: Да
 аккумулятор 2400 мА?ч
 вес 142 г, ШxВxТ 70.30x143.20x8.20 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J3(2017)/Gold/img.jpg</picture>
+</offer>
+<offer>
+<initialCategoryId>2</initialCategoryId>
+<typePrefix>Смартфон</typePrefix>
+<model>Galaxy J3 (2017) 16Gb Pink SM-J330F</model>
+<vendor>Samsung</vendor>
+<price>12490.0</price>
+<description>﻿смартфон на платформе Android
+поддержка двух SIM-карт
+экран 5", разрешение 1280x720
+камера 13 МП, автофокус, F/1.9
+память 16 Гб, слот для карты памяти
+3G, 4G LTE, Wi-Fi, Bluetooth, GPS, ГЛОНАСС
+объем оперативной памяти 2 Гб
+аккумулятор 2400 мА?ч
+вес 142 г, ШxВxТ 70.30x143.20x8.20 мм</description>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J3(2017)/Pink/img.jpg</picture>
+</offer>
+<offer>
+<initialCategoryId>2</initialCategoryId>
+<typePrefix>Смартфон</typePrefix>
+<model>Galaxy J5 (2017) 16Gb Black SM-J530F</model>
+<vendor>Samsung</vendor>
+<price>17490.0</price>
+<description>﻿смартфон, Android 7.0
+поддержка двух SIM-карт
+экран 5.2", разрешение 1280x720
+камера 13 МП, автофокус, F/1.7
+память 16 Гб, слот для карты памяти
+3G, 4G LTE, Wi-Fi, Bluetooth, NFC, GPS, ГЛОНАСС
+объем оперативной памяти 2 Гб
+аккумулятор 3000 мА?ч
+вес 160 г, ШxВxТ 71.30x146.20x8 мм</description>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J5(2017)/Black/img.jpg</picture>
+</offer>
+<offer>
+<initialCategoryId>2</initialCategoryId>
+<typePrefix>Смартфон</typePrefix>
+<model>Galaxy J5 (2017) 16Gb Blue SM-J530F</model>
+<vendor>Samsung</vendor>
+<price>17490.0</price>
+<description>﻿смартфон, Android 7.0
+поддержка двух SIM-карт
+экран 5.2", разрешение 1280x720
+камера 13 МП, автофокус, F/1.7
+память 16 Гб, слот для карты памяти
+3G, 4G LTE, Wi-Fi, Bluetooth, NFC, GPS, ГЛОНАСС
+объем оперативной памяти 2 Гб
+аккумулятор 3000 мА?ч
+вес 160 г, ШxВxТ 71.30x146.20x8 мм</description>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J5(2017)/Blue/img.jpg</picture>
+</offer>
+<offer>
+<initialCategoryId>2</initialCategoryId>
+<typePrefix>Смартфон</typePrefix>
+<model>Galaxy J5 (2017) 16Gb Gold SM-J530F</model>
+<vendor>Samsung</vendor>
+<price>17490.0</price>
+<description>﻿смартфон, Android 7.0
+поддержка двух SIM-карт
+экран 5.2", разрешение 1280x720
+камера 13 МП, автофокус, F/1.7
+память 16 Гб, слот для карты памяти
+3G, 4G LTE, Wi-Fi, Bluetooth, NFC, GPS, ГЛОНАСС
+объем оперативной памяти 2 Гб
+аккумулятор 3000 мА?ч
+вес 160 г, ШxВxТ 71.30x146.20x8 мм</description>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J5(2017)/Gold/img.jpg</picture>
+</offer>
+<offer>
+<initialCategoryId>2</initialCategoryId>
+<typePrefix>Смартфон</typePrefix>
+<model>Galaxy J5 (2017) 16Gb Pink SM-J530F</model>
+<vendor>Samsung</vendor>
+<price>17490.0</price>
+<description>﻿смартфон, Android 7.0
+поддержка двух SIM-карт
+экран 5.2", разрешение 1280x720
+камера 13 МП, автофокус, F/1.7
+память 16 Гб, слот для карты памяти
+3G, 4G LTE, Wi-Fi, Bluetooth, NFC, GPS, ГЛОНАСС
+объем оперативной памяти 2 Гб
+аккумулятор 3000 мА?ч
+вес 160 г, ШxВxТ 71.30x146.20x8 мм</description>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J5(2017)/Pink/img.jpg</picture>
+</offer>
+<offer>
+<initialCategoryId>2</initialCategoryId>
+<typePrefix>Смартфон</typePrefix>
+<model>Galaxy J7 (2017) 16Gb Black SM-J730F</model>
+<vendor>Samsung</vendor>
+<price>19490.0</price>
+<description>﻿смартфон, Android 7.0
+поддержка двух SIM-карт
+экран 5.5", разрешение 1920x1080
+камера 13 МП, автофокус, F/1.7
+память 16 Гб, слот для карты памяти
+3G, 4G LTE, Wi-Fi, Bluetooth, NFC, GPS, ГЛОНАСС
+объем оперативной памяти 3 Гб
+аккумулятор 3600 мА?ч
+вес 181 г, ШxВxТ 74.80x152.50x8 мм</description>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J7(2017)/Black/img.jpg</picture>
+</offer>
+<offer>
+<initialCategoryId>2</initialCategoryId>
+<typePrefix>Смартфон</typePrefix>
+<model>Galaxy J7 (2017) 16Gb Blue SM-J730F</model>
+<vendor>Samsung</vendor>
+<price>19490.0</price>
+<description>﻿смартфон, Android 7.0
+поддержка двух SIM-карт
+экран 5.5", разрешение 1920x1080
+камера 13 МП, автофокус, F/1.7
+память 16 Гб, слот для карты памяти
+3G, 4G LTE, Wi-Fi, Bluetooth, NFC, GPS, ГЛОНАСС
+объем оперативной памяти 3 Гб
+аккумулятор 3600 мА?ч
+вес 181 г, ШxВxТ 74.80x152.50x8 мм</description>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J7(2017)/Blue/img.jpg</picture>
+</offer>
+<offer>
+<initialCategoryId>2</initialCategoryId>
+<typePrefix>Смартфон</typePrefix>
+<model>Galaxy J7 (2017) 16Gb Gold SM-J730F</model>
+<vendor>Samsung</vendor>
+<price>19490.0</price>
+<description>﻿смартфон, Android 7.0
+поддержка двух SIM-карт
+экран 5.5", разрешение 1920x1080
+камера 13 МП, автофокус, F/1.7
+память 16 Гб, слот для карты памяти
+3G, 4G LTE, Wi-Fi, Bluetooth, NFC, GPS, ГЛОНАСС
+объем оперативной памяти 3 Гб
+аккумулятор 3600 мА?ч
+вес 181 г, ШxВxТ 74.80x152.50x8 мм</description>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J7(2017)/Gold/img.jpg</picture>
+</offer>
+<offer>
+<initialCategoryId>2</initialCategoryId>
+<typePrefix>Смартфон</typePrefix>
+<model>Galaxy J7 (2017) 16Gb Pink SM-J730F</model>
+<vendor>Samsung</vendor>
+<price>19490.0</price>
+<description>﻿смартфон, Android 7.0
+поддержка двух SIM-карт
+экран 5.5", разрешение 1920x1080
+камера 13 МП, автофокус, F/1.7
+память 16 Гб, слот для карты памяти
+3G, 4G LTE, Wi-Fi, Bluetooth, NFC, GPS, ГЛОНАСС
+объем оперативной памяти 3 Гб
+аккумулятор 3600 мА?ч
+вес 181 г, ШxВxТ 74.80x152.50x8 мм</description>
+	<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J7(2017)/Pink/img.jpg</picture>
 </offer>

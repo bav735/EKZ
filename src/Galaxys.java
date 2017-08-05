@@ -137,8 +137,8 @@ public class Galaxys {
             add(new ArrayList<String>(Arrays.asList("Black Sapphire", "White Pearl", "Gold Platinum", "Blue Topaz")));//s6
             add(new ArrayList<String>(Arrays.asList("Black Sapphire", "White Pearl", "Gold Platinum", "Green Emerald")));//s6 edge
             add(new ArrayList<String>(Arrays.asList("White Pearl", "Gold Platinum", "Black Sapphire")));//s6 edge+
-            add(new ArrayList<String>(Arrays.asList("Black Onyx", "Silver Titan", "Gold Platinum")));//s7
-            add(new ArrayList<String>(Arrays.asList("Black Onyx", "Silver Titan", "Gold Platinum", "Smoke Sapphire")));//s7 edge
+            add(new ArrayList<String>(Arrays.asList("Black Onyx", "Silver Titanium", "Gold Platinum")));//s7
+            add(new ArrayList<String>(Arrays.asList("Black Onyx", "Silver Titanium", "Gold Platinum", "Smoke Sapphire")));//s7 edge
             add(new ArrayList<String>(Arrays.asList("Midnight Black", "Orchid Gray", "Maple Gold")));//s8
             add(new ArrayList<String>(Arrays.asList("Midnight Black", "Orchid Gray", "Maple Gold")));//s8+
             add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Pink", "Blue")));//a3 2015
@@ -153,14 +153,14 @@ public class Galaxys {
             add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//j1
             add(new ArrayList<String>(Arrays.asList("Black", "Silver", "Gold")));//j2
             add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//j3 2016
-            add(new ArrayList<String>(Arrays.asList("Black", "Blue", "Gold")));//j3 2017
+            add(new ArrayList<String>(Arrays.asList("Black", "Blue", "Gold", "Pink")));//j3 2017
             add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//j5 2016
             add(new ArrayList<String>(Arrays.asList("Black", "Blue", "Gold", "Pink")));//j5 2017
             add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//j7 2016
             add(new ArrayList<String>(Arrays.asList("Black", "Blue", "Gold", "Pink")));//j7 2017
             add(new ArrayList<String>(Arrays.asList("Black", "White", "Pink")));//note 3
-            add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//note 4
-            add(new ArrayList<String>(Arrays.asList("Black Sapphire", "White Pearl", "Gold Platinum")));//note 5
+            add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Pink")));//note 4
+            add(new ArrayList<String>(Arrays.asList("Black Sapphire", "White Pearl", "Gold Platinum", "Silver Titanium")));//note 5
         }
     };
 
