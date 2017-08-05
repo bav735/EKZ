@@ -141,14 +141,14 @@ public class Galaxys {
             add(new ArrayList<String>(Arrays.asList("Black Onyx", "Silver Titanium", "Gold Platinum", "Smoke Sapphire")));//s7 edge
             add(new ArrayList<String>(Arrays.asList("Midnight Black", "Orchid Gray", "Maple Gold")));//s8
             add(new ArrayList<String>(Arrays.asList("Midnight Black", "Orchid Gray", "Maple Gold")));//s8+
-            add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Pink", "Blue")));//a3 2015
-            add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Pink")));//a3 2016
+            add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//a3 2015
+            add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//a3 2016
             add(new ArrayList<String>(Arrays.asList("Black", "Gold", "Blue")));//a3 2017
-            add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Pink", "Blue")));//a5 2015
-            add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Pink")));//a5 2016
+            add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Silver")));//a5 2015
+            add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//a5 2016
             add(new ArrayList<String>(Arrays.asList("Black", "Gold", "Blue")));//a5 2017
-            add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Pink", "Blue")));//a7 2015
-            add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Pink")));//a7 2016
+            add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//a7 2015
+            add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//a7 2016
             add(new ArrayList<String>(Arrays.asList("Black", "Gold", "Blue")));//a7 2017
             add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//j1
             add(new ArrayList<String>(Arrays.asList("Black", "Silver", "Gold")));//j2
