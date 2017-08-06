@@ -86475,40 +86475,6 @@ USB концентратор: Да
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A3 (2015) 8Gb Pink SM-A300</model>
-<vendor>Samsung</vendor>
-<price>9490.0</price>
-<description>﻿смартфон, Android 5.1
-поддержка двух SIM-карт
-экран 4.7", разрешение 1280x720
-камера 13 МП, автофокус, F/1.9
-память 16 Гб, слот для карты памяти
-3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS, ГЛОНАСС
-объем оперативной памяти 1.50 Гб
-аккумулятор 2300 мА?ч
-вес 132 г, ШxВxТ 65.20x134.50x7.30 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A3(2015)/Pink/img.jpg</picture>
-</offer>
-<offer>
-<initialCategoryId>2</initialCategoryId>
-<typePrefix>Смартфон</typePrefix>
-<model>Galaxy A3 (2015) 8Gb Blue SM-A300</model>
-<vendor>Samsung</vendor>
-<price>9490.0</price>
-<description>﻿смартфон, Android 5.1
-поддержка двух SIM-карт
-экран 4.7", разрешение 1280x720
-камера 13 МП, автофокус, F/1.9
-память 16 Гб, слот для карты памяти
-3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS, ГЛОНАСС
-объем оперативной памяти 1.50 Гб
-аккумулятор 2300 мА?ч
-вес 132 г, ШxВxТ 65.20x134.50x7.30 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A3(2015)/Blue/img.jpg</picture>
-</offer>
-<offer>
-<initialCategoryId>2</initialCategoryId>
-<typePrefix>Смартфон</typePrefix>
 <model>Galaxy A3 (2016) 16Gb Black SM-A310</model>
 <vendor>Samsung</vendor>
 <price>12490.0</price>
@@ -86556,23 +86522,6 @@ USB концентратор: Да
 аккумулятор 2300 мА?ч
 вес 132 г, ШxВxТ 65.20x134.50x7.30 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A3(2016)/Gold/img.jpg</picture>
-</offer>
-<offer>
-<initialCategoryId>2</initialCategoryId>
-<typePrefix>Смартфон</typePrefix>
-<model>Galaxy A3 (2016) 16Gb Pink SM-A310</model>
-<vendor>Samsung</vendor>
-<price>12490.0</price>
-<description>﻿смартфон, Android 5.1
-поддержка двух SIM-карт
-экран 4.7", разрешение 1280x720
-камера 13 МП, автофокус, F/1.9
-память 16 Гб, слот для карты памяти
-3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS, ГЛОНАСС
-объем оперативной памяти 1.50 Гб
-аккумулятор 2300 мА?ч
-вес 132 г, ШxВxТ 65.20x134.50x7.30 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A3(2016)/Pink/img.jpg</picture>
 </offer>
 <offer>
 <initialCategoryId>2</initialCategoryId>
@@ -86628,7 +86577,7 @@ USB концентратор: Да
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A5 (2015) 16Gb Pink SM-A500</model>
+<model>Galaxy A5 (2015) 16Gb Silver SM-A500</model>
 <vendor>Samsung</vendor>
 <price>10990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -86640,24 +86589,7 @@ USB концентратор: Да
 объем оперативной памяти 2 Гб
 аккумулятор 2900 мА?ч
 вес 155 г, ШxВxТ 71x144.80x7.30 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A5(2015)/Pink/img.jpg</picture>
-</offer>
-<offer>
-<initialCategoryId>2</initialCategoryId>
-<typePrefix>Смартфон</typePrefix>
-<model>Galaxy A5 (2015) 16Gb Blue SM-A500</model>
-<vendor>Samsung</vendor>
-<price>10990.0</price>
-<description>﻿смартфон, Android 5.1
-поддержка двух SIM-карт
-экран 5.2", разрешение 1920x1080
-камера 13 МП, автофокус, F/1.9
-память 16 Гб, слот для карты памяти
-3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS, ГЛОНАСС
-объем оперативной памяти 2 Гб
-аккумулятор 2900 мА?ч
-вес 155 г, ШxВxТ 71x144.80x7.30 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A5(2015)/Blue/img.jpg</picture>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A5(2015)/Silver/img.jpg</picture>
 </offer>
 <offer>
 <initialCategoryId>2</initialCategoryId>
@@ -86713,23 +86645,6 @@ USB концентратор: Да
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A5 (2016) 16Gb Pink SM-A510</model>
-<vendor>Samsung</vendor>
-<price>15990.0</price>
-<description>﻿смартфон, Android 5.1
-поддержка двух SIM-карт
-экран 5.2", разрешение 1920x1080
-камера 13 МП, автофокус, F/1.9
-память 16 Гб, слот для карты памяти
-3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS, ГЛОНАСС
-объем оперативной памяти 2 Гб
-аккумулятор 2900 мА?ч
-вес 155 г, ШxВxТ 71x144.80x7.30 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A5(2016)/Pink/img.jpg</picture>
-</offer>
-<offer>
-<initialCategoryId>2</initialCategoryId>
-<typePrefix>Смартфон</typePrefix>
 <model>Galaxy A7 (2015) 16Gb Black SM-A700</model>
 <vendor>Samsung</vendor>
 <price>14990.0</price>
@@ -86781,40 +86696,6 @@ USB концентратор: Да
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A7 (2015) 16Gb Pink SM-A700</model>
-<vendor>Samsung</vendor>
-<price>14990.0</price>
-<description>﻿смартфон, Android 5.1
-поддержка двух SIM-карт
-экран 5.5", разрешение 1920x1080
-камера 13 МП, автофокус, F/1.9
-память 16 Гб, слот для карты памяти
-3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS
-объем оперативной памяти 3 Гб
-аккумулятор 3300 мА?ч
-вес 172 г, ШxВxТ 74.10x151.50x7.30 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A7(2015)/Pink/img.jpg</picture>
-</offer>
-<offer>
-<initialCategoryId>2</initialCategoryId>
-<typePrefix>Смартфон</typePrefix>
-<model>Galaxy A7 (2015) 16Gb Blue SM-A700</model>
-<vendor>Samsung</vendor>
-<price>14990.0</price>
-<description>﻿смартфон, Android 5.1
-поддержка двух SIM-карт
-экран 5.5", разрешение 1920x1080
-камера 13 МП, автофокус, F/1.9
-память 16 Гб, слот для карты памяти
-3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS
-объем оперативной памяти 3 Гб
-аккумулятор 3300 мА?ч
-вес 172 г, ШxВxТ 74.10x151.50x7.30 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A7(2015)/Blue/img.jpg</picture>
-</offer>
-<offer>
-<initialCategoryId>2</initialCategoryId>
-<typePrefix>Смартфон</typePrefix>
 <model>Galaxy A7 (2016) 16Gb Black SM-A710</model>
 <vendor>Samsung</vendor>
 <price>18490.0</price>
@@ -86862,23 +86743,6 @@ USB концентратор: Да
 аккумулятор 3300 мА?ч
 вес 172 г, ШxВxТ 74.10x151.50x7.30 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A7(2016)/Gold/img.jpg</picture>
-</offer>
-<offer>
-<initialCategoryId>2</initialCategoryId>
-<typePrefix>Смартфон</typePrefix>
-<model>Galaxy A7 (2016) 16Gb Pink SM-A710</model>
-<vendor>Samsung</vendor>
-<price>18490.0</price>
-<description>﻿смартфон, Android 5.1
-поддержка двух SIM-карт
-экран 5.5", разрешение 1920x1080
-камера 13 МП, автофокус, F/1.9
-память 16 Гб, слот для карты памяти
-3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS
-объем оперативной памяти 3 Гб
-аккумулятор 3300 мА?ч
-вес 172 г, ШxВxТ 74.10x151.50x7.30 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A7(2016)/Pink/img.jpg</picture>
 </offer>
 <offer>
 <initialCategoryId>2</initialCategoryId>
@@ -87874,5 +87738,5 @@ USB концентратор: Да
 объем оперативной памяти 3 Гб
 аккумулятор 3600 мА?ч
 вес 181 г, ШxВxТ 74.80x152.50x8 мм</description>
-	<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J7(2017)/Pink/img.jpg</picture>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J7(2017)/Pink/img.jpg</picture>
 </offer>

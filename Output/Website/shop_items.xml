@@ -73,17 +73,11 @@
 <category id="6544" parentId="6497">S8 Plus</category>
 <category id="6520" parentId="6483">Galaxy A</category>
 <category id="6521" parentId="6520">A3</category>
-<category id="6522" parentId="6521">(2015)</category>
-<category id="6523" parentId="6521">(2016)</category>
-<category id="6546" parentId="6521">(2017)</category>
 <category id="6524" parentId="6520">A5</category>
 <category id="6525" parentId="6524">(2015)</category>
 <category id="6526" parentId="6524">(2016)</category>
 <category id="6547" parentId="6524">(2017)</category>
 <category id="6527" parentId="6520">A7</category>
-<category id="6528" parentId="6527">(2015)</category>
-<category id="6529" parentId="6527">(2016)</category>
-<category id="6548" parentId="6527">(2017)</category>
 <category id="6530" parentId="6483">Galaxy J</category>
 <category id="6549" parentId="6530">J1</category>
 <category id="6551" parentId="6530">J2</category>
@@ -6254,7 +6248,7 @@
 вес 152 г, ШxВxТ 69.60x142.40x7.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S7/GoldPlatinum/img.jpg</picture>
 </offer>
-<offer id="103734">
+<offer id="103726">
 <categoryId>6516</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6271,7 +6265,7 @@
 вес 152 г, ШxВxТ 69.60x142.40x7.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S7/BlackOnyx/img.jpg</picture>
 </offer>
-<offer id="103735">
+<offer id="103727">
 <categoryId>6516</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6288,7 +6282,7 @@
 вес 152 г, ШxВxТ 69.60x142.40x7.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S7/SilverTitanium/img.jpg</picture>
 </offer>
-<offer id="103736">
+<offer id="103728">
 <categoryId>6516</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6373,7 +6367,7 @@
 вес 157 г, ШxВxТ 72.60x150.90x7.70 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S7Edge/SmokeSapphire/img.jpg</picture>
 </offer>
-<offer id="103737">
+<offer id="103729">
 <categoryId>6518</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6390,7 +6384,7 @@
 вес 157 г, ШxВxТ 72.60x150.90x7.70 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S7Edge/BlackOnyx/img.jpg</picture>
 </offer>
-<offer id="103738">
+<offer id="103730">
 <categoryId>6518</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6407,7 +6401,7 @@
 вес 157 г, ШxВxТ 72.60x150.90x7.70 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S7Edge/SilverTitanium/img.jpg</picture>
 </offer>
-<offer id="103739">
+<offer id="103731">
 <categoryId>6518</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6424,7 +6418,7 @@
 вес 157 г, ШxВxТ 72.60x150.90x7.70 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S7Edge/GoldPlatinum/img.jpg</picture>
 </offer>
-<offer id="103740">
+<offer id="103732">
 <categoryId>6518</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6441,7 +6435,7 @@
 вес 157 г, ШxВxТ 72.60x150.90x7.70 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S7Edge/SmokeSapphire/img.jpg</picture>
 </offer>
-<offer id="103741">
+<offer id="103733">
 <categoryId>6542</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6458,7 +6452,7 @@
 вес 155 г, ШxВxТ 68.10x148.90x8 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S8/MidnightBlack/img.jpg</picture>
 </offer>
-<offer id="103742">
+<offer id="103734">
 <categoryId>6542</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6475,7 +6469,7 @@
 вес 155 г, ШxВxТ 68.10x148.90x8 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S8/OrchidGray/img.jpg</picture>
 </offer>
-<offer id="103743">
+<offer id="103735">
 <categoryId>6542</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6492,7 +6486,7 @@
 вес 155 г, ШxВxТ 68.10x148.90x8 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S8/MapleGold/img.jpg</picture>
 </offer>
-<offer id="103744">
+<offer id="103736">
 <categoryId>6544</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6509,7 +6503,7 @@
 вес 173 г, ШxВxТ 73.40x159.50x8.10 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S8Plus/MidnightBlack/img.jpg</picture>
 </offer>
-<offer id="103745">
+<offer id="103737">
 <categoryId>6544</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6526,7 +6520,7 @@
 вес 173 г, ШxВxТ 73.40x159.50x8.10 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S8Plus/OrchidGray/img.jpg</picture>
 </offer>
-<offer id="103746">
+<offer id="103738">
 <categoryId>6544</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6544,7 +6538,7 @@
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/S8Plus/MapleGold/img.jpg</picture>
 </offer>
 <offer id="103690">
-<categoryId>6522</categoryId>
+<categoryId>6521</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A3 (2015) 8Gb Black SM-A300</model>
@@ -6562,7 +6556,7 @@
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A3(2015)/Black/img.jpg</picture>
 </offer>
 <offer id="103691">
-<categoryId>6522</categoryId>
+<categoryId>6521</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A3 (2015) 8Gb White SM-A300</model>
@@ -6580,7 +6574,7 @@
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A3(2015)/White/img.jpg</picture>
 </offer>
 <offer id="103692">
-<categoryId>6522</categoryId>
+<categoryId>6521</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A3 (2015) 8Gb Gold SM-A300</model>
@@ -6598,43 +6592,7 @@
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A3(2015)/Gold/img.jpg</picture>
 </offer>
 <offer id="103693">
-<categoryId>6522</categoryId>
-<initialCategoryId>2</initialCategoryId>
-<typePrefix>Смартфон</typePrefix>
-<model>Galaxy A3 (2015) 8Gb Pink SM-A300</model>
-<vendor>Samsung</vendor>
-<price>9490.0</price>
-<description>﻿смартфон, Android 5.1
-поддержка двух SIM-карт
-экран 4.7", разрешение 1280x720
-камера 13 МП, автофокус, F/1.9
-память 16 Гб, слот для карты памяти
-3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS, ГЛОНАСС
-объем оперативной памяти 1.50 Гб
-аккумулятор 2300 мА?ч
-вес 132 г, ШxВxТ 65.20x134.50x7.30 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A3(2015)/Pink/img.jpg</picture>
-</offer>
-<offer id="103694">
-<categoryId>6522</categoryId>
-<initialCategoryId>2</initialCategoryId>
-<typePrefix>Смартфон</typePrefix>
-<model>Galaxy A3 (2015) 8Gb Blue SM-A300</model>
-<vendor>Samsung</vendor>
-<price>9490.0</price>
-<description>﻿смартфон, Android 5.1
-поддержка двух SIM-карт
-экран 4.7", разрешение 1280x720
-камера 13 МП, автофокус, F/1.9
-память 16 Гб, слот для карты памяти
-3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS, ГЛОНАСС
-объем оперативной памяти 1.50 Гб
-аккумулятор 2300 мА?ч
-вес 132 г, ШxВxТ 65.20x134.50x7.30 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A3(2015)/Blue/img.jpg</picture>
-</offer>
-<offer id="103695">
-<categoryId>6523</categoryId>
+<categoryId>6521</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A3 (2016) 16Gb Black SM-A310</model>
@@ -6651,8 +6609,8 @@
 вес 132 г, ШxВxТ 65.20x134.50x7.30 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A3(2016)/Black/img.jpg</picture>
 </offer>
-<offer id="103696">
-<categoryId>6523</categoryId>
+<offer id="103694">
+<categoryId>6521</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A3 (2016) 16Gb White SM-A310</model>
@@ -6669,8 +6627,8 @@
 вес 132 г, ШxВxТ 65.20x134.50x7.30 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A3(2016)/White/img.jpg</picture>
 </offer>
-<offer id="103697">
-<categoryId>6523</categoryId>
+<offer id="103695">
+<categoryId>6521</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A3 (2016) 16Gb Gold SM-A310</model>
@@ -6687,26 +6645,8 @@
 вес 132 г, ШxВxТ 65.20x134.50x7.30 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A3(2016)/Gold/img.jpg</picture>
 </offer>
-<offer id="103698">
-<categoryId>6523</categoryId>
-<initialCategoryId>2</initialCategoryId>
-<typePrefix>Смартфон</typePrefix>
-<model>Galaxy A3 (2016) 16Gb Pink SM-A310</model>
-<vendor>Samsung</vendor>
-<price>12490.0</price>
-<description>﻿смартфон, Android 5.1
-поддержка двух SIM-карт
-экран 4.7", разрешение 1280x720
-камера 13 МП, автофокус, F/1.9
-память 16 Гб, слот для карты памяти
-3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS, ГЛОНАСС
-объем оперативной памяти 1.50 Гб
-аккумулятор 2300 мА?ч
-вес 132 г, ШxВxТ 65.20x134.50x7.30 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A3(2016)/Pink/img.jpg</picture>
-</offer>
-<offer id="103747">
-<categoryId>6546</categoryId>
+<offer id="103739">
+<categoryId>6521</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A3 (2017) 16Gb Black SM-A320F</model>
@@ -6723,8 +6663,8 @@
 вес 138 г, ШxВxТ 66.20x135.40x7.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A3(2017)/Black/img.jpg</picture>
 </offer>
-<offer id="103748">
-<categoryId>6546</categoryId>
+<offer id="103740">
+<categoryId>6521</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A3 (2017) 16Gb Gold SM-A320F</model>
@@ -6741,8 +6681,8 @@
 вес 138 г, ШxВxТ 66.20x135.40x7.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A3(2017)/Gold/img.jpg</picture>
 </offer>
-<offer id="103749">
-<categoryId>6546</categoryId>
+<offer id="103741">
+<categoryId>6521</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A3 (2017) 16Gb Blue SM-A320F</model>
@@ -6759,7 +6699,7 @@
 вес 138 г, ШxВxТ 66.20x135.40x7.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A3(2017)/Blue/img.jpg</picture>
 </offer>
-<offer id="103699">
+<offer id="103696">
 <categoryId>6525</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6777,7 +6717,7 @@
 вес 155 г, ШxВxТ 71x144.80x7.30 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A5(2015)/Black/img.jpg</picture>
 </offer>
-<offer id="103700">
+<offer id="103697">
 <categoryId>6525</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6795,7 +6735,7 @@
 вес 155 г, ШxВxТ 71x144.80x7.30 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A5(2015)/White/img.jpg</picture>
 </offer>
-<offer id="103701">
+<offer id="103698">
 <categoryId>6525</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6813,11 +6753,11 @@
 вес 155 г, ШxВxТ 71x144.80x7.30 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A5(2015)/Gold/img.jpg</picture>
 </offer>
-<offer id="103702">
+<offer id="103699">
 <categoryId>6525</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A5 (2015) 16Gb Pink SM-A500</model>
+<model>Galaxy A5 (2015) 16Gb Silver SM-A500</model>
 <vendor>Samsung</vendor>
 <price>10990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -6829,27 +6769,9 @@
 объем оперативной памяти 2 Гб
 аккумулятор 2900 мА?ч
 вес 155 г, ШxВxТ 71x144.80x7.30 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A5(2015)/Pink/img.jpg</picture>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A5(2015)/Silver/img.jpg</picture>
 </offer>
-<offer id="103703">
-<categoryId>6525</categoryId>
-<initialCategoryId>2</initialCategoryId>
-<typePrefix>Смартфон</typePrefix>
-<model>Galaxy A5 (2015) 16Gb Blue SM-A500</model>
-<vendor>Samsung</vendor>
-<price>10990.0</price>
-<description>﻿смартфон, Android 5.1
-поддержка двух SIM-карт
-экран 5.2", разрешение 1920x1080
-камера 13 МП, автофокус, F/1.9
-память 16 Гб, слот для карты памяти
-3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS, ГЛОНАСС
-объем оперативной памяти 2 Гб
-аккумулятор 2900 мА?ч
-вес 155 г, ШxВxТ 71x144.80x7.30 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A5(2015)/Blue/img.jpg</picture>
-</offer>
-<offer id="103704">
+<offer id="103700">
 <categoryId>6526</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6867,7 +6789,7 @@
 вес 155 г, ШxВxТ 71x144.80x7.30 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A5(2016)/Black/img.jpg</picture>
 </offer>
-<offer id="103705">
+<offer id="103701">
 <categoryId>6526</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6885,7 +6807,7 @@
 вес 155 г, ШxВxТ 71x144.80x7.30 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A5(2016)/White/img.jpg</picture>
 </offer>
-<offer id="103706">
+<offer id="103702">
 <categoryId>6526</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6903,25 +6825,7 @@
 вес 155 г, ШxВxТ 71x144.80x7.30 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A5(2016)/Gold/img.jpg</picture>
 </offer>
-<offer id="103707">
-<categoryId>6526</categoryId>
-<initialCategoryId>2</initialCategoryId>
-<typePrefix>Смартфон</typePrefix>
-<model>Galaxy A5 (2016) 16Gb Pink SM-A510</model>
-<vendor>Samsung</vendor>
-<price>15990.0</price>
-<description>﻿смартфон, Android 5.1
-поддержка двух SIM-карт
-экран 5.2", разрешение 1920x1080
-камера 13 МП, автофокус, F/1.9
-память 16 Гб, слот для карты памяти
-3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS, ГЛОНАСС
-объем оперативной памяти 2 Гб
-аккумулятор 2900 мА?ч
-вес 155 г, ШxВxТ 71x144.80x7.30 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A5(2016)/Pink/img.jpg</picture>
-</offer>
-<offer id="103750">
+<offer id="103742">
 <categoryId>6547</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6939,7 +6843,7 @@
 вес 159 г, ШxВxТ 71.40x146.10x7.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A5(2017)/Black/img.jpg</picture>
 </offer>
-<offer id="103751">
+<offer id="103743">
 <categoryId>6547</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6957,7 +6861,7 @@
 вес 159 г, ШxВxТ 71.40x146.10x7.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A5(2017)/Gold/img.jpg</picture>
 </offer>
-<offer id="103752">
+<offer id="103744">
 <categoryId>6547</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -6975,8 +6879,8 @@
 вес 159 г, ШxВxТ 71.40x146.10x7.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A5(2017)/Blue/img.jpg</picture>
 </offer>
-<offer id="103708">
-<categoryId>6528</categoryId>
+<offer id="103703">
+<categoryId>6527</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A7 (2015) 16Gb Black SM-A700</model>
@@ -6993,8 +6897,8 @@
 вес 172 г, ШxВxТ 74.10x151.50x7.30 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A7(2015)/Black/img.jpg</picture>
 </offer>
-<offer id="103709">
-<categoryId>6528</categoryId>
+<offer id="103704">
+<categoryId>6527</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A7 (2015) 16Gb White SM-A700</model>
@@ -7011,8 +6915,8 @@
 вес 172 г, ШxВxТ 74.10x151.50x7.30 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A7(2015)/White/img.jpg</picture>
 </offer>
-<offer id="103710">
-<categoryId>6528</categoryId>
+<offer id="103705">
+<categoryId>6527</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A7 (2015) 16Gb Gold SM-A700</model>
@@ -7029,44 +6933,8 @@
 вес 172 г, ШxВxТ 74.10x151.50x7.30 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A7(2015)/Gold/img.jpg</picture>
 </offer>
-<offer id="103711">
-<categoryId>6528</categoryId>
-<initialCategoryId>2</initialCategoryId>
-<typePrefix>Смартфон</typePrefix>
-<model>Galaxy A7 (2015) 16Gb Pink SM-A700</model>
-<vendor>Samsung</vendor>
-<price>14990.0</price>
-<description>﻿смартфон, Android 5.1
-поддержка двух SIM-карт
-экран 5.5", разрешение 1920x1080
-камера 13 МП, автофокус, F/1.9
-память 16 Гб, слот для карты памяти
-3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS
-объем оперативной памяти 3 Гб
-аккумулятор 3300 мА?ч
-вес 172 г, ШxВxТ 74.10x151.50x7.30 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A7(2015)/Pink/img.jpg</picture>
-</offer>
-<offer id="103712">
-<categoryId>6528</categoryId>
-<initialCategoryId>2</initialCategoryId>
-<typePrefix>Смартфон</typePrefix>
-<model>Galaxy A7 (2015) 16Gb Blue SM-A700</model>
-<vendor>Samsung</vendor>
-<price>14990.0</price>
-<description>﻿смартфон, Android 5.1
-поддержка двух SIM-карт
-экран 5.5", разрешение 1920x1080
-камера 13 МП, автофокус, F/1.9
-память 16 Гб, слот для карты памяти
-3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS
-объем оперативной памяти 3 Гб
-аккумулятор 3300 мА?ч
-вес 172 г, ШxВxТ 74.10x151.50x7.30 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A7(2015)/Blue/img.jpg</picture>
-</offer>
-<offer id="103713">
-<categoryId>6529</categoryId>
+<offer id="103706">
+<categoryId>6527</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A7 (2016) 16Gb Black SM-A710</model>
@@ -7083,8 +6951,8 @@
 вес 172 г, ШxВxТ 74.10x151.50x7.30 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A7(2016)/Black/img.jpg</picture>
 </offer>
-<offer id="103714">
-<categoryId>6529</categoryId>
+<offer id="103707">
+<categoryId>6527</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A7 (2016) 16Gb White SM-A710</model>
@@ -7101,8 +6969,8 @@
 вес 172 г, ШxВxТ 74.10x151.50x7.30 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A7(2016)/White/img.jpg</picture>
 </offer>
-<offer id="103715">
-<categoryId>6529</categoryId>
+<offer id="103708">
+<categoryId>6527</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A7 (2016) 16Gb Gold SM-A710</model>
@@ -7119,26 +6987,8 @@
 вес 172 г, ШxВxТ 74.10x151.50x7.30 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A7(2016)/Gold/img.jpg</picture>
 </offer>
-<offer id="103716">
-<categoryId>6529</categoryId>
-<initialCategoryId>2</initialCategoryId>
-<typePrefix>Смартфон</typePrefix>
-<model>Galaxy A7 (2016) 16Gb Pink SM-A710</model>
-<vendor>Samsung</vendor>
-<price>18490.0</price>
-<description>﻿смартфон, Android 5.1
-поддержка двух SIM-карт
-экран 5.5", разрешение 1920x1080
-камера 13 МП, автофокус, F/1.9
-память 16 Гб, слот для карты памяти
-3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS
-объем оперативной памяти 3 Гб
-аккумулятор 3300 мА?ч
-вес 172 г, ШxВxТ 74.10x151.50x7.30 мм</description>
-<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A7(2016)/Pink/img.jpg</picture>
-</offer>
-<offer id="103753">
-<categoryId>6548</categoryId>
+<offer id="103745">
+<categoryId>6527</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A7 (2017) 16Gb Black SM-A720F</model>
@@ -7155,8 +7005,8 @@
 вес 186 г, ШxВxТ 77.60x156.80x7.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A7(2017)/Black/img.jpg</picture>
 </offer>
-<offer id="103754">
-<categoryId>6548</categoryId>
+<offer id="103746">
+<categoryId>6527</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A7 (2017) 16Gb Gold SM-A720F</model>
@@ -7173,8 +7023,8 @@
 вес 186 г, ШxВxТ 77.60x156.80x7.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A7(2017)/Gold/img.jpg</picture>
 </offer>
-<offer id="103755">
-<categoryId>6548</categoryId>
+<offer id="103747">
+<categoryId>6527</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A7 (2017) 16Gb Blue SM-A720F</model>
@@ -7191,7 +7041,7 @@
 вес 186 г, ШxВxТ 77.60x156.80x7.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/A7(2017)/Blue/img.jpg</picture>
 </offer>
-<offer id="103756">
+<offer id="103748">
 <categoryId>6549</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7209,7 +7059,7 @@
 вес 131 г, ШxВxТ 69.30x132.60x8.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J1(2016)/Black/img.jpg</picture>
 </offer>
-<offer id="103757">
+<offer id="103749">
 <categoryId>6549</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7227,7 +7077,7 @@
 вес 131 г, ШxВxТ 69.30x132.60x8.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J1(2016)/White/img.jpg</picture>
 </offer>
-<offer id="103758">
+<offer id="103750">
 <categoryId>6549</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7245,7 +7095,7 @@
 вес 131 г, ШxВxТ 69.30x132.60x8.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J1(2016)/Gold/img.jpg</picture>
 </offer>
-<offer id="103759">
+<offer id="103751">
 <categoryId>6551</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7263,7 +7113,7 @@
 вес 131 г, ШxВxТ 69.30x132.60x8.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J2(2016)/Black/img.jpg</picture>
 </offer>
-<offer id="103760">
+<offer id="103752">
 <categoryId>6551</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7281,7 +7131,7 @@
 вес 131 г, ШxВxТ 69.30x132.60x8.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J2(2016)/Silver/img.jpg</picture>
 </offer>
-<offer id="103761">
+<offer id="103753">
 <categoryId>6551</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7299,7 +7149,7 @@
 вес 131 г, ШxВxТ 69.30x132.60x8.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J2(2016)/Gold/img.jpg</picture>
 </offer>
-<offer id="103762">
+<offer id="103754">
 <categoryId>6554</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7317,7 +7167,7 @@
 вес 138 г, ШxВxТ 71x142.30x7.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J3(2016)/Black/img.jpg</picture>
 </offer>
-<offer id="103763">
+<offer id="103755">
 <categoryId>6554</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7335,7 +7185,7 @@
 вес 138 г, ШxВxТ 71x142.30x7.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J3(2016)/White/img.jpg</picture>
 </offer>
-<offer id="103764">
+<offer id="103756">
 <categoryId>6554</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7353,7 +7203,7 @@
 вес 138 г, ШxВxТ 71x142.30x7.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J3(2016)/Gold/img.jpg</picture>
 </offer>
-<offer id="103765">
+<offer id="103757">
 <categoryId>6555</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7371,7 +7221,7 @@
 вес 142 г, ШxВxТ 70.30x143.20x8.20 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J3(2017)/Black/img.jpg</picture>
 </offer>
-<offer id="103766">
+<offer id="103758">
 <categoryId>6555</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7389,7 +7239,7 @@
 вес 142 г, ШxВxТ 70.30x143.20x8.20 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J3(2017)/Blue/img.jpg</picture>
 </offer>
-<offer id="103767">
+<offer id="103759">
 <categoryId>6555</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7407,7 +7257,7 @@
 вес 142 г, ШxВxТ 70.30x143.20x8.20 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J3(2017)/Gold/img.jpg</picture>
 </offer>
-<offer id="103768">
+<offer id="103760">
 <categoryId>6555</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7425,7 +7275,7 @@
 вес 142 г, ШxВxТ 70.30x143.20x8.20 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J3(2017)/Pink/img.jpg</picture>
 </offer>
-<offer id="103717">
+<offer id="103709">
 <categoryId>6532</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7443,7 +7293,7 @@
 вес 146 г, ШxВxТ 71.80x142.10x7.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J5(2016)/Black/img.jpg</picture>
 </offer>
-<offer id="103718">
+<offer id="103710">
 <categoryId>6532</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7461,7 +7311,7 @@
 вес 146 г, ШxВxТ 71.80x142.10x7.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J5(2016)/White/img.jpg</picture>
 </offer>
-<offer id="103719">
+<offer id="103711">
 <categoryId>6532</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7479,7 +7329,7 @@
 вес 146 г, ШxВxТ 71.80x142.10x7.90 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J5(2016)/Gold/img.jpg</picture>
 </offer>
-<offer id="103769">
+<offer id="103761">
 <categoryId>6556</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7497,7 +7347,7 @@
 вес 160 г, ШxВxТ 71.30x146.20x8 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J5(2017)/Black/img.jpg</picture>
 </offer>
-<offer id="103770">
+<offer id="103762">
 <categoryId>6556</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7515,7 +7365,7 @@
 вес 160 г, ШxВxТ 71.30x146.20x8 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J5(2017)/Blue/img.jpg</picture>
 </offer>
-<offer id="103771">
+<offer id="103763">
 <categoryId>6556</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7533,7 +7383,7 @@
 вес 160 г, ШxВxТ 71.30x146.20x8 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J5(2017)/Gold/img.jpg</picture>
 </offer>
-<offer id="103772">
+<offer id="103764">
 <categoryId>6556</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7551,7 +7401,7 @@
 вес 160 г, ШxВxТ 71.30x146.20x8 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J5(2017)/Pink/img.jpg</picture>
 </offer>
-<offer id="103720">
+<offer id="103712">
 <categoryId>6534</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7569,7 +7419,7 @@
 вес 169 г, ШxВxТ 76x151.70x7.80 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J7(2016)/Black/img.jpg</picture>
 </offer>
-<offer id="103721">
+<offer id="103713">
 <categoryId>6534</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7587,7 +7437,7 @@
 вес 169 г, ШxВxТ 76x151.70x7.80 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J7(2016)/White/img.jpg</picture>
 </offer>
-<offer id="103722">
+<offer id="103714">
 <categoryId>6534</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7605,7 +7455,7 @@
 вес 169 г, ШxВxТ 76x151.70x7.80 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J7(2016)/Gold/img.jpg</picture>
 </offer>
-<offer id="103773">
+<offer id="103765">
 <categoryId>6557</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7623,7 +7473,7 @@
 вес 181 г, ШxВxТ 74.80x152.50x8 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J7(2017)/Black/img.jpg</picture>
 </offer>
-<offer id="103774">
+<offer id="103766">
 <categoryId>6557</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7641,7 +7491,7 @@
 вес 181 г, ШxВxТ 74.80x152.50x8 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J7(2017)/Blue/img.jpg</picture>
 </offer>
-<offer id="103775">
+<offer id="103767">
 <categoryId>6557</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7659,7 +7509,7 @@
 вес 181 г, ШxВxТ 74.80x152.50x8 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J7(2017)/Gold/img.jpg</picture>
 </offer>
-<offer id="103776">
+<offer id="103768">
 <categoryId>6557</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7677,7 +7527,7 @@
 вес 181 г, ШxВxТ 74.80x152.50x8 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/J7(2017)/Pink/img.jpg</picture>
 </offer>
-<offer id="103723">
+<offer id="103715">
 <categoryId>6536</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7694,7 +7544,7 @@
 вес 168 г, ШxВxТ 79.20x151.20x8.30 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/Note3/Black/img.jpg</picture>
 </offer>
-<offer id="103724">
+<offer id="103716">
 <categoryId>6536</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7711,7 +7561,7 @@
 вес 168 г, ШxВxТ 79.20x151.20x8.30 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/Note3/White/img.jpg</picture>
 </offer>
-<offer id="103725">
+<offer id="103717">
 <categoryId>6536</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7728,7 +7578,7 @@
 вес 168 г, ШxВxТ 79.20x151.20x8.30 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/Note3/Pink/img.jpg</picture>
 </offer>
-<offer id="103726">
+<offer id="103718">
 <categoryId>6538</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7745,7 +7595,7 @@
 вес 175 г, ШxВxТ 78.60x153.50x8.50 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/Note4/Black/img.jpg</picture>
 </offer>
-<offer id="103727">
+<offer id="103719">
 <categoryId>6538</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7762,7 +7612,7 @@
 вес 175 г, ШxВxТ 78.60x153.50x8.50 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/Note4/White/img.jpg</picture>
 </offer>
-<offer id="103728">
+<offer id="103720">
 <categoryId>6538</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7779,7 +7629,7 @@
 вес 175 г, ШxВxТ 78.60x153.50x8.50 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/Note4/Gold/img.jpg</picture>
 </offer>
-<offer id="103729">
+<offer id="103721">
 <categoryId>6538</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7796,7 +7646,7 @@
 вес 175 г, ШxВxТ 78.60x153.50x8.50 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/Note4/Pink/img.jpg</picture>
 </offer>
-<offer id="103730">
+<offer id="103722">
 <categoryId>6540</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7813,7 +7663,7 @@
 вес 171 г, ШxВxТ 76.10x153.20x7.60 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/Note5/BlackSapphire/img.jpg</picture>
 </offer>
-<offer id="103731">
+<offer id="103723">
 <categoryId>6540</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7830,7 +7680,7 @@
 вес 171 г, ШxВxТ 76.10x153.20x7.60 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/Note5/WhitePearl/img.jpg</picture>
 </offer>
-<offer id="103732">
+<offer id="103724">
 <categoryId>6540</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
@@ -7847,7 +7697,7 @@
 вес 171 г, ШxВxТ 76.10x153.20x7.60 мм</description>
 <picture>https://raw.githubusercontent.com/bav735/EKZ/master/Samsung/Galaxy/Note5/GoldPlatinum/img.jpg</picture>
 </offer>
-<offer id="103733">
+<offer id="103725">
 <categoryId>6540</categoryId>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>

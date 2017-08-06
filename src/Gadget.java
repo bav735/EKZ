@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Created by A on 14.06.2017.
  */
@@ -35,32 +37,45 @@ public class Gadget {
     }
 
     public String getWebsiteName() {
-        String res = namePrefix + " " + vendor + " " + model;
-        String[] modelSplit = res.split(" ");
-        if (namePrefix.equals("Смартфон") && model.contains("iPhone")) {
-            int colorPos = modelSplit.length - 1;
-            while (!modelSplit[colorPos].startsWith("A1")) {
-                colorPos--;
-            }
-            colorPos--;
-            modelSplit[colorPos] = /*AvitoGadgets.getLongColor(*/modelSplit[colorPos]/*)*/;
-        }
-        return String.join(" ", modelSplit);
+        return namePrefix + " " + vendor + " " + model;
     }
 
     public String getGoogleSheetsName() {
-        String res = getWebsiteName();
+        String res = "EST";
         if (manufacturerWarranty) {
-            res = res.replace("Смартфон", "RST");
-        } else {
-            res = res.replace("Смартфон", "EST");
+            res = "RST";
         }
-        int posSpace = res.lastIndexOf(" ");
-        if (posSpace == -1) {
-            posSpace = res.length();
+        res += " " + vendor + " ";
+        boolean touchLocked = false;
+        String tModel = model;
+        if (model.contains(" Без Отп")) {
+            touchLocked = true;
+            tModel = tModel.replace(" Без Отп", "");
         }
-        return res.substring(0, posSpace);
+        if (!model.contains(" ")) {
+            return "";
+        }
+        tModel = tModel.substring(0, tModel.lastIndexOf(" "));
+        String[] modelSplit = tModel.split(" ");
+        int posGb = -1;
+        for (int i = 0; i < modelSplit.length; i++) {
+            if (modelSplit[i].toLowerCase().contains("gb")) {
+                posGb = i;
+            }
+        }
+        if (posGb == -1) {
+            return "";
+        }
+        res += String.join(" ", Arrays.copyOfRange(modelSplit, 0, posGb)) + " ";
+        if (touchLocked) {
+            res += "Без Отп ";
+        }
+        res += String.join(" ", Arrays.copyOfRange(modelSplit, posGb, modelSplit.length));
+        System.out.println(res + "$");
+        return res;
     }
+
+
 
     /*public String getImageUrlByModel() {
         String[] modelSplit = getGithubName().split(" ");

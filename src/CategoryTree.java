@@ -212,7 +212,7 @@ public class CategoryTree {
                 bufferedWriter.write(";1;0;0;");
                 String present = "0";
                 if (presentItems.contains(gadget.getGoogleSheetsName())) {
-                    present = new Random(System.nanoTime()).nextInt(3) + 1 + "";
+                    present = "3";
                 }
                 bufferedWriter.write(present + ";;");
                 if (Solution.SHOP_ITEMS_XML.equals(Solution.MVIDEO_XML)) {
