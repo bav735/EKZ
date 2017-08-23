@@ -144,13 +144,15 @@ public class CategoryTree {
             Gadget gadget = gadgets.get(i);
             if (selectedItems.contains(gadget.getGoogleSheetsName())) {
                 bufferedWriter.write(gadget.id + ";true;" + gadget.price + ";RUR;Мобильные телефоны;" +
-                        gadget.imageUrl + ";http://ispark.info/" + gadget.id + ";\"" + gadget.getWebsiteName() + "\";");
+                        gadget.imageUrl + ";http://ispark.info/product/" + gadget.id + ";\"" + gadget.getWebsiteName() + "\";");
                 if (gadget.manufacturerWarranty) {
-                    bufferedWriter.write("\"Официальная гарантия. Варианты оплаты: наличными, в кредит, по карте.\";");
+                    bufferedWriter.write("\"Официальная гарантия. Оплата: в кредит, ");
                 } else {
-                    bufferedWriter.write("\"Гарантия 1 год. Варианты оплаты: в рассрочку, по карте, наличными.\";");
+                    bufferedWriter.write("Оплата: в рассрочку - " +
+                            (Solution.getNumber(gadget.price) / 60) * 10 + " руб в мес, ");
                 }
-                bufferedWriter.write(gadget.manufacturerWarranty + "\n");
+                bufferedWriter.write("по карте, через Р/С, наличными.\";" +
+                        gadget.manufacturerWarranty + "\n");
             }
         }
         for (CategoryTree child : children) {
@@ -161,27 +163,19 @@ public class CategoryTree {
     public void synchronizeWithPriceList() {
         for (CategoryTree child : children) {
             for (Gadget gadget : child.gadgets) {
-                if (gadget.namePrefix.equals("Смартфон") && gadget.model.contains("iPhone")) {
-                    String[] modelSplit = gadget.model.split(" ");
-                    String model = "Apple";
-                    String metaModel = "";
-                    for (int i = 0; i < modelSplit.length; i++) {
-                        model += " " + modelSplit[i];
-                        if (modelSplit[i].toLowerCase().contains("gb")) {
-                            int j = i - 1;
-                            metaModel = modelSplit[j];
-                            if (!modelSplit[j - 1].equals("iPhone")) {
-                                metaModel = (modelSplit[j - 1] + " ").concat(metaModel);
-                            }
-                            break;
-                        }
-                    }
-                    String submodel = modelSplit[modelSplit.length - 1];
-                    if (submodel.equals(Gadgets.mapGadgetModelSubmodelByModelLine.get("iPhone").get(metaModel).get(1))) {
+//                System.out.println(gadget.getPriceListName() + "$");
+                if (AvitoGadgets.inPriceList(gadget.getPriceListName())) {
+                    if (gadget.getSubModel().equals(GadgetConst.mapModelSubmodel
+                            .get(gadget.getPriceListModel()).get(1))) {
+                        gadget.price = AvitoGadgets.getPriceISPARK(gadget.getPriceListName(), 1) + "";
                         gadget.description = ("Тип товара: Ростест (RST)\n").concat(gadget.description);
                         gadget.manufacturerWarranty = true;
                     } else {
+                        gadget.price = AvitoGadgets.getPriceISPARK(gadget.getPriceListName(), 0) + "";
                         gadget.description = ("Тип товара: Евротест (EST)\n").concat(gadget.description);
+                        if (gadget.model.contains("Без Отп")) {
+                            gadget.description = ("TouchID (отпечаток пальца): не работает\n").concat(gadget.description);
+                        }
                         gadget.manufacturerWarranty = false;
                     }
 //                    gadget.imageUrl = gadget.getImageUrlByModel();

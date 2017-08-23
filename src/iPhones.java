@@ -21,18 +21,18 @@ public class iPhones {
             "7 Plus"));
 
     public final static ArrayList<Integer> gadgetPerMonthCount = new ArrayList<Integer>(Arrays.asList(
-            109,//4
-            199,//4s
-            211,//5
-            67,//5c
-            761,//5s
-            607,//6
-            67,//6+
-            311,//6s
-            71,//6s+
-            73,//se
-            307,//7
-            79));//7+
+            103,//4
+            158,//4s
+            173,//5
+            62,//5c
+            768,//5s
+            564,//6
+            65,//6+
+            289,//6s
+            48,//6s+
+            63,//se
+            277,//7
+            71));//7+
 
     public final static ArrayList<ArrayList<String>> subModels = new ArrayList<ArrayList<String>>() {
         {

@@ -14,10 +14,6 @@ public class Solution {
 
 //    public static int counter = 0;
 
-    private static AvitoGadgets iphonesAvito;
-    private static AvitoGadgets galaxysAvito;
-//    static YoulaGadgets iphonesYoula;
-
     public static Scanner getInputScanner(String fileName) {
         try {
             Scanner inScanner = new Scanner(new FileInputStream(new File("C:/EKZ/Input/" + fileName)));
@@ -256,24 +252,32 @@ public class Solution {
 //        Gadgets.initializeFromPriceList();
 //        AvitoGadgets.initializeExcludeAds();
 
-        iphonesAvito = new AvitoGadgets(Solution.getInputScanner("price_list_iphone.txt"));
-        iphonesAvito.initialize("Apple", "iPhone");
-        iphonesAvito.generateGadgets(0, new ArrayList<String>());
-        iphonesAvito.printWebsiteYML(Solution.getOutputWriter("Output/Website", "iphones.xml"));
-//        iphonesAvito.printWebsiteCSV(0, new ArrayList<String>());
-//        iphonesAvito.generateFolders();
-//        iphonesAvito.generateFilesAvibot();
+        /*avitoGadgets = new AvitoGadgets();
+        avitoGadgets.initialize("Apple", "iPhone");
+        avitoGadgets.generateGadgets(0, new ArrayList<String>());
+        avitoGadgets.printWebsiteYML(Solution.getOutputWriter("Output/Website", "iphones.xml"));
+//        avitoGadgets.printWebsiteCSV(0, new ArrayList<String>());
+//        avitoGadgets.generateFolders();
+//        avitoGadgets.generateFilesAvibot();
 
-        galaxysAvito = new AvitoGadgets(Solution.getInputScanner("price_list_galaxys.txt"));
+        galaxysAvito = new AvitoGadgets();
         galaxysAvito.initialize("Samsung", "Galaxy");
         galaxysAvito.generateGadgets(0, new ArrayList<String>());
         galaxysAvito.printWebsiteYML(Solution.getOutputWriter("Output/Website", "galaxys.xml"));
 //        galaxysAvito.generateGadgets(0, new ArrayList<String>());
-//        galaxysAvito.generateFolders();
+//        galaxysAvito.generateFolders();*/
+
+        AvitoGadgets avitoGadgets = new AvitoGadgets();
+        avitoGadgets.initialize();
+        avitoGadgets.generateGadgets(0, new ArrayList<String>());
+        avitoGadgets.printWebsiteYML(Solution.getOutputWriter("Output/Website", "iphones.xml"));
+        avitoGadgets.generateXML();
     }
 
 
     public static void main(String[] args) {
+        Gadgets.initializePrices(Solution.getInputScanner("price_list.txt"));
+
         try {
             computeAvito();
             computeCategoryTreeFromXML();
@@ -296,7 +300,7 @@ public class Solution {
 
         //Yandex-Market
 //        webSiteGadgets.printYMGadgets(getOutputWriter("Output", "yandex_market_items.csv"));
-////        iphonesAvito.generateGadgetFiles();
+////        avitoGadgets.generateGadgetFiles();
 ////        galaxys.generateGadgetFiles();
     }
 

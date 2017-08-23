@@ -1320,7 +1320,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 4 8Gb Black A1332</model>
 <vendor>Apple</vendor>
-<price>5990.0</price>
+<price>5490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 7
 экран 3.5", разрешение 960x640
@@ -1336,7 +1336,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 4 8Gb White A1332</model>
 <vendor>Apple</vendor>
-<price>5990.0</price>
+<price>5490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 7
 экран 3.5", разрешение 960x640
@@ -1352,7 +1352,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 4 16Gb Black A1332</model>
 <vendor>Apple</vendor>
-<price>6490.0</price>
+<price>5990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 7
 экран 3.5", разрешение 960x640
@@ -1368,7 +1368,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 4 16Gb White A1332</model>
 <vendor>Apple</vendor>
-<price>6490.0</price>
+<price>5990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 7
 экран 3.5", разрешение 960x640
@@ -1384,7 +1384,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 4 32Gb Black A1332</model>
 <vendor>Apple</vendor>
-<price>7490.0</price>
+<price>6990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 7
 экран 3.5", разрешение 960x640
@@ -1400,7 +1400,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 4 32Gb White A1332</model>
 <vendor>Apple</vendor>
-<price>7490.0</price>
+<price>6990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 7
 экран 3.5", разрешение 960x640
@@ -1448,7 +1448,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 4S 16Gb Black A1387</model>
 <vendor>Apple</vendor>
-<price>7490.0</price>
+<price>7990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 3.5", разрешение 960x640
@@ -1464,7 +1464,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 4S 16Gb White A1387</model>
 <vendor>Apple</vendor>
-<price>7490.0</price>
+<price>7990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 3.5", разрешение 960x640
@@ -1544,7 +1544,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5 16Gb Black A1428</model>
 <vendor>Apple</vendor>
-<price>10490.0</price>
+<price>10990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1561,7 +1561,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5 16Gb White A1428</model>
 <vendor>Apple</vendor>
-<price>10490.0</price>
+<price>10990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1578,7 +1578,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5 32Gb Black A1428</model>
 <vendor>Apple</vendor>
-<price>11490.0</price>
+<price>12490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1595,7 +1595,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5 32Gb White A1428</model>
 <vendor>Apple</vendor>
-<price>11490.0</price>
+<price>12490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1612,7 +1612,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5 64Gb Black A1428</model>
 <vendor>Apple</vendor>
-<price>12990.0</price>
+<price>13990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1629,7 +1629,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5 64Gb White A1428</model>
 <vendor>Apple</vendor>
-<price>12990.0</price>
+<price>13990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1646,7 +1646,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5C 16Gb White A1532</model>
 <vendor>Apple</vendor>
-<price>10490.0</price>
+<price>11490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1663,7 +1663,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5C 16Gb Blue A1532</model>
 <vendor>Apple</vendor>
-<price>10490.0</price>
+<price>11490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1680,7 +1680,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5C 16Gb Green A1532</model>
 <vendor>Apple</vendor>
-<price>10490.0</price>
+<price>11490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1697,7 +1697,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5C 16Gb Yellow A1532</model>
 <vendor>Apple</vendor>
-<price>10490.0</price>
+<price>11490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1714,7 +1714,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5C 16Gb Pink A1532</model>
 <vendor>Apple</vendor>
-<price>10490.0</price>
+<price>11490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1731,7 +1731,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5C 32Gb White A1532</model>
 <vendor>Apple</vendor>
-<price>11490.0</price>
+<price>12490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1748,7 +1748,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5C 32Gb Blue A1532</model>
 <vendor>Apple</vendor>
-<price>11490.0</price>
+<price>12490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1765,7 +1765,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5C 32Gb Green A1532</model>
 <vendor>Apple</vendor>
-<price>11490.0</price>
+<price>12490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1782,7 +1782,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5C 32Gb Yellow A1532</model>
 <vendor>Apple</vendor>
-<price>11490.0</price>
+<price>12490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1799,7 +1799,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5C 32Gb Pink A1532</model>
 <vendor>Apple</vendor>
-<price>11490.0</price>
+<price>12490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1816,7 +1816,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5C 8Gb White A1532</model>
 <vendor>Apple</vendor>
-<price>9990.0</price>
+<price>10490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1833,7 +1833,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5C 8Gb Blue A1532</model>
 <vendor>Apple</vendor>
-<price>9990.0</price>
+<price>10490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1850,7 +1850,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5C 8Gb Green A1532</model>
 <vendor>Apple</vendor>
-<price>9990.0</price>
+<price>10490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1867,7 +1867,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5C 8Gb Yellow A1532</model>
 <vendor>Apple</vendor>
-<price>9990.0</price>
+<price>10490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1884,7 +1884,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5C 8Gb Pink A1532</model>
 <vendor>Apple</vendor>
-<price>9990.0</price>
+<price>10490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 9
 экран 4", разрешение 1136x640
@@ -1901,7 +1901,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5S 16Gb Space Gray A1533</model>
 <vendor>Apple</vendor>
-<price>12490.0</price>
+<price>13990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -1918,8 +1918,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5S 16Gb Space Gray A1533 Без Отп</model>
 <vendor>Apple</vendor>
-<price>10990.0</price>
-<description>Тип товара: Евротест (EST)
+<price>11990.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
 камера 8 МП, автофокус, F/2.2
@@ -1952,7 +1953,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5S 16Gb Silver A1533</model>
 <vendor>Apple</vendor>
-<price>12490.0</price>
+<price>13990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -1969,8 +1970,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5S 16Gb Silver A1533 Без Отп</model>
 <vendor>Apple</vendor>
-<price>10990.0</price>
-<description>Тип товара: Евротест (EST)
+<price>11990.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
 камера 8 МП, автофокус, F/2.2
@@ -2003,7 +2005,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5S 16Gb Gold A1533</model>
 <vendor>Apple</vendor>
-<price>12490.0</price>
+<price>13990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -2020,8 +2022,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5S 16Gb Gold A1533 Без Отп</model>
 <vendor>Apple</vendor>
-<price>10990.0</price>
-<description>Тип товара: Евротест (EST)
+<price>11990.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
 камера 8 МП, автофокус, F/2.2
@@ -2054,7 +2057,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5S 32Gb Space Gray A1533</model>
 <vendor>Apple</vendor>
-<price>13490.0</price>
+<price>15990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -2071,8 +2074,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5S 32Gb Space Gray A1533 Без Отп</model>
 <vendor>Apple</vendor>
-<price>11990.0</price>
-<description>Тип товара: Евротест (EST)
+<price>13490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
 камера 8 МП, автофокус, F/2.2
@@ -2088,7 +2092,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5S 32Gb Silver A1533</model>
 <vendor>Apple</vendor>
-<price>13490.0</price>
+<price>15990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -2105,8 +2109,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5S 32Gb Silver A1533 Без Отп</model>
 <vendor>Apple</vendor>
-<price>11990.0</price>
-<description>Тип товара: Евротест (EST)
+<price>13490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
 камера 8 МП, автофокус, F/2.2
@@ -2122,7 +2127,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5S 32Gb Gold A1533</model>
 <vendor>Apple</vendor>
-<price>13490.0</price>
+<price>15990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -2139,8 +2144,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5S 32Gb Gold A1533 Без Отп</model>
 <vendor>Apple</vendor>
-<price>11990.0</price>
-<description>Тип товара: Евротест (EST)
+<price>13490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
 камера 8 МП, автофокус, F/2.2
@@ -2156,7 +2162,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5S 64Gb Space Gray A1533</model>
 <vendor>Apple</vendor>
-<price>14490.0</price>
+<price>17990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -2173,8 +2179,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5S 64Gb Space Gray A1533 Без Отп</model>
 <vendor>Apple</vendor>
-<price>13490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>14990.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
 камера 8 МП, автофокус, F/2.2
@@ -2190,7 +2197,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5S 64Gb Silver A1533</model>
 <vendor>Apple</vendor>
-<price>14490.0</price>
+<price>17990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -2207,8 +2214,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5S 64Gb Silver A1533 Без Отп</model>
 <vendor>Apple</vendor>
-<price>13490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>14990.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
 камера 8 МП, автофокус, F/2.2
@@ -2224,7 +2232,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5S 64Gb Gold A1533</model>
 <vendor>Apple</vendor>
-<price>14490.0</price>
+<price>17990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -2241,8 +2249,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 5S 64Gb Gold A1533 Без Отп</model>
 <vendor>Apple</vendor>
-<price>13490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>14990.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
 камера 8 МП, автофокус, F/2.2
@@ -2258,7 +2267,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 128Gb Space Gray A1549</model>
 <vendor>Apple</vendor>
-<price>23990.0</price>
+<price>27990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -2274,8 +2283,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 128Gb Space Gray A1549 Без Отп</model>
 <vendor>Apple</vendor>
-<price>19490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>23990.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 8 МП, автофокус, F/2.2
@@ -2290,7 +2300,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 128Gb Space Gray A1586</model>
 <vendor>Apple</vendor>
-<price>31990.0</price>
+<price>30990.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -2306,7 +2316,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 128Gb Silver A1549</model>
 <vendor>Apple</vendor>
-<price>23990.0</price>
+<price>27990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -2322,8 +2332,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 128Gb Silver A1549 Без Отп</model>
 <vendor>Apple</vendor>
-<price>19490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>23990.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 8 МП, автофокус, F/2.2
@@ -2338,7 +2349,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 128Gb Silver A1586</model>
 <vendor>Apple</vendor>
-<price>31990.0</price>
+<price>30990.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -2354,7 +2365,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 128Gb Gold A1549</model>
 <vendor>Apple</vendor>
-<price>23990.0</price>
+<price>27990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -2370,8 +2381,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 128Gb Gold A1549 Без Отп</model>
 <vendor>Apple</vendor>
-<price>19490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>23990.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 8 МП, автофокус, F/2.2
@@ -2386,7 +2398,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 128Gb Gold A1586</model>
 <vendor>Apple</vendor>
-<price>31990.0</price>
+<price>30990.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -2402,7 +2414,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 16Gb Space Gray A1549</model>
 <vendor>Apple</vendor>
-<price>18490.0</price>
+<price>20990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -2418,8 +2430,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 16Gb Space Gray A1549 Без Отп</model>
 <vendor>Apple</vendor>
-<price>14990.0</price>
-<description>Тип товара: Евротест (EST)
+<price>17990.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 8 МП, автофокус, F/2.2
@@ -2450,7 +2463,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 16Gb Silver A1549</model>
 <vendor>Apple</vendor>
-<price>18490.0</price>
+<price>20990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -2466,8 +2479,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 16Gb Silver A1549 Без Отп</model>
 <vendor>Apple</vendor>
-<price>14990.0</price>
-<description>Тип товара: Евротест (EST)
+<price>17990.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 8 МП, автофокус, F/2.2
@@ -2498,7 +2512,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 16Gb Gold A1549</model>
 <vendor>Apple</vendor>
-<price>18490.0</price>
+<price>20990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -2514,8 +2528,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 16Gb Gold A1549 Без Отп</model>
 <vendor>Apple</vendor>
-<price>14990.0</price>
-<description>Тип товара: Евротест (EST)
+<price>17990.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 8 МП, автофокус, F/2.2
@@ -2546,7 +2561,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 32Gb Space Gray A1586</model>
 <vendor>Apple</vendor>
-<price>23490.0</price>
+<price>24990.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -2562,7 +2577,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 32Gb Silver A1586</model>
 <vendor>Apple</vendor>
-<price>23490.0</price>
+<price>24990.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -2578,7 +2593,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 32Gb Gold A1586</model>
 <vendor>Apple</vendor>
-<price>23490.0</price>
+<price>24990.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -2594,7 +2609,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 64Gb Space Gray A1549</model>
 <vendor>Apple</vendor>
-<price>21990.0</price>
+<price>25990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -2610,8 +2625,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 64Gb Space Gray A1549 Без Отп</model>
 <vendor>Apple</vendor>
-<price>17490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>21490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 8 МП, автофокус, F/2.2
@@ -2626,7 +2642,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 64Gb Space Gray A1586</model>
 <vendor>Apple</vendor>
-<price>28990.0</price>
+<price>27990.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -2642,7 +2658,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 64Gb Silver A1549</model>
 <vendor>Apple</vendor>
-<price>21990.0</price>
+<price>25990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -2658,8 +2674,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 64Gb Silver A1549 Без Отп</model>
 <vendor>Apple</vendor>
-<price>17490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>21490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 8 МП, автофокус, F/2.2
@@ -2674,7 +2691,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 64Gb Silver A1586</model>
 <vendor>Apple</vendor>
-<price>28990.0</price>
+<price>27990.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -2690,7 +2707,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 64Gb Gold A1549</model>
 <vendor>Apple</vendor>
-<price>21990.0</price>
+<price>25990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -2706,8 +2723,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 64Gb Gold A1549 Без Отп</model>
 <vendor>Apple</vendor>
-<price>17490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>21490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 8 МП, автофокус, F/2.2
@@ -2722,7 +2740,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 64Gb Gold A1586</model>
 <vendor>Apple</vendor>
-<price>28990.0</price>
+<price>27990.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -2738,7 +2756,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 Plus 128Gb Space Gray A1522</model>
 <vendor>Apple</vendor>
-<price>27990.0</price>
+<price>34990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -2754,8 +2772,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 Plus 128Gb Space Gray A1522 Без Отп</model>
 <vendor>Apple</vendor>
-<price>22490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>28990.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
 камера 8 МП, автофокус, F/2.2
@@ -2786,7 +2805,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 Plus 128Gb Silver A1522</model>
 <vendor>Apple</vendor>
-<price>27990.0</price>
+<price>34990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -2802,8 +2821,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 Plus 128Gb Silver A1522 Без Отп</model>
 <vendor>Apple</vendor>
-<price>22490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>28990.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
 камера 8 МП, автофокус, F/2.2
@@ -2834,7 +2854,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 Plus 128Gb Gold A1522</model>
 <vendor>Apple</vendor>
-<price>27990.0</price>
+<price>34990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -2850,8 +2870,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 Plus 128Gb Gold A1522 Без Отп</model>
 <vendor>Apple</vendor>
-<price>22490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>28990.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
 камера 8 МП, автофокус, F/2.2
@@ -2882,7 +2903,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 Plus 16Gb Space Gray A1522</model>
 <vendor>Apple</vendor>
-<price>20990.0</price>
+<price>25990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -2898,8 +2919,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 Plus 16Gb Space Gray A1522 Без Отп</model>
 <vendor>Apple</vendor>
-<price>18490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>22490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
 камера 8 МП, автофокус, F/2.2
@@ -2930,7 +2952,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 Plus 16Gb Silver A1522</model>
 <vendor>Apple</vendor>
-<price>20990.0</price>
+<price>25990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -2946,8 +2968,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 Plus 16Gb Silver A1522 Без Отп</model>
 <vendor>Apple</vendor>
-<price>18490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>22490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
 камера 8 МП, автофокус, F/2.2
@@ -2978,7 +3001,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 Plus 16Gb Gold A1522</model>
 <vendor>Apple</vendor>
-<price>20990.0</price>
+<price>25990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -2994,8 +3017,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 Plus 16Gb Gold A1522 Без Отп</model>
 <vendor>Apple</vendor>
-<price>18490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>22490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
 камера 8 МП, автофокус, F/2.2
@@ -3026,7 +3050,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 Plus 64Gb Space Gray A1522</model>
 <vendor>Apple</vendor>
-<price>25990.0</price>
+<price>31490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -3042,8 +3066,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 Plus 64Gb Space Gray A1522 Без Отп</model>
 <vendor>Apple</vendor>
-<price>20990.0</price>
-<description>Тип товара: Евротест (EST)
+<price>26490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
 камера 8 МП, автофокус, F/2.2
@@ -3074,7 +3099,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 Plus 64Gb Silver A1522</model>
 <vendor>Apple</vendor>
-<price>25990.0</price>
+<price>31490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -3090,8 +3115,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 Plus 64Gb Silver A1522 Без Отп</model>
 <vendor>Apple</vendor>
-<price>20990.0</price>
-<description>Тип товара: Евротест (EST)
+<price>26490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
 камера 8 МП, автофокус, F/2.2
@@ -3122,7 +3148,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 Plus 64Gb Gold A1522</model>
 <vendor>Apple</vendor>
-<price>25990.0</price>
+<price>31490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -3138,8 +3164,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6 Plus 64Gb Gold A1522 Без Отп</model>
 <vendor>Apple</vendor>
-<price>20990.0</price>
-<description>Тип товара: Евротест (EST)
+<price>26490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
 камера 8 МП, автофокус, F/2.2
@@ -3170,7 +3197,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 128Gb Space Gray A1633</model>
 <vendor>Apple</vendor>
-<price>30990.0</price>
+<price>38490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -3185,8 +3212,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 128Gb Space Gray A1633 Без Отп</model>
 <vendor>Apple</vendor>
-<price>24990.0</price>
-<description>Тип товара: Евротест (EST)
+<price>32490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 12 МП, автофокус, F/2.2
@@ -3200,7 +3228,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 128Gb Space Gray A1688</model>
 <vendor>Apple</vendor>
-<price>42990.0</price>
+<price>42790.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -3215,7 +3243,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 128Gb Silver A1633</model>
 <vendor>Apple</vendor>
-<price>30990.0</price>
+<price>38490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -3230,8 +3258,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 128Gb Silver A1633 Без Отп</model>
 <vendor>Apple</vendor>
-<price>24990.0</price>
-<description>Тип товара: Евротест (EST)
+<price>32490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 12 МП, автофокус, F/2.2
@@ -3245,7 +3274,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 128Gb Silver A1688</model>
 <vendor>Apple</vendor>
-<price>42990.0</price>
+<price>42790.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -3260,7 +3289,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 128Gb Gold A1633</model>
 <vendor>Apple</vendor>
-<price>30990.0</price>
+<price>38490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -3275,8 +3304,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 128Gb Gold A1633 Без Отп</model>
 <vendor>Apple</vendor>
-<price>24990.0</price>
-<description>Тип товара: Евротест (EST)
+<price>32490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 12 МП, автофокус, F/2.2
@@ -3290,7 +3320,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 128Gb Gold A1688</model>
 <vendor>Apple</vendor>
-<price>42990.0</price>
+<price>42790.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -3305,7 +3335,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 128Gb Rose Gold A1633</model>
 <vendor>Apple</vendor>
-<price>30990.0</price>
+<price>38490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -3320,8 +3350,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 128Gb Rose Gold A1633 Без Отп</model>
 <vendor>Apple</vendor>
-<price>24990.0</price>
-<description>Тип товара: Евротест (EST)
+<price>32490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 12 МП, автофокус, F/2.2
@@ -3335,7 +3366,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 128Gb Rose Gold A1688</model>
 <vendor>Apple</vendor>
-<price>42990.0</price>
+<price>42790.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -3350,7 +3381,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 16Gb Space Gray A1633</model>
 <vendor>Apple</vendor>
-<price>22990.0</price>
+<price>28990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -3365,8 +3396,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 16Gb Space Gray A1633 Без Отп</model>
 <vendor>Apple</vendor>
-<price>19490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>24490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 12 МП, автофокус, F/2.2
@@ -3380,7 +3412,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 16Gb Space Gray A1688</model>
 <vendor>Apple</vendor>
-<price>31990.0</price>
+<price>32590.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -3395,7 +3427,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 16Gb Silver A1633</model>
 <vendor>Apple</vendor>
-<price>22990.0</price>
+<price>28990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -3410,8 +3442,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 16Gb Silver A1633 Без Отп</model>
 <vendor>Apple</vendor>
-<price>19490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>24490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 12 МП, автофокус, F/2.2
@@ -3425,7 +3458,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 16Gb Silver A1688</model>
 <vendor>Apple</vendor>
-<price>31990.0</price>
+<price>32590.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -3440,7 +3473,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 16Gb Gold A1633</model>
 <vendor>Apple</vendor>
-<price>22990.0</price>
+<price>28990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -3455,8 +3488,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 16Gb Gold A1633 Без Отп</model>
 <vendor>Apple</vendor>
-<price>19490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>24490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 12 МП, автофокус, F/2.2
@@ -3470,7 +3504,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 16Gb Gold A1688</model>
 <vendor>Apple</vendor>
-<price>31990.0</price>
+<price>32590.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -3485,7 +3519,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 16Gb Rose Gold A1633</model>
 <vendor>Apple</vendor>
-<price>22990.0</price>
+<price>28990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -3500,8 +3534,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 16Gb Rose Gold A1633 Без Отп</model>
 <vendor>Apple</vendor>
-<price>19490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>24490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 12 МП, автофокус, F/2.2
@@ -3515,7 +3550,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 16Gb Rose Gold A1688</model>
 <vendor>Apple</vendor>
-<price>31990.0</price>
+<price>32590.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -3590,7 +3625,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 64Gb Space Gray A1633</model>
 <vendor>Apple</vendor>
-<price>28990.0</price>
+<price>36490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -3605,8 +3640,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 64Gb Space Gray A1633 Без Отп</model>
 <vendor>Apple</vendor>
-<price>22990.0</price>
-<description>Тип товара: Евротест (EST)
+<price>30490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 12 МП, автофокус, F/2.2
@@ -3635,7 +3671,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 64Gb Silver A1633</model>
 <vendor>Apple</vendor>
-<price>28990.0</price>
+<price>36490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -3650,8 +3686,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 64Gb Silver A1633 Без Отп</model>
 <vendor>Apple</vendor>
-<price>22990.0</price>
-<description>Тип товара: Евротест (EST)
+<price>30490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 12 МП, автофокус, F/2.2
@@ -3680,7 +3717,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 64Gb Gold A1633</model>
 <vendor>Apple</vendor>
-<price>28990.0</price>
+<price>36490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -3695,8 +3732,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 64Gb Gold A1633 Без Отп</model>
 <vendor>Apple</vendor>
-<price>22990.0</price>
-<description>Тип товара: Евротест (EST)
+<price>30490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 12 МП, автофокус, F/2.2
@@ -3725,7 +3763,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 64Gb Rose Gold A1633</model>
 <vendor>Apple</vendor>
-<price>28990.0</price>
+<price>36490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -3740,8 +3778,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S 64Gb Rose Gold A1633 Без Отп</model>
 <vendor>Apple</vendor>
-<price>22990.0</price>
-<description>Тип товара: Евротест (EST)
+<price>30490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
 камера 12 МП, автофокус, F/2.2
@@ -3770,7 +3809,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 128Gb Space Gray A1634</model>
 <vendor>Apple</vendor>
-<price>33990.0</price>
+<price>40990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -3785,7 +3824,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 128Gb Space Gray A1687</model>
 <vendor>Apple</vendor>
-<price>45990.0</price>
+<price>45890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -3800,7 +3839,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 128Gb Silver A1634</model>
 <vendor>Apple</vendor>
-<price>33990.0</price>
+<price>40990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -3815,7 +3854,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 128Gb Silver A1687</model>
 <vendor>Apple</vendor>
-<price>45990.0</price>
+<price>45890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -3830,7 +3869,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 128Gb Gold A1634</model>
 <vendor>Apple</vendor>
-<price>33990.0</price>
+<price>40990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -3845,7 +3884,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 128Gb Gold A1687</model>
 <vendor>Apple</vendor>
-<price>45990.0</price>
+<price>45890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -3860,7 +3899,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 128Gb Rose Gold A1634</model>
 <vendor>Apple</vendor>
-<price>33990.0</price>
+<price>40990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -3875,7 +3914,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 128Gb Rose Gold A1687</model>
 <vendor>Apple</vendor>
-<price>45990.0</price>
+<price>45890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -3890,7 +3929,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 16Gb Space Gray A1634</model>
 <vendor>Apple</vendor>
-<price>26490.0</price>
+<price>31990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -3905,8 +3944,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 16Gb Space Gray A1634 Без Отп</model>
 <vendor>Apple</vendor>
-<price>22490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>27490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
 камера 12 МП, автофокус, F/2.2
@@ -3920,7 +3960,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 16Gb Space Gray A1687</model>
 <vendor>Apple</vendor>
-<price>35490.0</price>
+<price>35390.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -3935,7 +3975,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 16Gb Silver A1634</model>
 <vendor>Apple</vendor>
-<price>26490.0</price>
+<price>31990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -3950,8 +3990,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 16Gb Silver A1634 Без Отп</model>
 <vendor>Apple</vendor>
-<price>22490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>27490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
 камера 12 МП, автофокус, F/2.2
@@ -3965,7 +4006,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 16Gb Silver A1687</model>
 <vendor>Apple</vendor>
-<price>35490.0</price>
+<price>35390.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -3980,7 +4021,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 16Gb Gold A1634</model>
 <vendor>Apple</vendor>
-<price>26490.0</price>
+<price>31990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -3995,8 +4036,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 16Gb Gold A1634 Без Отп</model>
 <vendor>Apple</vendor>
-<price>22490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>27490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
 камера 12 МП, автофокус, F/2.2
@@ -4010,7 +4052,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 16Gb Gold A1687</model>
 <vendor>Apple</vendor>
-<price>35490.0</price>
+<price>35390.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -4025,7 +4067,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 16Gb Rose Gold A1634</model>
 <vendor>Apple</vendor>
-<price>26490.0</price>
+<price>31990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -4040,8 +4082,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 16Gb Rose Gold A1634 Без Отп</model>
 <vendor>Apple</vendor>
-<price>22490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>27490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
 камера 12 МП, автофокус, F/2.2
@@ -4055,7 +4098,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 16Gb Rose Gold A1687</model>
 <vendor>Apple</vendor>
-<price>35490.0</price>
+<price>35390.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -4130,7 +4173,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 64Gb Space Gray A1634</model>
 <vendor>Apple</vendor>
-<price>32490.0</price>
+<price>39490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -4145,8 +4188,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 64Gb Space Gray A1634 Без Отп</model>
 <vendor>Apple</vendor>
-<price>26490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>33490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
 камера 12 МП, автофокус, F/2.2
@@ -4175,7 +4219,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 64Gb Silver A1634</model>
 <vendor>Apple</vendor>
-<price>32490.0</price>
+<price>39490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -4190,8 +4234,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 64Gb Silver A1634 Без Отп</model>
 <vendor>Apple</vendor>
-<price>26490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>33490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
 камера 12 МП, автофокус, F/2.2
@@ -4220,7 +4265,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 64Gb Gold A1634</model>
 <vendor>Apple</vendor>
-<price>32490.0</price>
+<price>39490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -4235,8 +4280,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 64Gb Gold A1634 Без Отп</model>
 <vendor>Apple</vendor>
-<price>26490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>33490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
 камера 12 МП, автофокус, F/2.2
@@ -4265,7 +4311,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 64Gb Rose Gold A1634</model>
 <vendor>Apple</vendor>
-<price>32490.0</price>
+<price>39490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -4280,8 +4326,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 6S Plus 64Gb Rose Gold A1634 Без Отп</model>
 <vendor>Apple</vendor>
-<price>26490.0</price>
-<description>Тип товара: Евротест (EST)
+<price>33490.0</price>
+<description>TouchID (отпечаток пальца): не работает
+Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
 камера 12 МП, автофокус, F/2.2
@@ -4310,7 +4357,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 128Gb Black A1660</model>
 <vendor>Apple</vendor>
-<price>41990.0</price>
+<price>45490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4327,7 +4374,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 128Gb Black A1778</model>
 <vendor>Apple</vendor>
-<price>46990.0</price>
+<price>47490.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4344,7 +4391,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 128Gb Silver A1660</model>
 <vendor>Apple</vendor>
-<price>41990.0</price>
+<price>45490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4361,7 +4408,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 128Gb Silver A1778</model>
 <vendor>Apple</vendor>
-<price>46990.0</price>
+<price>47490.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4378,7 +4425,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 128Gb Jet Black A1660</model>
 <vendor>Apple</vendor>
-<price>41990.0</price>
+<price>45490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4395,7 +4442,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 128Gb Jet Black A1778</model>
 <vendor>Apple</vendor>
-<price>46990.0</price>
+<price>47490.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4412,7 +4459,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 128Gb Gold A1660</model>
 <vendor>Apple</vendor>
-<price>41990.0</price>
+<price>45490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4429,7 +4476,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 128Gb Gold A1778</model>
 <vendor>Apple</vendor>
-<price>46990.0</price>
+<price>47490.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4446,7 +4493,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 128Gb Rose Gold A1660</model>
 <vendor>Apple</vendor>
-<price>41990.0</price>
+<price>45490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4463,7 +4510,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 128Gb Rose Gold A1778</model>
 <vendor>Apple</vendor>
-<price>46990.0</price>
+<price>47490.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4480,7 +4527,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 128Gb (PRODUCT)RED A1660</model>
 <vendor>Apple</vendor>
-<price>46490.0</price>
+<price>45490.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4497,7 +4544,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 128Gb (PRODUCT)RED A1778</model>
 <vendor>Apple</vendor>
-<price>51990.0</price>
+<price>47490.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4514,7 +4561,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 256Gb Black A1660</model>
 <vendor>Apple</vendor>
-<price>43990.0</price>
+<price>48990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4548,7 +4595,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 256Gb Silver A1660</model>
 <vendor>Apple</vendor>
-<price>43990.0</price>
+<price>48990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4582,7 +4629,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 256Gb Jet Black A1660</model>
 <vendor>Apple</vendor>
-<price>43990.0</price>
+<price>48990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4616,7 +4663,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 256Gb Gold A1660</model>
 <vendor>Apple</vendor>
-<price>43990.0</price>
+<price>48990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4650,7 +4697,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 256Gb Rose Gold A1660</model>
 <vendor>Apple</vendor>
-<price>43990.0</price>
+<price>48990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4684,7 +4731,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 256Gb (PRODUCT)RED A1660</model>
 <vendor>Apple</vendor>
-<price>48490.0</price>
+<price>48990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4701,7 +4748,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 256Gb (PRODUCT)RED A1778</model>
 <vendor>Apple</vendor>
-<price>56990.0</price>
+<price>51490.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4718,7 +4765,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 32Gb Black A1660</model>
 <vendor>Apple</vendor>
-<price>37490.0</price>
+<price>39990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4735,7 +4782,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 32Gb Black A1778</model>
 <vendor>Apple</vendor>
-<price>41990.0</price>
+<price>41890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4752,7 +4799,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 32Gb Silver A1660</model>
 <vendor>Apple</vendor>
-<price>37490.0</price>
+<price>39990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4769,7 +4816,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 32Gb Silver A1778</model>
 <vendor>Apple</vendor>
-<price>41990.0</price>
+<price>41890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4786,7 +4833,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 32Gb Gold A1660</model>
 <vendor>Apple</vendor>
-<price>37490.0</price>
+<price>39990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4803,7 +4850,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 32Gb Gold A1778</model>
 <vendor>Apple</vendor>
-<price>41990.0</price>
+<price>41890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4820,7 +4867,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 32Gb Rose Gold A1660</model>
 <vendor>Apple</vendor>
-<price>37490.0</price>
+<price>39990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4837,7 +4884,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 32Gb Rose Gold A1778</model>
 <vendor>Apple</vendor>
-<price>41990.0</price>
+<price>41890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4.7", разрешение 1334x750
@@ -4854,7 +4901,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 128Gb Black A1661</model>
 <vendor>Apple</vendor>
-<price>53990.0</price>
+<price>55990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -4869,7 +4916,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 128Gb Black A1784</model>
 <vendor>Apple</vendor>
-<price>56490.0</price>
+<price>56590.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -4884,7 +4931,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 128Gb Silver A1661</model>
 <vendor>Apple</vendor>
-<price>53990.0</price>
+<price>55990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -4899,7 +4946,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 128Gb Silver A1784</model>
 <vendor>Apple</vendor>
-<price>56490.0</price>
+<price>56590.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -4914,7 +4961,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 128Gb Jet Black A1661</model>
 <vendor>Apple</vendor>
-<price>53990.0</price>
+<price>55990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -4929,7 +4976,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 128Gb Jet Black A1784</model>
 <vendor>Apple</vendor>
-<price>56490.0</price>
+<price>56590.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -4944,7 +4991,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 128Gb Gold A1661</model>
 <vendor>Apple</vendor>
-<price>53990.0</price>
+<price>55990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -4959,7 +5006,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 128Gb Gold A1784</model>
 <vendor>Apple</vendor>
-<price>56490.0</price>
+<price>56590.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -4974,7 +5021,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 128Gb Rose Gold A1661</model>
 <vendor>Apple</vendor>
-<price>53990.0</price>
+<price>55990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -4989,7 +5036,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 128Gb Rose Gold A1784</model>
 <vendor>Apple</vendor>
-<price>56490.0</price>
+<price>56590.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5004,7 +5051,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 128Gb (PRODUCT)RED A1661</model>
 <vendor>Apple</vendor>
-<price>59490.0</price>
+<price>55990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5019,7 +5066,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 128Gb (PRODUCT)RED A1784</model>
 <vendor>Apple</vendor>
-<price>62490.0</price>
+<price>56590.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5034,7 +5081,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 256Gb Black A1661</model>
 <vendor>Apple</vendor>
-<price>55990.0</price>
+<price>58990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5049,7 +5096,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 256Gb Black A1784</model>
 <vendor>Apple</vendor>
-<price>60990.0</price>
+<price>60890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5064,7 +5111,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 256Gb Silver A1661</model>
 <vendor>Apple</vendor>
-<price>55990.0</price>
+<price>58990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5079,7 +5126,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 256Gb Silver A1784</model>
 <vendor>Apple</vendor>
-<price>60990.0</price>
+<price>60890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5094,7 +5141,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 256Gb Jet Black A1661</model>
 <vendor>Apple</vendor>
-<price>55990.0</price>
+<price>58990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5109,7 +5156,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 256Gb Jet Black A1784</model>
 <vendor>Apple</vendor>
-<price>60990.0</price>
+<price>60890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5124,7 +5171,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 256Gb Gold A1661</model>
 <vendor>Apple</vendor>
-<price>55990.0</price>
+<price>58990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5139,7 +5186,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 256Gb Gold A1784</model>
 <vendor>Apple</vendor>
-<price>60990.0</price>
+<price>60890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5154,7 +5201,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 256Gb Rose Gold A1661</model>
 <vendor>Apple</vendor>
-<price>55990.0</price>
+<price>58990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5169,7 +5216,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 256Gb Rose Gold A1784</model>
 <vendor>Apple</vendor>
-<price>60990.0</price>
+<price>60890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5184,7 +5231,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 256Gb (PRODUCT)RED A1661</model>
 <vendor>Apple</vendor>
-<price>61990.0</price>
+<price>58990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5199,7 +5246,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 256Gb (PRODUCT)RED A1784</model>
 <vendor>Apple</vendor>
-<price>67490.0</price>
+<price>60890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5214,7 +5261,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 32Gb Black A1661</model>
 <vendor>Apple</vendor>
-<price>45990.0</price>
+<price>47990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5229,7 +5276,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 32Gb Black A1784</model>
 <vendor>Apple</vendor>
-<price>48990.0</price>
+<price>49290.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5244,7 +5291,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 32Gb Silver A1661</model>
 <vendor>Apple</vendor>
-<price>45990.0</price>
+<price>47990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5259,7 +5306,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 32Gb Silver A1784</model>
 <vendor>Apple</vendor>
-<price>48990.0</price>
+<price>49290.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5274,7 +5321,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 32Gb Gold A1661</model>
 <vendor>Apple</vendor>
-<price>45990.0</price>
+<price>47990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5289,7 +5336,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 32Gb Gold A1784</model>
 <vendor>Apple</vendor>
-<price>48990.0</price>
+<price>49290.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5304,7 +5351,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 32Gb Rose Gold A1661</model>
 <vendor>Apple</vendor>
-<price>45990.0</price>
+<price>47990.0</price>
 <description>Тип товара: Евротест (EST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5319,7 +5366,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone 7 Plus 32Gb Rose Gold A1784</model>
 <vendor>Apple</vendor>
-<price>48990.0</price>
+<price>49290.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 5.5", разрешение 1920x1080
@@ -5402,7 +5449,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone SE 16Gb Space Gray A1723</model>
 <vendor>Apple</vendor>
-<price>18990.0</price>
+<price>18890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -5419,7 +5466,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone SE 16Gb Silver A1723</model>
 <vendor>Apple</vendor>
-<price>18990.0</price>
+<price>18890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -5436,7 +5483,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone SE 16Gb Gold A1723</model>
 <vendor>Apple</vendor>
-<price>18990.0</price>
+<price>18890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -5453,7 +5500,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone SE 16Gb Rose Gold A1723</model>
 <vendor>Apple</vendor>
-<price>18990.0</price>
+<price>18890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -5470,7 +5517,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone SE 32Gb Space Gray A1723</model>
 <vendor>Apple</vendor>
-<price>19990.0</price>
+<price>19890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -5487,7 +5534,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone SE 32Gb Silver A1723</model>
 <vendor>Apple</vendor>
-<price>19990.0</price>
+<price>19890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -5504,7 +5551,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone SE 32Gb Gold A1723</model>
 <vendor>Apple</vendor>
-<price>19990.0</price>
+<price>19890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -5521,7 +5568,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone SE 32Gb Rose Gold A1723</model>
 <vendor>Apple</vendor>
-<price>19990.0</price>
+<price>19890.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -5538,7 +5585,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone SE 64Gb Space Gray A1723</model>
 <vendor>Apple</vendor>
-<price>23990.0</price>
+<price>26990.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -5555,7 +5602,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone SE 64Gb Silver A1723</model>
 <vendor>Apple</vendor>
-<price>23990.0</price>
+<price>26990.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -5572,7 +5619,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone SE 64Gb Gold A1723</model>
 <vendor>Apple</vendor>
-<price>23990.0</price>
+<price>26990.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -5589,7 +5636,7 @@
 <typePrefix>Смартфон</typePrefix>
 <model>iPhone SE 64Gb Rose Gold A1723</model>
 <vendor>Apple</vendor>
-<price>23990.0</price>
+<price>26990.0</price>
 <description>Тип товара: Ростест (RST)
 ﻿смартфон, iOS 10
 экран 4", разрешение 1136x640
@@ -5606,8 +5653,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy Grand Prime 8Gb Gray SM-G531</model>
 <vendor>Samsung</vendor>
-<price>7490.0</price>
-<description>﻿смартфон, Android 5.1
+<price>6990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5", разрешение 960x540
 камера 8 МП
@@ -5624,8 +5672,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy Grand Prime 8Gb White SM-G531</model>
 <vendor>Samsung</vendor>
-<price>7490.0</price>
-<description>﻿смартфон, Android 5.1
+<price>6990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5", разрешение 960x540
 камера 8 МП
@@ -5643,7 +5692,8 @@
 <model>Galaxy Core Prime 8Gb Gray SM-G360</model>
 <vendor>Samsung</vendor>
 <price>8490.0</price>
-<description>﻿смартфон на платформе Android
+<description>Тип товара: Евротест (EST)
+﻿смартфон на платформе Android
 экран 4.5", разрешение 800x480
 камера 5 МП
 слот для карты памяти
@@ -5660,7 +5710,8 @@
 <model>Galaxy Core Prime 8Gb White SM-G360</model>
 <vendor>Samsung</vendor>
 <price>8490.0</price>
-<description>﻿смартфон на платформе Android
+<description>Тип товара: Евротест (EST)
+﻿смартфон на платформе Android
 экран 4.5", разрешение 800x480
 камера 5 МП
 слот для карты памяти
@@ -5676,8 +5727,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy Alpha 32Gb Gray SM-G850</model>
 <vendor>Samsung</vendor>
-<price>10990.0</price>
-<description>﻿смартфон, Android 4.4
+<price>11990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.4
 экран 4.7", разрешение 1280x720
 камера 12 МП, автофокус
 память 32 Гб, без слота для карт памяти
@@ -5693,8 +5745,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy Alpha 32Gb White SM-G850</model>
 <vendor>Samsung</vendor>
-<price>10990.0</price>
-<description>﻿смартфон, Android 4.4
+<price>11990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.4
 экран 4.7", разрешение 1280x720
 камера 12 МП, автофокус
 память 32 Гб, без слота для карт памяти
@@ -5710,8 +5763,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy Alpha 32Gb Gold SM-G850</model>
 <vendor>Samsung</vendor>
-<price>10990.0</price>
-<description>﻿смартфон, Android 4.4
+<price>11990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.4
 экран 4.7", разрешение 1280x720
 камера 12 МП, автофокус
 память 32 Гб, без слота для карт памяти
@@ -5727,8 +5781,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy Alpha 32Gb Silver SM-G850</model>
 <vendor>Samsung</vendor>
-<price>10990.0</price>
-<description>﻿смартфон, Android 4.4
+<price>11990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.4
 экран 4.7", разрешение 1280x720
 камера 12 МП, автофокус
 память 32 Гб, без слота для карт памяти
@@ -5745,7 +5800,8 @@
 <model>Galaxy S3 16Gb Black GT-I9300</model>
 <vendor>Samsung</vendor>
 <price>6990.0</price>
-<description>﻿смартфон, Android 4.3
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.3
 экран 4.8", разрешение 1280x720
 камера 8 МП, автофокус
 память 16 Гб, слот для карты памяти
@@ -5762,7 +5818,8 @@
 <model>Galaxy S3 16Gb White GT-I9300</model>
 <vendor>Samsung</vendor>
 <price>6990.0</price>
-<description>﻿смартфон, Android 4.3
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.3
 экран 4.8", разрешение 1280x720
 камера 8 МП, автофокус
 память 16 Гб, слот для карты памяти
@@ -5779,7 +5836,8 @@
 <model>Galaxy S3 16Gb Blue GT-I9300</model>
 <vendor>Samsung</vendor>
 <price>6990.0</price>
-<description>﻿смартфон, Android 4.3
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.3
 экран 4.8", разрешение 1280x720
 камера 8 МП, автофокус
 память 16 Гб, слот для карты памяти
@@ -5796,7 +5854,8 @@
 <model>Galaxy S3 Mini 16Gb Black GT-I8190</model>
 <vendor>Samsung</vendor>
 <price>5990.0</price>
-<description>﻿смартфон, Android 4.1
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.1
 экран 4", разрешение 800x480
 камера 5 МП, автофокус
 память 8 Гб, слот для карты памяти
@@ -5813,7 +5872,8 @@
 <model>Galaxy S3 Mini 16Gb White GT-I8190</model>
 <vendor>Samsung</vendor>
 <price>5990.0</price>
-<description>﻿смартфон, Android 4.1
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.1
 экран 4", разрешение 800x480
 камера 5 МП, автофокус
 память 8 Гб, слот для карты памяти
@@ -5829,8 +5889,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S4 16Gb Black GT-I9500</model>
 <vendor>Samsung</vendor>
-<price>9490.0</price>
-<description>﻿смартфон, Android 4.4
+<price>9990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.4
 экран 5", разрешение 1920x1080
 камера 13 МП, автофокус
 память 16 Гб, слот для карты памяти
@@ -5846,8 +5907,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S4 16Gb White GT-I9500</model>
 <vendor>Samsung</vendor>
-<price>9490.0</price>
-<description>﻿смартфон, Android 4.4
+<price>9990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.4
 экран 5", разрешение 1920x1080
 камера 13 МП, автофокус
 память 16 Гб, слот для карты памяти
@@ -5863,8 +5925,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S4 16Gb Blue GT-I9500</model>
 <vendor>Samsung</vendor>
-<price>9490.0</price>
-<description>﻿смартфон, Android 4.4
+<price>9990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.4
 экран 5", разрешение 1920x1080
 камера 13 МП, автофокус
 память 16 Гб, слот для карты памяти
@@ -5881,7 +5944,8 @@
 <model>Galaxy S4 Mini 16Gb Black GT-I9192</model>
 <vendor>Samsung</vendor>
 <price>8990.0</price>
-<description>﻿смартфон, Android 4.2
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.2
 экран 4.27", разрешение 960x540
 камера 8 МП, автофокус
 память 8 Гб, слот для карты памяти
@@ -5898,7 +5962,8 @@
 <model>Galaxy S4 Mini 16Gb White GT-I9192</model>
 <vendor>Samsung</vendor>
 <price>8990.0</price>
-<description>﻿смартфон, Android 4.2
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.2
 экран 4.27", разрешение 960x540
 камера 8 МП, автофокус
 память 8 Гб, слот для карты памяти
@@ -5914,8 +5979,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S5 16Gb Black SM-G900</model>
 <vendor>Samsung</vendor>
-<price>11990.0</price>
-<description>﻿смартфон, Android 6.0
+<price>12990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 6.0
 экран 5.1", разрешение 1920x1080
 камера 16 МП, автофокус
 память 16 Гб, слот для карты памяти
@@ -5931,8 +5997,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S5 16Gb White SM-G900</model>
 <vendor>Samsung</vendor>
-<price>11990.0</price>
-<description>﻿смартфон, Android 6.0
+<price>12990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 6.0
 экран 5.1", разрешение 1920x1080
 камера 16 МП, автофокус
 память 16 Гб, слот для карты памяти
@@ -5948,8 +6015,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S5 16Gb Gold SM-G900</model>
 <vendor>Samsung</vendor>
-<price>11990.0</price>
-<description>﻿смартфон, Android 6.0
+<price>12990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 6.0
 экран 5.1", разрешение 1920x1080
 камера 16 МП, автофокус
 память 16 Гб, слот для карты памяти
@@ -5965,8 +6033,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S5 16Gb Blue SM-G900</model>
 <vendor>Samsung</vendor>
-<price>11990.0</price>
-<description>﻿смартфон, Android 6.0
+<price>12990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 6.0
 экран 5.1", разрешение 1920x1080
 камера 16 МП, автофокус
 память 16 Гб, слот для карты памяти
@@ -5982,8 +6051,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S5 Mini 16Gb Black SM-G800</model>
 <vendor>Samsung</vendor>
-<price>12490.0</price>
-<description>﻿смартфон, Android 4.4
+<price>13990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.4
 экран 4.5", разрешение 1280x720
 камера 8 МП, автофокус
 память 16 Гб, слот для карты памяти
@@ -5999,8 +6069,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S5 Mini 16Gb White SM-G800</model>
 <vendor>Samsung</vendor>
-<price>12490.0</price>
-<description>﻿смартфон, Android 4.4
+<price>13990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.4
 экран 4.5", разрешение 1280x720
 камера 8 МП, автофокус
 память 16 Гб, слот для карты памяти
@@ -6016,8 +6087,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S6 32Gb Black Sapphire SM-G920</model>
 <vendor>Samsung</vendor>
-<price>14990.0</price>
-<description>﻿смартфон, Android 6.0
+<price>20990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 6.0
 экран 5.1", разрешение 2560x1440
 камера 16 МП, автофокус
 память 32 Гб, без слота для карт памяти
@@ -6033,8 +6105,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S6 32Gb White Pearl SM-G920</model>
 <vendor>Samsung</vendor>
-<price>14990.0</price>
-<description>﻿смартфон, Android 6.0
+<price>20990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 6.0
 экран 5.1", разрешение 2560x1440
 камера 16 МП, автофокус
 память 32 Гб, без слота для карт памяти
@@ -6050,8 +6123,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S6 32Gb Gold Platinum SM-G920</model>
 <vendor>Samsung</vendor>
-<price>14990.0</price>
-<description>﻿смартфон, Android 6.0
+<price>20990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 6.0
 экран 5.1", разрешение 2560x1440
 камера 16 МП, автофокус
 память 32 Гб, без слота для карт памяти
@@ -6067,8 +6141,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S6 32Gb Blue Topaz SM-G920</model>
 <vendor>Samsung</vendor>
-<price>14990.0</price>
-<description>﻿смартфон, Android 6.0
+<price>20990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 6.0
 экран 5.1", разрешение 2560x1440
 камера 16 МП, автофокус
 память 32 Гб, без слота для карт памяти
@@ -6084,8 +6159,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S6 Edge 32Gb Black Sapphire SM-G925</model>
 <vendor>Samsung</vendor>
-<price>19990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>23990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 экран 5.1", разрешение 2560x1440
 камера 16 МП, автофокус
 память 32 Гб, без слота для карт памяти
@@ -6101,8 +6177,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S6 Edge 32Gb White Pearl SM-G925</model>
 <vendor>Samsung</vendor>
-<price>19990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>23990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 экран 5.1", разрешение 2560x1440
 камера 16 МП, автофокус
 память 32 Гб, без слота для карт памяти
@@ -6118,8 +6195,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S6 Edge 32Gb Gold Platinum SM-G925</model>
 <vendor>Samsung</vendor>
-<price>19990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>23990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 экран 5.1", разрешение 2560x1440
 камера 16 МП, автофокус
 память 32 Гб, без слота для карт памяти
@@ -6135,8 +6213,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S6 Edge 32Gb Green Emerald SM-G925</model>
 <vendor>Samsung</vendor>
-<price>19990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>23990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 экран 5.1", разрешение 2560x1440
 камера 16 МП, автофокус
 память 32 Гб, без слота для карт памяти
@@ -6152,8 +6231,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S6 Edge Plus 32Gb White Pearl SM-G928</model>
 <vendor>Samsung</vendor>
-<price>25990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>32490.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 экран 5.7", разрешение 2560x1440
 камера 16 МП, автофокус, F/1.9
 память 32 Гб, без слота для карт памяти
@@ -6169,8 +6249,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S6 Edge Plus 32Gb Gold Platinum SM-G928</model>
 <vendor>Samsung</vendor>
-<price>25990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>32490.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 экран 5.7", разрешение 2560x1440
 камера 16 МП, автофокус, F/1.9
 память 32 Гб, без слота для карт памяти
@@ -6186,8 +6267,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S6 Edge Plus 32Gb Black Sapphire SM-G928</model>
 <vendor>Samsung</vendor>
-<price>25990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>32490.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 экран 5.7", разрешение 2560x1440
 камера 16 МП, автофокус, F/1.9
 память 32 Гб, без слота для карт памяти
@@ -6203,8 +6285,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S7 32Gb Black Onyx SM-G930</model>
 <vendor>Samsung</vendor>
-<price>20990.0</price>
-<description>﻿смартфон, Android 7.0
+<price>26990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 7.0
 экран 5.1", разрешение 2560x1440
 камера 12 МП, автофокус, F/1.7
 память 32 Гб, слот для карты памяти
@@ -6220,8 +6303,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S7 32Gb Silver Titanium SM-G930</model>
 <vendor>Samsung</vendor>
-<price>20990.0</price>
-<description>﻿смартфон, Android 7.0
+<price>26990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 7.0
 экран 5.1", разрешение 2560x1440
 камера 12 МП, автофокус, F/1.7
 память 32 Гб, слот для карты памяти
@@ -6237,8 +6321,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S7 32Gb Gold Platinum SM-G930</model>
 <vendor>Samsung</vendor>
-<price>20990.0</price>
-<description>﻿смартфон, Android 7.0
+<price>26990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 7.0
 экран 5.1", разрешение 2560x1440
 камера 12 МП, автофокус, F/1.7
 память 32 Гб, слот для карты памяти
@@ -6254,8 +6339,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S7 32Gb Black Onyx SM-G930F</model>
 <vendor>Samsung</vendor>
-<price>32990.0</price>
-<description>﻿смартфон, Android 7.0
+<price>30490.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 7.0
 экран 5.1", разрешение 2560x1440
 камера 12 МП, автофокус, F/1.7
 память 32 Гб, слот для карты памяти
@@ -6271,8 +6357,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S7 32Gb Silver Titanium SM-G930F</model>
 <vendor>Samsung</vendor>
-<price>32990.0</price>
-<description>﻿смартфон, Android 7.0
+<price>30490.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 7.0
 экран 5.1", разрешение 2560x1440
 камера 12 МП, автофокус, F/1.7
 память 32 Гб, слот для карты памяти
@@ -6288,8 +6375,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S7 32Gb Gold Platinum SM-G930F</model>
 <vendor>Samsung</vendor>
-<price>32990.0</price>
-<description>﻿смартфон, Android 7.0
+<price>30490.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 7.0
 экран 5.1", разрешение 2560x1440
 камера 12 МП, автофокус, F/1.7
 память 32 Гб, слот для карты памяти
@@ -6305,8 +6393,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S7 Edge 32Gb Black Onyx SM-G935</model>
 <vendor>Samsung</vendor>
-<price>26990.0</price>
-<description>﻿смартфон, Android 6.0
+<price>29990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 6.0
 экран 5.5", разрешение 2560x1440
 камера 12 МП, автофокус, F/1.7
 память 32 Гб, слот для карты памяти
@@ -6322,8 +6411,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S7 Edge 32Gb Silver Titanium SM-G935</model>
 <vendor>Samsung</vendor>
-<price>26990.0</price>
-<description>﻿смартфон, Android 6.0
+<price>29990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 6.0
 экран 5.5", разрешение 2560x1440
 камера 12 МП, автофокус, F/1.7
 память 32 Гб, слот для карты памяти
@@ -6339,8 +6429,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S7 Edge 32Gb Gold Platinum SM-G935</model>
 <vendor>Samsung</vendor>
-<price>26990.0</price>
-<description>﻿смартфон, Android 6.0
+<price>29990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 6.0
 экран 5.5", разрешение 2560x1440
 камера 12 МП, автофокус, F/1.7
 память 32 Гб, слот для карты памяти
@@ -6356,8 +6447,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S7 Edge 32Gb Smoke Sapphire SM-G935</model>
 <vendor>Samsung</vendor>
-<price>26990.0</price>
-<description>﻿смартфон, Android 6.0
+<price>29990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 6.0
 экран 5.5", разрешение 2560x1440
 камера 12 МП, автофокус, F/1.7
 память 32 Гб, слот для карты памяти
@@ -6373,8 +6465,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S7 Edge 32Gb Black Onyx SM-G935F</model>
 <vendor>Samsung</vendor>
-<price>34990.0</price>
-<description>﻿смартфон, Android 6.0
+<price>32490.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 6.0
 экран 5.5", разрешение 2560x1440
 камера 12 МП, автофокус, F/1.7
 память 32 Гб, слот для карты памяти
@@ -6390,8 +6483,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S7 Edge 32Gb Silver Titanium SM-G935F</model>
 <vendor>Samsung</vendor>
-<price>34990.0</price>
-<description>﻿смартфон, Android 6.0
+<price>32490.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 6.0
 экран 5.5", разрешение 2560x1440
 камера 12 МП, автофокус, F/1.7
 память 32 Гб, слот для карты памяти
@@ -6407,8 +6501,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S7 Edge 32Gb Gold Platinum SM-G935F</model>
 <vendor>Samsung</vendor>
-<price>34990.0</price>
-<description>﻿смартфон, Android 6.0
+<price>32490.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 6.0
 экран 5.5", разрешение 2560x1440
 камера 12 МП, автофокус, F/1.7
 память 32 Гб, слот для карты памяти
@@ -6424,8 +6519,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S7 Edge 32Gb Smoke Sapphire SM-G935F</model>
 <vendor>Samsung</vendor>
-<price>34990.0</price>
-<description>﻿смартфон, Android 6.0
+<price>32490.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 6.0
 экран 5.5", разрешение 2560x1440
 камера 12 МП, автофокус, F/1.7
 память 32 Гб, слот для карты памяти
@@ -6442,7 +6538,8 @@
 <model>Galaxy S8 64Gb Midnight Black SM-G950F</model>
 <vendor>Samsung</vendor>
 <price>44990.0</price>
-<description>﻿смартфон, Android 7.0
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 7.0
 экран 5.8", разрешение 2960x1440
 камера 12 МП, автофокус, F/1.7
 память 64 Гб, слот для карты памяти
@@ -6459,7 +6556,8 @@
 <model>Galaxy S8 64Gb Orchid Gray SM-G950F</model>
 <vendor>Samsung</vendor>
 <price>44990.0</price>
-<description>﻿смартфон, Android 7.0
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 7.0
 экран 5.8", разрешение 2960x1440
 камера 12 МП, автофокус, F/1.7
 память 64 Гб, слот для карты памяти
@@ -6476,7 +6574,8 @@
 <model>Galaxy S8 64Gb Maple Gold SM-G950F</model>
 <vendor>Samsung</vendor>
 <price>44990.0</price>
-<description>﻿смартфон, Android 7.0
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 7.0
 экран 5.8", разрешение 2960x1440
 камера 12 МП, автофокус, F/1.7
 память 64 Гб, слот для карты памяти
@@ -6492,8 +6591,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S8 Plus 64Gb Midnight Black SM-G955F</model>
 <vendor>Samsung</vendor>
-<price>50990.0</price>
-<description>﻿смартфон, Android 7.0
+<price>49990.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 7.0
 экран 6.2", разрешение 2960x1440
 камера 12 МП, автофокус, F/1.7
 память 64 Гб, слот для карты памяти
@@ -6509,8 +6609,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S8 Plus 64Gb Orchid Gray SM-G955F</model>
 <vendor>Samsung</vendor>
-<price>50990.0</price>
-<description>﻿смартфон, Android 7.0
+<price>49990.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 7.0
 экран 6.2", разрешение 2960x1440
 камера 12 МП, автофокус, F/1.7
 память 64 Гб, слот для карты памяти
@@ -6526,8 +6627,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy S8 Plus 64Gb Maple Gold SM-G955F</model>
 <vendor>Samsung</vendor>
-<price>50990.0</price>
-<description>﻿смартфон, Android 7.0
+<price>49990.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 7.0
 экран 6.2", разрешение 2960x1440
 камера 12 МП, автофокус, F/1.7
 память 64 Гб, слот для карты памяти
@@ -6544,7 +6646,8 @@
 <model>Galaxy A3 (2015) 8Gb Black SM-A300</model>
 <vendor>Samsung</vendor>
 <price>9490.0</price>
-<description>﻿смартфон, Android 5.1
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 4.7", разрешение 1280x720
 камера 13 МП, автофокус, F/1.9
@@ -6562,7 +6665,8 @@
 <model>Galaxy A3 (2015) 8Gb White SM-A300</model>
 <vendor>Samsung</vendor>
 <price>9490.0</price>
-<description>﻿смартфон, Android 5.1
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 4.7", разрешение 1280x720
 камера 13 МП, автофокус, F/1.9
@@ -6580,7 +6684,8 @@
 <model>Galaxy A3 (2015) 8Gb Gold SM-A300</model>
 <vendor>Samsung</vendor>
 <price>9490.0</price>
-<description>﻿смартфон, Android 5.1
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 4.7", разрешение 1280x720
 камера 13 МП, автофокус, F/1.9
@@ -6598,7 +6703,8 @@
 <model>Galaxy A3 (2016) 16Gb Black SM-A310</model>
 <vendor>Samsung</vendor>
 <price>12490.0</price>
-<description>﻿смартфон, Android 5.1
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 4.7", разрешение 1280x720
 камера 13 МП, автофокус, F/1.9
@@ -6616,7 +6722,8 @@
 <model>Galaxy A3 (2016) 16Gb White SM-A310</model>
 <vendor>Samsung</vendor>
 <price>12490.0</price>
-<description>﻿смартфон, Android 5.1
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 4.7", разрешение 1280x720
 камера 13 МП, автофокус, F/1.9
@@ -6634,7 +6741,8 @@
 <model>Galaxy A3 (2016) 16Gb Gold SM-A310</model>
 <vendor>Samsung</vendor>
 <price>12490.0</price>
-<description>﻿смартфон, Android 5.1
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 4.7", разрешение 1280x720
 камера 13 МП, автофокус, F/1.9
@@ -6651,8 +6759,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A3 (2017) 16Gb Black SM-A320F</model>
 <vendor>Samsung</vendor>
-<price>19490.0</price>
-<description>﻿смартфон на платформе Android
+<price>16990.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон на платформе Android
 поддержка двух SIM-карт
 экран 4.7", разрешение 1280x720
 камера 13 МП, автофокус, F/1.9
@@ -6669,8 +6778,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A3 (2017) 16Gb Gold SM-A320F</model>
 <vendor>Samsung</vendor>
-<price>19490.0</price>
-<description>﻿смартфон на платформе Android
+<price>16990.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон на платформе Android
 поддержка двух SIM-карт
 экран 4.7", разрешение 1280x720
 камера 13 МП, автофокус, F/1.9
@@ -6687,8 +6797,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A3 (2017) 16Gb Blue SM-A320F</model>
 <vendor>Samsung</vendor>
-<price>19490.0</price>
-<description>﻿смартфон на платформе Android
+<price>16990.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон на платформе Android
 поддержка двух SIM-карт
 экран 4.7", разрешение 1280x720
 камера 13 МП, автофокус, F/1.9
@@ -6706,7 +6817,8 @@
 <model>Galaxy A5 (2015) 16Gb Black SM-A500</model>
 <vendor>Samsung</vendor>
 <price>10990.0</price>
-<description>﻿смартфон, Android 5.1
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5.2", разрешение 1920x1080
 камера 13 МП, автофокус, F/1.9
@@ -6724,7 +6836,8 @@
 <model>Galaxy A5 (2015) 16Gb White SM-A500</model>
 <vendor>Samsung</vendor>
 <price>10990.0</price>
-<description>﻿смартфон, Android 5.1
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5.2", разрешение 1920x1080
 камера 13 МП, автофокус, F/1.9
@@ -6742,7 +6855,8 @@
 <model>Galaxy A5 (2015) 16Gb Gold SM-A500</model>
 <vendor>Samsung</vendor>
 <price>10990.0</price>
-<description>﻿смартфон, Android 5.1
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5.2", разрешение 1920x1080
 камера 13 МП, автофокус, F/1.9
@@ -6760,7 +6874,8 @@
 <model>Galaxy A5 (2015) 16Gb Silver SM-A500</model>
 <vendor>Samsung</vendor>
 <price>10990.0</price>
-<description>﻿смартфон, Android 5.1
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5.2", разрешение 1920x1080
 камера 13 МП, автофокус, F/1.9
@@ -6777,8 +6892,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A5 (2016) 16Gb Black SM-A510</model>
 <vendor>Samsung</vendor>
-<price>15990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>16490.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5.2", разрешение 1920x1080
 камера 13 МП, автофокус, F/1.9
@@ -6795,8 +6911,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A5 (2016) 16Gb White SM-A510</model>
 <vendor>Samsung</vendor>
-<price>15990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>16490.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5.2", разрешение 1920x1080
 камера 13 МП, автофокус, F/1.9
@@ -6813,8 +6930,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A5 (2016) 16Gb Gold SM-A510</model>
 <vendor>Samsung</vendor>
-<price>15990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>16490.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5.2", разрешение 1920x1080
 камера 13 МП, автофокус, F/1.9
@@ -6831,8 +6949,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A5 (2017) 16Gb Black SM-A520F</model>
 <vendor>Samsung</vendor>
-<price>24490.0</price>
-<description>﻿смартфон на платформе Android
+<price>21990.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон на платформе Android
 поддержка двух SIM-карт
 экран 5.2", разрешение 1920x1080
 камера 16 МП, автофокус, F/1.9
@@ -6849,8 +6968,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A5 (2017) 16Gb Gold SM-A520F</model>
 <vendor>Samsung</vendor>
-<price>24490.0</price>
-<description>﻿смартфон на платформе Android
+<price>21990.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон на платформе Android
 поддержка двух SIM-карт
 экран 5.2", разрешение 1920x1080
 камера 16 МП, автофокус, F/1.9
@@ -6867,8 +6987,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A5 (2017) 16Gb Blue SM-A520F</model>
 <vendor>Samsung</vendor>
-<price>24490.0</price>
-<description>﻿смартфон на платформе Android
+<price>21990.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон на платформе Android
 поддержка двух SIM-карт
 экран 5.2", разрешение 1920x1080
 камера 16 МП, автофокус, F/1.9
@@ -6885,8 +7006,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A7 (2015) 16Gb Black SM-A700</model>
 <vendor>Samsung</vendor>
-<price>14990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>15990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5.5", разрешение 1920x1080
 камера 13 МП, автофокус, F/1.9
@@ -6903,8 +7025,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A7 (2015) 16Gb White SM-A700</model>
 <vendor>Samsung</vendor>
-<price>14990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>15990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5.5", разрешение 1920x1080
 камера 13 МП, автофокус, F/1.9
@@ -6921,8 +7044,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A7 (2015) 16Gb Gold SM-A700</model>
 <vendor>Samsung</vendor>
-<price>14990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>15990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5.5", разрешение 1920x1080
 камера 13 МП, автофокус, F/1.9
@@ -6939,8 +7063,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A7 (2016) 16Gb Black SM-A710</model>
 <vendor>Samsung</vendor>
-<price>18490.0</price>
-<description>﻿смартфон, Android 5.1
+<price>17990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5.5", разрешение 1920x1080
 камера 13 МП, автофокус, F/1.9
@@ -6957,8 +7082,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A7 (2016) 16Gb White SM-A710</model>
 <vendor>Samsung</vendor>
-<price>18490.0</price>
-<description>﻿смартфон, Android 5.1
+<price>17990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5.5", разрешение 1920x1080
 камера 13 МП, автофокус, F/1.9
@@ -6975,8 +7101,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A7 (2016) 16Gb Gold SM-A710</model>
 <vendor>Samsung</vendor>
-<price>18490.0</price>
-<description>﻿смартфон, Android 5.1
+<price>17990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5.5", разрешение 1920x1080
 камера 13 МП, автофокус, F/1.9
@@ -6993,8 +7120,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A7 (2017) 16Gb Black SM-A720F</model>
 <vendor>Samsung</vendor>
-<price>26490.0</price>
-<description>﻿смартфон на платформе Android
+<price>24990.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон на платформе Android
 поддержка двух SIM-карт
 экран 5.7", разрешение 1920x1080
 камера 16 МП, автофокус, F/1.9
@@ -7011,8 +7139,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A7 (2017) 16Gb Gold SM-A720F</model>
 <vendor>Samsung</vendor>
-<price>26490.0</price>
-<description>﻿смартфон на платформе Android
+<price>24990.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон на платформе Android
 поддержка двух SIM-карт
 экран 5.7", разрешение 1920x1080
 камера 16 МП, автофокус, F/1.9
@@ -7029,8 +7158,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy A7 (2017) 16Gb Blue SM-A720F</model>
 <vendor>Samsung</vendor>
-<price>26490.0</price>
-<description>﻿смартфон на платформе Android
+<price>24990.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон на платформе Android
 поддержка двух SIM-карт
 экран 5.7", разрешение 1920x1080
 камера 16 МП, автофокус, F/1.9
@@ -7047,8 +7177,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy J1 (2016) 8Gb Black SM-J120F</model>
 <vendor>Samsung</vendor>
-<price>6990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>6290.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 4.5", разрешение 800x480
 камера 5 МП
@@ -7065,8 +7196,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy J1 (2016) 8Gb White SM-J120F</model>
 <vendor>Samsung</vendor>
-<price>6990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>6290.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 4.5", разрешение 800x480
 камера 5 МП
@@ -7083,8 +7215,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy J1 (2016) 8Gb Gold SM-J120F</model>
 <vendor>Samsung</vendor>
-<price>6990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>6290.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 4.5", разрешение 800x480
 камера 5 МП
@@ -7101,8 +7234,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy J2 (2016) 8Gb Black SM-G532F</model>
 <vendor>Samsung</vendor>
-<price>8990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>7490.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 4.5", разрешение 800x480
 камера 5 МП
@@ -7119,8 +7253,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy J2 (2016) 8Gb Silver SM-G532F</model>
 <vendor>Samsung</vendor>
-<price>8990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>7490.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 4.5", разрешение 800x480
 камера 5 МП
@@ -7137,8 +7272,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy J2 (2016) 8Gb Gold SM-G532F</model>
 <vendor>Samsung</vendor>
-<price>8990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>7490.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 4.5", разрешение 800x480
 камера 5 МП
@@ -7155,8 +7291,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy J3 (2016) 8Gb Black SM-J320F</model>
 <vendor>Samsung</vendor>
-<price>9990.0</price>
-<description>﻿смартфон на платформе Android
+<price>8590.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон на платформе Android
 поддержка двух SIM-карт
 экран 5", разрешение 1280x720
 камера 8 МП
@@ -7173,8 +7310,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy J3 (2016) 8Gb White SM-J320F</model>
 <vendor>Samsung</vendor>
-<price>9990.0</price>
-<description>﻿смартфон на платформе Android
+<price>8590.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон на платформе Android
 поддержка двух SIM-карт
 экран 5", разрешение 1280x720
 камера 8 МП
@@ -7191,8 +7329,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy J3 (2016) 8Gb Gold SM-J320F</model>
 <vendor>Samsung</vendor>
-<price>9990.0</price>
-<description>﻿смартфон на платформе Android
+<price>8590.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон на платформе Android
 поддержка двух SIM-карт
 экран 5", разрешение 1280x720
 камера 8 МП
@@ -7210,7 +7349,8 @@
 <model>Galaxy J3 (2017) 16Gb Black SM-J330F</model>
 <vendor>Samsung</vendor>
 <price>12490.0</price>
-<description>﻿смартфон на платформе Android
+<description>Тип товара: Ростест (RST)
+﻿смартфон на платформе Android
 поддержка двух SIM-карт
 экран 5", разрешение 1280x720
 камера 13 МП, автофокус, F/1.9
@@ -7228,7 +7368,8 @@
 <model>Galaxy J3 (2017) 16Gb Blue SM-J330F</model>
 <vendor>Samsung</vendor>
 <price>12490.0</price>
-<description>﻿смартфон на платформе Android
+<description>Тип товара: Ростест (RST)
+﻿смартфон на платформе Android
 поддержка двух SIM-карт
 экран 5", разрешение 1280x720
 камера 13 МП, автофокус, F/1.9
@@ -7246,7 +7387,8 @@
 <model>Galaxy J3 (2017) 16Gb Gold SM-J330F</model>
 <vendor>Samsung</vendor>
 <price>12490.0</price>
-<description>﻿смартфон на платформе Android
+<description>Тип товара: Ростест (RST)
+﻿смартфон на платформе Android
 поддержка двух SIM-карт
 экран 5", разрешение 1280x720
 камера 13 МП, автофокус, F/1.9
@@ -7264,7 +7406,8 @@
 <model>Galaxy J3 (2017) 16Gb Pink SM-J330F</model>
 <vendor>Samsung</vendor>
 <price>12490.0</price>
-<description>﻿смартфон на платформе Android
+<description>Тип товара: Ростест (RST)
+﻿смартфон на платформе Android
 поддержка двух SIM-карт
 экран 5", разрешение 1280x720
 камера 13 МП, автофокус, F/1.9
@@ -7282,7 +7425,8 @@
 <model>Galaxy J5 (2016) 16Gb Black SM-J510</model>
 <vendor>Samsung</vendor>
 <price>11990.0</price>
-<description>﻿смартфон, Android 5.1
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5", разрешение 1280x720
 камера 13 МП, автофокус
@@ -7300,7 +7444,8 @@
 <model>Galaxy J5 (2016) 16Gb White SM-J510</model>
 <vendor>Samsung</vendor>
 <price>11990.0</price>
-<description>﻿смартфон, Android 5.1
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5", разрешение 1280x720
 камера 13 МП, автофокус
@@ -7318,7 +7463,8 @@
 <model>Galaxy J5 (2016) 16Gb Gold SM-J510</model>
 <vendor>Samsung</vendor>
 <price>11990.0</price>
-<description>﻿смартфон, Android 5.1
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5", разрешение 1280x720
 камера 13 МП, автофокус
@@ -7335,8 +7481,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy J5 (2017) 16Gb Black SM-J530F</model>
 <vendor>Samsung</vendor>
-<price>17490.0</price>
-<description>﻿смартфон, Android 7.0
+<price>15990.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 7.0
 поддержка двух SIM-карт
 экран 5.2", разрешение 1280x720
 камера 13 МП, автофокус, F/1.7
@@ -7353,8 +7500,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy J5 (2017) 16Gb Blue SM-J530F</model>
 <vendor>Samsung</vendor>
-<price>17490.0</price>
-<description>﻿смартфон, Android 7.0
+<price>15990.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 7.0
 поддержка двух SIM-карт
 экран 5.2", разрешение 1280x720
 камера 13 МП, автофокус, F/1.7
@@ -7371,8 +7519,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy J5 (2017) 16Gb Gold SM-J530F</model>
 <vendor>Samsung</vendor>
-<price>17490.0</price>
-<description>﻿смартфон, Android 7.0
+<price>15990.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 7.0
 поддержка двух SIM-карт
 экран 5.2", разрешение 1280x720
 камера 13 МП, автофокус, F/1.7
@@ -7389,8 +7538,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy J5 (2017) 16Gb Pink SM-J530F</model>
 <vendor>Samsung</vendor>
-<price>17490.0</price>
-<description>﻿смартфон, Android 7.0
+<price>15990.0</price>
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 7.0
 поддержка двух SIM-карт
 экран 5.2", разрешение 1280x720
 камера 13 МП, автофокус, F/1.7
@@ -7408,7 +7558,8 @@
 <model>Galaxy J7 (2016) 16Gb Black SM-J710</model>
 <vendor>Samsung</vendor>
 <price>13990.0</price>
-<description>﻿смартфон, Android 5.1
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5.5", разрешение 1280x720
 камера 13 МП, автофокус, F/1.9
@@ -7426,7 +7577,8 @@
 <model>Galaxy J7 (2016) 16Gb White SM-J710</model>
 <vendor>Samsung</vendor>
 <price>13990.0</price>
-<description>﻿смартфон, Android 5.1
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5.5", разрешение 1280x720
 камера 13 МП, автофокус, F/1.9
@@ -7444,7 +7596,8 @@
 <model>Galaxy J7 (2016) 16Gb Gold SM-J710</model>
 <vendor>Samsung</vendor>
 <price>13990.0</price>
-<description>﻿смартфон, Android 5.1
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 поддержка двух SIM-карт
 экран 5.5", разрешение 1280x720
 камера 13 МП, автофокус, F/1.9
@@ -7462,7 +7615,8 @@
 <model>Galaxy J7 (2017) 16Gb Black SM-J730F</model>
 <vendor>Samsung</vendor>
 <price>19490.0</price>
-<description>﻿смартфон, Android 7.0
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 7.0
 поддержка двух SIM-карт
 экран 5.5", разрешение 1920x1080
 камера 13 МП, автофокус, F/1.7
@@ -7480,7 +7634,8 @@
 <model>Galaxy J7 (2017) 16Gb Blue SM-J730F</model>
 <vendor>Samsung</vendor>
 <price>19490.0</price>
-<description>﻿смартфон, Android 7.0
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 7.0
 поддержка двух SIM-карт
 экран 5.5", разрешение 1920x1080
 камера 13 МП, автофокус, F/1.7
@@ -7498,7 +7653,8 @@
 <model>Galaxy J7 (2017) 16Gb Gold SM-J730F</model>
 <vendor>Samsung</vendor>
 <price>19490.0</price>
-<description>﻿смартфон, Android 7.0
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 7.0
 поддержка двух SIM-карт
 экран 5.5", разрешение 1920x1080
 камера 13 МП, автофокус, F/1.7
@@ -7516,7 +7672,8 @@
 <model>Galaxy J7 (2017) 16Gb Pink SM-J730F</model>
 <vendor>Samsung</vendor>
 <price>19490.0</price>
-<description>﻿смартфон, Android 7.0
+<description>Тип товара: Ростест (RST)
+﻿смартфон, Android 7.0
 поддержка двух SIM-карт
 экран 5.5", разрешение 1920x1080
 камера 13 МП, автофокус, F/1.7
@@ -7533,8 +7690,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy Note 3 16Gb Black SM-N900</model>
 <vendor>Samsung</vendor>
-<price>12990.0</price>
-<description>﻿смартфон, Android 4.4
+<price>13990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.4
 экран 5.7", разрешение 1920x1080
 камера 13 МП, автофокус
 память 16 Гб, слот для карты памяти
@@ -7550,8 +7708,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy Note 3 16Gb White SM-N900</model>
 <vendor>Samsung</vendor>
-<price>12990.0</price>
-<description>﻿смартфон, Android 4.4
+<price>13990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.4
 экран 5.7", разрешение 1920x1080
 камера 13 МП, автофокус
 память 16 Гб, слот для карты памяти
@@ -7567,8 +7726,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy Note 3 16Gb Pink SM-N900</model>
 <vendor>Samsung</vendor>
-<price>12990.0</price>
-<description>﻿смартфон, Android 4.4
+<price>13990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.4
 экран 5.7", разрешение 1920x1080
 камера 13 МП, автофокус
 память 16 Гб, слот для карты памяти
@@ -7584,8 +7744,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy Note 4 32Gb Black SM-N910</model>
 <vendor>Samsung</vendor>
-<price>16990.0</price>
-<description>﻿смартфон, Android 4.4
+<price>17990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.4
 экран 5.7", разрешение 2560x1440
 камера 16 МП, автофокус
 память 16 Гб, слот для карты памяти
@@ -7601,8 +7762,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy Note 4 32Gb White SM-N910</model>
 <vendor>Samsung</vendor>
-<price>16990.0</price>
-<description>﻿смартфон, Android 4.4
+<price>17990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.4
 экран 5.7", разрешение 2560x1440
 камера 16 МП, автофокус
 память 16 Гб, слот для карты памяти
@@ -7618,8 +7780,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy Note 4 32Gb Gold SM-N910</model>
 <vendor>Samsung</vendor>
-<price>16990.0</price>
-<description>﻿смартфон, Android 4.4
+<price>17990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.4
 экран 5.7", разрешение 2560x1440
 камера 16 МП, автофокус
 память 16 Гб, слот для карты памяти
@@ -7635,8 +7798,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy Note 4 32Gb Pink SM-N910</model>
 <vendor>Samsung</vendor>
-<price>16990.0</price>
-<description>﻿смартфон, Android 4.4
+<price>17990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 4.4
 экран 5.7", разрешение 2560x1440
 камера 16 МП, автофокус
 память 16 Гб, слот для карты памяти
@@ -7652,8 +7816,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy Note 5 32Gb Black Sapphire SM-N920</model>
 <vendor>Samsung</vendor>
-<price>21990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>26990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 экран 5.7", разрешение 2560x1440
 камера 16 МП, автофокус, F/1.9
 память 32 Гб, без слота для карт памяти
@@ -7669,8 +7834,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy Note 5 32Gb White Pearl SM-N920</model>
 <vendor>Samsung</vendor>
-<price>21990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>26990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 экран 5.7", разрешение 2560x1440
 камера 16 МП, автофокус, F/1.9
 память 32 Гб, без слота для карт памяти
@@ -7686,8 +7852,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy Note 5 32Gb Gold Platinum SM-N920</model>
 <vendor>Samsung</vendor>
-<price>21990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>26990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 экран 5.7", разрешение 2560x1440
 камера 16 МП, автофокус, F/1.9
 память 32 Гб, без слота для карт памяти
@@ -7703,8 +7870,9 @@
 <typePrefix>Смартфон</typePrefix>
 <model>Galaxy Note 5 32Gb Silver Titanium SM-N920</model>
 <vendor>Samsung</vendor>
-<price>21990.0</price>
-<description>﻿смартфон, Android 5.1
+<price>26990.0</price>
+<description>Тип товара: Евротест (EST)
+﻿смартфон, Android 5.1
 экран 5.7", разрешение 2560x1440
 камера 16 МП, автофокус, F/1.9
 память 32 Гб, без слота для карт памяти

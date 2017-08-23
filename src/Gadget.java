@@ -40,6 +40,53 @@ public class Gadget {
         return namePrefix + " " + vendor + " " + model;
     }
 
+    public String getPriceListName() {
+        String res = vendor + " ";
+        String[] modelSplit = model.split(" ");
+        int posGb = -1;
+        for (int i = 0; i < modelSplit.length; i++) {
+            if (modelSplit[i].toLowerCase().contains("gb")) {
+                posGb = i;
+            }
+        }
+        if (posGb == -1) {
+            return "";
+        }
+        res += String.join(" ", Arrays.copyOfRange(modelSplit, 0, posGb + 1));
+        boolean touchLocked = false;
+        if (model.contains(" Без Отп")) {
+            touchLocked = true;
+        }
+        if (!model.contains(" ")) {
+            return "";
+        }
+        if (touchLocked) {
+            res += " Без Отп";
+        }
+        return res;
+    }
+
+    public String getPriceListModel() {
+        String[] modelSplit = model.split(" ");
+        int posGb = -1;
+        for (int i = 0; i < modelSplit.length; i++) {
+            if (modelSplit[i].toLowerCase().contains("gb")) {
+                posGb = i;
+            }
+        }
+        if (posGb == -1) {
+            return "";
+        }
+        return String.join(" ", Arrays.copyOfRange(modelSplit, 1, posGb));
+    }
+
+    public String getModelLine() {
+        if (!model.contains(" ")) {
+            return "";
+        }
+        return model.substring(0, model.indexOf(" "));
+    }
+
     public String getGoogleSheetsName() {
         String res = "EST";
         if (manufacturerWarranty) {
@@ -66,16 +113,22 @@ public class Gadget {
         if (posGb == -1) {
             return "";
         }
-        res += String.join(" ", Arrays.copyOfRange(modelSplit, 0, posGb)) + " ";
+        res += String.join(" ", Arrays.copyOfRange(modelSplit, 0, posGb + 1)) + " ";
         if (touchLocked) {
             res += "Без Отп ";
         }
-        res += String.join(" ", Arrays.copyOfRange(modelSplit, posGb, modelSplit.length));
-        System.out.println(res + "$");
+        res += String.join(" ", Arrays.copyOfRange(modelSplit, posGb + 1, modelSplit.length));
+//        System.out.println(res + "$");
         return res;
     }
 
-
+    public String getSubModel() {
+        if (!model.contains(" ")) {
+            return "";
+        }
+        String tModel = model.replace(" Без Отп", "");
+        return tModel.substring(tModel.lastIndexOf(" ") + 1, tModel.length());
+    }
 
     /*public String getImageUrlByModel() {
         String[] modelSplit = getGithubName().split(" ");

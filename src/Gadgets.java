@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Scanner;
 
 /**
  * Created by A on 13.03.2017.
@@ -30,43 +31,27 @@ public class Gadgets {
             RST_RETAIL_OPT_MIN,
     };
 
-    public final static HashMap<String, ArrayList<String>> modelsByModelLine;
-
-    static {
-        modelsByModelLine = new HashMap<>();
-        modelsByModelLine.put("iPhone", iPhones.models);
-        modelsByModelLine.put("Galaxy", Galaxys.models);
-    }
-
-    public final static HashMap<String, ArrayList<ArrayList<String>>> colorsByModelLine;
-
-    static {
-        colorsByModelLine = new HashMap<>();
-        colorsByModelLine.put("iPhone", iPhones.colors);
-        colorsByModelLine.put("Galaxy", Galaxys.colors);
-    }
-
-    public final static HashMap<String, ArrayList<Integer>> gadgetPerMonthCountByModelLine;
-
-    static {
-        gadgetPerMonthCountByModelLine = new HashMap<>();
-        gadgetPerMonthCountByModelLine.put("iPhone", iPhones.gadgetPerMonthCount);
-        gadgetPerMonthCountByModelLine.put("Galaxy", Galaxys.gadgetPerMonthCount);
-    }
-
-    public final static HashMap<String, HashMap<String, ArrayList<String>>> mapGadgetModelSubmodelByModelLine;
-
-    static {
-        mapGadgetModelSubmodelByModelLine = new HashMap<>();
-        mapGadgetModelSubmodelByModelLine.put("iPhone", iPhones.mapModelSubmodel);
-        mapGadgetModelSubmodelByModelLine.put("Galaxy", Galaxys.mapModelSubmodel);
-    }
-
-    public HashMap<String, ArrayList<String>> mapGadgetNamePrices;
-    public HashMap<String, Integer> mapPriceAttributeNumber;
+    public static HashMap<String, ArrayList<String>> mapGadgetNamePrices;
+    public static HashMap<String, Integer> mapPriceAttributeNumber;
 
     public ArrayList<ArrayList<String>> gadgets = new ArrayList<ArrayList<String>>();
     public HashMap<String, Integer> mapGadgetAttributeNumber;
+
+    public static void initializePrices(Scanner inScanner) {
+        mapPriceAttributeNumber = new HashMap<>();
+        for (int i = 0; i < priceAttributeNames.length; i++) {
+            mapPriceAttributeNumber.put(priceAttributeNames[i], i);
+        }
+        mapGadgetNamePrices = new HashMap<>();
+        while (inScanner.hasNextLine()) {
+            String line = inScanner.nextLine();
+            String[] words = line.split("\\s+");
+            String gadgetName = String.join(" ", Arrays.copyOfRange(words, 0, words.length - PRICES_COUNT));
+            String[] prices = Arrays.copyOfRange(words, words.length - PRICES_COUNT, words.length);
+            mapGadgetNamePrices.put(gadgetName, new ArrayList<>(Arrays.asList(prices)));
+        }
+        inScanner.close();
+    }
 
     public void initializeMapGadgetAttributeNumber(String[] gadgetAttributeNames) {
         mapGadgetAttributeNumber = new HashMap<String, Integer>();

@@ -5,8 +5,26 @@ import java.util.HashMap;
 /**
  * Created by A on 05.08.2017.
  */
-public class Galaxys {
+public class GadgetConst {
+    public final static ArrayList<String> vendors = new ArrayList<String>(Arrays.asList(
+            "Apple",
+            "Samsung"));
+
+    public final static ArrayList<String> modelLines = new ArrayList<String>(Arrays.asList(
+            "iPhone",
+            "Galaxy"));
+
+    public final static ArrayList<String> memories = new ArrayList<String>(Arrays.asList(
+            "0Gb",
+            "8Gb",
+            "16Gb",
+            "32Gb",
+            "64Gb",
+            "128Gb",
+            "256Gb"));
+
     public final static ArrayList<String> models = new ArrayList<String>(Arrays.asList(
+            //galaxys
             "Grand Prime",
             "Core Prime",
             "Alpha",
@@ -42,45 +60,71 @@ public class Galaxys {
             "J7 (2017)",
             "Note 3",
             "Note 4",
-            "Note 5"));
+            "Note 5",
+            //iphones
+            "4",
+            "4S",
+            "5",
+            "5C",
+            "5S",
+            "6",
+            "6 Plus",
+            "6S",
+            "6S Plus",
+            "SE",
+            "7",
+            "7 Plus"));
 
     public final static ArrayList<Integer> gadgetPerMonthCount = new ArrayList<Integer>(Arrays.asList(
             13,//"Grand Prime",
-            5,//"Core Prime",
-            7,//"Alpha",
-            61,//"S3",
-            5,//"S3 Mini",
-            47,//"S4",
+            4,//"Core Prime",
+            5,//"Alpha",
+            33,//"S3",
+            2,//"S3 Mini",
+            46,//"S4",
             19,//"S4 Mini",
-            43,//"S5",
-            11,//"S5 Mini",
-            59,//"S6",
+            27,//"S5",
+            7,//"S5 Mini",
+            48,//"S6",
             23,//"S6 Edge",
-            3,//"S6 Edge Plus",
+            2,//"S6 Edge Plus",
             83,//"S7",
-            41,//"S7 Edge",
-            37,//"S8",
+            44,//"S7 Edge",
+            34,//"S8",
             3,//"S8 Plus",
-            8,//"A3 (2015)",
-            19,//"A3 (2016)",
-            2,//"A3 (2017)",
+            4,//"A3 (2015)",
+            23,//"A3 (2016)",
+            12,//"A3 (2017)",
             7,//"A5 (2015)",
             23,//"A5 (2016)",
-            8,//"A5 (2017)",
-            3,//"A7 (2015)",
-            5,//"A7 (2016)",
-            5,//"A7 (2017)",
-            23,//"J1 (2016)",
-            7,//"J2 (2016)",
+            9,//"A5 (2017)",
+            4,//"A7 (2015)",
+            6,//"A7 (2016)",
+            6,//"A7 (2017)",
+            22,//"J1 (2016)",
+            4,//"J2 (2016)",
             21,//"J3 (2016)",
-            5,//"J3 (2017)",
-            17,//"J5 (2016)",
-            5,//"J5 (2017)",
-            7,//"J7 (2016)",
-            5,//"J7 (2017)",
-            13,//"Note 3",
-            11,//"Note 4",
-            6));//"Note 5"));
+            1,//"J3 (2017)",
+            13,//"J5 (2016)",
+            4,//"J5 (2017)",
+            12,//"J7 (2016)",
+            1,//"J7 (2017)",
+            14,//"Note 3",
+            6,//"Note 4",
+            6,//"Note 5"));
+
+            103,//4
+            158,//4s
+            173,//5
+            62,//5c
+            768,//5s
+            564,//6
+            65,//6+
+            289,//6s
+            48,//6s+
+            63,//se
+            277,//7
+            71));//7+
 
     public final static ArrayList<ArrayList<String>> subModels = new ArrayList<ArrayList<String>>() {
         {
@@ -120,6 +164,19 @@ public class Galaxys {
             add(new ArrayList<String>(Arrays.asList("SM-N900", "SM-N900F")));//"Note 3",
             add(new ArrayList<String>(Arrays.asList("SM-N910", "SM-N910F")));//"Note 4",
             add(new ArrayList<String>(Arrays.asList("SM-N920", "SM-N920F")));//"Note 5"};
+
+            add(new ArrayList<String>(Arrays.asList("A1332", "A1349")));//iphone 4
+            add(new ArrayList<String>(Arrays.asList("A1387", "A1431")));//iphone 4s
+            add(new ArrayList<String>(Arrays.asList("A1428", "A1429", "A1442")));//iphone 5
+            add(new ArrayList<String>(Arrays.asList("A1532", "A1456", "A1516", "A1529", "A1507")));//iphone 5c
+            add(new ArrayList<String>(Arrays.asList("A1533", "A1457", "A1518", "A1528", "A1530", "A1453")));//iphone 5s
+            add(new ArrayList<String>(Arrays.asList("A1549", "A1586", "A1589")));//iphone 6
+            add(new ArrayList<String>(Arrays.asList("A1522", "A1524", "A1593")));//iphone 6+
+            add(new ArrayList<String>(Arrays.asList("A1633", "A1688", "A1700")));//iphone 6s
+            add(new ArrayList<String>(Arrays.asList("A1634", "A1687", "A1699")));//iphone 6s+
+            add(new ArrayList<String>(Arrays.asList("A1662", "A1723", "A1724")));//iphone se
+            add(new ArrayList<String>(Arrays.asList("A1660", "A1778", "A1779")));//iphone 7
+            add(new ArrayList<String>(Arrays.asList("A1661", "A1784", "A1785")));//iphone 7+
         }
     };
 
@@ -138,7 +195,7 @@ public class Galaxys {
             add(new ArrayList<String>(Arrays.asList("Black Sapphire", "White Pearl", "Gold Platinum", "Green Emerald")));//s6 edge
             add(new ArrayList<String>(Arrays.asList("White Pearl", "Gold Platinum", "Black Sapphire")));//s6 edge+
             add(new ArrayList<String>(Arrays.asList("Black Onyx", "Silver Titanium", "Gold Platinum")));//s7
-                add(new ArrayList<String>(Arrays.asList("Black Onyx", "Silver Titanium", "Gold Platinum", "Smoke Sapphire")));//s7 edge
+            add(new ArrayList<String>(Arrays.asList("Black Onyx", "Silver Titanium", "Gold Platinum", "Smoke Sapphire")));//s7 edge
             add(new ArrayList<String>(Arrays.asList("Midnight Black", "Orchid Gray", "Maple Gold")));//s8
             add(new ArrayList<String>(Arrays.asList("Midnight Black", "Orchid Gray", "Maple Gold")));//s8+
             add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//a3 2015
@@ -161,6 +218,19 @@ public class Galaxys {
             add(new ArrayList<String>(Arrays.asList("Black", "White", "Pink")));//note 3
             add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Pink")));//note 4
             add(new ArrayList<String>(Arrays.asList("Black Sapphire", "White Pearl", "Gold Platinum", "Silver Titanium")));//note 5
+
+            add(new ArrayList<>(Arrays.asList("Black", "White")));//4
+            add(new ArrayList<>(Arrays.asList("Black", "White")));//4s
+            add(new ArrayList<>(Arrays.asList("Black", "White")));//5
+            add(new ArrayList<>(Arrays.asList("White", "Blue", "Green", "Yellow", "Pink")));//5c
+            add(new ArrayList<>(Arrays.asList("Space Gray", "Silver", "Gold")));//5s
+            add(new ArrayList<>(Arrays.asList("Space Gray", "Silver", "Gold")));//6
+            add(new ArrayList<>(Arrays.asList("Space Gray", "Silver", "Gold")));//6+
+            add(new ArrayList<>(Arrays.asList("Space Gray", "Silver", "Gold", "Rose Gold")));//6s
+            add(new ArrayList<>(Arrays.asList("Space Gray", "Silver", "Gold", "Rose Gold")));//6s+
+            add(new ArrayList<>(Arrays.asList("Space Gray", "Silver", "Gold", "Rose Gold")));//se
+            add(new ArrayList<>(Arrays.asList("Black", "Silver", "Jet Black", "Gold", "Rose Gold", "(PRODUCT)RED")));//7
+            add(new ArrayList<>(Arrays.asList("Black", "Silver", "Jet Black", "Gold", "Rose Gold", "(PRODUCT)RED")));//7+
         }
     };
 
@@ -179,6 +249,15 @@ public class Galaxys {
         mapModelColor = new HashMap<>();
         for (int i = 0; i < models.size(); i++) {
             mapModelColor.put(models.get(i), colors.get(i));
+        }
+    }
+
+    public static final HashMap<String, Integer> mapModelPerMonthCount;
+
+    static {
+        mapModelPerMonthCount = new HashMap<>();
+        for (int i = 0; i < models.size(); i++) {
+            mapModelPerMonthCount.put(models.get(i), gadgetPerMonthCount.get(i));
         }
     }
 }

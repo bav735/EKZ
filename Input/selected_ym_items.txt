@@ -1,4 +1,13 @@
 RST Apple iPhone 6S 16Gb Gold
+EST Samsung Galaxy Alpha 32Gb White
 RST Apple iPhone 6S 32Gb Silver
+EST Samsung Galaxy A3 (2016) 16Gb Gold
 RST Apple iPhone 6S 16Gb Space Gray
+RST Apple iPhone SE 32Gb Gold
+RST Apple iPhone 7 32Gb Black
 RST Apple iPhone 7 32Gb Rose Gold
+RST Apple iPhone 7 128Gb Gold
+RST Apple iPhone 7 128Gb Jet Black
+EST Apple iPhone 4S 16Gb White
+EST Apple iPhone 4S 16Gb Black
+EST Samsung Galaxy Note 5 32Gb Gold Platinum
