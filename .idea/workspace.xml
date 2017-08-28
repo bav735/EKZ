@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AdsXML — копия.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AdsXML.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/ads.xls" afterPath="$PROJECT_DIR$/Output/AvitoRobot/4/ads.xls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets$CustomComparator.class" afterPath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets$CustomComparator.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/ads.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/price_list.txt" afterPath="$PROJECT_DIR$/Input/price_list.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/temp.xml" afterPath="$PROJECT_DIR$/Input/temp.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/ads.csv" afterPath="$PROJECT_DIR$/Output/AvitoRobot/4/ads.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Website/iphones.xml" afterPath="$PROJECT_DIR$/Output/Website/iphones.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AvitoGadgets.java" afterPath="$PROJECT_DIR$/src/AvitoGadgets.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GadgetConst.java" afterPath="$PROJECT_DIR$/src/GadgetConst.java" />
     </list>
     <ignored path="EKZ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,13 +81,13 @@
       <file leaf-file-name="AvitoGadgets.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="552" column="36" selection-start-line="552" selection-start-column="36" selection-end-line="552" selection-end-column="36" />
+            <state relative-caret-position="169">
+              <caret line="323" column="27" selection-start-line="323" selection-start-column="27" selection-end-line="323" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#13420#13428#0" expanded="true" />
-                <element signature="e#17425#17426#0" expanded="true" />
-                <element signature="e#17491#17492#0" expanded="true" />
+                <element signature="e#17451#17452#0" expanded="true" />
+                <element signature="e#17517#17518#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -763,8 +754,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#13420#13428#0" expanded="true" />
-            <element signature="e#17425#17426#0" expanded="true" />
-            <element signature="e#17491#17492#0" expanded="true" />
+            <element signature="e#17451#17452#0" expanded="true" />
+            <element signature="e#17517#17518#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -787,8 +778,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#13420#13428#0" expanded="true" />
-            <element signature="e#17425#17426#0" expanded="true" />
-            <element signature="e#17491#17492#0" expanded="true" />
+            <element signature="e#17451#17452#0" expanded="true" />
+            <element signature="e#17517#17518#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1002,13 +993,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="552" column="36" selection-start-line="552" selection-start-column="36" selection-end-line="552" selection-end-column="36" />
+        <state relative-caret-position="169">
+          <caret line="323" column="27" selection-start-line="323" selection-start-column="27" selection-end-line="323" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#13420#13428#0" expanded="true" />
-            <element signature="e#17425#17426#0" expanded="true" />
-            <element signature="e#17491#17492#0" expanded="true" />
+            <element signature="e#17451#17452#0" expanded="true" />
+            <element signature="e#17517#17518#0" expanded="true" />
           </folding>
         </state>
       </provider>

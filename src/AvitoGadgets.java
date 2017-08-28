@@ -313,12 +313,12 @@ public class AvitoGadgets extends Gadgets {
 
     public String getAvitoAdName(ArrayList<String> gadget) {
         String name = NAME_BEGIN;
-        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST)) {
+        if (!gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
             name += "Новый ";
         }
         name += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(MODEL_LINE),
                 mapGadgetAttributeNumber.get(COLOR) + 1)).replace("  ", " ");
-        if (!gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST)) {
+        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
             name += " Реф";
         }
         name += " Магазин";
@@ -363,7 +363,7 @@ public class AvitoGadgets extends Gadgets {
                 offer += "(восстановленный)";
                 break;
             case RST:
-                offer += "(совершенно новый)";
+                offer += "(совершенно новый, гарантия производителя)";
         }
         offer += "</p>";
         return offer;
@@ -489,7 +489,7 @@ public class AvitoGadgets extends Gadgets {
                 "\uD83D\uDC4D<br>" +
                 "Магазин AMOLED\uD83C\uDF08</p>";
         text = text.replace(TOUCH_LOCKED, "без отпечатка");
-        return text+"]]>";
+        return text + "]]>";
     }
 
     private String getDateByCalendar(Calendar calendar) {
@@ -695,7 +695,7 @@ public class AvitoGadgets extends Gadgets {
             }
         }
         xml += "</Ads>";
-        BufferedWriter writer = Solution.getOutputWriter("Output/", "ads.xml");
+        BufferedWriter writer = Solution.getOutputWriter("Output/", "AdsXML.xml ");
         writer.write(xml);
         writer.flush();
     }
