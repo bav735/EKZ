@@ -76,21 +76,21 @@ public class GadgetConst {
             "7 Plus"));
 
     public final static ArrayList<Integer> gadgetPerMonthCount = new ArrayList<Integer>(Arrays.asList(
-            13,//"Grand Prime",
+            11,//"Grand Prime",
             4,//"Core Prime",
             5,//"Alpha",
             33,//"S3",
             2,//"S3 Mini",
-            46,//"S4",
+            36,//"S4",
             19,//"S4 Mini",
             27,//"S5",
             7,//"S5 Mini",
             48,//"S6",
             23,//"S6 Edge",
             2,//"S6 Edge Plus",
-            83,//"S7",
-            44,//"S7 Edge",
-            34,//"S8",
+            93,//"S7",
+            56,//"S7 Edge",
+            53,//"S8",
             3,//"S8 Plus",
             4,//"A3 (2015)",
             23,//"A3 (2016)",
@@ -109,22 +109,22 @@ public class GadgetConst {
             4,//"J5 (2017)",
             12,//"J7 (2016)",
             1,//"J7 (2017)",
-            14,//"Note 3",
-            6,//"Note 4",
-            6,//"Note 5"));
+            16,//"Note 3",
+            8,//"Note 4",
+            7,//"Note 5"));
 
-            103,//4
-            158,//4s
-            173,//5
-            62,//5c
-            768,//5s
-            564,//6
+            95,//4
+            171,//4s
+            190,//5
+            54,//5c
+            700,//5s
+            600,//6
             65,//6+
             289,//6s
             48,//6s+
             63,//se
-            277,//7
-            71));//7+
+            300,//7
+            85));//7+
 
     public final static ArrayList<ArrayList<String>> subModels = new ArrayList<ArrayList<String>>() {
         {
