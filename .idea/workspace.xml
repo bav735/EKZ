@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets$CustomComparator.class" afterPath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets$CustomComparator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/Gadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/Gadgets.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/AdsXML.xml" afterPath="$PROJECT_DIR$/Output/AdsXML.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AvitoGadgets.java" afterPath="$PROJECT_DIR$/src/AvitoGadgets.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gadgets.java" afterPath="$PROJECT_DIR$/src/Gadgets.java" />
-    </list>
+    <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="" />
     <ignored path="EKZ.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
