@@ -8,7 +8,6 @@ import java.util.Scanner;
  */
 public class Gadgets {
     final static int PRICES_COUNT = 8;
-    final static String ROOT_DIR = "C:/EKZ/";
     final static String NO_PRICE = "-";
     final static String ISPARK = "iSPARK";
     final static String AMOLED = "iSPARK";

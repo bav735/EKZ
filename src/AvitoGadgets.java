@@ -197,6 +197,8 @@ public class AvitoGadgets extends Gadgets {
             String modelLine = gadget.get(mapGadgetAttributeNumber.get(MODEL_LINE));
             String subModel = gadget.get(mapGadgetAttributeNumber.get(SUBMODEL));
             String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
+            String fingerPrint = gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT));
+            String color = gadget.get(mapGadgetAttributeNumber.get(COLOR));
             if (quality.equals(EST) && subModel.equals(GadgetConst.mapModelSubmodel.get(model).get(0))) {
                 price = getPriceISPARK(getGadgetName(gadget), 0);
             }
@@ -204,7 +206,6 @@ public class AvitoGadgets extends Gadgets {
                 price = getPriceISPARK(getGadgetName(gadget), 1);
             }
             if (price > 0) {
-                String color = gadget.get(mapGadgetAttributeNumber.get(COLOR));
                 if (model.contains("7") && color.toLowerCase().contains("red")) {
                     price = getIncreasedPrice(price) - 10;
                 }
@@ -214,7 +215,6 @@ public class AvitoGadgets extends Gadgets {
                         "<model>" + gadget.get(mapGadgetAttributeNumber.get(MODEL_LINE)) + " " +
                         model + " " + gadget.get(mapGadgetAttributeNumber.get(MEMORY)) + " " +
                         color + " " + subModel);
-                String fingerPrint = gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT));
                 if (!fingerPrint.isEmpty()) {
                     bufferedWriter.write(" " + fingerPrint);
                 }
@@ -222,7 +222,7 @@ public class AvitoGadgets extends Gadgets {
                         "<vendor>" + gadget.get(mapGadgetAttributeNumber.get(VENDOR)) + "</vendor>\n" +
                         "<price>" + price + ".0</price>\n" +
                         "<description>" + getDescriptionByModel(modelLine, model) + "</description>\n" +
-                        "<picture>" + getImageUrlPath(vendor, modelLine, model, color) + "</picture>\n" +
+                        "<picture>" + getImageUrlPath(gadget) + "</picture>\n" +
                         "</offer>\n");
             }
         }
@@ -239,10 +239,22 @@ public class AvitoGadgets extends Gadgets {
         return res;
     }
 
-    public String getImageUrlPath(String vendor, String modelLine, String model, String color) {
-        return "https://raw.githubusercontent.com/bav735/EKZ/master/" + vendor + "/" + modelLine + "/" +
-                model.replace(" ", "") + "/" + /*getLongColor(*/color/*)*/.replace(" ", "") + "/" +
-                IMG_FILE_NAME + ".jpg";
+    public String getAmoledImagePath(ArrayList<String> gadget) {
+        return "imgs/" + gadget.get(mapGadgetAttributeNumber.get(QUALITY)) +
+                "/" + getImagePath(gadget);
+    }
+
+    public String getImagePath(ArrayList<String> gadget) {
+        String vendor = gadget.get(mapGadgetAttributeNumber.get(VENDOR));
+        String modelLine = gadget.get(mapGadgetAttributeNumber.get(MODEL_LINE));
+        String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
+        String color = gadget.get(mapGadgetAttributeNumber.get(COLOR));
+        return vendor + "/" + modelLine + "/" + model.replace(" ", "") + "/" + color.replace(" ", "")
+                + "/" + IMG_FILE_NAME + ".jpg";
+    }
+
+    public String getImageUrlPath(ArrayList<String> gadget) {
+        return "https://raw.githubusercontent.com/bav735/EKZ/master/" + getImagePath(gadget);
     }
 
     private boolean notEnoughModel(ArrayList<String> gadget) {
@@ -507,11 +519,6 @@ public class AvitoGadgets extends Gadgets {
 
     public String getXmlAd(ArrayList<String> gadget, int xmlDay, String dateEnd) {
         String ad = "\t<Ad>\n";
-//        System.out.println(calendarCurr.get(Calendar.DAY_OF_MONTH) + " " + calendarCurr.get(Calendar.MONTH) + " " + calendarCurr.get(Calendar.YEAR));
-//        if (gadget.get(mapGadgetAttributeNumber.get(MODEL)).equals("S3 Mini")) {
-//            System.out.println("#" + seconds);
-//        }
-//        System.out.println(dayNum + " " + divideDay);
         Calendar calendarZero = (Calendar) CALENDAR_ZERO.clone();
         int dayNumCurrentMonth = (DAY_NUM_GLOBAL - 1) % 30 + 1;
         calendarZero.add(Calendar.DAY_OF_MONTH, DAY_NUM_GLOBAL - dayNumCurrentMonth - 1 + xmlDay);
@@ -547,9 +554,9 @@ public class AvitoGadgets extends Gadgets {
         ad += "\t\t<Description>" + getAdTextAvitoShop(gadget) + "</Description>\n";
         ad += "\t\t<Price>" + getPriceAMOLED(gadget) + "</Price>\n";
         ad += "\t\t<Images>\n";
-//        String imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/" +
-//                getGadgetPathAvito(gadget, SUBMODEL) + IMG_FILE_NAME + ".jpg";
-//        ad += "\t\t\t<Image url=\"" + imgLink + "\"/>\n";
+        String imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/" +
+                getAmoledImagePath(gadget);
+        ad += "\t\t\t<Image url=\"" + imgLink + "\"/>\n";
 //        imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/price_iphone.png";
 //        ad += "\t\t\t<Image url=\"" + imgLink + "\"/>\n";
         ad += "\t\t</Images>\n";
@@ -620,13 +627,16 @@ public class AvitoGadgets extends Gadgets {
         return (path + color + "/").replace(" ", "");
     }
 
-    public void generateDirsPhotos(ArrayList<String> gadget) {
-        File gadgetDirImg = new File(ROOT_DIR + getGadgetPathAvito(gadget, SUBMODEL));
-        gadgetDirImg.mkdirs();
-        gadgetDirImg = new File(gadgetDirImg, IMG_FILE_NAME + ".jpg");
-        File gadgetImg = new File(ROOT_DIR + getGadgetPathAvito(gadget, MODEL) + IMG_FILE_NAME + ".jpg");
+    private void generateAmoledDirsPhotos(ArrayList<String> gadget) {
+        File avitoImage = new File("C:/AMOLED/" + getAmoledImagePath(gadget));
+        avitoImage.mkdirs();
+        File gadgetImg = new File("C:/EKZ/" + gadget.get(mapGadgetAttributeNumber.get(VENDOR)) + "/" +
+                gadget.get(mapGadgetAttributeNumber.get(MODEL_LINE)) + "/" +
+                gadget.get(mapGadgetAttributeNumber.get(MODEL)).replace(" ", "") + "/" +
+                gadget.get(mapGadgetAttributeNumber.get(COLOR)).replace(" ", "") + "/" +
+                IMG_FILE_NAME + ".jpg");
         try {
-            Files.copy(gadgetImg.toPath(), gadgetDirImg.toPath(), StandardCopyOption.REPLACE_EXISTING);
+            Files.copy(gadgetImg.toPath(), avitoImage.toPath(), StandardCopyOption.REPLACE_EXISTING);
         } catch (IOException e) {
             System.out.println(e.toString());
         }
@@ -692,6 +702,7 @@ public class AvitoGadgets extends Gadgets {
                         formatDateElem(gadgetTimeMin) + ":" +
                         formatDateElem(gadgetTimeSec) + "+03:00";
                 xml += getXmlAd(gadgets.get(j), gadgetTimeDay, dateEnd);
+                generateAmoledDirsPhotos(gadgets.get(j));
             }
         }
         xml += "</Ads>";
