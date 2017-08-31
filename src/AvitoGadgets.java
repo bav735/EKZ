@@ -23,7 +23,7 @@ public class AvitoGadgets extends Gadgets {
     //    final static String[] CITIES = new String[]{"Казань"};
     final static String IMG_FILE_NAME = "img";
     final static int TOP_COUNT = 6;
-    final static int DAYS_OFFSET = 1;
+    final static int DAYS_OFFSET = 3;
     final static int TIME_DAY_SEC = 12 * 60 * 60;
     final static int TIME_MONTH_SEC = 30 * TIME_DAY_SEC;
     final static int HOUR_BEGIN = 9;
@@ -473,8 +473,8 @@ public class AvitoGadgets extends Gadgets {
     private String getAdTextAvitoShop(ArrayList<String> gadget) {
         String text = "<![CDATA[";
         text += "<p>Уважаемый покупатель,<br>" +
-                "Добро пожаловать в магазин AMOLED\uD83C\uDF08</p>";
-        text += "<p>\uD83C\uDF81АКЦИЯ, аксессуар на выбор в ПОДАРОК за отзыв❗<br>";
+                "Добро пожаловать в магазин AMOLED\uD83D\uDCF2</p>";
+        text += "<p>\uD83D\uDCA3ГАРАНТИЯ ЛУЧШЕЙ ЦЕНЫ, нашли дешевле в другом магазине? сделаем СКИДКУ❗</p>";
         text += "<p>\uD83D\uDC9BМы всегда идем навстречу нашим покупателям.<br>" +
                 "\uD83D\uDC49Мы предлагаем вам:<br>" +
                 "\uD83D\uDD39 КРЕДИТ от ОТП Банк/Хоум-Кредит<br>" +
@@ -491,7 +491,7 @@ public class AvitoGadgets extends Gadgets {
                     " a3/a5/a7/j1/j2/j3/j5/j7 2015/2015/2017, note 3/4/5 всех цветов и объемов памяти" +
                     " по лучшей цене в Казани!\uD83D\uDE0A</p>";
         }
-        text += getOffer(gadget);
+        text += "➡" + getOffer(gadget);
         text += "<p>✔ обеспечиваем гарантию на ремонтное обслуживание в течение 1 года<br>";
         text += "✔ выдаем товарный чек и гарантийный талон, заверенные живой печатью<br>";
         text += "✔ весь товар в пленке, без следов эксплуатации, подойдет для подарка<br>";
@@ -499,7 +499,7 @@ public class AvitoGadgets extends Gadgets {
         text += "<p>\uD83D\uDCDE Звоните: 10.00-20.00, ежедневно</p>" +
                 "<p>У нас вы сможете наиболее выгодно купить интересующий вас гаджет или аксессуар!" +
                 "\uD83D\uDC4D<br>" +
-                "Магазин AMOLED\uD83C\uDF08</p>";
+                "Магазин AMOLED\uD83D\uDCF2</p>";
         text = text.replace(TOUCH_LOCKED, "без отпечатка");
         return text + "]]>";
     }
