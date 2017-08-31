@@ -365,8 +365,8 @@ public class AvitoGadgets extends Gadgets {
         return "- в кредит на 6 мес = от " + getCreditPrice(gadget) + "₽ в мес<br>";
     }
 
-    private String getOffer(ArrayList<String> gadget) {
-        String offer = "<p>";
+    private String getOfferAMOLED(ArrayList<String> gadget) {
+        String offer = "<p>➡";
         offer += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(VENDOR),
                 mapGadgetAttributeNumber.get(COLOR) + 1)).replace("  ", " ");
         offer += " = " + getPriceAMOLED(gadget) + " руб ";
@@ -454,7 +454,7 @@ public class AvitoGadgets extends Gadgets {
                     " a3/a5/a7/j1/j2/j3/j5/j7 2015/2015/2017, note 3/4/5 всех цветов и объемов памяти" +
                     " по лучшей цене в Казани!\n\n";
         }
-        text += getOffer(gadget);
+        text += getOfferAMOLED(gadget);
         text += "\n- цена действует при оплате полной стоимости товара наличными\n";
         text += "- выдаем товарный чек и гарантийный талон, заверенные печатью\n";
         text += "- количество товара ограничено, уточняйте актуальное наличие\n";
@@ -491,7 +491,7 @@ public class AvitoGadgets extends Gadgets {
                     " a3/a5/a7/j1/j2/j3/j5/j7 2015/2015/2017, note 3/4/5 всех цветов и объемов памяти" +
                     " по лучшей цене в Казани!\uD83D\uDE0A</p>";
         }
-        text += "➡" + getOffer(gadget);
+        text += getOfferAMOLED(gadget);
         text += "<p>✔ обеспечиваем гарантию на ремонтное обслуживание в течение 1 года<br>";
         text += "✔ выдаем товарный чек и гарантийный талон, заверенные живой печатью<br>";
         text += "✔ весь товар в пленке, без следов эксплуатации, подойдет для подарка<br>";
