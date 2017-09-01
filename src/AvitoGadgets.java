@@ -551,12 +551,7 @@ public class AvitoGadgets extends Gadgets {
         ad += "\t\t<City>Казань</City>\n";
         ad += "\t\t<Category>Телефоны</Category>\n";
         String goodsType = "";
-        if (gadget.get(mapGadgetAttributeNumber.get(AvitoGadgets.VENDOR)).contains("Apple")) {
-            goodsType = "iPhone";
-        } else {
-            goodsType = "Samsung";
-        }
-        ad += "\t\t<GoodsType>" + goodsType + "</GoodsType>\n";
+        ad += "\t\t<GoodsType>" + gadget.get(mapGadgetAttributeNumber.get(VENDOR)) + "</GoodsType>\n";
         ad += "\t\t<Title>" + getAvitoAdName(gadget) + "</Title>\n";
         ad += "\t\t<Description>" + getAdTextAvitoShop(gadget) + "</Description>\n";
         ad += "\t\t<Price>" + getPriceAMOLED(gadget) + "</Price>\n";
