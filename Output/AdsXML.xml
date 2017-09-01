@@ -722,6 +722,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS732GbSMG930AGoldPlatinum</Id>
+		<DateBegin>2017-09-01T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -857,6 +858,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS732GbSMG930FSilverTitanium</Id>
+		<DateBegin>2017-09-16T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -873,6 +875,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS732GbSMG930SilverTitanium</Id>
+		<DateBegin>2017-09-17T19:30:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
