@@ -84,8 +84,8 @@ public class AvitoGadgets extends Gadgets {
         Scanner inScanner = Solution.getInputScanner("include_ads.txt");
         while (inScanner.hasNextLine()) {
             String line = inScanner.nextLine();
-            if (line.startsWith("Новый")) {
-                includeAds.add(line);
+            if (line.startsWith("Новый") || line.startsWith("iPhone") || line.startsWith("Galaxy")) {
+                includeAds.add(line.substring(0, line.lastIndexOf(" ")));
             }
         }
         inScanner.close();
@@ -536,7 +536,8 @@ public class AvitoGadgets extends Gadgets {
     public String getXmlAd(ArrayList<String> gadget, int xmlDay, String dateEnd) {
         String ad = "\t<Ad>\n";
         ad += "\t\t<Id>" + getIdName(gadget) + "</Id>\n";
-        if (!includeAds.contains(getAvitoAdName(gadget))) {
+        String name = getAvitoAdName(gadget);
+        if (!includeAds.contains(name.substring(0, name.lastIndexOf(" ")))) {
             Calendar calendarZero = (Calendar) CALENDAR_ZERO.clone();
             int dayNumCurrentMonth = (DAY_NUM_GLOBAL - 1) % 30 + 1;
             calendarZero.add(Calendar.DAY_OF_MONTH, DAY_NUM_GLOBAL - dayNumCurrentMonth - 1 + xmlDay);
@@ -563,7 +564,7 @@ public class AvitoGadgets extends Gadgets {
             goodsType = "iPhone";
         }
         ad += "\t\t<GoodsType>" + goodsType + "</GoodsType>\n";
-        ad += "\t\t<Title>" + getAvitoAdName(gadget) + "</Title>\n";
+        ad += "\t\t<Title>" + name + "</Title>\n";
         ad += "\t\t<Description>" + getAdTextAvitoShop(gadget) + "</Description>\n";
         ad += "\t\t<Price>" + getPriceAMOLED(gadget) + "</Price>\n";
         ad += "\t\t<Images>\n";
