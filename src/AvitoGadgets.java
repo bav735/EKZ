@@ -54,18 +54,15 @@ public class AvitoGadgets extends Gadgets {
             COLOR
     };
 
-    public static HashMap<String, Integer> mapGalaxysModelsNum;
-    public static HashMap<String, String> mapGalaxysModelDescription;
-
-    public static ArrayList<ArrayList<String>> galaxySubModels;
-
     ArrayList<ArrayList<String>> gadgetAttributesVariants;
+    HashSet<String> includeAds;
 
     public AvitoGadgets() {
     }
 
     public void initialize() {
         initializeMapGadgetAttributeNumber(gadgetAttributeNames);
+        initializeIncludeAds();
         gadgetAttributesVariants = new ArrayList<ArrayList<String>>();
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList(EST, RST)));
         gadgetAttributesVariants.add(new ArrayList<String>(GadgetConst.vendors));
@@ -80,6 +77,18 @@ public class AvitoGadgets extends Gadgets {
         calendar.set(Calendar.MINUTE, 0);
         calendar.set(Calendar.SECOND, 0);
         calendar.set(Calendar.MILLISECOND, 0);
+    }
+
+    private void initializeIncludeAds() {
+        includeAds = new HashSet<>();
+        Scanner inScanner = Solution.getInputScanner("include_ads.txt");
+        while (inScanner.hasNextLine()) {
+            String line = inScanner.nextLine();
+            if (line.startsWith("Новый")) {
+                includeAds.add(line);
+            }
+        }
+        inScanner.close();
     }
 
     /*public static String getLongColor(String shortColor) {
@@ -526,28 +535,27 @@ public class AvitoGadgets extends Gadgets {
 
     public String getXmlAd(ArrayList<String> gadget, int xmlDay, String dateEnd) {
         String ad = "\t<Ad>\n";
-        Calendar calendarZero = (Calendar) CALENDAR_ZERO.clone();
-        int dayNumCurrentMonth = (DAY_NUM_GLOBAL - 1) % 30 + 1;
-        calendarZero.add(Calendar.DAY_OF_MONTH, DAY_NUM_GLOBAL - dayNumCurrentMonth - 1 + xmlDay);
-        if (dayNumCurrentMonth <= DAYS_OFFSET) {
-            if (xmlDay > dayNumCurrentMonth + 30 - DAYS_OFFSET) {
-                calendarZero.add(Calendar.DAY_OF_MONTH, -30);
-            }
-        } else {
-            if (xmlDay <= dayNumCurrentMonth - DAYS_OFFSET) {
-                calendarZero.add(Calendar.DAY_OF_MONTH, 30);
-            }
-        }
-        String dateBegin = getDateByCalendar(calendarZero);
         ad += "\t\t<Id>" + getIdName(gadget) + "</Id>\n";
-        ad += "\t\t<DateBegin>" + dateBegin + dateEnd + "</DateBegin>\n";
+        if (!includeAds.contains(getAvitoAdName(gadget))) {
+            Calendar calendarZero = (Calendar) CALENDAR_ZERO.clone();
+            int dayNumCurrentMonth = (DAY_NUM_GLOBAL - 1) % 30 + 1;
+            calendarZero.add(Calendar.DAY_OF_MONTH, DAY_NUM_GLOBAL - dayNumCurrentMonth - 1 + xmlDay);
+            if (dayNumCurrentMonth <= DAYS_OFFSET) {
+                if (xmlDay > dayNumCurrentMonth + 30 - DAYS_OFFSET) {
+                    calendarZero.add(Calendar.DAY_OF_MONTH, -30);
+                }
+            } else {
+                if (xmlDay <= dayNumCurrentMonth - DAYS_OFFSET) {
+                    calendarZero.add(Calendar.DAY_OF_MONTH, 30);
+                }
+            }
+            String dateBegin = getDateByCalendar(calendarZero);
+            ad += "\t\t<DateBegin>" + dateBegin + dateEnd + "</DateBegin>\n";
+        }
         ad += "\t\t<AllowEmail>Нет</AllowEmail>\n";
         ad += "\t\t<ManagerName>Оператор-консультант</ManagerName>\n";
         ad += "\t\t<ContactPhone>89393911570</ContactPhone>\n";
-//        String city = CITIES[cityId];
-//        if (city.equals("Казань")) {
         ad += "\t\t<Region>Татарстан</Region>\n";
-//        }
         ad += "\t\t<City>Казань</City>\n";
         ad += "\t\t<Category>Телефоны</Category>\n";
         String goodsType = gadget.get(mapGadgetAttributeNumber.get(VENDOR));
