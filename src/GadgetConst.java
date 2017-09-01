@@ -285,7 +285,7 @@ public class GadgetConst {
             add(new ArrayList<String>(Arrays.asList("Black", "White", "Pink", "Lime")));//"Z1 Compact",
             add(new ArrayList<String>(Arrays.asList("Black", "White", "Purple")));//"Z2",
             add(new ArrayList<String>(Arrays.asList("Black", "White", "Copper", "Silver Green", "Purple")));//"Z3",
-            add(new ArrayList<String>(Arrays.asList("Black", "White", "Green", "Orange")));//"Z3 Compact",
+            add(new ArrayList<String>(Arrays.asList("Black", "White", "Green", "Orange")));//"Z3 Compact"
             add(new ArrayList<String>(Arrays.asList("White", "Graphite Black", "Yellow", "Coral")));//"Z5 Compact"
         }
     };

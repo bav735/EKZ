@@ -550,8 +550,11 @@ public class AvitoGadgets extends Gadgets {
 //        }
         ad += "\t\t<City>Казань</City>\n";
         ad += "\t\t<Category>Телефоны</Category>\n";
-        String goodsType = "";
-        ad += "\t\t<GoodsType>" + gadget.get(mapGadgetAttributeNumber.get(VENDOR)) + "</GoodsType>\n";
+        String goodsType = gadget.get(mapGadgetAttributeNumber.get(VENDOR));
+        if (goodsType.equals("Apple")) {
+            goodsType = "iPhone";
+        }
+        ad += "\t\t<GoodsType>" + goodsType + "</GoodsType>\n";
         ad += "\t\t<Title>" + getAvitoAdName(gadget) + "</Title>\n";
         ad += "\t\t<Description>" + getAdTextAvitoShop(gadget) + "</Description>\n";
         ad += "\t\t<Price>" + getPriceAMOLED(gadget) + "</Price>\n";
@@ -632,7 +635,8 @@ public class AvitoGadgets extends Gadgets {
     private void generateAmoledDirsPhotos(ArrayList<String> gadget) {
         File avitoImage = new File("C:/AMOLED/" + getAmoledImagePath(gadget));
         avitoImage.mkdirs();
-        File gadgetImg = new File("C:/EKZ/" + gadget.get(mapGadgetAttributeNumber.get(VENDOR)) + "/" +
+        File gadgetImg = new File("C:/iSPARK/images/" +
+                gadget.get(mapGadgetAttributeNumber.get(VENDOR)) + "/" +
                 gadget.get(mapGadgetAttributeNumber.get(MODEL_LINE)) + "/" +
                 gadget.get(mapGadgetAttributeNumber.get(MODEL)).replace(" ", "") + "/" +
                 gadget.get(mapGadgetAttributeNumber.get(COLOR)).replace(" ", "") + "/" +
