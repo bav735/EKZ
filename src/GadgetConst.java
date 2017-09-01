@@ -8,15 +8,18 @@ import java.util.HashMap;
 public class GadgetConst {
     public final static ArrayList<Integer> modelCount = new ArrayList<Integer>(Arrays.asList(
             36,
-            59));
+            59,
+            8));
 
     public final static ArrayList<String> vendors = new ArrayList<String>(Arrays.asList(
             "Samsung",
-            "Apple"));
+            "Apple",
+            "Sony"));
 
     public final static ArrayList<String> modelLines = new ArrayList<String>(Arrays.asList(
             "iPhone",
-            "Galaxy"));
+            "Galaxy",
+            "Xperia"));
 
     public final static ArrayList<String> memories = new ArrayList<String>(Arrays.asList(
             "0Gb",
@@ -77,7 +80,16 @@ public class GadgetConst {
             "6S Plus",
             "SE",
             "7",
-            "7 Plus"));
+            "7 Plus",
+            //xperias
+            "SP",
+            "Z",
+            "Z1",
+            "Z1 Compact",
+            "Z2",
+            "Z3",
+            "Z3 Compact",
+            "Z5 Compact"));
 
     public final static ArrayList<Integer> gadgetPerMonthCount = new ArrayList<Integer>(Arrays.asList(
             11,//"Grand Prime",
@@ -128,7 +140,17 @@ public class GadgetConst {
             48,//6s+
             63,//se
             300,//7
-            85));//7+
+            85,//7+
+
+            3,//"SP",
+            10,//"Z",
+            12,//"Z1",
+            5,//"Z1 Compact",
+            15,//"Z2",
+            36,//"Z3",
+            13,//"Z3 Compact",
+            5//"Z5 Compact"
+    ));
 
     public final static ArrayList<ArrayList<String>> subModels = new ArrayList<ArrayList<String>>() {
         {
@@ -181,6 +203,15 @@ public class GadgetConst {
             add(new ArrayList<String>(Arrays.asList("A1662", "A1723", "A1724")));//iphone se
             add(new ArrayList<String>(Arrays.asList("A1660", "A1778", "A1779")));//iphone 7
             add(new ArrayList<String>(Arrays.asList("A1661", "A1784", "A1785")));//iphone 7+
+
+            add(new ArrayList<String>(Arrays.asList("C5302", "C5303", "C5306")));//"SP"
+            add(new ArrayList<String>(Arrays.asList("C6602", "C6603", "C6616")));// "Z",
+            add(new ArrayList<String>(Arrays.asList("C6902", "C6903", "C6906", "C6916")));//"Z1",
+            add(new ArrayList<String>(Arrays.asList("D5502", "D5503")));//"Z1 Compact",
+            add(new ArrayList<String>(Arrays.asList("D6502", "D6503")));//"Z2",
+            add(new ArrayList<String>(Arrays.asList("D6633", "D6643", "D6708")));//"Z3",
+            add(new ArrayList<String>(Arrays.asList("D5803", "D5833")));//"Z3 Compact",
+            add(new ArrayList<String>(Arrays.asList("E5803", "E5823")));//"Z5 Compact"
         }
     };
     private final static String[] subModelEndings = new String[]{"F", "V", "A", "T", "FD"};
@@ -247,6 +278,15 @@ public class GadgetConst {
             add(new ArrayList<>(Arrays.asList("Space Gray", "Silver", "Gold", "Rose Gold")));//se
             add(new ArrayList<>(Arrays.asList("Black", "Silver", "Jet Black", "Gold", "Rose Gold", "(PRODUCT)RED")));//7
             add(new ArrayList<>(Arrays.asList("Black", "Silver", "Jet Black", "Gold", "Rose Gold", "(PRODUCT)RED")));//7+
+
+            add(new ArrayList<String>(Arrays.asList("Black", "White", "Red")));//"SP"
+            add(new ArrayList<String>(Arrays.asList("Black", "White", "Purple")));// "Z",
+            add(new ArrayList<String>(Arrays.asList("Black", "White", "Purple")));//"Z1",
+            add(new ArrayList<String>(Arrays.asList("Black", "White", "Pink", "Lime")));//"Z1 Compact",
+            add(new ArrayList<String>(Arrays.asList("Black", "White", "Purple")));//"Z2",
+            add(new ArrayList<String>(Arrays.asList("Black", "White", "Copper", "Silver Green", "Purple")));//"Z3",
+            add(new ArrayList<String>(Arrays.asList("Black", "White", "Green", "Orange")));//"Z3 Compact",
+            add(new ArrayList<String>(Arrays.asList("White", "Graphite Black", "Yellow", "Coral")));//"Z5 Compact"
         }
     };
 

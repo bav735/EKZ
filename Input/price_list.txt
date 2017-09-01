@@ -93,3 +93,11 @@ Samsung Galaxy J7 (2017) 16Gb	-	-	-	-	19000	19500	18380	17838
 Samsung Galaxy Note 3 16Gb	11500	14000	10100	8875	-	-	-	-
 Samsung Galaxy Note 4 32Gb	14500	18000	12820	11350	-	-	-	-
 Samsung Galaxy Note 5 32Gb	19500	27000	17620	15975	-	-	-	-
+Sony Xperia SP 8Gb	5000	6500	4600	4250	-	-	-	-
+Sony Xperia Z 16Gb	7500	9500	6580	5775	-	-	-	-
+Sony Xperia Z1 16Gb	8500	11500	7460	6550	-	-	-	-
+Sony Xperia Z1 Compact 16Gb	8000	11000	7080	6275	-	-	-	-
+Sony Xperia Z2 16Gb	9500	13500	8420	7475	-	-	-	-
+Sony Xperia Z3 16Gb	11500	15500	10100	8875	-	-	-	-
+Sony Xperia Z3 Compact 16Gb	11000	16500	9720	8600	-	-	-	-
+Sony Xperia Z5 Compact 16Gb	19500	22000	17620	15975			-	-

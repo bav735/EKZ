@@ -221,7 +221,7 @@ public class AvitoGadgets extends Gadgets {
                 bufferedWriter.write("</model>\n" +
                         "<vendor>" + gadget.get(mapGadgetAttributeNumber.get(VENDOR)) + "</vendor>\n" +
                         "<price>" + price + ".0</price>\n" +
-                        "<description>" + getDescriptionByModel(modelLine, model) + "</description>\n" +
+                        "<description>" + getDescriptionByModel(vendor, modelLine, model) + "</description>\n" +
                         "<picture>" + getImageUrlPath(gadget) + "</picture>\n" +
                         "</offer>\n");
             }
@@ -229,8 +229,9 @@ public class AvitoGadgets extends Gadgets {
         bufferedWriter.flush();
     }
 
-    private String getDescriptionByModel(String modelLine, String model) {
-        Scanner inScanner = Solution.getInputScanner("Website/Spec/" + modelLine + " " + model + ".txt");
+    private String getDescriptionByModel(String vendor, String modelLine, String model) {
+        Scanner inScanner = Solution.getInputScanner("Website/Spec/" +
+                vendor + " " + modelLine + " " + model + ".txt");
         String res = inScanner.nextLine();
         while (inScanner.hasNextLine()) {
             res += "\n" + inScanner.nextLine();
@@ -483,14 +484,20 @@ public class AvitoGadgets extends Gadgets {
                 "\uD83D\uDD39 ОПТ, ОПЛАТА ЧЕРЕЗ Р/С (ндс, без ндс)<br>" +
                 "\uD83D\uDD39 ДОСТАВКА ПО РФ через ТК CDEK (1-2 дня)<br>" +
                 "\uD83D\uDD1DМы занимаемся продажей смартфонов и аксессуаров с 2009 года.</p>";
-        if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).contains("Apple")) {
-            text += "<p>В нашем ассортименте оригинальные айфоны 4/4s/5/5c/5s/6/6s/se/7/plus всех цветов и объемов памяти" +
-                    " по лучшей цене в Казани!\uD83D\uDE0A</p>";
-        } else {
-            text += "<p>В нашем ассортименте оригинальные самсунг галакси s3/s4/s5/s6/s7/s8 edge/plus/alpha," +
-                    " a3/a5/a7/j1/j2/j3/j5/j7 2015/2015/2017, note 3/4/5 всех цветов и объемов памяти" +
-                    " по лучшей цене в Казани!\uD83D\uDE0A</p>";
+        text += "<p>В нашем ассортименте только \uD83D\uDCAFоригинальные ";
+        switch (gadget.get(mapGadgetAttributeNumber.get(VENDOR))) {
+            case "Apple":
+                text += "айфоны 4/4s/5/5c/5s/6/6s/se/7/plus";
+                break;
+            case "Samsung":
+                text += "самсунг галакси s3/s4/s5/s6/s7/s8 edge/plus/alpha, " +
+                        "a3/a5/a7/j1/j2/j3/j5/j7 2015/2015/2017, note 3/4/5";
+                break;
+            case "Sony":
+                text += "сони икспериа sp/z/z1/z2/z3/z5/compact";
+                break;
         }
+        text += " всех цветов и объемов памяти по лучшей цене в Казани!\uD83D\uDE0A</p>";
         text += getOfferAMOLED(gadget);
         text += "<p>✔ обеспечиваем гарантию на ремонтное обслуживание в течение 1 года<br>";
         text += "✔ выдаем товарный чек и гарантийный талон, заверенные живой печатью<br>";
