@@ -23,7 +23,7 @@ public class AvitoGadgets extends Gadgets {
     //    final static String[] CITIES = new String[]{"Казань"};
     final static String IMG_FILE_NAME = "img";
     final static int TOP_COUNT = 6;
-    final static int DAYS_OFFSET = 3;
+    final static int DAYS_OFFSET = 1;
     final static int TIME_DAY_SEC = 12 * 60 * 60;
     final static int TIME_MONTH_SEC = 30 * TIME_DAY_SEC;
     final static int HOUR_BEGIN = 9;
@@ -34,8 +34,8 @@ public class AvitoGadgets extends Gadgets {
     static {
         CALENDAR_ZERO = Calendar.getInstance();
         CALENDAR_ZERO.set(Calendar.YEAR, 2017);
-        CALENDAR_ZERO.set(Calendar.MONTH, 6);//july
-        CALENDAR_ZERO.set(Calendar.DAY_OF_MONTH, 30);
+        CALENDAR_ZERO.set(Calendar.MONTH, 8);//september
+        CALENDAR_ZERO.set(Calendar.DAY_OF_MONTH, 1);
         setCalendarToZero(CALENDAR_ZERO);
         Calendar calendar = Calendar.getInstance();
         setCalendarToZero(calendar);
@@ -645,12 +645,12 @@ public class AvitoGadgets extends Gadgets {
     private HashMap<String, ArrayList<ArrayList<String>>> getModelGadgetMap(ArrayList<ArrayList<String>> gadgets) {
         HashMap<String, ArrayList<ArrayList<String>>> mapGadgetModelGadgets = new HashMap<>();
         for (ArrayList<String> gadget : gadgets) {
-            String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
-            if (!mapGadgetModelGadgets.containsKey(model)) {
-                mapGadgetModelGadgets.put(model, new ArrayList<ArrayList<String>>());
-            }
-            mapGadgetModelGadgets.get(model).add(gadget);
             if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST)) {
+                String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
+                if (!mapGadgetModelGadgets.containsKey(model)) {
+                    mapGadgetModelGadgets.put(model, new ArrayList<ArrayList<String>>());
+                }
+                mapGadgetModelGadgets.get(model).add(gadget);
                 ArrayList<String> gadget2 = new ArrayList<>(gadget);
                 gadget2.set(mapGadgetAttributeNumber.get(QUALITY), EST2);
                 mapGadgetModelGadgets.get(model).add(gadget2);
@@ -684,6 +684,9 @@ public class AvitoGadgets extends Gadgets {
         String xml = "<Ads formatVersion=\"3\" target=\"Avito.ru\">\n";
         for (int i = 0; i < GadgetConst.models.size(); i++) {
             String model = GadgetConst.models.get(i);
+            if (!mapGadgetModelGadgets.containsKey(model)) {
+                continue;
+            }
             ArrayList<ArrayList<String>> gadgets = mapGadgetModelGadgets.get(model);
             Collections.sort(gadgets, new CustomComparator());
             int size = Math.min(gadgets.size(), GadgetConst.gadgetPerMonthCount.get(i) / TOP_COUNT + 1);

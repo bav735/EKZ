@@ -6,9 +6,13 @@ import java.util.HashMap;
  * Created by A on 05.08.2017.
  */
 public class GadgetConst {
+    public final static ArrayList<Integer> modelCount = new ArrayList<Integer>(Arrays.asList(
+            36,
+            59));
+
     public final static ArrayList<String> vendors = new ArrayList<String>(Arrays.asList(
-            "Apple",
-            "Samsung"));
+            "Samsung",
+            "Apple"));
 
     public final static ArrayList<String> modelLines = new ArrayList<String>(Arrays.asList(
             "iPhone",
@@ -128,42 +132,42 @@ public class GadgetConst {
 
     public final static ArrayList<ArrayList<String>> subModels = new ArrayList<ArrayList<String>>() {
         {
-            add(new ArrayList<String>(Arrays.asList("SM-G531", "SM-G531H")));//"Grand Prime",
-            add(new ArrayList<String>(Arrays.asList("SM-G360", "SM-G360H")));//"Core Prime",
-            add(new ArrayList<String>(Arrays.asList("SM-G850", "SM-G850F")));//"Alpha",
-            add(new ArrayList<String>(Arrays.asList("GT-I9300", "GT-I9300I")));//"S3",
-            add(new ArrayList<String>(Arrays.asList("GT-I8190", "GT-I8190I")));//"S3 Mini",
-            add(new ArrayList<String>(Arrays.asList("GT-I9500", "GT-I9505")));//"S4",
-            add(new ArrayList<String>(Arrays.asList("GT-I9192", "GT-I9192D")));//"S4 Mini",
-            add(new ArrayList<String>(Arrays.asList("SM-G900", "SM-G900F")));//"S5",
-            add(new ArrayList<String>(Arrays.asList("SM-G800", "SM-G800F")));//"S5 Mini",
-            add(new ArrayList<String>(Arrays.asList("SM-G920", "SM-G920F")));//"S6",
-            add(new ArrayList<String>(Arrays.asList("SM-G925", "SM-G925F")));//"S6 Edge",
-            add(new ArrayList<String>(Arrays.asList("SM-G928", "SM-G928F")));//"S6 Edge Plus",
-            add(new ArrayList<String>(Arrays.asList("SM-G930", "SM-G930F")));//"S7",
-            add(new ArrayList<String>(Arrays.asList("SM-G935", "SM-G935F")));//"S7 Edge",
-            add(new ArrayList<String>(Arrays.asList("SM-G950", "SM-G950F")));//"S8",
-            add(new ArrayList<String>(Arrays.asList("SM-G955", "SM-G955F")));//"S8 Plus",
-            add(new ArrayList<String>(Arrays.asList("SM-A300", "SM-A300F")));//"A3 (2015)",
-            add(new ArrayList<String>(Arrays.asList("SM-A310", "SM-A310F")));//"A3 (2016)",
-            add(new ArrayList<String>(Arrays.asList("SM-A320", "SM-A320F")));//"A3 (2017)",
-            add(new ArrayList<String>(Arrays.asList("SM-A500", "SM-A500F")));//"A5 (2015)",
-            add(new ArrayList<String>(Arrays.asList("SM-A510", "SM-A510F")));//"A5 (2016)",
-            add(new ArrayList<String>(Arrays.asList("SM-A520", "SM-A520F")));//"A5 (2017)",
-            add(new ArrayList<String>(Arrays.asList("SM-A700", "SM-A700F")));//"A7 (2015)",
-            add(new ArrayList<String>(Arrays.asList("SM-A710", "SM-A710F")));//"A7 (2016)",
-            add(new ArrayList<String>(Arrays.asList("SM-A720", "SM-A720F")));//"A7 (2017)",
-            add(new ArrayList<String>(Arrays.asList("SM-J120", "SM-J120F")));//"J1 (2016)",
-            add(new ArrayList<String>(Arrays.asList("SM-G532", "SM-G532F")));//"J2 (2016)",
-            add(new ArrayList<String>(Arrays.asList("SM-J320", "SM-J320F")));//"J3 (2016)",
-            add(new ArrayList<String>(Arrays.asList("SM-J330", "SM-J330F")));//"J3 (2017)",
-            add(new ArrayList<String>(Arrays.asList("SM-J510", "SM-J510F")));//"J5 (2016)",
-            add(new ArrayList<String>(Arrays.asList("SM-J530", "SM-J530F")));//"J5 (2017)",
-            add(new ArrayList<String>(Arrays.asList("SM-J710", "SM-J710F")));//"J7 (2016)",
-            add(new ArrayList<String>(Arrays.asList("SM-J730", "SM-J730F")));//"J7 (2017)",
-            add(new ArrayList<String>(Arrays.asList("SM-N900", "SM-N900F")));//"Note 3",
-            add(new ArrayList<String>(Arrays.asList("SM-N910", "SM-N910F")));//"Note 4",
-            add(new ArrayList<String>(Arrays.asList("SM-N920", "SM-N920F")));//"Note 5"};
+            add(new ArrayList<String>(Arrays.asList("SM-G531")));//"Grand Prime
+            add(new ArrayList<String>(Arrays.asList("SM-G360")));//"Core Prime
+            add(new ArrayList<String>(Arrays.asList("SM-G850")));//"Alpha
+            add(new ArrayList<String>(Arrays.asList("GT-I9300")));//"S3
+            add(new ArrayList<String>(Arrays.asList("GT-I8190")));//"S3 Mini
+            add(new ArrayList<String>(Arrays.asList("GT-I9500")));//"S4
+            add(new ArrayList<String>(Arrays.asList("GT-I9192")));//"S4 Mini
+            add(new ArrayList<String>(Arrays.asList("SM-G900")));//"S5
+            add(new ArrayList<String>(Arrays.asList("SM-G800")));//"S5 Mini
+            add(new ArrayList<String>(Arrays.asList("SM-G920")));//"S6
+            add(new ArrayList<String>(Arrays.asList("SM-G925")));//"S6 Edge
+            add(new ArrayList<String>(Arrays.asList("SM-G928")));//"S6 Edge Plus
+            add(new ArrayList<String>(Arrays.asList("SM-G930")));//"S7
+            add(new ArrayList<String>(Arrays.asList("SM-G935")));//"S7 Edge
+            add(new ArrayList<String>(Arrays.asList("SM-G950")));//"S8
+            add(new ArrayList<String>(Arrays.asList("SM-G955")));//"S8 Plus
+            add(new ArrayList<String>(Arrays.asList("SM-A300")));//"A3 (2015)
+            add(new ArrayList<String>(Arrays.asList("SM-A310")));//"A3 (2016)
+            add(new ArrayList<String>(Arrays.asList("SM-A320")));//"A3 (2017)
+            add(new ArrayList<String>(Arrays.asList("SM-A500")));//"A5 (2015)
+            add(new ArrayList<String>(Arrays.asList("SM-A510")));//"A5 (2016)
+            add(new ArrayList<String>(Arrays.asList("SM-A520")));//"A5 (2017)
+            add(new ArrayList<String>(Arrays.asList("SM-A700")));//"A7 (2015)
+            add(new ArrayList<String>(Arrays.asList("SM-A710")));//"A7 (2016)
+            add(new ArrayList<String>(Arrays.asList("SM-A720")));//"A7 (2017)
+            add(new ArrayList<String>(Arrays.asList("SM-J120")));//"J1 (2016)
+            add(new ArrayList<String>(Arrays.asList("SM-G532")));//"J2 (2016)
+            add(new ArrayList<String>(Arrays.asList("SM-J320")));//"J3 (2016)
+            add(new ArrayList<String>(Arrays.asList("SM-J330")));//"J3 (2017)
+            add(new ArrayList<String>(Arrays.asList("SM-J510")));//"J5 (2016)
+            add(new ArrayList<String>(Arrays.asList("SM-J530")));//"J5 (2017)
+            add(new ArrayList<String>(Arrays.asList("SM-J710")));//"J7 (2016)
+            add(new ArrayList<String>(Arrays.asList("SM-J730")));//"J7 (2017)
+            add(new ArrayList<String>(Arrays.asList("SM-N900")));//"Note 3
+            add(new ArrayList<String>(Arrays.asList("SM-N910")));//"Note 4
+            add(new ArrayList<String>(Arrays.asList("SM-N920")));//"Note 5
 
             add(new ArrayList<String>(Arrays.asList("A1332", "A1349")));//iphone 4
             add(new ArrayList<String>(Arrays.asList("A1387", "A1431")));//iphone 4s
@@ -179,12 +183,24 @@ public class GadgetConst {
             add(new ArrayList<String>(Arrays.asList("A1661", "A1784", "A1785")));//iphone 7+
         }
     };
+    private final static String[] subModelEndings = new String[]{"F", "V", "A", "T", "FD"};
+
+    static {
+        for (int i = 0; i < modelCount.get(0); i++) {
+            ArrayList<String> subModelList = subModels.get(i);
+            String submodel = subModelList.get(0);
+            for (String modelEnding : subModelEndings) {
+                String newSubModel = submodel + modelEnding;
+                subModelList.add(newSubModel);
+            }
+        }
+    }
 
     public final static ArrayList<ArrayList<String>> colors = new ArrayList<ArrayList<String>>() {
         {
-            add(new ArrayList<String>(Arrays.asList("Gray", "White")));//"Grand Prime",
-            add(new ArrayList<String>(Arrays.asList("Gray", "White")));//"Core Prime",
-            add(new ArrayList<String>(Arrays.asList("Gray", "White", "Gold", "Silver")));//"Alpha",
+            add(new ArrayList<String>(Arrays.asList("Gray", "White")));//"Grand Prime
+            add(new ArrayList<String>(Arrays.asList("Gray", "White")));//"Core Prime
+            add(new ArrayList<String>(Arrays.asList("Gray", "White", "Gold", "Silver")));//"Alpha
             add(new ArrayList<String>(Arrays.asList("Black", "White", "Blue")));//s3
             add(new ArrayList<String>(Arrays.asList("Black", "White")));//s3 mini
             add(new ArrayList<String>(Arrays.asList("Black", "White", "Blue")));//s4
