@@ -6,22 +6,24 @@ import java.util.HashMap;
  * Created by A on 05.08.2017.
  */
 public class GadgetConst {
-    public final static ArrayList<Integer> modelCount = new ArrayList<Integer>(Arrays.asList(
+    public final static String[] CITIES = new String[]{"Казань", "Набережные Челны"};
+
+    public final static ArrayList<Integer> MODEL_COUNT = new ArrayList<Integer>(Arrays.asList(
             36,
             59,
             8));
 
-    public final static ArrayList<String> vendors = new ArrayList<String>(Arrays.asList(
+    public final static ArrayList<String> VENDORS = new ArrayList<String>(Arrays.asList(
             "Samsung",
             "Apple",
             "Sony"));
 
-    public final static ArrayList<String> modelLines = new ArrayList<String>(Arrays.asList(
+    public final static ArrayList<String> MODEL_LINES = new ArrayList<String>(Arrays.asList(
             "iPhone",
             "Galaxy",
             "Xperia"));
 
-    public final static ArrayList<String> memories = new ArrayList<String>(Arrays.asList(
+    public final static ArrayList<String> MEMORIES = new ArrayList<String>(Arrays.asList(
             "0Gb",
             "8Gb",
             "16Gb",
@@ -30,7 +32,7 @@ public class GadgetConst {
             "128Gb",
             "256Gb"));
 
-    public final static ArrayList<String> models = new ArrayList<String>(Arrays.asList(
+    public final static ArrayList<String> MODELS = new ArrayList<String>(Arrays.asList(
             //galaxys
             "Grand Prime",
             "Core Prime",
@@ -91,68 +93,134 @@ public class GadgetConst {
             "Z3 Compact",
             "Z5 Compact"));
 
-    public final static ArrayList<Integer> gadgetPerMonthCount = new ArrayList<Integer>(Arrays.asList(
-            11,//"Grand Prime",
-            4,//"Core Prime",
-            5,//"Alpha",
-            33,//"S3",
-            2,//"S3 Mini",
-            36,//"S4",
-            19,//"S4 Mini",
-            27,//"S5",
-            7,//"S5 Mini",
-            48,//"S6",
-            23,//"S6 Edge",
-            2,//"S6 Edge Plus",
-            93,//"S7",
-            56,//"S7 Edge",
-            53,//"S8",
-            3,//"S8 Plus",
-            4,//"A3 (2015)",
-            23,//"A3 (2016)",
-            12,//"A3 (2017)",
-            7,//"A5 (2015)",
-            23,//"A5 (2016)",
-            9,//"A5 (2017)",
-            4,//"A7 (2015)",
-            6,//"A7 (2016)",
-            6,//"A7 (2017)",
-            22,//"J1 (2016)",
-            4,//"J2 (2016)",
-            21,//"J3 (2016)",
-            1,//"J3 (2017)",
-            13,//"J5 (2016)",
-            4,//"J5 (2017)",
-            12,//"J7 (2016)",
-            1,//"J7 (2017)",
-            16,//"Note 3",
-            8,//"Note 4",
-            7,//"Note 5"));
 
-            95,//4
-            171,//4s
-            190,//5
-            54,//5c
-            700,//5s
-            600,//6
-            65,//6+
-            289,//6s
-            48,//6s+
-            63,//se
-            300,//7
-            85,//7+
+    public final static ArrayList<Integer>[] GADGET_PER_MONTH_COUNT = new ArrayList[CITIES.length];
 
-            3,//"SP",
-            10,//"Z",
-            12,//"Z1",
-            5,//"Z1 Compact",
-            15,//"Z2",
-            36,//"Z3",
-            13,//"Z3 Compact",
-            5//"Z5 Compact"
-    ));
+    static {
+        GADGET_PER_MONTH_COUNT[0] = new ArrayList<Integer>(Arrays.asList(
+                11,//"Grand Prime",
+                4,//"Core Prime",
+                5,//"Alpha",
+                33,//"S3",
+                2,//"S3 Mini",
+                36,//"S4",
+                19,//"S4 Mini",
+                27,//"S5",
+                7,//"S5 Mini",
+                48,//"S6",
+                23,//"S6 Edge",
+                2,//"S6 Edge Plus",
+                93,//"S7",
+                56,//"S7 Edge",
+                53,//"S8",
+                3,//"S8 Plus",
+                4,//"A3 (2015)",
+                23,//"A3 (2016)",
+                12,//"A3 (2017)",
+                7,//"A5 (2015)",
+                23,//"A5 (2016)",
+                9,//"A5 (2017)",
+                4,//"A7 (2015)",
+                6,//"A7 (2016)",
+                6,//"A7 (2017)",
+                22,//"J1 (2016)",
+                4,//"J2 (2016)",
+                21,//"J3 (2016)",
+                1,//"J3 (2017)",
+                13,//"J5 (2016)",
+                4,//"J5 (2017)",
+                12,//"J7 (2016)",
+                1,//"J7 (2017)",
+                16,//"Note 3",
+                8,//"Note 4",
+                7,//"Note 5"));
 
-    public final static ArrayList<ArrayList<String>> subModels = new ArrayList<ArrayList<String>>() {
+                95,//4
+                171,//4s
+                190,//5
+                54,//5c
+                700,//5s
+                600,//6
+                65,//6+
+                289,//6s
+                48,//6s+
+                63,//se
+                300,//7
+                85,//7+
+
+                3,//"SP",
+                10,//"Z",
+                12,//"Z1",
+                5,//"Z1 Compact",
+                15,//"Z2",
+                36,//"Z3",
+                13,//"Z3 Compact",
+                5//"Z5 Compact"
+        ));
+
+        GADGET_PER_MONTH_COUNT[1] = new ArrayList<Integer>(Arrays.asList(
+                1,//"Grand Prime",
+                1,//"Core Prime",
+                2,//"Alpha",
+                23,//"S3",
+                1,//"S3 Mini",
+                19,//"S4",
+                10,//"S4 Mini",
+                20,//"S5",
+                4,//"S5 Mini",
+                26,//"S6",
+                10,//"S6 Edge",
+                1,//"S6 Edge Plus",
+                18,//"S7",
+                6,//"S7 Edge",
+                1,//"S8",
+                1,//"S8 Plus",
+                1,//"A3 (2015)",
+                6,//"A3 (2016)",
+                1,//"A3 (2017)",
+                1,//"A5 (2015)",
+                12,//"A5 (2016)",
+                1,//"A5 (2017)",
+                1,//"A7 (2015)",
+                1,//"A7 (2016)",
+                1,//"A7 (2017)",
+                12,//"J1 (2016)",
+                1,//"J2 (2016)",
+                21,//"J3 (2016)",
+                1,//"J3 (2017)",
+                1,//"J5 (2016)",
+                1,//"J5 (2017)",
+                1,//"J7 (2016)",
+                1,//"J7 (2017)",
+                1,//"Note 3",
+                1,//"Note 4",
+                1,//"Note 5"));
+
+                30,//4
+                1,//4s
+                6,//5
+                13,//5c
+                154,//5s
+                1,//6
+                129,//6+
+                72,//6s
+                7,//6s+
+                23,//se
+                72,//7
+                6,//7+
+
+                1,//"SP",
+                1,//"Z",
+                12,//"Z1",
+                1,//"Z1 Compact",
+                1,//"Z2",
+                6,//"Z3",
+                6,//"Z3 Compact",
+                1//"Z5 Compact"
+        ));
+    }
+
+    public final static ArrayList<ArrayList<String>> SUB_MODELS = new ArrayList<ArrayList<String>>() {
         {
             add(new ArrayList<String>(Arrays.asList("SM-G531")));//"Grand Prime
             add(new ArrayList<String>(Arrays.asList("SM-G360")));//"Core Prime
@@ -214,20 +282,20 @@ public class GadgetConst {
             add(new ArrayList<String>(Arrays.asList("E5803", "E5823")));//"Z5 Compact"
         }
     };
-    private final static String[] subModelEndings = new String[]{"F", "V", "A", "T", "FD"};
+    private final static String[] SUB_MODEL_ENDINGS = new String[]{"F", "V", "A", "T", "FD"};
 
     static {
-        for (int i = 0; i < modelCount.get(0); i++) {
-            ArrayList<String> subModelList = subModels.get(i);
+        for (int i = 0; i < MODEL_COUNT.get(0); i++) {
+            ArrayList<String> subModelList = SUB_MODELS.get(i);
             String submodel = subModelList.get(0);
-            for (String modelEnding : subModelEndings) {
+            for (String modelEnding : SUB_MODEL_ENDINGS) {
                 String newSubModel = submodel + modelEnding;
                 subModelList.add(newSubModel);
             }
         }
     }
 
-    public final static ArrayList<ArrayList<String>> colors = new ArrayList<ArrayList<String>>() {
+    public final static ArrayList<ArrayList<String>> COLORS = new ArrayList<ArrayList<String>>() {
         {
             add(new ArrayList<String>(Arrays.asList("Gray", "White")));//"Grand Prime
             add(new ArrayList<String>(Arrays.asList("Gray", "White")));//"Core Prime
@@ -290,30 +358,33 @@ public class GadgetConst {
         }
     };
 
-    public static final HashMap<String, ArrayList<String>> mapModelSubmodel;
+    public static final HashMap<String, ArrayList<String>> MAP_MODEL_SUBMODEL;
 
     static {
-        mapModelSubmodel = new HashMap<>();
-        for (int i = 0; i < models.size(); i++) {
-            mapModelSubmodel.put(models.get(i), subModels.get(i));
+        MAP_MODEL_SUBMODEL = new HashMap<>();
+        for (int i = 0; i < MODELS.size(); i++) {
+            MAP_MODEL_SUBMODEL.put(MODELS.get(i), SUB_MODELS.get(i));
         }
     }
 
-    public static final HashMap<String, ArrayList<String>> mapModelColor;
+    public static final HashMap<String, ArrayList<String>> MAP_MODEL_COLOR;
 
     static {
-        mapModelColor = new HashMap<>();
-        for (int i = 0; i < models.size(); i++) {
-            mapModelColor.put(models.get(i), colors.get(i));
+        MAP_MODEL_COLOR = new HashMap<>();
+        for (int i = 0; i < MODELS.size(); i++) {
+            MAP_MODEL_COLOR.put(MODELS.get(i), COLORS.get(i));
         }
     }
 
-    public static final HashMap<String, Integer> mapModelPerMonthCount;
+    public static final HashMap<String, Integer>[] MAP_MODEL_PER_MONTH_COUNT
+            = new HashMap[CITIES.length];
 
     static {
-        mapModelPerMonthCount = new HashMap<>();
-        for (int i = 0; i < models.size(); i++) {
-            mapModelPerMonthCount.put(models.get(i), gadgetPerMonthCount.get(i));
+        for (int i = 0; i < CITIES.length; i++) {
+            MAP_MODEL_PER_MONTH_COUNT[i] = new HashMap<>();
+            for (int j = 0; j < MODELS.size(); j++) {
+                MAP_MODEL_PER_MONTH_COUNT[i].put(MODELS.get(j), GADGET_PER_MONTH_COUNT[i].get(j));
+            }
         }
     }
 }

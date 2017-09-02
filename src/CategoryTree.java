@@ -165,7 +165,7 @@ public class CategoryTree {
             for (Gadget gadget : child.gadgets) {
 //                System.out.println(gadget.getPriceListName() + "$");
                 if (AvitoGadgets.inPriceList(gadget.getPriceListName())) {
-                    if (gadget.getSubModel().equals(GadgetConst.mapModelSubmodel
+                    if (gadget.getSubModel().equals(GadgetConst.MAP_MODEL_SUBMODEL
                             .get(gadget.getPriceListModel()).get(1))) {
                         gadget.price = AvitoGadgets.getPriceISPARK(gadget.getPriceListName(), 1) + "";
                         gadget.description = ("Тип товара: Ростест (RST)\n").concat(gadget.description);

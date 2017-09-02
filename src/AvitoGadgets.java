@@ -20,10 +20,9 @@ public class AvitoGadgets extends Gadgets {
     final static String RST = "RST";
     final static String EST = "EST";
     final static String EST2 = "EST2";
-    //    final static String[] CITIES = new String[]{"Казань"};
     final static String IMG_FILE_NAME = "img";
     final static int TOP_COUNT = 6;
-    final static int DAYS_OFFSET = 1;
+    final static int DAYS_OFFSET = 2;
     final static int TIME_DAY_SEC = 12 * 60 * 60;
     final static int TIME_MONTH_SEC = 30 * TIME_DAY_SEC;
     final static int HOUR_BEGIN = 9;
@@ -65,10 +64,10 @@ public class AvitoGadgets extends Gadgets {
         initializeIncludeAds();
         gadgetAttributesVariants = new ArrayList<ArrayList<String>>();
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList(EST, RST)));
-        gadgetAttributesVariants.add(new ArrayList<String>(GadgetConst.vendors));
-        gadgetAttributesVariants.add(new ArrayList<String>(GadgetConst.modelLines));
-        gadgetAttributesVariants.add(GadgetConst.models);
-        gadgetAttributesVariants.add(new ArrayList<>(GadgetConst.memories));
+        gadgetAttributesVariants.add(new ArrayList<String>(GadgetConst.VENDORS));
+        gadgetAttributesVariants.add(new ArrayList<String>(GadgetConst.MODEL_LINES));
+        gadgetAttributesVariants.add(GadgetConst.MODELS);
+        gadgetAttributesVariants.add(new ArrayList<>(GadgetConst.MEMORIES));
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("", TOUCH_LOCKED)));
     }
 
@@ -208,10 +207,10 @@ public class AvitoGadgets extends Gadgets {
             String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
             String fingerPrint = gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT));
             String color = gadget.get(mapGadgetAttributeNumber.get(COLOR));
-            if (quality.equals(EST) && subModel.equals(GadgetConst.mapModelSubmodel.get(model).get(0))) {
+            if (quality.equals(EST) && subModel.equals(GadgetConst.MAP_MODEL_SUBMODEL.get(model).get(0))) {
                 price = getPriceISPARK(getGadgetName(gadget), 0);
             }
-            if (quality.equals(RST) && subModel.equals(GadgetConst.mapModelSubmodel.get(model).get(1))) {
+            if (quality.equals(RST) && subModel.equals(GadgetConst.MAP_MODEL_SUBMODEL.get(model).get(1))) {
                 price = getPriceISPARK(getGadgetName(gadget), 1);
             }
             if (price > 0) {
@@ -293,8 +292,8 @@ public class AvitoGadgets extends Gadgets {
                 }
                 System.out.println(quality + " " + getGadgetName(gadget));
                 String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
-                for (String color : GadgetConst.mapModelColor.get(model)) {
-                    for (String submodel : GadgetConst.mapModelSubmodel.get(model)) {
+                for (String color : GadgetConst.MAP_MODEL_COLOR.get(model)) {
+                    for (String submodel : GadgetConst.MAP_MODEL_SUBMODEL.get(model)) {
                         ArrayList<String> newGadget = new ArrayList<>(gadget);
                         newGadget.add(mapGadgetAttributeNumber.get(SUBMODEL), submodel);
                         newGadget.add(mapGadgetAttributeNumber.get(COLOR), color);
@@ -533,11 +532,12 @@ public class AvitoGadgets extends Gadgets {
         return "" + num;
     }
 
-    public String getXmlAd(ArrayList<String> gadget, int xmlDay, String dateEnd) {
+    public String getXmlAd(ArrayList<String> gadget, int xmlDay, String dateEnd, String city, int gadgetId) {
         String ad = "\t<Ad>\n";
         ad += "\t\t<Id>" + getIdName(gadget) + "</Id>\n";
         String name = getAvitoAdName(gadget);
-        if (!includeAds.contains(name.substring(0, name.lastIndexOf(" ")))) {
+        if (gadgetId > 0 && (!includeAds.contains(name.substring(0, name.lastIndexOf(" "))) ||
+                !city.equals(GadgetConst.CITIES[0]))) {
             Calendar calendarZero = (Calendar) CALENDAR_ZERO.clone();
             int dayNumCurrentMonth = (DAY_NUM_GLOBAL - 1) % 30 + 1;
             calendarZero.add(Calendar.DAY_OF_MONTH, DAY_NUM_GLOBAL - dayNumCurrentMonth - 1 + xmlDay);
@@ -557,7 +557,7 @@ public class AvitoGadgets extends Gadgets {
         ad += "\t\t<ManagerName>Оператор-консультант</ManagerName>\n";
         ad += "\t\t<ContactPhone>89393911570</ContactPhone>\n";
         ad += "\t\t<Region>Татарстан</Region>\n";
-        ad += "\t\t<City>Казань</City>\n";
+        ad += "\t\t<City>" + city + "</City>\n";
         ad += "\t\t<Category>Телефоны</Category>\n";
         String goodsType = gadget.get(mapGadgetAttributeNumber.get(VENDOR));
         if (goodsType.equals("Apple")) {
@@ -697,30 +697,37 @@ public class AvitoGadgets extends Gadgets {
     public void generateXML() throws IOException {
         HashMap<String, ArrayList<ArrayList<String>>> mapGadgetModelGadgets = getModelGadgetMap(gadgets);
         String xml = "<Ads formatVersion=\"3\" target=\"Avito.ru\">\n";
-        for (int i = 0; i < GadgetConst.models.size(); i++) {
-            String model = GadgetConst.models.get(i);
-            if (!mapGadgetModelGadgets.containsKey(model)) {
-                continue;
-            }
-            ArrayList<ArrayList<String>> gadgets = mapGadgetModelGadgets.get(model);
-            Collections.sort(gadgets, new CustomComparator());
-            int size = Math.min(gadgets.size(), GadgetConst.gadgetPerMonthCount.get(i) / TOP_COUNT + 1);
-            int timeIntervalSec = TIME_MONTH_SEC / size;
-            System.out.println("$" + model + " " + size);
-            for (int j = size - 1; j >= 0; j--) {
-                int gadgetId = size - j - 1;
-                int gadgetTimeSec = gadgetId * timeIntervalSec;
-                int gadgetTimeDay = gadgetTimeSec / TIME_DAY_SEC + 1;
-                gadgetTimeSec %= TIME_DAY_SEC;
-                int gadgetTimeHour = gadgetTimeSec / 3600 + HOUR_BEGIN;
-                gadgetTimeSec %= 3600;
-                int gadgetTimeMin = gadgetTimeSec / 60;
-                gadgetTimeSec %= 60;
-                String dateEnd = "T" + formatDateElem(gadgetTimeHour) + ":" +
-                        formatDateElem(gadgetTimeMin) + ":" +
-                        formatDateElem(gadgetTimeSec) + "+03:00";
-                xml += getXmlAd(gadgets.get(j), gadgetTimeDay, dateEnd);
-                generateAmoledDirsPhotos(gadgets.get(j));
+        int[] size = new int[GadgetConst.MODELS.size()];
+        Arrays.fill(size, 0);
+        for (int cityNum = 0; cityNum < GadgetConst.CITIES.length; cityNum++) {
+            String city = GadgetConst.CITIES[cityNum];
+            for (int modelNum = 0; modelNum < GadgetConst.MODELS.size(); modelNum++) {
+                String model = GadgetConst.MODELS.get(modelNum);
+                if (!mapGadgetModelGadgets.containsKey(model)) {
+                    continue;
+                }
+                ArrayList<ArrayList<String>> gadgets = mapGadgetModelGadgets.get(model);
+                Collections.sort(gadgets, new CustomComparator());
+                int prevSize = size[modelNum];
+                size[modelNum] += GadgetConst.GADGET_PER_MONTH_COUNT[cityNum].get(modelNum) / TOP_COUNT + 1;
+                int timeIntervalSec = TIME_MONTH_SEC / (size[modelNum] - prevSize);
+                System.out.println("$model:" + model + "size_curr:" + size[modelNum] +
+                        " size_all: " + gadgets.size());
+                for (int gadgetNum = size[modelNum]; gadgetNum >= prevSize; gadgetNum--) {
+                    int gadgetId = size[modelNum] - gadgetNum;
+                    int gadgetTimeSec = timeIntervalSec / 2 + gadgetId * timeIntervalSec;
+                    int gadgetTimeDay = gadgetTimeSec / TIME_DAY_SEC + 1;
+                    gadgetTimeSec %= TIME_DAY_SEC;
+                    int gadgetTimeHour = gadgetTimeSec / 3600 + HOUR_BEGIN;
+                    gadgetTimeSec %= 3600;
+                    int gadgetTimeMin = gadgetTimeSec / 60;
+                    gadgetTimeSec %= 60;
+                    String dateEnd = "T" + formatDateElem(gadgetTimeHour) + ":" +
+                            formatDateElem(gadgetTimeMin) + ":" +
+                            formatDateElem(gadgetTimeSec) + "+03:00";
+                    xml += getXmlAd(gadgets.get(gadgetNum), gadgetTimeDay, dateEnd, city, gadgetId);
+                    generateAmoledDirsPhotos(gadgets.get(gadgetNum));
+                }
             }
         }
         xml += "</Ads>";
@@ -767,8 +774,8 @@ public class AvitoGadgets extends Gadgets {
     public void generateFilesAvibot() throws IOException {
         int gadgetNum = 0;
         HashMap<String, ArrayList<ArrayList<String>>> mapGadgetModelGadgets = getModelGadgetMap(gadgets);
-        for (String model : GadgetConst.models) {
-            int size = Math.min(GadgetConst.mapModelPerMonthCount.get(model), mapGadgetModelGadgets.get(model).size());
+        for (String model : GadgetConst.MODELS) {
+            int size = 0;//Math.min(GadgetConst.MAP_MODEL_PER_MONTH_COUNT.get(model), mapGadgetModelGadgets.get(model).size());
             BufferedWriter bufferedWriter = Solution.getOutputWriter("Output/AvitoRobot/" + model, "ads.csv");
             bufferedWriter.write(getRobotText(model, mapGadgetModelGadgets.get(model), gadgetNum, size));
             bufferedWriter.flush();
