@@ -6,7 +6,9 @@ import java.util.HashMap;
  * Created by A on 05.08.2017.
  */
 public class GadgetConst {
-    public final static String[] CITIES = new String[]{"Казань", "Набережные Челны"};
+    public final static String[] CITIES = new String[]{"Казань", "Набережные Челны", "Нижнекамск", "Альметьевск"};
+
+    public final static String[] CITIES_IN = new String[]{"Казани", "Набережных Челнах", "Нижнекамске", "Альметьевске"};
 
     public final static ArrayList<Integer> MODEL_COUNT = new ArrayList<Integer>(Arrays.asList(
             36,
@@ -17,6 +19,12 @@ public class GadgetConst {
             "Samsung",
             "Apple",
             "Sony"));
+
+    public final static ArrayList<String> VENDOR_OFFERS = new ArrayList<String>(Arrays.asList(
+            "самсунг галакси s3/s4/s5/s6/s7/s8 edge/plus/alpha, " +
+                    "a3/a5/a7/j1/j2/j3/j5/j7 2015/2015/2017, note 3/4/5",
+            "айфоны 4/4s/5/5c/5s/6/6s/se/7/plus",
+            "сони икспериа sp/z/z1/z2/z3/z5/compact"));
 
     public final static ArrayList<String> MODEL_LINES = new ArrayList<String>(Arrays.asList(
             "iPhone",
@@ -218,6 +226,128 @@ public class GadgetConst {
                 6,//"Z3 Compact",
                 1//"Z5 Compact"
         ));
+
+        GADGET_PER_MONTH_COUNT[2] = new ArrayList<Integer>(Arrays.asList(
+                1,//"Grand Prime",
+                1,//"Core Prime",
+                1,//"Alpha",
+                6,//"S3",
+                1,//"S3 Mini",
+                1,//"S4",
+                1,//"S4 Mini",
+                1,//"S5",
+                1,//"S5 Mini",
+                6,//"S6",
+                1,//"S6 Edge",
+                1,//"S6 Edge Plus",
+                6,//"S7",
+                1,//"S7 Edge",
+                1,//"S8",
+                1,//"S8 Plus",
+                1,//"A3 (2015)",
+                1,//"A3 (2016)",
+                1,//"A3 (2017)",
+                1,//"A5 (2015)",
+                1,//"A5 (2016)",
+                1,//"A5 (2017)",
+                1,//"A7 (2015)",
+                1,//"A7 (2016)",
+                1,//"A7 (2017)",
+                1,//"J1 (2016)",
+                1,//"J2 (2016)",
+                1,//"J3 (2016)",
+                1,//"J3 (2017)",
+                1,//"J5 (2016)",
+                1,//"J5 (2017)",
+                1,//"J7 (2016)",
+                1,//"J7 (2017)",
+                1,//"Note 3",
+                1,//"Note 4",
+                1,//"Note 5"));
+
+                1,//4
+                1,//4s
+                1,//5
+                6,//5c
+                63,//5s
+                1,//6
+                47,//6+
+                15,//6s
+                1,//6s+
+                6,//se
+                20,//7
+                1,//7+
+
+                1,//"SP",
+                1,//"Z",
+                1,//"Z1",
+                1,//"Z1 Compact",
+                1,//"Z2",
+                1,//"Z3",
+                1,//"Z3 Compact",
+                1//"Z5 Compact"
+        ));
+
+        GADGET_PER_MONTH_COUNT[3] = new ArrayList<Integer>(Arrays.asList(
+                1,//"Grand Prime",
+                1,//"Core Prime",
+                1,//"Alpha",
+                6,//"S3",
+                1,//"S3 Mini",
+                1,//"S4",
+                1,//"S4 Mini",
+                1,//"S5",
+                1,//"S5 Mini",
+                6,//"S6",
+                1,//"S6 Edge",
+                1,//"S6 Edge Plus",
+                6,//"S7",
+                1,//"S7 Edge",
+                1,//"S8",
+                1,//"S8 Plus",
+                1,//"A3 (2015)",
+                1,//"A3 (2016)",
+                1,//"A3 (2017)",
+                1,//"A5 (2015)",
+                1,//"A5 (2016)",
+                1,//"A5 (2017)",
+                1,//"A7 (2015)",
+                1,//"A7 (2016)",
+                1,//"A7 (2017)",
+                1,//"J1 (2016)",
+                1,//"J2 (2016)",
+                1,//"J3 (2016)",
+                1,//"J3 (2017)",
+                1,//"J5 (2016)",
+                1,//"J5 (2017)",
+                1,//"J7 (2016)",
+                1,//"J7 (2017)",
+                1,//"Note 3",
+                1,//"Note 4",
+                1,//"Note 5"));
+
+                1,//4
+                1,//4s
+                1,//5
+                6,//5c
+                47,//5s
+                1,//6
+                40,//6+
+                19,//6s
+                1,//6s+
+                1,//se
+                9,//7
+                1,//7+
+
+                1,//"SP",
+                1,//"Z",
+                1,//"Z1",
+                1,//"Z1 Compact",
+                1,//"Z2",
+                1,//"Z3",
+                1,//"Z3 Compact",
+                1//"Z5 Compact"
+        ));
     }
 
     public final static ArrayList<ArrayList<String>> SUB_MODELS = new ArrayList<ArrayList<String>>() {
@@ -373,6 +503,15 @@ public class GadgetConst {
         MAP_MODEL_COLOR = new HashMap<>();
         for (int i = 0; i < MODELS.size(); i++) {
             MAP_MODEL_COLOR.put(MODELS.get(i), COLORS.get(i));
+        }
+    }
+
+    public static final HashMap<String, String> MAP_VENDOR_OFFER;
+
+    static {
+        MAP_VENDOR_OFFER = new HashMap<>();
+        for (int i = 0; i < VENDORS.size(); i++) {
+            MAP_VENDOR_OFFER.put(VENDORS.get(i), VENDOR_OFFERS.get(i));
         }
     }
 
