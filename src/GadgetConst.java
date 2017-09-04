@@ -21,10 +21,9 @@ public class GadgetConst {
             "Sony"));
 
     public final static ArrayList<String> VENDOR_OFFERS = new ArrayList<String>(Arrays.asList(
-            "самсунг галакси s3/s4/s5/s6/s7/s8 edge/plus/alpha, " +
-                    "a3/a5/a7/j1/j2/j3/j5/j7 2015/2015/2017, note 3/4/5",
-            "айфоны 4/4s/5/5c/5s/6/6s/se/7/plus",
-            "сони икспериа sp/z/z1/z2/z3/z5/compact"));
+            "самсунг галакси",
+            "айфоны",
+            "сони икспериа"));
 
     public final static ArrayList<String> MODEL_LINES = new ArrayList<String>(Arrays.asList(
             "iPhone",

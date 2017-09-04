@@ -494,7 +494,7 @@ public class AvitoGadgets extends Gadgets {
                 "\uD83D\uDD1DМы занимаемся продажей смартфонов и аксессуаров с 2009 года.</p>";
         text += "<p>В нашем ассортименте только \uD83D\uDCAFоригинальные ";
         text += GadgetConst.MAP_VENDOR_OFFER.get(gadget.get(mapGadgetAttributeNumber.get(VENDOR)));
-        text += " всех цветов и объемов памяти по лучшей цене в ";
+        text += " всех моделей, цветов и объемов памяти по лучшей цене в ";
         text += GadgetConst.CITIES_IN[cityId];
         text += "!\uD83D\uDE0A</p>";
         text += getOfferAMOLED(gadget);
