@@ -4101,6 +4101,70 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
+<model>Xperia Z5 Compact 16Gb White E5803</model>
+<vendor>Sony</vendor>
+<price>21990.0</price>
+<description>��������, Android 4.4
+����� 4.6", ���������� 1280x720
+������ 20.70 ��, ���������
+������ 16 ��, ���� ��� ����� ������
+3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS, �������
+����� ����������� ������ 2 ��
+����������� 2600 ��?�
+��� 129 �, �x�x� 64.90x127x8.60 ��</description>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Sony/Xperia/Z5Compact/White/img.jpg</picture>
+</offer>
+<offer>
+<initialCategoryId>2</initialCategoryId>
+<typePrefix>Смартфон</typePrefix>
+<model>Xperia Z5 Compact 16Gb Graphite Black E5803</model>
+<vendor>Sony</vendor>
+<price>21990.0</price>
+<description>��������, Android 4.4
+����� 4.6", ���������� 1280x720
+������ 20.70 ��, ���������
+������ 16 ��, ���� ��� ����� ������
+3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS, �������
+����� ����������� ������ 2 ��
+����������� 2600 ��?�
+��� 129 �, �x�x� 64.90x127x8.60 ��</description>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Sony/Xperia/Z5Compact/GraphiteBlack/img.jpg</picture>
+</offer>
+<offer>
+<initialCategoryId>2</initialCategoryId>
+<typePrefix>Смартфон</typePrefix>
+<model>Xperia Z5 Compact 16Gb Yellow E5803</model>
+<vendor>Sony</vendor>
+<price>21990.0</price>
+<description>��������, Android 4.4
+����� 4.6", ���������� 1280x720
+������ 20.70 ��, ���������
+������ 16 ��, ���� ��� ����� ������
+3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS, �������
+����� ����������� ������ 2 ��
+����������� 2600 ��?�
+��� 129 �, �x�x� 64.90x127x8.60 ��</description>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Sony/Xperia/Z5Compact/Yellow/img.jpg</picture>
+</offer>
+<offer>
+<initialCategoryId>2</initialCategoryId>
+<typePrefix>Смартфон</typePrefix>
+<model>Xperia Z5 Compact 16Gb Coral E5803</model>
+<vendor>Sony</vendor>
+<price>21990.0</price>
+<description>��������, Android 4.4
+����� 4.6", ���������� 1280x720
+������ 20.70 ��, ���������
+������ 16 ��, ���� ��� ����� ������
+3G, 4G LTE, LTE-A, Wi-Fi, Bluetooth, NFC, GPS, �������
+����� ����������� ������ 2 ��
+����������� 2600 ��?�
+��� 129 �, �x�x� 64.90x127x8.60 ��</description>
+<picture>https://raw.githubusercontent.com/bav735/EKZ/master/Sony/Xperia/Z5Compact/Coral/img.jpg</picture>
+</offer>
+<offer>
+<initialCategoryId>2</initialCategoryId>
+<typePrefix>Смартфон</typePrefix>
 <model>Galaxy S7 32Gb Black Onyx SM-G930F</model>
 <vendor>Samsung</vendor>
 <price>30490.0</price>

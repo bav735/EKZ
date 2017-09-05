@@ -22,7 +22,7 @@ public class AvitoGadgets extends Gadgets {
     final static String EST2 = "EST2";
     final static String IMG_FILE_NAME = "img";
     final static int TOP_COUNT = 6;
-    final static int DAYS_OFFSET = 2;
+    final static int DAYS_OFFSET = 3;
     final static int TIME_DAY_SEC = 12 * 60 * 60;
     final static int TIME_MONTH_SEC = 30 * TIME_DAY_SEC;
     final static int HOUR_BEGIN = 9;
@@ -379,12 +379,8 @@ public class AvitoGadgets extends Gadgets {
         offer += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(VENDOR),
                 mapGadgetAttributeNumber.get(COLOR) + 1)).replace("  ", " ");
         offer += " = " + getPriceAMOLED(gadget) + " руб ";
-        switch (gadget.get(mapGadgetAttributeNumber.get(QUALITY))) {
-            case EST2:
-                offer += "(восстановленный)";
-                break;
-            case RST:
-                offer += "(совершенно новый, гарантия производителя)";
+        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
+            offer += "(восстановленный)";
         }
         offer += "</p>";
         return offer;
