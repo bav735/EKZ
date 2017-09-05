@@ -359,16 +359,18 @@ public class AvitoGadgets extends Gadgets {
         return name;
     }
 
-    private String getWholesaleOffer(String gadgetName) {
-        String price = mapGadgetNamePrices.get(gadgetName).get(PRICES_COUNT - 2);
-        if (price.length() == 1) {
-            return "";
-        }
-        return "Опт (от 3 шт) = " + price + "₽<br>";
+    private String getMaxOptPriceAmoled(ArrayList<String> gadget) {
+        return mapGadgetNamePrices.get(getGadgetName(gadget)).get(
+                mapPriceAttributeNumber.get(EST_RETAIL_OPT_MAX));
+    }
+
+    private String getMinOptPriceAmoled(ArrayList<String> gadget) {
+        return mapGadgetNamePrices.get(getGadgetName(gadget)).get(
+                mapPriceAttributeNumber.get(EST_RETAIL_OPT_MIN));
     }
 
     private String getCreditOffer(ArrayList<String> gadget) {
-        if (getPriceAMOLED(gadget).isEmpty()) {
+        if (getRetailPriceAMOLED(gadget).isEmpty()) {
             return "";
         }
         return "- в кредит на 6 мес = от " + getCreditPrice(gadget) + "₽ в мес<br>";
@@ -378,16 +380,19 @@ public class AvitoGadgets extends Gadgets {
         String offer = "<p>➡";
         offer += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(VENDOR),
                 mapGadgetAttributeNumber.get(COLOR) + 1)).replace("  ", " ");
-        offer += " = " + getPriceAMOLED(gadget) + " руб ";
+        offer += " = " + getRetailPriceAMOLED(gadget) + "\u20BD ";
         if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
-            offer += "(восстановленный)";
+            offer += ", восстановленный";
+        } else {
+            offer += ", в сост. нового";
         }
-        offer += "</p>";
+        offer += "<br>(= " + getMaxOptPriceAmoled(gadget) + "\u20BD от 3 шт; = " +
+                getMinOptPriceAmoled(gadget) + "\u20BD от 10шт\uD83D\uDCA3)</p>";
         return offer;
     }
 
     private int getCreditPrice(ArrayList<String> gadget) {
-        int creditPrice = Integer.parseInt(getPriceAMOLED(gadget)) * 112 / 600;
+        int creditPrice = Integer.parseInt(getRetailPriceAMOLED(gadget)) * 112 / 600;
         return (creditPrice / 50 + 1) * 50;
     }
 
@@ -405,22 +410,12 @@ public class AvitoGadgets extends Gadgets {
         return mapGadgetNamePrices.containsKey(gadgetName);
     }
 
-    private String getPriceAMOLED(ArrayList<String> gadget) {
+    private String getRetailPriceAMOLED(ArrayList<String> gadget) {
         String gadgetName = getGadgetName(gadget);
-        int price = 0;
-        switch (gadget.get(mapGadgetAttributeNumber.get(QUALITY))) {
-            case EST:
-                price -= 10;
-            case EST2:
-                price += Integer.parseInt(
-                        mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(EST_RETAIL_AMOLED)));
-                break;
-            case RST:
-                price += Integer.parseInt(
-                        mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(RST_RETAIL_AMOLED)));
-        }
-        if (gadget.get(mapGadgetAttributeNumber.get(COLOR)).equals("Red")) {
-            price = getIncreasedPrice(price);
+        int price = Integer.parseInt(
+                mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(EST_RETAIL_AMOLED)));
+        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST)) {
+            price -= 10;
         }
         return price + "";
     }
@@ -479,7 +474,7 @@ public class AvitoGadgets extends Gadgets {
         String text = "<![CDATA[";
         text += "<p>Уважаемый покупатель,<br>" +
                 "Добро пожаловать в магазин AMOLED\uD83D\uDCF2</p>";
-        text += "<p>\uD83D\uDCA3ГАРАНТИЯ ЛУЧШЕЙ ЦЕНЫ, нашли дешевле в другом магазине? сделаем СКИДКУ❗</p>";
+        text += "<p>\uD83D\uDCB0ГАРАНТИЯ ЛУЧШЕЙ ЦЕНЫ - нашли дешевле в другом магазине? сделаем еще дешевле❗</p>";
         text += "<p>\uD83D\uDC9BМы всегда идем навстречу нашим покупателям.<br>" +
                 "\uD83D\uDC49Мы предлагаем вам:<br>" +
                 "\uD83D\uDD39 КРЕДИТ от ОТП Банк/Хоум-Кредит<br>" +
@@ -487,7 +482,7 @@ public class AvitoGadgets extends Gadgets {
                 "\uD83D\uDD39 ОПЛАТА кредитной/дебетовой КАРТОЙ<br>" +
                 "\uD83D\uDD39 ОПТ, ОПЛАТА ЧЕРЕЗ Р/С (ндс, без ндс)<br>" +
                 "\uD83D\uDD39 ДОСТАВКА ПО РФ через ТК CDEK (1-2 дня)<br>" +
-                "\uD83D\uDD1DМы занимаемся продажей смартфонов и аксессуаров с 2009 года.</p>";
+                "\uD83D\uDD1DМы занимаемся продажей смартфонов и аксессуаров более 5 лет.</p>";
         text += "<p>В нашем ассортименте только \uD83D\uDCAFоригинальные ";
         text += GadgetConst.MAP_VENDOR_OFFER.get(gadget.get(mapGadgetAttributeNumber.get(VENDOR)));
         text += " всех моделей, цветов и объемов памяти по лучшей цене в ";
@@ -552,7 +547,11 @@ public class AvitoGadgets extends Gadgets {
         ad += "\t\t<GoodsType>" + goodsType + "</GoodsType>\n";
         ad += "\t\t<Title>" + name + "</Title>\n";
         ad += "\t\t<Description>" + getAdTextAvitoShop(gadget, cityId) + "</Description>\n";
-        ad += "\t\t<Price>" + getPriceAMOLED(gadget) + "</Price>\n";
+        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
+            ad += "\t\t<Price>" + getRetailPriceAMOLED(gadget) + "</Price>\n";
+        } else {
+            ad += "\t\t<Price>" + getMaxOptPriceAmoled(gadget) + "</Price>\n";
+        }
         ad += "\t\t<Images>\n";
         String imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/" +
                 getAmoledImagePath(gadget);
@@ -575,7 +574,7 @@ public class AvitoGadgets extends Gadgets {
         }
         ad += "Вид товара: " + goodsType + "\n";
         ad += "Название: " + getAvitoAdName(gadget) + "\n";
-        ad += "Цена: " + getPriceAMOLED(gadget) + "\n";
+        ad += "Цена: " + getRetailPriceAMOLED(gadget) + "\n";
         ad += "Текст: " + getAdTextAvitoBot(gadget) + "\n";
         return ad;
     }
@@ -753,7 +752,7 @@ public class AvitoGadgets extends Gadgets {
             ArrayList<String> gadget = gadgets.get(i - 1);
             res += "\"" + getAvitoAdName(gadget) + "\";\"" +
                     getAdTextAvitoBot(gadget) + "\";\"" +
-                    getPriceAMOLED(gadget) + "\";\"" +
+                    getRetailPriceAMOLED(gadget) + "\";\"" +
                     i + ".jpg" + ",price" + gadgetNum + ".jpg\"\n";
             gadgetNum++;
         }
@@ -776,7 +775,7 @@ public class AvitoGadgets extends Gadgets {
     private class CustomComparator implements Comparator<ArrayList<String>> {
         @Override
         public int compare(ArrayList<String> g1, ArrayList<String> g2) {
-            return Solution.getNumber(getPriceAMOLED(g1)) - Solution.getNumber(getPriceAMOLED(g2));
+            return Solution.getNumber(getRetailPriceAMOLED(g1)) - Solution.getNumber(getRetailPriceAMOLED(g2));
         }
     }
 }

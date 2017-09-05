@@ -7,7 +7,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/price_list.txt" afterPath="$PROJECT_DIR$/Input/price_list.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/AdsXML.xml" afterPath="$PROJECT_DIR$/Output/AdsXML.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Website/iphones.xml" afterPath="$PROJECT_DIR$/Output/Website/iphones.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AvitoGadgets.java" afterPath="$PROJECT_DIR$/src/AvitoGadgets.java" />
     </list>
     <ignored path="EKZ.iws" />
@@ -56,8 +55,8 @@
       <file leaf-file-name="Gadgets.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="133">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -86,13 +85,13 @@
       <file leaf-file-name="AvitoGadgets.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+            <state relative-caret-position="205">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#14252#14260#0" expanded="true" />
-                <element signature="e#18156#18157#0" expanded="true" />
-                <element signature="e#18222#18223#0" expanded="true" />
+                <element signature="e#18522#18523#0" expanded="true" />
+                <element signature="e#18588#18589#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -772,8 +771,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#14252#14260#0" expanded="true" />
-            <element signature="e#18156#18157#0" expanded="true" />
-            <element signature="e#18222#18223#0" expanded="true" />
+            <element signature="e#18522#18523#0" expanded="true" />
+            <element signature="e#18588#18589#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -920,14 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CategoryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -988,6 +979,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Input/price_list.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -998,13 +997,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        <state relative-caret-position="205">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#14252#14260#0" expanded="true" />
-            <element signature="e#18156#18157#0" expanded="true" />
-            <element signature="e#18222#18223#0" expanded="true" />
+            <element signature="e#18522#18523#0" expanded="true" />
+            <element signature="e#18588#18589#0" expanded="true" />
           </folding>
         </state>
       </provider>
