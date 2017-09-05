@@ -1,6 +1,7 @@
 <Ads formatVersion="3" target="Avito.ru">
 	<Ad>
 		<Id>ESTSamsungGalaxyGrandPrime8GbSMG531Gray</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -34,6 +35,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyCorePrime8GbSMG360Gray</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -50,6 +52,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyAlpha32GbSMG850Gray</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -66,6 +69,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS316GbGTI9300Black</Id>
+		<DateBegin>2017-09-05T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -167,6 +171,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS3Mini16GbGTI8190Black</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -183,6 +188,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS416GbGTI9500Black</Id>
+		<DateBegin>2017-09-05T10:42:51+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -301,6 +307,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS4Mini16GbGTI9192Black</Id>
+		<DateBegin>2017-09-06T18:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -368,6 +375,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS516GbSMG900Black</Id>
+		<DateBegin>2017-09-06T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -452,6 +460,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS5Mini16GbSMG800Black</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -485,6 +494,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS632GbSMG920BlackSapphire</Id>
+		<DateBegin>2017-09-04T17:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -637,6 +647,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS6Edge32GbSMG925BlackSapphire</Id>
+		<DateBegin>2017-09-06T18:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -704,6 +715,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS6EdgePlus32GbSMG928WhitePearl</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -720,6 +732,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS732GbSMG930BlackOnyx</Id>
+		<DateBegin>2017-09-03T20:15:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -991,6 +1004,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS7Edge32GbSMG935BlackOnyx</Id>
+		<DateBegin>2017-09-04T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -1160,6 +1174,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA320158GbSMA300Black</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -1176,6 +1191,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA3201616GbSMA310Black</Id>
+		<DateBegin>2017-09-06T18:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -1243,6 +1259,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA5201516GbSMA500Black</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -1276,6 +1293,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA5201616GbSMA510Black</Id>
+		<DateBegin>2017-09-06T18:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -1343,6 +1361,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA7201516GbSMA700Black</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -1359,6 +1378,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA7201616GbSMA710Black</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -1392,6 +1412,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyJ5201616GbSMJ510Black</Id>
+		<DateBegin>2017-09-08T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -1442,6 +1463,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyJ7201616GbSMJ710Black</Id>
+		<DateBegin>2017-09-08T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -1492,6 +1514,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyNote316GbSMN900Black</Id>
+		<DateBegin>2017-09-08T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -1542,6 +1565,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyNote432GbSMN910Black</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -1575,6 +1599,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyNote532GbSMN920BlackSapphire</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -1608,6 +1633,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone48GbA1332Black</Id>
+		<DateBegin>2017-09-03T20:15:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -1879,6 +1905,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone4S8GbA1387Black</Id>
+		<DateBegin>2017-09-03T15:12:24+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -2371,6 +2398,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone516GbA1428Black</Id>
+		<DateBegin>2017-09-03T14:37:30+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -2914,6 +2942,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone5C8GbA1532White</Id>
+		<DateBegin>2017-09-04T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -3083,6 +3112,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone5S16GbБезОтпA1533SpaceGray</Id>
+		<DateBegin>2017-09-03T10:32:18+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -5071,6 +5101,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone616GbБезОтпA1549SpaceGray</Id>
+		<DateBegin>2017-09-03T10:46:55+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -6787,6 +6818,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone6Plus16GbБезОтпA1522SpaceGray</Id>
+		<DateBegin>2017-09-04T13:21:49+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -6973,6 +7005,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone6S16GbБезОтпA1633SpaceGray</Id>
+		<DateBegin>2017-09-03T12:40:24+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -7805,6 +7838,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone6SPlus16GbБезОтпA1634SpaceGray</Id>
+		<DateBegin>2017-09-04T17:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -7957,6 +7991,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhoneSE16GbA1662SpaceGray</Id>
+		<DateBegin>2017-09-04T13:21:49+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -8143,6 +8178,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone732GbA1660Black</Id>
+		<DateBegin>2017-09-03T12:31:45+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -9009,6 +9045,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone7Plus32GbA1661Black</Id>
+		<DateBegin>2017-09-04T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -9263,6 +9300,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaSP8GbC5302Black</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -9279,6 +9317,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ16GbC6602Black</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -9312,6 +9351,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ116GbC6902Black</Id>
+		<DateBegin>2017-09-08T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -9362,6 +9402,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ1Compact16GbD5502Black</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -9378,6 +9419,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ216GbD6502Black</Id>
+		<DateBegin>2017-09-08T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -9428,6 +9470,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ316GbD6633Black</Id>
+		<DateBegin>2017-09-05T10:42:51+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -9546,6 +9589,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ3Compact16GbD5803Black</Id>
+		<DateBegin>2017-09-08T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -9596,6 +9640,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ5Compact16GbE5803White</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -9612,6 +9657,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyGrandPrime8GbSMG531VGray</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -9628,6 +9674,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyCorePrime8GbSMG360FGray</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -9644,6 +9691,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyAlpha32GbSMG850FGray</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -9660,6 +9708,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS316GbGTI9300White</Id>
+		<DateBegin>2017-09-06T18:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -9727,6 +9776,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS3Mini16GbGTI8190FBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -9743,6 +9793,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS416GbGTI9500FWhite</Id>
+		<DateBegin>2017-09-06T18:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -9810,6 +9861,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS4Mini16GbGTI9192TBlack</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -9843,6 +9895,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS516GbSMG900FDBlack</Id>
+		<DateBegin>2017-09-06T18:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -9910,6 +9963,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS5Mini16GbSMG800VBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -9926,6 +9980,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS632GbSMG920AWhitePearl</Id>
+		<DateBegin>2017-09-06T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -10010,6 +10065,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS6Edge32GbSMG925TBlackSapphire</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -10043,6 +10099,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS6EdgePlus32GbSMG928FWhitePearl</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -10059,6 +10116,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS732GbSMG930TGoldPlatinum</Id>
+		<DateBegin>2017-09-06T18:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -10126,6 +10184,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS7Edge32GbSMG935TSilverTitanium</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -10159,6 +10218,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA320158GbSMA300FBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -10175,6 +10235,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA3201616GbSMA310TBlack</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -10208,6 +10269,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA5201516GbSMA500VBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -10224,6 +10286,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA5201616GbSMA510TBlack</Id>
+		<DateBegin>2017-09-08T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -10274,6 +10337,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA7201516GbSMA700FBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -10290,6 +10354,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA7201616GbSMA710VBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -10306,6 +10371,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyJ5201616GbSMJ510ABlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -10322,6 +10388,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyJ7201616GbSMJ710ABlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -10338,6 +10405,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyNote316GbSMN900ABlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -10354,6 +10422,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyNote432GbSMN910VBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -10370,6 +10439,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyNote532GbSMN920VBlackSapphire</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -10386,6 +10456,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone432GbA1332Black</Id>
+		<DateBegin>2017-09-05T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -10487,6 +10558,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone4S64GbA1431Black</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -10503,6 +10575,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone564GbA1442Black</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -10536,6 +10609,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone5C8GbA1532Green</Id>
+		<DateBegin>2017-09-08T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -10586,6 +10660,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone5S64GbБезОтпA1528Silver</Id>
+		<DateBegin>2017-09-03T15:55:23+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -11027,6 +11102,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone6128GbA1589SpaceGray</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -11043,6 +11119,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone6Plus16GbБезОтпA1593SpaceGray</Id>
+		<DateBegin>2017-09-03T17:10:54+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -11416,6 +11493,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone6S16GbA1688SpaceGray</Id>
+		<DateBegin>2017-09-04T10:50:46+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -11636,6 +11714,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone6SPlus16GbБезОтпA1634RoseGold</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -11669,6 +11748,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhoneSE16GbA1724RoseGold</Id>
+		<DateBegin>2017-09-06T18:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -11736,6 +11816,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone7128GbA1660Gold</Id>
+		<DateBegin>2017-09-04T10:50:46+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -11956,6 +12037,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone7Plus32GbA1661Silver</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -11989,6 +12071,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaSP8GbC5303Black</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12005,6 +12088,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ16GbC6616Black</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12021,6 +12105,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ116GbC6916Black</Id>
+		<DateBegin>2017-09-08T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12071,6 +12156,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ1Compact16GbD5503Black</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12087,6 +12173,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ216GbD6503White</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12103,6 +12190,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ316GbD6643Copper</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12136,6 +12224,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ3Compact16GbD5833White</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12169,6 +12258,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ5Compact16GbE5823White</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12185,6 +12275,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyGrandPrime8GbSMG531AGray</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12201,6 +12292,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyCorePrime8GbSMG360VGray</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12217,6 +12309,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyAlpha32GbSMG850VGray</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12233,6 +12326,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS316GbGTI9300TWhite</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12266,6 +12360,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS3Mini16GbGTI8190VBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12282,6 +12377,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS416GbGTI9500FDWhite</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12298,6 +12394,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS4Mini16GbGTI9192White</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12314,6 +12411,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS516GbSMG900AWhite</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12330,6 +12428,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS5Mini16GbSMG800ABlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12346,6 +12445,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS632GbSMG920VGoldPlatinum</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12379,6 +12479,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS6Edge32GbSMG925WhitePearl</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12395,6 +12496,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS6EdgePlus32GbSMG928VWhitePearl</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12411,6 +12513,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2SamsungGalaxyS732GbSMG930VBlackOnyx</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12444,6 +12547,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS7Edge32GbSMG935GoldPlatinum</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12460,6 +12564,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA320158GbSMA300VBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12476,6 +12581,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA3201616GbSMA310White</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12492,6 +12598,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA5201516GbSMA500ABlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12508,6 +12615,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA5201616GbSMA510FWhite</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12524,6 +12632,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA7201516GbSMA700VBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12540,6 +12649,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA7201616GbSMA710ABlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12556,6 +12666,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyJ5201616GbSMJ510TBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12572,6 +12683,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyJ7201616GbSMJ710TBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12588,6 +12700,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyNote316GbSMN900TBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12604,6 +12717,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyNote432GbSMN910ABlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12620,6 +12734,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyNote532GbSMN920ABlackSapphire</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12636,6 +12751,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone432GbA1332White</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12652,6 +12768,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone4S64GbA1387White</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12668,6 +12785,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone564GbA1429White</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12684,6 +12802,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone5C8GbA1529Green</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12717,6 +12836,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone5S64GbБезОтпA1453Gold</Id>
+		<DateBegin>2017-09-04T13:21:49+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12733,6 +12853,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone5S32GbA1533SpaceGray</Id>
+		<DateBegin>2017-09-07T10:05:27+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12749,6 +12870,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone5S32GbA1457SpaceGray</Id>
+		<DateBegin>2017-09-09T18:49:05+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12765,6 +12887,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone5S32GbA1518SpaceGray</Id>
+		<DateBegin>2017-09-12T15:32:43+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12781,6 +12904,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone5S32GbA1528SpaceGray</Id>
+		<DateBegin>2017-09-15T12:16:21+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12797,6 +12921,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone5S32GbA1530SpaceGray</Id>
+		<DateBegin>2017-09-17T20:59:59+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12813,6 +12938,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone5S32GbA1453SpaceGray</Id>
+		<DateBegin>2017-09-20T17:43:37+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12829,6 +12955,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone5S32GbA1533Silver</Id>
+		<DateBegin>2017-09-23T14:27:15+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12845,6 +12972,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone5S32GbA1457Silver</Id>
+		<DateBegin>2017-09-26T11:10:53+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12861,6 +12989,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone5S32GbA1518Silver</Id>
+		<DateBegin>2017-09-28T19:54:31+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12894,6 +13023,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone6128GbA1549Silver</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -12910,6 +13040,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone6Plus16GbA1522Gold</Id>
+		<DateBegin>2017-09-04T19:30:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13045,6 +13176,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone6S64GbБезОтпA1700SpaceGray</Id>
+		<DateBegin>2017-09-08T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13095,6 +13227,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone6SPlus16GbБезОтпA1699RoseGold</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13111,6 +13244,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhoneSE16GbA1662Silver</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13144,6 +13278,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone7256GbA1778Silver</Id>
+		<DateBegin>2017-09-06T18:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13211,6 +13346,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone7Plus32GbA1785Silver</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13227,6 +13363,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaSP8GbC5306Black</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13243,6 +13380,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ16GbC6602White</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13259,6 +13397,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ116GbC6906White</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13275,6 +13414,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ1Compact16GbD5502White</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13291,6 +13431,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ216GbD6502Purple</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13307,6 +13448,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ316GbD6633SilverGreen</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13323,6 +13465,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ3Compact16GbD5833Green</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13339,6 +13482,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ5Compact16GbE5803GraphiteBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13355,6 +13499,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyGrandPrime8GbSMG531TGray</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13371,6 +13516,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyCorePrime8GbSMG360AGray</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13387,6 +13533,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyAlpha32GbSMG850AGray</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13403,6 +13550,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS316GbGTI9300Blue</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13436,6 +13584,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS3Mini16GbGTI8190ABlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13452,6 +13601,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS416GbGTI9500Blue</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13468,6 +13618,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS4Mini16GbGTI9192FWhite</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13484,6 +13635,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS516GbSMG900TWhite</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13500,6 +13652,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS5Mini16GbSMG800TBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13516,6 +13669,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS632GbSMG920TGoldPlatinum</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13549,6 +13703,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS6Edge32GbSMG925FWhitePearl</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13565,6 +13720,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS6EdgePlus32GbSMG928AWhitePearl</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13581,6 +13737,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2SamsungGalaxyS732GbSMG930TBlackOnyx</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13614,6 +13771,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyS7Edge32GbSMG935FGoldPlatinum</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13630,6 +13788,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA320158GbSMA300ABlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13646,6 +13805,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA3201616GbSMA310FWhite</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13662,6 +13822,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA5201516GbSMA500TBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13678,6 +13839,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA5201616GbSMA510VWhite</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13694,6 +13856,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA7201516GbSMA700ABlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13710,6 +13873,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyA7201616GbSMA710TBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13726,6 +13890,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyJ5201616GbSMJ510FDBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13742,6 +13907,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyJ7201616GbSMJ710FDBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13758,6 +13924,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyNote316GbSMN900FDBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13774,6 +13941,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyNote432GbSMN910TBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13790,6 +13958,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSamsungGalaxyNote532GbSMN920TBlackSapphire</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13806,6 +13975,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone432GbA1349White</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13822,6 +13992,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone4S64GbA1431White</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13838,6 +14009,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone564GbA1442White</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13854,6 +14026,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone5C8GbA1532Yellow</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -13887,6 +14060,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone5S32GbA1530Silver</Id>
+		<DateBegin>2017-09-04T19:30:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -14022,6 +14196,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone6128GbA1586Silver</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -14038,6 +14213,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone6Plus64GbБезОтпA1593Silver</Id>
+		<DateBegin>2017-09-05T10:42:51+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -14156,6 +14332,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone6S64GbБезОтпA1700Silver</Id>
+		<DateBegin>2017-09-06T18:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -14206,6 +14383,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone6S64GbБезОтпA1700Gold</Id>
+		<DateBegin>2017-09-29T12:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -14222,6 +14400,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone6SPlus16GbБезОтпA1634SpaceGray</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -14238,6 +14417,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhoneSE16GbA1724Silver</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -14254,6 +14434,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTAppleiPhone7256GbA1779JetBlack</Id>
+		<DateBegin>2017-09-10T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -14287,6 +14468,7 @@
 	</Ad>
 	<Ad>
 		<Id>EST2AppleiPhone7Plus32GbA1661Gold</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -14303,6 +14485,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaSP8GbC5302White</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -14319,6 +14502,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ16GbC6603White</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -14335,6 +14519,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ116GbC6916White</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -14351,6 +14536,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ1Compact16GbD5503White</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -14367,6 +14553,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ216GbD6503Purple</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -14383,6 +14570,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ316GbD6643SilverGreen</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -14399,6 +14587,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ3Compact16GbD5803Orange</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>
@@ -14415,6 +14604,7 @@
 	</Ad>
 	<Ad>
 		<Id>ESTSonyXperiaZ5Compact16GbE5823GraphiteBlack</Id>
+		<DateBegin>2017-09-18T09:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>89393911570</ContactPhone>

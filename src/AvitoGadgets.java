@@ -514,26 +514,26 @@ public class AvitoGadgets extends Gadgets {
         return "" + num;
     }
 
-    public String getXmlAd(ArrayList<String> gadget, int xmlDay, String dateEnd, int cityId, int gadgetId) {
+    public String getXmlAd(ArrayList<String> gadget, int xmlDay, String dateBeginRight, int cityId, int gadgetId) {
         String ad = "\t<Ad>\n";
         ad += "\t\t<Id>" + getIdName(gadget) + "</Id>\n";
         String name = getAvitoAdName(gadget);
-        if (gadgetId > 0 && (!includeAds.contains(name.substring(0, name.lastIndexOf(" "))) || cityId == 0)) {
-            Calendar calendarZero = (Calendar) CALENDAR_ZERO.clone();
-            int dayNumCurrentMonth = (DAY_NUM_GLOBAL - 1) % 30 + 1;
-            calendarZero.add(Calendar.DAY_OF_MONTH, DAY_NUM_GLOBAL - dayNumCurrentMonth - 1 + xmlDay);
-            if (dayNumCurrentMonth <= DAYS_OFFSET) {
-                if (xmlDay > dayNumCurrentMonth + 30 - DAYS_OFFSET) {
-                    calendarZero.add(Calendar.DAY_OF_MONTH, -30);
-                }
-            } else {
-                if (xmlDay <= dayNumCurrentMonth - DAYS_OFFSET) {
-                    calendarZero.add(Calendar.DAY_OF_MONTH, 30);
-                }
+//        if (gadgetId > 0 && (!includeAds.contains(name.substring(0, name.lastIndexOf(" "))) || cityId == 0)) {
+        Calendar calendarZero = (Calendar) CALENDAR_ZERO.clone();
+        int dayNumCurrentMonth = (DAY_NUM_GLOBAL - 1) % 30 + 1;
+        calendarZero.add(Calendar.DAY_OF_MONTH, DAY_NUM_GLOBAL - dayNumCurrentMonth - 1 + xmlDay);
+        if (dayNumCurrentMonth <= DAYS_OFFSET) {
+            if (xmlDay > dayNumCurrentMonth + 30 - DAYS_OFFSET) {
+                calendarZero.add(Calendar.DAY_OF_MONTH, -30);
             }
-            String dateBegin = getDateByCalendar(calendarZero);
-            ad += "\t\t<DateBegin>" + dateBegin + dateEnd + "</DateBegin>\n";
+        } else {
+            if (xmlDay <= dayNumCurrentMonth - DAYS_OFFSET) {
+                calendarZero.add(Calendar.DAY_OF_MONTH, 30);
+            }
         }
+        String dateBeginLeft = getDateByCalendar(calendarZero);
+        ad += "\t\t<DateBegin>" + dateBeginLeft + dateBeginRight + "</DateBegin>\n";
+//        }
         ad += "\t\t<AllowEmail>Нет</AllowEmail>\n";
         ad += "\t\t<ManagerName>Оператор-консультант</ManagerName>\n";
         ad += "\t\t<ContactPhone>89393911570</ContactPhone>\n";
