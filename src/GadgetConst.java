@@ -6,9 +6,9 @@ import java.util.HashMap;
  * Created by A on 05.08.2017.
  */
 public class GadgetConst {
-    public final static String[] CITIES = new String[]{"Казань", "Набережные Челны", "Нижнекамск", "Альметьевск"};
+    public final static String[] CITIES = new String[]{"Казань"};
 
-    public final static String[] CITIES_IN = new String[]{"Казани", "Набережных Челнах", "Нижнекамске", "Альметьевске"};
+    public final static String[] CITIES_IN = new String[]{"Казани"};
 
     public final static ArrayList<Integer> MODEL_COUNT = new ArrayList<Integer>(Arrays.asList(
             36,
@@ -105,16 +105,16 @@ public class GadgetConst {
 
     static {
         GADGET_PER_MONTH_COUNT[0] = new ArrayList<Integer>(Arrays.asList(
-                11,//"Grand Prime",
-                4,//"Core Prime",
-                5,//"Alpha",
-                33,//"S3",
-                2,//"S3 Mini",
-                36,//"S4",
-                19,//"S4 Mini",
-                27,//"S5",
-                7,//"S5 Mini",
-                48,//"S6",
+                2,//"Grand Prime",
+                1,//"Core Prime",
+                1,//"Alpha",
+                6,//"S3",
+                1,//"S3 Mini",
+                7,//"S4",
+                4,//"S4 Mini",
+                5,//"S5",
+                2,//"S5 Mini",
+                9,//"S6",
                 23,//"S6 Edge",
                 2,//"S6 Edge Plus",
                 93,//"S7",
@@ -165,7 +165,7 @@ public class GadgetConst {
                 5//"Z5 Compact"
         ));
 
-        GADGET_PER_MONTH_COUNT[1] = new ArrayList<Integer>(Arrays.asList(
+        /*GADGET_PER_MONTH_COUNT[1] = new ArrayList<Integer>(Arrays.asList(
                 1,//"Grand Prime",
                 1,//"Core Prime",
                 2,//"Alpha",
@@ -346,7 +346,7 @@ public class GadgetConst {
                 1,//"Z3",
                 1,//"Z3 Compact",
                 1//"Z5 Compact"
-        ));
+        ));*/
     }
 
     public final static ArrayList<ArrayList<String>> SUB_MODELS = new ArrayList<ArrayList<String>>() {
@@ -411,16 +411,25 @@ public class GadgetConst {
             add(new ArrayList<String>(Arrays.asList("E5803", "E5823")));//"Z5 Compact"
         }
     };
-    private final static String[] SUB_MODEL_ENDINGS = new String[]{"F", "V", "A", "T", "FD"};
+    private final static String[] SUB_MODEL_ENDING_DESCRIPTION = new String[]{
+            "Neverlocked",
+            "Unlocked (US Cellular)",
+            "Unlocked (Verizon)",
+            "Unlocked (AT&T)",
+            "Unlocked (T-Mobile)",
+            "Unlocked (Sprint)",};
+    private final static String[] SUB_MODEL_ENDINGS = new String[]{"F", "R", "V", "A", "T", "P"};
 
     static {
         for (int i = 0; i < MODEL_COUNT.get(0); i++) {
             ArrayList<String> subModelList = SUB_MODELS.get(i);
             String submodel = subModelList.get(0);
+            subModelList.remove(0);
             for (String modelEnding : SUB_MODEL_ENDINGS) {
                 String newSubModel = submodel + modelEnding;
                 subModelList.add(newSubModel);
             }
+            System.out.println("size=" + SUB_MODELS.get(i).size());
         }
     }
 

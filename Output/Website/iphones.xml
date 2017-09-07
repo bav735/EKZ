@@ -1,7 +1,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy Grand Prime 8Gb Gray SM-G531</model>
+<model>Galaxy Grand Prime 8Gb Gray SM-G531F</model>
 <vendor>Samsung</vendor>
 <price>6990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -18,7 +18,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy Grand Prime 8Gb White SM-G531</model>
+<model>Galaxy Grand Prime 8Gb White SM-G531F</model>
 <vendor>Samsung</vendor>
 <price>6990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -35,7 +35,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy Core Prime 8Gb Gray SM-G360</model>
+<model>Galaxy Core Prime 8Gb Gray SM-G360F</model>
 <vendor>Samsung</vendor>
 <price>8490.0</price>
 <description>﻿смартфон на платформе Android
@@ -51,7 +51,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy Core Prime 8Gb White SM-G360</model>
+<model>Galaxy Core Prime 8Gb White SM-G360F</model>
 <vendor>Samsung</vendor>
 <price>8490.0</price>
 <description>﻿смартфон на платформе Android
@@ -67,7 +67,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy Alpha 32Gb Gray SM-G850</model>
+<model>Galaxy Alpha 32Gb Gray SM-G850F</model>
 <vendor>Samsung</vendor>
 <price>11990.0</price>
 <description>﻿смартфон, Android 4.4
@@ -83,7 +83,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy Alpha 32Gb White SM-G850</model>
+<model>Galaxy Alpha 32Gb White SM-G850F</model>
 <vendor>Samsung</vendor>
 <price>11990.0</price>
 <description>﻿смартфон, Android 4.4
@@ -99,7 +99,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy Alpha 32Gb Gold SM-G850</model>
+<model>Galaxy Alpha 32Gb Gold SM-G850F</model>
 <vendor>Samsung</vendor>
 <price>11990.0</price>
 <description>﻿смартфон, Android 4.4
@@ -115,7 +115,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy Alpha 32Gb Silver SM-G850</model>
+<model>Galaxy Alpha 32Gb Silver SM-G850F</model>
 <vendor>Samsung</vendor>
 <price>11990.0</price>
 <description>﻿смартфон, Android 4.4
@@ -131,7 +131,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S3 16Gb Black GT-I9300</model>
+<model>Galaxy S3 16Gb Black GT-I9300F</model>
 <vendor>Samsung</vendor>
 <price>6990.0</price>
 <description>﻿смартфон, Android 4.3
@@ -147,7 +147,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S3 16Gb White GT-I9300</model>
+<model>Galaxy S3 16Gb White GT-I9300F</model>
 <vendor>Samsung</vendor>
 <price>6990.0</price>
 <description>﻿смартфон, Android 4.3
@@ -163,7 +163,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S3 16Gb Blue GT-I9300</model>
+<model>Galaxy S3 16Gb Blue GT-I9300F</model>
 <vendor>Samsung</vendor>
 <price>6990.0</price>
 <description>﻿смартфон, Android 4.3
@@ -179,7 +179,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S3 Mini 16Gb Black GT-I8190</model>
+<model>Galaxy S3 Mini 16Gb Black GT-I8190F</model>
 <vendor>Samsung</vendor>
 <price>5990.0</price>
 <description>﻿смартфон, Android 4.1
@@ -195,7 +195,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S3 Mini 16Gb White GT-I8190</model>
+<model>Galaxy S3 Mini 16Gb White GT-I8190F</model>
 <vendor>Samsung</vendor>
 <price>5990.0</price>
 <description>﻿смартфон, Android 4.1
@@ -211,7 +211,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S4 16Gb Black GT-I9500</model>
+<model>Galaxy S4 16Gb Black GT-I9500F</model>
 <vendor>Samsung</vendor>
 <price>9990.0</price>
 <description>﻿смартфон, Android 4.4
@@ -227,7 +227,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S4 16Gb White GT-I9500</model>
+<model>Galaxy S4 16Gb White GT-I9500F</model>
 <vendor>Samsung</vendor>
 <price>9990.0</price>
 <description>﻿смартфон, Android 4.4
@@ -243,7 +243,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S4 16Gb Blue GT-I9500</model>
+<model>Galaxy S4 16Gb Blue GT-I9500F</model>
 <vendor>Samsung</vendor>
 <price>9990.0</price>
 <description>﻿смартфон, Android 4.4
@@ -259,7 +259,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S4 Mini 16Gb Black GT-I9192</model>
+<model>Galaxy S4 Mini 16Gb Black GT-I9192F</model>
 <vendor>Samsung</vendor>
 <price>8990.0</price>
 <description>﻿смартфон, Android 4.2
@@ -275,7 +275,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S4 Mini 16Gb White GT-I9192</model>
+<model>Galaxy S4 Mini 16Gb White GT-I9192F</model>
 <vendor>Samsung</vendor>
 <price>8990.0</price>
 <description>﻿смартфон, Android 4.2
@@ -291,7 +291,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S5 16Gb Black SM-G900</model>
+<model>Galaxy S5 16Gb Black SM-G900F</model>
 <vendor>Samsung</vendor>
 <price>12990.0</price>
 <description>﻿смартфон, Android 6.0
@@ -307,7 +307,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S5 16Gb White SM-G900</model>
+<model>Galaxy S5 16Gb White SM-G900F</model>
 <vendor>Samsung</vendor>
 <price>12990.0</price>
 <description>﻿смартфон, Android 6.0
@@ -323,7 +323,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S5 16Gb Gold SM-G900</model>
+<model>Galaxy S5 16Gb Gold SM-G900F</model>
 <vendor>Samsung</vendor>
 <price>12990.0</price>
 <description>﻿смартфон, Android 6.0
@@ -339,7 +339,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S5 16Gb Blue SM-G900</model>
+<model>Galaxy S5 16Gb Blue SM-G900F</model>
 <vendor>Samsung</vendor>
 <price>12990.0</price>
 <description>﻿смартфон, Android 6.0
@@ -355,7 +355,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S5 Mini 16Gb Black SM-G800</model>
+<model>Galaxy S5 Mini 16Gb Black SM-G800F</model>
 <vendor>Samsung</vendor>
 <price>13990.0</price>
 <description>﻿смартфон, Android 4.4
@@ -371,7 +371,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S5 Mini 16Gb White SM-G800</model>
+<model>Galaxy S5 Mini 16Gb White SM-G800F</model>
 <vendor>Samsung</vendor>
 <price>13990.0</price>
 <description>﻿смартфон, Android 4.4
@@ -387,7 +387,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S6 32Gb Black Sapphire SM-G920</model>
+<model>Galaxy S6 32Gb Black Sapphire SM-G920F</model>
 <vendor>Samsung</vendor>
 <price>20990.0</price>
 <description>﻿смартфон, Android 6.0
@@ -403,7 +403,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S6 32Gb White Pearl SM-G920</model>
+<model>Galaxy S6 32Gb White Pearl SM-G920F</model>
 <vendor>Samsung</vendor>
 <price>20990.0</price>
 <description>﻿смартфон, Android 6.0
@@ -419,7 +419,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S6 32Gb Gold Platinum SM-G920</model>
+<model>Galaxy S6 32Gb Gold Platinum SM-G920F</model>
 <vendor>Samsung</vendor>
 <price>20990.0</price>
 <description>﻿смартфон, Android 6.0
@@ -435,7 +435,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S6 32Gb Blue Topaz SM-G920</model>
+<model>Galaxy S6 32Gb Blue Topaz SM-G920F</model>
 <vendor>Samsung</vendor>
 <price>20990.0</price>
 <description>﻿смартфон, Android 6.0
@@ -451,7 +451,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S6 Edge 32Gb Black Sapphire SM-G925</model>
+<model>Galaxy S6 Edge 32Gb Black Sapphire SM-G925F</model>
 <vendor>Samsung</vendor>
 <price>23990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -467,7 +467,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S6 Edge 32Gb White Pearl SM-G925</model>
+<model>Galaxy S6 Edge 32Gb White Pearl SM-G925F</model>
 <vendor>Samsung</vendor>
 <price>23990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -483,7 +483,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S6 Edge 32Gb Gold Platinum SM-G925</model>
+<model>Galaxy S6 Edge 32Gb Gold Platinum SM-G925F</model>
 <vendor>Samsung</vendor>
 <price>23990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -499,7 +499,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S6 Edge 32Gb Green Emerald SM-G925</model>
+<model>Galaxy S6 Edge 32Gb Green Emerald SM-G925F</model>
 <vendor>Samsung</vendor>
 <price>23990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -515,7 +515,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S6 Edge Plus 32Gb White Pearl SM-G928</model>
+<model>Galaxy S6 Edge Plus 32Gb White Pearl SM-G928F</model>
 <vendor>Samsung</vendor>
 <price>32490.0</price>
 <description>﻿смартфон, Android 5.1
@@ -531,7 +531,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S6 Edge Plus 32Gb Gold Platinum SM-G928</model>
+<model>Galaxy S6 Edge Plus 32Gb Gold Platinum SM-G928F</model>
 <vendor>Samsung</vendor>
 <price>32490.0</price>
 <description>﻿смартфон, Android 5.1
@@ -547,7 +547,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S6 Edge Plus 32Gb Black Sapphire SM-G928</model>
+<model>Galaxy S6 Edge Plus 32Gb Black Sapphire SM-G928F</model>
 <vendor>Samsung</vendor>
 <price>32490.0</price>
 <description>﻿смартфон, Android 5.1
@@ -563,7 +563,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S7 32Gb Black Onyx SM-G930</model>
+<model>Galaxy S7 32Gb Black Onyx SM-G930F</model>
 <vendor>Samsung</vendor>
 <price>26990.0</price>
 <description>﻿смартфон, Android 7.0
@@ -579,7 +579,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S7 32Gb Silver Titanium SM-G930</model>
+<model>Galaxy S7 32Gb Silver Titanium SM-G930F</model>
 <vendor>Samsung</vendor>
 <price>26990.0</price>
 <description>﻿смартфон, Android 7.0
@@ -595,7 +595,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S7 32Gb Gold Platinum SM-G930</model>
+<model>Galaxy S7 32Gb Gold Platinum SM-G930F</model>
 <vendor>Samsung</vendor>
 <price>26990.0</price>
 <description>﻿смартфон, Android 7.0
@@ -611,7 +611,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S7 Edge 32Gb Black Onyx SM-G935</model>
+<model>Galaxy S7 Edge 32Gb Black Onyx SM-G935F</model>
 <vendor>Samsung</vendor>
 <price>29990.0</price>
 <description>﻿смартфон, Android 6.0
@@ -627,7 +627,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S7 Edge 32Gb Silver Titanium SM-G935</model>
+<model>Galaxy S7 Edge 32Gb Silver Titanium SM-G935F</model>
 <vendor>Samsung</vendor>
 <price>29990.0</price>
 <description>﻿смартфон, Android 6.0
@@ -643,7 +643,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S7 Edge 32Gb Gold Platinum SM-G935</model>
+<model>Galaxy S7 Edge 32Gb Gold Platinum SM-G935F</model>
 <vendor>Samsung</vendor>
 <price>29990.0</price>
 <description>﻿смартфон, Android 6.0
@@ -659,7 +659,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S7 Edge 32Gb Smoke Sapphire SM-G935</model>
+<model>Galaxy S7 Edge 32Gb Smoke Sapphire SM-G935F</model>
 <vendor>Samsung</vendor>
 <price>29990.0</price>
 <description>﻿смартфон, Android 6.0
@@ -675,7 +675,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A3 (2015) 8Gb Black SM-A300</model>
+<model>Galaxy A3 (2015) 8Gb Black SM-A300F</model>
 <vendor>Samsung</vendor>
 <price>9490.0</price>
 <description>﻿смартфон, Android 5.1
@@ -692,7 +692,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A3 (2015) 8Gb White SM-A300</model>
+<model>Galaxy A3 (2015) 8Gb White SM-A300F</model>
 <vendor>Samsung</vendor>
 <price>9490.0</price>
 <description>﻿смартфон, Android 5.1
@@ -709,7 +709,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A3 (2015) 8Gb Gold SM-A300</model>
+<model>Galaxy A3 (2015) 8Gb Gold SM-A300F</model>
 <vendor>Samsung</vendor>
 <price>9490.0</price>
 <description>﻿смартфон, Android 5.1
@@ -726,7 +726,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A3 (2016) 16Gb Black SM-A310</model>
+<model>Galaxy A3 (2016) 16Gb Black SM-A310F</model>
 <vendor>Samsung</vendor>
 <price>12490.0</price>
 <description>﻿смартфон, Android 5.1
@@ -743,7 +743,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A3 (2016) 16Gb White SM-A310</model>
+<model>Galaxy A3 (2016) 16Gb White SM-A310F</model>
 <vendor>Samsung</vendor>
 <price>12490.0</price>
 <description>﻿смартфон, Android 5.1
@@ -760,7 +760,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A3 (2016) 16Gb Gold SM-A310</model>
+<model>Galaxy A3 (2016) 16Gb Gold SM-A310F</model>
 <vendor>Samsung</vendor>
 <price>12490.0</price>
 <description>﻿смартфон, Android 5.1
@@ -777,7 +777,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A5 (2015) 16Gb Black SM-A500</model>
+<model>Galaxy A5 (2015) 16Gb Black SM-A500F</model>
 <vendor>Samsung</vendor>
 <price>10990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -794,7 +794,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A5 (2015) 16Gb White SM-A500</model>
+<model>Galaxy A5 (2015) 16Gb White SM-A500F</model>
 <vendor>Samsung</vendor>
 <price>10990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -811,7 +811,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A5 (2015) 16Gb Gold SM-A500</model>
+<model>Galaxy A5 (2015) 16Gb Gold SM-A500F</model>
 <vendor>Samsung</vendor>
 <price>10990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -828,7 +828,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A5 (2015) 16Gb Silver SM-A500</model>
+<model>Galaxy A5 (2015) 16Gb Silver SM-A500F</model>
 <vendor>Samsung</vendor>
 <price>10990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -845,7 +845,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A5 (2016) 16Gb Black SM-A510</model>
+<model>Galaxy A5 (2016) 16Gb Black SM-A510F</model>
 <vendor>Samsung</vendor>
 <price>16490.0</price>
 <description>﻿смартфон, Android 5.1
@@ -862,7 +862,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A5 (2016) 16Gb White SM-A510</model>
+<model>Galaxy A5 (2016) 16Gb White SM-A510F</model>
 <vendor>Samsung</vendor>
 <price>16490.0</price>
 <description>﻿смартфон, Android 5.1
@@ -879,7 +879,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A5 (2016) 16Gb Gold SM-A510</model>
+<model>Galaxy A5 (2016) 16Gb Gold SM-A510F</model>
 <vendor>Samsung</vendor>
 <price>16490.0</price>
 <description>﻿смартфон, Android 5.1
@@ -896,7 +896,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A7 (2015) 16Gb Black SM-A700</model>
+<model>Galaxy A7 (2015) 16Gb Black SM-A700F</model>
 <vendor>Samsung</vendor>
 <price>15990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -913,7 +913,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A7 (2015) 16Gb White SM-A700</model>
+<model>Galaxy A7 (2015) 16Gb White SM-A700F</model>
 <vendor>Samsung</vendor>
 <price>15990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -930,7 +930,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A7 (2015) 16Gb Gold SM-A700</model>
+<model>Galaxy A7 (2015) 16Gb Gold SM-A700F</model>
 <vendor>Samsung</vendor>
 <price>15990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -947,7 +947,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A7 (2016) 16Gb Black SM-A710</model>
+<model>Galaxy A7 (2016) 16Gb Black SM-A710F</model>
 <vendor>Samsung</vendor>
 <price>17990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -964,7 +964,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A7 (2016) 16Gb White SM-A710</model>
+<model>Galaxy A7 (2016) 16Gb White SM-A710F</model>
 <vendor>Samsung</vendor>
 <price>17990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -981,7 +981,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A7 (2016) 16Gb Gold SM-A710</model>
+<model>Galaxy A7 (2016) 16Gb Gold SM-A710F</model>
 <vendor>Samsung</vendor>
 <price>17990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -998,7 +998,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J5 (2016) 16Gb Black SM-J510</model>
+<model>Galaxy J5 (2016) 16Gb Black SM-J510F</model>
 <vendor>Samsung</vendor>
 <price>11990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -1015,7 +1015,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J5 (2016) 16Gb White SM-J510</model>
+<model>Galaxy J5 (2016) 16Gb White SM-J510F</model>
 <vendor>Samsung</vendor>
 <price>11990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -1032,7 +1032,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J5 (2016) 16Gb Gold SM-J510</model>
+<model>Galaxy J5 (2016) 16Gb Gold SM-J510F</model>
 <vendor>Samsung</vendor>
 <price>11990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -1049,7 +1049,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J7 (2016) 16Gb Black SM-J710</model>
+<model>Galaxy J7 (2016) 16Gb Black SM-J710F</model>
 <vendor>Samsung</vendor>
 <price>13990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -1066,7 +1066,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J7 (2016) 16Gb White SM-J710</model>
+<model>Galaxy J7 (2016) 16Gb White SM-J710F</model>
 <vendor>Samsung</vendor>
 <price>13990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -1083,7 +1083,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J7 (2016) 16Gb Gold SM-J710</model>
+<model>Galaxy J7 (2016) 16Gb Gold SM-J710F</model>
 <vendor>Samsung</vendor>
 <price>13990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -1100,7 +1100,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy Note 3 16Gb Black SM-N900</model>
+<model>Galaxy Note 3 16Gb Black SM-N900F</model>
 <vendor>Samsung</vendor>
 <price>13990.0</price>
 <description>﻿смартфон, Android 4.4
@@ -1116,7 +1116,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy Note 3 16Gb White SM-N900</model>
+<model>Galaxy Note 3 16Gb White SM-N900F</model>
 <vendor>Samsung</vendor>
 <price>13990.0</price>
 <description>﻿смартфон, Android 4.4
@@ -1132,7 +1132,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy Note 3 16Gb Pink SM-N900</model>
+<model>Galaxy Note 3 16Gb Pink SM-N900F</model>
 <vendor>Samsung</vendor>
 <price>13990.0</price>
 <description>﻿смартфон, Android 4.4
@@ -1148,7 +1148,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy Note 4 32Gb Black SM-N910</model>
+<model>Galaxy Note 4 32Gb Black SM-N910F</model>
 <vendor>Samsung</vendor>
 <price>17990.0</price>
 <description>﻿смартфон, Android 4.4
@@ -1164,7 +1164,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy Note 4 32Gb White SM-N910</model>
+<model>Galaxy Note 4 32Gb White SM-N910F</model>
 <vendor>Samsung</vendor>
 <price>17990.0</price>
 <description>﻿смартфон, Android 4.4
@@ -1180,7 +1180,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy Note 4 32Gb Gold SM-N910</model>
+<model>Galaxy Note 4 32Gb Gold SM-N910F</model>
 <vendor>Samsung</vendor>
 <price>17990.0</price>
 <description>﻿смартфон, Android 4.4
@@ -1196,7 +1196,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy Note 4 32Gb Pink SM-N910</model>
+<model>Galaxy Note 4 32Gb Pink SM-N910F</model>
 <vendor>Samsung</vendor>
 <price>17990.0</price>
 <description>﻿смартфон, Android 4.4
@@ -1212,7 +1212,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy Note 5 32Gb Black Sapphire SM-N920</model>
+<model>Galaxy Note 5 32Gb Black Sapphire SM-N920F</model>
 <vendor>Samsung</vendor>
 <price>26990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -1228,7 +1228,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy Note 5 32Gb White Pearl SM-N920</model>
+<model>Galaxy Note 5 32Gb White Pearl SM-N920F</model>
 <vendor>Samsung</vendor>
 <price>26990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -1244,7 +1244,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy Note 5 32Gb Gold Platinum SM-N920</model>
+<model>Galaxy Note 5 32Gb Gold Platinum SM-N920F</model>
 <vendor>Samsung</vendor>
 <price>26990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -1260,7 +1260,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy Note 5 32Gb Silver Titanium SM-N920</model>
+<model>Galaxy Note 5 32Gb Silver Titanium SM-N920F</model>
 <vendor>Samsung</vendor>
 <price>26990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -4165,7 +4165,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S7 32Gb Black Onyx SM-G930F</model>
+<model>Galaxy S7 32Gb Black Onyx SM-G930R</model>
 <vendor>Samsung</vendor>
 <price>30490.0</price>
 <description>﻿смартфон, Android 7.0
@@ -4181,7 +4181,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S7 32Gb Silver Titanium SM-G930F</model>
+<model>Galaxy S7 32Gb Silver Titanium SM-G930R</model>
 <vendor>Samsung</vendor>
 <price>30490.0</price>
 <description>﻿смартфон, Android 7.0
@@ -4197,7 +4197,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S7 32Gb Gold Platinum SM-G930F</model>
+<model>Galaxy S7 32Gb Gold Platinum SM-G930R</model>
 <vendor>Samsung</vendor>
 <price>30490.0</price>
 <description>﻿смартфон, Android 7.0
@@ -4213,7 +4213,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S7 Edge 32Gb Black Onyx SM-G935F</model>
+<model>Galaxy S7 Edge 32Gb Black Onyx SM-G935R</model>
 <vendor>Samsung</vendor>
 <price>32490.0</price>
 <description>﻿смартфон, Android 6.0
@@ -4229,7 +4229,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S7 Edge 32Gb Silver Titanium SM-G935F</model>
+<model>Galaxy S7 Edge 32Gb Silver Titanium SM-G935R</model>
 <vendor>Samsung</vendor>
 <price>32490.0</price>
 <description>﻿смартфон, Android 6.0
@@ -4245,7 +4245,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S7 Edge 32Gb Gold Platinum SM-G935F</model>
+<model>Galaxy S7 Edge 32Gb Gold Platinum SM-G935R</model>
 <vendor>Samsung</vendor>
 <price>32490.0</price>
 <description>﻿смартфон, Android 6.0
@@ -4261,7 +4261,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S7 Edge 32Gb Smoke Sapphire SM-G935F</model>
+<model>Galaxy S7 Edge 32Gb Smoke Sapphire SM-G935R</model>
 <vendor>Samsung</vendor>
 <price>32490.0</price>
 <description>﻿смартфон, Android 6.0
@@ -4277,7 +4277,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S8 64Gb Midnight Black SM-G950F</model>
+<model>Galaxy S8 64Gb Midnight Black SM-G950R</model>
 <vendor>Samsung</vendor>
 <price>44990.0</price>
 <description>﻿смартфон, Android 7.0
@@ -4293,7 +4293,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S8 64Gb Orchid Gray SM-G950F</model>
+<model>Galaxy S8 64Gb Orchid Gray SM-G950R</model>
 <vendor>Samsung</vendor>
 <price>44990.0</price>
 <description>﻿смартфон, Android 7.0
@@ -4309,7 +4309,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S8 64Gb Maple Gold SM-G950F</model>
+<model>Galaxy S8 64Gb Maple Gold SM-G950R</model>
 <vendor>Samsung</vendor>
 <price>44990.0</price>
 <description>﻿смартфон, Android 7.0
@@ -4325,7 +4325,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S8 Plus 64Gb Midnight Black SM-G955F</model>
+<model>Galaxy S8 Plus 64Gb Midnight Black SM-G955R</model>
 <vendor>Samsung</vendor>
 <price>49990.0</price>
 <description>﻿смартфон, Android 7.0
@@ -4341,7 +4341,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S8 Plus 64Gb Orchid Gray SM-G955F</model>
+<model>Galaxy S8 Plus 64Gb Orchid Gray SM-G955R</model>
 <vendor>Samsung</vendor>
 <price>49990.0</price>
 <description>﻿смартфон, Android 7.0
@@ -4357,7 +4357,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy S8 Plus 64Gb Maple Gold SM-G955F</model>
+<model>Galaxy S8 Plus 64Gb Maple Gold SM-G955R</model>
 <vendor>Samsung</vendor>
 <price>49990.0</price>
 <description>﻿смартфон, Android 7.0
@@ -4373,7 +4373,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A3 (2017) 16Gb Black SM-A320F</model>
+<model>Galaxy A3 (2017) 16Gb Black SM-A320R</model>
 <vendor>Samsung</vendor>
 <price>16990.0</price>
 <description>﻿смартфон на платформе Android
@@ -4390,7 +4390,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A3 (2017) 16Gb Gold SM-A320F</model>
+<model>Galaxy A3 (2017) 16Gb Gold SM-A320R</model>
 <vendor>Samsung</vendor>
 <price>16990.0</price>
 <description>﻿смартфон на платформе Android
@@ -4407,7 +4407,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A3 (2017) 16Gb Blue SM-A320F</model>
+<model>Galaxy A3 (2017) 16Gb Blue SM-A320R</model>
 <vendor>Samsung</vendor>
 <price>16990.0</price>
 <description>﻿смартфон на платформе Android
@@ -4424,7 +4424,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A5 (2016) 16Gb Black SM-A510F</model>
+<model>Galaxy A5 (2016) 16Gb Black SM-A510R</model>
 <vendor>Samsung</vendor>
 <price>18490.0</price>
 <description>﻿смартфон, Android 5.1
@@ -4441,7 +4441,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A5 (2016) 16Gb White SM-A510F</model>
+<model>Galaxy A5 (2016) 16Gb White SM-A510R</model>
 <vendor>Samsung</vendor>
 <price>18490.0</price>
 <description>﻿смартфон, Android 5.1
@@ -4458,7 +4458,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A5 (2016) 16Gb Gold SM-A510F</model>
+<model>Galaxy A5 (2016) 16Gb Gold SM-A510R</model>
 <vendor>Samsung</vendor>
 <price>18490.0</price>
 <description>﻿смартфон, Android 5.1
@@ -4475,7 +4475,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A5 (2017) 16Gb Black SM-A520F</model>
+<model>Galaxy A5 (2017) 16Gb Black SM-A520R</model>
 <vendor>Samsung</vendor>
 <price>21990.0</price>
 <description>﻿смартфон на платформе Android
@@ -4492,7 +4492,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A5 (2017) 16Gb Gold SM-A520F</model>
+<model>Galaxy A5 (2017) 16Gb Gold SM-A520R</model>
 <vendor>Samsung</vendor>
 <price>21990.0</price>
 <description>﻿смартфон на платформе Android
@@ -4509,7 +4509,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A5 (2017) 16Gb Blue SM-A520F</model>
+<model>Galaxy A5 (2017) 16Gb Blue SM-A520R</model>
 <vendor>Samsung</vendor>
 <price>21990.0</price>
 <description>﻿смартфон на платформе Android
@@ -4526,7 +4526,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A7 (2017) 16Gb Black SM-A720F</model>
+<model>Galaxy A7 (2017) 16Gb Black SM-A720R</model>
 <vendor>Samsung</vendor>
 <price>24990.0</price>
 <description>﻿смартфон на платформе Android
@@ -4543,7 +4543,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A7 (2017) 16Gb Gold SM-A720F</model>
+<model>Galaxy A7 (2017) 16Gb Gold SM-A720R</model>
 <vendor>Samsung</vendor>
 <price>24990.0</price>
 <description>﻿смартфон на платформе Android
@@ -4560,7 +4560,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy A7 (2017) 16Gb Blue SM-A720F</model>
+<model>Galaxy A7 (2017) 16Gb Blue SM-A720R</model>
 <vendor>Samsung</vendor>
 <price>24990.0</price>
 <description>﻿смартфон на платформе Android
@@ -4577,7 +4577,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J1 (2016) 8Gb Black SM-J120F</model>
+<model>Galaxy J1 (2016) 8Gb Black SM-J120R</model>
 <vendor>Samsung</vendor>
 <price>6290.0</price>
 <description>﻿смартфон, Android 5.1
@@ -4594,7 +4594,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J1 (2016) 8Gb White SM-J120F</model>
+<model>Galaxy J1 (2016) 8Gb White SM-J120R</model>
 <vendor>Samsung</vendor>
 <price>6290.0</price>
 <description>﻿смартфон, Android 5.1
@@ -4611,7 +4611,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J1 (2016) 8Gb Gold SM-J120F</model>
+<model>Galaxy J1 (2016) 8Gb Gold SM-J120R</model>
 <vendor>Samsung</vendor>
 <price>6290.0</price>
 <description>﻿смартфон, Android 5.1
@@ -4628,7 +4628,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J2 (2016) 8Gb Black SM-G532F</model>
+<model>Galaxy J2 (2016) 8Gb Black SM-G532R</model>
 <vendor>Samsung</vendor>
 <price>7490.0</price>
 <description>﻿смартфон, Android 5.1
@@ -4645,7 +4645,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J2 (2016) 8Gb Silver SM-G532F</model>
+<model>Galaxy J2 (2016) 8Gb Silver SM-G532R</model>
 <vendor>Samsung</vendor>
 <price>7490.0</price>
 <description>﻿смартфон, Android 5.1
@@ -4662,7 +4662,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J2 (2016) 8Gb Gold SM-G532F</model>
+<model>Galaxy J2 (2016) 8Gb Gold SM-G532R</model>
 <vendor>Samsung</vendor>
 <price>7490.0</price>
 <description>﻿смартфон, Android 5.1
@@ -4679,7 +4679,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J3 (2016) 8Gb Black SM-J320F</model>
+<model>Galaxy J3 (2016) 8Gb Black SM-J320R</model>
 <vendor>Samsung</vendor>
 <price>8590.0</price>
 <description>﻿смартфон на платформе Android
@@ -4696,7 +4696,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J3 (2016) 8Gb White SM-J320F</model>
+<model>Galaxy J3 (2016) 8Gb White SM-J320R</model>
 <vendor>Samsung</vendor>
 <price>8590.0</price>
 <description>﻿смартфон на платформе Android
@@ -4713,7 +4713,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J3 (2016) 8Gb Gold SM-J320F</model>
+<model>Galaxy J3 (2016) 8Gb Gold SM-J320R</model>
 <vendor>Samsung</vendor>
 <price>8590.0</price>
 <description>﻿смартфон на платформе Android
@@ -4730,7 +4730,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J3 (2017) 16Gb Black SM-J330F</model>
+<model>Galaxy J3 (2017) 16Gb Black SM-J330R</model>
 <vendor>Samsung</vendor>
 <price>12490.0</price>
 <description>﻿смартфон на платформе Android
@@ -4747,7 +4747,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J3 (2017) 16Gb Blue SM-J330F</model>
+<model>Galaxy J3 (2017) 16Gb Blue SM-J330R</model>
 <vendor>Samsung</vendor>
 <price>12490.0</price>
 <description>﻿смартфон на платформе Android
@@ -4764,7 +4764,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J3 (2017) 16Gb Gold SM-J330F</model>
+<model>Galaxy J3 (2017) 16Gb Gold SM-J330R</model>
 <vendor>Samsung</vendor>
 <price>12490.0</price>
 <description>﻿смартфон на платформе Android
@@ -4781,7 +4781,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J3 (2017) 16Gb Pink SM-J330F</model>
+<model>Galaxy J3 (2017) 16Gb Pink SM-J330R</model>
 <vendor>Samsung</vendor>
 <price>12490.0</price>
 <description>﻿смартфон на платформе Android
@@ -4798,7 +4798,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J5 (2016) 16Gb Black SM-J510F</model>
+<model>Galaxy J5 (2016) 16Gb Black SM-J510R</model>
 <vendor>Samsung</vendor>
 <price>11990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -4815,7 +4815,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J5 (2016) 16Gb White SM-J510F</model>
+<model>Galaxy J5 (2016) 16Gb White SM-J510R</model>
 <vendor>Samsung</vendor>
 <price>11990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -4832,7 +4832,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J5 (2016) 16Gb Gold SM-J510F</model>
+<model>Galaxy J5 (2016) 16Gb Gold SM-J510R</model>
 <vendor>Samsung</vendor>
 <price>11990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -4849,7 +4849,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J5 (2017) 16Gb Black SM-J530F</model>
+<model>Galaxy J5 (2017) 16Gb Black SM-J530R</model>
 <vendor>Samsung</vendor>
 <price>15990.0</price>
 <description>﻿смартфон, Android 7.0
@@ -4866,7 +4866,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J5 (2017) 16Gb Blue SM-J530F</model>
+<model>Galaxy J5 (2017) 16Gb Blue SM-J530R</model>
 <vendor>Samsung</vendor>
 <price>15990.0</price>
 <description>﻿смартфон, Android 7.0
@@ -4883,7 +4883,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J5 (2017) 16Gb Gold SM-J530F</model>
+<model>Galaxy J5 (2017) 16Gb Gold SM-J530R</model>
 <vendor>Samsung</vendor>
 <price>15990.0</price>
 <description>﻿смартфон, Android 7.0
@@ -4900,7 +4900,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J5 (2017) 16Gb Pink SM-J530F</model>
+<model>Galaxy J5 (2017) 16Gb Pink SM-J530R</model>
 <vendor>Samsung</vendor>
 <price>15990.0</price>
 <description>﻿смартфон, Android 7.0
@@ -4917,7 +4917,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J7 (2016) 16Gb Black SM-J710F</model>
+<model>Galaxy J7 (2016) 16Gb Black SM-J710R</model>
 <vendor>Samsung</vendor>
 <price>13990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -4934,7 +4934,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J7 (2016) 16Gb White SM-J710F</model>
+<model>Galaxy J7 (2016) 16Gb White SM-J710R</model>
 <vendor>Samsung</vendor>
 <price>13990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -4951,7 +4951,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J7 (2016) 16Gb Gold SM-J710F</model>
+<model>Galaxy J7 (2016) 16Gb Gold SM-J710R</model>
 <vendor>Samsung</vendor>
 <price>13990.0</price>
 <description>﻿смартфон, Android 5.1
@@ -4968,7 +4968,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J7 (2017) 16Gb Black SM-J730F</model>
+<model>Galaxy J7 (2017) 16Gb Black SM-J730R</model>
 <vendor>Samsung</vendor>
 <price>19490.0</price>
 <description>﻿смартфон, Android 7.0
@@ -4985,7 +4985,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J7 (2017) 16Gb Blue SM-J730F</model>
+<model>Galaxy J7 (2017) 16Gb Blue SM-J730R</model>
 <vendor>Samsung</vendor>
 <price>19490.0</price>
 <description>﻿смартфон, Android 7.0
@@ -5002,7 +5002,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J7 (2017) 16Gb Gold SM-J730F</model>
+<model>Galaxy J7 (2017) 16Gb Gold SM-J730R</model>
 <vendor>Samsung</vendor>
 <price>19490.0</price>
 <description>﻿смартфон, Android 7.0
@@ -5019,7 +5019,7 @@
 <offer>
 <initialCategoryId>2</initialCategoryId>
 <typePrefix>Смартфон</typePrefix>
-<model>Galaxy J7 (2017) 16Gb Pink SM-J730F</model>
+<model>Galaxy J7 (2017) 16Gb Pink SM-J730R</model>
 <vendor>Samsung</vendor>
 <price>19490.0</price>
 <description>﻿смартфон, Android 7.0

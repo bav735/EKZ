@@ -7,7 +7,7 @@ import java.util.*;
 
 public class AvitoGadgets extends Gadgets {
     static int tSize = 11266;
-    final static String NAME_BEGIN = "";
+    final static String NAME_BEGIN = "Кредит ";
     final static String QUALITY = "Качество";
     final static String VENDOR = "Производитель";
     final static String MODEL_LINE = "Модельный ряд";
@@ -18,8 +18,8 @@ public class AvitoGadgets extends Gadgets {
     final static String COLOR = "Цвет";
     final static String TOUCH_LOCKED = "Без Отп";
     final static String RST = "RST";
-    final static String EST = "EST";
-    final static String EST2 = "EST2";
+    final static String EST = "EST3";
+    //    final static String EST2 = "EST2";
     final static String IMG_FILE_NAME = "img";
     final static int TOP_COUNT = 6;
     final static int DAYS_OFFSET = 3;
@@ -207,6 +207,7 @@ public class AvitoGadgets extends Gadgets {
             String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
             String fingerPrint = gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT));
             String color = gadget.get(mapGadgetAttributeNumber.get(COLOR));
+            System.out.println(getGadgetName(gadget));
             if (quality.equals(EST) && subModel.equals(GadgetConst.MAP_MODEL_SUBMODEL.get(model).get(0))) {
                 price = getPriceISPARK(getGadgetName(gadget), 0);
             }
@@ -328,20 +329,20 @@ public class AvitoGadgets extends Gadgets {
     }*/
 
     public String getIdName(ArrayList<String> gadget) {
-        return String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(QUALITY),
+        return String.join("", gadget.subList(mapGadgetAttributeNumber.get(QUALITY),
                 mapGadgetAttributeNumber.get(COLOR) + 1)).replaceAll("[() -]", "");
     }
 
     public String getAvitoAdName(ArrayList<String> gadget) {
         String name = NAME_BEGIN;
-        if (!gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
-            name += "Новый ";
-        }
+//        if (!gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
+//            name += "Новый ";
+//        }
         name += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(MODEL_LINE),
                 mapGadgetAttributeNumber.get(COLOR) + 1)).replace("  ", " ");
-        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
-            name += " Реф";
-        }
+//        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
+//            name += " Реф";
+//        }
         name += " Магазин";
         return name;
     }
@@ -379,15 +380,18 @@ public class AvitoGadgets extends Gadgets {
     private String getOfferAMOLED(ArrayList<String> gadget) {
         String offer = "<p>➡";
         offer += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(VENDOR),
-                mapGadgetAttributeNumber.get(COLOR) + 1)).replace("  ", " ");
-        offer += " = " + getRetailPriceAMOLED(gadget) + "\u20BD ";
-        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
-            offer += ", восстановленный";
+                mapGadgetAttributeNumber.get(FINGER_PRINT)));
+        if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).equals("Apple") &&
+                gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).isEmpty()) {
+            offer += " TouchID работает ";
         } else {
-            offer += ", в сост. нового";
+            offer += " TouchID не работает ";
         }
-        offer += "<br>(= " + getMaxOptPriceAmoled(gadget) + "\u20BD от 3 шт, = " +
-                getMinOptPriceAmoled(gadget) + "\u20BD от 10шт\uD83D\uDCA3)</p>";
+        offer += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(FINGER_PRINT) + 1,
+                mapGadgetAttributeNumber.get(COLOR) + 1));
+        offer += " = " + getRetailPriceAMOLED(gadget) + "\u20BD ";
+        offer += "<br>= " + getMaxOptPriceAmoled(gadget) + "\u20BD от 3 шт, = " +
+                getMinOptPriceAmoled(gadget) + "\u20BD от 10шт \uD83D\uDCA3</p>";
         return offer;
     }
 
@@ -457,8 +461,8 @@ public class AvitoGadgets extends Gadgets {
         text += getOfferAMOLED(gadget);
         text += "\n- цена действует при оплате полной стоимости товара наличными\n";
         text += "- выдаем товарный чек и гарантийный талон, заверенные печатью\n";
-        text += "- количество товара ограничено, уточняйте актуальное наличие\n";
-        text += "- в заводской пленке, без следов эксплуатации, отличный подарок\n\n";
+        text += "- товар в пленке, неоф. восстановленный, есть микроцарапины\n";
+        text += "- количество товара ограничено, уточняйте актуальное наличие\n\n";
 //        text += "Местоположение iSPARK, см. в Яндекс.Картах, 2ГИС, Google Maps \uD83C\uDF0D\n" +
 //                "▶ г. Казань, ул. Лушникова, д. 8, оф. 5 время работы (пн-сб): 13.00-21.00 ⏰\n\n";
         text += "-> Звоните: 10.00-20.00, ежедневно\n\n" +
@@ -491,13 +495,12 @@ public class AvitoGadgets extends Gadgets {
         text += getOfferAMOLED(gadget);
         text += "<p>✔ обеспечиваем гарантию на ремонтное обслуживание в течение 1 года<br>";
         text += "✔ выдаем товарный чек и гарантийный талон, заверенные живой печатью<br>";
-        text += "✔ весь товар в пленке, без следов эксплуатации, подойдет для подарка<br>";
+        text += "✔ восстановленный, отличное состояние (микроцарапины), запечатаны<br>";
         text += "✔ перед визитом в магазин, просим уточнять актуальное наличие товара</p>";
         text += "<p>\uD83D\uDCDE Звоните: 10.00-20.00, ежедневно</p>" +
                 "<p>У нас вы сможете наиболее выгодно купить интересующий вас гаджет или аксессуар!" +
                 "\uD83D\uDC4D<br>" +
                 "Магазин AMOLED\uD83D\uDCF2</p>";
-        text = text.replace(TOUCH_LOCKED, "без отпечатка");
         return text + "]]>";
     }
 
@@ -518,22 +521,22 @@ public class AvitoGadgets extends Gadgets {
         String ad = "\t<Ad>\n";
         ad += "\t\t<Id>" + getIdName(gadget) + "</Id>\n";
         String name = getAvitoAdName(gadget);
-//        if (gadgetId > 0 && (!includeAds.contains(name.substring(0, name.lastIndexOf(" "))) || cityId == 0)) {
-        Calendar calendarZero = (Calendar) CALENDAR_ZERO.clone();
-        int dayNumCurrentMonth = (DAY_NUM_GLOBAL - 1) % 30 + 1;
-        calendarZero.add(Calendar.DAY_OF_MONTH, DAY_NUM_GLOBAL - dayNumCurrentMonth - 1 + xmlDay);
-        if (dayNumCurrentMonth <= DAYS_OFFSET) {
-            if (xmlDay > dayNumCurrentMonth + 30 - DAYS_OFFSET) {
-                calendarZero.add(Calendar.DAY_OF_MONTH, -30);
+        if (gadgetId > 0) {
+            Calendar calendarZero = (Calendar) CALENDAR_ZERO.clone();
+            int dayNumCurrentMonth = (DAY_NUM_GLOBAL - 1) % 30 + 1;
+            calendarZero.add(Calendar.DAY_OF_MONTH, DAY_NUM_GLOBAL - dayNumCurrentMonth - 1 + xmlDay);
+            if (dayNumCurrentMonth <= DAYS_OFFSET) {
+                if (xmlDay > dayNumCurrentMonth + 30 - DAYS_OFFSET) {
+                    calendarZero.add(Calendar.DAY_OF_MONTH, -30);
+                }
+            } else {
+                if (xmlDay <= dayNumCurrentMonth - DAYS_OFFSET) {
+                    calendarZero.add(Calendar.DAY_OF_MONTH, 30);
+                }
             }
-        } else {
-            if (xmlDay <= dayNumCurrentMonth - DAYS_OFFSET) {
-                calendarZero.add(Calendar.DAY_OF_MONTH, 30);
-            }
+            String dateBeginLeft = getDateByCalendar(calendarZero);
+            ad += "\t\t<DateBegin>" + dateBeginLeft + dateBeginRight + "</DateBegin>\n";
         }
-        String dateBeginLeft = getDateByCalendar(calendarZero);
-        ad += "\t\t<DateBegin>" + dateBeginLeft + dateBeginRight + "</DateBegin>\n";
-//        }
         ad += "\t\t<AllowEmail>Нет</AllowEmail>\n";
         ad += "\t\t<ManagerName>Оператор-консультант</ManagerName>\n";
         ad += "\t\t<ContactPhone>89393911570</ContactPhone>\n";
@@ -547,11 +550,11 @@ public class AvitoGadgets extends Gadgets {
         ad += "\t\t<GoodsType>" + goodsType + "</GoodsType>\n";
         ad += "\t\t<Title>" + name + "</Title>\n";
         ad += "\t\t<Description>" + getAdTextAvitoShop(gadget, cityId) + "</Description>\n";
-        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
-            ad += "\t\t<Price>" + getRetailPriceAMOLED(gadget) + "</Price>\n";
-        } else {
-            ad += "\t\t<Price>" + getMaxOptPriceAmoled(gadget) + "</Price>\n";
-        }
+//        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
+        ad += "\t\t<Price>" + getRetailPriceAMOLED(gadget) + "</Price>\n";
+//        } else {
+//            ad += "\t\t<Price>" + getMaxOptPriceAmoled(gadget) + "</Price>\n";
+//        }
         ad += "\t\t<Images>\n";
         String imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/" +
                 getAmoledImagePath(gadget);
@@ -651,9 +654,9 @@ public class AvitoGadgets extends Gadgets {
                     mapGadgetModelGadgets.put(model, new ArrayList<ArrayList<String>>());
                 }
                 mapGadgetModelGadgets.get(model).add(gadget);
-                ArrayList<String> gadget2 = new ArrayList<>(gadget);
-                gadget2.set(mapGadgetAttributeNumber.get(QUALITY), EST2);
-                mapGadgetModelGadgets.get(model).add(gadget2);
+//                ArrayList<String> gadget2 = new ArrayList<>(gadget);
+//                gadget2.set(mapGadgetAttributeNumber.get(QUALITY), EST2);
+//                mapGadgetModelGadgets.get(model).add(gadget2);
             }
         }
         return mapGadgetModelGadgets;
