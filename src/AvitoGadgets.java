@@ -21,8 +21,7 @@ public class AvitoGadgets extends Gadgets {
     final static String EST = "EST3";
     //    final static String EST2 = "EST2";
     final static String IMG_FILE_NAME = "img";
-    final static int TOP_COUNT = 6;
-    final static int DAYS_OFFSET = 3;
+    final static int DAYS_OFFSET = 1;
     final static int TIME_DAY_SEC = 12 * 60 * 60;
     final static int TIME_MONTH_SEC = 30 * TIME_DAY_SEC;
     final static int HOUR_BEGIN = 9;
@@ -34,7 +33,7 @@ public class AvitoGadgets extends Gadgets {
         CALENDAR_ZERO = Calendar.getInstance();
         CALENDAR_ZERO.set(Calendar.YEAR, 2017);
         CALENDAR_ZERO.set(Calendar.MONTH, 8);//september
-        CALENDAR_ZERO.set(Calendar.DAY_OF_MONTH, 3);
+        CALENDAR_ZERO.set(Calendar.DAY_OF_MONTH, 8);
         setCalendarToZero(CALENDAR_ZERO);
         Calendar calendar = Calendar.getInstance();
         setCalendarToZero(calendar);
@@ -477,7 +476,7 @@ public class AvitoGadgets extends Gadgets {
     private String getAdTextAvitoShop(ArrayList<String> gadget, int cityId) {
         String text = "<![CDATA[";
         text += "<p>Уважаемый покупатель,<br>" +
-                "Добро пожаловать в магазин AMOLED\uD83D\uDCF2</p>";
+                "Добро пожаловать в iSPARK\uD83D\uDD25 Дискаунтер</p>";
         text += "<p>\uD83D\uDCB0ГАРАНТИЯ ЛУЧШЕЙ ЦЕНЫ - нашли дешевле в другом магазине? сделаем еще дешевле❗</p>";
         text += "<p>\uD83D\uDC9BМы всегда идем навстречу нашим покупателям.<br>" +
                 "\uD83D\uDC49Мы предлагаем вам:<br>" +
@@ -500,7 +499,7 @@ public class AvitoGadgets extends Gadgets {
         text += "<p>\uD83D\uDCDE Звоните: 10.00-20.00, ежедневно</p>" +
                 "<p>У нас вы сможете наиболее выгодно купить интересующий вас гаджет или аксессуар!" +
                 "\uD83D\uDC4D<br>" +
-                "Магазин AMOLED\uD83D\uDCF2</p>";
+                "iSPARK\uD83D\uDD25 Дискаунтер</p>";
         return text + "]]>";
     }
 
@@ -697,25 +696,28 @@ public class AvitoGadgets extends Gadgets {
                 ArrayList<ArrayList<String>> gadgets = mapGadgetModelGadgets.get(model);
                 Collections.sort(gadgets, new CustomComparator());
                 int prevSize = size[modelNum];
-                size[modelNum] += GadgetConst.GADGET_PER_MONTH_COUNT[cityId].get(modelNum) / TOP_COUNT + 1;
-                int timeIntervalSec = TIME_MONTH_SEC / (size[modelNum] - prevSize);
+                size[modelNum] += GadgetConst.GADGET_PER_MONTH_COUNT[cityId].get(modelNum);
                 megaSize += size[modelNum] - prevSize;
                 System.out.println("$model:" + model + "size_curr:" + size[modelNum] +
                         " size_all: " + gadgets.size());
                 for (int gadgetNum = prevSize; gadgetNum < size[modelNum]; gadgetNum++) {
                     int gadgetId = gadgetNum - prevSize;
-                    int gadgetTimeSec = timeIntervalSec / 2 + gadgetId * timeIntervalSec;
-                    int gadgetTimeDay = gadgetTimeSec / TIME_DAY_SEC + 1;
-                    gadgetTimeSec %= TIME_DAY_SEC;
-                    int gadgetTimeHour = gadgetTimeSec / 3600 + HOUR_BEGIN;
-                    gadgetTimeSec %= 3600;
-                    int gadgetTimeMin = gadgetTimeSec / 60;
-                    gadgetTimeSec %= 60;
-                    String dateEnd = "T" + formatDateElem(gadgetTimeHour) + ":" +
-                            formatDateElem(gadgetTimeMin) + ":" +
-                            formatDateElem(gadgetTimeSec) + "+03:00";
-
-                    xml += getXmlAd(gadgets.get(gadgetNum), gadgetTimeDay, dateEnd, cityId, gadgetId);
+                    if (gadgetId == 0) {
+                        xml += getXmlAd(gadgets.get(gadgetNum), 0, "", 0, 0);
+                    } else {
+                        int timeIntervalSec = TIME_MONTH_SEC / (size[modelNum] - prevSize);
+                        int gadgetTimeSec = timeIntervalSec / 2 + gadgetId * timeIntervalSec;
+                        int gadgetTimeDay = gadgetTimeSec / TIME_DAY_SEC + 1;
+                        gadgetTimeSec %= TIME_DAY_SEC;
+                        int gadgetTimeHour = gadgetTimeSec / 3600 + HOUR_BEGIN;
+                        gadgetTimeSec %= 3600;
+                        int gadgetTimeMin = gadgetTimeSec / 60;
+                        gadgetTimeSec %= 60;
+                        String dateEnd = "T" + formatDateElem(gadgetTimeHour) + ":" +
+                                formatDateElem(gadgetTimeMin) + ":" +
+                                formatDateElem(gadgetTimeSec) + "+03:00";
+                        xml += getXmlAd(gadgets.get(gadgetNum), gadgetTimeDay, dateEnd, cityId, gadgetId);
+                    }
                     generateAmoledDirsPhotos(gadgets.get(gadgetNum));
                 }
             }
