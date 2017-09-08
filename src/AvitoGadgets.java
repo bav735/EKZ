@@ -15,7 +15,7 @@ public class AvitoGadgets extends Gadgets {
     final static String COLOR = "Цвет";
     final static String TOUCH_LOCKED = "Без Отп";
     final static String RST = "RST";
-    final static String EST = "EST3";
+    final static String EST = "EST2";
     //    final static String EST2 = "EST2";
     final static String IMG_FILE_NAME = "img";
     final static int DAYS_OFFSET = 1;
@@ -492,7 +492,7 @@ public class AvitoGadgets extends Gadgets {
         text += getOfferAMOLED(gadget);
         text += "<p>✔ обеспечиваем гарантию на сервисное обслуживание в течение 1 года<br>";
         text += "✔ выдаем товарный чек и гарантийный талон, заверенные живой печатью<br>";
-        text += "✔ неоф. восстановлены, отличное состояние/микроцарапины, запечатаны<br>";
+        text += "✔ запечатанные в пленку, в отличном состоянии, подойдут как подарок<br>";
         text += "✔ перед визитом в магазин, просим уточнять актуальное наличие товара</p>";
         text += "<p>Местоположение см. в Яндекс.Картах, 2ГИС, Google Maps\uD83C\uDF0D<br>" +
                 "▶ г. Казань, ул. Лушникова, д. 8, оф. 1 время работы (пн-сб): 11.00-19.00 ⏰</p>";
