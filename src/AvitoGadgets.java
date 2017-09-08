@@ -1,8 +1,5 @@
 import java.io.BufferedWriter;
-import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.StandardCopyOption;
 import java.util.*;
 
 public class AvitoGadgets extends Gadgets {
@@ -263,7 +260,7 @@ public class AvitoGadgets extends Gadgets {
     }
 
     public String getImageUrlPath(ArrayList<String> gadget) {
-        return "https://raw.githubusercontent.com/bav735/EKZ/master/" + getImagePath(gadget);
+        return "https://raw.githubusercontent.com/bav735/iSPARK/master/images/" + getImagePath(gadget);
     }
 
     private boolean notEnoughModel(ArrayList<String> gadget) {
@@ -380,11 +377,12 @@ public class AvitoGadgets extends Gadgets {
         String offer = "<p>➡";
         offer += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(VENDOR),
                 mapGadgetAttributeNumber.get(FINGER_PRINT)));
-        if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).equals("Apple") &&
-                gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).isEmpty()) {
-            offer += " TouchID работает ";
-        } else {
-            offer += " TouchID не работает ";
+        if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).equals("Apple")) {
+            if (gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).isEmpty()) {
+                offer += " TouchID работает ";
+            } else {
+                offer += " TouchID не работает ";
+            }
         }
         offer += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(FINGER_PRINT) + 1,
                 mapGadgetAttributeNumber.get(COLOR) + 1));
@@ -476,7 +474,7 @@ public class AvitoGadgets extends Gadgets {
     private String getAdTextAvitoShop(ArrayList<String> gadget, int cityId) {
         String text = "<![CDATA[";
         text += "<p>Уважаемый покупатель,<br>" +
-                "Добро пожаловать в iSPARK\uD83D\uDD25 Дискаунтер</p>";
+                "Добро пожаловать в iSPARK\uD83D\uDD25Дискаунтер</p>";
         text += "<p>\uD83D\uDCB0ГАРАНТИЯ ЛУЧШЕЙ ЦЕНЫ - нашли дешевле в другом магазине? сделаем еще дешевле❗</p>";
         text += "<p>\uD83D\uDC9BМы всегда идем навстречу нашим покупателям.<br>" +
                 "\uD83D\uDC49Мы предлагаем вам:<br>" +
@@ -492,14 +490,16 @@ public class AvitoGadgets extends Gadgets {
         text += GadgetConst.CITIES_IN[cityId];
         text += "!\uD83D\uDE0A</p>";
         text += getOfferAMOLED(gadget);
-        text += "<p>✔ обеспечиваем гарантию на ремонтное обслуживание в течение 1 года<br>";
+        text += "<p>✔ обеспечиваем гарантию на сервисное обслуживание в течение 1 года<br>";
         text += "✔ выдаем товарный чек и гарантийный талон, заверенные живой печатью<br>";
-        text += "✔ восстановленный, отличное состояние (микроцарапины), запечатаны<br>";
+        text += "✔ неоф. восстановлены, отличное состояние/микроцарапины, запечатаны<br>";
         text += "✔ перед визитом в магазин, просим уточнять актуальное наличие товара</p>";
-        text += "<p>\uD83D\uDCDE Звоните: 10.00-20.00, ежедневно</p>" +
+        text += "<p>Местоположение см. в Яндекс.Картах, 2ГИС, Google Maps\uD83C\uDF0D<br>" +
+                "▶ г. Казань, ул. Лушникова, д. 8, оф. 1 время работы (пн-сб): 11.00-19.00 ⏰</p>";
+        text += "<p>\uD83D\uDCDE Звоните: 9:00-21:00, ежедневно</p>" +
                 "<p>У нас вы сможете наиболее выгодно купить интересующий вас гаджет или аксессуар!" +
                 "\uD83D\uDC4D<br>" +
-                "iSPARK\uD83D\uDD25 Дискаунтер</p>";
+                "iSPARK\uD83D\uDD25Дискаунтер</p>";
         return text + "]]>";
     }
 
@@ -555,9 +555,7 @@ public class AvitoGadgets extends Gadgets {
 //            ad += "\t\t<Price>" + getMaxOptPriceAmoled(gadget) + "</Price>\n";
 //        }
         ad += "\t\t<Images>\n";
-        String imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/" +
-                getAmoledImagePath(gadget);
-        ad += "\t\t\t<Image url=\"" + imgLink + "\"/>\n";
+        ad += "\t\t\t<Image url=\"" + getImageUrlPath(gadget) + "\"/>\n";
 //        imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/price_iphone.png";
 //        ad += "\t\t\t<Image url=\"" + imgLink + "\"/>\n";
         ad += "\t\t</Images>\n";
@@ -628,7 +626,7 @@ public class AvitoGadgets extends Gadgets {
         return (path + color + "/").replace(" ", "");
     }
 
-    private void generateAmoledDirsPhotos(ArrayList<String> gadget) {
+    /*private void generateAmoledDirsPhotos(ArrayList<String> gadget) {
         File avitoImage = new File("C:/AMOLED/" + getAmoledImagePath(gadget));
         avitoImage.mkdirs();
         File gadgetImg = new File("C:/iSPARK/images/" +
@@ -642,7 +640,7 @@ public class AvitoGadgets extends Gadgets {
         } catch (IOException e) {
             System.out.println(e.toString());
         }
-    }
+    }*/
 
     private HashMap<String, ArrayList<ArrayList<String>>> getModelGadgetMap(ArrayList<ArrayList<String>> gadgets) {
         HashMap<String, ArrayList<ArrayList<String>>> mapGadgetModelGadgets = new HashMap<>();
@@ -706,7 +704,7 @@ public class AvitoGadgets extends Gadgets {
                         xml += getXmlAd(gadgets.get(gadgetNum), 0, "", 0, 0);
                     } else {
                         int timeIntervalSec = TIME_MONTH_SEC / (size[modelNum] - prevSize);
-                        int gadgetTimeSec = timeIntervalSec / 2 + gadgetId * timeIntervalSec;
+                        int gadgetTimeSec = gadgetId * timeIntervalSec;
                         int gadgetTimeDay = gadgetTimeSec / TIME_DAY_SEC + 1;
                         gadgetTimeSec %= TIME_DAY_SEC;
                         int gadgetTimeHour = gadgetTimeSec / 3600 + HOUR_BEGIN;
@@ -718,7 +716,7 @@ public class AvitoGadgets extends Gadgets {
                                 formatDateElem(gadgetTimeSec) + "+03:00";
                         xml += getXmlAd(gadgets.get(gadgetNum), gadgetTimeDay, dateEnd, cityId, gadgetId);
                     }
-                    generateAmoledDirsPhotos(gadgets.get(gadgetNum));
+//                    generateAmoledDirsPhotos(gadgets.get(gadgetNum));
                 }
             }
         }

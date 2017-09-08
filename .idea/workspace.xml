@@ -4,11 +4,10 @@
     <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets$CustomComparator.class" afterPath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets$CustomComparator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/AdsXML.xml" afterPath="$PROJECT_DIR$/Output/AdsXML.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Website/iphones.xml" afterPath="$PROJECT_DIR$/Output/Website/iphones.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AvitoGadgets.java" afterPath="$PROJECT_DIR$/src/AvitoGadgets.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GadgetConst.java" afterPath="$PROJECT_DIR$/src/GadgetConst.java" />
     </list>
     <ignored path="EKZ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,13 +83,13 @@
       <file leaf-file-name="AvitoGadgets.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="498" column="71" selection-start-line="498" selection-start-column="71" selection-end-line="498" selection-end-column="71" />
+            <state relative-caret-position="129">
+              <caret line="501" column="40" selection-start-line="501" selection-start-column="35" selection-end-line="501" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#14285#14293#0" expanded="true" />
-                <element signature="e#18797#18798#0" expanded="true" />
-                <element signature="e#18863#18864#0" expanded="true" />
+                <element signature="e#14205#14213#0" expanded="true" />
+                <element signature="e#18743#18744#0" expanded="true" />
+                <element signature="e#18809#18810#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -769,9 +768,9 @@
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#14285#14293#0" expanded="true" />
-            <element signature="e#18797#18798#0" expanded="true" />
-            <element signature="e#18863#18864#0" expanded="true" />
+            <element signature="e#14205#14213#0" expanded="true" />
+            <element signature="e#18743#18744#0" expanded="true" />
+            <element signature="e#18809#18810#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -994,13 +993,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="498" column="71" selection-start-line="498" selection-start-column="71" selection-end-line="498" selection-end-column="71" />
+        <state relative-caret-position="129">
+          <caret line="501" column="40" selection-start-line="501" selection-start-column="35" selection-end-line="501" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#14285#14293#0" expanded="true" />
-            <element signature="e#18797#18798#0" expanded="true" />
-            <element signature="e#18863#18864#0" expanded="true" />
+            <element signature="e#14205#14213#0" expanded="true" />
+            <element signature="e#18743#18744#0" expanded="true" />
+            <element signature="e#18809#18810#0" expanded="true" />
           </folding>
         </state>
       </provider>
