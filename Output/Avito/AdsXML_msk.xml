@@ -1,6 +1,7 @@
 <Ads formatVersion="3" target="Avito.ru">
 <Ad>
 		<Id>Test</Id>
+		<DateBegin>2017-09-29T15:00:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>8 499 583-47-51</ContactPhone>
