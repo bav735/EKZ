@@ -246,32 +246,13 @@ public class Solution {
     }
 
     public static void computeAvito() throws IOException {
-        //        renamePhotosFiles(new File("C:/Users/A/Desktop/Фото Авито/Новая папка"),
-//                new File("C:/Users/A/Desktop/Фото Авито/Новая папка/original"), 0);
-
-//        Gadgets.initializeFromPriceList();
-//        AvitoGadgets.initializeExcludeAds();
-
-        /*avitoGadgets = new AvitoGadgets();
-        avitoGadgets.initialize("Apple", "iPhone");
-        avitoGadgets.generateGadgets(0, new ArrayList<String>());
-        avitoGadgets.printWebsiteYML(Solution.getOutputWriter("Output/Website", "iphones.xml"));
-//        avitoGadgets.printWebsiteCSV(0, new ArrayList<String>());
-//        avitoGadgets.generateFolders();
-//        avitoGadgets.generateFilesAvibot();
-
-        galaxysAvito = new AvitoGadgets();
-        galaxysAvito.initialize("Samsung", "Galaxy");
-        galaxysAvito.generateGadgets(0, new ArrayList<String>());
-        galaxysAvito.printWebsiteYML(Solution.getOutputWriter("Output/Website", "galaxys.xml"));
-//        galaxysAvito.generateGadgets(0, new ArrayList<String>());
-//        galaxysAvito.generateFolders();*/
-
-        AvitoGadgets avitoGadgets = new AvitoGadgets();
-        avitoGadgets.initialize();
-        avitoGadgets.generateGadgets(0, new ArrayList<String>());
-        avitoGadgets.printWebsiteYML(Solution.getOutputWriter("Output/Website", "iphones.xml"));
-        avitoGadgets.generateXML();
+        for (int modelLine = 0; modelLine < GadgetConst.MODEL_LINES.size(); modelLine++) {
+            AvitoGadgets avitoGadgets = new AvitoGadgets(modelLine);
+            avitoGadgets.initialize();
+            avitoGadgets.generateGadgets(0, new ArrayList<String>());
+//        avitoGadgets.printWebsiteYML(Solution.getOutputWriter("Output/Website", "iphones.xml"));
+            avitoGadgets.generateXML();
+        }
     }
 
 

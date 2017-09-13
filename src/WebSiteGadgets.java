@@ -114,7 +114,7 @@ public class WebSiteGadgets extends Gadgets {
             if (!mapGadgetNamePrices.containsKey(gadgetName)) {
                 continue;
             }
-            if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("RST")) {
+            if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("NEW")) {
                 price = mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(RST_RETAIL_ISPARK));
             } else {
                 String s = "";
@@ -179,15 +179,15 @@ public class WebSiteGadgets extends Gadgets {
             }
             String category = "Мобильные телефоны;";
             String s = "";
-            if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("EST")) {
-                s = "EST ";
-            } else if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("RST")) {
-                s = "RST ";
+            if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("RFB")) {
+                s = "RFB ";
+            } else if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("NEW")) {
+                s = "NEW ";
             } else {
                 category = "Моноколеса и гироскутеры;";
             }
             String warranty = "false";
-            if (s.equals("RST ")) {
+            if (s.equals("NEW ")) {
                 warranty = "true";
             }
             System.out.println(gadgetName);

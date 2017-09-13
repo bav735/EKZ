@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Created by A on 13.03.2017.
  */
 public class Gadgets {
-    final static int PRICES_COUNT = 8;
+    final static int PRICES_COUNT = 4;
     final static String NO_PRICE = "-";
     final static String ISPARK = "iSPARK";
     final static String AMOLED = "iSPARK";
@@ -44,10 +44,14 @@ public class Gadgets {
         mapGadgetNamePrices = new HashMap<>();
         while (inScanner.hasNextLine()) {
             String line = inScanner.nextLine();
+            if (!line.contains("Gb")) {
+                continue;
+            }
             String[] words = line.split("\\s+");
             String gadgetName = String.join(" ", Arrays.copyOfRange(words, 0, words.length - PRICES_COUNT));
             String[] prices = Arrays.copyOfRange(words, words.length - PRICES_COUNT, words.length);
             mapGadgetNamePrices.put(gadgetName, new ArrayList<>(Arrays.asList(prices)));
+//            System.out.println(gadgetName);
         }
         inScanner.close();
     }

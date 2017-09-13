@@ -117,22 +117,24 @@ public class CategoryTree {
 
     public void printYMLOffers(BufferedWriter bufferedWriter) throws IOException {
         for (Gadget gadget : gadgets) {
-            bufferedWriter.write("<offer id=\"" + gadget.id + "\">\n");
-            bufferedWriter.write("<categoryId>" + id + "</categoryId>\n");
-            bufferedWriter.write("<initialCategoryId>" + gadget.initialCategoryId + "</initialCategoryId>\n");
-            bufferedWriter.write("<typePrefix>" + gadget.namePrefix + "</typePrefix>\n");
-            bufferedWriter.write("<model>" + gadget.model + "</model>\n");
-            bufferedWriter.write("<vendor>" + gadget.vendor + "</vendor>\n");
+            if (!gadget.initialCategoryId.equals("2")) {
+                bufferedWriter.write("<offer id=\"" + gadget.id + "\">\n");
+                bufferedWriter.write("<categoryId>" + id + "</categoryId>\n");
+                bufferedWriter.write("<initialCategoryId>" + gadget.initialCategoryId + "</initialCategoryId>\n");
+                bufferedWriter.write("<typePrefix>" + gadget.namePrefix + "</typePrefix>\n");
+                bufferedWriter.write("<model>" + gadget.model + "</model>\n");
+                bufferedWriter.write("<vendor>" + gadget.vendor + "</vendor>\n");
 //            bufferedWriter.write("<name>" + gadget.name + "</name>\n");
-            bufferedWriter.write("<price>" + gadget.price + ".0" + "</price>\n");
-            bufferedWriter.write("<description>" +
-                    gadget.description.replace(",\n", "\n").replaceAll("\nМодель:.+RU\\/A", "") +
-                    "</description>\n");
-            bufferedWriter.write("<picture>" + gadget.imageUrl + "</picture>\n");
-            if (gadget.params != null) {
-                bufferedWriter.write("<param " + gadget.params + "</param>\n");
+                bufferedWriter.write("<price>" + gadget.price + ".0" + "</price>\n");
+                bufferedWriter.write("<description>" +
+                        gadget.description.replace(",\n", "\n").replaceAll("\nМодель:.+RU\\/A", "") +
+                        "</description>\n");
+                bufferedWriter.write("<picture>" + gadget.imageUrl + "</picture>\n");
+                if (gadget.params != null) {
+                    bufferedWriter.write("<param " + gadget.params + "</param>\n");
+                }
+                bufferedWriter.write("</offer>\n");
             }
-            bufferedWriter.write("</offer>\n");
         }
         for (CategoryTree child : children) {
             child.printYMLOffers(bufferedWriter);
@@ -165,14 +167,14 @@ public class CategoryTree {
             for (Gadget gadget : child.gadgets) {
 //                System.out.println(gadget.getPriceListName() + "$");
                 if (AvitoGadgets.inPriceList(gadget.getPriceListName())) {
-                    if (gadget.getSubModel().equals(GadgetConst.MAP_MODEL_SUBMODEL
-                            .get(gadget.getPriceListModel()).get(1))) {
+                    if (true/*gadget.getSubModel().equals(GadgetConst.MAP_MODEL_SUBMODEL
+                            .get(gadget.getPriceListModel()).get(1))*/) {
                         gadget.price = AvitoGadgets.getPriceISPARK(gadget.getPriceListName(), 1) + "";
-                        gadget.description = ("Тип товара: Ростест (RST)\n").concat(gadget.description);
+                        gadget.description = ("Тип товара: Ростест (NEW)\n").concat(gadget.description);
                         gadget.manufacturerWarranty = true;
                     } else {
                         gadget.price = AvitoGadgets.getPriceISPARK(gadget.getPriceListName(), 0) + "";
-                        gadget.description = ("Тип товара: Евротест (EST)\n").concat(gadget.description);
+                        gadget.description = ("Тип товара: Евротест (RFB)\n").concat(gadget.description);
                         if (gadget.model.contains("Без Отп")) {
                             gadget.description = ("TouchID (отпечаток пальца): не работает\n").concat(gadget.description);
                         }
@@ -353,15 +355,15 @@ public class CategoryTree {
     }
 
     private int getModelOrder(String model) {
-        /*String modelLine;
+        /*String globalModelLine;
         switch (model) {
             case "iPhone":
-                modelLine
+                globalModelLine
         }
         if ((model.startsWith("iPhone")) && model.length() > 7) {
             model = model.substring(7);
-            for (int i = 0; i < Gadgets.modelsByModelLine.get(modelLine).size(); i++) {
-                if (Gadgets.modelsByModelLine.get(modelLine).get(i).contains(model)) {
+            for (int i = 0; i < Gadgets.modelsByModelLine.get(globalModelLine).size(); i++) {
+                if (Gadgets.modelsByModelLine.get(globalModelLine).get(i).contains(model)) {
                     return i;
                 }
             }

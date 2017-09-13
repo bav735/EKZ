@@ -14,8 +14,8 @@ public class AvitoGadgets extends Gadgets {
     final static String FINGER_PRINT = "Наличие отпечатка";
     final static String COLOR = "Цвет";
     final static String TOUCH_LOCKED = "Без Отп";
-    final static String RST = "RST";
-    final static String EST = "EST2";
+    final static String NEW = "NEW";
+    final static String RFB = "RFB";
     //    final static String EST2 = "EST2";
     final static String IMG_FILE_NAME = "img";
     final static int DAYS_OFFSET = 1;
@@ -51,18 +51,21 @@ public class AvitoGadgets extends Gadgets {
 
     ArrayList<ArrayList<String>> gadgetAttributesVariants;
     HashSet<String> includeAds;
+    int globalModelLine;
 
-    public AvitoGadgets() {
+    public AvitoGadgets(int globalModelLine) {
+        this.globalModelLine = globalModelLine;
     }
 
     public void initialize() {
         initializeMapGadgetAttributeNumber(gadgetAttributeNames);
         initializeIncludeAds();
         gadgetAttributesVariants = new ArrayList<ArrayList<String>>();
-        gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList(EST, RST)));
+        gadgetAttributesVariants.add(new ArrayList<String>(GadgetConst.QUALITIES));
         gadgetAttributesVariants.add(new ArrayList<String>(GadgetConst.VENDORS));
-        gadgetAttributesVariants.add(new ArrayList<String>(GadgetConst.MODEL_LINES));
-        gadgetAttributesVariants.add(GadgetConst.MODELS);
+        gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList(
+                GadgetConst.MODEL_LINES.get(globalModelLine))));
+        gadgetAttributesVariants.add(GadgetConst.MODELS[globalModelLine]);
         gadgetAttributesVariants.add(new ArrayList<>(GadgetConst.MEMORIES));
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("", TOUCH_LOCKED)));
     }
@@ -204,10 +207,10 @@ public class AvitoGadgets extends Gadgets {
             String fingerPrint = gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT));
             String color = gadget.get(mapGadgetAttributeNumber.get(COLOR));
             System.out.println(getGadgetName(gadget));
-            if (quality.equals(EST) && subModel.equals(GadgetConst.MAP_MODEL_SUBMODEL.get(model).get(0))) {
+            if (quality.equals(RFB) && subModel.equals(GadgetConst.MAP_MODEL_SUBMODEL[globalModelLine].get(model).get(0))) {
                 price = getPriceISPARK(getGadgetName(gadget), 0);
             }
-            if (quality.equals(RST) && subModel.equals(GadgetConst.MAP_MODEL_SUBMODEL.get(model).get(1))) {
+            if (quality.equals(NEW) && subModel.equals(GadgetConst.MAP_MODEL_SUBMODEL[globalModelLine].get(model).get(1))) {
                 price = getPriceISPARK(getGadgetName(gadget), 1);
             }
             if (price > 0) {
@@ -274,28 +277,29 @@ public class AvitoGadgets extends Gadgets {
         if (attribute == gadgetAttributesVariants.size()) {
             ArrayList<String> prices = mapGadgetNamePrices.get(getGadgetName(gadget));
             if (prices != null) {
-                String quality = gadget.get(mapGadgetAttributeNumber.get(QUALITY));
-                switch (quality) {
-                    case EST:
+//                System.out.println("pre:"+getGadgetName(gadget));
+//                String quality = gadget.get(mapGadgetAttributeNumber.get(QUALITY));
+                /*switch (quality) {
+                    case RFB:
                         if (prices.get(mapPriceAttributeNumber.get(EST_RETAIL_AMOLED)).equals(NO_PRICE)) {
                             return;
                         }
                         break;
-                    case RST:
-                        if (prices.get(mapPriceAttributeNumber.get(RST_RETAIL_AMOLED)).equals(NO_PRICE) &&
-                                !notEnoughModel(gadget)) {
+                    case NEW:
+                        if (prices.get(mapPriceAttributeNumber.get(RST_RETAIL_AMOLED)).equals(NO_PRICE)) {
                             return;
                         }
-                }
-                System.out.println(quality + " " + getGadgetName(gadget));
+                }*/
+//                System.out.println(quality + " " + getGadgetName(gadget));
                 String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
-                for (String color : GadgetConst.MAP_MODEL_COLOR.get(model)) {
-                    for (String submodel : GadgetConst.MAP_MODEL_SUBMODEL.get(model)) {
+                for (String color : GadgetConst.MAP_MODEL_COLOR[globalModelLine].get(model)) {
+                    for (String submodel : GadgetConst.MAP_MODEL_SUBMODEL[globalModelLine].get(model)) {
                         ArrayList<String> newGadget = new ArrayList<>(gadget);
                         newGadget.add(mapGadgetAttributeNumber.get(SUBMODEL), submodel);
                         newGadget.add(mapGadgetAttributeNumber.get(COLOR), color);
                         if (!excludeModel(model, color, newGadget.get(mapGadgetAttributeNumber.get(MEMORY)))) {
                             gadgets.add(newGadget);
+                            System.out.println(getAvitoAdName(newGadget));
                         }
                     }
                 }
@@ -344,14 +348,10 @@ public class AvitoGadgets extends Gadgets {
     }
 
     private String getGadgetName(ArrayList<String> gadget) {
-//        System.out.println(gadget.toString());
         int lastAttr = mapGadgetAttributeNumber.get(FINGER_PRINT);
-        int firstAttr = mapGadgetAttributeNumber.get(VENDOR);
-        String name = gadget.get(firstAttr);
-        for (int i = firstAttr + 1; i <= lastAttr; i++) {
-            if (!gadget.get(i).isEmpty()) {
-                name += " " + gadget.get(i);
-            }
+        String name = String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(QUALITY), lastAttr));
+        if (!gadget.get(lastAttr).isEmpty()) {
+            name += " " + gadget.get(lastAttr);
         }
         return name;
     }
@@ -415,7 +415,7 @@ public class AvitoGadgets extends Gadgets {
         String gadgetName = getGadgetName(gadget);
         int price = Integer.parseInt(
                 mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(EST_RETAIL_AMOLED)));
-        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST)) {
+        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
             price -= 10;
         }
         return price + "";
@@ -645,16 +645,17 @@ public class AvitoGadgets extends Gadgets {
     private HashMap<String, ArrayList<ArrayList<String>>> getModelGadgetMap(ArrayList<ArrayList<String>> gadgets) {
         HashMap<String, ArrayList<ArrayList<String>>> mapGadgetModelGadgets = new HashMap<>();
         for (ArrayList<String> gadget : gadgets) {
-            if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST)) {
-                String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
-                if (!mapGadgetModelGadgets.containsKey(model)) {
-                    mapGadgetModelGadgets.put(model, new ArrayList<ArrayList<String>>());
-                }
-                mapGadgetModelGadgets.get(model).add(gadget);
+//            if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
+            String metaModel = gadget.get(mapGadgetAttributeNumber.get(MODEL_LINE)) +
+                    gadget.get(mapGadgetAttributeNumber.get(MODEL));
+            if (!mapGadgetModelGadgets.containsKey(metaModel)) {
+                mapGadgetModelGadgets.put(metaModel, new ArrayList<ArrayList<String>>());
+            }
+            mapGadgetModelGadgets.get(metaModel).add(gadget);
 //                ArrayList<String> gadget2 = new ArrayList<>(gadget);
 //                gadget2.set(mapGadgetAttributeNumber.get(QUALITY), EST2);
 //                mapGadgetModelGadgets.get(model).add(gadget2);
-            }
+//            }
         }
         return mapGadgetModelGadgets;
     }
@@ -682,21 +683,24 @@ public class AvitoGadgets extends Gadgets {
     public void generateXML() throws IOException {
         HashMap<String, ArrayList<ArrayList<String>>> mapGadgetModelGadgets = getModelGadgetMap(gadgets);
         String xml = "<Ads formatVersion=\"3\" target=\"Avito.ru\">\n";
-        int[] size = new int[GadgetConst.MODELS.size()];
-        Arrays.fill(size, 0);
+        int[] size = new int[GadgetConst.MODELS[globalModelLine].size()];
+//        Arrays.fill(size, 0);
         int megaSize = 0;
         for (int cityId = 0; cityId < GadgetConst.CITIES.length; cityId++) {
-            for (int modelNum = 0; modelNum < GadgetConst.MODELS.size(); modelNum++) {
-                String model = GadgetConst.MODELS.get(modelNum);
-                if (!mapGadgetModelGadgets.containsKey(model)) {
-                    continue;
-                }
-                ArrayList<ArrayList<String>> gadgets = mapGadgetModelGadgets.get(model);
-                Collections.sort(gadgets, new CustomComparator());
-                int prevSize = size[modelNum];
-                size[modelNum] += GadgetConst.GADGET_PER_MONTH_COUNT[cityId].get(modelNum);
-                megaSize += size[modelNum] - prevSize;
-                System.out.println("$model:" + model + "size_curr:" + size[modelNum] +
+            for (int modelNum = 0; modelNum < GadgetConst.MODELS[globalModelLine].size(); modelNum++) {
+                String metaModel = GadgetConst.MODEL_LINES.get(globalModelLine)
+                        + GadgetConst.MODELS[globalModelLine].get(modelNum);
+//                if (!mapGadgetModelGadgets.containsKey(model)) {
+//                    continue;
+//                }
+                ArrayList<ArrayList<String>> gadgets = mapGadgetModelGadgets.get(metaModel);
+//                Collections.sort(gadgets, new CustomComparator());
+                int prevSize = 0;//size[modelNum];
+//                size[modelNum] += GadgetConst.GADGET_PER_MONTH_COUNT[cityId].get(modelNum);
+                System.out.print("$model:" + metaModel + " ");
+                size[modelNum] = gadgets.size();
+                megaSize += size[modelNum];// - prevSize;
+                System.out.println("size_curr:" + size[modelNum] +
                         " size_all: " + gadgets.size());
                 for (int gadgetNum = prevSize; gadgetNum < size[modelNum]; gadgetNum++) {
                     int gadgetId = gadgetNum - prevSize;
@@ -762,7 +766,7 @@ public class AvitoGadgets extends Gadgets {
         return res;
     }
 
-    public void generateFilesAvibot() throws IOException {
+    /*public void generateFilesAvibot() throws IOException {
         int gadgetNum = 0;
         HashMap<String, ArrayList<ArrayList<String>>> mapGadgetModelGadgets = getModelGadgetMap(gadgets);
         for (String model : GadgetConst.MODELS) {
@@ -773,7 +777,7 @@ public class AvitoGadgets extends Gadgets {
             gadgetNum += size;
 //            c += Math.min(mapGadgetModelGadgetPerMonthCount.get(model), mapGadgetModelGadgets.get(model).baseSize());
         }
-    }
+    }*/
 
     private class CustomComparator implements Comparator<ArrayList<String>> {
         @Override

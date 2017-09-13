@@ -88,9 +88,9 @@ public class Gadget {
     }
 
     public String getGoogleSheetsName() {
-        String res = "EST";
+        String res = "RFB";
         if (manufacturerWarranty) {
-            res = "RST";
+            res = "NEW";
         }
         res += " " + vendor + " ";
         boolean touchLocked = false;
