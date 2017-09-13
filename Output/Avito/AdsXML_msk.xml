@@ -1,2 +1,16 @@
 <Ads formatVersion="3" target="Avito.ru">
+<Ad>
+		<Id>Test</Id>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор-консультант</ManagerName>
+		<ContactPhone>89393911570</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 8s</Title>
+		<Description>test</Description>
+		<Price>100000</Price>
+		<Images>		
+		</Images>
+	</Ad>
 </Ads>
