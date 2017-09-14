@@ -196,7 +196,7 @@ public class AvitoGadgets extends Gadgets {
         }
     }*/
 
-    public void printWebsiteYML(BufferedWriter bufferedWriter) throws IOException {
+    /*public void printWebsiteYML(BufferedWriter bufferedWriter) throws IOException {
         for (ArrayList<String> gadget : gadgets) {
             int price = -1;
             String quality = gadget.get(mapGadgetAttributeNumber.get(QUALITY));
@@ -214,9 +214,6 @@ public class AvitoGadgets extends Gadgets {
                 price = getPriceISPARK(getGadgetName(gadget), 1);
             }
             if (price > 0) {
-                if (model.contains("7") && color.toLowerCase().contains("red")) {
-                    price = getIncreasedPrice(price) - 10;
-                }
                 bufferedWriter.write("<offer>\n" +
                         "<initialCategoryId>2</initialCategoryId>\n" +
                         "<typePrefix>Смартфон</typePrefix>\n" +
@@ -235,7 +232,7 @@ public class AvitoGadgets extends Gadgets {
             }
         }
         bufferedWriter.flush();
-    }
+    }*/
 
     private String getDescriptionByModel(String vendor, String modelLine, String model) {
         Scanner inScanner = Solution.getInputScanner("Website/Spec/" +
@@ -338,8 +335,8 @@ public class AvitoGadgets extends Gadgets {
 //        if (!gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
 //            name += "Новый ";
 //        }
-        name += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(MODEL_LINE),
-                mapGadgetAttributeNumber.get(COLOR) + 1)).replace("  ", " ");
+        name += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(QUALITY),
+                mapGadgetAttributeNumber.get(COLOR) + 1)).replace("  ", " ").replace("  ", " ");
 //        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
 //            name += " Реф";
 //        }

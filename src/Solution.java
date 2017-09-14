@@ -8,9 +8,10 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public class Solution {
-    public final static String MVIDEO_XML = "shop_items_global.xml";
-    public final static String CUSTOM_XML = "shop_items.xml";
-    public static String SHOP_ITEMS_XML = CUSTOM_XML;
+//    public final static String MVIDEO_XML = "shop_items_global.xml";
+//    public final static String CUSTOM_XML = "shop_items.xml";
+    public final static String BASE_XML = "shop_items.xml";
+//    public static String SHOP_ITEMS_XML = CUSTOM_XML;
 
 //    public static int counter = 0;
 
@@ -68,10 +69,9 @@ public class Solution {
     }
 
     private static void computeCategoryTreeFromXML() throws Exception {
-        Scanner inScanner = Solution.getInputScanner(Solution.SHOP_ITEMS_XML);
+        Scanner inScanner = Solution.getInputScanner(Solution.BASE_XML);
         HashSet<String> categories = new HashSet<>();
         CategoryTree root = new CategoryTree(CategoryTree.ROOT_CATEGORY);
-        String categoriesInitial = "";
         while (inScanner.hasNext()) {
             String line = inScanner.nextLine();
             if (line.contains("<category ")) {
@@ -85,7 +85,6 @@ public class Solution {
                     tree.getTreeByCatNameOrCreate(catName, catId, true);
                 }
                 categories.add(catId);
-                categoriesInitial += line + "\n";
             }
             if (line.contains("</categories>")) {
                 break;
@@ -250,7 +249,6 @@ public class Solution {
             AvitoGadgets avitoGadgets = new AvitoGadgets(modelLine);
             avitoGadgets.initialize();
             avitoGadgets.generateGadgets(0, new ArrayList<String>());
-//        avitoGadgets.printWebsiteYML(Solution.getOutputWriter("Output/Website", "iphones.xml"));
             avitoGadgets.generateXML();
         }
     }
