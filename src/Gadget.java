@@ -26,9 +26,9 @@ public class Gadget {
         namePrefix = Solution.getValueByTag(offer, "typePrefix");
         price = price.substring(0, price.length() - 2);
         this.initialCategoryId = initialCategoryId;
-        if (Solution.SHOP_ITEMS_XML.equals(Solution.CUSTOM_XML)) {
+        /*if (Solution.SHOP_ITEMS_XML.equals(Solution.CUSTOM_XML)) {
             id = Solution.getValueByPrefix(offer, "id=\"", '"');
-        }
+        }*/
         if (id == null) {
             id = "" + size++;
         }

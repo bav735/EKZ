@@ -6,14 +6,23 @@ import java.util.HashMap;
  * Created by A on 05.08.2017.
  */
 public class GadgetConst {
-    public final static String[] CITIES = new String[]{"Казань"};
+    final static String NEW = "NEW";
+    final static String REF = "REF";
+    final static String CPO = "CPO";
 
-    public final static String[] CITIES_IN = new String[]{"Казани"};
+    public final static String[] CITIES = new String[]{"Москва"};
+
+    public final static String[] CITIES_IN = new String[]{"Москве"};
 
     public final static ArrayList<String> QUALITIES = new ArrayList<String>(Arrays.asList(
-            "NEW",
-            "REF",
-            "CPO"));
+            CPO,
+            REF,
+            NEW));
+
+    public final static ArrayList<String> QUALITIES_DESCRIPTION = new ArrayList<String>(Arrays.asList(
+            "официально восстановленный",
+            "неофициально восстановленный",
+            "абсолютно новый"));
 
     public final static ArrayList<String> VENDORS = new ArrayList<String>(Arrays.asList(
             "Samsung",
@@ -416,6 +425,15 @@ public class GadgetConst {
         MAP_VENDOR_OFFER = new HashMap<>();
         for (int i = 0; i < VENDORS.size(); i++) {
             MAP_VENDOR_OFFER.put(VENDORS.get(i), VENDOR_OFFERS.get(i));
+        }
+    }
+
+    public static final HashMap<String, String> MAP_QUALITY_DESCRIPTION;
+
+    static {
+        MAP_QUALITY_DESCRIPTION = new HashMap<>();
+        for (int i = 0; i < QUALITIES.size(); i++) {
+            MAP_QUALITY_DESCRIPTION.put(QUALITIES.get(i), QUALITIES_DESCRIPTION.get(i));
         }
     }
 

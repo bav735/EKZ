@@ -121,9 +121,9 @@ public class WebSiteGadgets extends Gadgets {
                 if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("БО")) {
                     s = " Б/О";
                 }
-                price = mapGadgetNamePrices.get(gadgetName + s).get(mapPriceAttributeNumber.get(EST_RETAIL_ISPARK));
+                price = mapGadgetNamePrices.get(gadgetName + s).get(mapPriceAttributeNumber.get(RETAIL_MAX));
 //                if (price.length() == 1) {
-//                    price = mapGadgetNamePrices.get(gadgetName + s).get(mapPriceAttributeNumber.get(EST_RETAIL_AMOLED));
+//                    price = mapGadgetNamePrices.get(gadgetName + s).get(mapPriceAttributeNumber.get(RETAIL_MIN));
 //                }
             }
             partId++;

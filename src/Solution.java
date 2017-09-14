@@ -8,7 +8,7 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public class Solution {
-//    public final static String MVIDEO_XML = "shop_items_global.xml";
+    //    public final static String MVIDEO_XML = "shop_items_global.xml";
 //    public final static String CUSTOM_XML = "shop_items.xml";
     public final static String BASE_XML = "shop_items.xml";
 //    public static String SHOP_ITEMS_XML = CUSTOM_XML;
@@ -105,11 +105,7 @@ public class Solution {
                 boolean isCatIdInitialized = getValueByTag(offer, "categoryId") != null;
 //                System.out.println(isCatIdInitialized);
                 String catId;
-                if (Solution.SHOP_ITEMS_XML.equals(Solution.CUSTOM_XML)) {
-                    catId = getValueByTag(offer, "initialCategoryId");
-                } else {
-                    catId = getValueByTag(offer, "categoryId");
-                }
+                catId = getValueByTag(offer, "categoryId");
                 Gadget gadget = new Gadget(offer, catId);
                 if (categories.contains(catId)) {
                     CategoryTree catTree = root.getTreeByCatId(catId);
@@ -165,12 +161,10 @@ public class Solution {
                         }
                     }
                     boolean isPresent = true;
-                    if (SHOP_ITEMS_XML.equals(MVIDEO_XML)) {
-                        for (Gadget gadgetCurrent : subcatTree.gadgets) {
-                            if (gadgetCurrent.getWebsiteName().equals(gadget.getWebsiteName()) &&
-                                    gadget.imageUrl.equals(gadgetCurrent.imageUrl)) {
-                                isPresent = false;
-                            }
+                    for (Gadget gadgetCurrent : subcatTree.gadgets) {
+                        if (gadgetCurrent.getWebsiteName().equals(gadget.getWebsiteName()) &&
+                                gadget.imageUrl.equals(gadgetCurrent.imageUrl)) {
+                            isPresent = false;
                         }
                     }
                     if (isPresent) {
@@ -245,7 +239,8 @@ public class Solution {
     }
 
     public static void computeAvito() throws IOException {
-        for (int modelLine = 0; modelLine < GadgetConst.MODEL_LINES.size(); modelLine++) {
+//        GadgetConst.MODEL_LINES.size()
+        for (int modelLine = 1; modelLine < 2; modelLine++) {
             AvitoGadgets avitoGadgets = new AvitoGadgets(modelLine);
             avitoGadgets.initialize();
             avitoGadgets.generateGadgets(0, new ArrayList<String>());

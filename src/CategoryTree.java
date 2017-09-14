@@ -169,11 +169,11 @@ public class CategoryTree {
                 if (AvitoGadgets.inPriceList(gadget.getPriceListName())) {
                     if (true/*gadget.getSubModel().equals(GadgetConst.MAP_MODEL_SUBMODEL
                             .get(gadget.getPriceListModel()).get(1))*/) {
-                        gadget.price = AvitoGadgets.getPriceISPARK(gadget.getPriceListName(), 1) + "";
+                        gadget.price = AvitoGadgets.getPriceRetailMax(gadget.getPriceListName(), 1) + "";
                         gadget.description = ("Тип товара: Ростест (NEW)\n").concat(gadget.description);
                         gadget.manufacturerWarranty = true;
                     } else {
-                        gadget.price = AvitoGadgets.getPriceISPARK(gadget.getPriceListName(), 0) + "";
+                        gadget.price = AvitoGadgets.getPriceRetailMax(gadget.getPriceListName(), 0) + "";
                         gadget.description = ("Тип товара: Евротест (RFB)\n").concat(gadget.description);
                         if (gadget.model.contains("Без Отп")) {
                             gadget.description = ("TouchID (отпечаток пальца): не работает\n").concat(gadget.description);
@@ -211,13 +211,8 @@ public class CategoryTree {
                     present = "3";
                 }
                 bufferedWriter.write(present + ";;");
-                if (Solution.SHOP_ITEMS_XML.equals(Solution.MVIDEO_XML)) {
-                    bufferedWriter.write("<font size=\"4\"><strong>" + gadget.description.replace(",\n", "<br>")
-                            + "</strong></font>");
-                } else {
-                    bufferedWriter.write("<font size=\"4\"><strong>" + gadget.description.replace("\n", "<br>")
-                            + "</strong></font>");
-                }
+                bufferedWriter.write("<font size=\"4\"><strong>" + gadget.description.replace(",\n", "<br>")
+                        + "</strong></font>");
                 bufferedWriter.write(";;1;");
                 bufferedWriter.write(child.name);
                 bufferedWriter.write(";;;;;;");

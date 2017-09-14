@@ -10,24 +10,15 @@ public class Gadgets {
     final static int PRICES_COUNT = 4;
     final static String NO_PRICE = "-";
     final static String ISPARK = "iSPARK";
-    final static String AMOLED = "iSPARK";
-    final static String EST_RETAIL_AMOLED = "евротест авито/нал";
-    final static String EST_RETAIL_ISPARK = "евротест сайт/маркет";
-    final static String EST_RETAIL_OPT_MAX = "евротест опт от 3шт";
-    final static String EST_RETAIL_OPT_MIN = "евротест опт от 10шт";
-    final static String RST_RETAIL_AMOLED = "ростест авито/нал";
-    final static String RST_RETAIL_ISPARK = "ростест сайт/маркет";
-    final static String RST_RETAIL_OPT_MAX = "ростест опт от 3шт";
-    final static String RST_RETAIL_OPT_MIN = "ростест опт от 10шт";
+    final static String RETAIL_MIN = "евротест авито/нал";
+    final static String RETAIL_MAX = "евротест сайт/маркет";
+    final static String OPT_MAX = "евротест опт от 3шт";
+    final static String OPT_MIN = "евротест опт от 10шт";
     public final static String[] priceAttributeNames = new String[]{
-            EST_RETAIL_AMOLED,
-            EST_RETAIL_ISPARK,
-            EST_RETAIL_OPT_MAX,
-            EST_RETAIL_OPT_MIN,
-            RST_RETAIL_AMOLED,
-            RST_RETAIL_ISPARK,
-            RST_RETAIL_OPT_MAX,
-            RST_RETAIL_OPT_MIN,
+            RETAIL_MIN,
+            RETAIL_MAX,
+            OPT_MAX,
+            OPT_MIN,
     };
 
     public static HashMap<String, ArrayList<String>> mapGadgetNamePrices;
@@ -51,7 +42,7 @@ public class Gadgets {
             String gadgetName = String.join(" ", Arrays.copyOfRange(words, 0, words.length - PRICES_COUNT));
             String[] prices = Arrays.copyOfRange(words, words.length - PRICES_COUNT, words.length);
             mapGadgetNamePrices.put(gadgetName, new ArrayList<>(Arrays.asList(prices)));
-//            System.out.println(gadgetName);
+//            System.out.println("from price:" + gadgetName);
         }
         inScanner.close();
     }

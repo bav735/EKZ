@@ -91,7 +91,7 @@ public class YoulaGadgets extends Gadgets {
                     return;
                 }
                 ArrayList<String> prices = mapGadgetNamePrices.get(getGadgetName(gadget));
-                if (prices.get(mapPriceAttributeNumber.get(EST_RETAIL_AMOLED)).length() > 1) {
+                if (prices.get(mapPriceAttributeNumber.get(RETAIL_MIN)).length() > 1) {
                     gadget.set(mapGadgetAttributeNumber.get(QUALITY), RFB);
                 } else {
                     gadget.set(mapGadgetAttributeNumber.get(QUALITY), NEW);
@@ -178,16 +178,6 @@ public class YoulaGadgets extends Gadgets {
         return name;
     }
 
-    private String getPrice(ArrayList<String> gadget) {
-        String price = "";
-        String gadgetName = getGadgetName(gadget);
-        price = mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(EST_RETAIL_ISPARK));
-        if (price.length() == 1) {
-            price = mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(RST_RETAIL_ISPARK));
-        }
-        return price;
-    }
-
     private String getYoulaDescription(ArrayList<String> gadget) {
         String text = "";
         if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(RFB)) {
@@ -209,7 +199,7 @@ public class YoulaGadgets extends Gadgets {
         String adText = "";
         adText += "Название: " + getYoulaAdName(gadget) + " с гарантией\n";
         adText += "Описание: " + getYoulaDescription(gadget) + "\n";
-        adText += "Цена: " + getPrice(gadget) + "\n";
+//        adText += "Цена: " + getPrice(gadget) + "\n";
         String imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/" +
                 getGadgetPath(gadget, MODEL) + AvitoGadgets.IMG_FILE_NAME + ".jpg";
         adText += "Ссылка на картинку: " + imgLink;
