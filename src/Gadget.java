@@ -1,23 +1,37 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
  * Created by A on 14.06.2017.
  */
 public class Gadget {
-    public static int size = 103379;
-
+    public static int size = 1;
     String imageUrl;
     String price;
     String vendor;
     String model;
     String description;
-    String initialCategoryId;
+    //    String initialCategoryId;
     String id;
     String params;
     String namePrefix;
     boolean manufacturerWarranty;
 
-    public Gadget(String offer, String initialCategoryId) {
+    public Gadget(ArrayList<String> gadget) {
+        vendor = gadget.get(1);
+        model = gadget.get(2) + " " + gadget.get(3) + " " + gadget.get(4) + " " +
+                gadget.get(6) + " " + gadget.get(7) + " " + gadget.get(0);
+        description = "";
+        imageUrl = "";
+        namePrefix = "Смартфон";
+        price = "0";
+        if (id == null) {
+            id = "" + size++;
+        }
+        params = "";
+    }
+
+    public Gadget(String offer/*, String initialCategoryId*/) {
         vendor = Solution.getValueByTag(offer, "vendor");
         model = Solution.getValueByTag(offer, "model");
         imageUrl = Solution.getValueByTag(offer, "picture");
@@ -25,7 +39,7 @@ public class Gadget {
         price = Solution.getValueByTag(offer, "price");
         namePrefix = Solution.getValueByTag(offer, "typePrefix");
         price = price.substring(0, price.length() - 2);
-        this.initialCategoryId = initialCategoryId;
+//        this.initialCategoryId = initialCategoryId;
         /*if (Solution.SHOP_ITEMS_XML.equals(Solution.CUSTOM_XML)) {
             id = Solution.getValueByPrefix(offer, "id=\"", '"');
         }*/

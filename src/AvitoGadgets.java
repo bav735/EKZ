@@ -324,7 +324,7 @@ public class AvitoGadgets extends Gadgets {
 
     public String getIdName(ArrayList<String> gadget) {
         return String.join("", gadget.subList(mapGadgetAttributeNumber.get(QUALITY),
-                mapGadgetAttributeNumber.get(COLOR) + 1)).replaceAll("[() -]", "");
+                mapGadgetAttributeNumber.get(FINGER_PRINT) + 1)).replaceAll("[() -]", "");
     }
 
     public String getAvitoAdName(ArrayList<String> gadget) {
@@ -494,7 +494,7 @@ public class AvitoGadgets extends Gadgets {
 //            text += "<p>Местоположение см. в Яндекс.Картах, 2ГИС, Google Maps\uD83C\uDF0D<br>" +
 //                    "▶ г. Казань, ул. Лушникова, д. 8, оф. 1 время работы (пн-сб): 11.00-19.00 ⏰</p>";
             text += "<p>\uD83D\uDCDE Звоните: 9:00-21:00, ежедневно</p>" +
-                    "<p>У нас вы сможете выгодно любой интересующий вас гаджет или аксессуар!" +
+                    "<p>У нас вы сможете выгодно приобрести любой интересующий вас гаджет или аксессуар!" +
                     "\uD83D\uDC4D<br>" +
                     "iSPARK\uD83D\uDD25";
             if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(GadgetConst.REF)) {
@@ -763,12 +763,13 @@ public class AvitoGadgets extends Gadgets {
 //                    generateAmoledDirsPhotos(gadgets.get(gadgetNum));
                 }
             }
+            xml += "</Ads>";
+            BufferedWriter writer = Solution.getOutputWriter("Output/Avito/", "AdsXML_" +
+                    GadgetConst.CITIES_XML_FILE_END[cityId] + ".xml");
+            writer.write(xml);
+            writer.flush();
         }
         System.out.println(megaSize);
-        xml += "</Ads>";
-        BufferedWriter writer = Solution.getOutputWriter("Output/", "AdsXML.xml ");
-        writer.write(xml);
-        writer.flush();
     }
 
     public void generateFolders() throws IOException {

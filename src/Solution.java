@@ -11,9 +11,9 @@ public class Solution {
     //    public final static String MVIDEO_XML = "shop_items_global.xml";
 //    public final static String CUSTOM_XML = "shop_items.xml";
     public final static String BASE_XML = "shop_items.xml";
-//    public static String SHOP_ITEMS_XML = CUSTOM_XML;
-
+    //    public static String SHOP_ITEMS_XML = CUSTOM_XML;
 //    public static int counter = 0;
+    private static AvitoGadgets[] avitoGadgets = new AvitoGadgets[GadgetConst.MODEL_LINES.size()];
 
     public static Scanner getInputScanner(String fileName) {
         try {
@@ -79,10 +79,10 @@ public class Solution {
                 String parentCatId = getValueByPrefix(line, "parentId=\"", '"');
                 String catName = getValueByPrefix(line, "\">", '<');
                 if (parentCatId == null) {
-                    root.getTreeByCatNameOrCreate(catName, catId, true);
+                    root.getTreeByCatNameOrCreate(catName, catId);
                 } else {
                     CategoryTree tree = root.getTreeByCatId(parentCatId);
-                    tree.getTreeByCatNameOrCreate(catName, catId, true);
+                    tree.getTreeByCatNameOrCreate(catName, catId);
                 }
                 categories.add(catId);
             }
@@ -102,15 +102,10 @@ public class Solution {
                     }
                     line = inScanner.nextLine();
                 }
-                boolean isCatIdInitialized = getValueByTag(offer, "categoryId") != null;
 //                System.out.println(isCatIdInitialized);
-                String catId;
-                catId = getValueByTag(offer, "categoryId");
-                Gadget gadget = new Gadget(offer, catId);
-                if (categories.contains(catId)) {
-                    CategoryTree catTree = root.getTreeByCatId(catId);
-                    CategoryTree subcatTree;
-                    subcatTree = catTree.getTreeByCatNameOrCreate(gadget.vendor, null, isCatIdInitialized);
+                String catId = getValueByTag(offer, "categoryId");
+                Gadget gadget = new Gadget(offer/*, catId*/);
+                if (categories.contains(catId) && !catId.equals("761")) {
                     ArrayList<String> modelSplit;
                     modelSplit = new ArrayList<>(Arrays.asList(gadget.model.split("[ ,\\-]")));
                     int j = 0;
@@ -146,6 +141,8 @@ public class Solution {
                             }
                         }
                     }
+                    CategoryTree catTree = root.getTreeByCatId(catId);
+                    CategoryTree subcatTree = catTree.getTreeByCatNameOrCreate(gadget.vendor, null);
                     for (int i = 0; i < modelSplit.size() && i < 4; i++) {
                         String modelPart = modelSplit.get(i);
                         if (!modelPart.isEmpty()) {
@@ -157,14 +154,15 @@ public class Solution {
                                     modelSplit.set(i + 2, "Note ".concat(modelSplit.get(i + 2)));
                                 }
                             }
-                            subcatTree = subcatTree.getTreeByCatNameOrCreate(modelPart, null, isCatIdInitialized);
+                            subcatTree = subcatTree.getTreeByCatNameOrCreate(modelPart, null);
                         }
                     }
                     boolean isPresent = true;
                     for (Gadget gadgetCurrent : subcatTree.gadgets) {
-                        if (gadgetCurrent.getWebsiteName().equals(gadget.getWebsiteName()) &&
-                                gadget.imageUrl.equals(gadgetCurrent.imageUrl)) {
+                        if (CategoryTree.translit(gadgetCurrent.getWebsiteName()).equals(
+                                CategoryTree.translit(gadget.getWebsiteName()))) {
                             isPresent = false;
+                            System.out.println(gadgetCurrent.getWebsiteName());
                         }
                     }
                     if (isPresent) {
@@ -175,6 +173,40 @@ public class Solution {
             }
         }
         inScanner.close();
+
+        CategoryTree catTree = root.getTreeByCatId("761");
+        for (int modelLine = 0; modelLine < avitoGadgets.length; modelLine++) {
+            int startAttrId = avitoGadgets[modelLine].mapGadgetAttributeNumber.get(AvitoGadgets.VENDOR);
+            int finishAttrId = avitoGadgets[modelLine].mapGadgetAttributeNumber.get(AvitoGadgets.COLOR);
+            int excludeAttrId = avitoGadgets[modelLine].mapGadgetAttributeNumber.get(AvitoGadgets.SUBMODEL);
+//            System.out.println("check" + avitoGadgets[modelLine].gadgets.get(0).get(startAttrId));
+            CategoryTree subcatTree = catTree.getTreeByCatNameOrCreate(avitoGadgets[modelLine].gadgets
+                    .get(0).get(startAttrId), null);
+            for (ArrayList<String> avitoGadget : avitoGadgets[modelLine].gadgets) {
+                for (int attrId = startAttrId + 1; attrId <= finishAttrId; attrId++) {
+                    if (attrId == excludeAttrId) {
+                        continue;
+                    }
+                    System.out.println("check2:" + avitoGadget.get(attrId));
+                    subcatTree = subcatTree.getTreeByCatNameOrCreate(avitoGadget.get(attrId), null);
+                }
+                boolean isPresent = true;
+                Gadget gadget = new Gadget(avitoGadget);
+//                System.out.println("check" + gadget.getWebsiteName());
+                for (Gadget gadgetCurrent : subcatTree.gadgets) {
+                    if (CategoryTree.translit(gadgetCurrent.getWebsiteName()).equals(
+                            CategoryTree.translit(gadget.getWebsiteName()))) {
+                        isPresent = false;
+                        System.out.println("check:" + gadget.getWebsiteName());
+                    }
+                }
+                if (isPresent) {
+                    subcatTree.gadgets.add(gadget);
+                    System.out.println(gadget.getWebsiteName());
+                }
+            }
+        }
+
         root.condenseTree();
         root.removeLeaves();
         root.removeLeaves();
@@ -201,7 +233,7 @@ public class Solution {
         bufferedWriter.write("</categories>\n");
 
         bufferedWriter.write("<offers>\n");
-        root.printYMLOffers(bufferedWriter);
+//        root.printYMLOffers(bufferedWriter);
 //        bufferedWriter.write(offers);
         bufferedWriter.write("</offers></shop></yml_catalog>");
         bufferedWriter.flush();
@@ -239,12 +271,13 @@ public class Solution {
     }
 
     public static void computeAvito() throws IOException {
-//        GadgetConst.MODEL_LINES.size()
-        for (int modelLine = 1; modelLine < 2; modelLine++) {
-            AvitoGadgets avitoGadgets = new AvitoGadgets(modelLine);
-            avitoGadgets.initialize();
-            avitoGadgets.generateGadgets(0, new ArrayList<String>());
-            avitoGadgets.generateXML();
+        for (int modelLine = 0; modelLine < GadgetConst.MODEL_LINES.size(); modelLine++) {
+            avitoGadgets[modelLine] = new AvitoGadgets(modelLine);
+            avitoGadgets[modelLine].initialize();
+            avitoGadgets[modelLine].generateGadgets(0, new ArrayList<String>());
+            if (modelLine == 1) {
+                avitoGadgets[modelLine].generateXML();
+            }
         }
     }
 

@@ -7,8 +7,7 @@ import java.util.*;
  */
 public class CategoryTree {
     public final static int LEAF_MIN_SIZE = 4;
-    public static int baseSize = 83;
-    public static int size = 6283;
+    public static int maxId = 5003;
 
     static HashMap<String, String> idsMap = new HashMap<>();
     final static String CSV_BEGIN = "Наименование;Наименование артикула;Код артикула;Валюта;Цена;Доступен для заказа;Зачеркнутая цена;Закупочная цена;В наличии;Краткое описание;Описание;Наклейка;Статус;Тип товаров;Теги;Облагается налогом;Заголовок;META Keywords;META Description;Ссылка на витрину;Адрес видео на YouTube или Vimeo;Дополнительные параметры;Производитель;Программная платформа;Тип корпуса;Кол-во SIM-карт;Размер экрана;Объем встроенной памяти;Материал;Сенсорный экран;Кол-во мегапикселов камеры;Разрешение камеры;Вес;Цвет;Изображения\n";
@@ -34,15 +33,10 @@ public class CategoryTree {
         this.id = "0";
     }
 
-    public CategoryTree(String name, String id, boolean isCatIdInitialized) {
+    public CategoryTree(String name, String id) {
         if (id == null) {
-            int newId;
-            if (isCatIdInitialized) {
-                newId = baseSize++;
-            } else {
-                newId = size++;
-            }
-            this.id = "" + newId;
+            this.id = "" + maxId;
+            maxId++;
         } else {
             this.id = id;
         }
@@ -90,10 +84,10 @@ public class CategoryTree {
         return null;
     }
 
-    public CategoryTree getTreeByCatNameOrCreate(String catName, String catId, boolean isCatIdInitialized) {
+    public CategoryTree getTreeByCatNameOrCreate(String catName, String catId) {
         CategoryTree tree = getTreeByCatName(catName);
         if (tree == null) {
-            tree = new CategoryTree(catName, catId, isCatIdInitialized);
+            tree = new CategoryTree(catName, catId);
             children.add(tree);
         }
         return tree;
@@ -115,7 +109,7 @@ public class CategoryTree {
         }
     }
 
-    public void printYMLOffers(BufferedWriter bufferedWriter) throws IOException {
+    /*public void printYMLOffers(BufferedWriter bufferedWriter) throws IOException {
         for (Gadget gadget : gadgets) {
             if (!gadget.initialCategoryId.equals("2")) {
                 bufferedWriter.write("<offer id=\"" + gadget.id + "\">\n");
@@ -139,7 +133,7 @@ public class CategoryTree {
         for (CategoryTree child : children) {
             child.printYMLOffers(bufferedWriter);
         }
-    }
+    }*/
 
     public void printYMSelected(BufferedWriter bufferedWriter, HashSet<String> selectedItems) throws IOException {
         for (int i = 0; i < gadgets.size(); i++) {

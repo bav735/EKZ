@@ -14,6 +14,8 @@ public class GadgetConst {
 
     public final static String[] CITIES_IN = new String[]{"Москве"};
 
+    public final static String[] CITIES_XML_FILE_END = new String[]{"msk"};
+
     public final static ArrayList<String> QUALITIES = new ArrayList<String>(Arrays.asList(
             CPO,
             REF,
