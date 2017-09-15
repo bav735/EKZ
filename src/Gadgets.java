@@ -25,7 +25,7 @@ public class Gadgets {
     public static HashMap<String, Integer> mapPriceAttributeNumber;
 
     public ArrayList<ArrayList<String>> gadgets = new ArrayList<ArrayList<String>>();
-    public HashMap<String, Integer> mapGadgetAttributeNumber;
+    public static HashMap<String, Integer> mapGadgetAttributeNumber;
 
     public static void initializePrices(Scanner inScanner) {
         mapPriceAttributeNumber = new HashMap<>();

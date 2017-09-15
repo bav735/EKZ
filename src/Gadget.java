@@ -5,7 +5,7 @@ import java.util.Arrays;
  * Created by A on 14.06.2017.
  */
 public class Gadget {
-    public static int size = 1;
+    public static int maxId = 1;
     String imageUrl;
     String price;
     String vendor;
@@ -20,14 +20,17 @@ public class Gadget {
     public Gadget(ArrayList<String> gadget) {
         vendor = gadget.get(1);
         model = gadget.get(2) + " " + gadget.get(3) + " " + gadget.get(4) + " " +
-                gadget.get(6) + " " + gadget.get(7) + " " + gadget.get(0);
-        description = "";
-        imageUrl = "";
-        namePrefix = "Смартфон";
-        price = "0";
-        if (id == null) {
-            id = "" + size++;
+                gadget.get(6) + " ";
+        if (gadget.get(7).length() > 1) {
+            model += gadget.get(7) + " ";
         }
+        model += gadget.get(0);
+        description = "Изготовленный с применением самых последних технологий 21-го века, смартфон сочетает в себе стильный и при этом продуманный дизайн с мощными функциями. Элегантные контуры и излучающая свет поверхность корпуса отражают все богатство цветовой палитры. Доступен в широком выборе роскошных цветов: белый, черный, золотой. Премиальный и вместе с тем глубоко продуманный дизайн смартфона дополняется абсолютно новым облегченным интерфейсом, который повышает удобство использования и расширяет функциональность.";
+        imageUrl = AvitoGadgets.getImageUrl(gadget);
+        namePrefix = "Смартфон";
+        price = "" + AvitoGadgets.getPriceRetailMax(AvitoGadgets.getGadgetName(gadget));
+        id = "" + maxId;
+        maxId++;
         params = "";
     }
 
@@ -43,9 +46,8 @@ public class Gadget {
         /*if (Solution.SHOP_ITEMS_XML.equals(Solution.CUSTOM_XML)) {
             id = Solution.getValueByPrefix(offer, "id=\"", '"');
         }*/
-        if (id == null) {
-            id = "" + size++;
-        }
+        id = "" + maxId;
+        maxId++;
         params = Solution.getValueByTag(offer, "<param ", "</param>");
 //        System.out.println(description);
     }

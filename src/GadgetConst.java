@@ -445,7 +445,7 @@ public class GadgetConst {
     static {
         for (int i = 0; i < CITIES.length; i++) {
             MAP_MODEL_PER_MONTH_COUNT[i] = new HashMap<>();
-            for (int j = 0; j < MODELS.size(); j++) {
+            for (int j = 0; j < MODELS.maxId(); j++) {
                 MAP_MODEL_PER_MONTH_COUNT[i].put(MODELS.get(j), GADGET_PER_MONTH_COUNT[i].get(j));
             }
         }

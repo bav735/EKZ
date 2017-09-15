@@ -171,7 +171,7 @@ public class WebSiteGadgets extends Gadgets {
             setSelectedItems.add(inScanner.nextLine());
         }
         String outText = "id;available;price;currencyId;category;picture;url;name;description;manufacturer_warranty\n";
-        for (int i = 0; i < gadgets.size(); i++) {
+        for (int i = 0; i < gadgets.maxId(); i++) {
             ArrayList<String> gadget = gadgets.get(i);
             String gadgetName = gadget.get(mapGadgetAttributeNumber.get(NAME)).replace("\"", "");
             if (gadgetName.contains("восстановленный")) {

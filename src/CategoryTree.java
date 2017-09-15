@@ -6,7 +6,7 @@ import java.util.*;
  * Created by A on 09.06.2017.
  */
 public class CategoryTree {
-    public final static int LEAF_MIN_SIZE = 4;
+    public final static int LEAF_MIN_SIZE = 3;
     public static int maxId = 5003;
 
     static HashMap<String, String> idsMap = new HashMap<>();
@@ -55,7 +55,7 @@ public class CategoryTree {
 //        idsMap.put(id, newId);
 //        id = newId;
         for (Gadget gadget : gadgets) {
-            gadget.id = "" + Gadget.size++;
+            gadget.id = "" + Gadget.maxId++;
         }
         for (CategoryTree tree : children) {
             tree.recalcIds();
@@ -109,6 +109,17 @@ public class CategoryTree {
         }
     }
 
+    public void printToScreen() {
+        System.out.println("$" + name);
+        System.out.println("children:");
+        for (Gadget gadget : gadgets) {
+            System.out.println(gadget.getWebsiteName());
+        }
+        for (CategoryTree child : children) {
+            child.printToScreen();
+        }
+    }
+
     /*public void printYMLOffers(BufferedWriter bufferedWriter) throws IOException {
         for (Gadget gadget : gadgets) {
             if (!gadget.initialCategoryId.equals("2")) {
@@ -156,13 +167,13 @@ public class CategoryTree {
         }
     }
 
-    public void synchronizeWithPriceList() {
+    /*public void synchronizeWithPriceList() {
         for (CategoryTree child : children) {
             for (Gadget gadget : child.gadgets) {
 //                System.out.println(gadget.getPriceListName() + "$");
                 if (AvitoGadgets.inPriceList(gadget.getPriceListName())) {
-                    if (true/*gadget.getSubModel().equals(GadgetConst.MAP_MODEL_SUBMODEL
-                            .get(gadget.getPriceListModel()).get(1))*/) {
+                    if (true*//*gadget.getSubModel().equals(GadgetConst.MAP_MODEL_SUBMODEL
+                            .get(gadget.getPriceListModel()).get(1))*//*) {
                         gadget.price = AvitoGadgets.getPriceRetailMax(gadget.getPriceListName(), 1) + "";
                         gadget.description = ("Тип товара: Ростест (NEW)\n").concat(gadget.description);
                         gadget.manufacturerWarranty = true;
@@ -179,7 +190,7 @@ public class CategoryTree {
             }
             child.synchronizeWithPriceList();
         }
-    }
+    }*/
 
     public void printCSV(BufferedWriter bufferedWriter, HashSet<String> presentItems) throws IOException {
         if (height > 2) {
@@ -205,7 +216,7 @@ public class CategoryTree {
                     present = "3";
                 }
                 bufferedWriter.write(present + ";;");
-                bufferedWriter.write("<font size=\"4\"><strong>" + gadget.description.replace(",\n", "<br>")
+                bufferedWriter.write("<font maxId=\"4\"><strong>" + gadget.description.replace(",\n", "<br>")
                         + "</strong></font>");
                 bufferedWriter.write(";;1;");
                 bufferedWriter.write(child.name);
@@ -351,7 +362,7 @@ public class CategoryTree {
         }
         if ((model.startsWith("iPhone")) && model.length() > 7) {
             model = model.substring(7);
-            for (int i = 0; i < Gadgets.modelsByModelLine.get(globalModelLine).size(); i++) {
+            for (int i = 0; i < Gadgets.modelsByModelLine.get(globalModelLine).maxId(); i++) {
                 if (Gadgets.modelsByModelLine.get(globalModelLine).get(i).contains(model)) {
                     return i;
                 }

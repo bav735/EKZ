@@ -162,7 +162,7 @@ public class Solution {
                         if (CategoryTree.translit(gadgetCurrent.getWebsiteName()).equals(
                                 CategoryTree.translit(gadget.getWebsiteName()))) {
                             isPresent = false;
-                            System.out.println(gadgetCurrent.getWebsiteName());
+//                            System.out.println(gadgetCurrent.getWebsiteName());
                         }
                     }
                     if (isPresent) {
@@ -174,30 +174,25 @@ public class Solution {
         }
         inScanner.close();
 
-        CategoryTree catTree = root.getTreeByCatId("761");
         for (int modelLine = 0; modelLine < avitoGadgets.length; modelLine++) {
-            int startAttrId = avitoGadgets[modelLine].mapGadgetAttributeNumber.get(AvitoGadgets.VENDOR);
-            int finishAttrId = avitoGadgets[modelLine].mapGadgetAttributeNumber.get(AvitoGadgets.COLOR);
-            int excludeAttrId = avitoGadgets[modelLine].mapGadgetAttributeNumber.get(AvitoGadgets.SUBMODEL);
 //            System.out.println("check" + avitoGadgets[modelLine].gadgets.get(0).get(startAttrId));
-            CategoryTree subcatTree = catTree.getTreeByCatNameOrCreate(avitoGadgets[modelLine].gadgets
-                    .get(0).get(startAttrId), null);
             for (ArrayList<String> avitoGadget : avitoGadgets[modelLine].gadgets) {
-                for (int attrId = startAttrId + 1; attrId <= finishAttrId; attrId++) {
-                    if (attrId == excludeAttrId) {
+                CategoryTree catTree = root.getTreeByCatId("761");
+                CategoryTree subcatTree = catTree.getTreeByCatNameOrCreate(avitoGadget.get(1), null);
+                for (int attrId = 2; attrId < 8; attrId++) {
+                    if (attrId == 5) {
                         continue;
                     }
-                    System.out.println("check2:" + avitoGadget.get(attrId));
+//                    System.out.println("check2:" + avitoGadget.get(attrId));
                     subcatTree = subcatTree.getTreeByCatNameOrCreate(avitoGadget.get(attrId), null);
                 }
                 boolean isPresent = true;
                 Gadget gadget = new Gadget(avitoGadget);
-//                System.out.println("check" + gadget.getWebsiteName());
+
                 for (Gadget gadgetCurrent : subcatTree.gadgets) {
                     if (CategoryTree.translit(gadgetCurrent.getWebsiteName()).equals(
                             CategoryTree.translit(gadget.getWebsiteName()))) {
                         isPresent = false;
-                        System.out.println("check:" + gadget.getWebsiteName());
                     }
                 }
                 if (isPresent) {
@@ -212,7 +207,7 @@ public class Solution {
         root.removeLeaves();
         root.calcHeight(-1);
 //        root.recalcIds();
-        root.synchronizeWithPriceList();
+//        root.synchronizeWithPriceList();
 
         inScanner = Solution.getInputScanner("present_items.txt");
         HashSet<String> presentItems = new HashSet<>();
