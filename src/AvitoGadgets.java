@@ -17,7 +17,7 @@ public class AvitoGadgets extends Gadgets {
     final static String TOUCH_LOCKED = "Без Отп";
     //    final static String EST2 = "EST2";
     final static String IMG_FILE_NAME = "img";
-    final static int DAYS_OFFSET = 1;
+    final static int DAYS_OFFSET = 0;
     final static int TIME_DAY_SEC = 12 * 60 * 60;
     final static int TIME_MONTH_SEC = 30 * TIME_DAY_SEC;
     final static int HOUR_BEGIN = 9;
@@ -447,7 +447,7 @@ public class AvitoGadgets extends Gadgets {
         }
         text += getOffer(gadget);
         text += "\n- цена действует при оплате полной стоимости товара наличными\n";
-        text += "- выдаем товарный чек и гарантийный талон, заверенные печатью\n";
+        text += "- выдаем документы о покупке: товарный чек и гарантийный талон\n";
         text += "- товар в пленке, неоф. восстановленный, есть микроцарапины\n";
         text += "- количество товара ограничено, уточняйте актуальное наличие\n\n";
 //        text += "Местоположение iSPARK, см. в Яндекс.Картах, 2ГИС, Google Maps \uD83C\uDF0D\n" +
@@ -488,7 +488,7 @@ public class AvitoGadgets extends Gadgets {
 //            text += "!\uD83D\uDE0A</p>";
             text += getOffer(gadget);
 //            text += "✔ обеспечиваем гарантию на сервисное обслуживание в течение 1 года<br>";
-            text += "<p>✔ выдаем товарный чек и гарантийный талон, заверенные живой печатью<br>";
+            text += "<p>✔ выдаем документы о вашей покупке: товарный чек и гарантийный талон<br>";
             text += "✔ запечатанные в пленку, без следов эксплуатации, подойдут как подарок<br>";
             text += "✔ перед визитом в магазин, просим уточнять актуальное наличие товара</p>";
 //            text += "<p>Местоположение см. в Яндекс.Картах, 2ГИС, Google Maps\uD83C\uDF0D<br>" +
@@ -687,10 +687,11 @@ public class AvitoGadgets extends Gadgets {
         HashMap<String, ArrayList<ArrayList<String>>> mapGadgetModelGadgets = new HashMap<>();
 
         for (ArrayList<String> gadget : gadgets) {
-            String metaModel = gadget.get(mapGadgetAttributeNumber.get(MODEL_LINE)) +
-                    gadget.get(mapGadgetAttributeNumber.get(MODEL));
+            String metaModel = getMetaModel(gadget.get(mapGadgetAttributeNumber.get(MODEL_LINE)),
+                    gadget.get(mapGadgetAttributeNumber.get(MODEL)));
             if (!mapGadgetModelGadgets.containsKey(metaModel)) {
                 mapGadgetModelGadgets.put(metaModel, new ArrayList<ArrayList<String>>());
+                System.out.println(metaModel + "|");
             }
             mapGadgetModelGadgets.get(metaModel).add(gadget);
 //                ArrayList<String> gadget2 = new ArrayList<>(gadget);
@@ -720,7 +721,11 @@ public class AvitoGadgets extends Gadgets {
         return res;
     }
 
-    public void generateXML() throws IOException {
+    private String getMetaModel(String modelLine, String model) {
+        return modelLine + " " + model;
+    }
+
+    public void generateXML(BufferedWriter writer, boolean isone) throws IOException {
         HashMap<String, ArrayList<ArrayList<String>>> mapGadgetModelGadgets = getModelGadgetMap(gadgets);
         String xml = "<Ads formatVersion=\"3\" target=\"Avito.ru\">\n";
         int[] size = new int[GadgetConst.MODELS[globalModelLine].size()];
@@ -728,8 +733,8 @@ public class AvitoGadgets extends Gadgets {
         int megaSize = 0;
         for (int cityId = 0; cityId < GadgetConst.CITIES.length; cityId++) {
             for (int modelNum = 0; modelNum < GadgetConst.MODELS[globalModelLine].size(); modelNum++) {
-                String metaModel = GadgetConst.MODEL_LINES.get(globalModelLine)
-                        + GadgetConst.MODELS[globalModelLine].get(modelNum);
+                String metaModel = getMetaModel(GadgetConst.MODEL_LINES.get(globalModelLine),
+                        GadgetConst.MODELS[globalModelLine].get(modelNum));
 //                if (!mapGadgetModelGadgets.containsKey(model)) {
 //                    continue;
 //                }
@@ -737,15 +742,18 @@ public class AvitoGadgets extends Gadgets {
 //                Collections.sort(gadgets, new CustomComparator());
                 int prevSize = 0;//maxId[modelNum];
 //                maxId[modelNum] += GadgetConst.GADGET_PER_MONTH_COUNT[cityId].get(modelNum);
-                System.out.print("$model:" + metaModel + " ");
+//                System.out.print("$model:" + metaModel + " ");
                 size[modelNum] = gadgets.size();
                 megaSize += size[modelNum];// - prevSize;
                 System.out.println("size_curr:" + size[modelNum] +
                         " size_all: " + gadgets.size());
                 for (int gadgetNum = prevSize; gadgetNum < size[modelNum]; gadgetNum++) {
                     int gadgetId = gadgetNum - prevSize;
-                    if (gadgetNum == size[modelNum] - 1) {
-                        xml += getXmlAd(gadgets.get(gadgetNum), 0, "", 0, true);
+                    if (gadgetNum == 0) {
+                        xml += getXmlAd(gadgets.get(gadgetNum), 0, "", cityId, true);
+                        if (isone) {
+                            break;
+                        }
                     } else {
                         int timeIntervalSec = TIME_MONTH_SEC / (size[modelNum] - prevSize);
                         int gadgetTimeSec = gadgetId * timeIntervalSec;
@@ -764,10 +772,7 @@ public class AvitoGadgets extends Gadgets {
                 }
             }
             xml += "</Ads>";
-            BufferedWriter writer = Solution.getOutputWriter("Output/Avito/", "AdsXML_" +
-                    GadgetConst.CITIES_XML_FILE_END[cityId] + ".xml");
             writer.write(xml);
-            writer.flush();
         }
         System.out.println(megaSize);
     }

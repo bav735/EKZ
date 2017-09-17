@@ -266,13 +266,22 @@ public class Solution {
     }
 
     public static void computeAvito() throws IOException {
-        for (int modelLine = 0; modelLine < GadgetConst.MODEL_LINES.size(); modelLine++) {
-            avitoGadgets[modelLine] = new AvitoGadgets(modelLine);
-            avitoGadgets[modelLine].initialize();
-            avitoGadgets[modelLine].generateGadgets(0, new ArrayList<String>());
-            if (modelLine == 1) {
-                avitoGadgets[modelLine].generateXML();
+        for (int cityId = 0; cityId < GadgetConst.CITIES.length; cityId++) {
+            BufferedWriter writer = Solution.getOutputWriter("Output/Avito/", "AdsXML_" +
+                    GadgetConst.CITIES_XML_FILE_END[cityId] + ".xml");
+            for (int modelLine = 0; modelLine < GadgetConst.MODEL_LINES.size(); modelLine++) {
+                avitoGadgets[modelLine] = new AvitoGadgets(modelLine);
+                avitoGadgets[modelLine].initialize();
+                avitoGadgets[modelLine].generateGadgets(0, new ArrayList<String>());
+                if (modelLine < 2) {
+                    if (modelLine == 1 && cityId == 0) {
+                        avitoGadgets[modelLine].generateXML(writer, false);
+                    } else {
+                        avitoGadgets[modelLine].generateXML(writer, true);
+                    }
+                }
             }
+            writer.flush();
         }
     }
 
