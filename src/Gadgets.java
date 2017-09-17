@@ -1,12 +1,40 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Created by A on 13.03.2017.
  */
 public class Gadgets {
+    final static String NAME_BEGIN = "";
+    final static String QUALITY = "Качество";
+    final static String VENDOR = "Производитель";
+    final static String MODEL_LINE = "Модельный ряд";
+    final static String MODEL = "Модель";
+    final static String SUBMODEL = "Подмодель";
+    final static String MEMORY = "Память";
+    final static String FINGER_PRINT = "Наличие отпечатка";
+    final static String COLOR = "Цвет";
+    final static String TOUCH_APPLE_NO = "-";
+    final static String TOUCH_LOCKED = "Без Отп";
+    final static String IMG_FILE_NAME = "img";
+    final static int DAYS_OFFSET = 0;
+    final static int TIME_DAY_SEC = 12 * 60 * 60;
+    final static int TIME_MONTH_SEC = 30 * TIME_DAY_SEC;
+    final static int HOUR_BEGIN = 9;
+    public static final Calendar CALENDAR_ZERO;
+    public static final int DAY_NUM_GLOBAL;
+
+    static {
+        CALENDAR_ZERO = Calendar.getInstance();
+        CALENDAR_ZERO.set(Calendar.YEAR, 2017);
+        CALENDAR_ZERO.set(Calendar.MONTH, 8);//september
+        CALENDAR_ZERO.set(Calendar.DAY_OF_MONTH, 15);
+        setCalendarToZero(CALENDAR_ZERO);
+        Calendar calendar = Calendar.getInstance();
+        setCalendarToZero(calendar);
+        DAY_NUM_GLOBAL = (int) ((calendar.getTimeInMillis() - CALENDAR_ZERO.getTimeInMillis())
+                / 1000 / 3600 / 24) + 1;
+    }
+
     final static int PRICES_COUNT = 4;
     final static String NO_PRICE = "-";
     final static String ISPARK = "iSPARK";
@@ -20,12 +48,29 @@ public class Gadgets {
             OPT_MAX,
             OPT_MIN,
     };
+    public final static String[] gadgetAttributeNames = new String[]{
+            QUALITY,
+            VENDOR,
+            MODEL_LINE,
+            MODEL,
+            MEMORY,
+            SUBMODEL,
+            COLOR,
+            FINGER_PRINT
+    };
 
     public static HashMap<String, ArrayList<String>> mapGadgetNamePrices;
     public static HashMap<String, Integer> mapPriceAttributeNumber;
 
     public ArrayList<ArrayList<String>> gadgets = new ArrayList<ArrayList<String>>();
     public static HashMap<String, Integer> mapGadgetAttributeNumber;
+
+    static {
+        mapGadgetAttributeNumber = new HashMap<String, Integer>();
+        for (int i = 0; i < gadgetAttributeNames.length; i++) {
+            mapGadgetAttributeNumber.put(gadgetAttributeNames[i], i);
+        }
+    }
 
     public static void initializePrices(Scanner inScanner) {
         mapPriceAttributeNumber = new HashMap<>();
@@ -47,13 +92,6 @@ public class Gadgets {
         inScanner.close();
     }
 
-    public void initializeMapGadgetAttributeNumber(String[] gadgetAttributeNames) {
-        mapGadgetAttributeNumber = new HashMap<String, Integer>();
-        for (int i = 0; i < gadgetAttributeNames.length; i++) {
-            mapGadgetAttributeNumber.put(gadgetAttributeNames[i], i);
-        }
-    }
-
     public int[] mergeArrays(int[] a1, int[] a2, int[] order) {
         int[][] a = new int[2][];
         a[0] = a1;
@@ -67,5 +105,12 @@ public class Gadgets {
             i[t]++;
         }
         return rezult;
+    }
+
+    private static void setCalendarToZero(Calendar calendar) {
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 0);
+        calendar.set(Calendar.MILLISECOND, 0);
     }
 }

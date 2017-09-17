@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Scanner;
 
 /**
  * Created by A on 05.08.2017.
@@ -10,11 +11,11 @@ public class GadgetConst {
     final static String REF = "REF";
     final static String CPO = "CPO";
 
-    public final static String[] CITIES = new String[]{"Москва"};
+    public final static String[] CITIES = new String[]{"Москва", "Казань"};
 
-    public final static String[] CITIES_IN = new String[]{"Москве"};
+    public final static String[] CITIES_IN = new String[]{"Москве", "Казани"};
 
-    public final static String[] CITIES_XML_FILE_END = new String[]{"msk"};
+    public final static String[] CITIES_XML_FILE_END = new String[]{"msk", "tat"};
 
     public final static ArrayList<String> QUALITIES = new ArrayList<String>(Arrays.asList(
             CPO,
@@ -35,8 +36,8 @@ public class GadgetConst {
             "Meizu"));
 
     public final static ArrayList<String> VENDOR_OFFERS = new ArrayList<String>(Arrays.asList(
-            "самсунг галакси",
-            "айфоны",
+            "новые и восстановленные 💯оригинальные самсунг галакси",
+            "новые, официально и неофициально восстановленные \uD83D\uDCAFоригинальные айфоны",
             "сони икспериа",
             "htc",
             "ксиоми",
@@ -270,6 +271,15 @@ public class GadgetConst {
             "корейского рынка (Korea)"};
     private final static String[] SUB_MODEL_ENDINGS = new String[]{"F", "V", "W", "0", "K"};
 
+    public static final HashMap<String, String> MAP_SAMSUNG_SUB_MODEL_ENDING_DESCRIPTION;
+
+    static {
+        MAP_SAMSUNG_SUB_MODEL_ENDING_DESCRIPTION = new HashMap<>();
+        for (int i = 0; i < SUB_MODEL_ENDINGS.length; i++) {
+            MAP_SAMSUNG_SUB_MODEL_ENDING_DESCRIPTION.put(SUB_MODEL_ENDINGS[i], SAMSUNG_SUB_MODEL_DESCRIPTION[i]);
+        }
+    }
+
     static {
         for (int i = 0; i < MODELS[0].size(); i++) {
             ArrayList<String> subModelList = SUB_MODELS[0].get(i);
@@ -465,6 +475,21 @@ public class GadgetConst {
             }
         }
     }*/
+    public final static HashMap<String, int[]> MAP_METAMODEL_ADS_PER_MONTH = new HashMap<>();
+
+    static {
+        Scanner inScanner = Solution.getInputScanner("ads_per_month.txt");
+        while (inScanner.hasNextLine()) {
+            String line = inScanner.nextLine();
+            String[] split = line.split("[|]");
+            int[] adsPerMonth = new int[split.length - 1];
+            for (int i = 0; i < adsPerMonth.length; i++) {
+                adsPerMonth[i] = Solution.getNumber(split[i + 1]);
+            }
+            MAP_METAMODEL_ADS_PER_MONTH.put(split[0], adsPerMonth);
+        }
+        inScanner.close();
+    }
 }
 
 

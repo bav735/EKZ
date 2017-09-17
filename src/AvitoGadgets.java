@@ -3,50 +3,7 @@ import java.io.IOException;
 import java.util.*;
 
 public class AvitoGadgets extends Gadgets {
-    static int tSize = 11266;
-    final static String NAME_BEGIN = "";
-    final static String QUALITY = "Качество";
-    final static String VENDOR = "Производитель";
-    final static String MODEL_LINE = "Модельный ряд";
-    final static String MODEL = "Модель";
-    final static String SUBMODEL = "Подмодель";
-    final static String MEMORY = "Память";
-    final static String FINGER_PRINT = "Наличие отпечатка";
-    final static String COLOR = "Цвет";
-    final static String TOUCH_APPLE_NO = "-";
-    final static String TOUCH_LOCKED = "Без Отп";
-    //    final static String EST2 = "EST2";
-    final static String IMG_FILE_NAME = "img";
-    final static int DAYS_OFFSET = 0;
-    final static int TIME_DAY_SEC = 12 * 60 * 60;
-    final static int TIME_MONTH_SEC = 30 * TIME_DAY_SEC;
-    final static int HOUR_BEGIN = 9;
-    //    final static int MINUTE_BEGIN = 30;
-    public static final Calendar CALENDAR_ZERO;
-    public static final int DAY_NUM_GLOBAL;
-
-    static {
-        CALENDAR_ZERO = Calendar.getInstance();
-        CALENDAR_ZERO.set(Calendar.YEAR, 2017);
-        CALENDAR_ZERO.set(Calendar.MONTH, 8);//september
-        CALENDAR_ZERO.set(Calendar.DAY_OF_MONTH, 15);
-        setCalendarToZero(CALENDAR_ZERO);
-        Calendar calendar = Calendar.getInstance();
-        setCalendarToZero(calendar);
-        DAY_NUM_GLOBAL = (int) ((calendar.getTimeInMillis() - CALENDAR_ZERO.getTimeInMillis())
-                / 1000 / 3600 / 24) + 1;
-    }
-
-    final static String[] gadgetAttributeNames = new String[]{
-            QUALITY,
-            VENDOR,
-            MODEL_LINE,
-            MODEL,
-            MEMORY,
-            SUBMODEL,
-            COLOR,
-            FINGER_PRINT
-    };
+//    static int tSize = 11266;
 
     ArrayList<ArrayList<String>> gadgetAttributesVariants;
     HashSet<String> includeAds;
@@ -57,7 +14,6 @@ public class AvitoGadgets extends Gadgets {
     }
 
     public void initialize() {
-        initializeMapGadgetAttributeNumber(gadgetAttributeNames);
 //        initializeIncludeAds();
         gadgetAttributesVariants = new ArrayList<ArrayList<String>>();
         gadgetAttributesVariants.add(new ArrayList<String>(GadgetConst.QUALITIES));
@@ -66,13 +22,6 @@ public class AvitoGadgets extends Gadgets {
                 GadgetConst.MODEL_LINES.get(globalModelLine))));
         gadgetAttributesVariants.add(GadgetConst.MODELS[globalModelLine]);
         gadgetAttributesVariants.add(new ArrayList<>(GadgetConst.MEMORIES));
-    }
-
-    private static void setCalendarToZero(Calendar calendar) {
-        calendar.set(Calendar.HOUR_OF_DAY, 0);
-        calendar.set(Calendar.MINUTE, 0);
-        calendar.set(Calendar.SECOND, 0);
-        calendar.set(Calendar.MILLISECOND, 0);
     }
 
     /*private void initializeIncludeAds() {
@@ -273,8 +222,8 @@ public class AvitoGadgets extends Gadgets {
 //            System.out.println(getGadgetName(gadget));
             if (mapGadgetNamePrices.containsKey(getGadgetName(gadget))) {
                 String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
-                for (String color : GadgetConst.MAP_MODEL_COLOR[globalModelLine].get(model)) {
-                    for (String submodel : GadgetConst.MAP_MODEL_SUBMODEL[globalModelLine].get(model)) {
+                for (String submodel : GadgetConst.MAP_MODEL_SUBMODEL[globalModelLine].get(model)) {
+                    for (String color : GadgetConst.MAP_MODEL_COLOR[globalModelLine].get(model)) {
                         ArrayList<String> newGadget1 = new ArrayList<>(gadget);
                         newGadget1.add(submodel);
                         newGadget1.add(color);
@@ -386,6 +335,13 @@ public class AvitoGadgets extends Gadgets {
         }
         offer += " = " + getPriceRetailMin(gadget) + "\u20BD (" + GadgetConst.MAP_QUALITY_DESCRIPTION
                 .get(gadget.get(mapGadgetAttributeNumber.get(QUALITY))) + ")";
+        if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).equals("Samsung")) {
+            String submodelEnding = gadget.get(mapGadgetAttributeNumber.get(SUBMODEL));
+            submodelEnding = submodelEnding.substring(submodelEnding.length() - 1, submodelEnding.length());
+            System.out.println("submodelEnding=" + submodelEnding);
+            offer += "<br>-модель для " + GadgetConst.MAP_SAMSUNG_SUB_MODEL_ENDING_DESCRIPTION
+                    .get(submodelEnding);
+        }
         offer += "<br>= " + getMaxOptPriceAmoled(gadget) + "\u20BD от 3 шт, = " +
                 getMinOptPriceAmoled(gadget) + "\u20BD от 10шт \uD83D\uDCA3</p>";
         return offer;
@@ -480,8 +436,7 @@ public class AvitoGadgets extends Gadgets {
                     "\uD83D\uDD39 ОПТ, ОПЛАТА ЧЕРЕЗ Р/С (ндс, без ндс)<br>" +
                     "\uD83D\uDD39 ДОСТАВКА ПО РФ через ТК CDEK (1-2 дня)<br>" +
                     "\uD83D\uDD1DМы занимаемся продажей смартфонов и аксессуаров более 5 лет.</p>";
-            text += "<p>В ассортименте iSPARK имеются новые, официально и неофициально восстановленные" +
-                    " \uD83D\uDCAFоригинальные ";
+            text += "<p>В ассортименте iSPARK имеются ";
             text += GadgetConst.MAP_VENDOR_OFFER.get(gadget.get(mapGadgetAttributeNumber.get(VENDOR)));
             text += " всех моделей, цветов и объемов памяти!";// по лучшей цене в ";
 //            text += GadgetConst.CITIES_IN[cityId];
@@ -508,7 +463,7 @@ public class AvitoGadgets extends Gadgets {
             String text = "<![CDATA[";
             text += "<p>Уважаемый покупатель,<br>" +
                     "Добро пожаловать в iSPARK\uD83D\uDD25Дискаунтер</p>";
-            text += "<p>\uD83D\uDCB0ГАРАНТИЯ ЛУЧШЕЙ ЦЕНЫ - нашли дешевле в другом магазине? сделаем еще дешевле❗</p>";
+            text += "<p>\uD83D\uDCB0ГАРАНТИЯ ЛУЧШЕЙ ЦЕНЫ - нашли дешевле в другом магазине? сделаем СКИДКУ❗</p>";
             text += "<p>\uD83D\uDC9BМы всегда идем навстречу нашим покупателям.<br>" +
                     "\uD83D\uDC49Мы предлагаем вам:<br>" +
                     "\uD83D\uDD39 КРЕДИТ от ОТП Банк/Хоум-Кредит<br>" +
@@ -578,7 +533,7 @@ public class AvitoGadgets extends Gadgets {
             ad += "\t\t<ContactPhone>84995834751</ContactPhone>\n";
             ad += "\t\t<Region>" + GadgetConst.CITIES[cityId] + "</Region>\n";
         } else {
-            ad += "\t\t<ContactPhone>89393911570</ContactPhone>\n";
+            ad += "\t\t<ContactPhone>88432515105</ContactPhone>\n";
             ad += "\t\t<Region>Татарстан</Region>\n";
             ad += "\t\t<City>" + GadgetConst.CITIES[cityId] + "</City>\n";
         }
@@ -725,56 +680,53 @@ public class AvitoGadgets extends Gadgets {
         return modelLine + " " + model;
     }
 
-    public void generateXML(BufferedWriter writer, boolean isone) throws IOException {
+    public void generateXML(BufferedWriter writer, int cityId) throws IOException {
         HashMap<String, ArrayList<ArrayList<String>>> mapGadgetModelGadgets = getModelGadgetMap(gadgets);
-        String xml = "<Ads formatVersion=\"3\" target=\"Avito.ru\">\n";
+        String xml = "";
         int[] size = new int[GadgetConst.MODELS[globalModelLine].size()];
 //        Arrays.fill(maxId, 0);
         int megaSize = 0;
-        for (int cityId = 0; cityId < GadgetConst.CITIES.length; cityId++) {
-            for (int modelNum = 0; modelNum < GadgetConst.MODELS[globalModelLine].size(); modelNum++) {
-                String metaModel = getMetaModel(GadgetConst.MODEL_LINES.get(globalModelLine),
-                        GadgetConst.MODELS[globalModelLine].get(modelNum));
+        for (int modelNum = 0; modelNum < GadgetConst.MODELS[globalModelLine].size(); modelNum++) {
+            String metaModel = getMetaModel(GadgetConst.MODEL_LINES.get(globalModelLine),
+                    GadgetConst.MODELS[globalModelLine].get(modelNum));
 //                if (!mapGadgetModelGadgets.containsKey(model)) {
 //                    continue;
 //                }
-                ArrayList<ArrayList<String>> gadgets = mapGadgetModelGadgets.get(metaModel);
+            ArrayList<ArrayList<String>> gadgets = mapGadgetModelGadgets.get(metaModel);
 //                Collections.sort(gadgets, new CustomComparator());
-                int prevSize = 0;//maxId[modelNum];
+            int prevSize = 0;//maxId[modelNum];
 //                maxId[modelNum] += GadgetConst.GADGET_PER_MONTH_COUNT[cityId].get(modelNum);
 //                System.out.print("$model:" + metaModel + " ");
-                size[modelNum] = gadgets.size();
-                megaSize += size[modelNum];// - prevSize;
-                System.out.println("size_curr:" + size[modelNum] +
-                        " size_all: " + gadgets.size());
-                for (int gadgetNum = prevSize; gadgetNum < size[modelNum]; gadgetNum++) {
-                    int gadgetId = gadgetNum - prevSize;
+            size[modelNum] = Math.min(gadgets.size(), GadgetConst.MAP_METAMODEL_ADS_PER_MONTH.get(
+                    metaModel)[cityId]);
+            megaSize += size[modelNum];// - prevSize;
+            System.out.println(metaModel + " size_curr:" + size[modelNum] +
+                    " size_all: " + gadgets.size());
+            for (int gadgetNum = prevSize; gadgetNum < size[modelNum]; gadgetNum++) {
+                int gadgetId = gadgetNum - prevSize;
+                if (size[modelNum] < 10) {
                     if (gadgetNum == 0) {
                         xml += getXmlAd(gadgets.get(gadgetNum), 0, "", cityId, true);
-                        if (isone) {
-                            break;
-                        }
-                    } else {
-                        int timeIntervalSec = TIME_MONTH_SEC / (size[modelNum] - prevSize);
-                        int gadgetTimeSec = gadgetId * timeIntervalSec;
-                        int gadgetTimeDay = gadgetTimeSec / TIME_DAY_SEC + 1;
-                        gadgetTimeSec %= TIME_DAY_SEC;
-                        int gadgetTimeHour = gadgetTimeSec / 3600 + HOUR_BEGIN;
-                        gadgetTimeSec %= 3600;
-                        int gadgetTimeMin = gadgetTimeSec / 60;
-                        gadgetTimeSec %= 60;
-                        String dateEnd = "T" + formatDateElem(gadgetTimeHour) + ":" +
-                                formatDateElem(gadgetTimeMin) + ":" +
-                                formatDateElem(gadgetTimeSec) + "+03:00";
-                        xml += getXmlAd(gadgets.get(gadgetNum), gadgetTimeDay, dateEnd, cityId, false);
                     }
-//                    generateAmoledDirsPhotos(gadgets.get(gadgetNum));
+                } else {
+                    int timeIntervalSec = TIME_MONTH_SEC / (size[modelNum] - prevSize);
+                    int gadgetTimeSec = gadgetId * timeIntervalSec;
+                    int gadgetTimeDay = gadgetTimeSec / TIME_DAY_SEC + 1;
+                    gadgetTimeSec %= TIME_DAY_SEC;
+                    int gadgetTimeHour = gadgetTimeSec / 3600 + HOUR_BEGIN;
+                    gadgetTimeSec %= 3600;
+                    int gadgetTimeMin = gadgetTimeSec / 60;
+                    gadgetTimeSec %= 60;
+                    String dateEnd = "T" + formatDateElem(gadgetTimeHour) + ":" +
+                            formatDateElem(gadgetTimeMin) + ":" +
+                            formatDateElem(gadgetTimeSec) + "+03:00";
+                    xml += getXmlAd(gadgets.get(gadgetNum), gadgetTimeDay, dateEnd, cityId, false);
                 }
+//                    generateAmoledDirsPhotos(gadgets.get(gadgetNum));
             }
-            xml += "</Ads>";
-            writer.write(xml);
         }
-        System.out.println(megaSize);
+        writer.write(xml);
+        System.out.println("megasize" + megaSize);
     }
 
     public void generateFolders() throws IOException {

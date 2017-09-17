@@ -11,51 +11,51 @@
 <category id="761" parentId="10">Смартфоны</category>
 <category id="10846" parentId="761">Apple</category>
 <category id="10848" parentId="10846">iPhone 6S</category>
-<category id="11104" parentId="10848">128Gb</category>
-<category id="11111" parentId="11104">Gold</category>
-<category id="11114" parentId="11104">Rose Gold</category>
-<category id="11108" parentId="11104">Silver</category>
-<category id="11105" parentId="11104">Space Gray</category>
+<category id="11115" parentId="10848">128Gb</category>
+<category id="11122" parentId="11115">Gold</category>
+<category id="11125" parentId="11115">Rose Gold</category>
+<category id="11119" parentId="11115">Silver</category>
+<category id="11116" parentId="11115">Space Gray</category>
 <category id="10849" parentId="10848">16Gb</category>
 <category id="10854" parentId="10849">Gold</category>
 <category id="10856" parentId="10849">Rose Gold</category>
 <category id="10852" parentId="10849">Silver</category>
 <category id="10850" parentId="10849">Space Gray</category>
-<category id="11083" parentId="10848">32Gb</category>
-<category id="11090" parentId="11083">Gold</category>
-<category id="11093" parentId="11083">Rose Gold</category>
-<category id="11087" parentId="11083">Silver</category>
-<category id="11084" parentId="11083">Space Gray</category>
+<category id="11094" parentId="10848">32Gb</category>
+<category id="11101" parentId="11094">Gold</category>
+<category id="11104" parentId="11094">Rose Gold</category>
+<category id="11098" parentId="11094">Silver</category>
+<category id="11095" parentId="11094">Space Gray</category>
 <category id="10858" parentId="10848">64Gb</category>
 <category id="10863" parentId="10858">Gold</category>
 <category id="10865" parentId="10858">Rose Gold</category>
 <category id="10861" parentId="10858">Silver</category>
 <category id="10859" parentId="10858">Space Gray</category>
 <category id="10867" parentId="10846">iPhone 6S Plus</category>
-<category id="11133" parentId="10867">128Gb</category>
+<category id="11144" parentId="10867">128Gb</category>
 <category id="10868" parentId="10867">16Gb</category>
 <category id="10873" parentId="10868">Gold</category>
 <category id="10875" parentId="10868">Rose Gold</category>
 <category id="10871" parentId="10868">Silver</category>
 <category id="10869" parentId="10868">Space Gray</category>
-<category id="11249" parentId="10867">32Gb</category>
+<category id="11260" parentId="10867">32Gb</category>
 <category id="10877" parentId="10867">64Gb</category>
 <category id="10882" parentId="10877">Gold</category>
 <category id="10884" parentId="10877">Rose Gold</category>
 <category id="10880" parentId="10877">Silver</category>
 <category id="10878" parentId="10877">Space Gray</category>
 <category id="10886" parentId="10846">iPhone SE</category>
-<category id="11267" parentId="10886">128Gb</category>
+<category id="11278" parentId="10886">128Gb</category>
 <category id="10887" parentId="10886">16Gb</category>
 <category id="10892" parentId="10887">Gold</category>
 <category id="10894" parentId="10887">Rose Gold</category>
 <category id="10890" parentId="10887">Silver</category>
 <category id="10888" parentId="10887">Space Gray</category>
-<category id="11258" parentId="10886">32Gb</category>
-<category id="11142" parentId="10886">64Gb</category>
+<category id="11269" parentId="10886">32Gb</category>
+<category id="11153" parentId="10886">64Gb</category>
 <category id="10896" parentId="10846">iPhone 7</category>
-<category id="11151" parentId="10896">128Gb</category>
-<category id="11164" parentId="10896">256Gb</category>
+<category id="11162" parentId="10896">128Gb</category>
+<category id="11175" parentId="10896">256Gb</category>
 <category id="10897" parentId="10896">32Gb</category>
 <category id="10898" parentId="10897">Black</category>
 <category id="10902" parentId="10897">Gold</category>
@@ -65,46 +65,47 @@
 <category id="10922" parentId="10846">iPhone 4S</category>
 <category id="10943" parentId="10846">iPhone 5</category>
 <category id="10959" parentId="10846">iPhone 5C</category>
-<category id="10960" parentId="10959">16Gb</category>
-<category id="10971" parentId="10959">32Gb</category>
-<category id="10982" parentId="10846">iPhone 5S</category>
-<category id="10983" parentId="10982">16Gb</category>
-<category id="10990" parentId="10983">Gold</category>
-<category id="10987" parentId="10983">Silver</category>
-<category id="10984" parentId="10983">Space Gray</category>
-<category id="10993" parentId="10982">32Gb</category>
-<category id="11000" parentId="10993">Gold</category>
-<category id="10997" parentId="10993">Silver</category>
-<category id="10994" parentId="10993">Space Gray</category>
-<category id="11003" parentId="10982">64Gb</category>
-<category id="11013" parentId="10846">iPhone 6</category>
-<category id="11034" parentId="11013">128Gb</category>
-<category id="11041" parentId="11034">Gold</category>
-<category id="11038" parentId="11034">Silver</category>
-<category id="11035" parentId="11034">Space Gray</category>
-<category id="11014" parentId="11013">16Gb</category>
-<category id="11021" parentId="11014">Gold</category>
-<category id="11018" parentId="11014">Silver</category>
-<category id="11015" parentId="11014">Space Gray</category>
-<category id="11222" parentId="11013">32Gb</category>
-<category id="11024" parentId="11013">64Gb</category>
-<category id="11031" parentId="11024">Gold</category>
-<category id="11028" parentId="11024">Silver</category>
-<category id="11025" parentId="11024">Space Gray</category>
-<category id="11044" parentId="10846">iPhone 6 Plus</category>
-<category id="11065" parentId="11044">128Gb</category>
-<category id="11045" parentId="11044">16Gb</category>
+<category id="10971" parentId="10959">16Gb</category>
+<category id="10982" parentId="10959">32Gb</category>
+<category id="10960" parentId="10959">8Gb</category>
+<category id="10993" parentId="10846">iPhone 5S</category>
+<category id="10994" parentId="10993">16Gb</category>
+<category id="11001" parentId="10994">Gold</category>
+<category id="10998" parentId="10994">Silver</category>
+<category id="10995" parentId="10994">Space Gray</category>
+<category id="11004" parentId="10993">32Gb</category>
+<category id="11011" parentId="11004">Gold</category>
+<category id="11008" parentId="11004">Silver</category>
+<category id="11005" parentId="11004">Space Gray</category>
+<category id="11014" parentId="10993">64Gb</category>
+<category id="11024" parentId="10846">iPhone 6</category>
+<category id="11045" parentId="11024">128Gb</category>
 <category id="11052" parentId="11045">Gold</category>
 <category id="11049" parentId="11045">Silver</category>
 <category id="11046" parentId="11045">Space Gray</category>
-<category id="11055" parentId="11044">64Gb</category>
-<category id="11062" parentId="11055">Gold</category>
-<category id="11059" parentId="11055">Silver</category>
-<category id="11056" parentId="11055">Space Gray</category>
-<category id="11177" parentId="10846">iPhone 7 Plus</category>
-<category id="11187" parentId="11177">128Gb</category>
-<category id="11200" parentId="11177">256Gb</category>
-<category id="11178" parentId="11177">32Gb</category>
+<category id="11025" parentId="11024">16Gb</category>
+<category id="11032" parentId="11025">Gold</category>
+<category id="11029" parentId="11025">Silver</category>
+<category id="11026" parentId="11025">Space Gray</category>
+<category id="11233" parentId="11024">32Gb</category>
+<category id="11035" parentId="11024">64Gb</category>
+<category id="11042" parentId="11035">Gold</category>
+<category id="11039" parentId="11035">Silver</category>
+<category id="11036" parentId="11035">Space Gray</category>
+<category id="11055" parentId="10846">iPhone 6 Plus</category>
+<category id="11076" parentId="11055">128Gb</category>
+<category id="11056" parentId="11055">16Gb</category>
+<category id="11063" parentId="11056">Gold</category>
+<category id="11060" parentId="11056">Silver</category>
+<category id="11057" parentId="11056">Space Gray</category>
+<category id="11066" parentId="11055">64Gb</category>
+<category id="11073" parentId="11066">Gold</category>
+<category id="11070" parentId="11066">Silver</category>
+<category id="11067" parentId="11066">Space Gray</category>
+<category id="11188" parentId="10846">iPhone 7 Plus</category>
+<category id="11198" parentId="11188">128Gb</category>
+<category id="11211" parentId="11188">256Gb</category>
+<category id="11189" parentId="11188">32Gb</category>
 <category id="10488" parentId="761">Samsung</category>
 <category id="10490" parentId="10488">Galaxy Grand Prime</category>
 <category id="10498" parentId="10488">Galaxy Core Prime</category>
@@ -145,67 +146,67 @@
 <category id="10820" parentId="10488">Galaxy J5 Prime</category>
 <category id="10826" parentId="10488">Galaxy J5 (2017)</category>
 <category id="10836" parentId="10488">Galaxy J7 (2017)</category>
-<category id="11276" parentId="761">Sony</category>
-<category id="11278" parentId="11276">Xperia SP</category>
-<category id="11286" parentId="11276">Xperia Z</category>
-<category id="11294" parentId="11276">Xperia Z1</category>
-<category id="11302" parentId="11276">Xperia Z1 Compact</category>
-<category id="11312" parentId="11276">Xperia Z2</category>
-<category id="11320" parentId="11276">Xperia Z3</category>
-<category id="11332" parentId="11276">Xperia Z3 Compact</category>
-<category id="11342" parentId="11276">Xperia Z5 Compact</category>
-<category id="11352" parentId="761">HTC</category>
-<category id="11354" parentId="11352">One Mini 2</category>
-<category id="11362" parentId="11352">One M7</category>
-<category id="11368" parentId="11352">One M8</category>
-<category id="11376" parentId="11352">One M9</category>
-<category id="11382" parentId="11352">One A9</category>
-<category id="11388" parentId="761">Xiaomi</category>
-<category id="11389" parentId="11388">Redmi</category>
-<category id="11390" parentId="11389">4A</category>
-<category id="11391" parentId="11390">16Gb</category>
-<category id="11398" parentId="11390">32Gb</category>
-<category id="11405" parentId="11389">4X</category>
-<category id="11406" parentId="11405">16Gb</category>
-<category id="11413" parentId="11405">32Gb</category>
-<category id="11420" parentId="11405">64Gb</category>
-<category id="11427" parentId="11389">Note 2</category>
-<category id="11467" parentId="11389">Note 4</category>
-<category id="11468" parentId="11467">32Gb</category>
-<category id="11477" parentId="11467">64Gb</category>
-<category id="11439" parentId="11389">Note 4X</category>
-<category id="11440" parentId="11439">16Gb</category>
-<category id="11449" parentId="11439">32Gb</category>
-<category id="11458" parentId="11439">64Gb</category>
-<category id="11486" parentId="11388">Mi</category>
-<category id="11542" parentId="11486">Max 2</category>
-<category id="11487" parentId="11486">Mi4</category>
-<category id="11493" parentId="11486">Mi5</category>
-<category id="11503" parentId="11486">Mi5C</category>
-<category id="11511" parentId="11486">Mi5S</category>
-<category id="11521" parentId="11486">Mi5S Plus</category>
-<category id="11568" parentId="11486">Mi6</category>
-<category id="11578" parentId="11568">128Gb</category>
-<category id="11569" parentId="11568">64Gb</category>
-<category id="11531" parentId="11486">Mix</category>
-<category id="11553" parentId="11486">Note 2</category>
-<category id="11561" parentId="11553">128Gb</category>
-<category id="11554" parentId="11553">64Gb</category>
-<category id="11587" parentId="761">Meizu</category>
-<category id="11588" parentId="11587">Pro</category>
-<category id="11599" parentId="11587">M</category>
-<category id="11600" parentId="11599">M3X</category>
-<category id="11622" parentId="11599">M5</category>
-<category id="11623" parentId="11622">16Gb</category>
-<category id="11634" parentId="11622">32Gb</category>
-<category id="11645" parentId="11599">M5 Note</category>
-<category id="11646" parentId="11645">16Gb</category>
-<category id="11655" parentId="11645">32Gb</category>
-<category id="11664" parentId="11645">64Gb</category>
-<category id="11610" parentId="11599">M5C</category>
-<category id="11673" parentId="11599">M5S</category>
-<category id="11674" parentId="11673">16Gb</category>
-<category id="11683" parentId="11673">32Gb</category>
+<category id="11287" parentId="761">Sony</category>
+<category id="11289" parentId="11287">Xperia SP</category>
+<category id="11297" parentId="11287">Xperia Z</category>
+<category id="11305" parentId="11287">Xperia Z1</category>
+<category id="11313" parentId="11287">Xperia Z1 Compact</category>
+<category id="11323" parentId="11287">Xperia Z2</category>
+<category id="11331" parentId="11287">Xperia Z3</category>
+<category id="11343" parentId="11287">Xperia Z3 Compact</category>
+<category id="11353" parentId="11287">Xperia Z5 Compact</category>
+<category id="11363" parentId="761">HTC</category>
+<category id="11365" parentId="11363">One Mini 2</category>
+<category id="11373" parentId="11363">One M7</category>
+<category id="11379" parentId="11363">One M8</category>
+<category id="11387" parentId="11363">One M9</category>
+<category id="11393" parentId="11363">One A9</category>
+<category id="11399" parentId="761">Xiaomi</category>
+<category id="11400" parentId="11399">Redmi</category>
+<category id="11401" parentId="11400">4A</category>
+<category id="11402" parentId="11401">16Gb</category>
+<category id="11409" parentId="11401">32Gb</category>
+<category id="11416" parentId="11400">4X</category>
+<category id="11417" parentId="11416">16Gb</category>
+<category id="11424" parentId="11416">32Gb</category>
+<category id="11431" parentId="11416">64Gb</category>
+<category id="11438" parentId="11400">Note 2</category>
+<category id="11478" parentId="11400">Note 4</category>
+<category id="11479" parentId="11478">32Gb</category>
+<category id="11488" parentId="11478">64Gb</category>
+<category id="11450" parentId="11400">Note 4X</category>
+<category id="11451" parentId="11450">16Gb</category>
+<category id="11460" parentId="11450">32Gb</category>
+<category id="11469" parentId="11450">64Gb</category>
+<category id="11497" parentId="11399">Mi</category>
+<category id="11553" parentId="11497">Max 2</category>
+<category id="11498" parentId="11497">Mi4</category>
+<category id="11504" parentId="11497">Mi5</category>
+<category id="11514" parentId="11497">Mi5C</category>
+<category id="11522" parentId="11497">Mi5S</category>
+<category id="11532" parentId="11497">Mi5S Plus</category>
+<category id="11579" parentId="11497">Mi6</category>
+<category id="11589" parentId="11579">128Gb</category>
+<category id="11580" parentId="11579">64Gb</category>
+<category id="11542" parentId="11497">Mix</category>
+<category id="11564" parentId="11497">Note 2</category>
+<category id="11572" parentId="11564">128Gb</category>
+<category id="11565" parentId="11564">64Gb</category>
+<category id="11598" parentId="761">Meizu</category>
+<category id="11599" parentId="11598">Pro</category>
+<category id="11610" parentId="11598">M</category>
+<category id="11611" parentId="11610">M3X</category>
+<category id="11633" parentId="11610">M5</category>
+<category id="11634" parentId="11633">16Gb</category>
+<category id="11645" parentId="11633">32Gb</category>
+<category id="11656" parentId="11610">M5 Note</category>
+<category id="11657" parentId="11656">16Gb</category>
+<category id="11666" parentId="11656">32Gb</category>
+<category id="11675" parentId="11656">64Gb</category>
+<category id="11621" parentId="11610">M5C</category>
+<category id="11684" parentId="11610">M5S</category>
+<category id="11685" parentId="11684">16Gb</category>
+<category id="11694" parentId="11684">32Gb</category>
 <category id="512" parentId="10">Кнопочные телефоны</category>
 <category id="5742" parentId="512">Philips</category>
 <category id="6031" parentId="512">Fly</category>

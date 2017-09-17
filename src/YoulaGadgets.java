@@ -25,7 +25,6 @@ public class YoulaGadgets extends Gadgets {
     }
 
     public void initializeIPhones() {
-        initializeMapGadgetAttributeNumber(gadgetAttributeNames);
         gadgetAttributesVariants = new ArrayList<ArrayList<String>>();
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("")));
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList("Apple")));
