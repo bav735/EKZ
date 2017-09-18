@@ -321,7 +321,7 @@ public class AvitoGadgets extends Gadgets {
         return "- в кредит на 6 мес = от " + getCreditPrice(gadget) + "₽ в мес<br>";
     }
 
-    private String getOffer(ArrayList<String> gadget) {
+    private String getOffer(ArrayList<String> gadget, int cityId) {
         String offer = "<p>➡";
         offer += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(VENDOR),
                 mapGadgetAttributeNumber.get(COLOR) + 1));
@@ -333,7 +333,13 @@ public class AvitoGadgets extends Gadgets {
                 offer += " TouchID не работает ";
             }
         }
-        offer += " = " + getPriceRetailMin(gadget) + "\u20BD (" + GadgetConst.MAP_QUALITY_DESCRIPTION
+        offer += " = ";
+        if (cityId == 0) {
+            offer += getPriceOptMax(gadget);
+        } else {
+            offer += getPriceRetailMin(gadget);
+        }
+        offer += "\u20BD (" + GadgetConst.MAP_QUALITY_DESCRIPTION
                 .get(gadget.get(mapGadgetAttributeNumber.get(QUALITY))) + ")";
         if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).equals("Samsung")) {
             String submodelEnding = gadget.get(mapGadgetAttributeNumber.get(SUBMODEL));
@@ -365,6 +371,12 @@ public class AvitoGadgets extends Gadgets {
 //        System.out.println(getGadgetName(gadget));
         return Integer.parseInt(mapGadgetNamePrices.get(getGadgetName(gadget))
                 .get(mapPriceAttributeNumber.get(RETAIL_MIN))) + "";
+    }
+
+    private String getPriceOptMax(ArrayList<String> gadget) {
+//        System.out.println(getGadgetName(gadget));
+        return Integer.parseInt(mapGadgetNamePrices.get(getGadgetName(gadget))
+                .get(mapPriceAttributeNumber.get(OPT_MAX))) + "";
     }
 
 
@@ -401,7 +413,7 @@ public class AvitoGadgets extends Gadgets {
                     " a3/a5/a7/j1/j2/j3/j5/j7 2015/2015/2017, note 3/4/5 всех цветов и объемов памяти" +
                     " по лучшей цене в Казани!\n\n";
         }
-        text += getOffer(gadget);
+        text += getOffer(gadget, 0);
         text += "\n- цена действует при оплате полной стоимости товара наличными\n";
         text += "- выдаем документы о покупке: товарный чек и гарантийный талон\n";
         text += "- товар в пленке, неоф. восстановленный, есть микроцарапины\n";
@@ -418,16 +430,16 @@ public class AvitoGadgets extends Gadgets {
     }
 
     private String getAdTextAvitoShop(ArrayList<String> gadget, int cityId) {
+        String text = "<![CDATA[";
+        text += "<p>Уважаемый покупатель,<br>" +
+                "Добро пожаловать в iSPARK\uD83D\uDD25";
+        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(GadgetConst.REF)) {
+            text += "Дискаунтер";
+        } else {
+            text += "Электроникс";
+        }
         if (cityId == 0) {
-            String text = "<![CDATA[";
-            text += "<p>Уважаемый покупатель,<br>" +
-                    "Добро пожаловать в iSPARK\uD83D\uDD25";
-            if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(GadgetConst.REF)) {
-                text += "Дискаунтер";
-            } else {
-                text += "Электроникс";
-            }
-            text += "</p><p>\uD83C\uDF81АКЦИЯ, дарим аксессуар к смартфону на выбор в ПОДАРОК❗</p>";
+            text += "</p><p>\uD83C\uDF41ОСЕННИЙ ЦЕНОПАД, до конца осени продаем в розницу по оптовым ценам❗</p>";
             text += "<p>\uD83D\uDC9BМы всегда идем навстречу нашим покупателям.<br>" +
                     "\uD83D\uDC49Мы предлагаем вам:<br>" +
 //                    "\uD83D\uDD39 КРЕДИТ от ОТП Банк/Хоум-Кредит<br>" +
@@ -438,10 +450,8 @@ public class AvitoGadgets extends Gadgets {
                     "\uD83D\uDD1DМы занимаемся продажей смартфонов и аксессуаров более 5 лет.</p>";
             text += "<p>В ассортименте iSPARK имеются ";
             text += GadgetConst.MAP_VENDOR_OFFER.get(gadget.get(mapGadgetAttributeNumber.get(VENDOR)));
-            text += " всех моделей, цветов и объемов памяти!";// по лучшей цене в ";
-//            text += GadgetConst.CITIES_IN[cityId];
-//            text += "!\uD83D\uDE0A</p>";
-            text += getOffer(gadget);
+            text += " всех моделей, цветов и объемов памяти!\uD83D\uDE0A</p>";
+            text += getOffer(gadget, cityId);
 //            text += "✔ обеспечиваем гарантию на сервисное обслуживание в течение 1 года<br>";
             text += "<p>✔ выдаем документы о вашей покупке: товарный чек и гарантийный талон<br>";
             text += "✔ запечатанные в пленку, без следов эксплуатации, подойдут как подарок<br>";
@@ -460,9 +470,6 @@ public class AvitoGadgets extends Gadgets {
             text += "</p>]]>";
             return text;
         } else {
-            String text = "<![CDATA[";
-            text += "<p>Уважаемый покупатель,<br>" +
-                    "Добро пожаловать в iSPARK\uD83D\uDD25Дискаунтер</p>";
             text += "<p>\uD83D\uDCB0ГАРАНТИЯ ЛУЧШЕЙ ЦЕНЫ - нашли дешевле в другом магазине? сделаем СКИДКУ❗</p>";
             text += "<p>\uD83D\uDC9BМы всегда идем навстречу нашим покупателям.<br>" +
                     "\uD83D\uDC49Мы предлагаем вам:<br>" +
@@ -472,15 +479,13 @@ public class AvitoGadgets extends Gadgets {
                     "\uD83D\uDD39 ОПТ, ОПЛАТА ЧЕРЕЗ Р/С (ндс, без ндс)<br>" +
                     "\uD83D\uDD39 ДОСТАВКА ПО РФ через ТК CDEK (1-2 дня)<br>" +
                     "\uD83D\uDD1DМы занимаемся продажей смартфонов и аксессуаров более 5 лет.</p>";
-            text += "<p>В нашем ассортименте только \uD83D\uDCAFоригинальные ";
+            text += "<p>В ассортименте iSPARK имеются ";
             text += GadgetConst.MAP_VENDOR_OFFER.get(gadget.get(mapGadgetAttributeNumber.get(VENDOR)));
-            text += " всех моделей, цветов и объемов памяти по лучшей цене в ";
-            text += GadgetConst.CITIES_IN[cityId];
-            text += "!\uD83D\uDE0A</p>";
-            text += getOffer(gadget);
+            text += " всех моделей, цветов и объемов памяти!\uD83D\uDE0A</p>";
+            text += getOffer(gadget, cityId);
             text += "<p>✔ обеспечиваем гарантию на сервисное обслуживание в течение 1 года<br>";
             text += "✔ выдаем товарный чек и гарантийный талон, заверенные живой печатью<br>";
-            text += "✔ запечатанные в пленку, в отличном состоянии, подойдут как подарок<br>";
+            text += "✔ запечатанные в пленку, в идеальном состоянии, подойдут как подарок<br>";
             text += "✔ перед визитом в магазин, просим уточнять актуальное наличие товара</p>";
             text += "<p>Местоположение см. в Яндекс.Картах, 2ГИС, Google Maps\uD83C\uDF0D<br>" +
                     "▶ г. Казань, ул. Лушникова, д. 8, оф. 1 время работы (пн-сб): 11.00-19.00 ⏰</p>";
@@ -546,7 +551,11 @@ public class AvitoGadgets extends Gadgets {
         ad += "\t\t<Title>" + name + "</Title>\n";
         ad += "\t\t<Description>" + getAdTextAvitoShop(gadget, cityId) + "</Description>\n";
 //        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
-        ad += "\t\t<Price>" + getPriceRetailMin(gadget) + "</Price>\n";
+        if (cityId == 0) {
+            ad += "\t\t<Price>" + getPriceOptMax(gadget) + "</Price>\n";
+        } else {
+            ad += "\t\t<Price>" + getPriceRetailMin(gadget) + "</Price>\n";
+        }
 //        } else {
 //            ad += "\t\t<Price>" + getMaxOptPriceAmoled(gadget) + "</Price>\n";
 //        }
