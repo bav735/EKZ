@@ -344,7 +344,7 @@ public class AvitoGadgets extends Gadgets {
         if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).equals("Samsung")) {
             String submodelEnding = gadget.get(mapGadgetAttributeNumber.get(SUBMODEL));
             submodelEnding = submodelEnding.substring(submodelEnding.length() - 1, submodelEnding.length());
-            System.out.println("submodelEnding=" + submodelEnding);
+//            System.out.println("submodelEnding=" + submodelEnding);
             offer += "<br>-модель для " + GadgetConst.MAP_SAMSUNG_SUB_MODEL_ENDING_DESCRIPTION
                     .get(submodelEnding);
         }

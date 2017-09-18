@@ -16,7 +16,7 @@ public class Gadgets {
     final static String TOUCH_APPLE_NO = "-";
     final static String TOUCH_LOCKED = "Без Отп";
     final static String IMG_FILE_NAME = "img";
-    final static int DAYS_OFFSET = 0;
+    final static int DAYS_OFFSET = 1;
     final static int TIME_DAY_SEC = 12 * 60 * 60;
     final static int TIME_MONTH_SEC = 30 * TIME_DAY_SEC;
     final static int HOUR_BEGIN = 9;
