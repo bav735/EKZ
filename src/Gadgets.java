@@ -4,7 +4,7 @@ import java.util.*;
  * Created by A on 13.03.2017.
  */
 public class Gadgets {
-    final static String NAME_BEGIN = "";
+    final static String NAME_BEGIN = "В идеале ";
     final static String QUALITY = "Качество";
     final static String VENDOR = "Производитель";
     final static String MODEL_LINE = "Модельный ряд";
