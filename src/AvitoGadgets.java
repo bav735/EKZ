@@ -1,5 +1,8 @@
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.StandardCopyOption;
 import java.util.*;
 
 public class AvitoGadgets extends Gadgets {
@@ -192,11 +195,6 @@ public class AvitoGadgets extends Gadgets {
         return res;
     }
 
-    public String getAmoledImagePath(ArrayList<String> gadget) {
-        return "imgs/" + gadget.get(mapGadgetAttributeNumber.get(QUALITY)) +
-                "/" + getImagePath(gadget);
-    }
-
     public static String getImagePath(ArrayList<String> gadget) {
         String vendor = gadget.get(mapGadgetAttributeNumber.get(VENDOR));
         String modelLine = gadget.get(mapGadgetAttributeNumber.get(MODEL_LINE));
@@ -206,8 +204,12 @@ public class AvitoGadgets extends Gadgets {
                 + "/" + IMG_FILE_NAME + ".jpg";
     }
 
-    public static String getImageUrl(ArrayList<String> gadget) {
+    public static String getImageWebsiteUrl(ArrayList<String> gadget) {
         return "https://raw.githubusercontent.com/bav735/iSPARK/master/images/" + getImagePath(gadget);
+    }
+
+    public static String getImageAvitoUrl(ArrayList<String> gadget) {
+        return "https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/" + getImagePath(gadget);
     }
 
     private boolean notEnoughModel(ArrayList<String> gadget) {
@@ -230,6 +232,7 @@ public class AvitoGadgets extends Gadgets {
                         newGadget1.add("");
                         if (!excludeModel(model, color, newGadget1.get(mapGadgetAttributeNumber.get(MEMORY)))) {
                             gadgets.add(newGadget1);
+                            generatePhotos(newGadget1);
 //                            System.out.println("passed:" + getAvitoAdName(newGadget));
                             if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).equals("Apple")) {
                                 ArrayList<String> newGadget2 = new ArrayList<>(newGadget1);
@@ -237,6 +240,7 @@ public class AvitoGadgets extends Gadgets {
 //                                System.out.println("check" + getGadgetName(newGadget));
                                 if (mapGadgetNamePrices.containsKey(getGadgetName(newGadget2))) {
                                     gadgets.add(newGadget2);
+                                    generatePhotos(newGadget2);
 //                                    System.out.println(getAvitoAdName(newGadget));
                                 } else {
                                     newGadget1.set(mapGadgetAttributeNumber.get(FINGER_PRINT), TOUCH_APPLE_NO);
@@ -277,7 +281,8 @@ public class AvitoGadgets extends Gadgets {
     }
 
     public String getAvitoAdName(ArrayList<String> gadget) {
-        String name = NAME_BEGIN;
+        String name = GadgetConst.MAP_QUALITY_AD_NAME
+                .get(gadget.get(mapGadgetAttributeNumber.get(QUALITY))) + " ";
 //        if (!gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
 //            name += "Новый ";
 //        }
@@ -562,7 +567,7 @@ public class AvitoGadgets extends Gadgets {
 //            ad += "\t\t<Price>" + getMaxOptPriceAmoled(gadget) + "</Price>\n";
 //        }
         ad += "\t\t<Images>\n";
-        ad += "\t\t\t<Image url=\"" + getImageUrl(gadget) + "\"/>\n";
+        ad += "\t\t\t<Image url=\"" + getImageAvitoUrl(gadget) + "\"/>\n";
 //        imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/price_iphone.png";
 //        ad += "\t\t\t<Image url=\"" + imgLink + "\"/>\n";
         ad += "\t\t</Images>\n";
@@ -586,42 +591,18 @@ public class AvitoGadgets extends Gadgets {
         return ad;
     }
 
-    private String getGadgetPathAvito(ArrayList<String> gadget, String lastAttr) {
+    private String getFullPath(ArrayList<String> gadget) {
         String path = "";
-        for (int i = mapGadgetAttributeNumber.get(VENDOR); i <= mapGadgetAttributeNumber.get(lastAttr); i++) {
-            String attr = gadget.get(i);
-            if (i == mapGadgetAttributeNumber.get(FINGER_PRINT)) {
-                if (attr.isEmpty()) {
-                    attr = "СО";
-                } else {
-                    attr = "БО";
-                }
-            }
+        for (int i = mapGadgetAttributeNumber.get(QUALITY); i <= mapGadgetAttributeNumber.get(COLOR); i++) {
+            String attr = gadget.get(i).replaceAll("[() -]", "");
             path += attr + "/";
-            if (i == mapGadgetAttributeNumber.get(MODEL)) {
-                path += gadget.get(mapGadgetAttributeNumber.get(COLOR)) + "/";
-            }
         }
-        return path;
-    }
-
-    private String getGadgetPath(ArrayList<String> gadget, int lastAttr) {
-        String path = "";
-        for (int i = mapGadgetAttributeNumber.get(VENDOR); i <= mapGadgetAttributeNumber.get(lastAttr); i++) {
-            String attr = gadget.get(i);
-            if (i == mapGadgetAttributeNumber.get(FINGER_PRINT)) {
-                if (attr.isEmpty()) {
-                    attr = "СО";
-                } else {
-                    attr = "БО";
-                }
-            }
-            path += attr + "/";
-            if (i == mapGadgetAttributeNumber.get(MODEL)) {
-                path += gadget.get(mapGadgetAttributeNumber.get(COLOR)) + "/";
-            }
+        if (gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).length() > 1) {
+            path += "БО";
+        } else {
+            path += "СО";
         }
-        return path;
+        return path + "/" + IMG_FILE_NAME + ".jpg";
     }
 
     private String getGadgetPathSite(ArrayList<String> gadget, String color) {
@@ -633,21 +614,16 @@ public class AvitoGadgets extends Gadgets {
         return (path + color + "/").replace(" ", "");
     }
 
-    /*private void generateAmoledDirsPhotos(ArrayList<String> gadget) {
-        File avitoImage = new File("C:/AMOLED/" + getAmoledImagePath(gadget));
+    private void generatePhotos(ArrayList<String> gadget) {
+        File avitoImage = new File("C:/iSPARK/images_avito_actual/" + getFullPath(gadget));
         avitoImage.mkdirs();
-        File gadgetImg = new File("C:/iSPARK/images/" +
-                gadget.get(mapGadgetAttributeNumber.get(VENDOR)) + "/" +
-                gadget.get(mapGadgetAttributeNumber.get(MODEL_LINE)) + "/" +
-                gadget.get(mapGadgetAttributeNumber.get(MODEL)).replace(" ", "") + "/" +
-                gadget.get(mapGadgetAttributeNumber.get(COLOR)).replace(" ", "") + "/" +
-                IMG_FILE_NAME + ".jpg");
+        File gadgetImg = new File("C:/iSPARK/images_avito/" + getImagePath(gadget));
         try {
             Files.copy(gadgetImg.toPath(), avitoImage.toPath(), StandardCopyOption.REPLACE_EXISTING);
         } catch (IOException e) {
             System.out.println(e.toString());
         }
-    }*/
+    }
 
     private HashMap<String, ArrayList<ArrayList<String>>> getModelGadgetMap(ArrayList<ArrayList<String>> gadgets) {
         HashMap<String, ArrayList<ArrayList<String>>> mapGadgetModelGadgets = new HashMap<>();

@@ -25,7 +25,12 @@ public class GadgetConst {
     public final static ArrayList<String> QUALITIES_DESCRIPTION = new ArrayList<String>(Arrays.asList(
             "официально восстановленный",
             "неофициально восстановленный",
-            "абсолютно новый"));
+            "новый неактивированный"));
+
+    public final static ArrayList<String> QUALITIES_AD_NAME = new ArrayList<String>(Arrays.asList(
+            "Официальный",
+            "Идеальный",
+            "Новенький"));
 
     public final static ArrayList<String> VENDORS = new ArrayList<String>(Arrays.asList(
             "Samsung",
@@ -461,6 +466,15 @@ public class GadgetConst {
         MAP_QUALITY_DESCRIPTION = new HashMap<>();
         for (int i = 0; i < QUALITIES.size(); i++) {
             MAP_QUALITY_DESCRIPTION.put(QUALITIES.get(i), QUALITIES_DESCRIPTION.get(i));
+        }
+    }
+
+    public static final HashMap<String, String> MAP_QUALITY_AD_NAME;
+
+    static {
+        MAP_QUALITY_AD_NAME = new HashMap<>();
+        for (int i = 0; i < QUALITIES.size(); i++) {
+            MAP_QUALITY_AD_NAME.put(QUALITIES.get(i), QUALITIES_AD_NAME.get(i));
         }
     }
 
