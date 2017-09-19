@@ -195,7 +195,7 @@ public class AvitoGadgets extends Gadgets {
         return res;
     }
 
-    public static String getImagePath(ArrayList<String> gadget) {
+    public static String getBriefPath(ArrayList<String> gadget) {
         String vendor = gadget.get(mapGadgetAttributeNumber.get(VENDOR));
         String modelLine = gadget.get(mapGadgetAttributeNumber.get(MODEL_LINE));
         String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
@@ -205,11 +205,11 @@ public class AvitoGadgets extends Gadgets {
     }
 
     public static String getImageWebsiteUrl(ArrayList<String> gadget) {
-        return "https://raw.githubusercontent.com/bav735/iSPARK/master/images/" + getImagePath(gadget);
+        return "https://raw.githubusercontent.com/bav735/iSPARK/master/images/" + getBriefPath(gadget);
     }
 
     public static String getImageAvitoUrl(ArrayList<String> gadget) {
-        return "https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/" + getImagePath(gadget);
+        return "https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/" + getFullPath(gadget);
     }
 
     private boolean notEnoughModel(ArrayList<String> gadget) {
@@ -591,7 +591,7 @@ public class AvitoGadgets extends Gadgets {
         return ad;
     }
 
-    private String getFullPath(ArrayList<String> gadget) {
+    private static String getFullPath(ArrayList<String> gadget) {
         String path = "";
         for (int i = mapGadgetAttributeNumber.get(QUALITY); i <= mapGadgetAttributeNumber.get(COLOR); i++) {
             String attr = gadget.get(i).replaceAll("[() -]", "");
@@ -617,7 +617,7 @@ public class AvitoGadgets extends Gadgets {
     private void generatePhotos(ArrayList<String> gadget) {
         File avitoImage = new File("C:/iSPARK/images_avito_actual/" + getFullPath(gadget));
         avitoImage.mkdirs();
-        File gadgetImg = new File("C:/iSPARK/images_avito/" + getImagePath(gadget));
+        File gadgetImg = new File("C:/iSPARK/images_avito/" + getBriefPath(gadget));
         try {
             Files.copy(gadgetImg.toPath(), avitoImage.toPath(), StandardCopyOption.REPLACE_EXISTING);
         } catch (IOException e) {
