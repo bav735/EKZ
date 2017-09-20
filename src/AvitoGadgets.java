@@ -467,13 +467,6 @@ public class AvitoGadgets extends Gadgets {
                     "<p>У нас вы сможете выгодно приобрести любой интересующий вас гаджет или аксессуар!" +
                     "\uD83D\uDC4D<br>" +
                     "iSPARK\uD83D\uDD25";
-            if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(GadgetConst.REF)) {
-                text += "Дискаунтер";
-            } else {
-                text += "Электроникс";
-            }
-            text += "</p>]]>";
-            return text;
         } else {
             text += "</p><p>\uD83C\uDF41ОСЕННИЙ ЦЕНОПАД, до конца недели продаем в розницу по оптовым ценам (только для Авито)❗</p>";
             text += "<p>\uD83D\uDC9BМы всегда идем навстречу нашим покупателям.<br>" +
@@ -500,8 +493,14 @@ public class AvitoGadgets extends Gadgets {
                     "<p>У нас вы сможете наиболее выгодно купить интересующий вас гаджет или аксессуар!" +
                     "\uD83D\uDC4D<br>" +
                     "iSPARK\uD83D\uDD25Дискаунтер</p>";
-            return text + "]]>";
         }
+        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(GadgetConst.REF)) {
+            text += "Дискаунтер";
+        } else {
+            text += "Электроникс";
+        }
+        text += "</p>]]>";
+        return text;
     }
 
     private String getDateByCalendar(Calendar calendar) {
