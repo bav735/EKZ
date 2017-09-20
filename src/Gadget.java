@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 
 /**
  * Created by A on 14.06.2017.
@@ -8,6 +9,7 @@ public class Gadget {
     public static int maxId = 1;
     String imageUrl;
     String price;
+    String quality;
     String vendor;
     String model;
     String description;
@@ -18,6 +20,7 @@ public class Gadget {
     boolean manufacturerWarranty;
 
     public Gadget(ArrayList<String> gadget) {
+        quality = gadget.get(0);
         vendor = gadget.get(1);
         model = gadget.get(2) + " " + gadget.get(3) + " " + gadget.get(4) + " " +
                 gadget.get(6) + " ";
@@ -57,7 +60,7 @@ public class Gadget {
     }
 
     public String getPriceListName() {
-        String res = vendor + " ";
+        String res = quality + " " + vendor + " ";
         String[] modelSplit = model.split(" ");
         int posGb = -1;
         for (int i = 0; i < modelSplit.length; i++) {
@@ -73,9 +76,9 @@ public class Gadget {
         if (model.contains(" Без Отп")) {
             touchLocked = true;
         }
-        if (!model.contains(" ")) {
-            return "";
-        }
+//        if (!model.contains(" ")) {
+//            return "";
+//        }
         if (touchLocked) {
             res += " Без Отп";
         }
@@ -138,13 +141,43 @@ public class Gadget {
         return res;
     }
 
-    public String getSubModel() {
+    public String getCSV(CategoryTree child, HashSet<String> presentItems, String priceName) {
+        String res = "";
+        res += getWebsiteName();
+        res += ";";
+        if (!priceName.isEmpty()) {
+            res += GadgetConst.MAP_PRICES_DESCRIPTION.get(priceName);
+        }
+        res += ";;RUB;";
+        if (priceName.isEmpty()) {
+            res += price;
+        } else {
+            res += Gadgets.getPrice(getPriceListName(), priceName);
+        }
+        res += ";1;0;0;";
+        String present = "0";
+        if (presentItems.contains(getGoogleSheetsName())) {
+            present = "3";
+        }
+        res += present + ";;";
+        res += "<font maxId=\"4\"><strong>" + description.replace(",\n", "<br>")
+                + "</strong></font>";
+        res += ";;1;";
+        res += child.name;
+        res += ";;;;;;";
+        res += id;
+        res += ";;;;;;;;;;;;;;;";
+        res += imageUrl + "\n";
+        return res;
+    }
+
+    /*public String getSubModel() {
         if (!model.contains(" ")) {
             return "";
         }
         String tModel = model.replace(" Без Отп", "");
         return tModel.substring(tModel.lastIndexOf(" ") + 1, tModel.length());
-    }
+    }*/
 
     /*public String getImageUrlByModel() {
         String[] modelSplit = getGithubName().split(" ");

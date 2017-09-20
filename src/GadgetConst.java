@@ -23,9 +23,15 @@ public class GadgetConst {
             NEW));
 
     public final static ArrayList<String> QUALITIES_DESCRIPTION = new ArrayList<String>(Arrays.asList(
-            "официально восстановленный",
-            "неофициально восстановленный",
-            "новый неактивированный"));
+            "восстановлен Apple",
+            "восстановлен iSPARK Сервис",
+            "совершенно новый"));
+
+    public final static ArrayList<String> PRICES_DESCRIPTION = new ArrayList<String>(Arrays.asList(
+            "Гарантия 1 год",
+            "Гарантия 2 года",
+            "Заказ от 3 штук",
+            "Заказ от 10 штук"));
 
     public final static ArrayList<String> QUALITIES_AD_NAME = new ArrayList<String>(Arrays.asList(
             "Официальный",
@@ -469,6 +475,15 @@ public class GadgetConst {
         }
     }
 
+    public static final HashMap<String, String> MAP_PRICES_DESCRIPTION;
+
+    static {
+        MAP_PRICES_DESCRIPTION = new HashMap<>();
+        for (int i = 0; i < Gadgets.priceAttributeNames.length; i++) {
+            MAP_PRICES_DESCRIPTION.put(Gadgets.priceAttributeNames[i], PRICES_DESCRIPTION.get(i));
+        }
+    }
+
     public static final HashMap<String, String> MAP_QUALITY_AD_NAME;
 
     static {
@@ -478,17 +493,6 @@ public class GadgetConst {
         }
     }
 
-    /*public static final HashMap<String, Integer>[] MAP_MODEL_PER_MONTH_COUNT
-            = new HashMap[CITIES.length];
-
-    static {
-        for (int i = 0; i < CITIES.length; i++) {
-            MAP_MODEL_PER_MONTH_COUNT[i] = new HashMap<>();
-            for (int j = 0; j < MODELS.maxId(); j++) {
-                MAP_MODEL_PER_MONTH_COUNT[i].put(MODELS.get(j), GADGET_PER_MONTH_COUNT[i].get(j));
-            }
-        }
-    }*/
     public final static HashMap<String, int[]> MAP_METAMODEL_ADS_PER_MONTH = new HashMap<>();
 
     static {
@@ -505,276 +509,3 @@ public class GadgetConst {
         inScanner.close();
     }
 }
-
-
-//    public final static ArrayList<Integer>[] GADGET_PER_MONTH_COUNT = new ArrayList[CITIES.length];
-
-    /*static {
-        GADGET_PER_MONTH_COUNT[0] = new ArrayList<Integer>(Arrays.asList(
-                2,//"Grand Prime",
-                1,//"Core Prime",
-                1,//"Alpha",
-                7,//"S3",
-                1,//"S3 Mini",
-                7,//"S4",
-                2,//"S4 Mini",
-                5,//"S5",
-                1,//"S5 Mini",
-                7,//"S6",
-                4,//"S6 Edge",
-                1,//"S6 Edge Plus",
-                16,//"S7",
-                7,//"S7 Edge",
-                9,//"S8",
-                1,//"S8 Plus",
-                1,//"A3 (2015)",
-                2,//"A3 (2016)",
-                2,//"A3 (2017)",
-                1,//"A5 (2015)",
-                6,//"A5 (2016)",
-                2,//"A5 (2017)",
-                1,//"A7 (2015)",
-                1,//"A7 (2016)",
-                1,//"A7 (2017)",
-                5,//"J1 (2016)",
-                1,//"J2 (2016)",
-                5,//"J3 (2016)",
-                1,//"J3 (2017)",
-                1,//"J5 (2016)",
-                1,//"J5 (2017)",
-                1,//"J7 (2016)",
-                1,//"J7 (2017)",
-                3,//"Note 3",
-                1,//"Note 4",
-                2,//"Note 5"));
-
-                12,//4
-                16,//4s
-                18,//5
-                9,//5c
-                108,//5s
-                54,//6 //87
-                43,//6+
-                36,//6s //45
-                18,//6s+
-                10,//se
-                48,//7
-                22,//7+
-
-                1,//"SP",
-                1,//"Z",
-                2,//"Z1",
-                1,//"Z1 Compact",
-                2,//"Z2",
-                3,//"Z3",
-                4,//"Z3 Compact",
-                1,//"Z5 Compact"
-
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1
-        ));
-
-        *//*GADGET_PER_MONTH_COUNT[1] = new ArrayList<Integer>(Arrays.asList(
-                1,//"Grand Prime",
-                1,//"Core Prime",
-                2,//"Alpha",
-                23,//"S3",
-                1,//"S3 Mini",
-                19,//"S4",
-                10,//"S4 Mini",
-                20,//"S5",
-                4,//"S5 Mini",
-                26,//"S6",
-                10,//"S6 Edge",
-                1,//"S6 Edge Plus",
-                18,//"S7",
-                6,//"S7 Edge",
-                1,//"S8",
-                1,//"S8 Plus",
-                1,//"A3 (2015)",
-                6,//"A3 (2016)",
-                1,//"A3 (2017)",
-                1,//"A5 (2015)",
-                12,//"A5 (2016)",
-                1,//"A5 (2017)",
-                1,//"A7 (2015)",
-                1,//"A7 (2016)",
-                1,//"A7 (2017)",
-                12,//"J1 (2016)",
-                1,//"J2 (2016)",
-                21,//"J3 (2016)",
-                1,//"J3 (2017)",
-                1,//"J5 (2016)",
-                1,//"J5 (2017)",
-                1,//"J7 (2016)",
-                1,//"J7 (2017)",
-                1,//"Note 3",
-                1,//"Note 4",
-                1,//"Note 5"));
-
-                30,//4
-                1,//4s
-                6,//5
-                13,//5c
-                154,//5s
-                1,//6
-                129,//6+
-                72,//6s
-                7,//6s+
-                23,//se
-                72,//7
-                6,//7+
-
-                1,//"SP",
-                1,//"Z",
-                12,//"Z1",
-                1,//"Z1 Compact",
-                1,//"Z2",
-                6,//"Z3",
-                6,//"Z3 Compact",
-                1//"Z5 Compact"
-        ));
-
-        GADGET_PER_MONTH_COUNT[2] = new ArrayList<Integer>(Arrays.asList(
-                1,//"Grand Prime",
-                1,//"Core Prime",
-                1,//"Alpha",
-                6,//"S3",
-                1,//"S3 Mini",
-                1,//"S4",
-                1,//"S4 Mini",
-                1,//"S5",
-                1,//"S5 Mini",
-                6,//"S6",
-                1,//"S6 Edge",
-                1,//"S6 Edge Plus",
-                6,//"S7",
-                1,//"S7 Edge",
-                1,//"S8",
-                1,//"S8 Plus",
-                1,//"A3 (2015)",
-                1,//"A3 (2016)",
-                1,//"A3 (2017)",
-                1,//"A5 (2015)",
-                1,//"A5 (2016)",
-                1,//"A5 (2017)",
-                1,//"A7 (2015)",
-                1,//"A7 (2016)",
-                1,//"A7 (2017)",
-                1,//"J1 (2016)",
-                1,//"J2 (2016)",
-                1,//"J3 (2016)",
-                1,//"J3 (2017)",
-                1,//"J5 (2016)",
-                1,//"J5 (2017)",
-                1,//"J7 (2016)",
-                1,//"J7 (2017)",
-                1,//"Note 3",
-                1,//"Note 4",
-                1,//"Note 5"));
-
-                1,//4
-                1,//4s
-                1,//5
-                6,//5c
-                63,//5s
-                1,//6
-                47,//6+
-                15,//6s
-                1,//6s+
-                6,//se
-                20,//7
-                1,//7+
-
-                1,//"SP",
-                1,//"Z",
-                1,//"Z1",
-                1,//"Z1 Compact",
-                1,//"Z2",
-                1,//"Z3",
-                1,//"Z3 Compact",
-                1//"Z5 Compact"
-        ));
-
-        GADGET_PER_MONTH_COUNT[3] = new ArrayList<Integer>(Arrays.asList(
-                1,//"Grand Prime",
-                1,//"Core Prime",
-                1,//"Alpha",
-                6,//"S3",
-                1,//"S3 Mini",
-                1,//"S4",
-                1,//"S4 Mini",
-                1,//"S5",
-                1,//"S5 Mini",
-                6,//"S6",
-                1,//"S6 Edge",
-                1,//"S6 Edge Plus",
-                6,//"S7",
-                1,//"S7 Edge",
-                1,//"S8",
-                1,//"S8 Plus",
-                1,//"A3 (2015)",
-                1,//"A3 (2016)",
-                1,//"A3 (2017)",
-                1,//"A5 (2015)",
-                1,//"A5 (2016)",
-                1,//"A5 (2017)",
-                1,//"A7 (2015)",
-                1,//"A7 (2016)",
-                1,//"A7 (2017)",
-                1,//"J1 (2016)",
-                1,//"J2 (2016)",
-                1,//"J3 (2016)",
-                1,//"J3 (2017)",
-                1,//"J5 (2016)",
-                1,//"J5 (2017)",
-                1,//"J7 (2016)",
-                1,//"J7 (2017)",
-                1,//"Note 3",
-                1,//"Note 4",
-                1,//"Note 5"));
-
-                1,//4
-                1,//4s
-                1,//5
-                6,//5c
-                47,//5s
-                1,//6
-                40,//6+
-                19,//6s
-                1,//6s+
-                1,//se
-                9,//7
-                1,//7+
-
-                1,//"SP",
-                1,//"Z",
-                1,//"Z1",
-                1,//"Z1 Compact",
-                1,//"Z2",
-                1,//"Z3",
-                1,//"Z3 Compact",
-                1//"Z5 Compact"
-        ));*//*
-    }*/

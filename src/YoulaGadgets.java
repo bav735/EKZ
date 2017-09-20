@@ -165,7 +165,7 @@ public class YoulaGadgets extends Gadgets {
         return name;
     }
 
-    private String getGadgetName(ArrayList<String> gadget) {
+    public static String getGadgetName(ArrayList<String> gadget) {
         int lastAttr = mapGadgetAttributeNumber.get(FINGER_PRINT);
         int firstAttr = mapGadgetAttributeNumber.get(VENDOR);
         String name = gadget.get(firstAttr);

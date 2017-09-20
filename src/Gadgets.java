@@ -15,7 +15,7 @@ public class Gadgets {
     final static String TOUCH_APPLE_NO = "-";
     final static String TOUCH_LOCKED = "Без Отп";
     final static String IMG_FILE_NAME = "img";
-    final static int DAYS_OFFSET = 2;
+    final static int DAYS_OFFSET = 3; //установлено 20.09.17
     final static int TIME_DAY_SEC = 12 * 60 * 60;
     final static int TIME_MONTH_SEC = 30 * TIME_DAY_SEC;
     final static int HOUR_BEGIN = 9;
@@ -111,5 +111,19 @@ public class Gadgets {
         calendar.set(Calendar.MINUTE, 0);
         calendar.set(Calendar.SECOND, 0);
         calendar.set(Calendar.MILLISECOND, 0);
+    }
+
+    public static String getPrice(String gadgetName, String priceName) {
+        return mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(priceName));
+    }
+
+    public static String getGadgetName(ArrayList<String> gadget) {
+        String name = String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(QUALITY),
+                mapGadgetAttributeNumber.get(MEMORY) + 1));
+        int lastAttr = mapGadgetAttributeNumber.get(FINGER_PRINT);
+        if (gadget.size() > lastAttr && gadget.get(lastAttr).length() > 1) {
+            name += " " + gadget.get(lastAttr);
+        }
+        return name;
     }
 }

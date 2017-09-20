@@ -194,9 +194,7 @@ public class CategoryTree {
 
     public void printCSV(BufferedWriter bufferedWriter, HashSet<String> presentItems) throws IOException {
         if (height > 2) {
-            Collections.sort(children, new CustomComparator(true));
-        } else {
-            Collections.sort(children, new CustomComparator(false));
+            Collections.sort(children, new CustomComparator());
         }
         for (CategoryTree child : children) {
             for (int i = 0; i < child.height; i++) {
@@ -207,23 +205,13 @@ public class CategoryTree {
             bufferedWriter.write(child.id);
             bufferedWriter.write(";;;;;;;;;;;;;;;\n");
             for (Gadget gadget : child.gadgets) {
-                bufferedWriter.write(gadget.getWebsiteName());
-                bufferedWriter.write(";;;RUB;");
-                bufferedWriter.write(gadget.price);
-                bufferedWriter.write(";1;0;0;");
-                String present = "0";
-                if (presentItems.contains(gadget.getGoogleSheetsName())) {
-                    present = "3";
+                if (gadget.namePrefix.equals("Смартфон")) {
+                    for (String priceName : Gadgets.priceAttributeNames) {
+                        bufferedWriter.write(gadget.getCSV(child, presentItems, priceName));
+                    }
+                } else {
+                    bufferedWriter.write(gadget.getCSV(child, presentItems, ""));
                 }
-                bufferedWriter.write(present + ";;");
-                bufferedWriter.write("<font maxId=\"4\"><strong>" + gadget.description.replace(",\n", "<br>")
-                        + "</strong></font>");
-                bufferedWriter.write(";;1;");
-                bufferedWriter.write(child.name);
-                bufferedWriter.write(";;;;;;");
-                bufferedWriter.write(gadget.id);
-                bufferedWriter.write(";;;;;;;;;;;;;;;");
-                bufferedWriter.write(gadget.imageUrl + "\n");
             }
             child.printCSV(bufferedWriter, presentItems);
         }
@@ -326,31 +314,32 @@ public class CategoryTree {
     }
 
     private class CustomComparator implements Comparator<CategoryTree> {
-        boolean isModel;
+//        boolean isModel;
 
-        public CustomComparator(boolean isModel) {
-            this.isModel = isModel;
-        }
+//        public CustomComparator(boolean isModel) {
+//            this.isModel = isModel;
+//        }
 
         @Override
         public int compare(CategoryTree o1, CategoryTree o2) {
-            if (!isModel) {
-                int memory1 = getMemory(o1.name);
-                int memory2 = getMemory(o2.name);
-                if (memory1 != -1 && memory2 != -1) {
-                    return memory1 - memory2;
-                }
-            /*int modelOrder1 = getModelOrder(o1.name);
-            int modelOrder2 = getModelOrder(o2.name);
-            if (modelOrder1 != -1 && modelOrder2 != -1) {
-                return modelOrder1 - modelOrder2;
-            }*/
-                int k1 = getVendorOrder(o1.name);
-                int k2 = getVendorOrder(o2.name);
-                return k1 - k2;
-            } else {
-                return o1.name.compareTo(o2.name);
+//            if (!isModel) {
+            int memory1 = getMemory(o1.name);
+            int memory2 = getMemory(o2.name);
+            if (memory1 != memory2) {
+                return memory1 - memory2;
             }
+            int modelOrder1 = getModelOrder(o1.name);
+            int modelOrder2 = getModelOrder(o2.name);
+            if (modelOrder1 != modelOrder2) {
+                return modelOrder1 - modelOrder2;
+            }
+            int k1 = getVendorOrder(o1.name);
+            int k2 = getVendorOrder(o2.name);
+            if (k1 != k2) {
+                return k1 - k2;
+            }
+//            }
+            return o1.name.compareTo(o2.name);
         }
     }
 

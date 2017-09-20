@@ -128,19 +128,6 @@ public class Solution {
                     modelSplit = modelSplitT;
                     condenseModelSplit(modelSplit);
                     condenseModelSplit(modelSplit);
-                    if (gadget.namePrefix.equals("Смартфон") && (gadget.model.contains("Galaxy S") ||
-                            gadget.model.contains("Galaxy A") ||
-                            gadget.model.contains("Galaxy J") ||
-                            gadget.model.contains("Galaxy E"))) {
-                        int pos = gadget.model.indexOf("Galaxy ");
-                        if (getNumber(gadget.model.charAt(pos + 8) + "") != -1) {
-                            for (int galaxyId = 0; galaxyId < modelSplit.size(); galaxyId++) {
-                                if (modelSplit.get(galaxyId).equals("Galaxy")) {
-                                    modelSplit.add(galaxyId + 1, gadget.model.charAt(pos + 7) + "");
-                                }
-                            }
-                        }
-                    }
                     CategoryTree catTree = root.getTreeByCatId(catId);
                     CategoryTree subcatTree = catTree.getTreeByCatNameOrCreate(gadget.vendor, null);
                     for (int i = 0; i < modelSplit.size() && i < 4; i++) {
@@ -175,16 +162,27 @@ public class Solution {
         inScanner.close();
 
         for (int modelLine = 0; modelLine < avitoGadgets.length; modelLine++) {
-//            System.out.println("check" + avitoGadgets[modelLine].gadgets.get(0).get(startAttrId));
             for (ArrayList<String> avitoGadget : avitoGadgets[modelLine].gadgets) {
                 CategoryTree catTree = root.getTreeByCatId("761");
-                CategoryTree subcatTree = catTree.getTreeByCatNameOrCreate(avitoGadget.get(1), null);
-                for (int attrId = 2; attrId < 8; attrId++) {
-                    if (attrId == 5) {
+                int startId = Gadgets.mapGadgetAttributeNumber.get(Gadgets.VENDOR);
+                CategoryTree subcatTree = catTree.getTreeByCatNameOrCreate(avitoGadget.get(startId), null);
+                int endId = Gadgets.mapGadgetAttributeNumber.get(Gadgets.FINGER_PRINT);
+                int excludeId = Gadgets.mapGadgetAttributeNumber.get(Gadgets.SUBMODEL);
+                for (int attrId = startId + 1; attrId <= endId; attrId++) {
+                    if (attrId == excludeId) {
                         continue;
                     }
-//                    System.out.println("check2:" + avitoGadget.get(attrId));
-                    subcatTree = subcatTree.getTreeByCatNameOrCreate(avitoGadget.get(attrId), null);
+                    String attr = avitoGadget.get(attrId);
+                    if (attr.equals("Galaxy")) {
+                        String nextAttr = avitoGadget.get(attrId + 1);
+                        if (getNumber("" + nextAttr.charAt(1)) != -1) {
+                            attr += " " + nextAttr.charAt(0);
+                        } else {
+                            attr += " " + nextAttr.split(" ")[0];
+                        }
+//                        subcatTree = subcatTree.getTreeByCatNameOrCreate(attr, null);
+                    }
+                    subcatTree = subcatTree.getTreeByCatNameOrCreate(attr, null);
                 }
                 boolean isPresent = true;
                 Gadget gadget = new Gadget(avitoGadget);
