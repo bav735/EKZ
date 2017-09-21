@@ -13,7 +13,7 @@ public class CategoryTree {
     final static String CSV_BEGIN = "Наименование;Наименование артикула;Код артикула;Валюта;Цена;Доступен для заказа;Зачеркнутая цена;Закупочная цена;В наличии;Краткое описание;Описание;Наклейка;Статус;Тип товаров;Теги;Облагается налогом;Заголовок;META Keywords;META Description;Ссылка на витрину;Адрес видео на YouTube или Vimeo;Дополнительные параметры;Производитель;Программная платформа;Тип корпуса;Кол-во SIM-карт;Размер экрана;Объем встроенной памяти;Материал;Сенсорный экран;Кол-во мегапикселов камеры;Разрешение камеры;Вес;Цвет;Изображения\n";
     final static String YML_BEGIN = "<?xml version=\"1.0\" encoding=\"utf-8\"?><!DOCTYPE yml_catalog SYSTEM \"shops.dtd\">\n" +
             "<yml_catalog date=\"2017-05-30 23:26\">\n" +
-            "<shop><name>iSPARK</name>\n" +
+            "<shop><model>iSPARK</model>\n" +
             "<company>Интернет-магазин iSPARK</company>\n" +
             "<url>www.ispark.info</url>\n" +
             "<currencies>\n" +
@@ -100,7 +100,6 @@ public class CategoryTree {
                 child.printYMLCategories(bufferedWriter);
             }
         } else {
-//            Collections.sort(children, new CustomComparator());
             for (CategoryTree child : children) {
                 bufferedWriter.write("<category id=\"" + child.id + "\" parentId=\"" +
                         id + "\">" + child.name + "</category>\n");
@@ -113,7 +112,7 @@ public class CategoryTree {
         System.out.println("$" + name);
         System.out.println("children:");
         for (Gadget gadget : gadgets) {
-            System.out.println(gadget.getWebsiteName());
+            System.out.println(gadget.getCategoryTreeName());
         }
         for (CategoryTree child : children) {
             child.printToScreen();
@@ -129,7 +128,7 @@ public class CategoryTree {
                 bufferedWriter.write("<typePrefix>" + gadget.namePrefix + "</typePrefix>\n");
                 bufferedWriter.write("<model>" + gadget.model + "</model>\n");
                 bufferedWriter.write("<vendor>" + gadget.vendor + "</vendor>\n");
-//            bufferedWriter.write("<name>" + gadget.name + "</name>\n");
+//            bufferedWriter.write("<model>" + gadget.model + "</model>\n");
                 bufferedWriter.write("<price>" + gadget.price + ".0" + "</price>\n");
                 bufferedWriter.write("<description>" +
                         gadget.description.replace(",\n", "\n").replaceAll("\nМодель:.+RU\\/A", "") +
@@ -151,15 +150,14 @@ public class CategoryTree {
             Gadget gadget = gadgets.get(i);
             if (selectedItems.contains(gadget.getGoogleSheetsName())) {
                 bufferedWriter.write(gadget.id + ";true;" + gadget.price + ";RUR;Мобильные телефоны;" +
-                        gadget.imageUrl + ";http://ispark.info/product/" + gadget.id + ";\"" + gadget.getWebsiteName() + "\";");
-                if (gadget.manufacturerWarranty) {
-                    bufferedWriter.write("\"Официальная гарантия. Оплата: в кредит, ");
+                        gadget.imageUrl + ";http://ispark.info/product/" + gadget.id + ";\"" + gadget.webSiteName + "\";");
+                if (!gadget.quality.equals(GadgetConst.REF)) {
+                    bufferedWriter.write("\"Официальная гарантия. Оплата: в кредит, наличными, по карте.\";" +
+                            "true\n");
                 } else {
-                    bufferedWriter.write("Оплата: в рассрочку - " +
-                            (Solution.getNumber(gadget.price) / 60) * 10 + " руб в мес, ");
+                    bufferedWriter.write("\"Гарантия 1 год. Оплата: в кредит, наличными, по карте.\";" +
+                            "true\n");
                 }
-                bufferedWriter.write("по карте, через Р/С, наличными.\";" +
-                        gadget.manufacturerWarranty + "\n");
             }
         }
         for (CategoryTree child : children) {
@@ -192,8 +190,8 @@ public class CategoryTree {
         }
     }*/
 
-    public void printCSV(BufferedWriter bufferedWriter, HashSet<String> presentItems) throws IOException {
-        if (height > 2) {
+    public void printCSV(BufferedWriter bufferedWriter) throws IOException {
+        if (height > 1) {
             Collections.sort(children, new CustomComparator());
         }
         for (CategoryTree child : children) {
@@ -206,14 +204,14 @@ public class CategoryTree {
             bufferedWriter.write(";;;;;;;;;;;;;;;\n");
             for (Gadget gadget : child.gadgets) {
                 if (gadget.namePrefix.equals("Смартфон")) {
-                    for (String priceName : Gadgets.priceAttributeNames) {
-                        bufferedWriter.write(gadget.getCSV(child, presentItems, priceName));
+                    for (int i = 0; i < 2; i++) {
+                        bufferedWriter.write(gadget.getCSV(child, Gadgets.priceAttributeNames[i]));
                     }
                 } else {
-                    bufferedWriter.write(gadget.getCSV(child, presentItems, ""));
+                    bufferedWriter.write(gadget.getCSV(child, ""));
                 }
             }
-            child.printCSV(bufferedWriter, presentItems);
+            child.printCSV(bufferedWriter);
         }
     }
 
@@ -323,20 +321,20 @@ public class CategoryTree {
         @Override
         public int compare(CategoryTree o1, CategoryTree o2) {
 //            if (!isModel) {
-            int memory1 = getMemory(o1.name);
-            int memory2 = getMemory(o2.name);
-            if (memory1 != memory2) {
-                return memory1 - memory2;
+            int k1 = getVendorOrder(o1.name);
+            int k2 = getVendorOrder(o2.name);
+            if (k1 != k2) {
+                return k1 - k2;
             }
             int modelOrder1 = getModelOrder(o1.name);
             int modelOrder2 = getModelOrder(o2.name);
             if (modelOrder1 != modelOrder2) {
                 return modelOrder1 - modelOrder2;
             }
-            int k1 = getVendorOrder(o1.name);
-            int k2 = getVendorOrder(o2.name);
-            if (k1 != k2) {
-                return k1 - k2;
+            int memory1 = getMemory(o1.name);
+            int memory2 = getMemory(o2.name);
+            if (memory1 != memory2) {
+                return memory1 - memory2;
             }
 //            }
             return o1.name.compareTo(o2.name);
@@ -344,21 +342,23 @@ public class CategoryTree {
     }
 
     private int getModelOrder(String model) {
-        /*String globalModelLine;
-        switch (model) {
-            case "iPhone":
-                globalModelLine
-        }
-        if ((model.startsWith("iPhone")) && model.length() > 7) {
-            model = model.substring(7);
-            for (int i = 0; i < Gadgets.modelsByModelLine.get(globalModelLine).maxId(); i++) {
-                if (Gadgets.modelsByModelLine.get(globalModelLine).get(i).contains(model)) {
-                    return i;
-                }
+        int res = -1;
+        /*if ((model.startsWith("iPhone")) && model.length() > 7) {
+            int k = Solution.getNumber("" + model.charAt(7));
+            System.out.println("check "+k);
+            if (k != -1) {
+                res = k;
+            } else {
+                res = 100;
             }
-            return 100;
+            if (model.length() > 8) {
+                res++;
+            }
+            if (model.length() > 9) {
+                res++;
+            }
         }*/
-        return -1;
+        return res;
     }
 
     private int getVendorOrder(String vendor) {

@@ -84,7 +84,7 @@ public class WebSiteGadgets extends Gadgets {
     }
 
     public void printCSVGadgets(BufferedWriter outWriter) {
-        String outText = "id;available;price;currencyId;category;picture;url;name;description;tags\n";
+        String outText = "id;available;price;currencyId;category;picture;url;model;description;tags\n";
         for (ArrayList<String> gadget : gadgets) {
             if (!gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("iPhone ")) {
                 continue;
@@ -170,7 +170,7 @@ public class WebSiteGadgets extends Gadgets {
         while (inScanner.hasNextLine()) {
             setSelectedItems.add(inScanner.nextLine());
         }
-        String outText = "id;available;price;currencyId;category;picture;url;name;description;manufacturer_warranty\n";
+        String outText = "id;available;price;currencyId;category;picture;url;model;description;manufacturer_warranty\n";
         for (int i = 0; i < gadgets.maxId(); i++) {
             ArrayList<String> gadget = gadgets.get(i);
             String gadgetName = gadget.get(mapGadgetAttributeNumber.get(NAME)).replace("\"", "");

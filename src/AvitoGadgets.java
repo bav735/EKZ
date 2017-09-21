@@ -122,12 +122,12 @@ public class AvitoGadgets extends Gadgets {
                             }
                         }
 //                        gadget.add(color);
-                        String name = "Смартфон Apple iPhone " + model + " " + memory + " " +
+                        String model = "Смартфон Apple iPhone " + model + " " + memory + " " +
                                 quality + transformColor(model, color);
                         String imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/" +
                                 getGadgetPathSite(gadget, color) + IMG_FILE_NAME + ".jpg";
-                        System.out.println(name + ";;;RUB;6990;1;0;0;0;;;;1;" + memory + ";;;;;;" +
-                                CategoryTree.translit(name) + ";;;;;;;;;;;;;;;" + imgLink);
+                        System.out.println(model + ";;;RUB;6990;1;0;0;0;;;;1;" + memory + ";;;;;;" +
+                                CategoryTree.translit(model) + ";;;;;;;;;;;;;;;" + imgLink);
                     }
                 }
             }
@@ -183,17 +183,6 @@ public class AvitoGadgets extends Gadgets {
         }
         bufferedWriter.flush();
     }*/
-
-    private String getDescriptionByModel(String vendor, String modelLine, String model) {
-        Scanner inScanner = Solution.getInputScanner("Website/Spec/" +
-                vendor + " " + modelLine + " " + model + ".txt");
-        String res = inScanner.nextLine();
-        while (inScanner.hasNextLine()) {
-            res += "\n" + inScanner.nextLine();
-        }
-        inScanner.close();
-        return res;
-    }
 
     public static String getWebsitePath(ArrayList<String> gadget) {
         String vendor = gadget.get(mapGadgetAttributeNumber.get(VENDOR));
@@ -295,12 +284,12 @@ public class AvitoGadgets extends Gadgets {
         String name = GadgetConst.MAP_QUALITY_AD_NAME
                 .get(gadget.get(mapGadgetAttributeNumber.get(QUALITY))) + " ";
 //        if (!gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
-//            name += "Новый ";
+//            model += "Новый ";
 //        }
         name += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(MODEL_LINE),
                 mapGadgetAttributeNumber.get(COLOR) + 1)).replace("  ", " ").replace("  ", " ");
 //        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
-//            name += " Реф";
+//            model += " Реф";
 //        }
         int lastAttr = mapGadgetAttributeNumber.get(FINGER_PRINT);
         if (gadget.get(lastAttr).length() > 1) {
@@ -361,10 +350,10 @@ public class AvitoGadgets extends Gadgets {
         return (creditPrice / 50 + 1) * 50;
     }
 
-    public static int getPriceRetailMax(String gadgetName) {
+    /*public static int getPriceRetailMax(String gadgetName) {
         return Integer.parseInt(mapGadgetNamePrices.get(gadgetName)
                 .get(mapPriceAttributeNumber.get(RETAIL_MAX)));
-    }
+    }*/
 
     public static boolean inPriceList(String gadgetName) {
         return mapGadgetNamePrices.containsKey(gadgetName);
@@ -636,7 +625,7 @@ public class AvitoGadgets extends Gadgets {
                     gadget.get(mapGadgetAttributeNumber.get(MODEL)));
             if (!mapGadgetModelGadgets.containsKey(metaModel)) {
                 mapGadgetModelGadgets.put(metaModel, new ArrayList<ArrayList<String>>());
-                System.out.println(metaModel + "|");
+//                System.out.println(metaModel + "|");
             }
             mapGadgetModelGadgets.get(metaModel).add(gadget);
 //                ArrayList<String> gadget2 = new ArrayList<>(gadget);
@@ -723,16 +712,16 @@ public class AvitoGadgets extends Gadgets {
         for (int gadgetId = 0; gadgetId < gadgets.size(); gadgetId++) {
             ArrayList<String> gadget = gadgets.get(gadgetId);
 //            if (!excludeAds.contains(getAvitoAdName(gadget))) {
-            String name = gadget.get(mapGadgetAttributeNumber.get(QUALITY)).toLowerCase() +
+            String model = gadget.get(mapGadgetAttributeNumber.get(QUALITY)).toLowerCase() +
                     gadget.get(mapGadgetAttributeNumber.get(SUBMODEL)) + "_";
             if (!gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).isEmpty()) {
-                name += "без_отпечатка";
+                model += "без_отпечатка";
             }
             BufferedWriter bufferedWriter = Solution.getOutputWriter("Output/Avito/" +
                     gadget.get(mapGadgetAttributeNumber.get(VENDOR)) + "/" +
                     gadget.get(mapGadgetAttributeNumber.get(MODEL)) + "/" +
                     gadget.get(mapGadgetAttributeNumber.get(COLOR)) + "/" +
-                    gadget.get(mapGadgetAttributeNumber.get(MEMORY)), name + ".txt");
+                    gadget.get(mapGadgetAttributeNumber.get(MEMORY)), model + ".txt");
             bufferedWriter.write(getAdFileContent(gadgets.get(gadgetId)));
             bufferedWriter.flush();
 //            }

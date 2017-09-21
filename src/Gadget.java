@@ -1,6 +1,9 @@
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
+import java.util.Scanner;
 
 /**
  * Created by A on 14.06.2017.
@@ -13,28 +16,32 @@ public class Gadget {
     String vendor;
     String model;
     String description;
+    String webSiteName;
     //    String initialCategoryId;
     String id;
     String params;
     String namePrefix;
-    boolean manufacturerWarranty;
+    public boolean isFinal = false;
 
     public Gadget(ArrayList<String> gadget) {
-        quality = gadget.get(0);
-        vendor = gadget.get(1);
+        quality = gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.QUALITY));
+        vendor = gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.VENDOR));
         model = gadget.get(2) + " " + gadget.get(3) + " " + gadget.get(4) + " " +
                 gadget.get(6) + " ";
         if (gadget.get(7).length() > 1) {
             model += gadget.get(7) + " ";
         }
         model += gadget.get(0);
-        description = "Изготовленный с применением самых последних технологий 21-го века, смартфон сочетает в себе стильный и при этом продуманный дизайн с мощными функциями. Элегантные контуры и излучающая свет поверхность корпуса отражают все богатство цветовой палитры. Доступен в широком выборе роскошных цветов: белый, черный, золотой. Премиальный и вместе с тем глубоко продуманный дизайн смартфона дополняется абсолютно новым облегченным интерфейсом, который повышает удобство использования и расширяет функциональность.";
+        description = getDescriptionByModel(vendor,
+                gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.MODEL_LINE)),
+                gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.MODEL)));
         imageUrl = AvitoGadgets.getImageWebsiteUrl(gadget);
         namePrefix = "Смартфон";
-        price = "" + AvitoGadgets.getPriceRetailMax(AvitoGadgets.getGadgetName(gadget));
+        price = "" + AvitoGadgets.getPrice(AvitoGadgets.getGadgetName(gadget), Gadgets.RETAIL_MIN);
         id = "" + maxId;
         maxId++;
         params = "";
+        webSiteName = getWebSiteName(gadget);
     }
 
     public Gadget(String offer/*, String initialCategoryId*/) {
@@ -55,8 +62,21 @@ public class Gadget {
 //        System.out.println(description);
     }
 
-    public String getWebsiteName() {
+    public String getCategoryTreeName() {
         return namePrefix + " " + vendor + " " + model;
+    }
+
+    public static String getWebSiteName(ArrayList<String> gadget) {
+        String name = String.join(" ", gadget.subList(Gadgets.mapGadgetAttributeNumber.get(Gadgets.VENDOR),
+                Gadgets.mapGadgetAttributeNumber.get(Gadgets.COLOR) + 1));
+        int lastAttr = Gadgets.mapGadgetAttributeNumber.get(Gadgets.FINGER_PRINT);
+        if (gadget.size() > lastAttr && gadget.get(lastAttr).length() > 1) {
+            name += " " + gadget.get(lastAttr);
+        }
+        if (gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.QUALITY)).equals(GadgetConst.CPO)) {
+            name += " (как новый)";
+        }
+        return name;
     }
 
     public String getPriceListName() {
@@ -107,10 +127,7 @@ public class Gadget {
     }
 
     public String getGoogleSheetsName() {
-        String res = "RFB";
-        if (manufacturerWarranty) {
-            res = "NEW";
-        }
+        String res = quality;
         res += " " + vendor + " ";
         boolean touchLocked = false;
         String tModel = model;
@@ -141,9 +158,13 @@ public class Gadget {
         return res;
     }
 
-    public String getCSV(CategoryTree child, HashSet<String> presentItems, String priceName) {
+    public String getCSV(CategoryTree child, String priceName) {
         String res = "";
-        res += getWebsiteName();
+        if (webSiteName != null) {
+            res += webSiteName;
+        } else {
+            res += getCategoryTreeName();
+        }
         res += ";";
         if (!priceName.isEmpty()) {
             res += GadgetConst.MAP_PRICES_DESCRIPTION.get(priceName);
@@ -156,10 +177,11 @@ public class Gadget {
         }
         res += ";1;0;0;";
         String present = "0";
-        if (presentItems.contains(getGoogleSheetsName())) {
-            present = "3";
+        if (namePrefix.equals("Смартфон")) {
+            present = "10";
         }
         res += present + ";;";
+//        System.out.println(description);
         res += "<font maxId=\"4\"><strong>" + description.replace(",\n", "<br>")
                 + "</strong></font>";
         res += ";;1;";
@@ -169,6 +191,23 @@ public class Gadget {
         res += ";;;;;;;;;;;;;;;";
         res += imageUrl + "\n";
         return res;
+    }
+
+    private String getDescriptionByModel(String vendor, String modelLine, String model) {
+        try {
+            Scanner inScanner = new Scanner(new FileInputStream(new File("C:/iSPARK/specs/" +
+                    vendor + "/" + modelLine + "/" + model.replace(" ", "") + "/" + "spec.txt")));
+            String res = "";
+            while (inScanner.hasNextLine()) {
+                res += inScanner.nextLine() + ",\n";
+            }
+            inScanner.close();
+            return res;
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+            System.out.print("Exception: Input file not found!");
+            return null;
+        }
     }
 
     /*public String getSubModel() {

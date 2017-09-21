@@ -146,15 +146,15 @@ public class Solution {
                     }
                     boolean isPresent = true;
                     for (Gadget gadgetCurrent : subcatTree.gadgets) {
-                        if (CategoryTree.translit(gadgetCurrent.getWebsiteName()).equals(
-                                CategoryTree.translit(gadget.getWebsiteName()))) {
+                        if (CategoryTree.translit(gadgetCurrent.getCategoryTreeName()).equals(
+                                CategoryTree.translit(gadget.getCategoryTreeName()))) {
                             isPresent = false;
-//                            System.out.println(gadgetCurrent.getWebsiteName());
+//                            System.out.println(gadgetCurrent.getCategoryTreeName());
                         }
                     }
                     if (isPresent) {
                         subcatTree.gadgets.add(gadget);
-//                        System.out.println(gadget.getWebsiteName());
+//                        System.out.println(gadget.getCategoryTreeName());
                     }
                 }
             }
@@ -167,9 +167,8 @@ public class Solution {
                 int startId = Gadgets.mapGadgetAttributeNumber.get(Gadgets.VENDOR);
                 CategoryTree subcatTree = catTree.getTreeByCatNameOrCreate(avitoGadget.get(startId), null);
                 int endId = Gadgets.mapGadgetAttributeNumber.get(Gadgets.FINGER_PRINT);
-                int excludeId = Gadgets.mapGadgetAttributeNumber.get(Gadgets.SUBMODEL);
                 for (int attrId = startId + 1; attrId <= endId; attrId++) {
-                    if (attrId == excludeId) {
+                    if (attrId == Gadgets.mapGadgetAttributeNumber.get(Gadgets.SUBMODEL)) {
                         continue;
                     }
                     String attr = avitoGadget.get(attrId);
@@ -180,22 +179,30 @@ public class Solution {
                         } else {
                             attr += " " + nextAttr.split(" ")[0];
                         }
-//                        subcatTree = subcatTree.getTreeByCatNameOrCreate(attr, null);
                     }
                     subcatTree = subcatTree.getTreeByCatNameOrCreate(attr, null);
                 }
-                boolean isPresent = true;
+                int presentId = -1;
                 Gadget gadget = new Gadget(avitoGadget);
 
-                for (Gadget gadgetCurrent : subcatTree.gadgets) {
-                    if (CategoryTree.translit(gadgetCurrent.getWebsiteName()).equals(
-                            CategoryTree.translit(gadget.getWebsiteName()))) {
-                        isPresent = false;
+                ArrayList<Gadget> gadgets = subcatTree.gadgets;
+                for (int i = 0; i < gadgets.size(); i++) {
+                    if (CategoryTree.translit(gadgets.get(i).getCategoryTreeName()).equals(
+                            CategoryTree.translit(gadget.getCategoryTreeName()))) {
+                        presentId = i;
+                        break;
                     }
                 }
-                if (isPresent) {
+                if (presentId == -1) {
                     subcatTree.gadgets.add(gadget);
-                    System.out.println(gadget.getWebsiteName());
+//                    System.out.println(gadget.getCategoryTreeName());
+                } else {
+                    Gadget tGadget = subcatTree.gadgets.get(presentId);
+                    if (!avitoGadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.SUBMODEL)).isEmpty() &&
+                            gadget.quality.equals(GadgetConst.REF) && !tGadget.isFinal) {
+                        gadget.isFinal = true;
+                        subcatTree.gadgets.set(presentId, gadget);
+                    }
                 }
             }
         }
@@ -207,15 +214,15 @@ public class Solution {
 //        root.recalcIds();
 //        root.synchronizeWithPriceList();
 
-        inScanner = Solution.getInputScanner("present_items.txt");
+        /*inScanner = Solution.getInputScanner("present_items.txt");
         HashSet<String> presentItems = new HashSet<>();
         while (inScanner.hasNextLine()) {
             presentItems.add(inScanner.nextLine());
         }
-        inScanner.close();
+        inScanner.close();*/
         BufferedWriter bufferedWriter = Solution.getOutputWriter("Output/Website", "shop_items.csv");
         bufferedWriter.write(CategoryTree.CSV_BEGIN);
-        root.printCSV(bufferedWriter, presentItems);
+        root.printCSV(bufferedWriter);
         bufferedWriter.flush();
 
         bufferedWriter = Solution.getOutputWriter("Output/Website", "shop_items.xml");
@@ -273,9 +280,7 @@ public class Solution {
                 avitoGadgets[modelLine].initialize();
                 avitoGadgets[modelLine].generateGadgets(0, new ArrayList<String>());
                 if (modelLine < 2) {
-                    if (modelLine == 1 || cityId == 0) {
-                        avitoGadgets[modelLine].generateXML(writer, cityId);
-                    }
+                    avitoGadgets[modelLine].generateXML(writer, cityId);
                 }
             }
             writer.write("</Ads>");

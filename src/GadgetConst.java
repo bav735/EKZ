@@ -240,15 +240,15 @@ public class GadgetConst {
                 add(new ArrayList<String>(Arrays.asList("A1332", "A1349")));//iphone 4
                 add(new ArrayList<String>(Arrays.asList("A1387", "A1431")));//iphone 4s
                 add(new ArrayList<String>(Arrays.asList("A1428", "A1429", "A1442")));//iphone 5
-                add(new ArrayList<String>(Arrays.asList("A1532", "A1456", "A1516", "A1529", "A1507")));//iphone 5c
-                add(new ArrayList<String>(Arrays.asList("A1533", "A1457", "A1518", "A1528", "A1530", "A1453")));//iphone 5s
-                add(new ArrayList<String>(Arrays.asList("A1549", "A1586", "A1589")));//iphone 6
-                add(new ArrayList<String>(Arrays.asList("A1522", "A1524", "A1593")));//iphone 6+
-                add(new ArrayList<String>(Arrays.asList("A1633", "A1688", "A1700")));//iphone 6s
-                add(new ArrayList<String>(Arrays.asList("A1634", "A1687", "A1699")));//iphone 6s+
-                add(new ArrayList<String>(Arrays.asList("A1662", "A1723", "A1724")));//iphone se
-                add(new ArrayList<String>(Arrays.asList("A1660", "A1778", "A1779")));//iphone 7
-                add(new ArrayList<String>(Arrays.asList("A1661", "A1784", "A1785")));//iphone 7+
+                add(new ArrayList<String>(Arrays.asList("A1507", "A1532", "A1516", "A1529", "A1456")));//iphone 5c
+                add(new ArrayList<String>(Arrays.asList("A1457", "A1533", "A1518", "A1528", "A1530", "A1453")));//iphone 5s
+                add(new ArrayList<String>(Arrays.asList("A1586", "A1549", "A1589")));//iphone 6
+                add(new ArrayList<String>(Arrays.asList("A1524", "A1522", "A1593")));//iphone 6+
+                add(new ArrayList<String>(Arrays.asList("A1688", "A1633", "A1700")));//iphone 6s
+                add(new ArrayList<String>(Arrays.asList("A1687", "A1634", "A1699")));//iphone 6s+
+                add(new ArrayList<String>(Arrays.asList("A1723", "A1662", "A1724")));//iphone se
+                add(new ArrayList<String>(Arrays.asList("A1778", "A1660", "A1779")));//iphone 7
+                add(new ArrayList<String>(Arrays.asList("A1784", "A1661", "A1785")));//iphone 7+
             }
         };
 
@@ -268,11 +268,10 @@ public class GadgetConst {
         for (int i = 3; i < MODEL_LINES.size(); i++) {
             SUB_MODELS[i] = new ArrayList<>();
             for (int j = 0; j < MODELS[i].size(); j++) {
-                SUB_MODELS[i].add(new ArrayList<String>(Arrays.asList("RST", "EST")));
+                SUB_MODELS[i].add(new ArrayList<String>(Arrays.asList("")));
             }
         }
     }
-
 
     private final static String[] SAMSUNG_SUB_MODEL_DESCRIPTION = new String[]{
             "европейского рынка (Europe)",
