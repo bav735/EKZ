@@ -24,7 +24,7 @@ public class GadgetConst {
 
     public final static ArrayList<String> QUALITIES_DESCRIPTION = new ArrayList<String>(Arrays.asList(
             "восстановлен Apple",
-            "восстановлен iSPARK Сервис",
+            "восстановлен неофициально",
             "совершенно новый"));
 
     public final static ArrayList<String> PRICES_DESCRIPTION = new ArrayList<String>(Arrays.asList(
