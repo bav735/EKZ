@@ -457,7 +457,7 @@ public class AvitoGadgets extends Gadgets {
                     "\uD83D\uDC4D<br>" +
                     "iSPARK\uD83D\uDD25";
         } else {
-            text += "</p><p>\uD83C\uDF41ОСЕННИЙ ЦЕНОПАД, до конца недели продаем в розницу по оптовым ценам (только для Авито)❗</p>";
+            text += "</p><p>\uD83C\uDF81АКЦИЯ, аксессуар на выбор в ПОДАРОК за опубликованный отзыв❗</p>";
             text += "<p>\uD83D\uDC9BМы всегда идем навстречу нашим покупателям.<br>" +
                     "\uD83D\uDC49Мы предлагаем вам:<br>" +
                     "\uD83D\uDD39 КРЕДИТ от ОТП Банк/Хоум-Кредит<br>" +
@@ -481,7 +481,7 @@ public class AvitoGadgets extends Gadgets {
             text += "<p>\uD83D\uDCDE Звоните: 9:00-21:00, ежедневно</p>" +
                     "<p>У нас вы сможете наиболее выгодно купить интересующий вас гаджет или аксессуар!" +
                     "\uD83D\uDC4D<br>" +
-                    "iSPARK\uD83D\uDD25Дискаунтер</p>";
+                    "iSPARK\uD83D\uDD25</p>";
         }
         if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(GadgetConst.REF)) {
             text += "Дискаунтер";
@@ -563,7 +563,7 @@ public class AvitoGadgets extends Gadgets {
         if (cityId == 0) {
             return getPrice(gadgetName, OPT_MAX);
         } else {
-            return getPrice(gadgetName, OPT_MAX);
+            return getPrice(gadgetName, RETAIL_MIN);
         }
     }
 
