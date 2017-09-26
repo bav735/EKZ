@@ -88,12 +88,12 @@
       <file leaf-file-name="AvitoGadgets.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="354" column="67" selection-start-line="354" selection-start-column="67" selection-end-line="354" selection-end-column="67" />
+            <state relative-caret-position="241">
+              <caret line="309" column="33" selection-start-line="309" selection-start-column="33" selection-end-line="309" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#33411#33412#0" expanded="true" />
-                <element signature="e#33457#33458#0" expanded="true" />
+                <element signature="e#33535#33536#0" expanded="true" />
+                <element signature="e#33581#33582#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -758,8 +758,8 @@
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#33411#33412#0" expanded="true" />
-            <element signature="e#33457#33458#0" expanded="true" />
+            <element signature="e#33535#33536#0" expanded="true" />
+            <element signature="e#33581#33582#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -974,12 +974,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="354" column="67" selection-start-line="354" selection-start-column="67" selection-end-line="354" selection-end-column="67" />
+        <state relative-caret-position="241">
+          <caret line="309" column="33" selection-start-line="309" selection-start-column="33" selection-end-line="309" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#33411#33412#0" expanded="true" />
-            <element signature="e#33457#33458#0" expanded="true" />
+            <element signature="e#33535#33536#0" expanded="true" />
+            <element signature="e#33581#33582#0" expanded="true" />
           </folding>
         </state>
       </provider>

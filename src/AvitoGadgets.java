@@ -282,15 +282,16 @@ public class AvitoGadgets extends Gadgets {
 
     public String getAdTitle(ArrayList<String> gadget) {
         String name = "";
-        if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).equals("Apple")) {
-            name += GadgetConst.MAP_QUALITY_AD_NAME
-                    .get(gadget.get(mapGadgetAttributeNumber.get(QUALITY))) + " ";
+        String vendor = gadget.get(mapGadgetAttributeNumber.get(VENDOR));
+        String quality = gadget.get(mapGadgetAttributeNumber.get(QUALITY));
+        if (vendor.equals("Apple")) {
+            name += GadgetConst.MAP_QUALITY_AD_NAME.get(quality) + " ";
         } else {
             name += "Новый ";
         }
         name += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(MODEL_LINE),
                 mapGadgetAttributeNumber.get(COLOR) + 1)).replace("  ", " ").replace("  ", " ");
-        if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).equals("Samsung")) {
+        if (vendor.equals("Samsung")) {
             String subModel = gadget.get(mapGadgetAttributeNumber.get(SUBMODEL));
             String submodelEnding = subModel.substring(subModel.length() - 1, subModel.length());
             String country = GadgetConst.MAP_SAMSUNG_SUB_MODEL_ENDING_DESCRIPTION
@@ -302,8 +303,11 @@ public class AvitoGadgets extends Gadgets {
         if (gadget.get(lastAttr).length() > 1) {
             name += " " + gadget.get(lastAttr);
         }
-        name += " " + /*gadget.get(mapGadgetAttributeNumber.get(QUALITY)) +*/ "Магазин Гарантия";
-        return name;
+        name += " " + /*gadget.get(mapGadgetAttributeNumber.get(QUALITY)) +*/ "Гарантия";
+        if (vendor.equals("Apple") && quality.equals(GadgetConst.REF)) {
+            name += " Качество";
+        }
+        return name + " Магазин";
     }
 
     public static String getGadgetName(ArrayList<String> gadget) {
