@@ -24,7 +24,7 @@ public class GadgetConst {
 
     public final static ArrayList<String> QUALITIES_DESCRIPTION = new ArrayList<String>(Arrays.asList(
             "восстановлен Apple",
-            "восстановлен неофициально",
+            "восстановлен Verizon, качество AAA+",
             "совершенно новый"));
 
     public final static ArrayList<String> PRICES_DESCRIPTION = new ArrayList<String>(Arrays.asList(
@@ -36,7 +36,7 @@ public class GadgetConst {
     public final static ArrayList<String> QUALITIES_AD_NAME = new ArrayList<String>(Arrays.asList(
             "Официальный",
             "Идеальный",
-            "Новенький"));
+            "Новый"));
 
     public final static ArrayList<String> VENDORS = new ArrayList<String>(Arrays.asList(
             "Samsung",
@@ -47,12 +47,12 @@ public class GadgetConst {
             "Meizu"));
 
     public final static ArrayList<String> VENDOR_OFFERS = new ArrayList<String>(Arrays.asList(
-            "новые и восстановленные 💯оригинальные самсунг галакси",
-            "новые, официально и неофициально восстановленные \uD83D\uDCAFоригинальные айфоны",
-            "сони икспериа",
-            "htc",
-            "ксиоми",
-            "мейзу"));
+            "новые 💯оригинальные самсунг галакси",
+            "новые и восстановленные 💯оригинальные айфоны",
+            "новые 💯оригинальные сони икспериа",
+            "новые 💯оригинальные htc",
+            "новые 💯оригинальные ксиоми",
+            "новые 💯оригинальные мейзу"));
 
     public final static ArrayList<String> MODEL_LINES = new ArrayList<String>(Arrays.asList(
             "Galaxy",
