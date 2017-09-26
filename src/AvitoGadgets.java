@@ -280,22 +280,29 @@ public class AvitoGadgets extends Gadgets {
                 mapGadgetAttributeNumber.get(FINGER_PRINT) + 1)).replaceAll("[() -]", "");
     }
 
-    public String getAvitoAdName(ArrayList<String> gadget) {
-        String name = GadgetConst.MAP_QUALITY_AD_NAME
-                .get(gadget.get(mapGadgetAttributeNumber.get(QUALITY))) + " ";
-//        if (!gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
-//            model += "Новый ";
-//        }
+    public String getAdTitle(ArrayList<String> gadget) {
+        String name = "";
+        if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).equals("Apple")) {
+            name += GadgetConst.MAP_QUALITY_AD_NAME
+                    .get(gadget.get(mapGadgetAttributeNumber.get(QUALITY))) + " ";
+        } else {
+            name += "Новый ";
+        }
         name += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(MODEL_LINE),
                 mapGadgetAttributeNumber.get(COLOR) + 1)).replace("  ", " ").replace("  ", " ");
-//        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
-//            model += " Реф";
-//        }
+        if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).equals("Samsung")) {
+            String subModel = gadget.get(mapGadgetAttributeNumber.get(SUBMODEL));
+            String submodelEnding = subModel.substring(subModel.length() - 1, subModel.length());
+            String country = GadgetConst.MAP_SAMSUNG_SUB_MODEL_ENDING_DESCRIPTION
+                    .get(submodelEnding);
+            country = country.substring(country.indexOf('('), country.length());
+            name = name.replace(subModel, country);
+        }
         int lastAttr = mapGadgetAttributeNumber.get(FINGER_PRINT);
         if (gadget.get(lastAttr).length() > 1) {
             name += " " + gadget.get(lastAttr);
         }
-        name += " " + gadget.get(mapGadgetAttributeNumber.get(QUALITY)) + " Магазин";
+        name += " " + /*gadget.get(mapGadgetAttributeNumber.get(QUALITY)) +*/ "Магазин Гарантия";
         return name;
     }
 
@@ -322,7 +329,8 @@ public class AvitoGadgets extends Gadgets {
         String offer = "<p>➡";
         offer += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(VENDOR),
                 mapGadgetAttributeNumber.get(COLOR) + 1));
-        if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).equals("Apple") &&
+        String vendor = gadget.get(mapGadgetAttributeNumber.get(VENDOR));
+        if (vendor.equals("Apple") &&
                 gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).length() != 1) {
             if (gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).isEmpty()) {
                 offer += " TouchID работает ";
@@ -331,12 +339,14 @@ public class AvitoGadgets extends Gadgets {
             }
         }
         offer += " = " + getPriceByCity(getGadgetName(gadget), cityId) +
-                "\u20BD (" + GadgetConst.MAP_QUALITY_DESCRIPTION
-                .get(gadget.get(mapGadgetAttributeNumber.get(QUALITY))) + ")";
+                "\u20BD";
+        if (vendor.equals("Apple")) {
+            offer += " (" + GadgetConst.MAP_QUALITY_DESCRIPTION
+                    .get(gadget.get(mapGadgetAttributeNumber.get(QUALITY))) + ")";
+        }
         if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).equals("Samsung")) {
             String submodelEnding = gadget.get(mapGadgetAttributeNumber.get(SUBMODEL));
             submodelEnding = submodelEnding.substring(submodelEnding.length() - 1, submodelEnding.length());
-//            System.out.println("submodelEnding=" + submodelEnding);
             offer += "<br>-модель для " + GadgetConst.MAP_SAMSUNG_SUB_MODEL_ENDING_DESCRIPTION
                     .get(submodelEnding);
         }
@@ -510,7 +520,6 @@ public class AvitoGadgets extends Gadgets {
 //        System.out.println("check:" + isInitial);
         String ad = "\t<Ad>\n";
         ad += "\t\t<Id>" + getIdName(gadget) + "</Id>\n";
-        String name = getAvitoAdName(gadget);
         if (!isInitial) {
             Calendar calendarZero = (Calendar) CALENDAR_ZERO.clone();
             int dayNumCurrentMonth = (DAY_NUM_GLOBAL - 1) % 30 + 1;
@@ -543,7 +552,7 @@ public class AvitoGadgets extends Gadgets {
             goodsType = "iPhone";
         }
         ad += "\t\t<GoodsType>" + goodsType + "</GoodsType>\n";
-        ad += "\t\t<Title>" + name + "</Title>\n";
+        ad += "\t\t<Title>" + getAdTitle(gadget) + "</Title>\n";
         ad += "\t\t<Description>" + getAdTextAvitoShop(gadget, cityId) + "</Description>\n";
 //        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
         ad += "\t\t<Price>" + getPriceByCity(getGadgetName(gadget), cityId) + "</Price>\n";
@@ -577,7 +586,7 @@ public class AvitoGadgets extends Gadgets {
             goodsType = "Samsung";
         }
         ad += "Вид товара: " + goodsType + "\n";
-        ad += "Название: " + getAvitoAdName(gadget) + "\n";
+        ad += "Название: " + getAdTitle(gadget) + "\n";
         ad += "Цена: " + getPriceRetailMin(gadget) + "\n";
         ad += "Текст: " + getAdTextAvitoBot(gadget) + "\n";
         return ad;
@@ -711,7 +720,7 @@ public class AvitoGadgets extends Gadgets {
     /*public void generateFolders() throws IOException {
         for (int gadgetId = 0; gadgetId < gadgets.size(); gadgetId++) {
             ArrayList<String> gadget = gadgets.get(gadgetId);
-//            if (!excludeAds.contains(getAvitoAdName(gadget))) {
+//            if (!excludeAds.contains(getAdTitle(gadget))) {
             String model = gadget.get(mapGadgetAttributeNumber.get(QUALITY)).toLowerCase() +
                     gadget.get(mapGadgetAttributeNumber.get(SUBMODEL)) + "_";
             if (!gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).isEmpty()) {
@@ -734,7 +743,7 @@ public class AvitoGadgets extends Gadgets {
         int gadgetNum = gadgetNumT + 1;
         for (int i = 1; i <= size; i++) {
             ArrayList<String> gadget = gadgets.get(i - 1);
-            res += "\"" + getAvitoAdName(gadget) + "\";\"" +
+            res += "\"" + getAdTitle(gadget) + "\";\"" +
                     getAdTextAvitoBot(gadget) + "\";\"" +
                     getPriceRetailMin(gadget) + "\";\"" +
                     i + ".jpg" + ",price" + gadgetNum + ".jpg\"\n";
