@@ -350,8 +350,9 @@ public class AvitoGadgets extends Gadgets {
             offer += "<br>-модель для " + GadgetConst.MAP_SAMSUNG_SUB_MODEL_ENDING_DESCRIPTION
                     .get(submodelEnding);
         }
-        offer += "<br>= " + getPrice(getGadgetName(gadget), OPT_MAX) + "\u20BD от 3 шт, = " +
-                getMinOptPriceAmoled(gadget) + "\u20BD от 10шт \uD83D\uDCA3</p>";
+//        offer += "<br>= " + getPrice(getGadgetName(gadget), OPT_MAX) + "\u20BD от 3 шт, = " +
+//                getMinOptPriceAmoled(gadget) + "\u20BD от 10шт \uD83D\uDCA3</p>";
+        offer += "<br>высылаем по запросу полный оптовый прайс-лист\uD83D\uDCA3</p>";
         return offer;
     }
 
