@@ -300,9 +300,6 @@ public class AvitoGadgets extends Gadgets {
             name += " " + gadget.get(lastAttr);
         }
         name += " " + /*gadget.get(mapGadgetAttributeNumber.get(QUALITY)) +*/ "Гарантия";
-        if (vendor.equals("Apple") && quality.equals(GadgetConst.REF)) {
-            name += " Качество";
-        }
         return name + " Магазин";
     }
 
@@ -458,7 +455,7 @@ public class AvitoGadgets extends Gadgets {
                     "\uD83D\uDD39 СРОЧНАЯ ДОСТАВКА в течение часа, 400\u20BD<br>" +
                     "\uD83D\uDD39 САМОВЫВОЗ из розничной точки продаж, 0\u20BD<br>" +
                     "\uD83D\uDD1DМы занимаемся продажей и ремонтом цифровой электроники более 5 лет.</p>";
-            text += "<p>В нашем ассортименте имеются ";
+            text += "<p>В нашем ассортименте имеются 💯оригинальные ";
             text += GadgetConst.MAP_VENDOR_OFFER.get(gadget.get(mapGadgetAttributeNumber.get(VENDOR)));
             text += " всех моделей, цветов и объемов памяти!\uD83D\uDE0A</p>";
             text += getOffer(gadget, cityId);
@@ -484,7 +481,7 @@ public class AvitoGadgets extends Gadgets {
                     "\uD83D\uDD39 СРОЧНАЯ ДОСТАВКА в течение часа, 300\u20BD<br>" +
                     "\uD83D\uDD39 САМОВЫВОЗ из розничной точки продаж, 0\u20BD<br>" +
                     "\uD83D\uDD1DМы занимаемся продажей и ремонтом цифровой электроники более 5 лет.</p>";
-            text += "<p>В нашем ассортименте имеются ";
+            text += "<p>В нашем ассортименте имеются 💯оригинальные ";
             text += GadgetConst.MAP_VENDOR_OFFER.get(gadget.get(mapGadgetAttributeNumber.get(VENDOR)));
             text += " всех моделей, цветов и объемов памяти!\uD83D\uDE0A</p>";
             text += getOffer(gadget, cityId);
