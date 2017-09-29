@@ -284,11 +284,7 @@ public class AvitoGadgets extends Gadgets {
         String name = "";
         String vendor = gadget.get(mapGadgetAttributeNumber.get(VENDOR));
         String quality = gadget.get(mapGadgetAttributeNumber.get(QUALITY));
-        if (vendor.equals("Apple")) {
-            name += GadgetConst.MAP_QUALITY_AD_NAME.get(quality) + " ";
-        } else {
-            name += "Новый ";
-        }
+        name += GadgetConst.MAP_QUALITY_AD_NAME.get(quality) + " ";
         name += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(MODEL_LINE),
                 mapGadgetAttributeNumber.get(COLOR) + 1)).replace("  ", " ").replace("  ", " ");
         if (vendor.equals("Samsung")) {
@@ -331,9 +327,15 @@ public class AvitoGadgets extends Gadgets {
 
     private String getOffer(ArrayList<String> gadget, int cityId) {
         String offer = "<p>➡";
-        offer += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(VENDOR),
-                mapGadgetAttributeNumber.get(COLOR) + 1));
         String vendor = gadget.get(mapGadgetAttributeNumber.get(VENDOR));
+        if (!vendor.equals("Apple")) {
+            offer += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(VENDOR),
+                    mapGadgetAttributeNumber.get(SUBMODEL)));
+            offer += " " + gadget.get(mapGadgetAttributeNumber.get(COLOR));
+        } else {
+            offer += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(VENDOR),
+                    mapGadgetAttributeNumber.get(COLOR) + 1));
+        }
         if (vendor.equals("Apple") &&
                 gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).length() != 1) {
             if (gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).isEmpty()) {
@@ -344,9 +346,9 @@ public class AvitoGadgets extends Gadgets {
         }
         offer += " = " + getPriceByCity(getGadgetName(gadget), cityId) +
                 "\u20BD";
-        if (vendor.equals("Apple")) {
-            offer += " (" + GadgetConst.MAP_QUALITY_DESCRIPTION
-                    .get(gadget.get(mapGadgetAttributeNumber.get(QUALITY))) + ")";
+        String quality = gadget.get(mapGadgetAttributeNumber.get(QUALITY));
+        if (quality.equals(GadgetConst.CPO)) {
+            offer += " (" + GadgetConst.MAP_QUALITY_DESCRIPTION.get(quality) + ")";
         }
         if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).equals("Samsung")) {
             String submodelEnding = gadget.get(mapGadgetAttributeNumber.get(SUBMODEL));

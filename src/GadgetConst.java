@@ -35,7 +35,7 @@ public class GadgetConst {
 
     public final static ArrayList<String> QUALITIES_AD_NAME = new ArrayList<String>(Arrays.asList(
             "Официальный",
-            "Идеальный",
+            "Новый",
             "Новый"));
 
     public final static ArrayList<String> VENDORS = new ArrayList<String>(Arrays.asList(
