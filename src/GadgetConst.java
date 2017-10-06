@@ -24,8 +24,8 @@ public class GadgetConst {
 
     public final static ArrayList<String> QUALITIES_DESCRIPTION = new ArrayList<String>(Arrays.asList(
             "восстановлен Apple",
-            "восстановлен Verizon, качество AAA+",
-            "совершенно новый"));
+            "качественно восстановлен Verizon, менее 1% брака",
+            "новый неактивированный"));
 
     public final static ArrayList<String> PRICES_DESCRIPTION = new ArrayList<String>(Arrays.asList(
             "Гарантия 1 год",
@@ -35,7 +35,7 @@ public class GadgetConst {
 
     public final static ArrayList<String> QUALITIES_AD_NAME = new ArrayList<String>(Arrays.asList(
             "Официальный",
-            "Новый",
+            "Идеальный",
             "Новый"));
 
     public final static ArrayList<String> VENDORS = new ArrayList<String>(Arrays.asList(
@@ -274,11 +274,11 @@ public class GadgetConst {
     }
 
     private final static String[] SAMSUNG_SUB_MODEL_DESCRIPTION = new String[]{
-            "европейского рынка (Europe)",
-            "американского рынка (USA)",
-            "канадского рынка (Canada)",
-            "китайского рынка (China)",
-            "корейского рынка (Korea)"};
+            "европейского рынка (прошивка Europe)",
+            "американского рынка (прошивка USA)",
+            "канадского рынка (прошивка Canada)",
+            "китайского рынка (прошивка China)",
+            "корейского рынка (прошивка Korea)"};
     private final static String[] SUB_MODEL_ENDINGS = new String[]{"F", "V", "W", "0", "K"};
 
     public static final HashMap<String, String> MAP_SAMSUNG_SUB_MODEL_ENDING_DESCRIPTION;

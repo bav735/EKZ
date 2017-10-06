@@ -280,11 +280,15 @@ public class AvitoGadgets extends Gadgets {
                 mapGadgetAttributeNumber.get(FINGER_PRINT) + 1)).replaceAll("[() -]", "");
     }
 
-    public String getAdTitle(ArrayList<String> gadget) {
+    public String getAdTitle(ArrayList<String> gadget, int cityId) {
         String name = "";
         String vendor = gadget.get(mapGadgetAttributeNumber.get(VENDOR));
         String quality = gadget.get(mapGadgetAttributeNumber.get(QUALITY));
-        name += GadgetConst.MAP_QUALITY_AD_NAME.get(quality) + " ";
+        if (cityId == 0 || quality.equals(GadgetConst.CPO)) {
+            name += GadgetConst.MAP_QUALITY_AD_NAME.get(quality) + " ";
+        } else {
+            name += "Новый ";
+        }
         name += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(MODEL_LINE),
                 mapGadgetAttributeNumber.get(COLOR) + 1)).replace("  ", " ").replace("  ", " ");
         if (vendor.equals("Samsung")) {
@@ -300,6 +304,9 @@ public class AvitoGadgets extends Gadgets {
             name += " " + gadget.get(lastAttr);
         }
         name += " " + /*gadget.get(mapGadgetAttributeNumber.get(QUALITY)) +*/ "Гарантия";
+//        if (vendor.equals("Apple") && quality.equals(GadgetConst.REF)) {
+//            name += " Качество";
+//        }
         return name + " Магазин";
     }
 
@@ -344,8 +351,10 @@ public class AvitoGadgets extends Gadgets {
         offer += " = " + getPriceByCity(getGadgetName(gadget), cityId) +
                 "\u20BD";
         String quality = gadget.get(mapGadgetAttributeNumber.get(QUALITY));
-        if (quality.equals(GadgetConst.CPO)) {
+        if (cityId == 0 || quality.equals(GadgetConst.CPO)) {
+//            if (quality.equals(GadgetConst.CPO)) {
             offer += " (" + GadgetConst.MAP_QUALITY_DESCRIPTION.get(quality) + ")";
+//            }
         }
         if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).equals("Samsung")) {
             String submodelEnding = gadget.get(mapGadgetAttributeNumber.get(SUBMODEL));
@@ -439,11 +448,11 @@ public class AvitoGadgets extends Gadgets {
         String text = "<![CDATA[";
         text += "<p>Уважаемый покупатель,<br>" +
                 "Добро пожаловать в iSPARK\uD83D\uDD25";
-        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(GadgetConst.REF)) {
-            text += "Дискаунтер";
-        } else {
-            text += "Электроникс";
-        }
+//        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(GadgetConst.REF)) {
+//            text += "Дискаунтер";
+//        } else {
+//            text += "Электроникс";
+//        }
         if (cityId == 0) {
             text += "</p><p>\uD83C\uDF41ОСЕННИЙ ЦЕНОПАД, до конца недели продаем в розницу по оптовым ценам (только для Авито)❗</p>";
             text += "<p>\uD83D\uDC9BМы всегда идем навстречу нашим покупателям.<br>" +
@@ -497,11 +506,11 @@ public class AvitoGadgets extends Gadgets {
                     "\uD83D\uDC4D<br>" +
                     "iSPARK\uD83D\uDD25</p>";
         }
-        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(GadgetConst.REF)) {
-            text += "Дискаунтер";
-        } else {
-            text += "Электроникс";
-        }
+//        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(GadgetConst.REF)) {
+//            text += "Дискаунтер";
+//        } else {
+//            text += "Электроникс";
+//        }
         text += "</p>]]>";
         return text;
     }
@@ -556,7 +565,7 @@ public class AvitoGadgets extends Gadgets {
             goodsType = "iPhone";
         }
         ad += "\t\t<GoodsType>" + goodsType + "</GoodsType>\n";
-        ad += "\t\t<Title>" + getAdTitle(gadget) + "</Title>\n";
+        ad += "\t\t<Title>" + getAdTitle(gadget, cityId) + "</Title>\n";
         ad += "\t\t<Description>" + getAdTextAvitoShop(gadget, cityId) + "</Description>\n";
 //        if (gadget.get(mapGadgetAttributeNumber.get(QUALITY)).equals(EST2)) {
         ad += "\t\t<Price>" + getPriceByCity(getGadgetName(gadget), cityId) + "</Price>\n";

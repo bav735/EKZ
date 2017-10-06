@@ -4,11 +4,16 @@
     <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/Gadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/Gadgets.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/price_list.txt" afterPath="$PROJECT_DIR$/Input/price_list.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" afterPath="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Avito/AdsXML_tat.xml" afterPath="$PROJECT_DIR$/Output/Avito/AdsXML_tat.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Website/shop_items.csv" afterPath="$PROJECT_DIR$/Output/Website/shop_items.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Website/ym_shop_items.csv" afterPath="$PROJECT_DIR$/Output/Website/ym_shop_items.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AvitoGadgets.java" afterPath="$PROJECT_DIR$/src/AvitoGadgets.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GadgetConst.java" afterPath="$PROJECT_DIR$/src/GadgetConst.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gadgets.java" afterPath="$PROJECT_DIR$/src/Gadgets.java" />
     </list>
     <ignored path="EKZ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gadgets.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Gadgets.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="93" column="19" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="19" />
+            <state relative-caret-position="54">
+              <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -87,15 +92,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AvitoGadgets.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AvitoGadgets.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="301" column="89" selection-start-line="301" selection-start-column="89" selection-end-line="301" selection-end-column="89" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#33675#33676#0" expanded="true" />
-                <element signature="e#33721#33722#0" expanded="true" />
+                <element signature="e#34044#34045#0" expanded="true" />
+                <element signature="e#34090#34091#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,8 +119,8 @@
       <file leaf-file-name="price_list.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Input/price_list.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -124,14 +129,15 @@
       <file leaf-file-name="GadgetConst.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GadgetConst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="458" column="49" selection-start-line="458" selection-start-column="49" selection-end-line="458" selection-end-column="49" />
+            <state relative-caret-position="18">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#592#600#0" expanded="true" />
-                <element signature="e#969#977#0" expanded="true" />
-                <element signature="e#1195#1203#0" expanded="true" />
-                <element signature="e#1580#1588#0" expanded="true" />
+                <element signature="e#749#757#0" expanded="true" />
+                <element signature="e#988#996#0" expanded="true" />
+                <element signature="e#1214#1222#0" expanded="true" />
+                <element signature="e#1603#1611#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -196,9 +202,9 @@
         <option value="$PROJECT_DIR$/src/CategoryTree.java" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/Input/price_list.txt" />
-        <option value="$PROJECT_DIR$/src/Gadgets.java" />
         <option value="$PROJECT_DIR$/src/GadgetConst.java" />
         <option value="$PROJECT_DIR$/src/AvitoGadgets.java" />
+        <option value="$PROJECT_DIR$/src/Gadgets.java" />
       </list>
     </option>
   </component>
@@ -760,8 +766,8 @@
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#33675#33676#0" expanded="true" />
-            <element signature="e#33721#33722#0" expanded="true" />
+            <element signature="e#34044#34045#0" expanded="true" />
+            <element signature="e#34090#34091#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -936,14 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Input/price_list.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Input/ads_per_month.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -952,37 +950,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
+    <entry file="file://$PROJECT_DIR$/Input/price_list.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="93" column="19" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="19" />
+        <state relative-caret-position="108">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GadgetConst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="458" column="49" selection-start-line="458" selection-start-column="49" selection-end-line="458" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#592#600#0" expanded="true" />
-            <element signature="e#969#977#0" expanded="true" />
-            <element signature="e#1195#1203#0" expanded="true" />
-            <element signature="e#1580#1588#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="301" column="89" selection-start-line="301" selection-start-column="89" selection-end-line="301" selection-end-column="89" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#33675#33676#0" expanded="true" />
-            <element signature="e#33721#33722#0" expanded="true" />
+            <element signature="e#34044#34045#0" expanded="true" />
+            <element signature="e#34090#34091#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GadgetConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#592#600#0" expanded="true" />
+            <element signature="e#749#757#0" expanded="true" />
+            <element signature="e#988#996#0" expanded="true" />
+            <element signature="e#1214#1222#0" expanded="true" />
+            <element signature="e#1603#1611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
