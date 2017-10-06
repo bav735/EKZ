@@ -23,9 +23,9 @@ public class GadgetConst {
             NEW));
 
     public final static ArrayList<String> QUALITIES_DESCRIPTION = new ArrayList<String>(Arrays.asList(
-            "восстановлен Apple",
-            "качественно восстановлен Verizon, менее 1% брака",
-            "новый неактивированный"));
+            "восстановленный Apple",
+            "новый, активирован для проверки на отсутствие дефектов",
+            "новый, неактивированный"));
 
     public final static ArrayList<String> PRICES_DESCRIPTION = new ArrayList<String>(Arrays.asList(
             "Гарантия 1 год",
@@ -35,7 +35,7 @@ public class GadgetConst {
 
     public final static ArrayList<String> QUALITIES_AD_NAME = new ArrayList<String>(Arrays.asList(
             "Официальный",
-            "Идеальный",
+            "Новый",
             "Новый"));
 
     public final static ArrayList<String> VENDORS = new ArrayList<String>(Arrays.asList(
