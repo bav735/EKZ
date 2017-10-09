@@ -291,17 +291,21 @@ public class AvitoGadgets extends Gadgets {
         }
         name += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(MODEL_LINE),
                 mapGadgetAttributeNumber.get(COLOR) + 1)).replace("  ", " ").replace("  ", " ");
+        String country = "";
         if (vendor.equals("Samsung")) {
             String subModel = gadget.get(mapGadgetAttributeNumber.get(SUBMODEL));
             String submodelEnding = subModel.substring(subModel.length() - 1, subModel.length());
-            String country = GadgetConst.MAP_SAMSUNG_SUB_MODEL_ENDING_DESCRIPTION
+            country = GadgetConst.MAP_SAMSUNG_SUB_MODEL_ENDING_DESCRIPTION
                     .get(submodelEnding);
-            country = country.substring(country.indexOf('('), country.length());
-            name = name.replace(subModel, country);
+            country = country.substring(country.lastIndexOf(' '), country.length() - 1);
+            name = name.replace(subModel + " ", "");
         }
         int lastAttr = mapGadgetAttributeNumber.get(FINGER_PRINT);
         if (gadget.get(lastAttr).length() > 1) {
             name += " " + gadget.get(lastAttr);
+        }
+        if (!country.isEmpty()) {
+            name += country;
         }
         name += " " + /*gadget.get(mapGadgetAttributeNumber.get(QUALITY)) +*/ "Гарантия";
 //        if (vendor.equals("Apple") && quality.equals(GadgetConst.REF)) {
@@ -469,7 +473,8 @@ public class AvitoGadgets extends Gadgets {
             text += " всех моделей, цветов и объемов памяти!\uD83D\uDE0A</p>";
             text += getOffer(gadget, cityId);
 //            text += "✔ обеспечиваем гарантию на сервисное обслуживание в течение 1 года<br>";
-            text += "<p>✔ выдаем документы о вашей покупке: товарный чек и гарантийный талон<br>";
+            text += "<p>✔ полностью русифицированы, работают с сим-картами любых операторов<br>";
+            text += "✔ выдаем документы о вашей покупке: товарный чек и гарантийный талон<br>";
             text += "✔ в идеальном состоянии, без следов эксплуатации, подойдут как подарок<br>";
             text += "✔ перед визитом в магазин, просим уточнять актуальное наличие товара</p>";
             text += "<p>Наше местоположение\uD83C\uDF0D<br>" +
@@ -494,9 +499,10 @@ public class AvitoGadgets extends Gadgets {
             text += GadgetConst.MAP_VENDOR_OFFER.get(gadget.get(mapGadgetAttributeNumber.get(VENDOR)));
             text += " всех моделей, цветов и объемов памяти!\uD83D\uDE0A</p>";
             text += getOffer(gadget, cityId);
-            text += "<p>✔ полноценная ГАРАНТИЯ на ремонтное обслуживание на 1 ГОД<br>";
+            text += "<p>✔ русифицированы, работают с сим-картами любых операторов<br>";
+            text += "✔ полноценная ГАРАНТИЯ на ремонтное обслуживание на 1 ГОД<br>";
             text += "✔ товарный чек и гарантийный талон, заверенные живой печатью<br>";
-            text += "✔ запечатаны, в идеальном состоянии, подойдут как подарок<br>";
+            text += "✔ без следов эксплуатации, отлично подойдут в качестве подарка<br></p>";
 //            text += "✔ перед визитом в магазин, уточняйте актуальное наличие товара</p>";
             text += "<p>Наше местоположение\uD83C\uDF0D<br>" +
                     "▶ г. Казань, ул. Лушникова, д. 8, время работы (пн-сб): 11.00-19.00<br>" +

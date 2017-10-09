@@ -15,7 +15,7 @@ public class Gadgets {
     final static String TOUCH_APPLE_NO = "-";
     final static String TOUCH_LOCKED = "Без Отп";
     final static String IMG_FILE_NAME = "img";
-    final static int DAYS_OFFSET = 17; //установлено 29.09.17
+    final static int DAYS_OFFSET = 20; //установлено 09.10.17
     final static int TIME_DAY_SEC = 12 * 60 * 60;
     final static int TIME_MONTH_SEC = 30 * TIME_DAY_SEC;
     final static int HOUR_BEGIN = 9;
@@ -35,8 +35,32 @@ public class Gadgets {
     }
 
     final static int PRICES_COUNT = 4;
-    final static String NO_PRICE = "-";
-    final static String ISPARK = "iSPARK";
+    /*final static String EST_BUY = "евротест закуп";
+    final static String EST_WEBSITE = "евротест яндекс маркет";
+    final static String EST_AVITO_TAT = "евротест авито регионы";
+    final static String EST_AVITO_MSK = "евротест авито москва";
+    final static String RST_BUY = "ростест закуп";
+    final static String RST_WEBSITE = "ростест яндекс маркет";
+    final static String RST_AVITO_TAT = "ростест авито регионы";
+    final static String RST_AVITO_MSK = "ростест авито москва";
+    final static String DCT_BUY = "дисконт закуп";
+    final static String DCT_WEBSITE = "дисконт яндекс маркет";
+    final static String DCT_AVITO_TAT = "дисконт авито регионы";
+    final static String DCT_AVITO_MSK = "дисконт авито москва";
+    public final static String[] priceAttributeNames = new String[]{
+            EST_BUY,
+            EST_WEBSITE,
+            EST_AVITO_TAT,
+            EST_AVITO_MSK,
+            RST_BUY,
+            RST_WEBSITE,
+            RST_AVITO_TAT,
+            RST_AVITO_MSK,
+            DCT_BUY,
+            DCT_WEBSITE,
+            DCT_AVITO_TAT,
+            DCT_AVITO_MSK,
+    };*/
     final static String RETAIL_MIN = "евротест авито/нал";
     final static String RETAIL_MAX = "евротест сайт/маркет";
     final static String OPT_MAX = "евротест опт от 3шт";
