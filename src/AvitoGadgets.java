@@ -284,11 +284,11 @@ public class AvitoGadgets extends Gadgets {
         String name = "";
         String vendor = gadget.get(mapGadgetAttributeNumber.get(VENDOR));
         String quality = gadget.get(mapGadgetAttributeNumber.get(QUALITY));
-        if (cityId == 0 || quality.equals(GadgetConst.CPO)) {
-            name += GadgetConst.MAP_QUALITY_AD_NAME.get(quality) + " ";
-        } else {
-            name += "Новый ";
-        }
+//        if (cityId == 0 || quality.equals(GadgetConst.CPO)) {
+        name += GadgetConst.MAP_QUALITY_AD_NAME.get(quality) + " ";
+//        } else {
+//            name += "Новый ";
+//        }
         name += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(MODEL_LINE),
                 mapGadgetAttributeNumber.get(COLOR) + 1)).replace("  ", " ").replace("  ", " ");
         String country = "";
@@ -355,11 +355,11 @@ public class AvitoGadgets extends Gadgets {
         offer += " = " + getPriceByCity(getGadgetName(gadget), cityId) +
                 "\u20BD";
         String quality = gadget.get(mapGadgetAttributeNumber.get(QUALITY));
-        if (cityId == 0 || quality.equals(GadgetConst.CPO)) {
+//        if (cityId == 0 || quality.equals(GadgetConst.CPO)) {
 //            if (quality.equals(GadgetConst.CPO)) {
-            offer += " (" + GadgetConst.MAP_QUALITY_DESCRIPTION.get(quality) + ")";
+        offer += " (" + GadgetConst.MAP_QUALITY_DESCRIPTION.get(quality) + ")";
 //            }
-        }
+//        }
         if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).equals("Samsung")) {
             String submodelEnding = gadget.get(mapGadgetAttributeNumber.get(SUBMODEL));
             submodelEnding = submodelEnding.substring(submodelEnding.length() - 1, submodelEnding.length());
