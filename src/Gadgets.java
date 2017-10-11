@@ -15,7 +15,7 @@ public class Gadgets {
     final static String TOUCH_APPLE_NO = "-";
     final static String TOUCH_LOCKED = "Без Отп";
     final static String IMG_FILE_NAME = "img";
-    final static int DAYS_OFFSET = 20; //установлено 09.10.17
+    final static int DAYS_OFFSET = 22; //установлено 11.10.17
     final static int TIME_DAY_SEC = 12 * 60 * 60;
     final static int TIME_MONTH_SEC = 30 * TIME_DAY_SEC;
     final static int HOUR_BEGIN = 9;
@@ -47,7 +47,7 @@ public class Gadgets {
     final static String DCT_WEBSITE = "дисконт яндекс маркет";
     final static String DCT_AVITO_TAT = "дисконт авито регионы";
     final static String DCT_AVITO_MSK = "дисконт авито москва";
-    public final static String[] priceAttributeNames = new String[]{
+    public final static String[] oldPriceAttributeNames = new String[]{
             EST_BUY,
             EST_WEBSITE,
             EST_AVITO_TAT,
@@ -65,7 +65,7 @@ public class Gadgets {
     final static String RETAIL_MAX = "евротест сайт/маркет";
     final static String OPT_MAX = "евротест опт от 3шт";
     final static String OPT_MIN = "евротест опт от 10шт";
-    public final static String[] priceAttributeNames = new String[]{
+    public final static String[] oldPriceAttributeNames = new String[]{
             RETAIL_MIN,
             RETAIL_MAX,
             OPT_MAX,
@@ -82,7 +82,7 @@ public class Gadgets {
             FINGER_PRINT
     };
 
-    public static HashMap<String, ArrayList<String>> mapGadgetNamePrices;
+    public static HashMap<String, ArrayList<String>> mapGadgetNameOldPrices;
     public static HashMap<String, Integer> mapPriceAttributeNumber;
 
     public ArrayList<ArrayList<String>> gadgets = new ArrayList<ArrayList<String>>();
@@ -97,10 +97,10 @@ public class Gadgets {
 
     public static void initializePrices(Scanner inScanner) {
         mapPriceAttributeNumber = new HashMap<>();
-        for (int i = 0; i < priceAttributeNames.length; i++) {
-            mapPriceAttributeNumber.put(priceAttributeNames[i], i);
+        for (int i = 0; i < oldPriceAttributeNames.length; i++) {
+            mapPriceAttributeNumber.put(oldPriceAttributeNames[i], i);
         }
-        mapGadgetNamePrices = new HashMap<>();
+        mapGadgetNameOldPrices = new HashMap<>();
         while (inScanner.hasNextLine()) {
             String line = inScanner.nextLine();
             if (!line.contains("Gb")) {
@@ -109,7 +109,7 @@ public class Gadgets {
             String[] words = line.split("\\s+");
             String gadgetName = String.join(" ", Arrays.copyOfRange(words, 0, words.length - PRICES_COUNT));
             String[] prices = Arrays.copyOfRange(words, words.length - PRICES_COUNT, words.length);
-            mapGadgetNamePrices.put(gadgetName, new ArrayList<>(Arrays.asList(prices)));
+            mapGadgetNameOldPrices.put(gadgetName, new ArrayList<>(Arrays.asList(prices)));
 //            System.out.println("from price:" + gadgetName);
         }
         inScanner.close();
@@ -138,7 +138,7 @@ public class Gadgets {
     }
 
     public static String getPrice(String gadgetName, String priceName) {
-        return mapGadgetNamePrices.get(gadgetName).get(mapPriceAttributeNumber.get(priceName));
+        return mapGadgetNameOldPrices.get(gadgetName).get(mapPriceAttributeNumber.get(priceName));
     }
 
     public static String getGadgetName(ArrayList<String> gadget) {

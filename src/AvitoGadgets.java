@@ -98,14 +98,14 @@ public class AvitoGadgets extends Gadgets {
 
     /*public void printWebsiteCSV(int attribute, ArrayList<String> gadget) {
         if (attribute == gadgetAttributesVariants.maxId()) {
-            if (mapGadgetNamePrices.containsKey(getGadgetName(gadget))) {
+            if (mapGadgetNameOldPrices.containsKey(getGadgetName(gadget))) {
                 if (gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).equals("Б/О")) {
                     return;
                 }
                 String memory = gadget.get(mapGadgetAttributeNumber.get(MEMORY));
                 System.out.println("!!!!" + memory + ";;;;;;;;;;;;1;;;;;;;" + tSize + ";;;;;;;;;;;;;;;");
                 tSize++;
-                ArrayList<String> prices = mapGadgetNamePrices.get(getGadgetName(gadget));
+                ArrayList<String> prices = mapGadgetNameOldPrices.get(getGadgetName(gadget));
                 String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
                 for (String quality : gadgetQuality) {
                     if (quality.isEmpty()) {
@@ -225,7 +225,7 @@ public class AvitoGadgets extends Gadgets {
     public void generateGadgets(int attribute, ArrayList<String> gadget) {
         if (attribute == gadgetAttributesVariants.size()) {
 //            System.out.println(getGadgetName(gadget));
-            if (mapGadgetNamePrices.containsKey(getGadgetName(gadget))) {
+            if (mapGadgetNameOldPrices.containsKey(getGadgetName(gadget))) {
                 String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
                 for (String submodel : GadgetConst.MAP_MODEL_SUBMODEL[globalModelLine].get(model)) {
                     for (String color : GadgetConst.MAP_MODEL_COLOR[globalModelLine].get(model)) {
@@ -239,7 +239,7 @@ public class AvitoGadgets extends Gadgets {
                             if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).equals("Apple")) {
                                 ArrayList<String> newGadget2 = new ArrayList<>(newGadget1);
                                 newGadget2.set(mapGadgetAttributeNumber.get(FINGER_PRINT), TOUCH_LOCKED);
-                                if (mapGadgetNamePrices.containsKey(getGadgetName(newGadget2))) {
+                                if (mapGadgetNameOldPrices.containsKey(getGadgetName(newGadget2))) {
                                     gadgets.add(newGadget2);
 //                                    generatePhotos(newGadget2);
                                 } else {
@@ -325,7 +325,7 @@ public class AvitoGadgets extends Gadgets {
     }
 
     private String getMinOptPriceAmoled(ArrayList<String> gadget) {
-        return mapGadgetNamePrices.get(getGadgetName(gadget)).get(
+        return mapGadgetNameOldPrices.get(getGadgetName(gadget)).get(
                 mapPriceAttributeNumber.get(OPT_MIN));
     }
 
@@ -378,23 +378,23 @@ public class AvitoGadgets extends Gadgets {
     }
 
     /*public static int getPriceRetailMax(String gadgetName) {
-        return Integer.parseInt(mapGadgetNamePrices.get(gadgetName)
+        return Integer.parseInt(mapGadgetNameOldPrices.get(gadgetName)
                 .get(mapPriceAttributeNumber.get(RETAIL_MAX)));
     }*/
 
     public static boolean inPriceList(String gadgetName) {
-        return mapGadgetNamePrices.containsKey(gadgetName);
+        return mapGadgetNameOldPrices.containsKey(gadgetName);
     }
 
     /*private String getPriceRetailMin(ArrayList<String> gadget) {
 //        System.out.println(getGadgetName(gadget));
-        return Integer.parseInt(mapGadgetNamePrices.get(getGadgetName(gadget))
+        return Integer.parseInt(mapGadgetNameOldPrices.get(getGadgetName(gadget))
                 .get(mapPriceAttributeNumber.get(RETAIL_MIN))) + "";
     }
 
     private String getPriceOptMax(ArrayList<String> gadget) {
 //        System.out.println(getGadgetName(gadget));
-        return Integer.parseInt(mapGadgetNamePrices.get(getGadgetName(gadget))
+        return Integer.parseInt(mapGadgetNameOldPrices.get(getGadgetName(gadget))
                 .get(mapPriceAttributeNumber.get(OPT_MAX))) + "";
     }*/
 
@@ -561,7 +561,7 @@ public class AvitoGadgets extends Gadgets {
             ad += "\t\t<ContactPhone>84995834751</ContactPhone>\n";
             ad += "\t\t<Region>" + GadgetConst.CITIES[cityId] + "</Region>\n";
         } else {
-            ad += "\t\t<ContactPhone>88432515105</ContactPhone>\n";
+            ad += "\t\t<ContactPhone>88432070346</ContactPhone>\n";
             ad += "\t\t<Region>Татарстан</Region>\n";
             ad += "\t\t<City>" + GadgetConst.CITIES[cityId] + "</City>\n";
         }

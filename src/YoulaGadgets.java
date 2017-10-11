@@ -83,13 +83,13 @@ public class YoulaGadgets extends Gadgets {
 
     public void generateGadgets(int attribute, ArrayList<String> gadget) {
         if (attribute == gadgetAttributesVariants.size()) {
-            if (mapGadgetNamePrices.containsKey(getGadgetName(gadget))) {
+            if (mapGadgetNameOldPrices.containsKey(getGadgetName(gadget))) {
                 if (!gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).isEmpty() &&
                         !gadget.get(mapGadgetAttributeNumber.get(MODEL)).equals("5S") &&
                         !gadget.get(mapGadgetAttributeNumber.get(MODEL)).equals("6")) {
                     return;
                 }
-                ArrayList<String> prices = mapGadgetNamePrices.get(getGadgetName(gadget));
+                ArrayList<String> prices = mapGadgetNameOldPrices.get(getGadgetName(gadget));
                 if (prices.get(mapPriceAttributeNumber.get(RETAIL_MIN)).length() > 1) {
                     gadget.set(mapGadgetAttributeNumber.get(QUALITY), RFB);
                 } else {

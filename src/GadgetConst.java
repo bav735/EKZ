@@ -478,8 +478,8 @@ public class GadgetConst {
 
     static {
         MAP_PRICES_DESCRIPTION = new HashMap<>();
-        for (int i = 0; i < Gadgets.priceAttributeNames.length; i++) {
-            MAP_PRICES_DESCRIPTION.put(Gadgets.priceAttributeNames[i], PRICES_DESCRIPTION.get(i));
+        for (int i = 0; i < Gadgets.oldPriceAttributeNames.length; i++) {
+            MAP_PRICES_DESCRIPTION.put(Gadgets.oldPriceAttributeNames[i], PRICES_DESCRIPTION.get(i));
         }
     }
 

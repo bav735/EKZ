@@ -205,7 +205,7 @@ public class CategoryTree {
             for (Gadget gadget : child.gadgets) {
                 if (gadget.namePrefix.equals("Смартфон")) {
                     for (int i = 0; i < 2; i++) {
-                        bufferedWriter.write(gadget.getCSV(child, Gadgets.priceAttributeNames[i]));
+                        bufferedWriter.write(gadget.getCSV(child, Gadgets.oldPriceAttributeNames[i]));
                     }
                 } else {
                     bufferedWriter.write(gadget.getCSV(child, ""));
