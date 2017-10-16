@@ -90,7 +90,7 @@ public class YoulaGadgets extends Gadgets {
                     return;
                 }
                 ArrayList<String> prices = mapGadgetNameOldPrices.get(getGadgetName(gadget));
-                if (prices.get(mapPriceAttributeNumber.get(RETAIL_MIN)).length() > 1) {
+                if (prices.get(mapOldPriceAttributeNumber.get(RETAIL_MIN)).length() > 1) {
                     gadget.set(mapGadgetAttributeNumber.get(QUALITY), RFB);
                 } else {
                     gadget.set(mapGadgetAttributeNumber.get(QUALITY), NEW);

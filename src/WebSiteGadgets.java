@@ -115,15 +115,15 @@ public class WebSiteGadgets extends Gadgets {
                 continue;
             }
             if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("NEW")) {
-                price = mapGadgetNameOldPrices.get(gadgetName).get(mapPriceAttributeNumber.get(RST_RETAIL_ISPARK));
+                price = mapGadgetNameOldPrices.get(gadgetName).get(mapOldPriceAttributeNumber.get(RST_RETAIL_ISPARK));
             } else {
                 String s = "";
                 if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("БО")) {
                     s = " Б/О";
                 }
-                price = mapGadgetNameOldPrices.get(gadgetName + s).get(mapPriceAttributeNumber.get(RETAIL_MAX));
+                price = mapGadgetNameOldPrices.get(gadgetName + s).get(mapOldPriceAttributeNumber.get(RETAIL_MAX));
 //                if (price.length() == 1) {
-//                    price = mapGadgetNameOldPrices.get(gadgetName + s).get(mapPriceAttributeNumber.get(RETAIL_MIN));
+//                    price = mapGadgetNameOldPrices.get(gadgetName + s).get(mapOldPriceAttributeNumber.get(RETAIL_MIN));
 //                }
             }
             partId++;

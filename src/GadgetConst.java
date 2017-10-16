@@ -28,10 +28,20 @@ public class GadgetConst {
             "новый, неактивированный"));
 
     public final static ArrayList<String> PRICES_DESCRIPTION = new ArrayList<String>(Arrays.asList(
-            "Гарантия 1 год",
-            "Гарантия 2 года",
-            "Заказ от 3 штук",
-            "Заказ от 10 штук"));
+            "",
+            "",
+            "с гарантией магазина",
+            "",
+            "",
+            "",
+            "гарантия производителя",
+            "",
+            "",
+            "",
+            "",
+            "уцененный или б/у",
+            "",
+            ""));
 
     public final static ArrayList<String> QUALITIES_AD_NAME = new ArrayList<String>(Arrays.asList(
             "Официальный",
@@ -478,8 +488,8 @@ public class GadgetConst {
 
     static {
         MAP_PRICES_DESCRIPTION = new HashMap<>();
-        for (int i = 0; i < Gadgets.oldPriceAttributeNames.length; i++) {
-            MAP_PRICES_DESCRIPTION.put(Gadgets.oldPriceAttributeNames[i], PRICES_DESCRIPTION.get(i));
+        for (int i = 0; i < Gadgets.newPriceAttributeNames.length; i++) {
+            MAP_PRICES_DESCRIPTION.put(Gadgets.newPriceAttributeNames[i], PRICES_DESCRIPTION.get(i));
         }
     }
 

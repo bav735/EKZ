@@ -204,8 +204,15 @@ public class CategoryTree {
             bufferedWriter.write(";;;;;;;;;;;;;;;\n");
             for (Gadget gadget : child.gadgets) {
                 if (gadget.namePrefix.equals("Смартфон")) {
-                    for (int i = 0; i < 2; i++) {
-                        bufferedWriter.write(gadget.getCSV(child, Gadgets.oldPriceAttributeNames[i]));
+                    String priceNames[] = new String[]{
+                            Gadgets.EST_WEBSITE,
+                            Gadgets.RST_WEBSITE,
+                            Gadgets.DCT_WEBSITE,
+                    };
+                    for (String priceName : priceNames) {
+                        if (Gadgets.getPrice(gadget.getPriceListName(), priceName, true).length() > 1) {
+                            bufferedWriter.write(gadget.getCSV(child, priceName));
+                        }
                     }
                 } else {
                     bufferedWriter.write(gadget.getCSV(child, ""));

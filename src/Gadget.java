@@ -26,22 +26,20 @@ public class Gadget {
     public Gadget(ArrayList<String> gadget) {
         quality = gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.QUALITY));
         vendor = gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.VENDOR));
-        model = gadget.get(2) + " " + gadget.get(3) + " " + gadget.get(4) + " " +
-                gadget.get(6) + " ";
-        if (gadget.get(7).length() > 1) {
-            model += gadget.get(7) + " ";
-        }
-        model += gadget.get(0);
+        model = gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.MODEL_LINE)) +
+                " " + gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.MODEL)) +
+                " " + gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.MEMORY)) +
+                " " + gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.COLOR));
         description = getDescriptionByModel(vendor,
                 gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.MODEL_LINE)),
                 gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.MODEL)));
         imageUrl = AvitoGadgets.getImageWebsiteUrl(gadget);
         namePrefix = "Смартфон";
-        price = "" + AvitoGadgets.getPrice(AvitoGadgets.getGadgetName(gadget), Gadgets.RETAIL_MIN);
+//        price = "" + Gadgets.getPrice(AvitoGadgets.getGadgetName(gadget, false), Gadgets.RETAIL_MIN, );
         id = "" + maxId;
         maxId++;
         params = "";
-        webSiteName = getWebSiteName(gadget);
+        webSiteName = namePrefix + " " + vendor + " " + model;
     }
 
     public Gadget(String offer/*, String initialCategoryId*/) {
@@ -66,21 +64,8 @@ public class Gadget {
         return namePrefix + " " + vendor + " " + model;
     }
 
-    public static String getWebSiteName(ArrayList<String> gadget) {
-        String name = String.join(" ", gadget.subList(Gadgets.mapGadgetAttributeNumber.get(Gadgets.VENDOR),
-                Gadgets.mapGadgetAttributeNumber.get(Gadgets.COLOR) + 1));
-        int lastAttr = Gadgets.mapGadgetAttributeNumber.get(Gadgets.FINGER_PRINT);
-        if (gadget.size() > lastAttr && gadget.get(lastAttr).length() > 1) {
-            name += " " + gadget.get(lastAttr);
-        }
-        if (gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.QUALITY)).equals(GadgetConst.CPO)) {
-            name += " (как новый)";
-        }
-        return name;
-    }
-
     public String getPriceListName() {
-        String res = quality + " " + vendor + " ";
+        String res = vendor + " ";
         String[] modelSplit = model.split(" ");
         int posGb = -1;
         for (int i = 0; i < modelSplit.length; i++) {
@@ -92,16 +77,6 @@ public class Gadget {
             return "";
         }
         res += String.join(" ", Arrays.copyOfRange(modelSplit, 0, posGb + 1));
-        boolean touchLocked = false;
-        if (model.contains(" Без Отп")) {
-            touchLocked = true;
-        }
-//        if (!model.contains(" ")) {
-//            return "";
-//        }
-        if (touchLocked) {
-            res += " Без Отп";
-        }
         return res;
     }
 
@@ -173,7 +148,7 @@ public class Gadget {
         if (priceName.isEmpty()) {
             res += price;
         } else {
-            res += Gadgets.getPrice(getPriceListName(), priceName);
+            res += Gadgets.getPrice(getPriceListName(), priceName, true);
         }
         res += ";1;0;0;";
         String present = "0";

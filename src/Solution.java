@@ -149,18 +149,22 @@ public class Solution {
                         if (CategoryTree.translit(gadgetCurrent.getCategoryTreeName()).equals(
                                 CategoryTree.translit(gadget.getCategoryTreeName()))) {
                             isPresent = false;
-//                            System.out.println(gadgetCurrent.getCategoryTreeName());
                         }
                     }
                     if (isPresent) {
                         subcatTree.gadgets.add(gadget);
-//                        System.out.println(gadget.getCategoryTreeName());
                     }
                 }
             }
         }
         inScanner.close();
 
+        AvitoGadgets avitoGadgets[] = new AvitoGadgets[GadgetConst.MODEL_LINES.size()];
+        for (int modelLine = 0; modelLine < GadgetConst.MODEL_LINES.size(); modelLine++) {
+            avitoGadgets[modelLine] = new AvitoGadgets(modelLine);
+            avitoGadgets[modelLine].initialize(false);
+            avitoGadgets[modelLine].generateGadgets(0, new ArrayList<String>());
+        }
         for (int modelLine = 0; modelLine < avitoGadgets.length; modelLine++) {
             for (ArrayList<String> avitoGadget : avitoGadgets[modelLine].gadgets) {
                 CategoryTree catTree = root.getTreeByCatId("761");
@@ -277,7 +281,7 @@ public class Solution {
             writer.write("<Ads formatVersion=\"3\" target=\"Avito.ru\">\n");
             for (int modelLine = 0; modelLine < GadgetConst.MODEL_LINES.size(); modelLine++) {
                 avitoGadgets[modelLine] = new AvitoGadgets(modelLine);
-                avitoGadgets[modelLine].initialize();
+                avitoGadgets[modelLine].initialize(true);
                 avitoGadgets[modelLine].generateGadgets(0, new ArrayList<String>());
                 if (modelLine < 2) {
                     avitoGadgets[modelLine].generateXML(writer, cityId);
@@ -290,7 +294,8 @@ public class Solution {
 
 
     public static void main(String[] args) {
-        Gadgets.initializePrices(Solution.getInputScanner("price_list.txt"));
+        Gadgets.initializeOldPrices(Solution.getInputScanner("price_list.txt"));
+        Gadgets.initializeNewPrices(Solution.getInputScanner("price_list_smartphones.txt"));
 
         try {
             computeAvito();
