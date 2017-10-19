@@ -13,7 +13,7 @@ public class GadgetConst {
 
     public final static String[] CITIES = new String[]{"Москва", "Казань"};
 
-    public final static String[] CITIES_IN = new String[]{"Москве", "Казани"};
+    public final static String[] CITIES_PHONE_NUMBERS = new String[]{"84951252360", "88432110399"};
 
     public final static String[] CITIES_XML_FILE_END = new String[]{"msk", "tat"};
 
@@ -30,7 +30,7 @@ public class GadgetConst {
     public final static ArrayList<String> PRICES_DESCRIPTION = new ArrayList<String>(Arrays.asList(
             "",
             "",
-            "с гарантией магазина",
+            "с гарантией от магазина",
             "",
             "",
             "",
@@ -39,7 +39,7 @@ public class GadgetConst {
             "",
             "",
             "",
-            "уцененный или б/у",
+            "уценка/витринный образец",
             "",
             ""));
 

@@ -102,7 +102,8 @@ public class Gadget {
     }
 
     public String getGoogleSheetsName() {
-        String res = quality;
+        return vendor + " " + model;
+        /*String res = quality;
         res += " " + vendor + " ";
         boolean touchLocked = false;
         String tModel = model;
@@ -130,7 +131,7 @@ public class Gadget {
         }
         res += String.join(" ", Arrays.copyOfRange(modelSplit, posGb + 1, modelSplit.length));
 //        System.out.println(res + "$");
-        return res;
+        return res;*/
     }
 
     public String getCSV(CategoryTree child, String priceName) {

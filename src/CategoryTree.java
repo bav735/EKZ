@@ -149,14 +149,24 @@ public class CategoryTree {
         for (int i = 0; i < gadgets.size(); i++) {
             Gadget gadget = gadgets.get(i);
             if (selectedItems.contains(gadget.getGoogleSheetsName())) {
-                bufferedWriter.write(gadget.id + ";true;" + gadget.price + ";RUR;Мобильные телефоны;" +
-                        gadget.imageUrl + ";http://ispark.info/product/" + gadget.id + ";\"" + gadget.webSiteName + "\";");
-                if (!gadget.quality.equals(GadgetConst.REF)) {
-                    bufferedWriter.write("\"Официальная гарантия. Оплата: в кредит, наличными, по карте.\";" +
+                String price = Gadgets.getPrice(gadget.getPriceListName(), Gadgets.RST_WEBSITE, true);
+                boolean warranty = true;
+                if (price.length() == 1) {
+                    warranty = false;
+                    price = Gadgets.getPrice(gadget.getPriceListName(), Gadgets.EST_WEBSITE, true);
+                }
+                bufferedWriter.write(gadget.id + ";true;" +
+                        price +
+                        ";RUR;Мобильные телефоны;" +
+                        gadget.imageUrl +
+                        ";http://ispark.info/product/" + gadget.id +
+                        ";\"" + gadget.webSiteName + "\";");
+                if (warranty) {
+                    bufferedWriter.write("\"Официальная гарантия. Оплата: в рассрочку, наличными, по карте.\";" +
                             "true\n");
                 } else {
                     bufferedWriter.write("\"Гарантия 1 год. Оплата: в кредит, наличными, по карте.\";" +
-                            "true\n");
+                            "false\n");
                 }
             }
         }
@@ -205,8 +215,8 @@ public class CategoryTree {
             for (Gadget gadget : child.gadgets) {
                 if (gadget.namePrefix.equals("Смартфон")) {
                     String priceNames[] = new String[]{
-                            Gadgets.EST_WEBSITE,
                             Gadgets.RST_WEBSITE,
+                            Gadgets.EST_WEBSITE,
                             Gadgets.DCT_WEBSITE,
                     };
                     for (String priceName : priceNames) {

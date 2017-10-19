@@ -242,16 +242,40 @@ public class Solution {
         bufferedWriter.write("</offers></shop></yml_catalog>");
         bufferedWriter.flush();
 
-        inScanner = Solution.getInputScanner("selected_ym_items.txt");
-        HashSet<String> selectedItems = new HashSet<>();
-        while (inScanner.hasNextLine()) {
-            selectedItems.add(inScanner.nextLine());
-        }
-        inScanner.close();
         bufferedWriter = Solution.getOutputWriter("Output/Website", "ym_shop_items.csv");
         bufferedWriter.write(CategoryTree.YM_BEGIN);
-        root.printYMSelected(bufferedWriter, selectedItems);
+        root.printYMSelected(bufferedWriter, getYMSelectedItems());
         bufferedWriter.flush();
+    }
+
+    private static HashSet<String> getYMSelectedItems() {
+        Scanner inScanner = Solution.getInputScanner("selected_ym_items.txt");
+        HashSet<String> selectedItems = new HashSet<>();
+        while (inScanner.hasNextLine()) {
+            String line = inScanner.nextLine();
+            String[] split = line.split("\\s+");
+            String modelLine = split[1];
+            int modelLineId = -1;
+            ArrayList<String> models = new ArrayList<>();
+            for (int i = 0; i < GadgetConst.MODEL_LINES.size(); i++) {
+                if (modelLine.equals(GadgetConst.MODEL_LINES.get(i))) {
+                    models = GadgetConst.MODELS[i];
+                    modelLineId = i;
+                    break;
+                }
+            }
+            ArrayList<String> colors = new ArrayList<>();
+            for (String model : models) {
+                if (line.contains(modelLine + " " + model)) {
+                    colors = GadgetConst.MAP_MODEL_COLOR[modelLineId].get(model);
+                }
+            }
+            for (int i = 0; i < 2; i++) {
+                selectedItems.add(line + " " + colors.get(i));
+            }
+        }
+        inScanner.close();
+        return selectedItems;
     }
 
     public static void condenseModelSplit(ArrayList<String> modelSplit) {
