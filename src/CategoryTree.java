@@ -162,10 +162,10 @@ public class CategoryTree {
                         ";http://ispark.info/product/" + gadget.id +
                         ";\"" + gadget.webSiteName + "\";");
                 if (warranty) {
-                    bufferedWriter.write("\"Официальная гарантия. Оплата: в рассрочку, наличными, по карте.\";" +
+                    bufferedWriter.write("\"Официальная гарантия. Оплата: в кредит, наличными, по карте.\";" +
                             "true\n");
                 } else {
-                    bufferedWriter.write("\"Гарантия 1 год. Оплата: в кредит, наличными, по карте.\";" +
+                    bufferedWriter.write("\"Гарантия 1 год. Оплата: в рассрочку, наличными, по карте.\";" +
                             "false\n");
                 }
             }
