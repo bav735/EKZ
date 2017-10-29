@@ -1,51 +1,69 @@
-Galaxy Grand Prime|999|3
-Galaxy Core Prime|2|1
-Galaxy C5|1|1
-Galaxy E7|1|1
-Galaxy Alpha|12|1
-Galaxy S3|999|7
-Galaxy S3 Mini|10|1
-Galaxy S4|999|6
-Galaxy S4 Mini|15|2
-Galaxy S5|999|7
-Galaxy S5 Mini|10|3
-Galaxy S6|999|8
-Galaxy S6 Edge|999|4
-Galaxy S6 Edge Plus|999|1
-Galaxy S7|999|12
-Galaxy S7 Edge|999|10
-Galaxy A3 (2015)|4|2
-Galaxy A3 (2016)|14|3
-Galaxy A5 (2015)|6|2
-Galaxy A5 (2016)|999|7
-Galaxy A7 (2016)|9|1
-Galaxy J3 (2016)|999|2
-Galaxy J5 (2015)|1|1
-Galaxy J5 (2016)|8|2
-Galaxy J7 (2015)|1|1
-Galaxy J7 (2016)|6|2
-Galaxy Note 3|17|3
-Galaxy Note 4|17|1
-Galaxy Note 5|11|1
-Galaxy S8|999|14
-Galaxy S8 Plus|25|1
-Galaxy A3 (2017)|6|3
-Galaxy A5 (2017)|11|4
-Galaxy A7 (2017)|6|2
-Galaxy J1 (2016)|6|2
-Galaxy J2 Prime|9|2
-Galaxy J5 Prime|4|1
-Galaxy J5 (2017)|9|1
-Galaxy J7 (2017)|4|1
-iPhone 6S|999|53
-iPhone 6S Plus|68|10
-iPhone SE|56|14
-iPhone 7|999|56
-iPhone 4|999|999
-iPhone 4S|999|999
-iPhone 5|999|999
-iPhone 5C|69|13
-iPhone 5S|999|116
-iPhone 6|999|999
-iPhone 6 Plus|999|12
-iPhone 7 Plus|999|19
+Новые и восстановленные Samsung Galaxy  т.п.
+
+Galaxy S6 Edge Plus|32|2
+Galaxy A3 (2016)|79|3
+Galaxy A5 (2016)|135|7
+Galaxy A7 (2016)|60|1
+Galaxy Grand Prime|87|17
+Galaxy Alpha|62|4
+Galaxy J3 (2016)|52|2
+Galaxy J5 (2016)|53|2
+Galaxy J7 (2016)|39|1
+10
+Galaxy S3|190|29
+Galaxy S6 Edge|210|20
+Galaxy S7|322|12
+Galaxy Note 3|215|3
+Galaxy Note 4|189|1
+Galaxy Note 5|216|1
+Galaxy Note 8|210|1
+32
+Galaxy S4|290|41
+Galaxy S5|251|34
+Galaxy S6|292|8
+Galaxy S7 Edge|478|478
+47
+
+Apple iPhone 4S/5/5C/6/6S/SE/7/8/Plus
+
+
+iPhone SE|555|14
+iPhone 6 Plus|841|12
+iPhone 7 Plus|1178|19
+iPhone 6S Plus|677|10
+iPhone 4S|1404|999
+iPhone 5C|684|13
+iPhone 8 Plus|734|?
+
+iPhone 6S|2776|53
+iPhone 5S|4347|116
+iPhone 7|3582|56
+iPhone 5|4304|999
+iPhone 6|4382|999
+iPhone 8|2090|?
+
+Redmi 4A|157|
+Redmi 4X|213|
+Redmi Note 4X|234|
+Redmi Note 4|264|
+Redmi Note 5A|40|
+Mi Mi4|16|
+Mi Mi5|169|
+Mi Mi5C|27|
+Mi Mi5S|89|
+Mi Mi5S Plus|45|
+Mi Mix|49|
+Mi Max 2|118|
+Mi Note 2|78|
+Mi Mi6|110|
+
+Xperia Z||
+Xperia Z1||
+Xperia Z1 Compact||
+Xperia Z2||
+Xperia Z3|304|
+Xperia Z3 Compact|129|
+Xperia Z5 Compact||
+
+One M8||
+One M9||

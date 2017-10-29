@@ -196,122 +196,6 @@ public class GadgetConst {
                 "M5S"));
     }
 
-    public final static ArrayList<ArrayList<String>> SUB_MODELS[] = new ArrayList[MODEL_LINES.size()];
-
-    static {
-        SUB_MODELS[0] = new ArrayList<ArrayList<String>>() {
-            {
-                add(new ArrayList<String>(Arrays.asList("SM-G531")));//"Grand Prime
-                add(new ArrayList<String>(Arrays.asList("SM-G360")));//"Core Prime
-                add(new ArrayList<String>(Arrays.asList("SM-G5000")));//"C5
-                add(new ArrayList<String>(Arrays.asList("SM-E700")));//"E7
-                add(new ArrayList<String>(Arrays.asList("SM-G850")));//"Alpha
-                add(new ArrayList<String>(Arrays.asList("GT-I9300")));//"S3
-                add(new ArrayList<String>(Arrays.asList("GT-I8190")));//"S3 Mini
-                add(new ArrayList<String>(Arrays.asList("GT-I9505")));//"S4
-                add(new ArrayList<String>(Arrays.asList("GT-I9192")));//"S4 Mini
-                add(new ArrayList<String>(Arrays.asList("SM-G900")));//"S5
-                add(new ArrayList<String>(Arrays.asList("SM-G800")));//"S5 Mini
-                add(new ArrayList<String>(Arrays.asList("SM-G920")));//"S6
-                add(new ArrayList<String>(Arrays.asList("SM-G925")));//"S6 Edge
-                add(new ArrayList<String>(Arrays.asList("SM-G928")));//"S6 Edge Plus
-                add(new ArrayList<String>(Arrays.asList("SM-G930")));//"S7
-                add(new ArrayList<String>(Arrays.asList("SM-G935")));//"S7 Edge
-                add(new ArrayList<String>(Arrays.asList("SM-G950")));//"S8
-                add(new ArrayList<String>(Arrays.asList("SM-G955")));//"S8 Plus
-                add(new ArrayList<String>(Arrays.asList("SM-A300")));//"A3 (2015)
-                add(new ArrayList<String>(Arrays.asList("SM-A310")));//"A3 (2016)
-                add(new ArrayList<String>(Arrays.asList("SM-A320")));//"A3 (2017)
-                add(new ArrayList<String>(Arrays.asList("SM-A500")));//"A5 (2015)
-                add(new ArrayList<String>(Arrays.asList("SM-A510")));//"A5 (2016)
-                add(new ArrayList<String>(Arrays.asList("SM-A520")));//"A5 (2017)
-//                add(new ArrayList<String>(Arrays.asList("SM-A700")));//"A7 (2015)
-                add(new ArrayList<String>(Arrays.asList("SM-A710")));//"A7 (2016)
-                add(new ArrayList<String>(Arrays.asList("SM-A720")));//"A7 (2017)
-                add(new ArrayList<String>(Arrays.asList("SM-J120")));//"J1 (2016)
-                add(new ArrayList<String>(Arrays.asList("SM-G532")));//"J2 Prime
-                add(new ArrayList<String>(Arrays.asList("SM-J320")));//"J3 (2016)
-//                add(new ArrayList<String>(Arrays.asList("SM-J330")));//"J3 (2017)
-                add(new ArrayList<String>(Arrays.asList("SM-J500")));//"J5 (2015)
-                add(new ArrayList<String>(Arrays.asList("SM-J510")));//"J5 (2016)
-                add(new ArrayList<String>(Arrays.asList("SM-J570")));//"J5 Prime
-                add(new ArrayList<String>(Arrays.asList("SM-J530")));//"J5 (2017)
-                add(new ArrayList<String>(Arrays.asList("SM-J700")));//"J7 (2015)
-                add(new ArrayList<String>(Arrays.asList("SM-J710")));//"J7 (2016)
-                add(new ArrayList<String>(Arrays.asList("SM-J730")));//"J7 (2017)
-                add(new ArrayList<String>(Arrays.asList("SM-N900")));//"Note 3
-                add(new ArrayList<String>(Arrays.asList("SM-N910")));//"Note 4
-                add(new ArrayList<String>(Arrays.asList("SM-N920")));//"Note 5
-            }
-        };
-
-        SUB_MODELS[1] = new ArrayList<ArrayList<String>>() {
-            {
-                add(new ArrayList<String>(Arrays.asList("A1332", "A1349")));//iphone 4
-                add(new ArrayList<String>(Arrays.asList("A1387", "A1431")));//iphone 4s
-                add(new ArrayList<String>(Arrays.asList("A1428", "A1429", "A1442")));//iphone 5
-                add(new ArrayList<String>(Arrays.asList("A1507", "A1532", "A1516", "A1529", "A1456")));//iphone 5c
-                add(new ArrayList<String>(Arrays.asList("A1457", "A1533", "A1518", "A1528", "A1530", "A1453")));//iphone 5s
-                add(new ArrayList<String>(Arrays.asList("A1586", "A1549", "A1589")));//iphone 6
-                add(new ArrayList<String>(Arrays.asList("A1524", "A1522", "A1593")));//iphone 6+
-                add(new ArrayList<String>(Arrays.asList("A1688", "A1633", "A1700")));//iphone 6s
-                add(new ArrayList<String>(Arrays.asList("A1687", "A1634", "A1699")));//iphone 6s+
-                add(new ArrayList<String>(Arrays.asList("A1723", "A1662", "A1724")));//iphone se
-                add(new ArrayList<String>(Arrays.asList("A1778", "A1660", "A1779")));//iphone 7
-                add(new ArrayList<String>(Arrays.asList("A1784", "A1661", "A1785")));//iphone 7+
-            }
-        };
-
-        SUB_MODELS[2] = new ArrayList<ArrayList<String>>() {
-            {
-                add(new ArrayList<String>(Arrays.asList("C5302", "C5303", "C5306")));//"SP"
-                add(new ArrayList<String>(Arrays.asList("C6602", "C6603", "C6616")));// "Z",
-                add(new ArrayList<String>(Arrays.asList("C6902", "C6903", "C6906", "C6916")));//"Z1",
-                add(new ArrayList<String>(Arrays.asList("D5502", "D5503")));//"Z1 Compact",
-                add(new ArrayList<String>(Arrays.asList("D6502", "D6503")));//"Z2",
-                add(new ArrayList<String>(Arrays.asList("D6633", "D6643", "D6708")));//"Z3",
-                add(new ArrayList<String>(Arrays.asList("D5803", "D5833")));//"Z3 Compact",
-                add(new ArrayList<String>(Arrays.asList("E5803", "E5823")));//"Z5 Compact"
-            }
-        };
-
-        for (int i = 3; i < MODEL_LINES.size(); i++) {
-            SUB_MODELS[i] = new ArrayList<>();
-            for (int j = 0; j < MODELS[i].size(); j++) {
-                SUB_MODELS[i].add(new ArrayList<String>(Arrays.asList("")));
-            }
-        }
-    }
-
-    private final static String[] SAMSUNG_SUB_MODEL_DESCRIPTION = new String[]{
-            "европейского рынка (прошивка Europe)",
-            "американского рынка (прошивка USA)",
-            "канадского рынка (прошивка Canada)",
-            "китайского рынка (прошивка China)",
-            "корейского рынка (прошивка Korea)"};
-    private final static String[] SUB_MODEL_ENDINGS = new String[]{"F", "V", "W", "0", "K"};
-
-    public static final HashMap<String, String> MAP_SAMSUNG_SUB_MODEL_ENDING_DESCRIPTION;
-
-    static {
-        MAP_SAMSUNG_SUB_MODEL_ENDING_DESCRIPTION = new HashMap<>();
-        for (int i = 0; i < SUB_MODEL_ENDINGS.length; i++) {
-            MAP_SAMSUNG_SUB_MODEL_ENDING_DESCRIPTION.put(SUB_MODEL_ENDINGS[i], SAMSUNG_SUB_MODEL_DESCRIPTION[i]);
-        }
-    }
-
-    static {
-        for (int i = 0; i < MODELS[0].size(); i++) {
-            ArrayList<String> subModelList = SUB_MODELS[0].get(i);
-            String submodel = subModelList.get(0);
-            subModelList.remove(0);
-            for (String modelEnding : SUB_MODEL_ENDINGS) {
-                String newSubModel = submodel + modelEnding;
-                subModelList.add(newSubModel);
-            }
-        }
-    }
-
     public final static ArrayList<ArrayList<String>> COLORS[] = new ArrayList[MODEL_LINES.size()];
 
     static {
@@ -442,18 +326,6 @@ public class GadgetConst {
         };
     }
 
-
-    public static final HashMap<String, ArrayList<String>> MAP_MODEL_SUBMODEL[] = new HashMap[MODEL_LINES.size()];
-
-    static {
-        for (int i = 0; i < MODEL_LINES.size(); i++) {
-            MAP_MODEL_SUBMODEL[i] = new HashMap<>();
-            for (int j = 0; j < MODELS[i].size(); j++) {
-                MAP_MODEL_SUBMODEL[i].put(MODELS[i].get(j), SUB_MODELS[i].get(j));
-            }
-        }
-    }
-
     public static final HashMap<String, ArrayList<String>> MAP_MODEL_COLOR[] = new HashMap[MODEL_LINES.size()];
     ;
 
@@ -517,4 +389,131 @@ public class GadgetConst {
         }
         inScanner.close();
     }
+
+    /*public final static ArrayList<ArrayList<String>> SUB_MODELS[] = new ArrayList[MODEL_LINES.size()];
+
+    static {
+        public static final HashMap<String, ArrayList<String>> MAP_MODEL_SUBMODEL[] = new HashMap[MODEL_LINES.size()];
+
+    static {
+        for (int i = 0; i < MODEL_LINES.size(); i++) {
+            MAP_MODEL_SUBMODEL[i] = new HashMap<>();
+            for (int j = 0; j < MODELS[i].size(); j++) {
+                MAP_MODEL_SUBMODEL[i].put(MODELS[i].get(j), SUB_MODELS[i].get(j));
+            }
+        }
+    }
+
+        SUB_MODELS[0] = new ArrayList<ArrayList<String>>() {
+            {
+                add(new ArrayList<String>(Arrays.asList("SM-G531")));//"Grand Prime
+                add(new ArrayList<String>(Arrays.asList("SM-G360")));//"Core Prime
+                add(new ArrayList<String>(Arrays.asList("SM-G5000")));//"C5
+                add(new ArrayList<String>(Arrays.asList("SM-E700")));//"E7
+                add(new ArrayList<String>(Arrays.asList("SM-G850")));//"Alpha
+                add(new ArrayList<String>(Arrays.asList("GT-I9300")));//"S3
+                add(new ArrayList<String>(Arrays.asList("GT-I8190")));//"S3 Mini
+                add(new ArrayList<String>(Arrays.asList("GT-I9505")));//"S4
+                add(new ArrayList<String>(Arrays.asList("GT-I9192")));//"S4 Mini
+                add(new ArrayList<String>(Arrays.asList("SM-G900")));//"S5
+                add(new ArrayList<String>(Arrays.asList("SM-G800")));//"S5 Mini
+                add(new ArrayList<String>(Arrays.asList("SM-G920")));//"S6
+                add(new ArrayList<String>(Arrays.asList("SM-G925")));//"S6 Edge
+                add(new ArrayList<String>(Arrays.asList("SM-G928")));//"S6 Edge Plus
+                add(new ArrayList<String>(Arrays.asList("SM-G930")));//"S7
+                add(new ArrayList<String>(Arrays.asList("SM-G935")));//"S7 Edge
+                add(new ArrayList<String>(Arrays.asList("SM-G950")));//"S8
+                add(new ArrayList<String>(Arrays.asList("SM-G955")));//"S8 Plus
+                add(new ArrayList<String>(Arrays.asList("SM-A300")));//"A3 (2015)
+                add(new ArrayList<String>(Arrays.asList("SM-A310")));//"A3 (2016)
+                add(new ArrayList<String>(Arrays.asList("SM-A320")));//"A3 (2017)
+                add(new ArrayList<String>(Arrays.asList("SM-A500")));//"A5 (2015)
+                add(new ArrayList<String>(Arrays.asList("SM-A510")));//"A5 (2016)
+                add(new ArrayList<String>(Arrays.asList("SM-A520")));//"A5 (2017)
+//                add(new ArrayList<String>(Arrays.asList("SM-A700")));//"A7 (2015)
+                add(new ArrayList<String>(Arrays.asList("SM-A710")));//"A7 (2016)
+                add(new ArrayList<String>(Arrays.asList("SM-A720")));//"A7 (2017)
+                add(new ArrayList<String>(Arrays.asList("SM-J120")));//"J1 (2016)
+                add(new ArrayList<String>(Arrays.asList("SM-G532")));//"J2 Prime
+                add(new ArrayList<String>(Arrays.asList("SM-J320")));//"J3 (2016)
+//                add(new ArrayList<String>(Arrays.asList("SM-J330")));//"J3 (2017)
+                add(new ArrayList<String>(Arrays.asList("SM-J500")));//"J5 (2015)
+                add(new ArrayList<String>(Arrays.asList("SM-J510")));//"J5 (2016)
+                add(new ArrayList<String>(Arrays.asList("SM-J570")));//"J5 Prime
+                add(new ArrayList<String>(Arrays.asList("SM-J530")));//"J5 (2017)
+                add(new ArrayList<String>(Arrays.asList("SM-J700")));//"J7 (2015)
+                add(new ArrayList<String>(Arrays.asList("SM-J710")));//"J7 (2016)
+                add(new ArrayList<String>(Arrays.asList("SM-J730")));//"J7 (2017)
+                add(new ArrayList<String>(Arrays.asList("SM-N900")));//"Note 3
+                add(new ArrayList<String>(Arrays.asList("SM-N910")));//"Note 4
+                add(new ArrayList<String>(Arrays.asList("SM-N920")));//"Note 5
+            }
+        };
+
+        SUB_MODELS[1] = new ArrayList<ArrayList<String>>() {
+            {
+                add(new ArrayList<String>(Arrays.asList("A1332", "A1349")));//iphone 4
+                add(new ArrayList<String>(Arrays.asList("A1387", "A1431")));//iphone 4s
+                add(new ArrayList<String>(Arrays.asList("A1428", "A1429", "A1442")));//iphone 5
+                add(new ArrayList<String>(Arrays.asList("A1507", "A1532", "A1516", "A1529", "A1456")));//iphone 5c
+                add(new ArrayList<String>(Arrays.asList("A1457", "A1533", "A1518", "A1528", "A1530", "A1453")));//iphone 5s
+                add(new ArrayList<String>(Arrays.asList("A1586", "A1549", "A1589")));//iphone 6
+                add(new ArrayList<String>(Arrays.asList("A1524", "A1522", "A1593")));//iphone 6+
+                add(new ArrayList<String>(Arrays.asList("A1688", "A1633", "A1700")));//iphone 6s
+                add(new ArrayList<String>(Arrays.asList("A1687", "A1634", "A1699")));//iphone 6s+
+                add(new ArrayList<String>(Arrays.asList("A1723", "A1662", "A1724")));//iphone se
+                add(new ArrayList<String>(Arrays.asList("A1778", "A1660", "A1779")));//iphone 7
+                add(new ArrayList<String>(Arrays.asList("A1784", "A1661", "A1785")));//iphone 7+
+            }
+        };
+
+        SUB_MODELS[2] = new ArrayList<ArrayList<String>>() {
+            {
+                add(new ArrayList<String>(Arrays.asList("C5302", "C5303", "C5306")));//"SP"
+                add(new ArrayList<String>(Arrays.asList("C6602", "C6603", "C6616")));// "Z",
+                add(new ArrayList<String>(Arrays.asList("C6902", "C6903", "C6906", "C6916")));//"Z1",
+                add(new ArrayList<String>(Arrays.asList("D5502", "D5503")));//"Z1 Compact",
+                add(new ArrayList<String>(Arrays.asList("D6502", "D6503")));//"Z2",
+                add(new ArrayList<String>(Arrays.asList("D6633", "D6643", "D6708")));//"Z3",
+                add(new ArrayList<String>(Arrays.asList("D5803", "D5833")));//"Z3 Compact",
+                add(new ArrayList<String>(Arrays.asList("E5803", "E5823")));//"Z5 Compact"
+            }
+        };
+
+        for (int i = 3; i < MODEL_LINES.size(); i++) {
+            SUB_MODELS[i] = new ArrayList<>();
+            for (int j = 0; j < MODELS[i].size(); j++) {
+                SUB_MODELS[i].add(new ArrayList<String>(Arrays.asList("")));
+            }
+        }
+    }
+
+    private final static String[] SAMSUNG_SUB_MODEL_DESCRIPTION = new String[]{
+            "европейского рынка (прошивка Europe)",
+            "американского рынка (прошивка USA)",
+            "канадского рынка (прошивка Canada)",
+            "китайского рынка (прошивка China)",
+            "корейского рынка (прошивка Korea)"};
+    private final static String[] SUB_MODEL_ENDINGS = new String[]{"F", "V", "W", "0", "K"};
+
+    public static final HashMap<String, String> MAP_SAMSUNG_SUB_MODEL_ENDING_DESCRIPTION;
+
+    static {
+        MAP_SAMSUNG_SUB_MODEL_ENDING_DESCRIPTION = new HashMap<>();
+        for (int i = 0; i < SUB_MODEL_ENDINGS.length; i++) {
+            MAP_SAMSUNG_SUB_MODEL_ENDING_DESCRIPTION.put(SUB_MODEL_ENDINGS[i], SAMSUNG_SUB_MODEL_DESCRIPTION[i]);
+        }
+    }
+
+    static {
+        for (int i = 0; i < MODELS[0].size(); i++) {
+            ArrayList<String> subModelList = SUB_MODELS[0].get(i);
+            String submodel = subModelList.get(0);
+            subModelList.remove(0);
+            for (String modelEnding : SUB_MODEL_ENDINGS) {
+                String newSubModel = submodel + modelEnding;
+                subModelList.add(newSubModel);
+            }
+        }
+    }*/
 }
