@@ -11,7 +11,7 @@ public class GadgetGroup extends Gadgets {
     final static int ADS_COUNT_BORDER = 300;
     final static boolean IS_NEW_LOAD = true;
     final static int DAYS_OFFSET = 1;
-    final static long MILLISECONDS_OFFSET = (10 * 60) * 1000;
+    final static long MILLISECONDS_OFFSET = (18 * 60) * 1000;
     ArrayList<ArrayList<String>> gadgets;
     String country;
     int xmlDay;
