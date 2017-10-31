@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$9.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AvitoGadgets.java" afterPath="$PROJECT_DIR$/src/WebSiteGadgets.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/CategoryTree$CustomComparator.class" afterPath="$PROJECT_DIR$/out/production/EKZ/CategoryTree$CustomComparator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/CategoryTree.class" afterPath="$PROJECT_DIR$/out/production/EKZ/CategoryTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/Gadget.class" afterPath="$PROJECT_DIR$/out/production/EKZ/Gadget.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$1.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$2.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$3.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$4.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$5.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$6.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$7.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$8.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/Gadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/Gadgets.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/Solution.class" afterPath="$PROJECT_DIR$/out/production/EKZ/Solution.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/WebSiteGadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/WebSiteGadgets.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/YoulaGadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/YoulaGadgets.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/countries.txt" afterPath="$PROJECT_DIR$/Input/countries.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/price_list.txt" afterPath="$PROJECT_DIR$/Input/price_list.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/selected_avito_items.txt" afterPath="$PROJECT_DIR$/Input/selected_avito_items.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Website/shop_items.csv" afterPath="$PROJECT_DIR$/Output/Website/shop_items.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Website/shop_items.xml" afterPath="$PROJECT_DIR$/Output/Website/shop_items.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Website/ym_shop_items.csv" afterPath="$PROJECT_DIR$/Output/Website/ym_shop_items.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CategoryTree.java" afterPath="$PROJECT_DIR$/src/CategoryTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gadget.java" afterPath="$PROJECT_DIR$/src/Gadget.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GadgetConst.java" afterPath="$PROJECT_DIR$/src/GadgetConst.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gadgets.java" afterPath="$PROJECT_DIR$/src/Gadgets.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution.java" afterPath="$PROJECT_DIR$/src/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/YoulaGadgets.java" afterPath="$PROJECT_DIR$/src/YoulaGadgets.java" />
-    </list>
+    <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="" />
     <ignored path="EKZ.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -100,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AvitoGadgets.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AvitoGadgets.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="253" column="63" selection-start-line="253" selection-start-column="63" selection-end-line="253" selection-end-column="63" />
+            <state relative-caret-position="104">
+              <caret line="224" column="69" selection-start-line="224" selection-start-column="69" selection-end-line="224" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,7 +102,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GadgetGroup.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GadgetGroup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GadgetGroup.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
@@ -236,7 +201,6 @@
         <option value="$PROJECT_DIR$/Input/price_list.txt" />
         <option value="$PROJECT_DIR$/src/AvitoGadgetGroup.java" />
         <option value="$PROJECT_DIR$/Input/selected_avito_items.txt" />
-        <option value="$PROJECT_DIR$/src/GadgetConst.java" />
         <option value="$PROJECT_DIR$/Input/countries.txt" />
         <option value="$PROJECT_DIR$/Input/t_countries.txt" />
         <option value="$PROJECT_DIR$/src/CategoryTree.java" />
@@ -246,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/AvitoGadgets.java" />
         <option value="$PROJECT_DIR$/src/GadgetGroup.java" />
+        <option value="$PROJECT_DIR$/src/GadgetConst.java" />
       </list>
     </option>
   </component>
@@ -1036,6 +1001,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/GadgetGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="108" column="82" selection-start-line="108" selection-start-column="82" selection-end-line="108" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1465#1466#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1702#1703#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GadgetConst.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -1055,26 +1036,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="253" column="63" selection-start-line="253" selection-start-column="63" selection-end-line="253" selection-end-column="63" />
+        <state relative-caret-position="104">
+          <caret line="224" column="69" selection-start-line="224" selection-start-column="69" selection-end-line="224" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GadgetGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="108" column="82" selection-start-line="108" selection-start-column="82" selection-end-line="108" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1337#1338#0" expanded="true" />
-            <element signature="e#1432#1433#0" expanded="true" />
-            <element signature="e#1465#1466#0" expanded="true" />
-            <element signature="e#1513#1514#0" expanded="true" />
-            <element signature="e#1702#1703#0" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
           </folding>
         </state>
       </provider>
