@@ -1,214 +1,90 @@
-import javafx.util.Pair;
-
-import java.io.BufferedWriter;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Scanner;
+import java.util.Arrays;
+import java.util.HashMap;
 
 public class WebSiteGadgets extends Gadgets {
-    /*final static String ID = "id";
-    final static String AVAILABLE = "AVAILABLE";
-    final static String PRICE = "PRICE";
-    final static String CURRENCY_ID = "Валюта";
-    final static String CATEGORY = "CATEGORY";
-    final static String PICTURE = "PICTURE_URL";
-    final static String URL = "WEBPAGE URL";
-    final static String NAME = "NAME";
-    final static String DESCRIPTION = "DESCRIPTION";
-    final static String TAGS = "TAGS";
-    final static String CATEGORY_ID = "CATEGORY_ID";
-    final static String SUBCATEGORY_ID = "SUBCATEGORY_ID";
-    String[] gadgetAttributeNames = new String[]{
-            ID,
-            AVAILABLE,
-            PRICE,
-            CURRENCY_ID,
-            CATEGORY,
-            PICTURE,
-            URL,
-            NAME,
-            DESCRIPTION,
-            TAGS,
-            CATEGORY_ID,
-            SUBCATEGORY_ID,
-    };
+    public ArrayList<ArrayList<String>> gadgets = new ArrayList<>();
+    ArrayList<ArrayList<String>> gadgetAttributesVariants;
+    int globalModelLine;
 
-    public WebSiteGadgets() {
+    public WebSiteGadgets(int globalModelLine) {
+        this.globalModelLine = globalModelLine;
+        gadgetAttributesVariants = new ArrayList<ArrayList<String>>();
+        gadgetAttributesVariants.add(new ArrayList<String>(GadgetConst.QUALITIES));
+        gadgetAttributesVariants.add(new ArrayList<String>(GadgetConst.VENDORS));
+        gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList(
+                GadgetConst.MODEL_LINES.get(globalModelLine))));
+        gadgetAttributesVariants.add(GadgetConst.MODELS[globalModelLine]);
+        gadgetAttributesVariants.add(new ArrayList<>(GadgetConst.MEMORIES));
     }
 
-    public void initializeFromCSV() {
-        initializeMapGadgetAttributeNumber(gadgetAttributeNames);
-        Scanner inScanner = Solution.getInputScanner("shop_items.csv");
-        String csvText = "";
-        inScanner.nextLine();
-        while (inScanner.hasNextLine()) {
-            csvText += inScanner.nextLine();
-        }
-        String[] gadgetTexts = csvText.split(">\";");
-        for (String gadgetText : gadgetTexts) {
-            ArrayList<String> gadget = new ArrayList<>(Collections.nCopies(
-                    gadgetAttributeNames.length, ""));
-            String[] attributes = gadgetText.split(";");
-            int descriptionId = mapGadgetAttributeNumber.get(DESCRIPTION);
-            for (int partId = 0; partId < descriptionId; partId++) {
-                gadget.set(partId, attributes[partId]);
-            }
-            for (int partId = descriptionId; partId < attributes.length; partId++) {
-                gadget.set(descriptionId, gadget.get(descriptionId) + attributes[partId] + ";");
-            }
-            gadget.set(descriptionId, gadget.get(descriptionId) + ">\"");
-            Pair<String, String> categories = getCategoriesByPicture(gadget.get(mapGadgetAttributeNumber.get(PICTURE)));
-            gadget.set(mapGadgetAttributeNumber.get(CATEGORY_ID), categories.getKey());
-            gadget.set(mapGadgetAttributeNumber.get(SUBCATEGORY_ID), categories.getValue());
-            gadget.set(mapGadgetAttributeNumber.get(URL), "http://ispark.info/shop/" + categories.getKey() + "/" +
-                    categories.getValue());
-            gadget.set(descriptionId, getModifiedDescription(gadget.get(descriptionId)));
-            gadgets.add(gadget);
-        }
+    public static String getWebsitePath(ArrayList<String> gadget) {
+        String vendor = gadget.get(mapGadgetAttributeNumber.get(VENDOR));
+        String modelLine = gadget.get(mapGadgetAttributeNumber.get(MODEL_LINE));
+        String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
+        String color = gadget.get(mapGadgetAttributeNumber.get(COLOR));
+        return vendor + "/" + modelLine + "/" + model.replace(" ", "") + "/" + color.replace(" ", "")
+                + "/" + IMG_FILE_NAME + ".jpg";
+    }
 
-        *//*while (inScanner.hasNextLine()) {
-            int beginTagId = csvLine.indexOf("\"<");
-            if (beginTagId != -1) {
-                String newCsvLine = String.copyValueOf(csvLine.toCharArray());
-                //                int endTagId = csvLine.indexOf(">\"");
-                while (!newCsvLine.contains(">\";") && inScanner.hasNextLine()) {
-                    csvText += newCsvLine;
-                    newCsvLine = inScanner.nextLine();
+    public static String getImageWebsiteUrl(ArrayList<String> gadget) {
+        return "https://raw.githubusercontent.com/bav735/iSPARK/master/images/" + getWebsitePath(gadget);
+    }
+
+    public void generateGadgets(int attribute, ArrayList<String> gadget) {
+        if (attribute == gadgetAttributesVariants.size()) {
+            String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
+            for (String color : GadgetConst.MAP_MODEL_COLOR[globalModelLine].get(model)) {
+                ArrayList<String> newGadget = new ArrayList<>(gadget);
+                newGadget.add(color);
+                if (!excludeModel(model, color, newGadget.get(mapGadgetAttributeNumber.get(MEMORY))) &&
+                        isInPriceList(newGadget)) {
+                    gadgets.add(newGadget);
                 }
-                csvLine = newCsvLine;
-//                csvLine = csvLine.substring(0, beginTagId) + "\"описание\";";
             }
-        }*//*
-        inScanner.close();
+        } else {
+            int attributeVariantsSize = gadgetAttributesVariants.get(attribute).size();
+            for (int attributeVariant = 0; attributeVariant < attributeVariantsSize; attributeVariant++) {
+                ArrayList<String> newGadget = new ArrayList<String>(gadget);
+                newGadget.add(gadgetAttributesVariants.get(attribute).get(attributeVariant));
+                generateGadgets(attribute + 1, newGadget);
+            }
+        }
     }
 
-    public void printCSVGadgets(BufferedWriter outWriter) {
-        String outText = "id;available;price;currencyId;category;picture;url;model;description;tags\n";
+    public boolean excludeModel(String model, String color, String memory) {
+        return model.contains("7") &&
+                memory.contains("32") && color.toLowerCase().contains("red");
+    }
+
+    private String getGadgetPathSite(ArrayList<String> gadget, String color) {
+        String path = "";
+        for (int i = mapGadgetAttributeNumber.get(VENDOR); i <= mapGadgetAttributeNumber.get(MODEL); i++) {
+            String attr = gadget.get(i);
+            path += attr + "/";
+        }
+        return (path + color + "/").replace(" ", "");
+    }
+
+    private HashMap<String, ArrayList<ArrayList<String>>> getModelGadgetMap(ArrayList<ArrayList<String>> gadgets) {
+        HashMap<String, ArrayList<ArrayList<String>>> mapGadgetModelGadgets = new HashMap<>();
+
         for (ArrayList<String> gadget : gadgets) {
-            if (!gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("iPhone ")) {
-                continue;
+            String metaModel = getMetaModel(gadget.get(mapGadgetAttributeNumber.get(MODEL_LINE)),
+                    gadget.get(mapGadgetAttributeNumber.get(MODEL)));
+            if (!mapGadgetModelGadgets.containsKey(metaModel)) {
+                mapGadgetModelGadgets.put(metaModel, new ArrayList<ArrayList<String>>());
+//                System.out.println(metaModel + "|");
             }
-            for (int i = 0; i <= mapGadgetAttributeNumber.get(DESCRIPTION); i++) {
-                outText += gadget.get(i) + ";";
-            }
-            outText += "\n";
+            mapGadgetModelGadgets.get(metaModel).add(gadget);
+//                ArrayList<String> gadget2 = new ArrayList<>(gadget);
+//                gadget2.set(mapGadgetAttributeNumber.get(QUALITY), EST2);
+//                mapGadgetModelGadgets.get(model).add(gadget2);
         }
-        Solution.writeText(outWriter, outText);
+        return mapGadgetModelGadgets;
     }
 
-    public void synchronizePrices() {
-        for (ArrayList<String> gadget : gadgets) {
-            String oldGadgetName = gadget.get(mapGadgetAttributeNumber.get(NAME));
-            String[] nameParts = oldGadgetName.substring(1, oldGadgetName.length() - 1).split(" ");
-            String gadgetName = "";
-            int partId = 0;
-            while (partId < nameParts.length && !nameParts[partId].toLowerCase().contains("gb")) {
-                gadgetName += nameParts[partId] + " ";
-                partId++;
-            }
-            if (partId < nameParts.length) {
-                gadgetName += nameParts[partId].substring(0, nameParts[partId].length() - 2) + "Gb";
-            }
-            String price = "";
-            if (!mapGadgetNameOldPrices.containsKey(gadgetName)) {
-                continue;
-            }
-            if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("NEW")) {
-                price = mapGadgetNameOldPrices.get(gadgetName).get(mapOldPriceAttributeNumber.get(RST_RETAIL_ISPARK));
-            } else {
-                String s = "";
-                if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("БО")) {
-                    s = " Б/О";
-                }
-                price = mapGadgetNameOldPrices.get(gadgetName + s).get(mapOldPriceAttributeNumber.get(RETAIL_MAX));
-//                if (price.length() == 1) {
-//                    price = mapGadgetNameOldPrices.get(gadgetName + s).get(mapOldPriceAttributeNumber.get(RETAIL_MIN));
-//                }
-            }
-            partId++;
-            while (partId < nameParts.length) {
-                gadgetName += " " + nameParts[partId];
-                partId++;
-            }
-            gadget.set(mapGadgetAttributeNumber.get(NAME), "\"" + gadgetName + "\"");
-            gadget.set(mapGadgetAttributeNumber.get(PRICE), price);
-        }
+    private String getMetaModel(String modelLine, String model) {
+        return modelLine + " " + model;
     }
-
-    private Pair<String, String> getCategoriesByPicture(String picture) {
-        String[] parts = picture.split("/");
-        String categoryId = parts[parts.length - 2].substring(0, 6);
-        String subCategoryId = parts[parts.length - 1].substring(0, 6);
-        return new Pair<>(categoryId, subCategoryId);
-    }
-
-    private String getModifiedDescription(String description) {
-        description = description.replaceAll("<strong>", "@");
-        description = description.replaceAll("</strong>", "#");
-        description = description.replaceAll("<.*?>", "~");
-        description = description.replaceAll("&[a-z]+;", "");
-        description = description.replace("  ", " ");
-        description = description.replaceAll("~+", "~");
-        description = description.replaceAll("^\"~", "");
-        description = description.replaceAll("~\"$", "");
-        description = description.replaceAll("~@~", "~@");
-        description = description.replaceAll("~#~", "#~");
-        description = description.replaceAll("@#", "");
-        description = description.replaceAll("~~", "~");
-        description = description.replaceAll("@", "<strong>");
-        description = description.replaceAll("#", "</strong>");
-        description = description.replaceAll("~", "<br><br>");
-        description = "\"<span style=\"\"font-baseSize: medium;\"\">" + description + "</span>\"";
-        return description;
-    }
-
-    public void printYMGadgets(BufferedWriter outWriter) {
-        Scanner inScanner = Solution.getInputScanner("selected_ym_items.txt");
-        System.out.println("YM Gadgets..");
-        HashSet<String> setSelectedItems = new HashSet<>();
-        while (inScanner.hasNextLine()) {
-            setSelectedItems.add(inScanner.nextLine());
-        }
-        String outText = "id;available;price;currencyId;category;picture;url;model;description;manufacturer_warranty\n";
-        for (int i = 0; i < gadgets.maxId(); i++) {
-            ArrayList<String> gadget = gadgets.get(i);
-            String gadgetName = gadget.get(mapGadgetAttributeNumber.get(NAME)).replace("\"", "");
-            if (gadgetName.contains("восстановленный")) {
-                gadgetName = gadgetName.substring(0, gadgetName.length() - 18);
-            }
-            String category = "Мобильные телефоны;";
-            String s = "";
-            if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("RFB")) {
-                s = "RFB ";
-            } else if (gadget.get(mapGadgetAttributeNumber.get(CATEGORY)).contains("NEW")) {
-                s = "NEW ";
-            } else {
-                category = "Моноколеса и гироскутеры;";
-            }
-            String warranty = "false";
-            if (s.equals("NEW ")) {
-                warranty = "true";
-            }
-            System.out.println(gadgetName);
-            if (setSelectedItems.contains(s + gadgetName)) {
-                outText += i + ";true;";
-                outText += gadget.get(mapGadgetAttributeNumber.get(PRICE)) + ";RUR;" + category;
-                outText += gadget.get(mapGadgetAttributeNumber.get(PICTURE)) + ";";
-                outText += gadget.get(mapGadgetAttributeNumber.get(URL)) + ";";
-                outText += gadget.get(mapGadgetAttributeNumber.get(NAME)) + ";";
-                if (warranty.equals("true")) {
-                    outText += "\"Официальная гарантия от Apple - 1 год с момента покупки! ";
-                } else {
-                    outText += "\"Гарантия от iSPARK! ";
-                }
-                outText += gadgetName + " будет с тобой каждую секунду жизни. Быстрый, отзывчивый, " +
-                        "незаменимый, словно надежный и проверенный друг, которому просто и легко довериться. Он" +
-                        " создан сделать твою жизнь проще и позволит получить удовольствие от каждого её мгновения. " +
-                        "Купите " + gadgetName + ", и в этом легко будет убедиться!\";";
-                outText += warranty + "\n";
-            }
-        }
-        Solution.writeText(outWriter, outText);
-    }*/
 }

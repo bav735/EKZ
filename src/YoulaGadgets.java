@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class YoulaGadgets extends Gadgets {
-    final static String QUALITY = "Качество";
+    /*final static String QUALITY = "Качество";
     final static String VENDOR = "Производитель";
     final static String MODEL_LINE = "Модельный ряд";
     final static String MODEL = "Модель";
@@ -19,7 +19,7 @@ public class YoulaGadgets extends Gadgets {
     HashMap<String, ArrayList<String>> mapGadgetModelColor;
     ArrayList<ArrayList<String>> gadgetAttributesVariants;
     int[][] gadgetsDistribution;
-    String[] gadgetAttributeNames = AvitoGadgets.gadgetAttributeNames;
+    String[] gadgetAttributeNames = WebSiteGadgets.gadgetAttributeNames;
 
     public YoulaGadgets() {
     }
@@ -83,14 +83,14 @@ public class YoulaGadgets extends Gadgets {
 
     public void generateGadgets(int attribute, ArrayList<String> gadget) {
         if (attribute == gadgetAttributesVariants.size()) {
-            if (mapGadgetNameOldPrices.containsKey(getGadgetName(gadget))) {
+            if (mapGadgetNamePrices.containsKey(getGadgetName(gadget))) {
                 if (!gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).isEmpty() &&
                         !gadget.get(mapGadgetAttributeNumber.get(MODEL)).equals("5S") &&
                         !gadget.get(mapGadgetAttributeNumber.get(MODEL)).equals("6")) {
                     return;
                 }
-                ArrayList<String> prices = mapGadgetNameOldPrices.get(getGadgetName(gadget));
-                if (prices.get(mapOldPriceAttributeNumber.get(RETAIL_MIN)).length() > 1) {
+                ArrayList<String> prices = mapGadgetNamePrices.get(getGadgetName(gadget));
+                if (prices.get(mapPriceAttributeNumber.get(PREPAY_PRICE)).length() > 1) {
                     gadget.set(mapGadgetAttributeNumber.get(QUALITY), RFB);
                 } else {
                     gadget.set(mapGadgetAttributeNumber.get(QUALITY), NEW);
@@ -200,7 +200,7 @@ public class YoulaGadgets extends Gadgets {
         adText += "Описание: " + getYoulaDescription(gadget) + "\n";
 //        adText += "Цена: " + getPrice(gadget) + "\n";
         String imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/" +
-                getGadgetPath(gadget, MODEL) + AvitoGadgets.IMG_FILE_NAME + ".jpg";
+                getGadgetPath(gadget, MODEL) + WebSiteGadgets.IMG_FILE_NAME + ".jpg";
         adText += "Ссылка на картинку: " + imgLink;
         adText = adText.replace(TOUCH_LOCKED, "(без отпечатка)");
         adText = adText.replace("  ", " ");
@@ -226,7 +226,7 @@ public class YoulaGadgets extends Gadgets {
         return path;
     }
 
-    /*public void generateFiles() {
+    *//*public void generateFiles() {
         for (int day = 1; day <= 30; day++) {
             for (int gadgetId = (day - 1) * ADS_PER_DAY; gadgetId < day * ADS_PER_DAY; gadgetId++) {
                 String dayNum = "" + day;

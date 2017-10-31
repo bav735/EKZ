@@ -16,33 +16,35 @@ public class Gadget {
     String vendor;
     String model;
     String description;
-    String webSiteName;
-    //    String initialCategoryId;
+    //    String webSiteName;
     String id;
     String params;
     String namePrefix;
-    public boolean isFinal = false;
+    ArrayList<String> initialGadget;
 
     public Gadget(ArrayList<String> gadget) {
+        initialGadget = gadget;
         quality = gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.QUALITY));
+        namePrefix = "Смартфон";
         vendor = gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.VENDOR));
-        model = gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.MODEL_LINE)) +
-                " " + gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.MODEL)) +
-                " " + gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.MEMORY)) +
-                " " + gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.COLOR));
+        model = Gadgets.getGadgetName(gadget, Gadgets.MODEL_LINE, Gadgets.COLOR) + " (" +
+                GadgetConst.MAP_QUALITY_NAME.get(quality) + ")";
         description = getDescriptionByModel(vendor,
                 gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.MODEL_LINE)),
-                gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.MODEL)));
-        imageUrl = AvitoGadgets.getImageWebsiteUrl(gadget);
-        namePrefix = "Смартфон";
-//        price = "" + Gadgets.getPrice(AvitoGadgets.getGadgetName(gadget, false), Gadgets.RETAIL_MIN, );
+                gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.MODEL))) +
+                ",\nДоп. информация о товаре: " + GadgetConst.MAP_QUALITY_DESCRIPTION.get(quality);
+        String warrantyPrice = Gadgets.getPrice(initialGadget, Gadgets.YEAR_WARRANTY_COST);
+        if (warrantyPrice.length() > 1) {
+            description += ",\n" + Gadgets.YEAR_WARRANTY_COST + ": +" + warrantyPrice + "\u20BD";
+        }
+        imageUrl = WebSiteGadgets.getImageWebsiteUrl(gadget);
         id = "" + maxId;
         maxId++;
         params = "";
-        webSiteName = namePrefix + " " + vendor + " " + model;
+//        webSiteName = namePrefix + " " + vendor + " " + model;
     }
 
-    public Gadget(String offer/*, String initialCategoryId*/) {
+    public Gadget(String offer) {
         vendor = Solution.getValueByTag(offer, "vendor");
         model = Solution.getValueByTag(offer, "model");
         imageUrl = Solution.getValueByTag(offer, "picture");
@@ -50,17 +52,12 @@ public class Gadget {
         price = Solution.getValueByTag(offer, "price");
         namePrefix = Solution.getValueByTag(offer, "typePrefix");
         price = price.substring(0, price.length() - 2);
-//        this.initialCategoryId = initialCategoryId;
-        /*if (Solution.SHOP_ITEMS_XML.equals(Solution.CUSTOM_XML)) {
-            id = Solution.getValueByPrefix(offer, "id=\"", '"');
-        }*/
         id = "" + maxId;
         maxId++;
         params = Solution.getValueByTag(offer, "<param ", "</param>");
-//        System.out.println(description);
     }
 
-    public String getCategoryTreeName() {
+    public String getWebSiteName() {
         return namePrefix + " " + vendor + " " + model;
     }
 
@@ -136,20 +133,13 @@ public class Gadget {
 
     public String getCSV(CategoryTree child, String priceName) {
         String res = "";
-        if (webSiteName != null) {
-            res += webSiteName;
-        } else {
-            res += getCategoryTreeName();
-        }
-        res += ";";
-        if (!priceName.isEmpty()) {
-            res += GadgetConst.MAP_PRICES_DESCRIPTION.get(priceName);
-        }
-        res += ";;RUB;";
+        res += getWebSiteName();
+        res += ";" + priceName + ";;RUB;";
         if (priceName.isEmpty()) {
             res += price;
         } else {
-            res += Gadgets.getPrice(getPriceListName(), priceName, true);
+//            System.out.println(initialGadget.size());
+            res += Gadgets.getPrice(initialGadget, priceName);
         }
         res += ";1;0;0;";
         String present = "0";

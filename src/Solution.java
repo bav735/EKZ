@@ -1,10 +1,7 @@
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Scanner;
+import java.util.*;
 import java.util.regex.Pattern;
 
 public class Solution {
@@ -13,7 +10,6 @@ public class Solution {
     public final static String BASE_XML = "shop_items.xml";
     //    public static String SHOP_ITEMS_XML = CUSTOM_XML;
 //    public static int counter = 0;
-    private static AvitoGadgets[] avitoGadgets = new AvitoGadgets[GadgetConst.MODEL_LINES.size()];
 
     public static Scanner getInputScanner(String fileName) {
         try {
@@ -146,8 +142,8 @@ public class Solution {
                     }
                     boolean isPresent = true;
                     for (Gadget gadgetCurrent : subcatTree.gadgets) {
-                        if (CategoryTree.translit(gadgetCurrent.getCategoryTreeName()).equals(
-                                CategoryTree.translit(gadget.getCategoryTreeName()))) {
+                        if (CategoryTree.translit(gadgetCurrent.getWebSiteName()).equals(
+                                CategoryTree.translit(gadget.getWebSiteName()))) {
                             isPresent = false;
                         }
                     }
@@ -159,25 +155,17 @@ public class Solution {
         }
         inScanner.close();
 
-        AvitoGadgets avitoGadgets[] = new AvitoGadgets[GadgetConst.MODEL_LINES.size()];
-        for (int modelLine = 0; modelLine < GadgetConst.MODEL_LINES.size(); modelLine++) {
-            avitoGadgets[modelLine] = new AvitoGadgets(modelLine);
-            avitoGadgets[modelLine].initialize(false);
-            avitoGadgets[modelLine].generateGadgets(0, new ArrayList<String>());
-        }
-        for (int modelLine = 0; modelLine < avitoGadgets.length; modelLine++) {
-            for (ArrayList<String> avitoGadget : avitoGadgets[modelLine].gadgets) {
+        WebSiteGadgets webSiteGadgets[] = getWebSiteGadgetsArray();
+        for (int modelLine = 0; modelLine < webSiteGadgets.length; modelLine++) {
+            for (ArrayList<String> webSiteGadget : webSiteGadgets[modelLine].gadgets) {
                 CategoryTree catTree = root.getTreeByCatId("761");
                 int startId = Gadgets.mapGadgetAttributeNumber.get(Gadgets.VENDOR);
-                CategoryTree subcatTree = catTree.getTreeByCatNameOrCreate(avitoGadget.get(startId), null);
-                int endId = Gadgets.mapGadgetAttributeNumber.get(Gadgets.FINGER_PRINT);
+                CategoryTree subcatTree = catTree.getTreeByCatNameOrCreate(webSiteGadget.get(startId), null);
+                int endId = Gadgets.mapGadgetAttributeNumber.get(Gadgets.COLOR);
                 for (int attrId = startId + 1; attrId <= endId; attrId++) {
-                    if (attrId == Gadgets.mapGadgetAttributeNumber.get(Gadgets.SUBMODEL)) {
-                        continue;
-                    }
-                    String attr = avitoGadget.get(attrId);
+                    String attr = webSiteGadget.get(attrId);
                     if (attr.equals("Galaxy")) {
-                        String nextAttr = avitoGadget.get(attrId + 1);
+                        String nextAttr = webSiteGadget.get(attrId + 1);
                         if (getNumber("" + nextAttr.charAt(1)) != -1) {
                             attr += " " + nextAttr.charAt(0);
                         } else {
@@ -186,28 +174,7 @@ public class Solution {
                     }
                     subcatTree = subcatTree.getTreeByCatNameOrCreate(attr, null);
                 }
-                int presentId = -1;
-                Gadget gadget = new Gadget(avitoGadget);
-
-                ArrayList<Gadget> gadgets = subcatTree.gadgets;
-                for (int i = 0; i < gadgets.size(); i++) {
-                    if (CategoryTree.translit(gadgets.get(i).getCategoryTreeName()).equals(
-                            CategoryTree.translit(gadget.getCategoryTreeName()))) {
-                        presentId = i;
-                        break;
-                    }
-                }
-                if (presentId == -1) {
-                    subcatTree.gadgets.add(gadget);
-//                    System.out.println(gadget.getCategoryTreeName());
-                } else {
-                    Gadget tGadget = subcatTree.gadgets.get(presentId);
-                    if (!avitoGadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.SUBMODEL)).isEmpty() &&
-                            gadget.quality.equals(GadgetConst.REF) && !tGadget.isFinal) {
-                        gadget.isFinal = true;
-                        subcatTree.gadgets.set(presentId, gadget);
-                    }
-                }
+                subcatTree.gadgets.add(new Gadget(webSiteGadget));
             }
         }
 
@@ -244,35 +211,44 @@ public class Solution {
 
         bufferedWriter = Solution.getOutputWriter("Output/Website", "ym_shop_items.csv");
         bufferedWriter.write(CategoryTree.YM_BEGIN);
-        root.printYMSelected(bufferedWriter, getYMSelectedItems());
+        root.printYMSelected(bufferedWriter, getHashSetFromInput("selected_ym_items.txt"));
         bufferedWriter.flush();
     }
 
-    private static HashSet<String> getYMSelectedItems() {
-        Scanner inScanner = Solution.getInputScanner("selected_ym_items.txt");
-        HashSet<String> selectedItems = new HashSet<>();
+    public static WebSiteGadgets[] getWebSiteGadgetsArray() {
+        WebSiteGadgets webSiteGadgets[] = new WebSiteGadgets[GadgetConst.MODEL_LINES.size()];
+        for (int modelLine = 0; modelLine < GadgetConst.MODEL_LINES.size(); modelLine++) {
+            webSiteGadgets[modelLine] = new WebSiteGadgets(modelLine);
+            webSiteGadgets[modelLine].generateGadgets(0, new ArrayList<String>());
+        }
+        return webSiteGadgets;
+    }
+
+    public static LinkedHashSet<String> getHashSetFromInput(String fileName) {
+        Scanner inScanner = Solution.getInputScanner(fileName);
+        LinkedHashSet<String> selectedItems = new LinkedHashSet<>();
         while (inScanner.hasNextLine()) {
             String line = inScanner.nextLine();
-            String[] split = line.split("\\s+");
-            String modelLine = split[1];
-            int modelLineId = -1;
-            ArrayList<String> models = new ArrayList<>();
-            for (int i = 0; i < GadgetConst.MODEL_LINES.size(); i++) {
-                if (modelLine.equals(GadgetConst.MODEL_LINES.get(i))) {
-                    models = GadgetConst.MODELS[i];
-                    modelLineId = i;
-                    break;
-                }
-            }
-            ArrayList<String> colors = new ArrayList<>();
-            for (String model : models) {
-                if (line.contains(modelLine + " " + model)) {
-                    colors = GadgetConst.MAP_MODEL_COLOR[modelLineId].get(model);
-                }
-            }
-            for (int i = 0; i < 2; i++) {
-                selectedItems.add(line + " " + colors.get(i));
-            }
+//            String[] split = line.split("\\s+");
+//            String modelLine = split[1];
+//            int modelLineId = -1;
+//            ArrayList<String> models = new ArrayList<>();
+//            for (int i = 0; i < GadgetConst.MODEL_LINES.size(); i++) {
+//                if (modelLine.equals(GadgetConst.MODEL_LINES.get(i))) {
+//                    models = GadgetConst.MODELS[i];
+//                    modelLineId = i;
+//                    break;
+//                }
+//            }
+//            ArrayList<String> colors = new ArrayList<>();
+//            for (String model : models) {
+//                if (line.contains(modelLine + " " + model)) {
+//                    colors = GadgetConst.MAP_MODEL_COLOR[modelLineId].get(model);
+//                }
+//            }
+//            for (int i = 0; i < 2; i++) {
+            selectedItems.add(line /*+ " " + colors.get(i)*/);
+//            }
         }
         inScanner.close();
         return selectedItems;
@@ -299,27 +275,21 @@ public class Solution {
     }
 
     public static void computeAvito() throws IOException {
+        System.out.println("printing...");
         for (int cityId = 0; cityId < GadgetConst.CITIES.length; cityId++) {
             BufferedWriter writer = Solution.getOutputWriter("Output/Avito/", "AdsXML_" +
                     GadgetConst.CITIES_XML_FILE_END[cityId] + ".xml");
             writer.write("<Ads formatVersion=\"3\" target=\"Avito.ru\">\n");
-            for (int modelLine = 0; modelLine < GadgetConst.MODEL_LINES.size(); modelLine++) {
-                avitoGadgets[modelLine] = new AvitoGadgets(modelLine);
-                avitoGadgets[modelLine].initialize(true);
-                avitoGadgets[modelLine].generateGadgets(0, new ArrayList<String>());
-                if (modelLine < 2) {
-                    avitoGadgets[modelLine].generateXML(writer, cityId);
-                }
-            }
+            System.out.println("city="+cityId);
+            AvitoGadgets avitoGadgets = new AvitoGadgets();
+            avitoGadgets.generateXML(writer, cityId);
             writer.write("</Ads>");
             writer.flush();
         }
     }
 
-
     public static void main(String[] args) {
-        Gadgets.initializeOldPrices(Solution.getInputScanner("price_list.txt"));
-        Gadgets.initializeNewPrices(Solution.getInputScanner("price_list_smartphones.txt"));
+        Gadgets.initializePrices(Solution.getInputScanner("price_list.txt"));
 
         try {
             computeAvito();
@@ -336,14 +306,14 @@ public class Solution {
 //        iphonesYoula.generateFolders();
 
         //WebSite
-//        WebSiteGadgets webSiteGadgets = new WebSiteGadgets();
+//        AvitoGadgets webSiteGadgets = new AvitoGadgets();
 //        webSiteGadgets.initializeFromCSV();
 //        webSiteGadgets.synchronizePrices();
 //        webSiteGadgets.printCSVGadgets(getOutputWriter("Output", "shop_items.csv"));
 
         //Yandex-Market
 //        webSiteGadgets.printYMGadgets(getOutputWriter("Output", "yandex_market_items.csv"));
-////        avitoGadgets.generateGadgetFiles();
+////        webSiteGadgets.generateGadgetFiles();
 ////        galaxys.generateGadgetFiles();
     }
 

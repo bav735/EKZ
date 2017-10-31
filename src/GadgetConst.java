@@ -1,13 +1,16 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Scanner;
 
 /**
  * Created by A on 05.08.2017.
  */
 public class GadgetConst {
-    final static String NEW = "NEW";
+    final static String RST = "RST";
+    final static String RPC = "RPC";
+    final static String EST = "EST";
+    final static String REFnoTouchID = "REFnoTouchID";
+    final static String DCT = "DCT";
     final static String REF = "REF";
     final static String CPO = "CPO";
 
@@ -18,35 +21,32 @@ public class GadgetConst {
     public final static String[] CITIES_XML_FILE_END = new String[]{"msk", "tat"};
 
     public final static ArrayList<String> QUALITIES = new ArrayList<String>(Arrays.asList(
-            CPO,
+            RST,
+            RPC,
+            EST,
             REF,
-            NEW));
+            REFnoTouchID,
+            CPO,
+            DCT));
+
+    public final static ArrayList<String> QUALITIES_NAME = new ArrayList<String>(Arrays.asList(
+            "новый",
+            "замененный",
+            "новый",
+            "восстановлен",
+            "восстановлен noTouchID",
+            "как новый",
+            "уценка"));
 
     public final static ArrayList<String> QUALITIES_DESCRIPTION = new ArrayList<String>(Arrays.asList(
-            "восстановленный Apple",
-            "новый, активирован для проверки на отсутствие дефектов",
-            "новый, неактивированный"));
-
-    public final static ArrayList<String> PRICES_DESCRIPTION = new ArrayList<String>(Arrays.asList(
-            "",
-            "",
-            "с гарантией от магазина",
-            "",
-            "",
-            "",
-            "гарантия производителя",
-            "",
-            "",
-            "",
-            "",
-            "уценка/витринный образец",
-            "",
-            ""));
-
-    public final static ArrayList<String> QUALITIES_AD_NAME = new ArrayList<String>(Arrays.asList(
-            "Официальный",
-            "Новый",
-            "Новый"));
+            "новый, с полной официальной гарантией производителя 1 год в РФ",
+            "заменен на новый, с ограниченной официальной гарантией производителя в РФ",
+            "новый, без официальной гарантии производителя в РФ",
+            "восстановлен до состояния нового, без официальной гарантии производителя в РФ",
+            "восстановлен до состояния нового, не работает функция сканера отпечатка пальца (TouchID)," +
+                    " без официальной гарантии производителя в РФ",
+            "восстановлен до состояния нового, с полной официальной гарантией производителя 1 год в РФ",
+            "уценен (уточняйте причину уценки), с ограниченной либо без официальной гарантии производителя в РФ"));
 
     public final static ArrayList<String> VENDORS = new ArrayList<String>(Arrays.asList(
             "Samsung",
@@ -58,11 +58,27 @@ public class GadgetConst {
 
     public final static ArrayList<String> VENDOR_OFFERS = new ArrayList<String>(Arrays.asList(
             "самсунг галакси",
-            "айфоны",
+            "айфон",
             "сони икспериа",
             "htc",
             "ксиоми",
             "мейзу"));
+
+    public final static ArrayList<String> VENDOR_TITLES = new ArrayList<String>(Arrays.asList(
+            "Samsung Galaxy",
+            "Apple iPhone",
+            "Sony Xperia",
+            "HTC One",
+            "Xiaomi Redmi Note",
+            "Meizu"));
+
+    public final static ArrayList<Integer> VENDOR_PRICES = new ArrayList<>(Arrays.asList(
+            5000,
+            3000,
+            4000,
+            10000,
+            7000,
+            6000));
 
     public final static ArrayList<String> MODEL_LINES = new ArrayList<String>(Arrays.asList(
             "Galaxy",
@@ -80,7 +96,8 @@ public class GadgetConst {
             "32Gb",
             "64Gb",
             "128Gb",
-            "256Gb"));
+            "256Gb",
+            "512Gb"));
 
     public final static ArrayList<String> MODELS[] = new ArrayList[MODEL_LINES.size()];
 
@@ -88,9 +105,6 @@ public class GadgetConst {
         MODELS[0] = new ArrayList<String>(Arrays.asList(
                 //galaxys
                 "Grand Prime",
-                "Core Prime",
-                "C5",
-                "E7",
                 "Alpha",
                 "S3",
                 "S3 Mini",
@@ -111,27 +125,26 @@ public class GadgetConst {
                 "A5 (2015)",
                 "A5 (2016)",
                 "A5 (2017)",
-//                "A7 (2015)",
+                "A7 (2015)",
                 "A7 (2016)",
                 "A7 (2017)",
                 "J1 (2016)",
                 "J2 Prime",
                 "J3 (2016)",
-//                "J3 (2017)",
+                "J3 (2017)",
                 "J5 (2015)",
                 "J5 (2016)",
-                "J5 Prime",
                 "J5 (2017)",
                 "J7 (2015)",
                 "J7 (2016)",
                 "J7 (2017)",
                 "Note 3",
                 "Note 4",
-                "Note 5"));
+                "Note 5",
+                "Note 8"));
 
         MODELS[1] = new ArrayList<>(Arrays.asList(
                 //iphones
-                "4",
                 "4S",
                 "5",
                 "5C",
@@ -142,7 +155,9 @@ public class GadgetConst {
                 "6S Plus",
                 "SE",
                 "7",
-                "7 Plus"));
+                "7 Plus",
+                "8",
+                "8 Plus"));
 
         MODELS[2] = new ArrayList<>(Arrays.asList(
                 //xperias
@@ -196,45 +211,78 @@ public class GadgetConst {
                 "M5S"));
     }
 
+    public final static ArrayList<Integer> VENDOR_ADS_SIZE[] = new ArrayList[CITIES.length];
+
+    static {
+        VENDOR_ADS_SIZE[0] = new ArrayList<>(Arrays.asList(
+                86,//;"Samsung",
+                300,//"Apple",
+                30,///"Sony",
+                8,//"HTC",
+                46,//"Xiaomi",
+                13//"Meizu"));
+        ));
+
+        VENDOR_ADS_SIZE[1] = new ArrayList<>(Arrays.asList(
+                14,//;"Samsung",
+                150,//"Apple",
+                4,///"Sony",
+                2,//"HTC",
+                14,//"Xiaomi",
+                7//"Meizu"));
+        ));
+    }
+
+    public static final HashMap<String, Integer> MAP_VENDOR_ADS_SIZE[] = new HashMap[CITIES.length];
+
+    static {
+        for (int i = 0; i < CITIES.length; i++) {
+            MAP_VENDOR_ADS_SIZE[i] = new HashMap<>();
+            for (int j = 0; j < VENDORS.size(); j++) {
+                MAP_VENDOR_ADS_SIZE[i].put(VENDORS.get(j), VENDOR_ADS_SIZE[i].get(j));
+            }
+        }
+    }
+
     public final static ArrayList<ArrayList<String>> COLORS[] = new ArrayList[MODEL_LINES.size()];
 
     static {
         COLORS[0] = new ArrayList<ArrayList<String>>() {
             {
                 add(new ArrayList<String>(Arrays.asList("Gray", "White", "Gold")));//"Grand Prime
-                add(new ArrayList<String>(Arrays.asList("Gray", "White")));//"Core Prime
-                add(new ArrayList<String>(Arrays.asList("Dark Gray", "Gold", "Pink Gold")));//"C5
-                add(new ArrayList<String>(Arrays.asList("Black", "White", "Blue")));//"E7
-                add(new ArrayList<String>(Arrays.asList("Gray", "White", "Gold", "Silver")));//"Alpha
-                add(new ArrayList<String>(Arrays.asList("Black", "White", "Blue", "Red")));//s3
+//                add(new ArrayList<String>(Arrays.asList("Gray", "White")));//"Core Prime
+//                add(new ArrayList<String>(Arrays.asList("Dark Gray", "Gold", "Pink Gold")));//"C5
+//                add(new ArrayList<String>(Arrays.asList("Black", "White", "Blue")));//"E7
+                add(new ArrayList<String>(Arrays.asList("Gray", "White", "Gold"/*, "Silver"*/)));//"Alpha
+                add(new ArrayList<String>(Arrays.asList("Black", "White", "Blue"/*, "Red"*/)));//s3
                 add(new ArrayList<String>(Arrays.asList("Black", "White", "Blue")));//s3 mini
-                add(new ArrayList<String>(Arrays.asList("White Frost", "Black Mist", "Arctic Blue", "Black Edition")));//s4
+                add(new ArrayList<String>(Arrays.asList("White Frost", "Black Mist", "Arctic Blue"/*, "Black Edition"*/)));//s4
                 add(new ArrayList<String>(Arrays.asList("Black", "White")));//s4 mini
-                add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Blue")));//s5
-                add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Blue")));//s5 mini
-                add(new ArrayList<String>(Arrays.asList("Black Sapphire", "White Pearl", "Gold Platinum", "Blue Topaz")));//s6
+                add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold"/*, "Blue"*/)));//s5
+                add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold"/*, "Blue"*/)));//s5 mini
+                add(new ArrayList<String>(Arrays.asList("Black Sapphire", "White Pearl", "Gold Platinum"/*, "Blue Topaz"*/)));//s6
                 add(new ArrayList<String>(Arrays.asList("Black Sapphire", "White Pearl", "Gold Platinum", "Green Emerald")));//s6 edge
                 add(new ArrayList<String>(Arrays.asList("White Pearl", "Gold Platinum", "Black Sapphire")));//s6 edge+
-                add(new ArrayList<String>(Arrays.asList("Black Onyx", "Silver Titanium", "Gold Platinum", "White Pearl", "Pink Gold")));//s7
-                add(new ArrayList<String>(Arrays.asList("Black Onyx", "Silver Titanium", "Gold Platinum", "Smoke Sapphire", "White Pearl", "Pink Gold")));//s7 edge
+                add(new ArrayList<String>(Arrays.asList("Black Onyx", /*"Silver Titanium", */"Gold Platinum", "White Pearl"/*, "Pink Gold"*/)));//s7
+                add(new ArrayList<String>(Arrays.asList("Black Onyx", /*"Silver Titanium", */"Gold Platinum", /*"Smoke Sapphire", */"White Pearl"/*, "Pink Gold"*/)));//s7 edge
                 add(new ArrayList<String>(Arrays.asList("Midnight Black", "Orchid Gray", "Arctic Silver", "Coral Blue", "Maple Gold")));//s8
-                add(new ArrayList<String>(Arrays.asList("Midnight Black", "Orchid Gray", "Arctic Silver", "Coral Blue", "Maple Gold", "Rose Pink")));//s8+
+                add(new ArrayList<String>(Arrays.asList("Midnight Black", "Orchid Gray", "Arctic Silver", "Coral Blue", "Maple Gold"/*, "Rose Pink"*/)));//s8+
                 add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//a3 2015
                 add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//a3 2016
                 add(new ArrayList<String>(Arrays.asList("Black", "Gold", "Blue")));//a3 2017
                 add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Silver")));//a5 2015
                 add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Pink")));//a5 2016
                 add(new ArrayList<String>(Arrays.asList("Black", "Gold", "Blue")));//a5 2017
-//                add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//a7 2015
+                add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//a7 2015
                 add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//a7 2016
                 add(new ArrayList<String>(Arrays.asList("Black", "Gold", "Blue")));//a7 2017
                 add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//j1
                 add(new ArrayList<String>(Arrays.asList("Black", "Silver", "Gold", "Pink")));//j2 prime
                 add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//j3 2016
-//                add(new ArrayList<String>(Arrays.asList("Black", "Blue", "Gold", "Pink")));//j3 2017
+                add(new ArrayList<String>(Arrays.asList("Black", "Blue", "Gold", "Pink")));//j3 2017
                 add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//j5 2015
                 add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//j5 2016
-                add(new ArrayList<String>(Arrays.asList("Black", "Gold")));//j5 prime
+//                add(new ArrayList<String>(Arrays.asList("Black", "Gold")));//j5 prime
                 add(new ArrayList<String>(Arrays.asList("Black", "Blue", "Gold", "Pink")));//j5 2017
                 add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//j7 2015
                 add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//j7 2016
@@ -242,12 +290,12 @@ public class GadgetConst {
                 add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Pink")));//note 3
                 add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold", "Pink")));//note 4
                 add(new ArrayList<String>(Arrays.asList("Black Sapphire", "White Pearl", "Gold Platinum", "Silver Titanium")));//note 5
+                add(new ArrayList<String>(Arrays.asList("Midnight Black", "Maple Gold", "Blue Sapphire")));//note 8
             }
         };
 
         COLORS[1] = new ArrayList<ArrayList<String>>() {
             {
-                add(new ArrayList<>(Arrays.asList("Black", "White")));//4
                 add(new ArrayList<>(Arrays.asList("Black", "White")));//4s
                 add(new ArrayList<>(Arrays.asList("Black", "White")));//5
                 add(new ArrayList<>(Arrays.asList("White", "Blue", "Green", "Yellow", "Pink")));//5c
@@ -259,19 +307,21 @@ public class GadgetConst {
                 add(new ArrayList<>(Arrays.asList("Space Gray", "Silver", "Gold", "Rose Gold")));//se
                 add(new ArrayList<>(Arrays.asList("Black", "Silver", "Jet Black", "Gold", "Rose Gold", "(PRODUCT)RED")));//7
                 add(new ArrayList<>(Arrays.asList("Black", "Silver", "Jet Black", "Gold", "Rose Gold", "(PRODUCT)RED")));//7+
+                add(new ArrayList<>(Arrays.asList("Space Gray", "Silver", "Gold")));//8
+                add(new ArrayList<>(Arrays.asList("Space Gray", "Silver", "Gold")));//8+
             }
         };
 
         COLORS[2] = new ArrayList<ArrayList<String>>() {
             {
-                add(new ArrayList<String>(Arrays.asList("Black", "White", "Red")));//"SP"
+                add(new ArrayList<String>(Arrays.asList("Black", "White"/*, "Red"*/)));//"SP"
                 add(new ArrayList<String>(Arrays.asList("Black", "White", "Purple")));// "Z",
                 add(new ArrayList<String>(Arrays.asList("Black", "White", "Purple")));//"Z1",
-                add(new ArrayList<String>(Arrays.asList("Black", "White", "Pink", "Lime")));//"Z1 Compact",
+                add(new ArrayList<String>(Arrays.asList("Black", "White", "Pink"/*, "Lime"*/)));//"Z1 Compact",
                 add(new ArrayList<String>(Arrays.asList("Black", "White", "Purple")));//"Z2",
-                add(new ArrayList<String>(Arrays.asList("Black", "White", "Copper", "Silver Green", "Purple")));//"Z3",
-                add(new ArrayList<String>(Arrays.asList("Black", "White", "Green", "Orange")));//"Z3 Compact"
-                add(new ArrayList<String>(Arrays.asList("White", "Graphite Black", "Yellow", "Coral")));//"Z5 Compact"
+                add(new ArrayList<String>(Arrays.asList("Black", "White"/*, "Copper", "Silver Green"*/, "Purple")));//"Z3",
+                add(new ArrayList<String>(Arrays.asList("Black", "White", "Green"/*, "Orange"*/)));//"Z3 Compact"
+                add(new ArrayList<String>(Arrays.asList("White", "Graphite Black", /*"Yellow", */"Coral")));//"Z5 Compact"
             }
         };
 
@@ -289,9 +339,9 @@ public class GadgetConst {
             {
                 add(new ArrayList<String>(Arrays.asList("Gold", "Dark Gray", "Rose Gold")));//"4A",
                 add(new ArrayList<String>(Arrays.asList("Gold", "Black", "Pink")));//  "4X",
-                add(new ArrayList<String>(Arrays.asList("White", "Blue", "Yellow", "Pink", "Mint Green")));//"Note 2",
+                add(new ArrayList<String>(Arrays.asList("White", "Blue", "Yellow", "Pink"/*, "Mint Green"*/)));//"Note 2",
                 add(new ArrayList<String>(Arrays.asList("Gold", "Gray", "Black", "Pink")));// "Note 4X",
-                add(new ArrayList<String>(Arrays.asList("Gold", "Gray", "Black", "Lake Blue")));//"Note 4"));
+                add(new ArrayList<String>(Arrays.asList("Gold", "Gray", "Black"/*, "Lake Blue"*/)));//"Note 4"));
             }
         };
 
@@ -327,7 +377,6 @@ public class GadgetConst {
     }
 
     public static final HashMap<String, ArrayList<String>> MAP_MODEL_COLOR[] = new HashMap[MODEL_LINES.size()];
-    ;
 
     static {
         for (int i = 0; i < MODEL_LINES.size(); i++) {
@@ -339,40 +388,47 @@ public class GadgetConst {
     }
 
     public static final HashMap<String, String> MAP_VENDOR_OFFER;
+    public static final HashMap<String, String> MAP_VENDOR_TITLE;
+    public static final HashMap<String, Integer> MAP_VENDOR_PRICE;
 
     static {
         MAP_VENDOR_OFFER = new HashMap<>();
+        MAP_VENDOR_TITLE = new HashMap<>();
+        MAP_VENDOR_PRICE = new HashMap<>();
         for (int i = 0; i < VENDORS.size(); i++) {
             MAP_VENDOR_OFFER.put(VENDORS.get(i), VENDOR_OFFERS.get(i));
+            MAP_VENDOR_TITLE.put(VENDORS.get(i), VENDOR_TITLES.get(i));
+            MAP_VENDOR_PRICE.put(VENDORS.get(i), VENDOR_PRICES.get(i));
         }
     }
 
     public static final HashMap<String, String> MAP_QUALITY_DESCRIPTION;
+    public static final HashMap<String, String> MAP_QUALITY_NAME;
 
     static {
         MAP_QUALITY_DESCRIPTION = new HashMap<>();
+        MAP_QUALITY_NAME = new HashMap<>();
         for (int i = 0; i < QUALITIES.size(); i++) {
             MAP_QUALITY_DESCRIPTION.put(QUALITIES.get(i), QUALITIES_DESCRIPTION.get(i));
+            MAP_QUALITY_NAME.put(QUALITIES.get(i), QUALITIES_NAME.get(i));
         }
     }
 
+    /*
     public static final HashMap<String, String> MAP_PRICES_DESCRIPTION;
 
     static {
         MAP_PRICES_DESCRIPTION = new HashMap<>();
-        for (int i = 0; i < Gadgets.newPriceAttributeNames.length; i++) {
-            MAP_PRICES_DESCRIPTION.put(Gadgets.newPriceAttributeNames[i], PRICES_DESCRIPTION.get(i));
+        for (int i = 0; i < Gadgets.priceAttributeNames.length; i++) {
+            MAP_PRICES_DESCRIPTION.put(Gadgets.priceAttributeNames[i], PRICES_DESCRIPTION.get(i));
         }
     }
 
-    public static final HashMap<String, String> MAP_QUALITY_AD_NAME;
-
-    static {
-        MAP_QUALITY_AD_NAME = new HashMap<>();
-        for (int i = 0; i < QUALITIES.size(); i++) {
-            MAP_QUALITY_AD_NAME.put(QUALITIES.get(i), QUALITIES_AD_NAME.get(i));
-        }
-    }
+    public final static ArrayList<String> PRICES_DESCRIPTION = new ArrayList<String>(Arrays.asList(
+            "по предоплате, бесплатная доставка по РФ, от 2 дней",
+            "cамовывоз Москва, курьерская доставка +400\u20BD",
+            "cамовывоз Регионы, курьерская доставка +300\u20BD",
+            "+ремонтное обслуживание в течение 1 года"));
 
     public final static HashMap<String, int[]> MAP_METAMODEL_ADS_PER_MONTH = new HashMap<>();
 
@@ -390,7 +446,7 @@ public class GadgetConst {
         inScanner.close();
     }
 
-    /*public final static ArrayList<ArrayList<String>> SUB_MODELS[] = new ArrayList[MODEL_LINES.size()];
+    public final static ArrayList<ArrayList<String>> SUB_MODELS[] = new ArrayList[MODEL_LINES.size()];
 
     static {
         public static final HashMap<String, ArrayList<String>> MAP_MODEL_SUBMODEL[] = new HashMap[MODEL_LINES.size()];
@@ -515,5 +571,20 @@ public class GadgetConst {
                 subModelList.add(newSubModel);
             }
         }
-    }*/
+    }
+
+    public static final HashMap<String, String> MAP_QUALITY_AD_NAME;
+
+    public final static ArrayList<String> QUALITIES_AD_NAME = new ArrayList<String>(Arrays.asList(
+            "Официальный",
+            "Новый",
+            "Новый"));
+
+    static {
+        MAP_QUALITY_AD_NAME = new HashMap<>();
+        for (int i = 0; i < QUALITIES.size(); i++) {
+            MAP_QUALITY_AD_NAME.put(QUALITIES.get(i), QUALITIES_AD_NAME.get(i));
+        }
+    }
+    */
 }

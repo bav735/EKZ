@@ -6,7 +6,7 @@ import java.util.*;
  * Created by A on 09.06.2017.
  */
 public class CategoryTree {
-    public final static int LEAF_MIN_SIZE = 3;
+    public final static int LEAF_MIN_SIZE = 4;
     public static int maxId = 5003;
 
     static HashMap<String, String> idsMap = new HashMap<>();
@@ -112,7 +112,7 @@ public class CategoryTree {
         System.out.println("$" + name);
         System.out.println("children:");
         for (Gadget gadget : gadgets) {
-            System.out.println(gadget.getCategoryTreeName());
+            System.out.println(gadget.getWebSiteName());
         }
         for (CategoryTree child : children) {
             child.printToScreen();
@@ -145,22 +145,19 @@ public class CategoryTree {
         }
     }*/
 
-    public void printYMSelected(BufferedWriter bufferedWriter, HashSet<String> selectedItems) throws IOException {
+    public void printYMSelected(BufferedWriter bufferedWriter, LinkedHashSet<String> selectedItems)
+            throws IOException {
         for (int i = 0; i < gadgets.size(); i++) {
             Gadget gadget = gadgets.get(i);
             if (selectedItems.contains(gadget.getGoogleSheetsName())) {
-                String price = Gadgets.getPrice(gadget.getPriceListName(), Gadgets.RST_WEBSITE, true);
                 boolean warranty = true;
-                if (price.length() == 1) {
-                    warranty = false;
-                    price = Gadgets.getPrice(gadget.getPriceListName(), Gadgets.EST_WEBSITE, true);
-                }
+                String price = Gadgets.getPrice(gadget.initialGadget, Gadgets.REGIONS_PRICE);
                 bufferedWriter.write(gadget.id + ";true;" +
                         price +
                         ";RUR;Мобильные телефоны;" +
                         gadget.imageUrl +
                         ";http://ispark.info/product/" + gadget.id +
-                        ";\"" + gadget.webSiteName + "\";");
+                        ";\"" + gadget.getWebSiteName() + "\";");
                 if (warranty) {
                     bufferedWriter.write("\"Официальная гарантия. Оплата: в кредит, наличными, по карте.\";" +
                             "true\n");
@@ -179,14 +176,14 @@ public class CategoryTree {
         for (CategoryTree child : children) {
             for (Gadget gadget : child.gadgets) {
 //                System.out.println(gadget.getPriceListName() + "$");
-                if (AvitoGadgets.inPriceList(gadget.getPriceListName())) {
+                if (WebSiteGadgets.inPriceList(gadget.getPriceListName())) {
                     if (true*//*gadget.getSubModel().equals(GadgetConst.MAP_MODEL_SUBMODEL
                             .get(gadget.getPriceListModel()).get(1))*//*) {
-                        gadget.price = AvitoGadgets.getPriceRetailMax(gadget.getPriceListName(), 1) + "";
+                        gadget.price = WebSiteGadgets.getPriceRetailMax(gadget.getPriceListName(), 1) + "";
                         gadget.description = ("Тип товара: Ростест (NEW)\n").concat(gadget.description);
                         gadget.manufacturerWarranty = true;
                     } else {
-                        gadget.price = AvitoGadgets.getPriceRetailMax(gadget.getPriceListName(), 0) + "";
+                        gadget.price = WebSiteGadgets.getPriceRetailMax(gadget.getPriceListName(), 0) + "";
                         gadget.description = ("Тип товара: Евротест (RFB)\n").concat(gadget.description);
                         if (gadget.model.contains("Без Отп")) {
                             gadget.description = ("TouchID (отпечаток пальца): не работает\n").concat(gadget.description);
@@ -213,16 +210,14 @@ public class CategoryTree {
             bufferedWriter.write(child.id);
             bufferedWriter.write(";;;;;;;;;;;;;;;\n");
             for (Gadget gadget : child.gadgets) {
-                if (gadget.namePrefix.equals("Смартфон")) {
+                if (gadget.namePrefix.startsWith("Смартфон")) {
                     String priceNames[] = new String[]{
-                            Gadgets.RST_WEBSITE,
-                            Gadgets.EST_WEBSITE,
-                            Gadgets.DCT_WEBSITE,
+                            Gadgets.REGIONS_PRICE,
+                            Gadgets.MOSCOW_PRICE,
+                            Gadgets.PREPAY_PRICE,
                     };
                     for (String priceName : priceNames) {
-                        if (Gadgets.getPrice(gadget.getPriceListName(), priceName, true).length() > 1) {
-                            bufferedWriter.write(gadget.getCSV(child, priceName));
-                        }
+                        bufferedWriter.write(gadget.getCSV(child, priceName));
                     }
                 } else {
                     bufferedWriter.write(gadget.getCSV(child, ""));
