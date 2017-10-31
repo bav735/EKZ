@@ -10,11 +10,6 @@ import java.util.LinkedHashSet;
 public class AvitoGadgets extends Gadgets {
     public ArrayList<ArrayList<String>> gadgets = new ArrayList<>();
     final static int MAX_MODEL_VARIETY_COUNT = 10000;
-    final static int TIME_DAY_SEC = 12 * 60 * 60;
-    final static int TIME_MONTH_SEC = 30 * TIME_DAY_SEC;
-    final static int HOUR_BEGIN = 9;
-    final static int MINUTE_BEGIN = 8;
-    final static int ADS_COUNT_BORDER = 300;
 
     public AvitoGadgets() {
         LinkedHashSet<String> selectedAvitoItems = Solution.getHashSetFromInput("selected_avito_items.txt");
@@ -199,14 +194,6 @@ public class AvitoGadgets extends Gadgets {
         return mapGadgetModelGadgets;
     }
 
-    private String formatDateElem(int dateElem) {
-        String res = "" + dateElem;
-        if (dateElem < 10) {
-            res = "0" + dateElem;
-        }
-        return res;
-    }
-
     private String getMetaModel(ArrayList<String> gadget) {
         return gadget.get(mapGadgetAttributeNumber.get(MODEL_LINE)) + " " +
                 gadget.get(mapGadgetAttributeNumber.get(MODEL));
@@ -242,25 +229,7 @@ public class AvitoGadgets extends Gadgets {
             }
 
             for (groupId = 0; groupId < gadgetGroups.length; groupId++) {
-                int timeIntervalSec = TIME_MONTH_SEC / gadgetGroups.length;
-                if (gadgetGroups.length >= ADS_COUNT_BORDER) {
-                    timeIntervalSec = TIME_DAY_SEC / 9;
-                }
-                int gadgetTimeSec = groupId * timeIntervalSec;
-                int gadgetTimeDay = gadgetTimeSec / TIME_DAY_SEC + 1;
-                gadgetTimeSec %= TIME_DAY_SEC;
-                int gadgetTimeHour = gadgetTimeSec / 3600 + HOUR_BEGIN;
-                gadgetTimeSec %= 3600;
-                int gadgetTimeMin = gadgetTimeSec / 60 + MINUTE_BEGIN;
-                gadgetTimeSec %= 60;
-                String dateEnd = "T" + formatDateElem(gadgetTimeHour) + ":" +
-                        formatDateElem(gadgetTimeMin) + ":" +
-                        formatDateElem(gadgetTimeSec) + "+03:00";
-                gadgetGroups[groupId].id = groupId;
-                gadgetGroups[groupId].xmlDay = gadgetTimeDay;
-                gadgetGroups[groupId].dateBeginRight = dateEnd;
-                gadgetGroups[groupId].cityId = cityId;
-                gadgetGroups[groupId].isNoDate = (gadgetGroups.length == 1);
+                gadgetGroups[groupId].initialize(groupId, gadgetGroups.length, cityId);
                 xml += gadgetGroups[groupId].getXmlAd();
 //                    generateAmoledDirsPhotos(gadgets.get(gadgetNum));
             }

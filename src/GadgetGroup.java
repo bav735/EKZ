@@ -5,30 +5,40 @@ import java.util.Calendar;
  * Created by A on 31.10.2017.
  */
 public class GadgetGroup extends Gadgets {
-    final static int DAYS_OFFSET = 1; //установлено 11.10.17
+    final static int TIME_DAY_SEC = 12 * 60 * 60;
+    final static int TIME_MONTH_SEC = 30 * TIME_DAY_SEC;
+    final static int HOUR_BEGIN = 9;
+    final static int ADS_COUNT_BORDER = 300;
+    final static boolean IS_NEW_LOAD = true;
+    final static int DAYS_OFFSET = 1;
+    final static long MILLISECONDS_OFFSET = (10 * 60) * 1000;
     ArrayList<ArrayList<String>> gadgets;
     String country;
     int xmlDay;
-    String dateBeginRight;
+    int xmlMinute;
+    int xmlHour;
+    int xmlSecond;
     int cityId;
     boolean isNoDate;
     int id;
     public static final Calendar CALENDAR_ZERO;
+    public static final Calendar CALENDAR_CURRENT;
     public static final int DAY_NUM_GLOBAL;
 
     static {
-        CALENDAR_ZERO = Calendar.getInstance();
+        CALENDAR_CURRENT = Calendar.getInstance();
+        CALENDAR_ZERO = (Calendar) CALENDAR_CURRENT.clone();
         CALENDAR_ZERO.set(Calendar.YEAR, 2017);
-        CALENDAR_ZERO.set(Calendar.MONTH, 8);//september
-        CALENDAR_ZERO.set(Calendar.DAY_OF_MONTH, 15);
-        setCalendarToZero(CALENDAR_ZERO);
-        Calendar calendar = Calendar.getInstance();
-        setCalendarToZero(calendar);
+        CALENDAR_ZERO.set(Calendar.MONTH, 9);//october
+        CALENDAR_ZERO.set(Calendar.DAY_OF_MONTH, 31);
+        resetCalendar(CALENDAR_ZERO);
+        Calendar calendar = (Calendar) CALENDAR_CURRENT.clone();
+        resetCalendar(calendar);
         DAY_NUM_GLOBAL = (int) ((calendar.getTimeInMillis() - CALENDAR_ZERO.getTimeInMillis())
-                / 1000 / 3600 / 24) + 1;
+                / 1000 / 60 / 60 / 24) + 1;
     }
 
-    private static void setCalendarToZero(Calendar calendar) {
+    private static void resetCalendar(Calendar calendar) {
         calendar.set(Calendar.HOUR_OF_DAY, 0);
         calendar.set(Calendar.MINUTE, 0);
         calendar.set(Calendar.SECOND, 0);
@@ -56,25 +66,39 @@ public class GadgetGroup extends Gadgets {
         return GadgetConst.MAP_VENDOR_PRICE.get(getVendor()) + "";
     }
 
+    private void checkWhileNewLoad(Calendar calendar) {
+        if (IS_NEW_LOAD) {
+            if (CALENDAR_CURRENT.get(Calendar.DAY_OF_MONTH) == calendar.get(Calendar.DAY_OF_MONTH)) {
+                if (calendar.getTimeInMillis() < CALENDAR_CURRENT.getTimeInMillis() - MILLISECONDS_OFFSET) {
+                    calendar.add(Calendar.DAY_OF_MONTH, 30);
+                }
+            }
+        }
+    }
+
     public String getXmlAd() {
 //        System.out.println("check:" + isInitial);
         String ad = "\t<Ad>\n";
         ad += "\t\t<Id>" + getIdXML() + "</Id>\n";
         if (!isNoDate) {
-            Calendar calendarZero = (Calendar) CALENDAR_ZERO.clone();
+            Calendar calendarCurrent = (Calendar) CALENDAR_ZERO.clone();
             int dayNumCurrentMonth = (DAY_NUM_GLOBAL - 1) % 30 + 1;
-            calendarZero.add(Calendar.DAY_OF_MONTH, DAY_NUM_GLOBAL - dayNumCurrentMonth - 1 + xmlDay);
+            calendarCurrent.add(Calendar.DAY_OF_MONTH, DAY_NUM_GLOBAL - dayNumCurrentMonth - 1 + xmlDay);
+//            System.out.println(checkWhileNewLoad());
             if (dayNumCurrentMonth <= DAYS_OFFSET) {
                 if (xmlDay > dayNumCurrentMonth + 30 - DAYS_OFFSET) {
-                    calendarZero.add(Calendar.DAY_OF_MONTH, -30);
+                    calendarCurrent.add(Calendar.DAY_OF_MONTH, -30);
                 }
             } else {
                 if (xmlDay <= dayNumCurrentMonth - DAYS_OFFSET) {
-                    calendarZero.add(Calendar.DAY_OF_MONTH, 30);
+                    calendarCurrent.add(Calendar.DAY_OF_MONTH, 30);
                 }
             }
-            String dateBeginLeft = getDateByCalendar(calendarZero);
-            ad += "\t\t<DateBegin>" + dateBeginLeft + dateBeginRight + "</DateBegin>\n";
+            calendarCurrent.set(Calendar.HOUR_OF_DAY, xmlHour);
+            calendarCurrent.set(Calendar.MINUTE, xmlMinute);
+            calendarCurrent.set(Calendar.SECOND, xmlSecond);
+            checkWhileNewLoad(calendarCurrent);
+            ad += "\t\t<DateBegin>" + getDateByCalendar(calendarCurrent) + "</DateBegin>\n";
         }
         ad += "\t\t<AllowEmail>Нет</AllowEmail>\n";
         ad += "\t\t<ManagerName>Оператор-консультант</ManagerName>\n";
@@ -143,7 +167,18 @@ public class GadgetGroup extends Gadgets {
     private String getDateByCalendar(Calendar calendar) {
         return calendar.get(Calendar.YEAR) + "-" +
                 convertToTwoDigit(calendar.get(Calendar.MONTH) + 1) + "-" +
-                convertToTwoDigit(calendar.get(Calendar.DAY_OF_MONTH));
+                convertToTwoDigit(calendar.get(Calendar.DAY_OF_MONTH)) +
+                "T" + convertToTwoDigit(calendar.get(Calendar.HOUR_OF_DAY)) + ":" +
+                convertToTwoDigit(calendar.get(Calendar.MINUTE)) + ":" +
+                convertToTwoDigit(calendar.get(Calendar.SECOND)) + "+03:00";
+    }
+
+    private String formatHourMinuteSecond(int dateElem) {
+        String res = "" + dateElem;
+        if (dateElem < 10) {
+            res = "0" + dateElem;
+        }
+        return res;
     }
 
     private String convertToTwoDigit(int num) {
@@ -175,5 +210,26 @@ public class GadgetGroup extends Gadgets {
 
     private String getPriceByCity(ArrayList<String> gadget, int cityId) {
         return getPrice(gadget, priceAttributeNames[cityId + 1]);
+    }
+
+    public void initialize(int groupId, int groupsSize, int cityId) {
+        int timeIntervalSec = TIME_MONTH_SEC / groupsSize;
+        xmlSecond = groupId * timeIntervalSec;
+        xmlDay = (xmlSecond - 1) / TIME_DAY_SEC + 1;
+        xmlSecond %= TIME_DAY_SEC;
+        xmlHour = xmlSecond / 3600 + HOUR_BEGIN;
+        xmlSecond %= 3600;
+        xmlMinute = xmlSecond / 60;
+        xmlSecond %= 60;
+        id = groupId;
+        isNoDate = (groupsSize == 1);
+        if (groupsSize >= ADS_COUNT_BORDER) {
+            xmlDay = groupId / 10 + 1;
+            xmlSecond = 0;
+            xmlMinute = (groupId % 10) * 80;
+            xmlHour = xmlMinute / 60 + HOUR_BEGIN;
+            xmlMinute %= 60;
+        }
+        this.cityId = cityId;
     }
 }
