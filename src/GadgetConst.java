@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
+import java.util.*;
 
 /**
  * Created by A on 05.08.2017.
@@ -65,12 +63,12 @@ public class GadgetConst {
             "мейзу"));
 
     public final static ArrayList<String> VENDOR_TITLES = new ArrayList<String>(Arrays.asList(
-            "Samsung Galaxy",
-            "Apple iPhone",
-            "Sony Xperia",
-            "HTC One",
-            "Xiaomi Redmi Note",
-            "Meizu"));
+            "Samsung Galaxy S3/S4/S5/S6/S7/A3/A5/A7/Note 3/4/5",
+            "Apple iPhone 4S/5/5C/5S/6/6S/SE/7/Plus. Магазин",
+            "Sony Xperia SP/Z/Z1/Z2/Z3/Z5/Compact. Магазин",
+            "HTC One M8/M9. Магазин",
+            "Xiaomi Redmi 4A/4X/Note 4/Mi5/Mi5C/Mi5S/Mix/Max 2",
+            "Meizu Pro/M3X/M5C/M5/M5S/Note. Магазин"));
 
     public final static ArrayList<Integer> VENDOR_PRICES = new ArrayList<>(Arrays.asList(
             5000,
@@ -412,6 +410,24 @@ public class GadgetConst {
             MAP_QUALITY_DESCRIPTION.put(QUALITIES.get(i), QUALITIES_DESCRIPTION.get(i));
             MAP_QUALITY_NAME.put(QUALITIES.get(i), QUALITIES_NAME.get(i));
         }
+    }
+
+    public static final ArrayList<String> COUNTRIES;
+    public static final HashMap<String, String> MAP_COUNTRIES_OPERATOR;
+
+    static {
+        LinkedHashSet<String> countries = Solution.getHashSetFromInput("countries.txt");
+        COUNTRIES = new ArrayList<>(countries);
+        MAP_COUNTRIES_OPERATOR = new HashMap<>();
+        Scanner inScanner = Solution.getInputScanner("countries_description.txt");
+        while (inScanner.hasNextLine()) {
+            String potentialCountry = inScanner.nextLine();
+            if (countries.contains(potentialCountry)) {
+                String operator = inScanner.nextLine();
+                MAP_COUNTRIES_OPERATOR.put(potentialCountry, operator);
+            }
+        }
+        inScanner.close();
     }
 
     /*

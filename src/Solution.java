@@ -5,11 +5,7 @@ import java.util.*;
 import java.util.regex.Pattern;
 
 public class Solution {
-    //    public final static String MVIDEO_XML = "shop_items_global.xml";
-//    public final static String CUSTOM_XML = "shop_items.xml";
     public final static String BASE_XML = "shop_items.xml";
-    //    public static String SHOP_ITEMS_XML = CUSTOM_XML;
-//    public static int counter = 0;
 
     public static Scanner getInputScanner(String fileName) {
         try {
@@ -229,26 +225,7 @@ public class Solution {
         LinkedHashSet<String> selectedItems = new LinkedHashSet<>();
         while (inScanner.hasNextLine()) {
             String line = inScanner.nextLine();
-//            String[] split = line.split("\\s+");
-//            String modelLine = split[1];
-//            int modelLineId = -1;
-//            ArrayList<String> models = new ArrayList<>();
-//            for (int i = 0; i < GadgetConst.MODEL_LINES.size(); i++) {
-//                if (modelLine.equals(GadgetConst.MODEL_LINES.get(i))) {
-//                    models = GadgetConst.MODELS[i];
-//                    modelLineId = i;
-//                    break;
-//                }
-//            }
-//            ArrayList<String> colors = new ArrayList<>();
-//            for (String model : models) {
-//                if (line.contains(modelLine + " " + model)) {
-//                    colors = GadgetConst.MAP_MODEL_COLOR[modelLineId].get(model);
-//                }
-//            }
-//            for (int i = 0; i < 2; i++) {
-            selectedItems.add(line /*+ " " + colors.get(i)*/);
-//            }
+            selectedItems.add(line);
         }
         inScanner.close();
         return selectedItems;
@@ -280,7 +257,7 @@ public class Solution {
             BufferedWriter writer = Solution.getOutputWriter("Output/Avito/", "AdsXML_" +
                     GadgetConst.CITIES_XML_FILE_END[cityId] + ".xml");
             writer.write("<Ads formatVersion=\"3\" target=\"Avito.ru\">\n");
-            System.out.println("city="+cityId);
+            System.out.println("city=" + cityId);
             AvitoGadgets avitoGadgets = new AvitoGadgets();
             avitoGadgets.generateXML(writer, cityId);
             writer.write("</Ads>");

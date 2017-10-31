@@ -1,36 +1,18 @@
 Albania
-
-
 Telekom
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
-
-
 Vodafone
 FaceTime over cellular1
 Personal Hotspot2
-
 Andorra
-
-
 Andorra Telecom
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 Austria
-
-
-3
-FaceTime over Cellular1
-LTE
-Personal Hotspot2
-Unlocking2
-Visual Voicemail
-
-
 A1
 FaceTime over Cellular1
 LTE
@@ -44,132 +26,84 @@ LTE
 Personal Hotspot2
 Unlocking2
 Visual Voicemail
-
-
 Azerbaijan
-
-
 Azercell
 FaceTime over Cellular1
 Personal Hotspot2
-
 Belarus
-
-
 Life
 FaceTime over Cellular1
 Personal Hotspot2
-
 velcom
 FaceTime over Cellular1
 Personal Hotspot2
-
-
 Belgium
-
-
 BASE
 FaceTime over Cellular1
 LTE
 Visual Voicemail
 Personal Hotspot2
-
 Mobistar
 FaceTime over Cellular1
 LTE
 Visual Voicemail
 Personal Hotspot2
-
-
 Proximus
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE5
-
-
 Telenet
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Wi-Fi Calling
-
-
 Bosnia
-
-
 Blicnet3
 FaceTime over Cellular1
 Personal Hotspot
-
-
 m:tel
 FaceTime over Cellular1
 Personal Hotspot2
-
-
 Bulgaria
-
-
 M-Tel
 FaceTime over Cellular1
 Personal Hotspot2
 LTE
-
 Telenor
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Croatia
-
-
 Hrvatski Telekom3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
 Visual Voicemail
-
-
 Vip
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Cyprus
-
-
 Cyta
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 MTN
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 PrimeTel
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Czech Republic
-
-
 O23
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE5
-
-
 T-Mobile3
 FaceTime over Cellular1
 LTE
@@ -177,106 +111,67 @@ Personal Hotspot2
 Visual Voicemail
 VoLTE5
 Wi-Fi Calling
-
-
 Vodafone3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE5
 Wi-Fi Calling
-
-
 Denmark
-
-
-33
-FaceTime over Cellular1
-LTE
-Personal Hotspot2
-Unlocking2
-Visual Voicemail
-VoLTE
-Wi-Fi Calling
-
 Telia3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 TDC3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Wi-Fi Calling
 VoLTE
-
 Telenor3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE5
 Wi-Fi Calling
-
-
-
 Estonia
-
-
 Elisa
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 EMT3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
-
-
 Tele2
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 Finland
-
-
 DNA3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 Elisa3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Saunalahti3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Telia3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 France
-
-
 NRJ Mobile
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Visual Voicemail
 Unlocking2
-
 Bouygues
 FaceTime over Cellular1
 LTE
@@ -285,24 +180,16 @@ Unlocking2
 Visual Voicemail
 VoLTE5
 Wi-Fi Calling
-
-
-
-
-
 Free Mobile
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Visual Voicemail
-
 La Poste Mobile
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
-
-
 Orange
 FaceTime over Cellular1
 LTE
@@ -311,7 +198,6 @@ Unlocking2
 Visual Voicemail
 VoLTE5
 Wi-Fi Calling
-
 SFR
 FaceTime over Cellular1
 LTE
@@ -320,30 +206,11 @@ Unlocking2
 Visual Voicemail
 VoLTE5
 Georgia
-
-
 Geocell
 LTE
 Personal Hotspot2
 FaceTime over Cellular1
-
 Germany
-
-
-1&1
-FaceTime over Cellular1
-Personal Hotspot2
-LTE
-Visual Voicemail
-O2
-FaceTime over Cellular1
-Personal Hotspot2
-LTE
-Visual Voicemail
-VoLTE5
-Wi-Fi Calling
-
-
 Telekom
 FaceTime over Cellular1
 LTE
@@ -360,204 +227,124 @@ Unlocking2
 Visual Voicemail
 VoLTE5
 Wi-Fi Calling
-
-
 Gibraltar
-
-
 Gibtel
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 Greece
-
-
 Cosmote3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE
 Wi-Fi Calling
-
-
 Vodafone3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Wind3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Greenland
-
-
 Tele Greenland3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Hungary
-
-
 Magyar Telekom3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
 VoLTE
-
 Telenor
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
-
-
 Vodafone3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
-
-
 Iceland
-
-
 Nova3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Visual Voicemail
-
-
 Siminn3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Vodafone3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Ireland
-
-
-3
-FaceTime over Cellular1
-LTE
-Personal Hotspot2
-Unlocking2
-
-
 Eir
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
 Wi-Fi Calling
-
 Vodafone
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
-
-
 Isle of Man
-
-
 Manx Telecom
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Sure Mobile
 FaceTime over Cellular1
 LTE
 Personal Hotspot
-
-
 Italy
-
-
-3
-FaceTime over Cellular1
-LTE
-Personal Hotspot2
-
-
 TIM4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE5
-
-
 Vodafone
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE5
-
-
 Jersey
-
-
 Jersey Telecom
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Kosovo
-
-
 IPKO Telekom3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Latvia
-
-
 Bite
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 LMT3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
-
-
 Tele2
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 Liechtenstein
-
-
 Salt
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
-
-
 Swisscom
 FaceTime over Cellular1
 LTE
@@ -566,11 +353,7 @@ Unlocking2
 Visual Voicemail
 VoLTE5
 Wi-Fi Calling
-
-
 Lithuania
-
-
 Bite
 FaceTime over Cellular1
 LTE
@@ -579,113 +362,72 @@ Omnitel3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Tele2
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 Luxembourg
-
-
 Orange
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Visual Voicemail
-
-
 Post Telecom
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Tango Mobile
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Macedonia
-
-
 T-Mobile3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
 Visual Voicemail
-
-
 One Telecom3
 FaceTime over Cellular1
 Personal Hotspot2
 Unlocking
-
-
 Vip
 FaceTime over Cellular1
 Personal Hotspot2
-
 Malta
-
-
 Vodafone3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 Moldova
-
-
 Moldcell
 FaceTime over Cellular1
 LTE
 Personal Hotspot
-
-
 Orange
 FaceTime over Cellular1
 LTE
 Personal Hotspot
-
-
 Monaco
-
-
 Monaco Telecom3
 FaceTime over Cellular1
 LTE
 Personal Hotspot
 Visual Voicemail
-
-
 Montenegro
-
-
 Crnogorski Telekom3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
-
 m:tel
 FaceTime over Cellular1
 Personal Hotspot2
-
-
-
 Telenor
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Netherlands
-
-
 KPN
 FaceTime over Cellular1
 LTE
@@ -697,24 +439,18 @@ LTE
 Personal Hotspot2
 Visual Voicemail
 VoLTE5
-
-
 Tele2
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE
-
 Vodafone
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE
 Wi-Fi Calling
-
 Norway
-
-
 Telia3
 FaceTime over Cellular1
 LTE
@@ -722,8 +458,6 @@ Personal Hotspot2
 Visual Voicemail
 VoLTE5
 Wi-Fi Calling
-
-
 Telenor3
 FaceTime over Cellular1
 LTE
@@ -732,11 +466,7 @@ Unlocking2
 VoLTE5
 Visual Voicemail
 Wi-Fi Calling
-
-
 Poland
-
-
 Orange3
 FaceTime over Cellular1
 LTE
@@ -744,16 +474,12 @@ Personal Hotspot2
 Unlocking2
 VoLTE
 Wi-Fi Calling
-
-
 Play3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Visual Voicemail
 Wi-Fi Calling
-
-
 T-Mobile3
 FaceTime over Cellular1
 LTE
@@ -762,25 +488,18 @@ Unlocking2
 Visual Voicemail
 VoLTE
 Wi-Fi Calling
-
 Portugal
-
-
 MEO3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
 Visual Voicemail
-
-
 NOS3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Visual Voicemail
-
-
 Vodafone3
 FaceTime over Cellular1
 LTE
@@ -788,11 +507,7 @@ Personal Hotspot2
 Unlocking2
 Visual Voicemail
 VoLTE5
-
-
 Romania
-
-
 Orange3
 FaceTime over Cellular1
 LTE
@@ -800,24 +515,16 @@ Personal Hotspot2
 Unlocking2
 VoLTE5
 Wi-Fi Calling
-
-
 Telekom3,6
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Vodafone3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
-
-
 Russia
-
-
 Beeline3
 FaceTime over Cellular1
 LTE
@@ -829,8 +536,6 @@ Personal Hotspot2
 Unlocking
 Visual Voicemail
 VoLTE
-
-
 MTS
 FaceTime over Cellular1
 LTE
@@ -840,55 +545,36 @@ Tele2
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
-
 Yota
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 Serbia
-
-
 Telekom Serbia
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Telenor
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Vip
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 Slovakia
-
-
 O2 Slovakia3
 FaceTime over Cellular1
 Personal Hotspot2
-
-
 Orange3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 Slovak Telekom3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 Slovenia
-
-
 A1 Slovenija
 FaceTime over Cellular1
 LTE
@@ -898,17 +584,13 @@ FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE
-
 Spain
-
-
 Movistar
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
 Visual Voicemail
-
 Orange
 FaceTime over Cellular1
 LTE
@@ -916,55 +598,34 @@ Personal Hotspot2
 Unlocking2
 VoLTE
 Wi-Fi Calling
-
-
 Vodafone
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
 VoLTE5
-
-
 Yoigo
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
-
-
 Sweden
-
-
-3
-FaceTime over Cellular1
-LTE
-Personal Hotspot2
-Unlocking2
-Visual Voicemail
-Wi-Fi Calling
-
 Tele2
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Visual Voicemail
-
-
 Telenor
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
-
 Telia
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE
 Switzerland
-
-
 Salt
 FaceTime over Cellular1
 LTE
@@ -972,7 +633,6 @@ Personal Hotspot2
 Unlocking2
 Visual Voicemail
 Wi-Fi Calling
-
 Sunrise
 FaceTime over Cellular1
 LTE
@@ -981,10 +641,6 @@ Unlocking2
 Visual Voicemail
 VoLTE5
 Wi-Fi Calling
-
-
-
-
 Swisscom
 FaceTime over Cellular1
 LTE
@@ -993,61 +649,35 @@ Unlocking2
 Visual Voicemail
 VoLTE5
 Wi-Fi Calling
-
 UPC
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 Turkey
-
-
 Turk Telekom3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE
-
-
 Turkcell3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE
 Wi-Fi Calling
-
 Vodafone3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE5
 Wi-Fi Calling
-
-
 Ukraine
-
-
 Kyivstar3
 FaceTime over Cellular1
-
 Lifecell
 FaceTime
 Personal Hotspot
 United Kingdom
-
-
-3
-FaceTime over Cellular1
-LTE
-Personal Hotspot2
-Unlocking2
-VoLTE5
-Wi-Fi Calling
-BT
-FaceTime over Cellular1
-LTE
-Personal Hotspot2
-
 EE
 FaceTime over Cellular1
 LTE
@@ -1056,13 +686,10 @@ Unlocking2
 Visual Voicemail
 VoLTE5
 Wi-Fi Calling
-
-
 Giffgaff
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 O2
 FaceTime over Cellular1
 LTE
@@ -1071,17 +698,13 @@ Unlocking2
 Visual Voicemail
 VoLTE
 Wi-Fi Calling
-
 Sky
 FaceTime
 LTE
 Personal Hotspot
-
 Talk Mobile
 FaceTime over Cellular1
 Canada
-
-
 Bell
 FaceTime over Cellular
 LTE
@@ -1115,7 +738,6 @@ LTE
 Personal Hotspot1
 Unlocking2
 Visual Voicemail
-
 MTS
 FaceTime over Cellular
 LTE
@@ -1141,7 +763,6 @@ LTE
 Personal Hotspot1
 Unlocking2
 Visual Voicemail
-
 TbayTel
 FaceTime over Cellular
 LTE
@@ -1168,27 +789,11 @@ Personal Hotspot1
 Visual Voicemail
 VoLTE4
 Wi-Fi Calling3
-
 May include an additional fee or requirement. Contact the carrier for more information.
 If your account meets requirements, the carrier can unlock certain models of iPhone so that they can work internationally. These models are still restricted to that carrier in the United States and won't work on any other U.S. carriers. Contact your carrier for more details.
 Available on iPhone 6s and 6s Plus or later.
 VoLTE is available only on iPhone 6 or later.
-
 United States
-
-
-Alaska GCI
-FaceTime over Cellular
-LTE
-Personal Hotspot1
-Visual Voicemail
-VoLTE4
-Wi-Fi Calling
-Appalachian Wireless2
-FaceTime over Cellular
-LTE
-Personal Hotspot1
-Visual Voicemail
 VoLTE4
 Wi-Fi Calling
 AT&T2
@@ -1275,8 +880,6 @@ FaceTime over Cellular
 LTE
 Personal Hotspot1
 Afghanistan
-
-
 Afghan Wireless
 Facetime over Cellular1
 LTE
@@ -1284,17 +887,11 @@ Personal Hotspot2
 Roshan
 Facetime over Cellular1
 Personal Hotspot2
-
 American Samoa
-
-
 Bluesky
 Facetime over Cellular1
 Personal Hotspot2
-
 Australia
-
-
 Optus
 FaceTime over Cellular1
 LTE
@@ -1303,7 +900,6 @@ Unlocking2
 VoLTE3
 Visual Voicemail (corporate accounts only)
 Wi-Fi Calling
-
 Telstra
 FaceTime over Cellular1
 LTE
@@ -1319,64 +915,43 @@ Personal Hotspot2
 Unlocking2
 Visual Voicemail
 VoLTE3
-
 Virgin
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
-
 Bangladesh
-
-
 Banglalink
 FaceTime over Cellular1
 Personal Hotspot2
-
 Grameenphone3
 FaceTime over Cellular1
 Personal Hotspot2
-
 Robi4
 FaceTime over Cellular1
 Personal Hotspot2
-
-
 Bhutan
-
-
 B-Mobile
 Facetime over Cellular1
 Personal Hotspot2
-
 Brunei
-
-
 DSTCom4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Cambodia
-
-
 Smart4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE
-
 China
-
-
 China Mobile
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Visual Voicemail
 VoLTE3
-
 China Telecom
 FaceTime over Cellular1
 LTE
@@ -1385,86 +960,39 @@ China Unicom
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 FaceTime Audio is not supported in China.
-
 Cook Islands
-
-
 Bluesky
 Facetime over Cellular1
 Personal Hotspot2
-
 Fiji
-
-
 Digicel
 Facetime over Cellular1
 Personal Hotspot2
-
 Vodafone4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 French Polynesia
-
-
 Vini
 FaceTime over Cellular1
 LTE
-
 Guam
-
-
 iConnect
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Visual Voicemail
-
 GTA4,5
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Visual Voicemail
-
 DOCOMO PACIFIC4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 Hong Kong
-
-
-3
-FaceTime over Cellular1
-LTE
-Personal Hotspot2
-Visual Voicemail
-VoLTE3
-Wi-Fi Calling
-Wi-Fi Calling on supported iCloud-connected devices
-
-1O1O and CSL
-FaceTime over Cellular1
-LTE
-Personal Hotspot2
-VoLTE3
-Visual Voicemail
-Wi-Fi Calling
-China Mobile Hong Kong
-FaceTime over Cellular1
-LTE
-Personal Hotspot2
-VoLTE3
-Wi-Fi Calling
-
-China Unicom Hong Kong
-FaceTime over Cellular1
-Personal Hotspot2
-
 SmarTone
 FaceTime over Cellular1
 LTE
@@ -1473,19 +1001,14 @@ Visual Voicemail
 VoLTE3
 Wi-Fi Calling
 Wi-Fi Calling on supported iCloud-connected devices
-
 Truphone
 FaceTime over Cellular1
-
 India
-
-
 Airtel
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE3
-
 Reliance Jio
 FaceTime over Cellular1
 LTE
@@ -1496,19 +1019,13 @@ Vodafone
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Indonesia
-
 Smartfren
 FaceTime over Cellular1
 LTE
 Personal HotSpot2
 VoLTE3
-
 Japan
-
-
 au
 FaceTime over Cellular1
 LTE
@@ -1516,7 +1033,6 @@ Personal Hotspot2
 Unlocking2
 Visual Voicemail
 VoLTE3
-
 NTT DOCOMO5
 FaceTime over Cellular1
 LTE
@@ -1531,64 +1047,34 @@ Personal Hotspot2
 Unlocking2
 VoLTE3
 Visual Voicemail
-
-
 iPhone devices in Japan support the ability to receive updates from the Earthquake early warning system.
-
 Kazakhstan
-
-
 Kcell4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Laos
-
-
 Laotel
 FaceTime over Cellular1
 Personal Hotspot2
-
 Star Telecom
 FaceTime over Cellular1
 Personal Hotspot2
-
 Macau
-
-
-34
-FaceTime over Cellular1
-Personal Hotspot2
-LTE
-Visual Voicemail
-
-China Telecom (Macau)4
-FaceTime over Cellular1
-Personal Hotspot2
-LTE
-
 CTM4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE3
-
 SmarTone3
 FaceTime over Cellular1
 Personal Hotspot2
 LTE
-
-
 Malaysia
-
-
 Celcom4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 Digi3
 FaceTime over Cellular1
 LTE
@@ -1596,48 +1082,33 @@ Personal Hotspot2
 Visual Voicemail
 VoLTE3
 Wi-Fi Calling
-
 Maxis4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Visual Voicemail
-
 U Mobile
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE
 Wi-Fi Calling
-
-
 Maldives
-
-
 Dhiraagu
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Visual Voicemail
-
 Ooredoo4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Mongolia
-
-
 MobiCom4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Myanmar
-
-
 Ooredoo
 FaceTime over Cellular1
 LTE
@@ -1646,40 +1117,25 @@ Telenor
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 Nauru
-
-
 Digicel
 FaceTime over Cellular1
 Personal Hotspot2
-
 Nepal
-
-
 Ncell
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 New Caledonia
-
-
 OPT
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 New Zealand
-
-
 2degrees
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 Spark
 FaceTime over Cellular1
 LTE
@@ -1689,62 +1145,41 @@ FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Visual Voicemail
-
-
 Pakistan
-
-
 Jazz
 Personal Hotspot2
 LTE
-
 Telenor
 Personal Hotspot2
 LTE
-
-
 Ufone
 Personal Hotspot2
-
 Zong
 LTE
 Personal Hotspot2
-
 FaceTime is not available in this country or region.
-
 Papua New Guinea
-
-
 Digicel
 FaceTime over Cellular1
 Personal Hotspot2
 bMobile
 FaceTime over Cellular1
 Personal Hotspot2
-
 Philippines
-
-
 Globe3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 Smart3
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
-
 Singapore
-
-
 M1
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE3
-
 Singtel
 FaceTime over Cellular1
 LTE
@@ -1756,111 +1191,83 @@ FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE3
-
-
-South Korea
-
-
+Korea
 LG U+
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
 VoLTE3
-
 KT
 FaceTime over Cellular1,5
 LTE
 Personal Hotspot2
 Unlocking2
 VoLTE3
-
 SK Telecom
 FaceTime over Cellular1,5
 LTE
 Personal Hotspot2
 Unlocking2
 VoLTE3
-
 Location-sharing features might be limited in South Korea.
-
 Sri Lanka
-
-
 Dialog4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE
-
 Taiwan
-
-
 APT
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE3
 Wi-Fi Calling
-
 Chunghwa Telecom4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 FarEasTone4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE3
 Wi-Fi Calling
-
 Taiwan Mobile4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE3
-
 Taiwan Star4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE3
-
 Tajikistan
-
-
 TCELL
 FaceTime over Cellular1
 Personal Hotspot2
-
 Thailand
-
-
 AIS4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE
 Wi-Fi Calling
-
 dtac4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE3
 Wi-Fi Calling
-
 True Move4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 VoLTE3
 Wi-Fi Calling
-
 Tonga
-
-
 Digicel
 FaceTime over Cellular1
 Personal Hotspot2
@@ -1868,48 +1275,32 @@ TCC
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 Vanuatu
-
-
 Digicel
 FaceTime over Cellular1
 Personal Hotspot2
-
 Orange
 FaceTime over Cellular1
-
 Vietnam
-
-
 Mobifone
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
-
 Viettel4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
-
 VinaPhone4
 FaceTime over Cellular1
 LTE
 Personal Hotspot2
 Unlocking2
-
-
-
 Wallis and Futuna
-
 SPT
 FaceTime
 Personal Hotspot
-
 Western Samoa
-
-
 Digicel
 FaceTime over Cellular1
 Personal Hotspot2
@@ -1917,8 +1308,6 @@ Bluesky
 Facetime over Cellular1
 Personal Hotspot2
 Anguilla
-
-
 Digicel
 FaceTime over Cellular
 Personal Hotspot2
@@ -1926,22 +1315,16 @@ Flow1
 FaceTime over Cellular
 Personal Hotspot2
 Unlocking2
-
 Antigua and Barbuda
-
-
 Digicel
 FaceTime over Cellular
 Personal Hotspot2
-
 Flow1
 FaceTime over Cellular
 Personal Hotspot2
 LTE
 Unlocking2
-
 Argentina
-
 Claro
 FaceTime over cellular
 LTE
@@ -1949,51 +1332,34 @@ Personal Hotspot
 Unlocking2
 Visual Voicemail
 Wi-Fi Calling
-
 Aruba
-
-
 Digicel
 FaceTime over Cellular
 Personal Hotspot2
-
 Setar1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
-
-
 Bahamas
-
-
 Aliv
 FaceTime over Cellular
 LTE
 Personal Hotspot2
-
 BTC1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
-
 Barbados
-
-
 Digicel
 FaceTime over Cellular
 Personal Hotspot2
-
-
 Flow1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
-
 Belize
-
-
 DigiCell
 FaceTime over Cellular
 LTE
@@ -2002,35 +1368,23 @@ Smart
 FaceTime over Cellular
 LTE
 Personal Hotspot2
-
 Bermuda
-
-
 CellOne
 FaceTime over Cellular
 Personal Hotspot2
 Digicel
 FaceTime over Cellular
 Personal Hotspot2
-
 Bolivia
-
-
 Tigo1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
-
-
 Bonaire
-
 Digicel
 FaceTime
 Personal Hotspot
-
 Brazil
-
-
 Claro1
 FaceTime over Cellular
 LTE
@@ -2038,13 +1392,11 @@ Personal Hotspot2
 Unlocking2
 Visual Voicemail
 Wi-Fi Calling
-
 Oi1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
-
 Porto Seguro
 FaceTime over Cellular
 LTE
@@ -2055,45 +1407,31 @@ LTE
 Personal Hotspot2
 Unlocking2
 VoLTE
-
 Vivo1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
 Wi-Fi Calling
-
 British Virgin Islands
-
-
 Digicel
 FaceTime
 Personal Hotspot
-
 Flow1
 FaceTime over Cellular
 Personal Hotspot2
 Unlocking2
-
 Cayman Islands
-
-
 Digicel
 FaceTime over Cellular
 LTE
 Personal Hotspot2
-
-
 Flow1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
-
-
 Chile
-
-
 Claro1
 FaceTime over Cellular
 LTE
@@ -2105,65 +1443,50 @@ FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
-
 Movistar1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
-
 WOM
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
-
 VTR1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
-
-
 Colombia
-
-
 Avantel
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
-
 Claro1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
 Visual Voicemail
-
 ETB
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
-
 Movistar1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
 VoLTE3
-
 Tigo1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
-
-
 Costa Rica
-
-
 Claro1
 FaceTime over Cellular
 LTE
@@ -2175,22 +1498,15 @@ LTE
 Personal Hotspot2
 Unlocking2
 Visual Voicemail
-
 Movistar1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
-
-
 Curacao
-
 Digicel
 FaceTime
 Personal Hotspot
-
 Dominica
-
-
 Digicel
 FaceTime
 Personal Hotspot
@@ -2198,26 +1514,18 @@ Flow1
 FaceTime over Cellular
 Personal Hotspot2
 Unlocking2
-
-
 Dominican Republic
-
-
 Claro1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
 Visual Voicemail
-
 Orange1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
-
 Ecuador
-
-
 Claro1
 FaceTime over Cellular
 Personal Hotspot2
@@ -2227,16 +1535,12 @@ CNT1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
-
 Movistar1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
-
 El Salvador
-
-
 Claro1
 FaceTime over Cellular
 Personal Hotspot2
@@ -2250,16 +1554,11 @@ FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
-
 Tigo1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
-
-
 French West Indies
-
-
 Digicel
 FaceTime
 Personal Hotspot
@@ -2269,11 +1568,7 @@ LTE
 Personal Hotspot2
 Unlocking2
 Visual Voicemail
-
-
 Grenada
-
-
 Digicel
 FaceTime
 Personal Hotspot
@@ -2281,43 +1576,29 @@ Flow1
 FaceTime over Cellular
 Personal Hotspot2
 Unlocking2
-
-
 Guatemala
-
-
-
 Claro1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Visual Voicemail
-
 Movistar1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
-
 Tigo1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
-
-
 Guyana
-
-
 Digicel
 FaceTime
 Personal Hotspot
 Guyana Telephone
 FaceTime over Cellular
 Personal Hotspot2
-
 Haiti
-
-
 Digicel
 FaceTime
 Personal Hotspot
@@ -2325,51 +1606,34 @@ Natcom1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
-
 Honduras
-
-
 Claro1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
 Visual Voicemail
-
 Tigo1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
-
-
 Jamaica
-
-
 Digicel
 FaceTime over Cellular
 Personal Hotspot2
 Flow1
 FaceTime over Cellular
 Personal Hotspot2
-
-
 Martinique
-
-
 Orange1
 FaceTime over Cellular
 Personal Hotspot2
 Visual Voicemail
-
-
 Mexico
-
-
 AT&T1
 FaceTime over Cellular
 LTE
 Personal Hotspot
-
 Movistar1
 Facetime over Cellular
 LTE
@@ -2378,7 +1642,6 @@ Oui
 FaceTime over Cellular
 LTE
 Personal Hotspot
-
 Telcel1
 FaceTime over Cellular
 LTE
@@ -2386,47 +1649,29 @@ Personal Hotspot2
 Unlocking2
 Visual Voicemail
 VoLTE
-
-
 Montserrat
-
-
 Digicel
 FaceTime
 Personal Hotspot
-
-
 Flow1
 FaceTime over Cellular
 Personal Hotspot2
 Unlocking2
-
 Nicaragua
-
-
 Claro1
 FaceTime over Cellular
 Personal Hotspot2
 Visual Voicemail
-
 Movistar1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
-
-
-
 Panama
-
-
 +Móvil1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Wi-Fi Calling
-
-
-
 Claro1
 FaceTime over Cellular
 Personal Hotspot2
@@ -2438,37 +1683,24 @@ Movistar1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
-
-
-
 Paraguay
-
-
 Claro1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
 Visual Voicemail
-
 Tigo1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
-
-
-
-
 Peru
-
-
 Claro1
 FaceTime over Cellular
 Personal Hotspot2
 LTE
 Unlocking2
 Visual Voicemail
-
 Entel1
 FaceTime over Cellular
 LTE
@@ -2479,10 +1711,7 @@ LTE
 Personal Hotspot2
 Unlocking2
 VoLTE
-
 Puerto Rico
-
-
 AT&T
 Facetime over Cellular
 LTE
@@ -2490,7 +1719,6 @@ Personal Hotspot2
 Visual Voicemail
 Wi-Fi Calling
 Wi-Fi Calling on supported iCloud-connected devices
-
 Claro
 Facetime over Cellular
 LTE
@@ -2501,7 +1729,6 @@ Facetime over Cellular
 LTE
 Personal Hotspot2
 Visual Voicemail
-
 Sprint Wireless
 FaceTime over Cellular
 LTE
@@ -2510,8 +1737,6 @@ Unlocking2
 Visual Voicemail
 Wi-Fi Calling
 Wi-Fi Calling on supported iCloud-connected devices
-
-
 T-Mobile USA
 FaceTime over Cellular
 LTE
@@ -2521,11 +1746,7 @@ VoLTE3
 Unlocking2
 Wi-Fi Calling
 Wi-Fi Calling on supported iCloud-connected devices
-
-
 St. Kitts and Nevis
-
-
 Digicel
 FaceTime
 Personal Hotspot
@@ -2533,23 +1754,15 @@ Flow1
 FaceTime over Cellular
 Personal Hotspot2
 Unlocking2
-
-
 St. Lucia
-
-
 Digicel
 FaceTime over Cellular
 Personal Hotspot2
-
 Flow1
 FaceTime over Cellular
 Personal Hotspot2
 Unlocking2
-
 St. Vincent and the Grenadines
-
-
 Digicel
 FaceTime
 Personal Hotspot
@@ -2557,68 +1770,47 @@ Flow1
 FaceTime over Cellular
 Personal Hotspot2
 Unlocking2
-
 Suriname
-
-
 Digicel
 FaceTime
 Personal Hotspot
 Telesur
 FaceTime over Cellular
 Personal Hotspot2
-
 Trinidad & Tobago
-
-
 Bmobile1
 FaceTime over Cellular
 Personal Hotspot2
 Unlocking2
 Visual Voicemail
-
 Digicel
 FaceTime over Cellular
 Personal Hotspot2
-
 Turks & Caicos
-
-
 Digicel
 FaceTime over Cellular
 Personal Hotspot2
-
 Flow1
 FaceTime over Cellular
 Personal Hotspot2
 Unlocking2
-
 Uruguay
-
-
 Antel1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
-
-
 Claro1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
 Visual Voicemail
-
 Movistar1
 FaceTime over Cellular
 LTE
 Personal Hotspot2
 Unlocking2
-
-
 U.S. Virgin Islands
-
-
 AT&T
 FaceTime over Cellular
 LTE
@@ -2628,456 +1820,266 @@ Visual Voicemail
 VoLTE3
 Wi-Fi Calling
 Algeria
-
-
 ATM Mobilis1
 FaceTime over Cellular2
 Personal Hotspot3
-
 Djezzy1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Ooredoo1
 FaceTime over Cellular2
 Personal Hotspot3
-
 Angola
-
-
 Movicel1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Unitel1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Benin
-
-
 Globacom
 FaceTime over Cellular2
-
-
-
 MTN
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Botswana
-
-
 Mascom1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Orange1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Burkina Faso
-
-
 Orange1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Cameroon
-
-
 MTN1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Orange1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Central African Republic
-
-
 Orange1,4
 FaceTime over Cellular2
 Personal Hotspot
-
 Chad
-
-
 Airtel
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Tigo1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Republic of the Congo
-
-
 Airtel
 FaceTime over Cellular2
 Personal Hotspot3
-
-
-
 MTN1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Democratic Republic of Congo
-
-
 Airtel
 FaceTime over Cellular2
 Personal Hotspot3
-
 Orange1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Vodacom1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
-
-
 Egypt
-
-
 Etisalat
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
 Orange1,5
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Vodafone1,5
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Gabon
-
-
 Airtel1
 FaceTime over Cellular2
 Personal Hotspot3
 LTE
-
-
 Ghana
-
-
 Airtel1
 FaceTime over Cellular2
 Personal Hotspot3
-
 Globacom1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 MTN1
 FaceTime over Cellular2
 Personal Hotspot3
-
 Tigo1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Guinea
-
-
 Orange1,4
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Guinea-Bissau
-
-
 Orange
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Ivory Coast
-
-
 Moov
 FaceTime over Cellular2
 Personal Hotspot3
-
 MTN1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Orange1,4
 FaceTime over Cellular2
 Personal Hotspot3
 LTE
-
 Kenya
-
-
 Airtel1
 FaceTime over Cellular2
 Personal Hotspot3
-
 Orange1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Safaricom
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Libya
-
-
 Al Madar1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Madagascar
-
-
 Airtel
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Orange1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Malawi
-
-
 Airtel1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Mali
-
-
 Orange1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Mauritius
-
-
 Emtel1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Orange1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Morocco
-
-
 inwi1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
 Maroc Telecom1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Orange
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Mozambique
-
-
 MCel1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Vodacom1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Namibia
-
-
 MTC1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Telecom Namibia1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Niger
-
-
 Airtel1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Orange1
 FaceTime over Cellular2
 Personal Hotspot
-
-
 Nigeria
-
-
 Airtel1
 FaceTime over Cellular2
 Personal Hotspot3
-
 Etisalat1
 FaceTime over Cellular2
 Personal Hotspot3
 LTE
 Vsual Voicemail
-
-
 Globacom1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Reunion Island
-
-
 Orange
 FaceTime over Cellular2
 Personal Hotspot3
 Unlocking1
-
-
 SFR4
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
 Visual Voicemail
-
-
 Rwanda
-
-
 Airtel1
 FaceTime over Cellular2
 Personal Hotspot3
-
 Tigo1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 MTN1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Senegal
-
-
 Orange1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Tigo1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Seychelles
-
-
 Airtel1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Cable & Wireless
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Sierra Leone
-
-
 Airtel1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 South Africa
-
-
 CellC1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
 Wi-Fi Calling
-
 Telkom1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Vodacom1
 FaceTime over Cellular2
 LTE
@@ -3085,143 +2087,92 @@ Personal Hotspot3
 Visual Voicemail
 VoLTE
 Wi-Fi Calling
-
 MTN1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Tanzania
-
-
 Airtel1
 FaceTime over Cellular2
 Personal Hotspot3
-
 Tigo1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Vodacom1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
 Zantel1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Tunisia
-
-
 Orange1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
 Ooredoo1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Tunisie Telecom
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Uganda
-
-
 Airtel1
 FaceTime over Cellular2
 Personal Hotspot3
-
 Afrimax
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 MTN
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Zambia
-
-
 Airtel1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 MTN1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Zimbabwe
-
-
 Econet1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
 Armenia
-
-
 Ucom
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Bahrain
-
-
 Batelco1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
 Unlocking3
 VoLTE5
-
 Viva1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Zain1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
 Unlocking3
-
-
 Iraq
-
-
 Asiacell1
 FaceTime over Cellular2
 Personal Hotspot3
-
 Korek
 FaceTime
 Personal Hotspot
 Zain1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Israel
-
-
 Cellcom1
 FaceTime over Cellular2
 LTE
@@ -3239,128 +2190,86 @@ Personal Hotspot3
 Unlocking3
 Visual Voicemail
 Wi-Fi Calling
-
 Pelephone1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
 Unlocking3
-
 Jordan
-
-
 Orange1
 FaceTime over Cellular2
 Personal Hotspot3
-
-
 Zain1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
 Unlocking3
-
-
 Kuwait
-
-
 Viva1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
 VoLTE5
-
 Ooredoo1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
 Zain1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
 Visual Voicemail
 VoLTE5
-
-
 Lebanon
-
-
 alfa1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
 touch1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Oman
-
-
 Omantel1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
 Ooredoo1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Palestine
-
-
 Wataniya
 FaceTime over Cellular2
 Personal Hotspot3
-
 Jawwal
 FaceTime over Cellular2
 Personal Hotspot3
-
 Qatar
-
-
 Vodafone1,4
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
-
-
 Ooredoo1
 FaceTime over Cellular2
 LTE
 Personal Hotspot3
 VoLTE5
-
-
 Saudi Arabia
-
-
 Mobily1
 LTE
 Personal Hotspot3
-
 STC1
 LTE
 Personal Hotspot3
 VoLTE5
-
 Zain1
 LTE
 Personal Hotspot3
 VoLTE5
 Wi-Fi Calling
-
 FaceTime isn't available in Saudi Arabia.
-
-United Arab Emirates
-
-
+Arab Emirates
 Etisalat1
 LTE
 Personal Hotspot3
@@ -3369,5 +2278,4 @@ Wi-Fi Calling
 du1
 LTE
 Personal Hotspot3
-
 FaceTime isn't available in the United Arab Emirates.

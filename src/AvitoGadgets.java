@@ -5,6 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 
 public class AvitoGadgets extends Gadgets {
@@ -180,8 +181,8 @@ public class AvitoGadgets extends Gadgets {
         }
     }
 
-    private HashMap<String, ArrayList<ArrayList<String>>> getModelGadgetMapByVendor(String vendor) {
-        HashMap<String, ArrayList<ArrayList<String>>> mapGadgetModelGadgets = new HashMap<>();
+    private LinkedHashMap<String, ArrayList<ArrayList<String>>> getModelGadgetMapByVendor(String vendor) {
+        LinkedHashMap<String, ArrayList<ArrayList<String>>> mapGadgetModelGadgets = new LinkedHashMap<>();
         for (ArrayList<String> gadget : gadgets) {
             if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).equals(vendor)) {
                 String metaModel = getMetaModel(gadget);
@@ -202,18 +203,18 @@ public class AvitoGadgets extends Gadgets {
     public void generateXML(BufferedWriter writer, int cityId) throws IOException {
         String xml = "";
         for (String vendor : GadgetConst.VENDORS) {
-            HashMap<String, ArrayList<ArrayList<String>>> mapMetaModelGadgets =
+            LinkedHashMap<String, ArrayList<ArrayList<String>>> mapMetaModelGadgets =
                     getModelGadgetMapByVendor(vendor);
             int minMetaModelSize = MAX_MODEL_VARIETY_COUNT;
             for (String metaModel : mapMetaModelGadgets.keySet()) {
                 minMetaModelSize = Math.min(minMetaModelSize, mapMetaModelGadgets.get(metaModel).size());
             }
-            LinkedHashSet<String> countries = Solution.getHashSetFromInput("countries.txt");
+
             GadgetGroup[] gadgetGroups = new GadgetGroup[GadgetConst.MAP_VENDOR_ADS_SIZE[cityId].get(vendor)];
             int groupId = 0;
             System.out.println(minMetaModelSize);
             for (int metaModelId = 0; metaModelId < minMetaModelSize; metaModelId++) {
-                for (String country : countries) {
+                for (String country : GadgetConst.COUNTRIES) {
                     gadgetGroups[groupId] = new GadgetGroup(country);
                     for (String metaModel : mapMetaModelGadgets.keySet()) {
                         gadgetGroups[groupId].gadgets.add(mapMetaModelGadgets.get(metaModel).get(metaModelId));

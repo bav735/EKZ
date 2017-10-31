@@ -5,13 +5,12 @@ import java.util.Calendar;
  * Created by A on 31.10.2017.
  */
 public class GadgetGroup extends Gadgets {
-    final static int TIME_DAY_SEC = 12 * 60 * 60;
-    final static int TIME_MONTH_SEC = 30 * TIME_DAY_SEC;
+    final static int AD_TIME_DAY_SEC = 12 * 60 * 60;
+    final static int AD_TIME_MONTH_SEC = 30 * AD_TIME_DAY_SEC;
     final static int HOUR_BEGIN = 9;
     final static int ADS_COUNT_BORDER = 300;
-    final static boolean IS_NEW_LOAD = true;
-    final static int DAYS_OFFSET = 1;
-    final static long MILLISECONDS_OFFSET = (18 * 60) * 1000;
+    final static int DAYS_OFFSET = 0;
+    final static int HOUR_OFFSET = 8;
     ArrayList<ArrayList<String>> gadgets;
     String country;
     int xmlDay;
@@ -24,6 +23,9 @@ public class GadgetGroup extends Gadgets {
     public static final Calendar CALENDAR_ZERO;
     public static final Calendar CALENDAR_CURRENT;
     public static final int DAY_NUM_GLOBAL;
+    final static long MILLISECONDS_HOUR = 3600 * 1000;
+    final static long MILLISECONDS_OFFSET = DAYS_OFFSET * 24 * MILLISECONDS_HOUR
+            + HOUR_OFFSET * MILLISECONDS_HOUR;
 
     static {
         CALENDAR_CURRENT = Calendar.getInstance();
@@ -59,21 +61,11 @@ public class GadgetGroup extends Gadgets {
     }
 
     private String getAdTitle() {
-        return "Оригинальные Смартфоны " + GadgetConst.MAP_VENDOR_TITLE.get(getVendor()) + " (" + country + ")";
+        return GadgetConst.MAP_VENDOR_TITLE.get(getVendor()) + " (" + country + ")";
     }
 
     private String getAdPrice() {
         return GadgetConst.MAP_VENDOR_PRICE.get(getVendor()) + "";
-    }
-
-    private void checkWhileNewLoad(Calendar calendar) {
-        if (IS_NEW_LOAD) {
-            if (CALENDAR_CURRENT.get(Calendar.DAY_OF_MONTH) == calendar.get(Calendar.DAY_OF_MONTH)) {
-                if (calendar.getTimeInMillis() < CALENDAR_CURRENT.getTimeInMillis() - MILLISECONDS_OFFSET) {
-                    calendar.add(Calendar.DAY_OF_MONTH, 30);
-                }
-            }
-        }
     }
 
     public String getXmlAd() {
@@ -81,24 +73,7 @@ public class GadgetGroup extends Gadgets {
         String ad = "\t<Ad>\n";
         ad += "\t\t<Id>" + getIdXML() + "</Id>\n";
         if (!isNoDate) {
-            Calendar calendarCurrent = (Calendar) CALENDAR_ZERO.clone();
-            int dayNumCurrentMonth = (DAY_NUM_GLOBAL - 1) % 30 + 1;
-            calendarCurrent.add(Calendar.DAY_OF_MONTH, DAY_NUM_GLOBAL - dayNumCurrentMonth - 1 + xmlDay);
-//            System.out.println(checkWhileNewLoad());
-            if (dayNumCurrentMonth <= DAYS_OFFSET) {
-                if (xmlDay > dayNumCurrentMonth + 30 - DAYS_OFFSET) {
-                    calendarCurrent.add(Calendar.DAY_OF_MONTH, -30);
-                }
-            } else {
-                if (xmlDay <= dayNumCurrentMonth - DAYS_OFFSET) {
-                    calendarCurrent.add(Calendar.DAY_OF_MONTH, 30);
-                }
-            }
-            calendarCurrent.set(Calendar.HOUR_OF_DAY, xmlHour);
-            calendarCurrent.set(Calendar.MINUTE, xmlMinute);
-            calendarCurrent.set(Calendar.SECOND, xmlSecond);
-            checkWhileNewLoad(calendarCurrent);
-            ad += "\t\t<DateBegin>" + getDateByCalendar(calendarCurrent) + "</DateBegin>\n";
+            ad += "\t\t<DateBegin>" + getAdDate() + "</DateBegin>\n";
         }
         ad += "\t\t<AllowEmail>Нет</AllowEmail>\n";
         ad += "\t\t<ManagerName>Оператор-консультант</ManagerName>\n";
@@ -147,7 +122,15 @@ public class GadgetGroup extends Gadgets {
         }
         String quality = gadgets.get(0).get(mapGadgetAttributeNumber.get(QUALITY));
         text += "-каждый аппарат " + GadgetConst.MAP_QUALITY_DESCRIPTION.get(quality);
-        text += ", версия/прошивка " + country;
+        text += ", версия/прошивка " + country + " (оператор " +
+                GadgetConst.MAP_COUNTRIES_OPERATOR.get(country) + ")";
+        if (quality.equals(GadgetConst.REF)) {
+            text += "; в наличии также имеется новая ";
+            if (getVendor().equals("Apple")) {
+                text += "и официально восстановленная ";
+            }
+            text += "продукция с гарантией производителя";
+        }
         text += "</p><p>✔ полностью русифицированы, работают с сим-картами любых операторов<br>";
         text += "✔ выдаем документы о вашей покупке: товарный чек и гарантийный талон<br>";
         text += "✔ в идеальном состоянии, без следов эксплуатации, подойдут как подарок<br>";
@@ -164,7 +147,23 @@ public class GadgetGroup extends Gadgets {
         return text;
     }
 
-    private String getDateByCalendar(Calendar calendar) {
+    private String getAdDate() {
+        Calendar calendar = (Calendar) CALENDAR_ZERO.clone();
+        int dayNumCurrentMonth = (DAY_NUM_GLOBAL - 1) % 30 + 1;
+        calendar.add(Calendar.DAY_OF_MONTH, DAY_NUM_GLOBAL - dayNumCurrentMonth - 1 + xmlDay);
+        calendar.set(Calendar.HOUR_OF_DAY, xmlHour);
+        calendar.set(Calendar.MINUTE, xmlMinute);
+        calendar.set(Calendar.SECOND, xmlSecond);
+        long calendarTimeInMillis = calendar.getTimeInMillis();
+        if (calendarTimeInMillis > CALENDAR_CURRENT.getTimeInMillis()) {
+            calendarTimeInMillis -= 30 * 24 * MILLISECONDS_HOUR;
+            if (calendarTimeInMillis > CALENDAR_CURRENT.getTimeInMillis() - MILLISECONDS_OFFSET) {
+                calendar.add(Calendar.DAY_OF_MONTH, -30);
+            }
+        } else if (calendarTimeInMillis < CALENDAR_CURRENT.getTimeInMillis() - MILLISECONDS_OFFSET) {
+            calendar.add(Calendar.DAY_OF_MONTH, 30);
+        }
+
         return calendar.get(Calendar.YEAR) + "-" +
                 convertToTwoDigit(calendar.get(Calendar.MONTH) + 1) + "-" +
                 convertToTwoDigit(calendar.get(Calendar.DAY_OF_MONTH)) +
@@ -190,11 +189,11 @@ public class GadgetGroup extends Gadgets {
 
     private String getOffer(ArrayList<String> gadget, int cityId) {
         String offer = "➡ ";
-        offer += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(VENDOR),
+        offer += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(MODEL_LINE),
                 mapGadgetAttributeNumber.get(COLOR) + 1));
-        if (getVendor().equals("Apple")) {
-            offer += " TouchID работает ";
-        }
+//        if (getVendor().equals("Apple")) {
+//            offer += " TouchID работает ";
+//        }
         offer += " = " + getPriceByCity(gadget, cityId) + "\u20BD<br>";
 //        String quality = gadget.get(mapGadgetAttributeNumber.get(QUALITY));
 //        if (cityId == 0 || quality.equals(GadgetConst.CPO)) {
@@ -213,10 +212,10 @@ public class GadgetGroup extends Gadgets {
     }
 
     public void initialize(int groupId, int groupsSize, int cityId) {
-        int timeIntervalSec = TIME_MONTH_SEC / groupsSize;
+        int timeIntervalSec = AD_TIME_MONTH_SEC / groupsSize;
         xmlSecond = groupId * timeIntervalSec;
-        xmlDay = (xmlSecond - 1) / TIME_DAY_SEC + 1;
-        xmlSecond %= TIME_DAY_SEC;
+        xmlDay = xmlSecond / AD_TIME_DAY_SEC + 1;
+        xmlSecond %= AD_TIME_DAY_SEC;
         xmlHour = xmlSecond / 3600 + HOUR_BEGIN;
         xmlSecond %= 3600;
         xmlMinute = xmlSecond / 60;
@@ -232,4 +231,14 @@ public class GadgetGroup extends Gadgets {
         }
         this.cityId = cityId;
     }
+
+    /*if (dayNumCurrentMonth <= DAYS_OFFSET + 1) {
+            if (xmlDay > dayNumCurrentMonth + 29 - DAYS_OFFSET) {
+                calendar.add(Calendar.DAY_OF_MONTH, -30);
+            }
+        } else {
+            if (xmlDay < dayNumCurrentMonth - DAYS_OFFSET) {
+                calendar.add(Calendar.DAY_OF_MONTH, 30);
+            }
+        }*/
 }
