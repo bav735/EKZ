@@ -10,7 +10,7 @@ public class GadgetGroup extends Gadgets {
     final static int HOUR_BEGIN = 9;
     final static int ADS_COUNT_BORDER = 300;
     final static int DAYS_OFFSET = 0;
-    final static int HOUR_OFFSET = 8;
+    final static int HOUR_OFFSET = 8;//установлено в 2 часа ночи 01.11
     ArrayList<ArrayList<String>> gadgets;
     String country;
     int xmlDay;
@@ -104,7 +104,7 @@ public class GadgetGroup extends Gadgets {
         String text = "<![CDATA[";
         text += "<p>Уважаемый покупатель,<br>" +
                 "Добро пожаловать в iSPARK\uD83D\uDD25";
-        text += "</p><p>\uD83D\uDCA3Акция! Мега-РОЗЫГРЫШ, подарки получат ВСЕ участники конкурса (подробнее на сайте)❗</p>";
+        text += "</p><p>\uD83D\uDCA3Акция! Мега-РОЗЫГРЫШ, подарки получат ВСЕ участники конкурса (подробности на сайте ispark info)❗</p>";
         text += "<p>\uD83D\uDC9BМы всегда идем навстречу нашим покупателям.<br>" +
                 "\uD83D\uDC49Мы предлагаем вам:<br>" +
                 "\uD83D\uDD39 ТРЕЙД-ИН, ОБМЕН старого телефона<br>" +
