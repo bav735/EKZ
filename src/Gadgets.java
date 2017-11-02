@@ -116,6 +116,18 @@ public class Gadgets {
         return gadget.get(mapGadgetAttributeNumber.get(QUALITY));
     }
 
+    public String getFullPath(ArrayList<String> gadget) {
+        String path = "";
+        for (int i = mapGadgetAttributeNumber.get(QUALITY); i <= mapGadgetAttributeNumber.get(COLOR); i++) {
+            String attr = gadget.get(i).replaceAll("[() -]", "");
+            if (i == mapGadgetAttributeNumber.get(QUALITY)) {
+                attr = attr.substring(0, 3);
+            }
+            path += attr + "/";
+        }
+        return path + "/" + IMG_FILE_NAME + ".jpg";
+    }
+
     /*
 
     public static void initializeNewPrices(Scanner inScanner) {

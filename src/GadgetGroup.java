@@ -10,8 +10,8 @@ public class GadgetGroup extends Gadgets {
     final static int HOUR_BEGIN = 9;
     final static int ADS_COUNT_BORDER = 300;
     final static int DAYS_OFFSET = 0;
-    final static int HOUR_OFFSET = 0;
-    final static int MINUTE_OFFSET = 55;
+    final static int HOUR_OFFSET = 2;
+    final static int MINUTE_OFFSET = 0;
     ArrayList<ArrayList<String>> gadgets;
     String country;
     String vendor;
@@ -112,11 +112,19 @@ public class GadgetGroup extends Gadgets {
         ad += "\t\t<Title>" + getAdTitle() + "</Title>\n";
         ad += "\t\t<Description>" + getAdText() + "</Description>\n";
         ad += "\t\t<Price>" + getAdPrice(cityId) + "</Price>\n";
-//        ad += "\t\t<Images>\n";
-//        ad += "\t\t\t<Image url=\"" + getImageAvitoUrl(gadget) + "\"/>\n";
-//        ad += "\t\t</Images>\n";
+        ad += "\t\t<Images>\n";
+        ad += "\t\t\t<Image url=\"" + getImageAvitoUrl(gadgets.get(0)) + "\"/>\n";
+        ad += "\t\t</Images>\n";
         ad += "\t</Ad>\n";
         return ad;
+    }
+
+    private String getImageAvitoUrl(ArrayList<String> gadget) {
+        if (isGlobal) {
+            return "";
+        }
+        return "https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/"
+                + getFullPath(gadget);
     }
 
     private String getAdText() {

@@ -51,10 +51,6 @@ public class AvitoGadgets extends Gadgets {
         return res;
     }
 
-    public static String getImageAvitoUrl(ArrayList<String> gadget) {
-        return "https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/" + getFullPath(gadget);
-    }
-
     /*private ArrayList<String> extractGadgetByModel(int modelId) {
         String model = gadgetAttributesVariants.get(mapGadgetAttributeNumber.get(MODEL)).get(modelId);
         ArrayList<ArrayList<String>> gadgetsByModel = mapGadgetMetaModelGadgetsByVendor.get(model);
@@ -159,20 +155,6 @@ public class AvitoGadgets extends Gadgets {
         ad += "Текст: " + getAdTextAvitoBot(gadget) + "\n";
         return ad;
     }*/
-
-    private static String getFullPath(ArrayList<String> gadget) {
-        String path = "";
-        for (int i = mapGadgetAttributeNumber.get(QUALITY); i <= mapGadgetAttributeNumber.get(COLOR); i++) {
-            String attr = gadget.get(i).replaceAll("[() -]", "");
-            path += attr + "/";
-        }
-//        if (gadget.get(mapGadgetAttributeNumber.get(FINGER_PRINT)).length() > 1) {
-//            path += "БО";
-//        } else {
-//            path += "СО";
-//        }
-        return path + "/" + IMG_FILE_NAME + ".jpg";
-    }
 
     private String getGadgetPathSite(ArrayList<String> gadget, String color) {
         String path = "";
