@@ -120,12 +120,9 @@ public class Gadgets {
         String path = "";
         for (int i = mapGadgetAttributeNumber.get(QUALITY); i <= mapGadgetAttributeNumber.get(COLOR); i++) {
             String attr = gadget.get(i).replaceAll("[() -]", "");
-            if (i == mapGadgetAttributeNumber.get(QUALITY)) {
-                attr = attr.substring(0, 3);
-            }
             path += attr + "/";
         }
-        return path + "/" + IMG_FILE_NAME + ".jpg";
+        return path + IMG_FILE_NAME + ".jpg";
     }
 
     /*

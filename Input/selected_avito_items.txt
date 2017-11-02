@@ -29,10 +29,8 @@ REFnoTouchID Apple iPhone 6S 16Gb
 REF Apple iPhone 6S 16Gb
 REFnoTouchID Apple iPhone 6S 64Gb
 REF Apple iPhone 6S 64Gb
-EST Apple iPhone 6S 64Gb
 REFnoTouchID Apple iPhone 6S 128Gb
 REF Apple iPhone 6S 128Gb
-EST Apple iPhone 6S 128Gb
 REFnoTouchID Apple iPhone 6S Plus 16Gb
 REF Apple iPhone 6S Plus 16Gb
 REFnoTouchID Apple iPhone 6S Plus 64Gb

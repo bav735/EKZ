@@ -18,6 +18,7 @@ public class AvitoGadgets extends Gadgets {
             for (ArrayList<String> gadget : webSiteGadgets.gadgets) {
                 if (selectedAvitoItems.contains(getGadgetName(gadget, QUALITY, MEMORY))) {
                     gadgets.add(gadget);
+                    generatePhotos(gadget);
                 }
             }
         }
@@ -42,13 +43,10 @@ public class AvitoGadgets extends Gadgets {
         String modelLine = gadget.get(mapGadgetAttributeNumber.get(MODEL_LINE));
         String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
         String color = gadget.get(mapGadgetAttributeNumber.get(COLOR));
-        String res = getVendor(gadget) + "/" + modelLine + "/" + model.replace(" ", "") + "/"
-                + color.replace(" ", "");
-        if (getQuality(gadget).equals("CPO")) {
-            res += "/CPO";
-        }
+        String res = getVendor(gadget) + "/" + modelLine + "/" + model + "/"
+                + color;
         res += "/" + IMG_FILE_NAME + ".jpg";
-        return res;
+        return res.replace(" ", "");
     }
 
     /*private ArrayList<String> extractGadgetByModel(int modelId) {

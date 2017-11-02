@@ -5,13 +5,14 @@ import java.util.Calendar;
  * Created by A on 31.10.2017.
  */
 public class GadgetGroup extends Gadgets {
+    //INITIAL AUTOLOAD = 02.11.17 18:18
     final static int AD_TIME_DAY_SEC = 12 * 60 * 60;
     final static int AD_TIME_MONTH_SEC = 30 * AD_TIME_DAY_SEC;
     final static int HOUR_BEGIN = 9;
     final static int ADS_COUNT_BORDER = 300;
     final static int DAYS_OFFSET = 0;
     final static int HOUR_OFFSET = 2;
-    final static int MINUTE_OFFSET = 0;
+    final static int MINUTE_OFFSET = 32;
     ArrayList<ArrayList<String>> gadgets;
     String country;
     String vendor;
@@ -34,7 +35,7 @@ public class GadgetGroup extends Gadgets {
         CALENDAR_CURRENT = Calendar.getInstance();
         CALENDAR_ZERO = (Calendar) CALENDAR_CURRENT.clone();
         CALENDAR_ZERO.set(Calendar.YEAR, 2017);
-        CALENDAR_ZERO.set(Calendar.MONTH, 10);//november
+        CALENDAR_ZERO.set(Calendar.MONTH, 10);
         CALENDAR_ZERO.set(Calendar.DAY_OF_MONTH, 2);
         resetCalendar(CALENDAR_ZERO);
         Calendar calendar = (Calendar) CALENDAR_CURRENT.clone();
@@ -79,10 +80,11 @@ public class GadgetGroup extends Gadgets {
     }
 
     private String getAdPrice(int cityId) {
-//        if (isGlobal) {
-//            return 40 + "";
-//        }
-        return getPriceByCity(gadgets.get(0), cityId);//0
+        int price = Solution.getNumber(getPriceByCity(gadgets.get(0), cityId));
+        for (ArrayList<String> gadget : gadgets) {
+            price = Math.min(price, Solution.getNumber(getPriceByCity(gadget, cityId)));
+        }
+        return price + "";
     }
 
     public String getXmlAd() {
