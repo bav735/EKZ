@@ -15,7 +15,6 @@ public class WebSiteGadgets extends Gadgets {
         gadgetAttributesVariants.add(new ArrayList<String>(Arrays.asList(
                 GadgetConst.MODEL_LINES.get(globalModelLine))));
         gadgetAttributesVariants.add(GadgetConst.MODELS[globalModelLine]);
-        gadgetAttributesVariants.add(new ArrayList<>(GadgetConst.MEMORIES));
     }
 
     public static String getWebsitePath(ArrayList<String> gadget) {
@@ -35,11 +34,14 @@ public class WebSiteGadgets extends Gadgets {
         if (attribute == gadgetAttributesVariants.size()) {
             String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
             for (String color : GadgetConst.MAP_MODEL_COLOR[globalModelLine].get(model)) {
-                ArrayList<String> newGadget = new ArrayList<>(gadget);
-                newGadget.add(color);
-                if (!excludeModel(model, color, newGadget.get(mapGadgetAttributeNumber.get(MEMORY))) &&
-                        isInPriceList(newGadget)) {
-                    gadgets.add(newGadget);
+                for (String memory : GadgetConst.MEMORIES) {
+                    ArrayList<String> newGadget = new ArrayList<>(gadget);
+                    newGadget.add(memory);
+                    newGadget.add(color);
+                    if (!excludeModel(model, color, newGadget.get(mapGadgetAttributeNumber.get(MEMORY))) &&
+                            isInPriceList(newGadget)) {
+                        gadgets.add(newGadget);
+                    }
                 }
             }
         } else {
@@ -79,7 +81,7 @@ public class WebSiteGadgets extends Gadgets {
             mapGadgetModelGadgets.get(metaModel).add(gadget);
 //                ArrayList<String> gadget2 = new ArrayList<>(gadget);
 //                gadget2.set(mapGadgetAttributeNumber.get(QUALITY), EST2);
-//                mapGadgetModelGadgets.get(model).add(gadget2);
+//                mapGadgetMetaModelGadgetsByVendor.get(model).add(gadget2);
         }
         return mapGadgetModelGadgets;
     }

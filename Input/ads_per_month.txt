@@ -1,5 +1,5 @@
 Apple iPhone 4S	1116	181
-Apple iPhone 5	1 642	401
+Apple iPhone 5	1642	401
 Apple iPhone 5C	456	59
 Apple iPhone 5S	3832	744
 Apple iPhone 6	4048	775

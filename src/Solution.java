@@ -259,7 +259,8 @@ public class Solution {
             writer.write("<Ads formatVersion=\"3\" target=\"Avito.ru\">\n");
             System.out.println("city=" + cityId);
             AvitoGadgets avitoGadgets = new AvitoGadgets();
-            avitoGadgets.generateXML(writer, cityId);
+            writer.write(avitoGadgets.generateXMLModels(cityId));
+            writer.write(avitoGadgets.generateXMLGlobal(cityId));
             writer.write("</Ads>");
             writer.flush();
         }

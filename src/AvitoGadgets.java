@@ -1,15 +1,16 @@
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 
 public class AvitoGadgets extends Gadgets {
+    final static int ADS_COUNT_MIN = 20;
     public ArrayList<ArrayList<String>> gadgets = new ArrayList<>();
-    final static int MAX_MODEL_VARIETY_COUNT = 10000;
+    LinkedHashMap<String, ArrayList<ArrayList<String>>> mapGadgetMetaModelGadgetsByVendor[];
 
     public AvitoGadgets() {
         LinkedHashSet<String> selectedAvitoItems = Solution.getHashSetFromInput("selected_avito_items.txt");
@@ -17,20 +18,33 @@ public class AvitoGadgets extends Gadgets {
             for (ArrayList<String> gadget : webSiteGadgets.gadgets) {
                 if (selectedAvitoItems.contains(getGadgetName(gadget, QUALITY, MEMORY))) {
                     gadgets.add(gadget);
-//                    System.out.println(getGadgetName(gadget, QUALITY, COLOR));
+                }
+            }
+        }
+        mapGadgetMetaModelGadgetsByVendor = new LinkedHashMap[GadgetConst.VENDORS.size()];
+        for (int i = 0; i < GadgetConst.VENDORS.size(); i++) {
+            mapGadgetMetaModelGadgetsByVendor[i] = new LinkedHashMap<>();
+            String vendor = GadgetConst.VENDORS.get(i);
+            for (ArrayList<String> gadget : gadgets) {
+                if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).equals(vendor)) {
+                    String metaModel = getMetaModel(gadget);
+                    if (!mapGadgetMetaModelGadgetsByVendor[i].containsKey(metaModel)) {
+                        mapGadgetMetaModelGadgetsByVendor[i].put(metaModel,
+                                new ArrayList<ArrayList<String>>());
+                    }
+                    mapGadgetMetaModelGadgetsByVendor[i].get(metaModel).add(gadget);
                 }
             }
         }
     }
 
     public static String getAvitoPath(ArrayList<String> gadget) {
-        String vendor = gadget.get(mapGadgetAttributeNumber.get(VENDOR));
         String modelLine = gadget.get(mapGadgetAttributeNumber.get(MODEL_LINE));
         String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
         String color = gadget.get(mapGadgetAttributeNumber.get(COLOR));
-        String res = vendor + "/" + modelLine + "/" + model.replace(" ", "") + "/" + color.replace(" ", "");
-        String quality = gadget.get(mapGadgetAttributeNumber.get(QUALITY));
-        if (quality.equals("CPO")) {
+        String res = getVendor(gadget) + "/" + modelLine + "/" + model.replace(" ", "") + "/"
+                + color.replace(" ", "");
+        if (getQuality(gadget).equals("CPO")) {
             res += "/CPO";
         }
         res += "/" + IMG_FILE_NAME + ".jpg";
@@ -43,10 +57,10 @@ public class AvitoGadgets extends Gadgets {
 
     /*private ArrayList<String> extractGadgetByModel(int modelId) {
         String model = gadgetAttributesVariants.get(mapGadgetAttributeNumber.get(MODEL)).get(modelId);
-        ArrayList<ArrayList<String>> gadgetsByModel = mapGadgetModelGadgets.get(model);
+        ArrayList<ArrayList<String>> gadgetsByModel = mapGadgetMetaModelGadgetsByVendor.get(model);
         ArrayList<String> gadget = gadgetsByModel.get(gadgetsByModel.maxId() - 1);
         gadgetsByModel.remove(gadgetsByModel.maxId() - 1);
-        mapGadgetModelGadgets.put(model, gadgetsByModel);
+        mapGadgetMetaModelGadgetsByVendor.put(model, gadgetsByModel);
         return gadget;
     }*/
 
@@ -180,61 +194,67 @@ public class AvitoGadgets extends Gadgets {
         }
     }
 
-    private LinkedHashMap<String, ArrayList<ArrayList<String>>> getModelGadgetMapByVendor(String vendor) {
-        LinkedHashMap<String, ArrayList<ArrayList<String>>> mapGadgetModelGadgets = new LinkedHashMap<>();
-        for (ArrayList<String> gadget : gadgets) {
-            if (gadget.get(mapGadgetAttributeNumber.get(VENDOR)).equals(vendor)) {
-                String metaModel = getMetaModel(gadget);
-                if (!mapGadgetModelGadgets.containsKey(metaModel)) {
-                    mapGadgetModelGadgets.put(metaModel, new ArrayList<ArrayList<String>>());
-                }
-                mapGadgetModelGadgets.get(metaModel).add(gadget);
-            }
-        }
-        return mapGadgetModelGadgets;
-    }
-
-    private String getMetaModel(ArrayList<String> gadget) {
-        return gadget.get(mapGadgetAttributeNumber.get(MODEL_LINE)) + " " +
-                gadget.get(mapGadgetAttributeNumber.get(MODEL));
-    }
-
-    public void generateXML(BufferedWriter writer, int cityId) throws IOException {
+    public String generateXMLGlobal(int cityId) throws IOException {
         String xml = "";
-        for (String vendor : GadgetConst.VENDORS) {
-            LinkedHashMap<String, ArrayList<ArrayList<String>>> mapMetaModelGadgets =
-                    getModelGadgetMapByVendor(vendor);
-            int minMetaModelSize = MAX_MODEL_VARIETY_COUNT;
-            for (String metaModel : mapMetaModelGadgets.keySet()) {
-                minMetaModelSize = Math.min(minMetaModelSize, mapMetaModelGadgets.get(metaModel).size());
+        for (int i = 0; i < GadgetConst.VENDORS.size(); i++) {
+            GadgetGroup gadgetGroup = new GadgetGroup(GadgetConst.COUNTRIES.get(0));
+            for (String metaModel : mapGadgetMetaModelGadgetsByVendor[i].keySet()) {
+                gadgetGroup.gadgets.add(mapGadgetMetaModelGadgetsByVendor[i].get(metaModel).get(0));
             }
+            gadgetGroup.initialize(-1, 1, cityId);
+            xml += gadgetGroup.getXmlAd();
+        }
+        return xml;
+    }
 
-            GadgetGroup[] gadgetGroups = new GadgetGroup[1/*GadgetConst.MAP_VENDOR_ADS_SIZE[cityId].get(vendor)*/];
-            int groupId = 0;
-            System.out.println(minMetaModelSize);
-            for (int metaModelId = 0; metaModelId < minMetaModelSize; metaModelId++) {
-                for (String country : GadgetConst.COUNTRIES) {
-                    gadgetGroups[groupId] = new GadgetGroup(country);
-                    for (String metaModel : mapMetaModelGadgets.keySet()) {
-                        gadgetGroups[groupId].gadgets.add(mapMetaModelGadgets.get(metaModel).get(metaModelId));
+    private int getMetaModelAdsSize(String vendor, String metaModel, int cityId) {
+        if (!GadgetConst.MAP_MODEL_ADS_PER_MONTH[cityId].containsKey(vendor + " " + metaModel)) {
+            return 0;
+        }
+        int adsPerMonth = GadgetConst.MAP_MODEL_ADS_PER_MONTH[cityId].get(vendor + " " + metaModel);
+        return (adsPerMonth - 1) / ADS_COUNT_MIN;
+    }
+
+    public String generateXMLModels(int cityId) throws IOException {
+        String xml = "";
+        for (int i = 0; i < GadgetConst.VENDORS.size(); i++) {
+            String vendor = GadgetConst.VENDORS.get(i);
+            int maxCountryCount = 0;
+            for (String metaModel : mapGadgetMetaModelGadgetsByVendor[i].keySet()) {
+                maxCountryCount = Math.max(maxCountryCount, getMetaModelAdsSize(vendor, metaModel, cityId) /
+                        mapGadgetMetaModelGadgetsByVendor[i].get(metaModel).size());
+            }
+            System.out.println("max countries=" + maxCountryCount);
+            HashMap<String, ArrayList<GadgetGroup>> gadgetsByMetaModel = new HashMap<>();
+            for (String metaModel : mapGadgetMetaModelGadgetsByVendor[i].keySet()) {
+                gadgetsByMetaModel.put(metaModel, new ArrayList<GadgetGroup>());
+            }
+            for (int countryId = 1; countryId < maxCountryCount + 1; countryId++) {
+                for (String metaModel : mapGadgetMetaModelGadgetsByVendor[i].keySet()) {
+                    ArrayList<GadgetGroup> gadgets = gadgetsByMetaModel.get(metaModel);
+                    for (int metaModelId = 0; metaModelId < mapGadgetMetaModelGadgetsByVendor[i].get(metaModel)
+                            .size() && gadgets.size() < getMetaModelAdsSize(vendor, metaModel, cityId); metaModelId++) {
+                        String country = GadgetConst.COUNTRIES.get(countryId);
+                        GadgetGroup gadget = new GadgetGroup(country);
+                        gadget.gadgets.add(mapGadgetMetaModelGadgetsByVendor[i]
+                                .get(metaModel).get(metaModelId));
+                        gadgets.add(gadget);
                     }
-                    groupId++;
-                    if (groupId == gadgetGroups.length) {
-                        break;
-                    }
-                }
-                if (groupId == gadgetGroups.length) {
-                    break;
+//                    System.out.println(metaModel + " size=" + gadgets.size() +" from "+
+//                            getMetaModelAdsSize(vendor, metaModel, cityId));
+                    gadgetsByMetaModel.put(metaModel, gadgets);
                 }
             }
-
-            for (groupId = 0; groupId < gadgetGroups.length; groupId++) {
-                gadgetGroups[groupId].initialize(groupId, gadgetGroups.length, cityId);
-                xml += gadgetGroups[groupId].getXmlAd();
-//                    generateAmoledDirsPhotos(gadgets.get(gadgetNum));
+            for (String metaModel : gadgetsByMetaModel.keySet()) {
+                ArrayList<GadgetGroup> gadgets = gadgetsByMetaModel.get(metaModel);
+                for (int gadgetId = 0; gadgetId < gadgets.size(); gadgetId++) {
+                    GadgetGroup gadget = gadgets.get(gadgetId);
+                    gadget.initialize(gadgets.size() - gadgetId - 1, gadgets.size(), cityId);
+                    xml += gadget.getXmlAd();
+                }
             }
         }
-        writer.write(xml);
+        return xml;
     }
 
     /*public void generateFolders() throws IOException {

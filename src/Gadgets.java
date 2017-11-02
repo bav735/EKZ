@@ -1,4 +1,7 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Scanner;
 
 /**
  * Created by A on 13.03.2017.
@@ -61,7 +64,6 @@ public class Gadgets {
             String gadgetName = String.join(" ", Arrays.copyOfRange(words, 0, words.length - PRICES_COUNT));
             String[] prices = Arrays.copyOfRange(words, words.length - PRICES_COUNT, words.length);
             mapGadgetNamePrices.put(gadgetName, new ArrayList<>(Arrays.asList(prices)));
-            System.out.println(gadgetName);
         }
         inScanner.close();
     }
@@ -99,6 +101,19 @@ public class Gadgets {
     public static String getGadgetName(ArrayList<String> gadget, String firstNameAttr, String lastNameAttr) {
         return String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(firstNameAttr),
                 mapGadgetAttributeNumber.get(lastNameAttr) + 1));
+    }
+
+    public static String getMetaModel(ArrayList<String> gadget) {
+        return gadget.get(mapGadgetAttributeNumber.get(MODEL_LINE)) + " " +
+                gadget.get(mapGadgetAttributeNumber.get(MODEL));
+    }
+
+    public static String getVendor(ArrayList<String> gadget) {
+        return gadget.get(mapGadgetAttributeNumber.get(VENDOR));
+    }
+
+    public static String getQuality(ArrayList<String> gadget) {
+        return gadget.get(mapGadgetAttributeNumber.get(QUALITY));
     }
 
     /*
