@@ -53,8 +53,8 @@ public class WebSiteGadgets extends Gadgets {
     }
 
     public boolean excludeModel(String model, String color, String memory) {
-        return model.contains("7") &&
-                memory.contains("32") && color.toLowerCase().contains("red");
+        return false;
+//                model.contains("7") &&memory.contains("32") && color.toLowerCase().contains("red");
     }
 
     private String getGadgetPathSite(ArrayList<String> gadget, String color) {

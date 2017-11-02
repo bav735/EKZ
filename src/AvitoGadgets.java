@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 
@@ -210,7 +209,7 @@ public class AvitoGadgets extends Gadgets {
                 minMetaModelSize = Math.min(minMetaModelSize, mapMetaModelGadgets.get(metaModel).size());
             }
 
-            GadgetGroup[] gadgetGroups = new GadgetGroup[GadgetConst.MAP_VENDOR_ADS_SIZE[cityId].get(vendor)];
+            GadgetGroup[] gadgetGroups = new GadgetGroup[1/*GadgetConst.MAP_VENDOR_ADS_SIZE[cityId].get(vendor)*/];
             int groupId = 0;
             System.out.println(minMetaModelSize);
             for (int metaModelId = 0; metaModelId < minMetaModelSize; metaModelId++) {

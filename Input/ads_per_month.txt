@@ -1,69 +1,21 @@
-Новые и восстановленные Samsung Galaxy  т.п.
-
-Galaxy S6 Edge Plus|32|2
-Galaxy A3 (2016)|79|3
-Galaxy A5 (2016)|135|7
-Galaxy A7 (2016)|60|1
-Galaxy Grand Prime|87|17
-Galaxy Alpha|62|4
-Galaxy J3 (2016)|52|2
-Galaxy J5 (2016)|53|2
-Galaxy J7 (2016)|39|1
-10
-Galaxy S3|190|29
-Galaxy S6 Edge|210|20
-Galaxy S7|322|12
-Galaxy Note 3|215|3
-Galaxy Note 4|189|1
-Galaxy Note 5|216|1
-Galaxy Note 8|210|1
-32
-Galaxy S4|290|41
-Galaxy S5|251|34
-Galaxy S6|292|8
-Galaxy S7 Edge|478|478
-47
-
-Apple iPhone 4S/5/5C/6/6S/SE/7/8/Plus
-
-
-iPhone SE|555|14
-iPhone 6 Plus|841|12
-iPhone 7 Plus|1178|19
-iPhone 6S Plus|677|10
-iPhone 4S|1404|999
-iPhone 5C|684|13
-iPhone 8 Plus|734|?
-
-iPhone 6S|2776|53
-iPhone 5S|4347|116
-iPhone 7|3582|56
-iPhone 5|4304|999
-iPhone 6|4382|999
-iPhone 8|2090|?
-
-Redmi 4A|157|
-Redmi 4X|213|
-Redmi Note 4X|234|
-Redmi Note 4|264|
-Redmi Note 5A|40|
-Mi Mi4|16|
-Mi Mi5|169|
-Mi Mi5C|27|
-Mi Mi5S|89|
-Mi Mi5S Plus|45|
-Mi Mix|49|
-Mi Max 2|118|
-Mi Note 2|78|
-Mi Mi6|110|
-
-Xperia Z||
-Xperia Z1||
-Xperia Z1 Compact||
-Xperia Z2||
-Xperia Z3|304|
-Xperia Z3 Compact|129|
-Xperia Z5 Compact||
-
-One M8||
-One M9||
+Apple iPhone 4S	1116	181
+Apple iPhone 5	1 642	401
+Apple iPhone 5C	456	59
+Apple iPhone 5S	3832	744
+Apple iPhone 6	4048	775
+Apple iPhone 6 Plus	501	101
+Apple iPhone 6S	2808	406
+Apple iPhone 6S Plus	410	83
+Apple iPhone 7	2695	557
+Apple iPhone 7 Plus	699	140
+Samsung Galaxy S3	156	28
+Samsung Galaxy S4	263	43
+Samsung Galaxy S5	209	31
+Samsung Galaxy S6 	428	44
+Samsung Galaxy S6 Edge	173	20
+Samsung Galaxy S6 Edge Plus	11	1
+Samsung Galaxy S7	657	65
+Samsung Galaxy S7 Edge	416	42
+Samsung Galaxy Note 3	100	17
+Samsung Galaxy Note 4	98	14
+Samsung Galaxy Note 5	41	12

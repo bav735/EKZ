@@ -1,4 +1,3 @@
-APPLE
 REF Apple iPhone 4S 8Gb
 REF Apple iPhone 4S 16Gb
 REF Apple iPhone 4S 32Gb
@@ -31,7 +30,6 @@ REF Apple iPhone 7 256Gb
 REF Apple iPhone 7 Plus 32Gb
 REF Apple iPhone 7 Plus 128Gb
 REF Apple iPhone 7 Plus 256Gb
-SAMSUNG
 REF Samsung Galaxy Grand Prime 8Gb
 REF Samsung Galaxy Alpha 32Gb
 REF Samsung Galaxy S3 16Gb
@@ -51,7 +49,6 @@ REF Samsung Galaxy J7 (2016) 16Gb
 REF Samsung Galaxy Note 3 16Gb
 REF Samsung Galaxy Note 4 32Gb
 REF Samsung Galaxy Note 5 32Gb
-XIAOMI
 EST Xiaomi Redmi 4A 16Gb
 EST Xiaomi Redmi 4A 32Gb
 EST Xiaomi Redmi 4X 16Gb
@@ -74,7 +71,6 @@ EST Xiaomi Mi Note 2 64Gb
 EST Xiaomi Mi Note 2 128Gb
 EST Xiaomi Mi Mi6 64Gb
 EST Xiaomi Mi Mi6 128Gb
-MEIZU
 EST Meizu Pro 6S 64Gb
 EST Meizu M M3X 32Gb
 EST Meizu M M5C 16Gb
@@ -85,7 +81,6 @@ EST Meizu M M5 Note 32Gb
 EST Meizu M M5 Note 64Gb
 EST Meizu M M5S 16Gb
 EST Meizu M M5S 32Gb
-SONY
 REF Sony Xperia SP 8Gb
 REF Sony Xperia Z 16Gb
 REF Sony Xperia Z1 16Gb
@@ -94,6 +89,8 @@ REF Sony Xperia Z2 16Gb
 REF Sony Xperia Z3 16Gb
 REF Sony Xperia Z3 Compact 16Gb
 REF Sony Xperia Z5 Compact 16Gb
-HTC
+REF HTC One Mini 2 16Gb
+REF HTC One M7 32Gb
 REF HTC One M8 32Gb
 REF HTC One M9 32Gb
+REF HTC One A9 32Gb

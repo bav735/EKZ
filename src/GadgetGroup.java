@@ -57,7 +57,7 @@ public class GadgetGroup extends Gadgets {
     }
 
     private String getIdXML() {
-        return cityId + getVendor() + id;
+        return cityId + getVendor();
     }
 
     private String getAdTitle() {
@@ -65,7 +65,7 @@ public class GadgetGroup extends Gadgets {
     }
 
     private String getAdPrice() {
-        return GadgetConst.MAP_VENDOR_PRICE.get(getVendor()) + "";
+        return 40 + "";
     }
 
     public String getXmlAd() {
@@ -122,8 +122,8 @@ public class GadgetGroup extends Gadgets {
         }
         String quality = gadgets.get(0).get(mapGadgetAttributeNumber.get(QUALITY));
         text += "-каждый аппарат " + GadgetConst.MAP_QUALITY_DESCRIPTION.get(quality);
-        text += ", версия/прошивка " + country + " (оператор " +
-                GadgetConst.MAP_COUNTRIES_OPERATOR.get(country) + ")";
+        text += ", версия/прошивка " + country /*+ " (оператор " +
+                GadgetConst.MAP_COUNTRIES_OPERATOR.get(country) + ")"*/;
         if (quality.equals(GadgetConst.REF)) {
             text += "; в наличии также имеется новая ";
             if (getVendor().equals("Apple")) {
@@ -189,7 +189,7 @@ public class GadgetGroup extends Gadgets {
 
     private String getOffer(ArrayList<String> gadget, int cityId) {
         String offer = "➡ ";
-        offer += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(MODEL_LINE),
+        offer += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(VENDOR),
                 mapGadgetAttributeNumber.get(COLOR) + 1));
 //        if (getVendor().equals("Apple")) {
 //            offer += " TouchID работает ";

@@ -63,20 +63,20 @@ public class GadgetConst {
             "мейзу"));
 
     public final static ArrayList<String> VENDOR_TITLES = new ArrayList<String>(Arrays.asList(
-            "Samsung Galaxy S3/S4/S5/S6/S7/A3/A5/A7/Note 3/4/5",
+            "Samsung Galaxy S4/S5/S6/S7/Edge/A3/A5/A7/Note 4/5",
             "Apple iPhone 4S/5/5C/5S/6/6S/SE/7/Plus. Магазин",
             "Sony Xperia SP/Z/Z1/Z2/Z3/Z5/Compact. Магазин",
-            "HTC One M8/M9. Магазин",
+            "HTC One Mini 2/M7/M8/M9/A9. Магазин",
             "Xiaomi Redmi 4A/4X/Note 4/Mi5/Mi5C/Mi5S/Mix/Max 2",
             "Meizu Pro/M3X/M5C/M5/M5S/Note. Магазин"));
 
-    public final static ArrayList<Integer> VENDOR_PRICES = new ArrayList<>(Arrays.asList(
+    /*public final static ArrayList<Integer> VENDOR_PRICES = new ArrayList<>(Arrays.asList(
             5000,
             3000,
             4000,
             10000,
             7000,
-            6000));
+            6000));*/
 
     public final static ArrayList<String> MODEL_LINES = new ArrayList<String>(Arrays.asList(
             "Galaxy",
@@ -387,16 +387,13 @@ public class GadgetConst {
 
     public static final HashMap<String, String> MAP_VENDOR_OFFER;
     public static final HashMap<String, String> MAP_VENDOR_TITLE;
-    public static final HashMap<String, Integer> MAP_VENDOR_PRICE;
 
     static {
         MAP_VENDOR_OFFER = new HashMap<>();
         MAP_VENDOR_TITLE = new HashMap<>();
-        MAP_VENDOR_PRICE = new HashMap<>();
         for (int i = 0; i < VENDORS.size(); i++) {
             MAP_VENDOR_OFFER.put(VENDORS.get(i), VENDOR_OFFERS.get(i));
             MAP_VENDOR_TITLE.put(VENDORS.get(i), VENDOR_TITLES.get(i));
-            MAP_VENDOR_PRICE.put(VENDORS.get(i), VENDOR_PRICES.get(i));
         }
     }
 
