@@ -157,8 +157,8 @@ public class GadgetGroup extends Gadgets {
             }
             String quality = getQuality(gadgets.get(0));
             text += "-каждый аппарат " + GadgetConst.MAP_QUALITY_DESCRIPTION.get(quality);
-            text += " (кроме моделей 2017 года), версия/прошивка " + country;
-            if (quality.startsWith("REF")) {
+            text += ", версия/прошивка " + country;
+            if (quality.startsWith(GadgetConst.REF)) {
                 text += "; в наличии также имеется новая ";
                 if (vendor.equals("Apple")) {
                     text += "и официально восстановленная ";
