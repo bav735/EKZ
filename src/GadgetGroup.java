@@ -11,7 +11,7 @@ public class GadgetGroup extends Gadgets {
     final static int HOUR_BEGIN = 9;
     final static int ADS_COUNT_BORDER = 300;
     final static int DAYS_OFFSET = 1;
-    final static int HOUR_OFFSET = 4;
+    final static int HOUR_OFFSET = 3;
     final static int MINUTE_OFFSET = 0;
     ArrayList<ArrayList<String>> gadgets;
     String country;
