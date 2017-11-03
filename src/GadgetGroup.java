@@ -10,9 +10,9 @@ public class GadgetGroup extends Gadgets {
     final static int AD_TIME_MONTH_SEC = 30 * AD_TIME_DAY_SEC;
     final static int HOUR_BEGIN = 9;
     final static int ADS_COUNT_BORDER = 300;
-    final static int DAYS_OFFSET = 0;
+    final static int DAYS_OFFSET = 1;
     final static int HOUR_OFFSET = 19;
-    final static int MINUTE_OFFSET = 0;
+    final static int MINUTE_OFFSET = 55;
     ArrayList<ArrayList<String>> gadgets;
     String country;
     String vendor;
@@ -115,16 +115,21 @@ public class GadgetGroup extends Gadgets {
         ad += "\t\t<Description>" + getAdText() + "</Description>\n";
         ad += "\t\t<Price>" + getAdPrice(cityId) + "</Price>\n";
         ad += "\t\t<Images>\n";
-        ad += "\t\t\t<Image url=\"" + getImageAvitoUrl(gadgets.get(0)) + "\"/>\n";
+        ad += getImageAvitoUrls();
         ad += "\t\t</Images>\n";
         ad += "\t</Ad>\n";
         return ad;
     }
 
-    private String getImageAvitoUrl(ArrayList<String> gadget) {
-        if (isGlobal) {
-            return "";
+    private String getImageAvitoUrls() {
+        String res = "";
+        for (ArrayList<String> gadget : gadgets) {
+            res += "\t\t\t<Image url=\"" + getImageAvitoUrl(gadget) + "\"/>\n";
         }
+        return res;
+    }
+
+    private String getImageAvitoUrl(ArrayList<String> gadget) {
         return "https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/"
                 + getFullPath(gadget);
     }
@@ -134,7 +139,7 @@ public class GadgetGroup extends Gadgets {
         if (isGlobal) {
             text += "Уважаемый покупатель,<br>" +
                     "Добро пожаловать в iSPARK\uD83D\uDD25";
-            text += "</p><p>\uD83D\uDCA3Акция! Мега-РОЗЫГРЫШ, подарки получат ВСЕ участники конкурса (подробности на сайте ispark info)❗</p>";
+            text += "</p><p>\uD83D\uDCA3Акция! Мега-РОЗЫГРЫШ iPHONE 7, подарки получат ВСЕ участники конкурса (подробности на сайте ispark info)❗</p>";
             text += "<p>\uD83D\uDC9BМы всегда идем навстречу нашим покупателям.<br>" +
                     "\uD83D\uDC49Мы предлагаем вам:<br>" +
                     "\uD83D\uDD39 ТРЕЙД-ИН, ОБМЕН старого телефона<br>" +
@@ -175,7 +180,15 @@ public class GadgetGroup extends Gadgets {
         } else {
             text += getGadgetName(gadgets.get(0), getFirstAttr(), COLOR) + "<br>";
             text += "-" + GadgetConst.MAP_QUALITY_DESCRIPTION.get(getQuality(gadgets.get(0)));
-            text += ", версия/прошивка " + country;
+            text += ", версия/прошивка " + country + ";";
+            if (getQuality(gadgets.get(0)).equals(GadgetConst.REF)) {
+                text += "в наличии также имеется новая ";
+                if (vendor.equals("Apple")) {
+                    text += "и официально восстановленная ";
+                }
+                text += "продукция с гарантией производителя, ";
+            }
+            text += " характеристики и весь ассортимент см. на нашем сайте ispark info";
         }
         text += "</p>]]>";
         return text;
