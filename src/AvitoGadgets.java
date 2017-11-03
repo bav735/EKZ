@@ -179,7 +179,11 @@ public class AvitoGadgets extends Gadgets {
         for (int i = 0; i < GadgetConst.VENDORS.size(); i++) {
             GadgetGroup gadgetGroup = new GadgetGroup(GadgetConst.COUNTRIES.get(0));
             for (String metaModel : mapGadgetMetaModelGadgetsByVendor[i].keySet()) {
-                gadgetGroup.gadgets.add(mapGadgetMetaModelGadgetsByVendor[i].get(metaModel).get(0));
+                ArrayList<String> gadget = mapGadgetMetaModelGadgetsByVendor[i].get(metaModel).get(0);
+                if (!(getVendor(gadget).equals("Apple") || getVendor(gadget).equals("Samsung"))
+                        || getQuality(gadget).startsWith("REF")) {//УБРАТЬ КОГДА ИСТЕЧЕТ СРОК РАЗМЕЩЕНИЯ!
+                    gadgetGroup.gadgets.add(gadget);
+                }
             }
             gadgetGroup.initialize(-1, 1, cityId);
             xml += gadgetGroup.getXmlAd();

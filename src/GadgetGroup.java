@@ -10,8 +10,8 @@ public class GadgetGroup extends Gadgets {
     final static int AD_TIME_MONTH_SEC = 30 * AD_TIME_DAY_SEC;
     final static int HOUR_BEGIN = 9;
     final static int ADS_COUNT_BORDER = 300;
-    final static int DAYS_OFFSET = 1;
-    final static int HOUR_OFFSET = 3;
+    final static int DAYS_OFFSET = 0;
+    final static int HOUR_OFFSET = 0;
     final static int MINUTE_OFFSET = 0;
     ArrayList<ArrayList<String>> gadgets;
     String country;
@@ -181,14 +181,14 @@ public class GadgetGroup extends Gadgets {
             text += getGadgetName(gadgets.get(0), getFirstAttr(), COLOR) + "<br>";
             text += "-" + GadgetConst.MAP_QUALITY_DESCRIPTION.get(getQuality(gadgets.get(0)));
             text += ", версия/прошивка " + country + ";";
-            if (getQuality(gadgets.get(0)).equals(GadgetConst.REF)) {
-                text += "в наличии также имеется новая ";
+            if (getQuality(gadgets.get(0)).startsWith(GadgetConst.REF)) {
+                text += " в наличии также имеется новая ";
                 if (vendor.equals("Apple")) {
                     text += "и официально восстановленная ";
                 }
-                text += "продукция с гарантией производителя, ";
+                text += "продукция с гарантией производителя";
             }
-            text += " характеристики и весь ассортимент см. на нашем сайте ispark info";
+//            text += " характеристики и весь ассортимент см. на нашем сайте ispark info";
         }
         text += "</p>]]>";
         return text;
