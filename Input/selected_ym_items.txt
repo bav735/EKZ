@@ -1,14 +1,22 @@
-Apple iPhone 5S 16Gb
-Apple iPhone 6 16Gb
-Apple iPhone 6 64Gb
-Apple iPhone 6S 16Gb
-Apple iPhone 6S 32Gb
-Apple iPhone 6S 64Gb
-Apple iPhone 6S Plus 64Gb
-Apple iPhone SE 32Gb
-Apple iPhone 7 32Gb
-Apple iPhone 7 128Gb
-Samsung Galaxy S7 32Gb
-Samsung Galaxy S7 Edge 32Gb
-Samsung Galaxy S8 64Gb
-Samsung Galaxy S8 Plus 64Gb
+CPO Apple iPhone 6S 16Gb
+RST Apple iPhone 6S 16Gb
+RST Apple iPhone 6S 32Gb
+CPO Apple iPhone 6S 64Gb
+RST Apple iPhone 6S 64Gb
+CPO Apple iPhone 6S Plus 16Gb
+CPO Apple iPhone 6S Plus 64Gb
+RST Apple iPhone 7 32Gb
+RST Apple iPhone 7 128Gb
+RST Apple iPhone 7 256Gb
+RST Apple iPhone 7 Plus 32Gb
+RST Apple iPhone 7 Plus 128Gb
+RST Apple iPhone 7 Plus 256Gb
+RST Apple iPhone 8 64Gb
+RST Apple iPhone 8 256Gb
+RST Apple iPhone 8 Plus 64Gb
+RST Apple iPhone 8 Plus 256Gb
+RST Samsung Galaxy S7 32Gb
+RST Samsung Galaxy S8 64Gb
+RST Samsung Galaxy S8 Plus 64Gb
+RST Samsung Galaxy Note 5 32Gb
+RST Samsung Galaxy Note 8 64Gb

@@ -8,7 +8,7 @@ import java.util.Scanner;
 /**
  * Created by A on 14.06.2017.
  */
-public class Gadget {
+public class Gadget extends Gadgets {
     public static int maxId = 1;
     String imageUrl;
     String price;
@@ -24,19 +24,19 @@ public class Gadget {
 
     public Gadget(ArrayList<String> gadget) {
         initialGadget = gadget;
-        quality = gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.QUALITY));
+        quality = getQuality(gadget);
         namePrefix = "Смартфон";
-        vendor = gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.VENDOR));
+        vendor = getVendor(gadget);
         model = Gadgets.getGadgetName(gadget, Gadgets.MODEL_LINE, Gadgets.COLOR) + " (" +
                 GadgetConst.MAP_QUALITY_NAME.get(quality) + ")";
         description = getDescriptionByModel(vendor,
                 gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.MODEL_LINE)),
                 gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.MODEL))) +
                 ",\nДоп. информация о товаре: " + GadgetConst.MAP_QUALITY_DESCRIPTION.get(quality);
-        String warrantyPrice = Gadgets.getPrice(initialGadget, Gadgets.YEAR_WARRANTY_COST);
+        /*String warrantyPrice = Gadgets.getPrice(initialGadget, Gadgets.YEAR_WARRANTY_COST);
         if (warrantyPrice.length() > 1) {
             description += ",\n" + Gadgets.YEAR_WARRANTY_COST + ": +" + warrantyPrice + "\u20BD";
-        }
+        }*/
         imageUrl = WebSiteGadgets.getImageWebsiteUrl(gadget);
         id = "" + maxId;
         maxId++;
@@ -99,7 +99,11 @@ public class Gadget {
     }
 
     public String getGoogleSheetsName() {
-        return vendor + " " + model;
+        if (initialGadget==null) {
+            return "";
+        }
+        return getGadgetName(initialGadget,QUALITY,MEMORY);
+//        return quality + " " + vendor + " " + model;
         /*String res = quality;
         res += " " + vendor + " ";
         boolean touchLocked = false;

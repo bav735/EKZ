@@ -149,6 +149,7 @@ public class CategoryTree {
             throws IOException {
         for (int i = 0; i < gadgets.size(); i++) {
             Gadget gadget = gadgets.get(i);
+//            System.out.println(gadget.getGoogleSheetsName());
             if (selectedItems.contains(gadget.getGoogleSheetsName())) {
                 boolean warranty = true;
                 String price = Gadgets.getPrice(gadget.initialGadget, Gadgets.REGIONS_PRICE);
@@ -161,10 +162,10 @@ public class CategoryTree {
                 if (warranty) {
                     bufferedWriter.write("\"Официальная гарантия. Оплата: в кредит, наличными, по карте.\";" +
                             "true\n");
-                } else {
+                }/* else {
                     bufferedWriter.write("\"Гарантия 1 год. Оплата: в рассрочку, наличными, по карте.\";" +
                             "false\n");
-                }
+                }*/
             }
         }
         for (CategoryTree child : children) {
@@ -214,7 +215,6 @@ public class CategoryTree {
                     String priceNames[] = new String[]{
                             Gadgets.REGIONS_PRICE,
                             Gadgets.MOSCOW_PRICE,
-                            Gadgets.PREPAY_PRICE,
                     };
                     for (String priceName : priceNames) {
                         bufferedWriter.write(gadget.getCSV(child, priceName));
