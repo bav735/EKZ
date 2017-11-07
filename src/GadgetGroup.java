@@ -11,7 +11,7 @@ public class GadgetGroup extends Gadgets {
     final static int HOUR_BEGIN = 9;
     final static int ADS_COUNT_BORDER = 300;
     final static int DAYS_OFFSET = 2;
-    final static int HOUR_OFFSET = 7;
+    final static int HOUR_OFFSET = 9;
     final static int MINUTE_OFFSET = 0;
     ArrayList<ArrayList<String>> gadgets;
     String country;
@@ -181,9 +181,14 @@ public class GadgetGroup extends Gadgets {
             text += getGadgetName(gadgets.get(0), getFirstAttr(), COLOR) + "<br>";
             String warrantyCost = getPrice(gadgets.get(0), YEAR_WARRANTY_COST);
             if (warrantyCost.length() > 1) {
-                text += "гарантия на 1 год +" + warrantyCost + "\u20BD<br>";
+                text += "гарантия на 1 год +" + warrantyCost + "\u20BD к цене<br>";
             }
-            text += "цена с частичной предоплатой = " + getPriceByCity(gadgets.get(0), cityId - 1) + "\u20BD<br>";
+            if (cityId==1) {
+                text += "с частичной предоплатой = ";
+            } else {
+                text += "оптом (общий заказ от 3шт) = ";
+            }
+            text += getPriceByCity(gadgets.get(0), cityId - 1) + "\u20BD<br>";
             text += "</p><p>-запечатан в пленку, полный комплект; " + GadgetConst.MAP_QUALITY_DESCRIPTION.get(getQuality(gadgets.get(0)));
             text += ", версия/прошивка " + country + ";";
             if (getQuality(gadgets.get(0)).startsWith(GadgetConst.REF)) {
