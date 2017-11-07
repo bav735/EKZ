@@ -1055,7 +1055,7 @@
 	</Ad>
 	<Ad>
 		<Id>1AppleiPhone5S3</Id>
-		<DateBegin>2017-11-04T14:11:21+03:00</DateBegin>
+		<DateBegin>2017-12-04T14:11:21+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
@@ -1905,7 +1905,7 @@
 	</Ad>
 	<Ad>
 		<Id>1AppleiPhone72</Id>
-		<DateBegin>2017-11-04T11:40:00+03:00</DateBegin>
+		<DateBegin>2017-12-04T11:40:00+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
@@ -2602,7 +2602,7 @@
 	</Ad>
 	<Ad>
 		<Id>1AppleiPhone63</Id>
-		<DateBegin>2017-11-04T13:25:15+03:00</DateBegin>
+		<DateBegin>2017-12-04T13:25:15+03:00</DateBegin>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
@@ -3303,21 +3303,6 @@
 			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Samsung/Galaxy/S5Mini/16Gb/Black/img.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Samsung/Galaxy/S6/32Gb/BlackSapphire/img.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Samsung/Galaxy/S6Edge/32Gb/BlackSapphire/img.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Samsung/Galaxy/S6EdgePlus/32Gb/WhitePearl/img.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Samsung/Galaxy/S7/32Gb/BlackOnyx/img.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Samsung/Galaxy/S7Edge/32Gb/BlackOnyx/img.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Samsung/Galaxy/A32015/8Gb/Black/img.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Samsung/Galaxy/A32016/16Gb/Black/img.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Samsung/Galaxy/A52015/16Gb/Black/img.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Samsung/Galaxy/A52016/16Gb/Black/img.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Samsung/Galaxy/A72016/16Gb/Black/img.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Samsung/Galaxy/J52015/16Gb/Black/img.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Samsung/Galaxy/J52016/16Gb/Black/img.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Samsung/Galaxy/J72015/16Gb/Black/img.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Samsung/Galaxy/J72016/16Gb/Black/img.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Samsung/Galaxy/Note3/16Gb/Black/img.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Samsung/Galaxy/Note4/32Gb/Black/img.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Samsung/Galaxy/Note5/32Gb/BlackSapphire/img.jpg"/>
 		</Images>
 	</Ad>
 	<Ad>
@@ -3343,7 +3328,6 @@
 			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Apple/iPhone/6SPlus/16Gb/SpaceGray/img.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Apple/iPhone/SE/16Gb/SpaceGray/img.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Apple/iPhone/7/32Gb/Black/img.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/REF/Apple/iPhone/7Plus/32Gb/Black/img.jpg"/>
 		</Images>
 	</Ad>
 	<Ad>
@@ -3412,10 +3396,6 @@
 			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/EST/Xiaomi/Mi/Mi5C/64Gb/Gold/img.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/EST/Xiaomi/Mi/Mi5S/64Gb/Silver/img.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/EST/Xiaomi/Mi/Mi5SPlus/64Gb/Silver/img.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/EST/Xiaomi/Mi/Mix/128Gb/Black/img.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/EST/Xiaomi/Mi/Max2/64Gb/Gold/img.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/EST/Xiaomi/Mi/Note2/64Gb/Gold/img.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_actual/EST/Xiaomi/Mi/Mi6/64Gb/Blue/img.jpg"/>
 		</Images>
 	</Ad>
 	<Ad>

@@ -10,8 +10,8 @@ public class GadgetGroup extends Gadgets {
     final static int AD_TIME_MONTH_SEC = 30 * AD_TIME_DAY_SEC;
     final static int HOUR_BEGIN = 9;
     final static int ADS_COUNT_BORDER = 300;
-    final static int DAYS_OFFSET = 0;
-    final static int HOUR_OFFSET = 0;
+    final static int DAYS_OFFSET = 2;
+    final static int HOUR_OFFSET = 3;
     final static int MINUTE_OFFSET = 0;
     ArrayList<ArrayList<String>> gadgets;
     String country;
@@ -123,8 +123,8 @@ public class GadgetGroup extends Gadgets {
 
     private String getImageAvitoUrls() {
         String res = "";
-        for (ArrayList<String> gadget : gadgets) {
-            res += "\t\t\t<Image url=\"" + getImageAvitoUrl(gadget) + "\"/>\n";
+        for (int i = 0; i < gadgets.size() && i < 10; i++) {
+            res += "\t\t\t<Image url=\"" + getImageAvitoUrl(gadgets.get(i)) + "\"/>\n";
         }
         return res;
     }
