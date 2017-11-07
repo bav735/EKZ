@@ -11,7 +11,7 @@ public class GadgetGroup extends Gadgets {
     final static int HOUR_BEGIN = 9;
     final static int ADS_COUNT_BORDER = 300;
     final static int DAYS_OFFSET = 2;
-    final static int HOUR_OFFSET = 3;
+    final static int HOUR_OFFSET = 5;
     final static int MINUTE_OFFSET = 0;
     ArrayList<ArrayList<String>> gadgets;
     String country;
@@ -179,16 +179,22 @@ public class GadgetGroup extends Gadgets {
                     "iSPARK\uD83D\uDD25";
         } else {
             text += getGadgetName(gadgets.get(0), getFirstAttr(), COLOR) + "<br>";
-            text += "-" + GadgetConst.MAP_QUALITY_DESCRIPTION.get(getQuality(gadgets.get(0)));
+            String warrantyCost = getPrice(gadgets.get(0), YEAR_WARRANTY_COST);
+            if (warrantyCost.length() > 0) {
+                text += "гарантия на 1 год +" + warrantyCost + "\u20BD к цене<br>";
+            }
+            text += "-запечатан в пленку, полный комплект; " + GadgetConst.MAP_QUALITY_DESCRIPTION.get(getQuality(gadgets.get(0)));
             text += ", версия/прошивка " + country + ";";
             if (getQuality(gadgets.get(0)).startsWith(GadgetConst.REF)) {
                 text += " в наличии также имеется новая ";
-                if (vendor.equals("Apple")) {
-                    text += "и официально восстановленная ";
-                }
-                text += "продукция с гарантией производителя";
+//                if (vendor.equals("Apple")) {
+//                    text += "и официально восстановленная ";
+//                }
+                text += "продукция с гарантией производителя,";
             }
-//            text += " характеристики и весь ассортимент см. на нашем сайте ispark info";
+            text += " характеристики и ассортимент см. на официальном сайте iSPARK";
+            text += "</p><p>Кредит/Рассрочка. Трейд-ин. Оплата по карте без %<br>Самовывоз" +
+                    " Москва/Казань/Чебоксары. Доставка по РФ";
         }
         text += "</p>]]>";
         return text;
