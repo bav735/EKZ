@@ -39,11 +39,8 @@ REFnoTouchID Apple iPhone 6S Plus 128Gb
 REF Apple iPhone 6S Plus 128Gb
 REF Apple iPhone SE 16Gb
 REF Apple iPhone SE 64Gb
-REFnoTouchID Apple iPhone 7 32Gb
 REF Apple iPhone 7 32Gb
-REFnoTouchID Apple iPhone 7 128Gb
 REF Apple iPhone 7 128Gb
-REFnoTouchID Apple iPhone 7 256Gb
 REF Apple iPhone 7 256Gb
 REF Apple iPhone 7 Plus 32Gb
 REF Apple iPhone 7 Plus 128Gb
