@@ -10,7 +10,7 @@ public class GadgetGroup extends Gadgets {
     final static int AD_TIME_MONTH_SEC = 30 * AD_TIME_DAY_SEC;
     final static int HOUR_BEGIN = 9;
     final static int ADS_COUNT_BORDER = 300;
-    final static int DAYS_OFFSET = 12;
+    final static int DAYS_OFFSET = 10;
     final static int HOUR_OFFSET = 18;
     final static int MINUTE_OFFSET = 10;
     ArrayList<ArrayList<String>> gadgets;
@@ -153,11 +153,11 @@ public class GadgetGroup extends Gadgets {
                 text += "продукция";
             }
         }
-        if (isGlobal) {
-            text += "Уважаемый покупатель,<br>" +
-                    "Добро пожаловать в iSPARK\uD83D\uDD25";
-            text += "</p><p>\uD83D\uDCA3Акция! Мега-РОЗЫГРЫШ iPHONE 7, подарки получат ВСЕ участники конкурса (подробности на сайте ispark info)❗</p>";
-        }
+//        if (isGlobal) {
+//            text += "Уважаемый покупатель,<br>" +
+//                    "Добро пожаловать в iSPARK\uD83D\uDD25";
+//            text += "</p><p>\uD83D\uDCA3Акция! Мега-РОЗЫГРЫШ iPHONE 7, подарки получат ВСЕ участники конкурса (подробности на сайте ispark info)❗</p>";
+//        }
         text += "<p>\uD83D\uDC9BМы всегда идем навстречу нашим покупателям.<br>" +
                 "\uD83D\uDC49Мы предлагаем вам:<br>" +
                 "\uD83D\uDD39 ТРЕЙД-ИН, ОБМЕН старого телефона<br>" +
@@ -193,11 +193,12 @@ public class GadgetGroup extends Gadgets {
                 "▶ г. Москва, ул. Сущёвский Вал, д. 5с1, время работы (пн-вс): 11.00-21.00<br>" +
                 "▶ г. Москва, ул. Багратионовский пр-д, д. 7, время работы (пн-вс): 11.00-20.30<br>" +
                 "▶ г. Казань, ул. Лушникова, д. 8, время работы (пн-сб): 11.00-19.00</p>";
-        text += "<p>\uD83D\uDCDE Звоните: 9:00-21:00, ежедневно</p>" +
-                "<p>У нас вы сможете выгодно приобрести любой интересующий вас гаджет или аксессуар!" +
-                "\uD83D\uDC4D<br>" +
-                "iSPARK\uD83D\uDD25";
-        text += "</p>]]>";
+        text += "<p>\uD83D\uDCDE Звоните: 9:00-21:00, ежедневно</p>";
+//                "<p>У нас вы сможете выгодно приобрести любой интересующий вас гаджет или аксессуар!" +
+//                "\uD83D\uDC4D<br>" +
+//                "iSPARK\uD83D\uDD25";
+//        text += "</p>";
+        text += "]]>";
         return text;
     }
 
