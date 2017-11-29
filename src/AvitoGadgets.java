@@ -13,7 +13,7 @@ public class AvitoGadgets extends Gadgets {
     LinkedHashMap<String, ArrayList<ArrayList<String>>> mapGadgetMetaModelGadgetsByVendor[];
 
     public AvitoGadgets() {
-        LinkedHashSet<String> selectedAvitoItems = Solution.getHashSetFromInput("selected_avito_items.txt");
+        LinkedHashSet<String> selectedAvitoItems = Solution.getHashSetFromInput("present_items_msk.txt");
         for (WebSiteGadgets webSiteGadgets : Solution.getWebSiteGadgetsArray()) {
             for (ArrayList<String> gadget : webSiteGadgets.gadgets) {
                 if (selectedAvitoItems.contains(getGadgetName(gadget, QUALITY, MEMORY))) {

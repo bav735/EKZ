@@ -17,14 +17,17 @@ public class Gadgets {
     final static String TOUCH_LOCKED = "Без Отп";
     final static String IMG_FILE_NAME = "img";
 
-    final static int PRICES_COUNT = 4;
+    final static int PRICES_COUNT = 6;
 
-    final static String PREPAY_PRICE = "по предоплате (доставка по РФ: бесплатно)";
+    final static String UNUSED_PRICE = "цена не используется";
+//    final static String PREPAY_PRICE = "по предоплате (доставка по РФ: бесплатно)";
     final static String MOSCOW_PRICE = "cамовывоз Москва (курьерская доставка: +400\u20BD)";
     final static String REGIONS_PRICE = "cамовывоз Регионы (курьерская доставка: +300\u20BD)";
     final static String YEAR_WARRANTY_COST = "Гарантия на ремонтное обслуживание (1 год)";
     public final static String[] priceAttributeNames = new String[]{
-            PREPAY_PRICE,
+            UNUSED_PRICE,
+            UNUSED_PRICE,
+            UNUSED_PRICE,
             MOSCOW_PRICE,
             REGIONS_PRICE,
             YEAR_WARRANTY_COST,

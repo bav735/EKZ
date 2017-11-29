@@ -181,7 +181,7 @@ public class Solution {
 //        root.recalcIds();
 //        root.synchronizeWithPriceList();
 
-        /*inScanner = Solution.getInputScanner("present_items.txt");
+        /*inScanner = Solution.getInputScanner("present_items_kzn.txt");
         HashSet<String> presentItems = new HashSet<>();
         while (inScanner.hasNextLine()) {
             presentItems.add(inScanner.nextLine());

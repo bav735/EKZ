@@ -14,7 +14,7 @@ public class GadgetConst {
 
     public final static String[] CITIES = new String[]{"Москва", "Казань"};
 
-    public final static String[] CITIES_PHONE_NUMBERS = new String[]{"84951252360", "88432110399"};
+    public final static String[] CITIES_PHONE_NUMBERS = new String[]{"84951252360", "88432118341"};
 
     public final static String[] CITIES_XML_FILE_END = new String[]{"msk", "tat"};
 
