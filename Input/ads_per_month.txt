@@ -1,21 +1,21 @@
 Apple iPhone 4S	1116	181
-Apple iPhone 5	1642	401
-Apple iPhone 5C	456	59
-Apple iPhone 5S	3832	744
-Apple iPhone 6	4042	775
-Apple iPhone 6 Plus	501	101
-Apple iPhone 6S	2808	406
-Apple iPhone 6S Plus	410	83
-Apple iPhone SE	561	118
-Apple iPhone 7	2695	557
+Apple iPhone 5	1642	423
+Apple iPhone 5C	456	46
+Apple iPhone 5S	3832	825
+Apple iPhone 6	4042	865
+Apple iPhone 6 Plus	501	118
+Apple iPhone 6S	2808	450
+Apple iPhone 6S Plus	410	103
+Apple iPhone SE	561	88
+Apple iPhone 7	2695	612
 Apple iPhone 7 Plus	699	140
 Apple iPhone 8	734	344
 Apple iPhone 8 Plus	216	109
 Samsung Galaxy S3	156	28
 Samsung Galaxy S4	263	43
-Samsung Galaxy S5	209	31
+Samsung Galaxy S5	209	42
 Samsung Galaxy S6 	428	44
-Samsung Galaxy S6 Edge	173	20
+Samsung Galaxy S6 Edge	173	30
 Samsung Galaxy S6 Edge Plus	11	1
 Samsung Galaxy S7	657	65
 Samsung Galaxy S7 Edge	416	42
@@ -44,7 +44,7 @@ Samsung Galaxy J5 (2017)	103	3
 Samsung Galaxy J7 (2015)	6	1
 Samsung Galaxy J7 (2016)	48	2
 Samsung Galaxy J7 (2017)	28	5
-Xiaomi Redmi 4A	170	36
+Xiaomi Redmi 4A	170	30
 Xiaomi Redmi 4X	392	83
 Xiaomi Redmi Note 2	291	54
 Xiaomi Redmi Note 4X	249	43

@@ -10,9 +10,10 @@ public class GadgetGroup extends Gadgets {
     final static int AD_TIME_MONTH_SEC = 30 * AD_TIME_DAY_SEC;
     final static int HOUR_BEGIN = 9;
     final static int ADS_COUNT_BORDER = 300;
-    final static int DAYS_OFFSET = 10;
-    final static int HOUR_OFFSET = 18;
-    final static int MINUTE_OFFSET = 10;
+    final static int DAYS_OFFSET = 0;
+    final static int HOUR_OFFSET = 1;
+    final static int MINUTE_OFFSET = 20;
+    final static String AD_TITLE_END = " Новый Гарантия";
     ArrayList<ArrayList<String>> gadgets;
     String country;
     String vendor;
@@ -22,7 +23,7 @@ public class GadgetGroup extends Gadgets {
     int xmlHour;
     int xmlSecond;
     int cityId;
-    boolean isGlobal;
+    //    boolean isGlobal;
     String id;
     public static final Calendar CALENDAR_ZERO;
     public static final Calendar CALENDAR_CURRENT;
@@ -35,8 +36,8 @@ public class GadgetGroup extends Gadgets {
         CALENDAR_CURRENT = Calendar.getInstance();
         CALENDAR_ZERO = (Calendar) CALENDAR_CURRENT.clone();
         CALENDAR_ZERO.set(Calendar.YEAR, 2017);
-        CALENDAR_ZERO.set(Calendar.MONTH, 10);
-        CALENDAR_ZERO.set(Calendar.DAY_OF_MONTH, 2);
+        CALENDAR_ZERO.set(Calendar.MONTH, 10);//november
+        CALENDAR_ZERO.set(Calendar.DAY_OF_MONTH, 30);
         resetCalendar(CALENDAR_ZERO);
         Calendar calendar = (Calendar) CALENDAR_CURRENT.clone();
         resetCalendar(calendar);
@@ -57,11 +58,13 @@ public class GadgetGroup extends Gadgets {
     }
 
     private String getIdXML() {
-        if (isGlobal) {
-            return cityId + vendor;
-        } else {
-            return cityId + vendor + metaModel.replace(" ", "") + id;
-        }
+//        if (isGlobal) {
+//            return cityId + vendor;
+//        } else {
+        String id = GadgetConst.CITIES[cityId] +
+                getGadgetName(gadgets.get(0), QUALITY, COLOR) + country;
+        return id.replace(" ", "");
+//        }
     }
 
     private String getFirstAttr() {
@@ -72,11 +75,15 @@ public class GadgetGroup extends Gadgets {
         return firstAttr;
     }
 
-    private String getAdTitle() {
-        if (isGlobal) {
-            return GadgetConst.MAP_VENDOR_TITLE.get(vendor) + " (" + country + ")";
+    private String getAdTitle(int cityId) {
+//        if (isGlobal) {
+//            return GadgetConst.MAP_VENDOR_TITLE.get(vendor) + " (" + country + ")";
+//        }
+        String title = getGadgetName(gadgets.get(0), getFirstAttr(), MEMORY) + AD_TITLE_END;
+        if (cityId > 0) {
+            title += " Рассрочка";
         }
-        return getGadgetName(gadgets.get(0), getFirstAttr(), MEMORY);
+        return title;
     }
 
     private String getAdPrice(int cityId) {
@@ -87,16 +94,16 @@ public class GadgetGroup extends Gadgets {
         return price + "";
     }
 
-    public String getXmlAd() {
+    public String getXmlAd(boolean isMultiGroup) {
         if (gadgets.isEmpty()) {
             return "";
         }
         String ad = "\t<Ad>\n";
         ad += "\t\t<Id>" + getIdXML() + "</Id>\n";
-        if (!isGlobal) {
+        if (isMultiGroup /*!isGlobal*/) {
             ad += "\t\t<DateBegin>" + getAdDate() + "</DateBegin>\n";
         }
-        ad += "\t\t<AllowEmail>Нет</AllowEmail>\n";
+        ad += "\t\t<AllowEmail>Да</AllowEmail>\n";
         ad += "\t\t<ManagerName>Оператор-консультант</ManagerName>\n";
         ad += "\t\t<ContactPhone>" + GadgetConst.CITIES_PHONE_NUMBERS[cityId] + "</ContactPhone>\n";
         if (cityId == 0) {
@@ -111,7 +118,7 @@ public class GadgetGroup extends Gadgets {
             goodsType = "iPhone";
         }
         ad += "\t\t<GoodsType>" + goodsType + "</GoodsType>\n";
-        ad += "\t\t<Title>" + getAdTitle() + "</Title>\n";
+        ad += "\t\t<Title>" + getAdTitle(cityId) + "</Title>\n";
         ad += "\t\t<Description>" + getAdText() + "</Description>\n";
         ad += "\t\t<Price>" + getAdPrice(cityId) + "</Price>\n";
         ad += "\t\t<Images>\n";
@@ -137,22 +144,22 @@ public class GadgetGroup extends Gadgets {
     private String getAdText() {
         String text = "<![CDATA[<p>";
         String quality = getQuality(gadgets.get(0));
-        if (!isGlobal) {
-            text += getGadgetName(gadgets.get(0), getFirstAttr(), COLOR) + "<br>";
-            String warrantyCost = getPrice(gadgets.get(0), YEAR_WARRANTY_COST);
-            if (warrantyCost.length() > 1) {
-                text += "гарантия 1 год +" + warrantyCost + "\u20BD к цене<br>";
-            }
-            text += "➡ " + GadgetConst.MAP_QUALITY_DESCRIPTION.get(quality);
-            text += ", версия/прошивка " + country;
-            if (quality.startsWith(GadgetConst.REF)) {
-                text += "; в наличии также имеется новая ";
-                if (vendor.equals("Apple")) {
-                    text += "и официально восстановленная ";
-                }
-                text += "продукция";
-            }
-        }
+//        if (!isGlobal) {
+        text += getGadgetName(gadgets.get(0), getFirstAttr(), COLOR) + "<br>";
+        String warrantyCost = getPrice(gadgets.get(0), YEAR_WARRANTY_COST);
+//        if (warrantyCost.length() > 1) {
+        text += "➡в наличии в магазине AMOLED\uD83C\uDF08, в продаже имеется весь модельный ряд производителя!";
+//        }
+//        text += "➡ " + GadgetConst.MAP_QUALITY_DESCRIPTION.get(quality);
+//        text += ", версия/прошивка " + country;
+//        if (quality.startsWith(GadgetConst.REF)) {
+//            text += "; в наличии также имеется новая ";
+//            if (vendor.equals("Apple")) {
+//                text += "и официально восстановленная ";
+//            }
+//            text += "продукция";
+//        }
+//        }
 //        if (isGlobal) {
 //            text += "Уважаемый покупатель,<br>" +
 //                    "Добро пожаловать в iSPARK\uD83D\uDD25";
@@ -160,14 +167,16 @@ public class GadgetGroup extends Gadgets {
 //        }
         text += "<p>\uD83D\uDC9BМы всегда идем навстречу нашим покупателям.<br>" +
                 "\uD83D\uDC49Мы предлагаем вам:<br>" +
-                "\uD83D\uDD39 ТРЕЙД-ИН, ОБМЕН старого телефона<br>" +
                 "\uD83D\uDD39 ОПЛАТА кредитной/дебетовой КАРТОЙ<br>" +
-                "\uD83D\uDD39 ОПТ, ОПЛАТА ЧЕРЕЗ Р/С (ндс, без ндс)<br>" +
+                "\uD83D\uDD39 ТРЕЙД-ИН, ОБМЕН старого телефона<br>";
+        if (cityId > 0) {
+            text += "\uD83D\uDD39 РАССРОЧКА/КРЕДИТ от банков-партнеров<br>";
+        }
+        text += "\uD83D\uDD39 ОПТ, ОПЛАТА ЧЕРЕЗ Р/С (ндс, без ндс)<br>" +
                 "\uD83D\uDD39 СРОЧНАЯ ДОСТАВКА в течение дня<br>" +
                 "\uD83D\uDD39 САМОВЫВОЗ из розничной точки продаж<br>" +
-                "\uD83D\uDD39 КРЕДИТ от ОТП Банк/Хоум-Кредит<br>" +
-                "\uD83D\uDD1DМы занимаемся продажей и ремонтом цифровой электроники более 5 лет!</p>";
-        if (isGlobal) {
+                "\uD83D\uDD1DМы занимаемся продажей смартфонов более 5 лет!</p>";
+        /*if (isGlobal) {
             text += "<p>В нашем ассортименте только оригинальные ";
             text += GadgetConst.MAP_VENDOR_OFFER.get(vendor);
             text += " всех моделей, цветов и объемов памяти!\uD83D\uDE0A</p><p>";
@@ -183,17 +192,19 @@ public class GadgetGroup extends Gadgets {
                 }
                 text += "продукция";
             }
-        }
-        text += "</p><p>✔ полностью русифицированы, работают с сим-картами любых операторов<br>";
+        }*/
+        text += "</p><p>";
         text += "✔ выдаем документы о вашей покупке: товарный чек и гарантийный талон<br>";
-        text += "✔ характеристики и полный ассортимент см. на официальном сайте iSPARK\uD83D\uDD25<br>";
-        text += "✔ в идеальном состоянии, без следов эксплуатации, подойдут как подарок<br>";
-        text += "✔ перед визитом в магазин, просим уточнять актуальное наличие товара</p>";
-        text += "<p>Наше местоположение\uD83C\uDF0D<br>" +
-                "▶ г. Москва, ул. Сущёвский Вал, д. 5с1, время работы (пн-вс): 11.00-21.00<br>" +
-                "▶ г. Москва, ул. Багратионовский пр-д, д. 7, время работы (пн-вс): 11.00-20.30<br>" +
-                "▶ г. Казань, ул. Лушникова, д. 8, время работы (пн-сб): 11.00-19.00</p>";
-        text += "<p>\uD83D\uDCDE Звоните: 9:00-21:00, ежедневно</p>";
+        text += "✔ гарантия на обмен 14 дней, полноценная гарантия на 1 год +" + warrantyCost + "\u20BD к цене<br>";
+//        text += "✔ характеристики и полный ассортимент см. на официальном сайте iSPARK\uD83D\uDD25<br>";
+        text += "✔ запечатаны в заводскую пленку, без следов эксплуатации, отличный подарок<br>";
+        text += "✔ спецификация/прошивка " + country + ", русифицированы, работают с любыми sim<br>";
+        text += "✔ перед визитом в магазин, просим бронировать интересующий вас товар!</p>";
+//        text += "<p>Наше местоположение\uD83C\uDF0D<br>" +
+//                "▶ г. Москва, ул. Сущёвский Вал, д. 5с1, время работы (пн-вс): 11.00-21.00<br>" +
+//                "▶ г. Москва, ул. Багратионовский пр-д, д. 7, время работы (пн-вс): 11.00-20.30<br>" +
+//                "▶ г. Казань, ул. Лушникова, д. 8, время работы (пн-сб): 11.00-19.00</p>";
+        text += "<p>\uD83D\uDCDE Звоните: 9:00-21:00 (без выходных) или напишите сообщение</p>";
 //                "<p>У нас вы сможете выгодно приобрести любой интересующий вас гаджет или аксессуар!" +
 //                "\uD83D\uDC4D<br>" +
 //                "iSPARK\uD83D\uDD25";
@@ -270,7 +281,7 @@ public class GadgetGroup extends Gadgets {
         if (gadgets.isEmpty()) {
             return;
         }
-        isGlobal = (xmlId == -1);
+//        isGlobal = (xmlId == -1);
         vendor = getVendor(gadgets.get(0));
         metaModel = getMetaModel(gadgets.get(0));
         id = xmlId + "";

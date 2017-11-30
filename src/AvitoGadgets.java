@@ -12,11 +12,13 @@ public class AvitoGadgets extends Gadgets {
     public ArrayList<ArrayList<String>> gadgets = new ArrayList<>();
     LinkedHashMap<String, ArrayList<ArrayList<String>>> mapGadgetMetaModelGadgetsByVendor[];
 
-    public AvitoGadgets() {
-        LinkedHashSet<String> selectedAvitoItems = Solution.getHashSetFromInput("present_items_msk.txt");
+    public AvitoGadgets(int cityId) {
+        LinkedHashSet<String> selectedAvitoItems = Solution.getHashSetFromInput(
+                "present_items_" + GadgetConst.CITIES_FILE_END[cityId] + ".txt");
         for (WebSiteGadgets webSiteGadgets : Solution.getWebSiteGadgetsArray()) {
             for (ArrayList<String> gadget : webSiteGadgets.gadgets) {
-                if (selectedAvitoItems.contains(getGadgetName(gadget, QUALITY, MEMORY))) {
+                if (selectedAvitoItems.contains(getGadgetName(gadget, QUALITY, MEMORY))
+                        || selectedAvitoItems.contains(getGadgetName(gadget, QUALITY, COLOR))) {
                     gadgets.add(gadget);
                     generatePhotos(gadget);
                 }
@@ -186,7 +188,7 @@ public class AvitoGadgets extends Gadgets {
                 }
             }
             gadgetGroup.initialize(-1, 1, cityId);
-            xml += gadgetGroup.getXmlAd();
+            xml += gadgetGroup.getXmlAd(false);
         }
         return xml;
     }
@@ -195,25 +197,38 @@ public class AvitoGadgets extends Gadgets {
         if (!GadgetConst.MAP_MODEL_ADS_PER_MONTH[cityId].containsKey(vendor + " " + metaModel)) {
             return 0;
         }
-        int adsPerMonth = GadgetConst.MAP_MODEL_ADS_PER_MONTH[cityId].get(vendor + " " + metaModel);
-        return (adsPerMonth - 1) / ADS_COUNT_MIN;
+        int adsPerMonth = GadgetConst.MAP_MODEL_ADS_PER_MONTH[cityId].get(vendor +
+                " " + metaModel);
+        if (adsPerMonth < 31) {
+            return 1;
+        }
+        return adsPerMonth / ADS_COUNT_MIN;
     }
 
     public String generateXMLModels(int cityId) throws IOException {
         String xml = "";
+        int globalMaxCountryCount = 0;
         for (int i = 0; i < GadgetConst.VENDORS.size(); i++) {
             String vendor = GadgetConst.VENDORS.get(i);
+            int prevMaxCountryCount = 0;
+            if (cityId > 0) {
+                prevMaxCountryCount = GadgetConst.CITIES_MAX_COUNTRIES[cityId - 1];
+            }
             int maxCountryCount = 0;
             for (String metaModel : mapGadgetMetaModelGadgetsByVendor[i].keySet()) {
                 maxCountryCount = Math.max(maxCountryCount, getMetaModelAdsSize(vendor, metaModel, cityId) /
                         mapGadgetMetaModelGadgetsByVendor[i].get(metaModel).size());
             }
-            System.out.println("max countries=" + maxCountryCount);
+            globalMaxCountryCount = Math.max(globalMaxCountryCount, maxCountryCount);
+            System.out.println("max countries=" + maxCountryCount +
+                    "prev max countries=" + prevMaxCountryCount);
             HashMap<String, ArrayList<GadgetGroup>> gadgetsByMetaModel = new HashMap<>();
             for (String metaModel : mapGadgetMetaModelGadgetsByVendor[i].keySet()) {
                 gadgetsByMetaModel.put(metaModel, new ArrayList<GadgetGroup>());
             }
-            for (int countryId = 1; countryId < maxCountryCount + 1; countryId++) {
+            //maxCountryCount или maxCountryCount + 1?
+            for (int countryId = prevMaxCountryCount;
+                 countryId < prevMaxCountryCount + maxCountryCount; countryId++) {
                 for (String metaModel : mapGadgetMetaModelGadgetsByVendor[i].keySet()) {
                     ArrayList<GadgetGroup> gadgets = gadgetsByMetaModel.get(metaModel);
                     for (int metaModelId = 0; metaModelId < mapGadgetMetaModelGadgetsByVendor[i].get(metaModel)
@@ -224,8 +239,6 @@ public class AvitoGadgets extends Gadgets {
                                 .get(metaModel).get(metaModelId));
                         gadgets.add(gadget);
                     }
-//                    System.out.println(metaModel + " size=" + gadgets.size() +" from "+
-//                            getMetaModelAdsSize(vendor, metaModel, cityId));
                     gadgetsByMetaModel.put(metaModel, gadgets);
                 }
             }
@@ -234,10 +247,11 @@ public class AvitoGadgets extends Gadgets {
                 for (int gadgetId = 0; gadgetId < gadgets.size(); gadgetId++) {
                     GadgetGroup gadget = gadgets.get(gadgetId);
                     gadget.initialize(gadgets.size() - gadgetId - 1, gadgets.size(), cityId);
-                    xml += gadget.getXmlAd();
+                    xml += gadget.getXmlAd(gadgets.size() > 1);
                 }
             }
         }
+        GadgetConst.CITIES_MAX_COUNTRIES[cityId] = globalMaxCountryCount;
         return xml;
     }
 

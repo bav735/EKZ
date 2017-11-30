@@ -253,17 +253,17 @@ public class Solution {
 
     public static void computeAvito() throws IOException {
         System.out.println("printing...");
+        BufferedWriter writer = Solution.getOutputWriter("Output/Avito/", "AdsXML_" +
+                    /*GadgetConst.CITIES_FILE_END[cityId] +*/ "msk.xml");
+        writer.write("<Ads formatVersion=\"3\" target=\"Avito.ru\">\n");
         for (int cityId = 0; cityId < GadgetConst.CITIES.length; cityId++) {
-            BufferedWriter writer = Solution.getOutputWriter("Output/Avito/", "AdsXML_" +
-                    GadgetConst.CITIES_XML_FILE_END[cityId] + ".xml");
-            writer.write("<Ads formatVersion=\"3\" target=\"Avito.ru\">\n");
             System.out.println("city=" + cityId);
-            AvitoGadgets avitoGadgets = new AvitoGadgets();
+            AvitoGadgets avitoGadgets = new AvitoGadgets(cityId);
             writer.write(avitoGadgets.generateXMLModels(cityId));
-            writer.write(avitoGadgets.generateXMLGlobal(cityId));
-            writer.write("</Ads>");
-            writer.flush();
+//            writer.write(avitoGadgets.generateXMLGlobal(cityId));
         }
+        writer.write("</Ads>");
+        writer.flush();
     }
 
     public static void main(String[] args) {

@@ -16,7 +16,9 @@ public class GadgetConst {
 
     public final static String[] CITIES_PHONE_NUMBERS = new String[]{"84951252360", "88432118341"};
 
-    public final static String[] CITIES_XML_FILE_END = new String[]{"msk", "tat"};
+    public final static String[] CITIES_FILE_END = new String[]{"msk", "kzn"};
+
+    public final static int[] CITIES_MAX_COUNTRIES = new int[CITIES.length];
 
     public final static ArrayList<String> QUALITIES = new ArrayList<String>(Arrays.asList(
             RST,
@@ -229,7 +231,7 @@ public class GadgetConst {
                 add(new ArrayList<String>(Arrays.asList("Black Sapphire", "White Pearl", "Gold Platinum", "Green Emerald")));//s6 edge
                 add(new ArrayList<String>(Arrays.asList("White Pearl", "Gold Platinum", "Black Sapphire")));//s6 edge+
                 add(new ArrayList<String>(Arrays.asList("Black Onyx", "Silver Titanium", "Gold Platinum", "White Pearl"/*, "Pink Gold"*/)));//s7
-                add(new ArrayList<String>(Arrays.asList("Black Onyx", "Silver Titanium", "Gold Platinum", /*"Smoke Sapphire", */"White Pearl"/*, "Pink Gold"*/)));//s7 edge
+                add(new ArrayList<String>(Arrays.asList("Black Onyx", "Silver Titanium", "Gold Platinum"/*, "Smoke Sapphire", "White Pearl", "Pink Gold"*/)));//s7 edge
                 add(new ArrayList<String>(Arrays.asList("Midnight Black", "Orchid Gray", "Arctic Silver", "Coral Blue", "Maple Gold")));//s8
                 add(new ArrayList<String>(Arrays.asList("Midnight Black", "Orchid Gray", "Arctic Silver", "Coral Blue", "Maple Gold"/*, "Rose Pink"*/)));//s8+
                 add(new ArrayList<String>(Arrays.asList("Black", "White", "Gold")));//a3 2015

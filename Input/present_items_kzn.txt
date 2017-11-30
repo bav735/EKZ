@@ -1,32 +1,16 @@
-RST NEW Apple iPhone 6 32Gb Gold
-REFnoTouchID Apple iPhone 6 Plus 16Gb Space Gray
-REFnoTouchID Apple iPhone 5S 32Gb Gold
-REF Apple iPhone 5S 16Gb Space Gray
-REF Apple iPhone 5S 16Gb Gold
-DCT Apple iPhone 6 16Gb Space Gray без отп
-DCT Apple iPhone 7 256Gb Rose Gold
+REFnoTouchID Apple iPhone 5S 16Gb
+REF Apple iPhone 5S 16Gb
+REFnoTouchID Apple iPhone 5S 32Gb
+REF Apple iPhone 5S 32Gb
+REFnoTouchID Apple iPhone 6 16Gb
+REF Apple iPhone 6 16Gb
+REFnoTouchID Apple iPhone 6 64Gb
+REF Apple iPhone 6 64Gb
+REFnoTouchID Apple iPhone 6S 16Gb
+REF Apple iPhone 6S 16Gb
+REFnoTouchID Apple iPhone 6S 64Gb
+REF Apple iPhone 6S 64Gb
+REFnoTouchID Apple iPhone 6 Plus 16Gb
 REF Samsung Galaxy S4 16Gb Black
-REFnoTouchID Apple iPhone 6 Plus 16Gb Space Gray
-REFnoTouchID Apple iPhone 6 16Gb Space Gray
-REF Apple iPhone 6 16Gb Silver
-REF Apple iPhone 6S 16Gb Gold
-DCT Samsung Galaxy S8 64Gb Black
-REF Apple iPhone 6 16Gb Silver
-REFnoTouchID Apple iPhone 6 16Gb Gold
-REFnoTouchID Apple iPhone 6 16Gb Gold
-DCT Apple iPhone 6 16Gb space gray
-REF Apple iPhone 6 64Gb Space Gray
-REF Apple iPhone 5S 16Gb Space Gray
-REF Apple iPhone 6 64Gb Space Gray
-REFnoTouchID Apple iPhone 6 16Gb Space Gray
-REF Apple iPhone 6 64Gb Space Gray
-REF Apple iPhone 6 64Gb Space Gray
-REFnoTouchID Apple iPhone 5S 32Gb Space Gray
-REF Apple iPhone 6S Plus 64Gb Space Gray
-RST Apple iPhone 7 128Gb Jet Black
-REFnoTouchID Apple iPhone 5S 16Gb Space Gray
-RST Apple iPhone 6S 32Gb Silver
-DCT iPhone 6 64Gb silver
-RST Apple iPhone SE 32Gb Gold
-REFnoTouchID Apple iPhone 5S 16Gb Space Gray
-REFnoTouchID Apple iPhone 6 16Gb Gold
+REF Apple iPhone 6S Plus 64Gb
+REF Samsung Galaxy A3 (2015) 8Gb Black
