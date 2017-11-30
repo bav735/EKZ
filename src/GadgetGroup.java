@@ -13,7 +13,7 @@ public class GadgetGroup extends Gadgets {
     final static int DAYS_OFFSET = 0;
     final static int HOUR_OFFSET = 2;
     final static int MINUTE_OFFSET = 33;
-    final static String AD_TITLE_END = " Новый Оригинал Гарантия";
+    final static String AD_TITLE_END = " Новый Оригинальный С Гарантией";
     ArrayList<ArrayList<String>> gadgets;
     String country;
     String vendor;
