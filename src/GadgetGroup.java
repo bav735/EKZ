@@ -5,15 +5,15 @@ import java.util.Calendar;
  * Created by A on 31.10.2017.
  */
 public class GadgetGroup extends Gadgets {
-    //INITIAL AUTOLOAD = 02.11.17 18:18
+    //INITIAL AUTOLOAD = 30.11.17 13:36
     final static int AD_TIME_DAY_SEC = 12 * 60 * 60;
     final static int AD_TIME_MONTH_SEC = 30 * AD_TIME_DAY_SEC;
     final static int HOUR_BEGIN = 9;
     final static int ADS_COUNT_BORDER = 300;
     final static int DAYS_OFFSET = 0;
-    final static int HOUR_OFFSET = 1;
-    final static int MINUTE_OFFSET = 20;
-    final static String AD_TITLE_END = " Новый Гарантия";
+    final static int HOUR_OFFSET = 2;
+    final static int MINUTE_OFFSET = 33;
+    final static String AD_TITLE_END = " Новый Оригинал Гарантия";
     ArrayList<ArrayList<String>> gadgets;
     String country;
     String vendor;
@@ -148,7 +148,7 @@ public class GadgetGroup extends Gadgets {
         text += getGadgetName(gadgets.get(0), getFirstAttr(), COLOR) + "<br>";
         String warrantyCost = getPrice(gadgets.get(0), YEAR_WARRANTY_COST);
 //        if (warrantyCost.length() > 1) {
-        text += "➡в наличии в магазине AMOLED\uD83C\uDF08, в продаже имеется весь модельный ряд производителя!";
+        text += "➡в наличии в магазине AMOLED\uD83C\uDF08 (в продаже имеется весь модельный ряд производителя)!";
 //        }
 //        text += "➡ " + GadgetConst.MAP_QUALITY_DESCRIPTION.get(quality);
 //        text += ", версия/прошивка " + country;
@@ -198,7 +198,7 @@ public class GadgetGroup extends Gadgets {
         text += "✔ гарантия на обмен 14 дней, полноценная гарантия на 1 год +" + warrantyCost + "\u20BD к цене<br>";
 //        text += "✔ характеристики и полный ассортимент см. на официальном сайте iSPARK\uD83D\uDD25<br>";
         text += "✔ запечатаны в заводскую пленку, без следов эксплуатации, отличный подарок<br>";
-        text += "✔ спецификация/прошивка " + country + ", русифицированы, работают с любыми sim<br>";
+        text += "✔ спецификация " + country + ", русифицированы, работают с любыми SIM<br>";
         text += "✔ перед визитом в магазин, просим бронировать интересующий вас товар!</p>";
 //        text += "<p>Наше местоположение\uD83C\uDF0D<br>" +
 //                "▶ г. Москва, ул. Сущёвский Вал, д. 5с1, время работы (пн-вс): 11.00-21.00<br>" +
