@@ -70,14 +70,11 @@ public class Gadgets {
             mapGadgetNamePrices.put(gadgetName, new ArrayList<>(Arrays.asList(prices)));
         }
         for (String gadgetName : mapGadgetNamePrices.keySet()) {
-            String gadgetModel = gadgetName.substring(
-                    gadgetName.indexOf(" ") + 1, gadgetName.indexOf("Gb"));
-            gadgetModel = gadgetModel.substring(0, gadgetModel.lastIndexOf(" "));
-            if (!GadgetConst.MAP_META_MODEL_LAST_GADGET_ID.containsKey(gadgetModel)) {
-                GadgetConst.MAP_META_MODEL_LAST_GADGET_ID.put(gadgetModel,
-                        GadgetConst.CITIES.length - 1);
+            String metaModel = gadgetName.substring(gadgetName.indexOf(" ") + 1);
+            if (!GadgetConst.MAP_META_MODEL_LAST_GADGET_ID.containsKey(metaModel)) {
+                GadgetConst.MAP_META_MODEL_LAST_GADGET_ID.put(metaModel, 0);
                 for (int i = 0; i < GadgetConst.CITIES.length; i++) {
-                    GadgetConst.MAP_META_MODEL_CURR_GADGET_ID[i].put(gadgetModel, i);
+                    GadgetConst.MAP_META_MODEL_CURR_GADGET_ID[i].put(metaModel, -1);
                 }
             }
         }
@@ -120,7 +117,7 @@ public class Gadgets {
     }
 
     public static String getMetaModel(ArrayList<String> gadget) {
-        return getGadgetName(gadget, VENDOR, MODEL);
+        return getGadgetName(gadget, VENDOR, MEMORY);
     }
 
     public static String getVendor(ArrayList<String> gadget) {

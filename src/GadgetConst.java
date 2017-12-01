@@ -419,7 +419,6 @@ public class GadgetConst {
             String[] prices = Arrays.copyOfRange(words, words.length - CITIES.length, words.length);
             for (int i = 0; i < prices.length; i++) {
                 MAP_MODEL_ADS_PER_MONTH[i].put(gadgetName, Solution.getNumber(prices[i]));
-                System.out.println(gadgetName);
             }
         }
         inScanner.close();

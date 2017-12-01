@@ -14,7 +14,7 @@ public class GadgetGroup extends Gadgets {
     final static int DAYS_OFFSET = 0;
     final static int HOUR_OFFSET = 2;
     final static int MINUTE_OFFSET = 33;
-    final static String AD_TITLE_END = " Новый Оригинальный С Гарантией";
+    final static String AD_TITLE_END = " Новый Гарантия";
     ArrayList<ArrayList<String>> gadgets;
     String country;
     //    String vendor;
@@ -88,6 +88,8 @@ public class GadgetGroup extends Gadgets {
                 + AD_TITLE_END;
         if (cityId > 0) {
             title += " Рассрочка";
+        } else {
+            title += " Оригинал";
         }
         return title;
     }

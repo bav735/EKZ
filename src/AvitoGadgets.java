@@ -66,25 +66,11 @@ public class AvitoGadgets extends Gadgets {
         mapGadgetMetaModelSingleItem = new LinkedHashMap<>();
         mapGadgetMetaModelGadgetGroups = new LinkedHashMap<>();
         for (String metaModel : mapMetaModelGadgets.keySet()) {
-            ArrayList<ArrayList<String>> gadgetsByMetaModel = mapMetaModelGadgets.get(metaModel);
-            LinkedHashMap<String, ArrayList<ArrayList<String>>> mapGadgetMemoryGadgets
-                    = new LinkedHashMap<>();
-            for (ArrayList<String> gadget : gadgetsByMetaModel) {
-                String memory = gadget.get(mapGadgetAttributeNumber.get(MEMORY));
-                if (!mapGadgetMemoryGadgets.containsKey(memory)) {
-                    mapGadgetMemoryGadgets.put(memory, new ArrayList<ArrayList<String>>());
-                }
-                mapGadgetMemoryGadgets.get(memory).add(gadget);
-            }
-            mapGadgetMetaModelSingleItem.put(metaModel,
-                    mapGadgetMemoryGadgets.keySet().size() == 1);
             ArrayList<GadgetGroup> gadgetGroups = new ArrayList<>();
             for (String country : GadgetConst.COUNTRIES) {
-                for (String memory : mapGadgetMemoryGadgets.keySet()) {
-                    GadgetGroup gadgetGroup = new GadgetGroup(country);
-                    gadgetGroup.gadgets.addAll(mapGadgetMemoryGadgets.get(memory));
-                    gadgetGroups.add(gadgetGroup);
-                }
+                GadgetGroup gadgetGroup = new GadgetGroup(country);
+                gadgetGroup.gadgets.addAll(mapMetaModelGadgets.get(metaModel));
+                gadgetGroups.add(gadgetGroup);
             }
             mapGadgetMetaModelGadgetGroups.put(metaModel, gadgetGroups);
         }
@@ -308,12 +294,27 @@ public class AvitoGadgets extends Gadgets {
     public String generateXMLAutoload() throws IOException {
         String xml = "";
         for (int cityId = 0; cityId < GadgetConst.CITIES.length; cityId++) {
+            LinkedHashSet<String> metaModelsUpdate = Solution.getHashSetFromInput(
+                    "update_items_" + GadgetConst.CITIES_FILE_END[cityId] + ".txt");
+            for (String metaModel : metaModelsUpdate) {
+                int metaModelLastId = GadgetConst.MAP_META_MODEL_LAST_GADGET_ID.get(metaModel)
+                        % mapGadgetMetaModelGadgetGroups.get(metaModel).size();
+                GadgetConst.MAP_META_MODEL_CURR_GADGET_ID[cityId]
+                        .put(metaModel, metaModelLastId);
+                GadgetConst.MAP_META_MODEL_LAST_GADGET_ID.put(metaModel, metaModelLastId + 1);
+            }
             LinkedHashSet<String> metaModelsPresent = Solution.getHashSetFromInput(
                     "present_items_" + GadgetConst.CITIES_FILE_END[cityId] + ".txt");
             for (String metaModel : metaModelsPresent) {
-                System.out.println("checkign " + metaModel);
+                if (!GadgetConst.MAP_META_MODEL_LAST_GADGET_ID.keySet().contains(
+                        metaModel)) {
+                    continue;
+                }
                 int gadgetGroupId = GadgetConst.MAP_META_MODEL_CURR_GADGET_ID[cityId]
                         .get(metaModel);
+                if (gadgetGroupId == -1) {
+                    continue;
+                }
                 GadgetGroup gadgetGroup = mapGadgetMetaModelGadgetGroups.get(metaModel)
                         .get(gadgetGroupId);
                 gadgetGroup.initialize(cityId);
