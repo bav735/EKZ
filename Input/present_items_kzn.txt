@@ -1,16 +1,41 @@
-REFnoTouchID Apple iPhone 5S 16Gb
-REF Apple iPhone 5S 16Gb
-REFnoTouchID Apple iPhone 5S 32Gb
-REF Apple iPhone 5S 32Gb
-REFnoTouchID Apple iPhone 6 16Gb
-REF Apple iPhone 6 16Gb
-REFnoTouchID Apple iPhone 6 64Gb
-REF Apple iPhone 6 64Gb
-REFnoTouchID Apple iPhone 6S 16Gb
-REF Apple iPhone 6S 16Gb
-REFnoTouchID Apple iPhone 6S 64Gb
-REF Apple iPhone 6S 64Gb
-REFnoTouchID Apple iPhone 6 Plus 16Gb
-REF Samsung Galaxy S4 16Gb Black
-REF Apple iPhone 6S Plus 64Gb
-REF Samsung Galaxy A3 (2015) 8Gb Black
+Apple iPhone 4
+Apple iPhone 4S
+Apple iPhone 5
+Apple iPhone 5C
+Apple iPhone 5S
+Apple iPhone 6
+Apple iPhone 6 Plus
+Apple iPhone 6S
+Apple iPhone 6S Plus
+Apple iPhone 7
+Apple iPhone 7 Plus
+Samsung Galaxy Grand Prime
+Samsung Galaxy Alpha
+Samsung Galaxy S3
+Samsung Galaxy S4
+Samsung Galaxy S4 Mini
+Samsung Galaxy S5
+Samsung Galaxy S6
+Samsung Galaxy S6 Edge
+Samsung Galaxy S6 Edge Plus
+Samsung Galaxy S7
+Samsung Galaxy S7 Edge
+Samsung Galaxy A3 (2015)
+Samsung Galaxy A3 (2016)
+Samsung Galaxy A5 (2015)
+Samsung Galaxy A5 (2016)
+Samsung Galaxy A7 (2016)
+Samsung Galaxy Note 3
+Samsung Galaxy Note 4
+Samsung Galaxy Note 5
+Sony Xperia Z
+Sony Xperia Z1
+Sony Xperia Z1 Compact
+Sony Xperia Z2
+Sony Xperia Z3
+Sony Xperia Z3 Compact
+Sony Xperia Z5 Compact
+HTC One M7
+HTC One M8
+HTC One M9
+HTC One A9

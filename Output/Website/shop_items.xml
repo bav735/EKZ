@@ -34,47 +34,48 @@
 <category id="10532" parentId="10495">S7</category>
 <category id="10538" parentId="10495">S7 Edge</category>
 <category id="10616" parentId="761">Apple</category>
-<category id="10618" parentId="10616">iPhone 4S</category>
-<category id="10631" parentId="10616">iPhone 5</category>
-<category id="10641" parentId="10616">iPhone 5C</category>
-<category id="10648" parentId="10616">iPhone 5S</category>
-<category id="10649" parentId="10648">16Gb</category>
-<category id="10651" parentId="10648">32Gb</category>
-<category id="10653" parentId="10648">64Gb</category>
-<category id="10661" parentId="10616">iPhone 6</category>
-<category id="10662" parentId="10661">16Gb</category>
-<category id="10664" parentId="10661">64Gb</category>
-<category id="10666" parentId="10661">128Gb</category>
-<category id="10674" parentId="10616">iPhone 6 Plus</category>
-<category id="10675" parentId="10674">16Gb</category>
-<category id="10677" parentId="10674">64Gb</category>
-<category id="10679" parentId="10674">128Gb</category>
-<category id="10687" parentId="10616">iPhone 6S</category>
-<category id="10688" parentId="10687">16Gb</category>
-<category id="10690" parentId="10687">64Gb</category>
-<category id="10692" parentId="10687">128Gb</category>
-<category id="10703" parentId="10616">iPhone 6S Plus</category>
-<category id="10704" parentId="10703">16Gb</category>
-<category id="10706" parentId="10703">64Gb</category>
-<category id="10708" parentId="10703">128Gb</category>
-<category id="10725" parentId="10616">iPhone 7</category>
-<category id="10726" parentId="10725">32Gb</category>
-<category id="10728" parentId="10725">128Gb</category>
-<category id="10730" parentId="10725">256Gb</category>
-<category id="10747" parentId="10616">iPhone 7 Plus</category>
-<category id="10748" parentId="10747">32Gb</category>
-<category id="10750" parentId="10747">128Gb</category>
-<category id="10752" parentId="10747">256Gb</category>
-<category id="10719" parentId="10616">iPhone SE</category>
-<category id="10769" parentId="761">Sony</category>
-<category id="10771" parentId="10769">Xperia Z</category>
-<category id="10776" parentId="10769">Xperia Z1</category>
-<category id="10781" parentId="10769">Xperia Z1 Compact</category>
-<category id="10787" parentId="10769">Xperia Z2</category>
-<category id="10792" parentId="10769">Xperia Z3</category>
-<category id="10799" parentId="10769">Xperia Z3 Compact</category>
-<category id="10805" parentId="10769">Xperia Z5 Compact</category>
-<category id="10811" parentId="761">HTC</category>
+<category id="10618" parentId="10616">iPhone 4</category>
+<category id="10625" parentId="10616">iPhone 4S</category>
+<category id="10638" parentId="10616">iPhone 5</category>
+<category id="10648" parentId="10616">iPhone 5C</category>
+<category id="10655" parentId="10616">iPhone 5S</category>
+<category id="10656" parentId="10655">16Gb</category>
+<category id="10658" parentId="10655">32Gb</category>
+<category id="10660" parentId="10655">64Gb</category>
+<category id="10668" parentId="10616">iPhone 6</category>
+<category id="10669" parentId="10668">16Gb</category>
+<category id="10671" parentId="10668">64Gb</category>
+<category id="10673" parentId="10668">128Gb</category>
+<category id="10681" parentId="10616">iPhone 6 Plus</category>
+<category id="10682" parentId="10681">16Gb</category>
+<category id="10684" parentId="10681">64Gb</category>
+<category id="10686" parentId="10681">128Gb</category>
+<category id="10694" parentId="10616">iPhone 6S</category>
+<category id="10695" parentId="10694">16Gb</category>
+<category id="10697" parentId="10694">64Gb</category>
+<category id="10699" parentId="10694">128Gb</category>
+<category id="10710" parentId="10616">iPhone 6S Plus</category>
+<category id="10711" parentId="10710">16Gb</category>
+<category id="10713" parentId="10710">64Gb</category>
+<category id="10715" parentId="10710">128Gb</category>
+<category id="10732" parentId="10616">iPhone 7</category>
+<category id="10733" parentId="10732">32Gb</category>
+<category id="10735" parentId="10732">128Gb</category>
+<category id="10737" parentId="10732">256Gb</category>
+<category id="10754" parentId="10616">iPhone 7 Plus</category>
+<category id="10755" parentId="10754">32Gb</category>
+<category id="10757" parentId="10754">128Gb</category>
+<category id="10759" parentId="10754">256Gb</category>
+<category id="10726" parentId="10616">iPhone SE</category>
+<category id="10776" parentId="761">Sony</category>
+<category id="10778" parentId="10776">Xperia Z</category>
+<category id="10783" parentId="10776">Xperia Z1</category>
+<category id="10788" parentId="10776">Xperia Z1 Compact</category>
+<category id="10794" parentId="10776">Xperia Z2</category>
+<category id="10799" parentId="10776">Xperia Z3</category>
+<category id="10806" parentId="10776">Xperia Z3 Compact</category>
+<category id="10812" parentId="10776">Xperia Z5 Compact</category>
+<category id="10818" parentId="761">HTC</category>
 <category id="512" parentId="10">Кнопочные телефоны</category>
 <category id="5738" parentId="512">Philips</category>
 <category id="6027" parentId="512">Fly</category>

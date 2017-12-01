@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.HashSet;
 
 /**
  * Created by A on 31.10.2017.
@@ -16,15 +17,15 @@ public class GadgetGroup extends Gadgets {
     final static String AD_TITLE_END = " Новый Оригинальный С Гарантией";
     ArrayList<ArrayList<String>> gadgets;
     String country;
-    String vendor;
-    String metaModel;
+    //    String vendor;
+//    String metaModel;
     int xmlDay;
     int xmlMinute;
     int xmlHour;
     int xmlSecond;
     int cityId;
     //    boolean isGlobal;
-    String id;
+//    String id;
     public static final Calendar CALENDAR_ZERO;
     public static final Calendar CALENDAR_CURRENT;
     public static final int DAY_NUM_GLOBAL;
@@ -62,24 +63,29 @@ public class GadgetGroup extends Gadgets {
 //            return cityId + vendor;
 //        } else {
         String id = GadgetConst.CITIES[cityId] +
-                getGadgetName(gadgets.get(0), QUALITY, COLOR) + country;
+                getGadgetName(gadgets.get(0), QUALITY, getLastAttr()) + country;
         return id.replace(" ", "");
 //        }
     }
 
     private String getFirstAttr() {
         String firstAttr = VENDOR;
-        if (vendor.equals("Apple")) {
+        if (getVendor().equals("Apple")) {
             firstAttr = MODEL_LINE;
         }
         return firstAttr;
+    }
+
+    private String getLastAttr() {
+        return MEMORY;
     }
 
     private String getAdTitle(int cityId) {
 //        if (isGlobal) {
 //            return GadgetConst.MAP_VENDOR_TITLE.get(vendor) + " (" + country + ")";
 //        }
-        String title = getGadgetName(gadgets.get(0), getFirstAttr(), MEMORY) + AD_TITLE_END;
+        String title = getGadgetName(gadgets.get(0), getFirstAttr(), getLastAttr())
+                + AD_TITLE_END;
         if (cityId > 0) {
             title += " Рассрочка";
         }
@@ -94,13 +100,13 @@ public class GadgetGroup extends Gadgets {
         return price + "";
     }
 
-    public String getXmlAd(boolean isMultiGroup) {
+    public String getXmlAd(boolean isArrangement) {
         if (gadgets.isEmpty()) {
             return "";
         }
         String ad = "\t<Ad>\n";
         ad += "\t\t<Id>" + getIdXML() + "</Id>\n";
-        if (isMultiGroup /*!isGlobal*/) {
+        if (isArrangement /*!isGlobal*/) {
             ad += "\t\t<DateBegin>" + getAdDate() + "</DateBegin>\n";
         }
         ad += "\t\t<AllowEmail>Да</AllowEmail>\n";
@@ -113,7 +119,7 @@ public class GadgetGroup extends Gadgets {
             ad += "\t\t<City>" + GadgetConst.CITIES[cityId] + "</City>\n";
         }
         ad += "\t\t<Category>Телефоны</Category>\n";
-        String goodsType = vendor;
+        String goodsType = getVendor();
         if (goodsType.equals("Apple")) {
             goodsType = "iPhone";
         }
@@ -130,10 +136,15 @@ public class GadgetGroup extends Gadgets {
 
     private String getImageAvitoUrls() {
         String res = "";
+        HashSet<String> uniqueUrls = new HashSet<>();
         for (int i = 0; i < gadgets.size() && i < 10; i++) {
-            res += "\t\t\t<Image url=\"" + getImageAvitoUrl(gadgets.get(i)) + "\"/>\n";
+            uniqueUrls.add("\t\t\t<Image url=\"" + getImageAvitoUrl(gadgets.get(i)) + "\"/>");
         }
-        return res;
+        for (String url : uniqueUrls) {
+//            res += url + "\n";
+            return url + "\n";
+        }
+        return "";
     }
 
     private String getImageAvitoUrl(ArrayList<String> gadget) {
@@ -145,7 +156,7 @@ public class GadgetGroup extends Gadgets {
         String text = "<![CDATA[<p>";
         String quality = getQuality(gadgets.get(0));
 //        if (!isGlobal) {
-        text += getGadgetName(gadgets.get(0), getFirstAttr(), COLOR) + "<br>";
+        text += getGadgetName(gadgets.get(0), getFirstAttr(), getLastAttr()) + "<br>";
         String warrantyCost = getPrice(gadgets.get(0), YEAR_WARRANTY_COST);
 //        if (warrantyCost.length() > 1) {
         text += "➡в наличии в магазине AMOLED\uD83C\uDF08 (в продаже имеется весь модельный ряд производителя)!";
@@ -198,8 +209,8 @@ public class GadgetGroup extends Gadgets {
         text += "✔ гарантия на обмен 14 дней, полноценная гарантия на 1 год +" + warrantyCost + "\u20BD к цене<br>";
 //        text += "✔ характеристики и полный ассортимент см. на официальном сайте iSPARK\uD83D\uDD25<br>";
         text += "✔ запечатаны в заводскую пленку, без следов эксплуатации, отличный подарок<br>";
-        text += "✔ спецификация " + country + ", русифицированы, работают с любыми SIM<br>";
-        text += "✔ перед визитом в магазин, просим бронировать интересующий вас товар!</p>";
+        text += "✔ перед визитом в магазин, просим бронировать интересующий вас товар!<br>";
+        text += "✔ спецификация " + country + ", активированы, работают с любыми SIM</p>";
 //        text += "<p>Наше местоположение\uD83C\uDF0D<br>" +
 //                "▶ г. Москва, ул. Сущёвский Вал, д. 5с1, время работы (пн-вс): 11.00-21.00<br>" +
 //                "▶ г. Москва, ул. Багратионовский пр-д, д. 7, время работы (пн-вс): 11.00-20.30<br>" +
@@ -256,7 +267,7 @@ public class GadgetGroup extends Gadgets {
     private String getOffer(ArrayList<String> gadget, int cityId) {
         String offer = "➡ ";
         offer += String.join(" ", gadget.subList(mapGadgetAttributeNumber.get(VENDOR),
-                mapGadgetAttributeNumber.get(COLOR) + 1));
+                mapGadgetAttributeNumber.get(getLastAttr()) + 1));
 //        if (vendor.equals("Apple")) {
 //            offer += " TouchID работает ";
 //        }
@@ -274,7 +285,19 @@ public class GadgetGroup extends Gadgets {
     }
 
     private String getPriceByCity(ArrayList<String> gadget, int cityId) {
-        return getPrice(gadget, priceAttributeNames[cityId + 1]);
+        return getPrice(gadget, PRICE_ATTRIBUTE_NAMES[cityId + PRICE_SHIFT]);
+    }
+
+    private String getVendor() {
+        return getVendor(gadgets.get(0));
+    }
+
+    private String getMetaModel() {
+        return getMetaModel(gadgets.get(0));
+    }
+
+    public void initialize(int cityId) {
+        this.cityId = cityId;
     }
 
     public void initialize(int xmlId, int groupsSize, int cityId) {
@@ -282,9 +305,7 @@ public class GadgetGroup extends Gadgets {
             return;
         }
 //        isGlobal = (xmlId == -1);
-        vendor = getVendor(gadgets.get(0));
-        metaModel = getMetaModel(gadgets.get(0));
-        id = xmlId + "";
+//        id = xmlId + "";
         int timeIntervalSec = AD_TIME_MONTH_SEC / groupsSize;
         xmlSecond = xmlId * timeIntervalSec;
         xmlDay = xmlSecond / AD_TIME_DAY_SEC + 1;

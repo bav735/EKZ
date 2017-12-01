@@ -1,3 +1,9 @@
+import org.mapdb.DB;
+import org.mapdb.DBMaker;
+import org.mapdb.HTreeMap;
+import org.mapdb.Serializer;
+
+import java.io.File;
 import java.util.*;
 
 /**
@@ -145,6 +151,7 @@ public class GadgetConst {
 
         MODELS[1] = new ArrayList<>(Arrays.asList(
                 //iphones
+                "4",
                 "4S",
                 "5",
                 "5C",
@@ -263,6 +270,7 @@ public class GadgetConst {
 
         COLORS[1] = new ArrayList<ArrayList<String>>() {
             {
+                add(new ArrayList<>(Arrays.asList("Black", "White")));//4
                 add(new ArrayList<>(Arrays.asList("Black", "White")));//4s
                 add(new ArrayList<>(Arrays.asList("Black", "White")));//5
                 add(new ArrayList<>(Arrays.asList("White", "Blue", "Green", "Yellow", "Pink")));//5c
@@ -417,13 +425,31 @@ public class GadgetConst {
         inScanner.close();
     }
 
+    public final static DB GADGET_DB;
+    public final static HTreeMap<String, Integer> MAP_META_MODEL_LAST_GADGET_ID;
+    public final static HTreeMap<String, Integer>[] MAP_META_MODEL_CURR_GADGET_ID =
+            new HTreeMap[CITIES.length];
+
+    static {
+        GADGET_DB = DBMaker.fileDB(new File("C:/EKZ/DB/gadget.db")).make();
+        MAP_META_MODEL_LAST_GADGET_ID = GADGET_DB.hashMap("AMOLED" +
+                        "MAP_META_MODEL_LAST_GADGET_ID",
+                Serializer.STRING, Serializer.INTEGER)
+                .createOrOpen();
+        for (int i = 0; i < CITIES.length; i++) {
+            MAP_META_MODEL_CURR_GADGET_ID[i] = GADGET_DB.hashMap("AMOLED" +
+                            "MAP_META_MODEL_CURR_GADGET_ID" + CITIES[i],
+                    Serializer.STRING, Serializer.INTEGER)
+                    .createOrOpen();
+        }
+    }
     /*
     public static final HashMap<String, String> MAP_PRICES_DESCRIPTION;
 
     static {
         MAP_PRICES_DESCRIPTION = new HashMap<>();
-        for (int i = 0; i < Gadgets.priceAttributeNames.length; i++) {
-            MAP_PRICES_DESCRIPTION.put(Gadgets.priceAttributeNames[i], PRICES_DESCRIPTION.get(i));
+        for (int i = 0; i < Gadgets.PRICE_ATTRIBUTE_NAMES.length; i++) {
+            MAP_PRICES_DESCRIPTION.put(Gadgets.PRICE_ATTRIBUTE_NAMES[i], PRICES_DESCRIPTION.get(i));
         }
     }
 

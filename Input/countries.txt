@@ -1,18 +1,7 @@
-United States
-United Kingdom
-Australia
-Hong Kong
-Malaysia
-Sweden
-Switzerland
-Austria
-Belgium
-Brazil
-Arab Emirates
-Spain
-Netherlands
-Poland
 Portugal
+France
+Germany
+Greece
 Norway
 Argentina
 Turkey
@@ -26,9 +15,6 @@ Canada
 Ecuador
 Egypt
 Finland
-France
-Germany
-Greece
 Hungary
 Indonesia
 India
@@ -80,3 +66,17 @@ Afghanistan
 Nigeria
 Belarus
 Iraq
+United States
+United Kingdom
+Australia
+Hong Kong
+Malaysia
+Sweden
+Switzerland
+Austria
+Belgium
+Brazil
+Arab Emirates
+Spain
+Netherlands
+Poland

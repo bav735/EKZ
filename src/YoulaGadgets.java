@@ -15,11 +15,11 @@ public class YoulaGadgets extends Gadgets {
     final static int ADS_PER_DAY = 5;
     final static int IPHONES_COUNT = 12;
 
-    HashMap<String, ArrayList<ArrayList<String>>> mapGadgetMetaModelGadgetsByVendor;
+    HashMap<String, ArrayList<ArrayList<String>>> mapMetaModelGadgetsByVendor;
     HashMap<String, ArrayList<String>> mapGadgetModelColor;
     ArrayList<ArrayList<String>> gadgetAttributesVariants;
     int[][] gadgetsDistribution;
-    String[] gadgetAttributeNames = WebSiteGadgets.gadgetAttributeNames;
+    String[] GADGET_ATTRIBUTE_NAMES = WebSiteGadgets.GADGET_ATTRIBUTE_NAMES;
 
     public YoulaGadgets() {
     }
@@ -115,13 +115,13 @@ public class YoulaGadgets extends Gadgets {
 
     public void distributeIPhones() {
         Collections.shuffle(gadgets, new Random(735));
-        mapGadgetMetaModelGadgetsByVendor = new HashMap<>();
+        mapMetaModelGadgetsByVendor = new HashMap<>();
         for (ArrayList<String> gadget : gadgets) {
             String model = gadget.get(mapGadgetAttributeNumber.get(MODEL));
-            if (!mapGadgetMetaModelGadgetsByVendor.containsKey(model)) {
-                mapGadgetMetaModelGadgetsByVendor.put(model, new ArrayList<ArrayList<String>>());
+            if (!mapMetaModelGadgetsByVendor.containsKey(model)) {
+                mapMetaModelGadgetsByVendor.put(model, new ArrayList<ArrayList<String>>());
             }
-            mapGadgetMetaModelGadgetsByVendor.get(model).add(gadget);
+            mapMetaModelGadgetsByVendor.get(model).add(gadget);
         }
         gadgets.clear();
         int[][] metaGroups = new int[DISTRIBUTION_SIZE][];
@@ -147,10 +147,10 @@ public class YoulaGadgets extends Gadgets {
 
     private ArrayList<String> extractGadgetByModel(int modelId) {
         String model = gadgetAttributesVariants.get(mapGadgetAttributeNumber.get(MODEL)).get(modelId);
-        ArrayList<ArrayList<String>> gadgetsByModel = mapGadgetMetaModelGadgetsByVendor.get(model);
+        ArrayList<ArrayList<String>> gadgetsByModel = mapMetaModelGadgetsByVendor.get(model);
         ArrayList<String> gadget = gadgetsByModel.get(gadgetsByModel.size() - 1);
         gadgetsByModel.remove(gadgetsByModel.size() - 1);
-        mapGadgetMetaModelGadgetsByVendor.put(model, gadgetsByModel);
+        mapMetaModelGadgetsByVendor.put(model, gadgetsByModel);
         return gadget;
     }
 

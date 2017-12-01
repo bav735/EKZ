@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Input/present_items_kzn.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Input/present_items_msk.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/AvitoGadgets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$1.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$2.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$3.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$4.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$5.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$6.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$7.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$8.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetGroup.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetGroup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/Gadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/Gadgets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/Solution.class" afterPath="$PROJECT_DIR$/out/production/EKZ/Solution.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EKZ.iml" afterPath="$PROJECT_DIR$/EKZ.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/countries.txt" afterPath="$PROJECT_DIR$/Input/countries.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Website/shop_items.csv" afterPath="$PROJECT_DIR$/Output/Website/shop_items.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Website/shop_items.xml" afterPath="$PROJECT_DIR$/Output/Website/shop_items.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AvitoGadgets.java" afterPath="$PROJECT_DIR$/src/AvitoGadgets.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GadgetConst.java" afterPath="$PROJECT_DIR$/src/GadgetConst.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GadgetGroup.java" afterPath="$PROJECT_DIR$/src/GadgetGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gadgets.java" afterPath="$PROJECT_DIR$/src/Gadgets.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution.java" afterPath="$PROJECT_DIR$/src/Solution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WebSiteGadgets.java" afterPath="$PROJECT_DIR$/src/WebSiteGadgets.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/YoulaGadgets.java" afterPath="$PROJECT_DIR$/src/YoulaGadgets.java" />
     </list>
     <ignored path="EKZ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,100 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="CategoryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CategoryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="133" column="51" selection-start-line="133" selection-start-column="43" selection-end-line="133" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="present_items_msk.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="present_items_msk.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Input/present_items_msk.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AvitoGadgets.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="190" column="47" selection-start-line="190" selection-start-column="47" selection-end-line="190" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GadgetConst.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GadgetConst.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#1282#1290#0" expanded="true" />
-                <element signature="e#3219#3227#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gadget.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Gadget.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="111" column="31" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="261" column="38" selection-start-line="261" selection-start-column="38" selection-end-line="261" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GadgetGroup.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GadgetGroup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1512049902386" expanded="true" signature="7004:7780" ph="{...}" />
-                <marker date="1512049902386" expanded="true" signature="7533:7770" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdsXML_msk.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="9137" column="0" selection-start-line="9137" selection-start-column="0" selection-end-line="9137" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ads_per_month.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Input/ads_per_month.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -125,8 +62,109 @@
       <file leaf-file-name="present_items_kzn.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Input/present_items_kzn.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gadgets.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#5134#5135#0" expanded="true" />
+                <element signature="e#5193#5194#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="countries.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Input/countries.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="price_list.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Input/price_list.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GadgetConst.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GadgetConst.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1407#1415#0" expanded="true" />
+                <element signature="e#3344#3352#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AvitoGadgets.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdsXML_msk.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="629" column="12" selection-start-line="629" selection-start-column="12" selection-end-line="629" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GadgetGroup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GadgetGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="287" column="74" selection-start-line="287" selection-start-column="74" selection-end-line="287" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2657#2658#0" expanded="true" />
+                <element signature="e#2686#2687#0" expanded="true" />
+                <element signature="e#12387#12388#0" expanded="true" />
+                <element signature="e#12435#12436#0" expanded="true" />
+                <element signature="e#12472#12473#0" expanded="true" />
+                <element signature="e#12523#12524#0" expanded="true" />
+                <element signature="e#12565#12566#0" expanded="true" />
+                <element signature="e#12601#12602#0" expanded="true" />
+                <marker date="1512123556610" expanded="true" signature="7330:8106" ph="{...}" />
+                <marker date="1512123556610" expanded="true" signature="7859:8096" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update_items_kzn.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Input/update_items_kzn.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -157,11 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Output/price_list.xml" />
-        <option value="$PROJECT_DIR$/src/IPhones.java" />
-        <option value="$PROJECT_DIR$/Output/temp.txt" />
-        <option value="$PROJECT_DIR$/distribution.txt" />
-        <option value="$PROJECT_DIR$/input.txt" />
         <option value="$PROJECT_DIR$/Input/shop_items.csv" />
         <option value="$PROJECT_DIR$/Input/distribution.txt" />
         <option value="$PROJECT_DIR$/Input/distribution_youla.txt" />
@@ -191,7 +224,6 @@
         <option value="$PROJECT_DIR$/Input/iphones_description.txt" />
         <option value="$PROJECT_DIR$/Input/countries_description.txt" />
         <option value="$PROJECT_DIR$/Input/t_countries.txt" />
-        <option value="$PROJECT_DIR$/Input/countries.txt" />
         <option value="$PROJECT_DIR$/src/WebSiteGadgets.java" />
         <option value="$PROJECT_DIR$/Input/selected_ym_items.txt" />
         <option value="$PROJECT_DIR$/src/CategoryTree.java" />
@@ -199,23 +231,36 @@
         <option value="$PROJECT_DIR$/Input/selected_avito_items.txt" />
         <option value="$PROJECT_DIR$/src/Gadget.java" />
         <option value="$PROJECT_DIR$/Input/price_list.txt" />
-        <option value="$PROJECT_DIR$/src/Gadgets.java" />
-        <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/Input/ads_per_month.txt" />
-        <option value="$PROJECT_DIR$/Input/present_items_kzn.txt" />
-        <option value="$PROJECT_DIR$/Input/present_items_msk.txt" />
-        <option value="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" />
-        <option value="$PROJECT_DIR$/src/AvitoGadgets.java" />
+        <option value="$PROJECT_DIR$/Input/autoload_items_kzn.txt" />
+        <option value="$PROJECT_DIR$/Input/autoload_items_msk.txt" />
+        <option value="$PROJECT_DIR$/Input/countries.txt" />
+        <option value="$PROJECT_DIR$/Input/selected_autoload_items_msk.txt" />
+        <option value="$PROJECT_DIR$/Input/update_items_kzn.txt" />
+        <option value="$PROJECT_DIR$/Input/update_items_msk.txt" />
         <option value="$PROJECT_DIR$/src/GadgetConst.java" />
+        <option value="$PROJECT_DIR$/src/Solution.java" />
+        <option value="$PROJECT_DIR$/Input/present_items_msk.txt" />
+        <option value="$PROJECT_DIR$/Input/present_items_kzn.txt" />
+        <option value="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" />
         <option value="$PROJECT_DIR$/src/GadgetGroup.java" />
+        <option value="$PROJECT_DIR$/src/Gadgets.java" />
+        <option value="$PROJECT_DIR$/src/AvitoGadgets.java" />
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1384" />
+    <option name="height" value="738" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -276,6 +321,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="EKZ" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -395,23 +444,26 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="C:/Android Lab/Drawingame" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="settings.editor.splitter.proportion" value="0.2304038" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\EKZ\Input" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\EKZ" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\EKZ\Input" />
       <recent name="C:\EKZ" />
     </key>
   </component>
@@ -738,23 +790,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-9" y="-9" width="1384" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32469776" sideWeight="0.4941435" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32352942" sideWeight="0.4941435" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35738832" sideWeight="0.51755726" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35578585" sideWeight="0.48244274" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3548951" sideWeight="0.48244274" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281787" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25917432" sideWeight="0.48421052" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32297063" sideWeight="0.49121523" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25877863" sideWeight="0.48421052" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3216783" sideWeight="0.49121523" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -827,15 +879,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="410" column="0" selection-start-line="410" selection-start-column="0" selection-end-line="410" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distribution.txt" />
-    <entry file="file://$PROJECT_DIR$/price_list_ispark_info.xml" />
     <entry file="file://$PROJECT_DIR$/input.txt" />
     <entry file="file://$PROJECT_DIR$/price_list_ispark.txt" />
     <entry file="file://$PROJECT_DIR$/Output/price_list.xml" />
@@ -905,8 +948,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1509619283766" expanded="false" signature="5037:5045" ph="&lt;~&gt;" />
-            <marker date="1509619283766" expanded="false" signature="5549:5557" ph="&lt;~&gt;" />
+            <marker date="1512123596770" expanded="false" signature="5035:5043" ph="&lt;~&gt;" />
+            <marker date="1512123596770" expanded="false" signature="5547:5555" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -932,22 +975,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Input/t_countries.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_tat.xml" />
-    <entry file="file://$PROJECT_DIR$/Input/price_list.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Input/selected_ym_items.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -956,26 +984,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Input/countries.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/WebSiteGadgets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="67" column="44" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -996,14 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="261" column="38" selection-start-line="261" selection-start-column="38" selection-end-line="261" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Input/ads_per_month.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1012,59 +1016,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mapdb/mapdb/3.0.5/mapdb-3.0.5.jar!/org/mapdb/StoreDirect.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="190" column="47" selection-start-line="190" selection-start-column="47" selection-end-line="190" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="113">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GadgetConst.java">
+    <entry file="file://$PROJECT_DIR$/Input/t_countries.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/update_items_msk.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1282#1290#0" expanded="true" />
-            <element signature="e#3219#3227#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Input/present_items_kzn.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml">
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="9137" column="0" selection-start-line="9137" selection-start-column="0" selection-end-line="9137" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GadgetGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+        <state relative-caret-position="101">
+          <caret line="266" column="0" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1512049902386" expanded="true" signature="7004:7780" ph="{...}" />
-            <marker date="1512049902386" expanded="true" signature="7533:7770" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Input/present_items_msk.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GadgetConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1407#1415#0" expanded="true" />
+            <element signature="e#3344#3352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/price_list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GadgetGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="287" column="74" selection-start-line="287" selection-start-column="74" selection-end-line="287" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2657#2658#0" expanded="true" />
+            <element signature="e#2686#2687#0" expanded="true" />
+            <element signature="e#12387#12388#0" expanded="true" />
+            <element signature="e#12435#12436#0" expanded="true" />
+            <element signature="e#12472#12473#0" expanded="true" />
+            <element signature="e#12523#12524#0" expanded="true" />
+            <element signature="e#12565#12566#0" expanded="true" />
+            <element signature="e#12601#12602#0" expanded="true" />
+            <marker date="1512123556610" expanded="true" signature="7330:8106" ph="{...}" />
+            <marker date="1512123556610" expanded="true" signature="7859:8096" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#5134#5135#0" expanded="true" />
+            <element signature="e#5193#5194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/countries.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/present_items_kzn.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/update_items_kzn.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AvitoGadgets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="629" column="12" selection-start-line="629" selection-start-column="12" selection-end-line="629" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1147,6 +1229,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>org.mapdb:mapdb:3.0.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

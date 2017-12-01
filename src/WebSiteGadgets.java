@@ -81,7 +81,7 @@ public class WebSiteGadgets extends Gadgets {
             mapGadgetModelGadgets.get(metaModel).add(gadget);
 //                ArrayList<String> gadget2 = new ArrayList<>(gadget);
 //                gadget2.set(mapGadgetAttributeNumber.get(QUALITY), EST2);
-//                mapGadgetMetaModelGadgetsByVendor.get(model).add(gadget2);
+//                mapMetaModelGadgetsByVendor.get(model).add(gadget2);
         }
         return mapGadgetModelGadgets;
     }
