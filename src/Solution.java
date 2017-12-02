@@ -272,7 +272,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Gadgets.initializePrices(Solution.getInputScanner("price_list.txt"));
+        Gadgets.initializePrices(Solution.getInputScanner("AMOLED/price_list.txt"));
         if (!BASE_ROLLBACK) {
             try {
                 computeAvito();

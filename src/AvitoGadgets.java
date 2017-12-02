@@ -295,7 +295,7 @@ public class AvitoGadgets extends Gadgets {
         String xml = "";
         for (int cityId = 0; cityId < GadgetConst.CITIES.length; cityId++) {
             LinkedHashSet<String> metaModelsUpdate = Solution.getHashSetFromInput(
-                    "update_items_" + GadgetConst.CITIES_FILE_END[cityId] + ".txt");
+                    "AMOLED/update_items_" + GadgetConst.CITIES_FILE_END[cityId] + ".txt");
             for (String metaModel : metaModelsUpdate) {
                 int metaModelLastId = GadgetConst.MAP_META_MODEL_LAST_GADGET_ID.get(metaModel)
                         % mapGadgetMetaModelGadgetGroups.get(metaModel).size();
@@ -304,7 +304,7 @@ public class AvitoGadgets extends Gadgets {
                 GadgetConst.MAP_META_MODEL_LAST_GADGET_ID.put(metaModel, metaModelLastId + 1);
             }
             LinkedHashSet<String> metaModelsPresent = Solution.getHashSetFromInput(
-                    "present_items_" + GadgetConst.CITIES_FILE_END[cityId] + ".txt");
+                    "AMOLED/present_items_" + GadgetConst.CITIES_FILE_END[cityId] + ".txt");
             for (String metaModel : metaModelsPresent) {
                 if (!GadgetConst.MAP_META_MODEL_LAST_GADGET_ID.keySet().contains(
                         metaModel)) {
