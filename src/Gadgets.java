@@ -43,6 +43,7 @@ public class Gadgets {
     public static HashMap<String, ArrayList<String>> mapGadgetNamePrices;
     public static HashMap<String, Integer> mapPriceAttributeNumber;
     public static HashMap<String, Integer> mapGadgetAttributeNumber;
+    public static HashMap<String, Boolean> mapGadgetMetaModelSingleMemory;
 
     static {
         mapGadgetAttributeNumber = new HashMap<String, Integer>();
@@ -69,8 +70,13 @@ public class Gadgets {
                     - PRICE_ATTRIBUTE_NAMES.length, words.length);
             mapGadgetNamePrices.put(gadgetName, new ArrayList<>(Arrays.asList(prices)));
         }
+        inScanner.close();
+        mapGadgetMetaModelSingleMemory = new HashMap<>();
         for (String gadgetName : mapGadgetNamePrices.keySet()) {
             String metaModel = gadgetName.substring(gadgetName.indexOf(" ") + 1);
+            String metaModelWithoutMemory = getMetaModelWithoutMemory(metaModel);
+            mapGadgetMetaModelSingleMemory.put(metaModelWithoutMemory,
+                    !mapGadgetMetaModelSingleMemory.containsKey(metaModelWithoutMemory));
             if (!GadgetConst.MAP_META_MODEL_LAST_GADGET_ID.containsKey(metaModel)) {
                 GadgetConst.MAP_META_MODEL_LAST_GADGET_ID.put(metaModel, 0);
                 for (int i = 0; i < GadgetConst.CITIES.length; i++) {
@@ -78,8 +84,12 @@ public class Gadgets {
                 }
             }
         }
-        inScanner.close();
     }
+
+    public static String getMetaModelWithoutMemory(String metaModel) {
+        return metaModel.substring(0, metaModel.lastIndexOf(" "));
+    }
+
 
     public int[] mergeArrays(int[] a1, int[] a2, int[] order) {
         int[][] a = new int[2][];

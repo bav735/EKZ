@@ -9,7 +9,6 @@ public class AvitoGadgets extends Gadgets {
     public ArrayList<ArrayList<String>> gadgets = new ArrayList<>();
     LinkedHashMap<String, ArrayList<ArrayList<String>>> mapMetaModelGadgetsByVendor[];
     LinkedHashMap<String, ArrayList<GadgetGroup>> mapGadgetMetaModelGadgetGroups;
-    LinkedHashMap<String, Boolean> mapGadgetMetaModelSingleItem;
 
     public AvitoGadgets() {
         Set<String> selectedAvitoItems = mapGadgetNamePrices.keySet();
@@ -63,7 +62,6 @@ public class AvitoGadgets extends Gadgets {
             }
             mapMetaModelGadgets.get(metaModel).add(gadget);
         }
-        mapGadgetMetaModelSingleItem = new LinkedHashMap<>();
         mapGadgetMetaModelGadgetGroups = new LinkedHashMap<>();
         for (String metaModel : mapMetaModelGadgets.keySet()) {
             ArrayList<GadgetGroup> gadgetGroups = new ArrayList<>();

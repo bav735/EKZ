@@ -63,7 +63,7 @@ public class GadgetGroup extends Gadgets {
 //            return cityId + vendor;
 //        } else {
         String id = GadgetConst.CITIES[cityId] +
-                getGadgetName(gadgets.get(0), QUALITY, getLastAttr()) + country;
+                getGadgetName(gadgets.get(0), QUALITY, MEMORY) + country;
         return id.replace(" ", "");
 //        }
     }
@@ -77,6 +77,10 @@ public class GadgetGroup extends Gadgets {
     }
 
     private String getLastAttr() {
+        if (mapGadgetMetaModelSingleMemory.get(getMetaModelWithoutMemory(
+                getMetaModel()))) {
+            return MODEL;
+        }
         return MEMORY;
     }
 
