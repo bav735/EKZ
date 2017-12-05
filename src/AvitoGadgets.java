@@ -295,6 +295,7 @@ public class AvitoGadgets extends Gadgets {
             LinkedHashSet<String> metaModelsUpdate = Solution.getHashSetFromInput(
                     "AMOLED/update_items_" + GadgetConst.CITIES_FILE_END[cityId] + ".txt");
             for (String metaModel : metaModelsUpdate) {
+                System.out.println(metaModel);
                 int metaModelLastId = GadgetConst.MAP_META_MODEL_LAST_GADGET_ID.get(metaModel)
                         % mapGadgetMetaModelGadgetGroups.get(metaModel).size();
                 GadgetConst.MAP_META_MODEL_CURR_GADGET_ID[cityId]
