@@ -312,6 +312,7 @@ public class AvitoGadgets extends Gadgets {
                 }
                 int gadgetGroupId = GadgetConst.MAP_META_MODEL_CURR_GADGET_ID[cityId]
                         .get(metaModel);
+                System.out.println(cityId + " " + metaModel + " " + gadgetGroupId);
                 if (gadgetGroupId == -1) {
                     continue;
                 }
