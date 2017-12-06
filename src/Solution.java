@@ -6,7 +6,6 @@ import java.util.regex.Pattern;
 
 public class Solution {
     public final static String BASE_XML = "shop_items.xml";
-    public final static boolean BASE_ROLLBACK = false;
 
     public static Scanner getInputScanner(String fileName) {
         try {
@@ -273,34 +272,30 @@ public class Solution {
 
     public static void main(String[] args) {
         Gadgets.initializePrices(Solution.getInputScanner("AMOLED/price_list.txt"));
-        if (!BASE_ROLLBACK) {
-            try {
-                computeAvito();
-                computeCategoryTreeFromXML();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+        try {
+            computeAvito();
+            computeCategoryTreeFromXML();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
-            //Youla
+        //Youla
 //        iphonesYoula = new YoulaGadgets();
 //        iphonesYoula.initialize();
 //        iphonesYoula.generateGadgets(0, new ArrayList<String>());
 //        iphonesYoula.distributeIPhones();
 //        iphonesYoula.generateFolders();
 
-            //WebSite
+        //WebSite
 //        AvitoGadgets webSiteGadgets = new AvitoGadgets();
 //        webSiteGadgets.initializeFromCSV();
 //        webSiteGadgets.synchronizePrices();
 //        webSiteGadgets.printCSVGadgets(getOutputWriter("Output", "shop_items.csv"));
 
-            //Yandex-Market
+        //Yandex-Market
 //        webSiteGadgets.printYMGadgets(getOutputWriter("Output", "yandex_market_items.csv"));
 ////        webSiteGadgets.generateGadgetFiles();
 ////        galaxys.generateGadgetFiles();
-        } else {
-            GadgetConst.GADGET_DB.rollback();
-        }
         GadgetConst.GADGET_DB.commit();
         GadgetConst.GADGET_DB.close();
     }
