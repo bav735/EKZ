@@ -99,11 +99,23 @@ public class GadgetGroup extends Gadgets {
     }
 
     private String getAdPrice(int cityId) {
-        int price = Solution.getNumber(getPriceByCity(gadgets.get(0), cityId));
+        int price1 = Solution.getNumber(getPriceByCity(gadgets.get(0), cityId));
         for (ArrayList<String> gadget : gadgets) {
-            price = Math.min(price, Solution.getNumber(getPriceByCity(gadget, cityId)));
+            price1 = Math.min(price1, Solution.getNumber(getPriceByCity(gadget, cityId)));
         }
-        return price + "";
+        int price2 = 1000000;
+        for (ArrayList<String> gadget : gadgets) {
+            int price = Solution.getNumber(getPriceByCity(gadget, cityId));
+            if (price > price1 && gadget.get(mapGadgetAttributeNumber.get(QUALITY))
+                    .startsWith(GadgetConst.REF)) {
+                price2 = Math.min(price2, price);
+            }
+        }
+        if (price2 < 1000000) {
+            price1 = (price1 + price2) / 2;
+            price1 = price1 - price1 % 100 + 90;
+        }
+        return price1 + "";
     }
 
     public String getXmlAd(boolean isArrangement) {
