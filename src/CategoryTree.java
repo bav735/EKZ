@@ -211,7 +211,8 @@ public class CategoryTree {
             bufferedWriter.write(child.id);
             bufferedWriter.write(";;;;;;;;;;;;;;;\n");
             for (Gadget gadget : child.gadgets) {
-                if (gadget.namePrefix.startsWith("Смартфон")) {
+                bufferedWriter.write(gadget.getCSV(child, ""));
+                /*if (gadget.namePrefix.startsWith("Смартфон")) {
                     String priceNames[] = new String[]{
                             Gadgets.REGIONS_PRICE,
                             Gadgets.MOSCOW_PRICE,
@@ -221,7 +222,7 @@ public class CategoryTree {
                     }
                 } else {
                     bufferedWriter.write(gadget.getCSV(child, ""));
-                }
+                }*/
             }
             child.printCSV(bufferedWriter);
         }

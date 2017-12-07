@@ -94,10 +94,18 @@ public class Solution {
                     }
                     line = inScanner.nextLine();
                 }
-//                System.out.println(isCatIdInitialized);
                 String catId = getValueByTag(offer, "categoryId");
-                Gadget gadget = new Gadget(offer/*, catId*/);
-                if (categories.contains(catId) && !catId.equals("761")) {
+                if (categories.contains(catId)) {
+                    Gadget gadget = new Gadget(offer
+                            .replaceAll("(?i)gb", "Gb")
+                            .replaceAll("GALAXY", "Galaxy")
+                            .replaceAll("\\sedge\\s", " Edge ")
+                            .replaceAll("Sony XZ", "Sony Xperia  XZ")
+                            .replaceAll("(?i)zenfone", "ZenFone")
+                            .replaceAll("MOTO", "Moto")
+                            .replaceAll("8\\+\\s", "8 Plus ")
+                            .replaceAll("\\s6s\\s", " 6S ")
+                            .replaceAll("[\\s(,]+[0-9A-Z/]*[0-9]RU[0-9A-Z/]*[\\s),]*", ""));
                     ArrayList<String> modelSplit;
                     modelSplit = new ArrayList<>(Arrays.asList(gadget.model.split("[ ,\\-]")));
                     int j = 0;
@@ -151,7 +159,7 @@ public class Solution {
         }
         inScanner.close();
 
-        WebSiteGadgets webSiteGadgets[] = getWebSiteGadgetsArray();
+        /*WebSiteGadgets webSiteGadgets[] = getWebSiteGadgetsArray();
         for (int modelLine = 0; modelLine < webSiteGadgets.length; modelLine++) {
             for (ArrayList<String> webSiteGadget : webSiteGadgets[modelLine].gadgets) {
                 CategoryTree catTree = root.getTreeByCatId("761");
@@ -172,7 +180,7 @@ public class Solution {
                 }
                 subcatTree.gadgets.add(new Gadget(webSiteGadget));
             }
-        }
+        }*/
 
         root.condenseTree();
         root.removeLeaves();
@@ -233,15 +241,17 @@ public class Solution {
 
     public static void condenseModelSplit(ArrayList<String> modelSplit) {
         int plusId = -1;
+        HashSet<String> words = new HashSet<>(Arrays.asList(
+                "plus",
+                "edge",
+                "edge plus",
+                "mini",
+                "cover",
+                "lite",
+                "prime"));
         for (int i = 1; i < modelSplit.size(); i++) {
-            if (modelSplit.get(i).equals("Plus") ||
-                    modelSplit.get(i).equals("Edge") ||
-                    modelSplit.get(i).equals("Edge Plus") ||
-                    modelSplit.get(i).equals("Mini") ||
-                    modelSplit.get(i).equals("Cover") ||
-                    modelSplit.get(i).equals("Lite") ||
-//                                modelSplit.get(i).equals("Prime")||
-                    modelSplit.get(i).equals("Lite")) {
+            String word = modelSplit.get(i).toLowerCase();
+            if (words.contains(word)) {
                 plusId = i;
                 modelSplit.set(plusId - 1, modelSplit.get(plusId - 1) + " " + modelSplit.get(plusId));
             }
@@ -319,11 +329,11 @@ public class Solution {
     public static String getValueByTag(String from, String openTag, String closeTag) {
         int posL = from.indexOf(openTag);
         if (posL == -1) {
-            return null;
+            return "";
         }
         int posR = from.lastIndexOf(closeTag);
         if (posR == -1) {
-            return null;
+            return "";
         }
         return from.substring(posL + openTag.length(), posR);
     }

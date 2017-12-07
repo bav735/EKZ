@@ -8,1140 +8,466 @@
 </currencies>
 <categories>
 <category id="10">Мобильные телефоны</category>
+<category id="914" parentId="10">Apple</category>
+<category id="5088" parentId="914">Apple iPhone 6S</category>
+<category id="5473" parentId="5088">32Gb</category>
+<category id="5089" parentId="5088">128Gb</category>
+<category id="5092" parentId="914">Apple iPhone 6S Plus</category>
+<category id="5478" parentId="5092">32Gb</category>
+<category id="5093" parentId="5092">128Gb</category>
+<category id="5428" parentId="914">Apple iPhone 7</category>
+<category id="5429" parentId="5428">32Gb</category>
+<category id="5434" parentId="5428">128Gb</category>
+<category id="5447" parentId="914">Apple iPhone 7 Plus</category>
+<category id="5451" parentId="5447">32Gb</category>
+<category id="5448" parentId="5447">128Gb</category>
+<category id="5902" parentId="914">Apple iPhone SE</category>
+<category id="5903" parentId="5902">32Gb</category>
+<category id="5908" parentId="5902">128Gb</category>
+<category id="6017" parentId="914">Apple iPhone 6</category>
+<category id="6912" parentId="914">Apple iPhone 8</category>
+<category id="6921" parentId="914">Apple iPhone 8 Plus</category>
+<category id="6930" parentId="914">Apple iPhone X</category>
 <category id="761" parentId="10">Смартфоны</category>
-<category id="10482" parentId="761">Samsung</category>
-<category id="10538" parentId="10482">Galaxy A</category>
-<category id="10539" parentId="10538">A3 (2015)</category>
-<category id="10544" parentId="10538">A3 (2016)</category>
-<category id="10549" parentId="10538">A5 (2015)</category>
-<category id="10555" parentId="10538">A5 (2016)</category>
-<category id="10561" parentId="10538">A7 (2016)</category>
-<category id="10489" parentId="10482">Galaxy Alpha</category>
-<category id="10483" parentId="10482">Galaxy Grand</category>
-<category id="10566" parentId="10482">Galaxy J</category>
-<category id="10592" parentId="10482">Galaxy Note</category>
-<category id="10593" parentId="10592">Note 3</category>
-<category id="10599" parentId="10592">Note 4</category>
-<category id="10605" parentId="10592">Note 5</category>
-<category id="10495" parentId="10482">Galaxy S</category>
-<category id="10496" parentId="10495">S3</category>
-<category id="10501" parentId="10495">S4</category>
-<category id="10506" parentId="10495">S4 Mini</category>
-<category id="10510" parentId="10495">S5</category>
-<category id="10516" parentId="10495">S6</category>
-<category id="10521" parentId="10495">S6 Edge</category>
-<category id="10527" parentId="10495">S7</category>
-<category id="10533" parentId="10495">S7 Edge</category>
-<category id="10611" parentId="761">Apple</category>
-<category id="10613" parentId="10611">iPhone 4</category>
-<category id="10620" parentId="10611">iPhone 4S</category>
-<category id="10633" parentId="10611">iPhone 5</category>
-<category id="10643" parentId="10611">iPhone 5C</category>
-<category id="10644" parentId="10643">16Gb</category>
-<category id="10646" parentId="10643">32Gb</category>
-<category id="10656" parentId="10611">iPhone 5S</category>
-<category id="10657" parentId="10656">16Gb</category>
-<category id="10659" parentId="10656">32Gb</category>
-<category id="10661" parentId="10656">64Gb</category>
-<category id="10669" parentId="10611">iPhone 6</category>
-<category id="10670" parentId="10669">16Gb</category>
-<category id="10672" parentId="10669">64Gb</category>
-<category id="10674" parentId="10669">128Gb</category>
-<category id="10682" parentId="10611">iPhone 6 Plus</category>
-<category id="10683" parentId="10682">16Gb</category>
-<category id="10685" parentId="10682">64Gb</category>
-<category id="10687" parentId="10682">128Gb</category>
-<category id="10695" parentId="10611">iPhone 6S</category>
-<category id="10696" parentId="10695">16Gb</category>
-<category id="10698" parentId="10695">64Gb</category>
-<category id="10700" parentId="10695">128Gb</category>
-<category id="10711" parentId="10611">iPhone 6S Plus</category>
-<category id="10712" parentId="10711">16Gb</category>
-<category id="10714" parentId="10711">64Gb</category>
-<category id="10716" parentId="10711">128Gb</category>
-<category id="10727" parentId="10611">iPhone 7</category>
-<category id="10728" parentId="10727">32Gb</category>
-<category id="10730" parentId="10727">128Gb</category>
-<category id="10732" parentId="10727">256Gb</category>
-<category id="10749" parentId="10611">iPhone 7 Plus</category>
-<category id="10750" parentId="10749">32Gb</category>
-<category id="10752" parentId="10749">128Gb</category>
-<category id="10754" parentId="10749">256Gb</category>
-<category id="10771" parentId="761">Sony</category>
-<category id="10773" parentId="10771">Xperia Z</category>
-<category id="10778" parentId="10771">Xperia Z1</category>
-<category id="10783" parentId="10771">Xperia Z1 Compact</category>
-<category id="10789" parentId="10771">Xperia Z2</category>
-<category id="10794" parentId="10771">Xperia Z3</category>
-<category id="10801" parentId="10771">Xperia Z3 Compact</category>
-<category id="10807" parentId="10771">Xperia Z5 Compact</category>
-<category id="10813" parentId="761">HTC</category>
-<category id="512" parentId="10">Кнопочные телефоны</category>
-<category id="5738" parentId="512">Philips</category>
-<category id="6027" parentId="512">Fly</category>
-<category id="7138" parentId="512">LG</category>
-<category id="8072" parentId="512">Nokia</category>
-<category id="8118" parentId="512">teXet</category>
-<category id="8387" parentId="512">RugGear</category>
-<category id="8668" parentId="512">Micromax</category>
-<category id="9405" parentId="512">Elari</category>
+<category id="5007" parentId="761">Philips</category>
+<category id="5008" parentId="5007">S308</category>
+<category id="5170" parentId="5007">S309</category>
+<category id="7099" parentId="5007">S318</category>
+<category id="5693" parentId="5007">S326</category>
+<category id="5158" parentId="5007">S337</category>
+<category id="5138" parentId="5007">S616</category>
+<category id="6727" parentId="5007">X586</category>
+<category id="5112" parentId="5007">Xenium</category>
+<category id="5028" parentId="761">HTC</category>
+<category id="5338" parentId="5028">10</category>
+<category id="5029" parentId="5028">Desire</category>
+<category id="5115" parentId="5028">One</category>
+<category id="5951" parentId="5028">U</category>
+<category id="6378" parentId="5028">U11</category>
+<category id="6379" parentId="6378">64Gb</category>
+<category id="6382" parentId="6378">128Gb</category>
+<category id="5064" parentId="761">Huawei</category>
+<category id="5304" parentId="5064">Honor</category>
+<category id="6307" parentId="5064">NOVA</category>
+<category id="6667" parentId="5064">NOVA Lite</category>
+<category id="5884" parentId="5064">P10</category>
+<category id="5959" parentId="5064">P10 lite</category>
+<category id="5065" parentId="5064">P8</category>
+<category id="6360" parentId="5064">Y3</category>
+<category id="5506" parentId="5064">Y5</category>
+<category id="5130" parentId="761">Samsung</category>
+<category id="5734" parentId="5130">Galaxy A3</category>
+<category id="5132" parentId="5130">Galaxy A5</category>
+<category id="5133" parentId="5132">(2016)</category>
+<category id="5770" parentId="5132">(2017)</category>
+<category id="5781" parentId="5130">Galaxy A7</category>
+<category id="5147" parentId="5130">Galaxy J1</category>
+<category id="6369" parentId="5130">Galaxy J1 mini</category>
+<category id="5568" parentId="5130">Galaxy J2 Prime</category>
+<category id="5166" parentId="5130">Galaxy J3</category>
+<category id="5202" parentId="5130">Galaxy J5</category>
+<category id="5203" parentId="5202">(2016)</category>
+<category id="6177" parentId="5202">(2017)</category>
+<category id="5198" parentId="5130">Galaxy J7</category>
+<category id="5199" parentId="5198">(2016)</category>
+<category id="6440" parentId="5198">(2017)</category>
+<category id="6814" parentId="5130">Galaxy Note</category>
+<category id="5152" parentId="5130">Galaxy S7</category>
+<category id="5155" parentId="5130">Galaxy S7 Edge</category>
+<category id="5892" parentId="5130">Galaxy S8</category>
+<category id="5897" parentId="5130">Galaxy S8 Plus</category>
+<category id="5182" parentId="761">LG</category>
+<category id="5939" parentId="5182">G6</category>
+<category id="5187" parentId="5182">K10</category>
+<category id="6006" parentId="5182">K3</category>
+<category id="5872" parentId="5182">K7</category>
+<category id="5183" parentId="5182">K8</category>
+<category id="6952" parentId="5182">Q6</category>
+<category id="6546" parentId="5182">Q6a</category>
+<category id="5345" parentId="5182">X</category>
+<category id="5346" parentId="5345">Power</category>
+<category id="6219" parentId="5345">venture</category>
+<category id="5214" parentId="761">Sony</category>
+<category id="7216" parentId="5214">XZ</category>
+<category id="5215" parentId="5214">Xperia</category>
+<category id="5439" parentId="5215">E5</category>
+<category id="5981" parentId="5215">L1</category>
+<category id="5216" parentId="5215">X</category>
+<category id="5225" parentId="5215">XA</category>
+<category id="5985" parentId="5215">XA1</category>
+<category id="5986" parentId="5985">Black</category>
+<category id="5988" parentId="5985">Gold</category>
+<category id="5990" parentId="5985">Pink</category>
+<category id="6065" parentId="5985">Ultra</category>
+<category id="5992" parentId="5985">White</category>
+<category id="7120" parentId="5215">XA1 Plus</category>
+<category id="5542" parentId="5215">XZ</category>
+<category id="6981" parentId="5215">XZ1</category>
+<category id="6991" parentId="6981">Black</category>
+<category id="6989" parentId="6981">Moonlit</category>
+<category id="6987" parentId="6981">Venus</category>
+<category id="6982" parentId="6981">compact</category>
+<category id="5270" parentId="761">Fly</category>
+<category id="5271" parentId="5270">Cirrus</category>
+<category id="6710" parentId="5270">Nimbus</category>
+<category id="5741" parentId="5270">STRATUS</category>
+<category id="5278" parentId="761">Meizu</category>
+<category id="5554" parentId="5278">M3</category>
+<category id="5675" parentId="5278">M3E</category>
+<category id="5848" parentId="5278">M5</category>
+<category id="5849" parentId="5848">16Gb+2Gb</category>
+<category id="5852" parentId="5848">32Gb+3Gb</category>
+<category id="6023" parentId="5848">Note</category>
+<category id="5510" parentId="5278">MX6</category>
+<category id="5279" parentId="5278">Pro6</category>
+<category id="7177" parentId="5278">Pro7</category>
+<category id="7067" parentId="5278">Pro7 Plus</category>
+<category id="5360" parentId="761">ASUS</category>
+<category id="5492" parentId="5360">ZenFone 3</category>
+<category id="6315" parentId="5360">ZenFone 4</category>
+<category id="6316" parentId="6315">Max</category>
+<category id="7108" parentId="6316">ZC520KL</category>
+<category id="6317" parentId="6316">ZC554KL</category>
+<category id="7111" parentId="6315">Selfie</category>
+<category id="5712" parentId="5360">ZenFone GO</category>
+<category id="5362" parentId="5360">ZenFone Go</category>
+<category id="7105" parentId="5360">ZenFone Live</category>
+<category id="5920" parentId="5360">ZenFone Live ZB501KL</category>
+<category id="7085" parentId="5360">ZenFone ZF4</category>
+<category id="5394" parentId="761">Digma</category>
+<category id="5416" parentId="5394">Linx</category>
+<category id="5395" parentId="5394">VOX</category>
+<category id="5436" parentId="761">teXet</category>
+<category id="5437" parentId="5436">TM</category>
+<category id="6143" parentId="5436">X</category>
+<category id="5459" parentId="761">ZTE</category>
+<category id="5658" parentId="5459">Axon</category>
+<category id="5460" parentId="5459">Blade</category>
+<category id="5760" parentId="5459">Max</category>
+<category id="5580" parentId="761">Prestigio</category>
+<category id="5581" parentId="5580">Grace</category>
+<category id="6199" parentId="5580">Muze</category>
+<category id="6786" parentId="5580">Wize</category>
+<category id="5632" parentId="761">Vertex</category>
+<category id="5684" parentId="761">Motorola</category>
+<category id="5699" parentId="761">RugGear</category>
+<category id="5764" parentId="761">BQ</category>
+<category id="6553" parentId="5764">Aquaris</category>
+<category id="5776" parentId="5764">U Lite</category>
+<category id="5765" parentId="5764">U Plus</category>
+<category id="5790" parentId="761">Archos</category>
+<category id="5797" parentId="761">Xiaomi</category>
+<category id="5932" parentId="5797">Mi</category>
+<category id="5798" parentId="5797">Redmi</category>
+<category id="5799" parentId="5798">4A</category>
+<category id="6149" parentId="5798">4X</category>
+<category id="6020" parentId="5798">4Х</category>
+<category id="5889" parentId="5798">Note</category>
+<category id="5857" parentId="761">Honor</category>
+<category id="6538" parentId="5857">6A</category>
+<category id="6040" parentId="5857">6C</category>
+<category id="5858" parentId="5857">8</category>
+<category id="5863" parentId="5857">8 Lite</category>
+<category id="6385" parentId="5857">9</category>
+<category id="5972" parentId="761">Nokia</category>
+<category id="7185" parentId="5972">2</category>
+<category id="5973" parentId="5972">3</category>
+<category id="5979" parentId="5972">5</category>
+<category id="5997" parentId="5972">6</category>
+<category id="6835" parentId="5972">8</category>
+<category id="6086" parentId="761">OnePlus</category>
+<category id="6179" parentId="761">4good</category>
+<category id="6191" parentId="761">Highscreen</category>
+<category id="6192" parentId="6191">Boost</category>
+<category id="6241" parentId="6191">Easy</category>
+<category id="6865" parentId="6191">Fest</category>
+<category id="6247" parentId="6191">Power</category>
+<category id="6255" parentId="6191">Thunder</category>
+<category id="6227" parentId="761">CAT</category>
+<category id="6258" parentId="761">Alcatel</category>
+<category id="6264" parentId="6258">A3</category>
+<category id="6271" parentId="6258">A5</category>
+<category id="7173" parentId="6258">IDOL</category>
+<category id="6318" parentId="6258">PIXI</category>
+<category id="6320" parentId="6318">4 DS</category>
+<category id="6906" parentId="6318">4 POWER PLUS</category>
+<category id="6259" parentId="6258">U5</category>
+<category id="6285" parentId="761">Jinga</category>
+<category id="6291" parentId="6285">Fresh 3G</category>
+<category id="6287" parentId="6285">Fresh 4G</category>
+<category id="6402" parentId="761">TP-Link</category>
+<category id="6403" parentId="6402">Neffos</category>
+<category id="6407" parentId="6403">C5</category>
+<category id="6404" parentId="6403">C5L</category>
+<category id="6422" parentId="6403">X1</category>
+<category id="6845" parentId="6403">X1 Lite</category>
+<category id="6412" parentId="6403">Y5L</category>
+<category id="6848" parentId="6402">X1 Lite</category>
+<category id="6589" parentId="761">BQ mobile</category>
+<category id="7017" parentId="6589">Crystal</category>
+<category id="6610" parentId="6589">Magic</category>
+<category id="6628" parentId="6589">Space</category>
+<category id="6621" parentId="6589">Space Lite</category>
+<category id="6590" parentId="6589">Strike</category>
+<category id="6591" parentId="6590">Black</category>
+<category id="6594" parentId="6590">Gold</category>
+<category id="6597" parentId="6590">LTE</category>
+<category id="6602" parentId="6590">Power</category>
+<category id="7024" parentId="6590">Selfie</category>
+<category id="6999" parentId="6589">Strike Mini</category>
+<category id="7007" parentId="6589">Trend</category>
+<category id="7003" parentId="6589">Velvet</category>
+<category id="6614" parentId="6589">Vision</category>
+<category id="6733" parentId="761">Doogee</category>
+<category id="6973" parentId="761">Senseit</category>
+<category id="7091" parentId="761">BlackBerry</category>
+<category id="7189" parentId="761">Oppo</category>
+<category id="7204" parentId="761">Nubia</category>
+<category id="512" parentId="10">Телефоны кнопочные</category>
+<category id="5061" parentId="512">LG</category>
+<category id="5077" parentId="512">Philips</category>
+<category id="6509" parentId="5077">E106</category>
+<category id="6110" parentId="5077">E160</category>
+<category id="5078" parentId="5077">Xenium</category>
+<category id="5103" parentId="512">Alcatel</category>
+<category id="5205" parentId="512">teXet</category>
+<category id="5206" parentId="5205">TM</category>
+<category id="6657" parentId="5205">X</category>
+<category id="5262" parentId="512">Fly</category>
+<category id="5266" parentId="5262">Ezzy</category>
+<category id="5727" parentId="5262">FF179</category>
+<category id="5263" parentId="5262">FF243</category>
+<category id="5695" parentId="512">RugGear</category>
+<category id="5812" parentId="512">Nokia</category>
+<category id="6568" parentId="5812">105</category>
+<category id="6780" parentId="5812">130</category>
+<category id="5824" parentId="5812">150</category>
+<category id="5820" parentId="5812">216</category>
+<category id="5813" parentId="5812">230</category>
+<category id="5967" parentId="5812">3310</category>
+<category id="6048" parentId="512">Micromax</category>
+<category id="6129" parentId="512">Elari</category>
+<category id="6222" parentId="512">CAT</category>
+<category id="6281" parentId="512">Jinga</category>
+<category id="6825" parentId="512">Vertex</category>
+<category id="6936" parentId="512">Lexand</category>
+<category id="6957" parentId="512">Senseit</category>
+<category id="7033" parentId="512">BQ mobile</category>
+<category id="2667">Компьютерная техника Apple</category>
+<category id="571" parentId="2667">iMac</category>
+<category id="5100" parentId="571">Apple iMac 21.5</category>
+<category id="6232" parentId="5100">Core</category>
+<category id="5101" parentId="5100">Retina</category>
+<category id="6299" parentId="5100">Retina4K</category>
+<category id="6160" parentId="5100">i5</category>
+<category id="6162" parentId="571">Apple iMac 27</category>
+<category id="927" parentId="2667">Планшеты</category>
+<category id="5070" parentId="927">Apple iPad mini</category>
+<category id="5073" parentId="5070">4 Wi Fi</category>
+<category id="5074" parentId="5070">4 Wi Fi+Cellular</category>
+<category id="5108" parentId="927">Apple iPad</category>
+<category id="5109" parentId="5108">Pro</category>
+<category id="6168" parentId="5109">10.5</category>
+<category id="6170" parentId="6168">256</category>
+<category id="6171" parentId="6168">512</category>
+<category id="6169" parentId="6168">64</category>
+<category id="5110" parentId="5109">12.9</category>
+<category id="6165" parentId="5110">64Gb</category>
+<category id="5111" parentId="5110">128Gb</category>
+<category id="6166" parentId="5110">256Gb</category>
+<category id="6167" parentId="5110">512Gb</category>
+<category id="5173" parentId="5109">9.7</category>
+<category id="5913" parentId="5108">32Gb</category>
+<category id="5916" parentId="5108">128Gb</category>
+<category id="5919" parentId="5916">Wi Fi</category>
+<category id="5918" parentId="5916">Wi Fi+Cellular</category>
+<category id="709" parentId="2667">Ноутбуки MacBook</category>
+<category id="5034" parentId="709">Apple MacBook</category>
+<category id="6125" parentId="5034">12</category>
+<category id="6127" parentId="6125">Core M3</category>
+<category id="6155" parentId="6125">Core i5</category>
+<category id="6206" parentId="6125">Core i7</category>
+<category id="6207" parentId="6125">Core m3</category>
+<category id="6156" parentId="5034">Air</category>
+<category id="5035" parentId="5034">Pro</category>
+<category id="5576" parentId="5035">13</category>
+<category id="6257" parentId="5576">Core</category>
+<category id="5577" parentId="5576">Late</category>
+<category id="5595" parentId="5576">Touch</category>
+<category id="6159" parentId="5576">i5</category>
+<category id="5210" parentId="5035">15</category>
+<category id="5036" parentId="5035">15"</category>
+<category id="5212" parentId="5035">Retina</category>
+<category id="5038" parentId="709">Apple MacBookProRetina</category>
+<category id="443" parentId="2667">Системные блоки</category>
+<category id="5004" parentId="443">Apple Mac</category>
+<category id="5242" parentId="5004">Pro XeonE5</category>
+<category id="5006" parentId="5004">Pro Z0P8000J5</category>
+<category id="5010" parentId="443">Apple MacMini</category>
+<category id="5011" parentId="5010">i5</category>
+<category id="5018" parentId="5010">i7</category>
+<category id="1107" parentId="2667">Телевизионные приставки</category>
 <category id="8">Ноутбуки и планшеты</category>
-<category id="927" parentId="8">Планшеты</category>
-<category id="5306" parentId="927">Apple</category>
-<category id="6489" parentId="5306">iPad 128Gb</category>
-<category id="7607" parentId="5306">iPad 32Gb</category>
-<category id="5389" parentId="5306">iPad Pro</category>
-<category id="5390" parentId="5389">12.9</category>
-<category id="6313" parentId="5390">256GB</category>
-<category id="5392" parentId="5390">32Gb</category>
-<category id="5391" parentId="5390">128Gb</category>
-<category id="5539" parentId="5389">9.7</category>
-<category id="7172" parentId="5539">32Gb</category>
-<category id="5540" parentId="5539">128Gb</category>
-<category id="5308" parentId="5306">iPad mini</category>
-<category id="8060" parentId="5308">2</category>
-<category id="5309" parentId="5308">4</category>
-<category id="5417" parentId="927">Lenovo</category>
-<category id="10287" parentId="5417">IdeaPad</category>
-<category id="9910" parentId="5417">Miix</category>
-<category id="8696" parentId="5417">PHAB Plus</category>
-<category id="7315" parentId="5417">Phab</category>
-<category id="10148" parentId="5417">TB3</category>
-<category id="6023" parentId="5417">Tab</category>
-<category id="10066" parentId="6023">2</category>
-<category id="6782" parentId="6023">3</category>
-<category id="6024" parentId="6023">3 Plus</category>
-<category id="5418" parentId="5417">Tab2</category>
-<category id="7460" parentId="5417">Tab3</category>
-<category id="7238" parentId="5417">Yoga</category>
-<category id="5689" parentId="927">Samsung</category>
-<category id="5692" parentId="5689">Galaxy Tab A</category>
-<category id="8075" parentId="5689">Galaxy Tab E</category>
-<category id="7380" parentId="5689">Galaxy Tab S2</category>
-<category id="9348" parentId="5689">Galaxy Tab S3</category>
-<category id="5905" parentId="927">Prestigio</category>
-<category id="5906" parentId="5905">MultiPad</category>
-<category id="8658" parentId="5906">Color</category>
-<category id="8975" parentId="5906">Visconte</category>
-<category id="8356" parentId="5906">WIZE</category>
-<category id="5907" parentId="5906">Wize</category>
-<category id="7156" parentId="5905">PMT3308</category>
-<category id="9750" parentId="5905">PMT3331</category>
-<category id="9430" parentId="5905">Visconte</category>
-<category id="7027" parentId="5905">Wize</category>
-<category id="5949" parentId="927">Archos</category>
-<category id="6366" parentId="927">ASUS</category>
-<category id="6367" parentId="6366">Transformer</category>
-<category id="7250" parentId="6366">Zenpad</category>
-<category id="6732" parentId="927">Digma</category>
-<category id="6733" parentId="6732">Optima</category>
-<category id="8114" parentId="6732">Plane</category>
-<category id="9367" parentId="8114">1501M</category>
-<category id="8115" parentId="8114">7.7</category>
-<category id="8930" parentId="8114">7012M</category>
-<category id="8726" parentId="8114">9507M</category>
-<category id="7173" parentId="927">Huawei</category>
-<category id="7591" parentId="927">Haier</category>
-<category id="8100" parentId="927">Acer</category>
-<category id="8507" parentId="927">Turbo</category>
-<category id="8714" parentId="927">TurboKids</category>
-<category id="8783" parentId="927">PlayPad</category>
-<category id="9986" parentId="927">HP</category>
 <category id="987" parentId="8">Ноутбуки</category>
-<category id="5430" parentId="987">Acer</category>
-<category id="5431" parentId="5430">Aspire</category>
-<category id="8437" parentId="5431">E</category>
-<category id="6020" parentId="5431">E5</category>
-<category id="5432" parentId="5431">ES1</category>
-<category id="5433" parentId="5432">520</category>
-<category id="8136" parentId="5432">523</category>
-<category id="8458" parentId="5432">532G</category>
-<category id="6465" parentId="5432">533</category>
-<category id="9371" parentId="5432">731G</category>
-<category id="6211" parentId="5431">F5</category>
-<category id="7487" parentId="5431">S5</category>
-<category id="7416" parentId="5431">V3</category>
-<category id="6453" parentId="5430">E5</category>
-<category id="6444" parentId="5430">ES1</category>
-<category id="6477" parentId="5430">EX2511G</category>
-<category id="6474" parentId="5430">EX2519</category>
-<category id="6469" parentId="5430">EX2520G</category>
-<category id="9387" parentId="5430">F5</category>
-<category id="7001" parentId="5430">SF314</category>
-<category id="8534" parentId="5430">Swift</category>
-<category id="5444" parentId="987">ASUS</category>
-<category id="8546" parentId="5444">K501UQ</category>
-<category id="5974" parentId="5444">K501UX</category>
-<category id="7350" parentId="5444">K540LJ</category>
-<category id="6052" parentId="5444">K555YI</category>
-<category id="8065" parentId="5444">K751SJ</category>
-<category id="8563" parentId="5444">N552VX</category>
-<category id="9231" parentId="5444">N752VX</category>
-<category id="8096" parentId="5444">R540SA</category>
-<category id="10128" parentId="5444">R540SC</category>
-<category id="5978" parentId="5444">UX303UA</category>
-<category id="10034" parentId="5444">UX303UB</category>
-<category id="8404" parentId="5444">UX305FA</category>
-<category id="8021" parentId="5444">UX310UQ</category>
-<category id="6258" parentId="5444">X540LA</category>
-<category id="6232" parentId="5444">X540LJ</category>
-<category id="5445" parentId="5444">X540SA</category>
-<category id="7305" parentId="5444">X540YA</category>
-<category id="8565" parentId="5444">X541SA</category>
-<category id="8360" parentId="5444">X541SC</category>
-<category id="8576" parentId="5444">X541UV</category>
-<category id="8554" parentId="5444">X553SA</category>
-<category id="7242" parentId="5444">X555DG</category>
-<category id="6260" parentId="5444">X751SA</category>
-<category id="8574" parentId="5444">X751SV</category>
-<category id="6262" parentId="5444">X756UQ</category>
-<category id="5976" parentId="5444">X756UV</category>
-<category id="9228" parentId="5444">ZenBook</category>
-<category id="6014" parentId="987">HP</category>
-<category id="6015" parentId="6014">15</category>
-<category id="8418" parentId="6014">17</category>
-<category id="7529" parentId="6014">250</category>
-<category id="8821" parentId="6014">255</category>
-<category id="8527" parentId="6014">Envy</category>
-<category id="8544" parentId="8527">13</category>
-<category id="8528" parentId="8527">15</category>
-<category id="8557" parentId="6014">Spectre</category>
-<category id="8520" parentId="6014">Star</category>
-<category id="6099" parentId="987">Lenovo</category>
-<category id="8530" parentId="6099">710S</category>
-<category id="9032" parentId="6099">B70</category>
-<category id="6100" parentId="6099">IdeaPad</category>
-<category id="7184" parentId="987">Apple</category>
-<category id="7186" parentId="7184">MacBook 12</category>
-<category id="8215" parentId="7186">Core M1.3/8/512</category>
-<category id="7189" parentId="7186">Core M3</category>
-<category id="7188" parentId="7186">Core M5</category>
-<category id="8157" parentId="7186">Core M7</category>
-<category id="7483" parentId="7184">MacBook Air</category>
-<category id="7300" parentId="7184">MacBook Pro</category>
-<category id="7303" parentId="7300">13</category>
-<category id="7597" parentId="7303">Early</category>
-<category id="7304" parentId="7303">Late</category>
-<category id="7364" parentId="7303">Touch</category>
-<category id="7301" parentId="7300">15</category>
-<category id="8734" parentId="7300">Retina</category>
-<category id="7196" parentId="987">Dell</category>
-<category id="7197" parentId="7196">Inspiron</category>
-<category id="7324" parentId="7196">Vostro</category>
-<category id="9380" parentId="7324">5468</category>
-<category id="7325" parentId="7324">5568</category>
-<category id="7955" parentId="7196">XPS</category>
-<category id="7336" parentId="987">Prestigio</category>
-<category id="8264" parentId="987">Haier</category>
+<category id="5057" parentId="987">HP</category>
+<category id="5530" parentId="5057">14</category>
+<category id="5058" parentId="5057">15</category>
+<category id="5254" parentId="5057">17</category>
+<category id="5075" parentId="5057">255</category>
+<category id="5083" parentId="5057">355</category>
+<category id="5234" parentId="5057">ENVY</category>
+<category id="5235" parentId="5234">13</category>
+<category id="5251" parentId="5234">15</category>
+<category id="6338" parentId="5234">17</category>
+<category id="5526" parentId="5057">Envy</category>
+<category id="6345" parentId="5057">Pavilion</category>
+<category id="6346" parentId="6345">14</category>
+<category id="6349" parentId="6345">15</category>
+<category id="5238" parentId="5057">Spectre</category>
+<category id="5122" parentId="987">Lenovo</category>
+<category id="5399" parentId="5122">710S</category>
+<category id="5123" parentId="5122">IdeaPad</category>
+<category id="5592" parentId="5123">110</category>
+<category id="6044" parentId="5592">14IBR</category>
+<category id="5593" parentId="5592">15ACL</category>
+<category id="6046" parentId="5592">15AST</category>
+<category id="6175" parentId="5592">15IBR</category>
+<category id="6432" parentId="5123">320</category>
+<category id="5367" parentId="5123">500S</category>
+<category id="6376" parentId="5123">520</category>
+<category id="5715" parentId="5123">710S Plus</category>
+<category id="5124" parentId="5123">G70</category>
+<category id="6139" parentId="5122">V110</category>
+<category id="5127" parentId="987">ASUS</category>
+<category id="5329" parentId="987">Acer</category>
+<category id="6758" parentId="5329">A315</category>
+<category id="6462" parentId="5329">A715</category>
+<category id="6861" parentId="5329">A717</category>
+<category id="5330" parentId="5329">Aspire</category>
+<category id="7078" parentId="5330">A315</category>
+<category id="5331" parentId="5330">E</category>
+<category id="5616" parentId="5330">E5</category>
+<category id="5924" parentId="5330">ES1</category>
+<category id="5357" parentId="5330">S5</category>
+<category id="5867" parentId="5330">V3</category>
+<category id="6100" parentId="5329">E5</category>
+<category id="6393" parentId="5329">ES1</category>
+<category id="7132" parentId="5329">Extensa</category>
+<category id="5723" parentId="5329">F5</category>
+<category id="6466" parentId="5329">SF314</category>
+<category id="5379" parentId="987">Haier</category>
+<category id="5420" parentId="987">Dell</category>
+<category id="5421" parentId="5420">Inspiron</category>
+<category id="5589" parentId="5420">Vostro</category>
+<category id="5613" parentId="987">Prestigio</category>
+<category id="6134" parentId="987">4good</category>
 <category id="1224" parentId="8">Ноутбуки-трансформеры</category>
-<category id="5742" parentId="1224">ASUS</category>
-<category id="6383" parentId="1224">Acer</category>
-<category id="7435" parentId="6383">Aspire</category>
-<category id="6384" parentId="6383">Switch</category>
-<category id="7229" parentId="1224">HP</category>
-<category id="8480" parentId="7229">Envy</category>
-<category id="8443" parentId="7229">Pavilion</category>
-<category id="7230" parentId="7229">Spectre</category>
-<category id="7232" parentId="7230">x360 13</category>
-<category id="8721" parentId="7230">x360 Convertible</category>
-<category id="7598" parentId="1224">Lenovo</category>
-<category id="8406" parentId="1224">Dell</category>
-<category id="8425" parentId="1224">Huawei</category>
-<category id="8430" parentId="1224">Samsung</category>
-<category id="25">Аудиотехника</category>
-<category id="812" parentId="25">MP3 плееры</category>
-<category id="5003" parentId="812">Sony</category>
-<category id="6684" parentId="5003">NW</category>
-<category id="5004" parentId="5003">NWZ</category>
-<category id="6504" parentId="5004">B183F</category>
-<category id="5005" parentId="5004">E583/BM</category>
-<category id="7614" parentId="5004">E584/BM</category>
-<category id="7538" parentId="5003">Walkman</category>
-<category id="5175" parentId="812">Ritmix</category>
-<category id="7568" parentId="5175">RF 2500</category>
-<category id="8243" parentId="5175">RF 2850</category>
-<category id="7080" parentId="5175">RF 3360</category>
-<category id="7077" parentId="5175">RF 4550</category>
-<category id="5177" parentId="5175">RF 4850</category>
-<category id="7247" parentId="5175">RF 4910</category>
-<category id="7086" parentId="5175">RF 7650</category>
-<category id="7089" parentId="812">Philips</category>
-<category id="7127" parentId="812">Apple</category>
-<category id="7543" parentId="7127">iPod Nano</category>
-<category id="7129" parentId="7127">iPod Shuffle</category>
-<category id="7470" parentId="7127">iPod Touch</category>
-<category id="7472" parentId="7470">6 16Gb</category>
-<category id="9177" parentId="7470">6 32Gb</category>
-<category id="7649" parentId="7470">6 64Gb</category>
-<category id="7178" parentId="812">FiiO</category>
-<category id="7179" parentId="7178">M3</category>
-<category id="8290" parentId="7178">X1</category>
-<category id="7554" parentId="7178">X3</category>
-<category id="9645" parentId="7178">X5</category>
-<category id="7216" parentId="812">Digma</category>
-<category id="7549" parentId="812">Astell Kern</category>
-<category id="454" parentId="25">Радиочасы</category>
-<category id="5827" parentId="454">Philips</category>
-<category id="6291" parentId="454">VITEK</category>
-<category id="7115" parentId="454">Telefunken</category>
-<category id="7202" parentId="454">MAX</category>
-<category id="7221" parentId="454">Ritmix</category>
-<category id="7562" parentId="454">Sony</category>
-<category id="410" parentId="25">Радиоприемники</category>
-<category id="5925" parentId="410">Ritmix</category>
-<category id="7095" parentId="410">VITEK</category>
-<category id="7112" parentId="410">Supra</category>
-<category id="7205" parentId="410">MAX</category>
-<category id="9452" parentId="7205">M105C</category>
-<category id="7206" parentId="7205">MR</category>
-<category id="7265" parentId="410">Telefunken</category>
-<category id="7559" parentId="410">Sony</category>
-<category id="7638" parentId="410">Panasonic</category>
-<category id="9664" parentId="410">teXet</category>
-<category id="723" parentId="25">Цифровые диктофоны</category>
-<category id="5386" parentId="723">Olympus</category>
-<category id="6570" parentId="723">Sony</category>
-<category id="7091" parentId="723">Ritmix</category>
-<category id="54" parentId="25">Наушники</category>
-<category id="4307" parentId="54">Наушники Плеер</category>
-<category id="5918" parentId="4307">Samsung</category>
-<category id="7105" parentId="4307">Sony</category>
-<category id="7167" parentId="7105">NW</category>
-<category id="7106" parentId="7105">NWZ</category>
-<category id="1706" parentId="54">Наушники Bluetooth</category>
-<category id="6436" parentId="1706">Apple</category>
-<category id="5574" parentId="1706">Samsung</category>
-<category id="5576" parentId="5574">Level On</category>
-<category id="7619" parentId="5574">Level U</category>
-<category id="5245" parentId="1706">Sony</category>
-<category id="5270" parentId="5245">MDR</category>
-<category id="9106" parentId="5245">MDREX750BTBM</category>
-<category id="9954" parentId="5245">MDREX750BTRM</category>
-<category id="9953" parentId="5245">MDREX750BTYM</category>
-<category id="5272" parentId="5245">MDRZX770BNBM</category>
-<category id="9070" parentId="5245">SBH54</category>
-<category id="9522" parentId="5245">SBH60</category>
-<category id="5246" parentId="5245">SBH70</category>
-<category id="9548" parentId="5245">SBH80</category>
-<category id="9183" parentId="1706">AKG</category>
-<category id="5163" parentId="1706">Akai</category>
-<category id="5558" parentId="1706">Bang Olufsen</category>
-<category id="5969" parentId="1706">Beats</category>
-<category id="5970" parentId="5969">Beats</category>
-<category id="6279" parentId="5969">BeatsX</category>
-<category id="7842" parentId="5969">Solo</category>
-<category id="5489" parentId="1706">Bose</category>
-<category id="6011" parentId="5489">QuietComfort</category>
-<category id="5490" parentId="5489">SoundLink</category>
-<category id="8352" parentId="1706">Bowers Wilkins</category>
-<category id="5703" parentId="1706">Defender</category>
-<category id="7877" parentId="1706">Harman/Kardon</category>
-<category id="5135" parentId="1706">Harper</category>
-<category id="8472" parentId="5135">HB 115</category>
-<category id="5143" parentId="5135">HB 200</category>
-<category id="8925" parentId="5135">HB 203</category>
-<category id="6270" parentId="5135">HB 212</category>
-<category id="8365" parentId="5135">HB 213</category>
-<category id="5498" parentId="5135">HB 309</category>
-<category id="5137" parentId="5135">HB 400</category>
-<category id="10432" parentId="5135">HB 410</category>
-<category id="6227" parentId="1706">InterStep</category>
-<category id="6153" parentId="1706">JBL</category>
-<category id="9223" parentId="6153">Duet</category>
-<category id="8001" parentId="6153">E45BT</category>
-<category id="7339" parentId="6153">E55BT</category>
-<category id="7320" parentId="6153">Everest</category>
-<category id="8296" parentId="6153">JBLT460BTBLK</category>
-<category id="8298" parentId="6153">JBLT460BTBLU</category>
-<category id="8297" parentId="6153">JBLT460BTWHT</category>
-<category id="8983" parentId="6153">Synchros</category>
-<category id="6154" parentId="6153">T450BT</category>
-<category id="6331" parentId="6153">V700BTBLUGP</category>
-<category id="7181" parentId="1706">Jabra</category>
-<category id="7785" parentId="1706">Jays</category>
-<category id="8728" parentId="1706">Marshall</category>
-<category id="7908" parentId="1706">Monster</category>
-<category id="8077" parentId="1706">Panasonic</category>
-<category id="9587" parentId="1706">Parrot</category>
-<category id="5363" parentId="1706">Philips</category>
-<category id="8885" parentId="1706">Pioneer</category>
-<category id="8853" parentId="1706">Plantronics</category>
-<category id="5452" parentId="1706">Sennheiser</category>
-<category id="1151" parentId="54">Наушники накладные</category>
-<category id="5077" parentId="1151">Sony</category>
-<category id="5078" parentId="5077">MDR</category>
-<category id="5305" parentId="5077">MDRZX660APBC</category>
-<category id="5169" parentId="1151">Bang Olufsen</category>
-<category id="8092" parentId="5169">BeoPlay</category>
-<category id="5170" parentId="5169">Form</category>
-<category id="7144" parentId="1151">Beats</category>
-<category id="7145" parentId="7144">BT</category>
-<category id="7272" parentId="7144">EP</category>
-<category id="7808" parentId="7144">Mixr</category>
-<category id="5396" parentId="1151">Bowers Wilkins</category>
-<category id="5694" parentId="1151">Defender</category>
-<category id="5130" parentId="1151">Harper</category>
-<category id="5439" parentId="1151">Kitsound</category>
-<category id="8856" parentId="1151">Koss</category>
-<category id="5100" parentId="1151">Marley</category>
-<category id="5151" parentId="1151">Molami</category>
-<category id="9798" parentId="1151">Monster</category>
-<category id="5343" parentId="1151">Philips</category>
-<category id="6602" parentId="1151">Pioneer</category>
-<category id="5194" parentId="1151">Sennheiser</category>
-<category id="5249" parentId="5194">M2</category>
-<category id="5195" parentId="5194">URBANITE</category>
-<category id="9637" parentId="1151">Sol Republic</category>
-<category id="5155" parentId="1151">Urbanears</category>
-<category id="5159" parentId="5155">Plattan</category>
-<category id="5156" parentId="5155">Zinken</category>
-<category id="9447" parentId="1151">Yamaha</category>
-<category id="1152" parentId="54">Наушники полноразмерные</category>
-<category id="5393" parentId="1152">Sony</category>
-<category id="5394" parentId="5393">MDR</category>
-<category id="7827" parentId="5393">MDRXB950APBC</category>
-<category id="9776" parentId="1152">AKG</category>
-<category id="5148" parentId="1152">Akai</category>
-<category id="5340" parentId="1152">Audio-Technica</category>
-<category id="5836" parentId="1152">Bang Olufsen</category>
-<category id="7810" parentId="1152">Beats</category>
-<category id="5207" parentId="1152">Bose</category>
-<category id="5208" parentId="5207">QuietComfort</category>
-<category id="9515" parentId="5207">SoundTrue</category>
-<category id="6007" parentId="1152">InterStep</category>
-<category id="6961" parentId="1152">JBL</category>
-<category id="8946" parentId="6961">E35</category>
-<category id="6962" parentId="6961">T450</category>
-<category id="8223" parentId="1152">Koss</category>
-<category id="5336" parentId="1152">Marshall</category>
-<category id="9501" parentId="1152">Molami</category>
-<category id="7161" parentId="1152">Monster</category>
-<category id="5167" parentId="1152">Philips</category>
-<category id="5104" parentId="1152">Pioneer</category>
-<category id="5106" parentId="5104">SE M521</category>
-<category id="8608" parentId="5104">SE MJ503</category>
-<category id="8883" parentId="5104">SE MJ503T</category>
-<category id="8602" parentId="5104">SE MJ722T</category>
-<category id="9868" parentId="5104">SE MX8</category>
-<category id="5197" parentId="1152">Sennheiser</category>
-<category id="5374" parentId="5197">HD</category>
-<category id="5258" parentId="5197">M2</category>
-<category id="5549" parentId="5197">RS</category>
-<category id="5198" parentId="5197">URBANITE</category>
-<category id="5359" parentId="1152">Sol Republic</category>
-<category id="4167" parentId="54">Наушники с костной проводимостью звука</category>
-<category id="1150" parentId="54">Наушники-вкладыши</category>
-<category id="9042" parentId="1150">Apple</category>
-<category id="7660" parentId="1150">Samsung</category>
-<category id="7662" parentId="7660">EO EG920L</category>
-<category id="7665" parentId="7660">EO HS1303</category>
-<category id="7566" parentId="1150">Sony</category>
-<category id="8341" parentId="7566">MDR</category>
-<category id="9146" parentId="7566">MDREX750APBM</category>
-<category id="7567" parentId="7566">MDREX750APLM</category>
-<category id="9066" parentId="7566">MDREX750APRM</category>
-<category id="9065" parentId="7566">MDREX750APYM</category>
-<category id="5465" parentId="1150">AKG</category>
-<category id="8208" parentId="1150">Bang Olufsen</category>
-<category id="9885" parentId="1150">Bose</category>
-<category id="8776" parentId="1150">Bowers Wilkins</category>
-<category id="7770" parentId="1150">Gal</category>
-<category id="5376" parentId="1150">HP</category>
-<category id="5822" parentId="1150">Harper</category>
-<category id="7892" parentId="1150">InterStep</category>
-<category id="7893" parentId="7892">BWhite</category>
-<category id="9769" parentId="7892">Ceramic Mini</category>
-<category id="8920" parentId="7892">HF</category>
-<category id="5943" parentId="1150">JBL</category>
-<category id="6142" parentId="5943">C150</category>
-<category id="7360" parentId="5943">E15</category>
-<category id="8916" parentId="5943">Reflect</category>
-<category id="8011" parentId="5943">T110</category>
-<category id="6434" parentId="5943">T150A</category>
-<category id="7791" parentId="5943">T210</category>
-<category id="10344" parentId="5943">T280A</category>
-<category id="5944" parentId="5943">T290</category>
-<category id="5412" parentId="1150">Kitsound</category>
-<category id="5415" parentId="5412">Hive</category>
-<category id="5413" parentId="5412">Mini</category>
-<category id="7019" parentId="1150">Marley</category>
-<category id="10335" parentId="1150">Mixberry</category>
-<category id="7903" parentId="1150">Monster</category>
-<category id="5282" parentId="1150">Philips</category>
-<category id="6049" parentId="1150">RHA</category>
-<category id="5190" parentId="1150">Sennheiser</category>
-<category id="5191" parentId="5190">CX</category>
-<category id="9461" parentId="5190">CX200</category>
-<category id="5253" parentId="5190">M2</category>
-<category id="5706" parentId="5190">MX</category>
-<category id="6852" parentId="1150">Sven</category>
-<category id="9711" parentId="1150">Trendz</category>
-<category id="2789" parentId="54">Спортивные наушники</category>
-<category id="6045" parentId="2789">Sony</category>
-<category id="6134" parentId="6045">MDR AS210AP</category>
-<category id="6047" parentId="6045">MDR AS410AP</category>
-<category id="7836" parentId="2789">Beats</category>
-<category id="5468" parentId="2789">Bose</category>
-<category id="9599" parentId="5468">FreeStyle</category>
-<category id="5469" parentId="5468">SoundSport</category>
-<category id="9610" parentId="5469">Black/Blue</category>
-<category id="9604" parentId="5469">Green/Grey</category>
-<category id="5470" parentId="5469">In</category>
-<category id="9607" parentId="5469">Orange/Gray</category>
-<category id="8368" parentId="2789">JBL</category>
-<category id="9784" parentId="2789">Monster</category>
-<category id="9178" parentId="2789">Philips</category>
-<category id="5409" parentId="2789">SBS</category>
-<category id="5365" parentId="2789">Sennheiser</category>
-<category id="2909" parentId="54">Спортивные наушники Bluetooth</category>
-<category id="6096" parentId="2909">Sony</category>
-<category id="5406" parentId="2909">Akai</category>
-<category id="6137" parentId="2909">Beats</category>
-<category id="10219" parentId="2909">Bose</category>
-<category id="5699" parentId="2909">Defender</category>
-<category id="5140" parentId="2909">Harper</category>
-<category id="5617" parentId="5140">HB 101</category>
-<category id="9382" parentId="5140">HB 109</category>
-<category id="5142" parentId="5140">HB 300</category>
-<category id="5608" parentId="5140">HB 310</category>
-<category id="8963" parentId="5140">HB 500</category>
-<category id="9861" parentId="5140">HB 600</category>
-<category id="8017" parentId="2909">InterStep</category>
-<category id="6248" parentId="2909">JBL</category>
-<category id="6249" parentId="6248">E25BT</category>
-<category id="8919" parentId="6248">JBLREFCONTOURBLK</category>
-<category id="8956" parentId="6248">JBLREFCONTOURTEL</category>
-<category id="7884" parentId="6248">Reflect Mini</category>
-<category id="5240" parentId="2909">Jabra</category>
-<category id="5241" parentId="5240">Sport</category>
-<category id="5475" parentId="5240">Step</category>
-<category id="5619" parentId="2909">Jam</category>
-<category id="5519" parentId="2909">Monster</category>
-<category id="8761" parentId="2909">Philips</category>
-<category id="5218" parentId="2909">Plantronics</category>
-<category id="5001">Гироскутеры и самокаты</category>
-<category id="5000" parentId="5001">Гироскутеры</category>
-<category id="4228" parentId="5000">Гироскутеры 10 дюймов</category>
-<category id="8049" parentId="4228">Gold Wheels</category>
-<category id="7933" parentId="4228">iconBIT</category>
-<category id="3629" parentId="5000">Гироскутеры 6.5 дюймов</category>
-<category id="8043" parentId="3629">Gold Wheels</category>
-<category id="8123" parentId="3629">MoveOn</category>
-<category id="6131" parentId="3629">iconBIT</category>
-<category id="4809" parentId="5000">Гироскутеры 8 дюймов</category>
-<category id="4008" parentId="5001">Электрические самокаты</category>
-<category id="4007" parentId="5001">Моноколесо</category>
+<category id="5160" parentId="1224">Dell</category>
+<category id="5228" parentId="1224">HP</category>
+<category id="6341" parentId="5228">ENVY</category>
+<category id="5806" parentId="5228">Envy</category>
+<category id="5563" parentId="5228">Pavilion</category>
+<category id="5229" parentId="5228">Spectre</category>
+<category id="5291" parentId="1224">ASUS</category>
+<category id="5384" parentId="1224">Samsung</category>
+<category id="5497" parentId="1224">Lenovo</category>
+<category id="6482" parentId="5497">YOGA</category>
+<category id="6523" parentId="6482">520</category>
+<category id="6483" parentId="6482">720</category>
+<category id="5498" parentId="5497">Yoga</category>
+<category id="5600" parentId="1224">Huawei</category>
+<category id="5627" parentId="1224">Acer</category>
+<category id="5751" parentId="1224">Prestigio</category>
+<category id="1225" parentId="8">Планшеты для детей</category>
+<category id="930" parentId="8">Планшеты на Android</category>
+<category id="5045" parentId="930">Lenovo</category>
+<category id="5605" parentId="5045">Phab</category>
+<category id="5374" parentId="5045">Phab Plus</category>
+<category id="5046" parentId="5045">Tab</category>
+<category id="6511" parentId="5046">10</category>
+<category id="5047" parentId="5046">2</category>
+<category id="5275" parentId="5046">3</category>
+<category id="5610" parentId="5046">3 Plus</category>
+<category id="6437" parentId="5046">4</category>
+<category id="5334" parentId="5045">Tab2</category>
+<category id="6456" parentId="5045">Tab4</category>
+<category id="6457" parentId="6456">10</category>
+<category id="6755" parentId="6456">10 Plus</category>
+<category id="6518" parentId="6456">8 Plus</category>
+<category id="5623" parentId="5045">Yoga</category>
+<category id="5050" parentId="930">Samsung</category>
+<category id="5053" parentId="5050">Galaxy Tab A</category>
+<category id="5055" parentId="5050">Galaxy Tab E</category>
+<category id="5248" parentId="5050">Galaxy Tab S2</category>
+<category id="5956" parentId="5050">Galaxy Tab S3</category>
+<category id="5177" parentId="930">Digma</category>
+<category id="5178" parentId="5177">Optima</category>
+<category id="5668" parentId="5177">Plane</category>
+<category id="6477" parentId="5668">1505</category>
+<category id="5669" parentId="5668">7012M</category>
+<category id="5296" parentId="930">Huawei</category>
+<category id="5297" parentId="5296">MediaPad</category>
+<category id="5551" parentId="5297">M3</category>
+<category id="6070" parentId="5297">M3 Lite</category>
+<category id="5298" parentId="5297">T1</category>
+<category id="6032" parentId="5297">T3</category>
+<category id="5318" parentId="5296">Mediapad</category>
+<category id="5402" parentId="930">Prestigio</category>
+<category id="5943" parentId="5402">Grace</category>
+<category id="6562" parentId="5943">10"</category>
+<category id="6557" parentId="5943">7"</category>
+<category id="5944" parentId="5943">8"</category>
+<category id="5403" parentId="5402">MultiPad</category>
+<category id="5407" parentId="5403">Color</category>
+<category id="7150" parentId="5403">Muze</category>
+<category id="5404" parentId="5403">Wize</category>
+<category id="5679" parentId="930">ASUS</category>
+<category id="6506" parentId="5679">Zenpad Z301MFL</category>
+<category id="6152" parentId="5679">Zenpad Z301ML</category>
+<category id="5681" parentId="5679">Zenpad Z500KL</category>
+<category id="6195" parentId="5679">Zenpad Z581KL</category>
+<category id="6868" parentId="930">Archos</category>
+<category id="6877" parentId="930">Kodak</category>
+<category id="1207" parentId="8">Планшеты на Windows</category>
 <category id="64">Гаджеты</category>
-<category id="2948" parentId="64">Умные часы</category>
-<category id="5843" parentId="2948">Apple</category>
-<category id="7283" parentId="5843">Watch Nike+</category>
-<category id="7286" parentId="7283">38mm</category>
-<category id="7284" parentId="7283">42mm</category>
-<category id="5845" parentId="5843">Watch S1</category>
-<category id="5847" parentId="5845">Sport 38mm</category>
-<category id="7279" parentId="5845">Sport 42mm</category>
-<category id="5848" parentId="5843">Watch S2</category>
-<category id="5849" parentId="5848">38mm</category>
-<category id="5856" parentId="5849">Silver</category>
-<category id="8085" parentId="5849">Sp.Bl</category>
-<category id="8911" parentId="5849">Sp.Grey</category>
-<category id="5850" parentId="5849">Sport</category>
-<category id="10084" parentId="5849">St.St/SilvMilanese</category>
-<category id="10397" parentId="5849">St.Steel/BlueMod.Buck.L</category>
-<category id="10377" parentId="5849">St.Steel/BlueMod.Buck.M</category>
-<category id="7276" parentId="5848">42mm</category>
-<category id="7278" parentId="7276">Sp.Bl</category>
-<category id="7277" parentId="7276">Sport</category>
-<category id="10083" parentId="7276">St.Steel/SilMilaneseLoop</category>
-<category id="7394" parentId="2948">ASUS</category>
-<category id="7395" parentId="7394">Vivo</category>
-<category id="7522" parentId="7394">ZenWatch</category>
-<category id="7593" parentId="7522">2</category>
-<category id="7523" parentId="7522">3</category>
-<category id="7629" parentId="2948">Samsung</category>
-<category id="8663" parentId="2948">LG</category>
-<category id="2291" parentId="64">Экшн камеры</category>
-<category id="5222" parentId="2291">X-TRY</category>
-<category id="6644" parentId="2291">GoPro</category>
-<category id="6653" parentId="2291">Pivothead</category>
-<category id="6686" parentId="2291">SJCAM</category>
-<category id="7065" parentId="6686">M20</category>
-<category id="6687" parentId="6686">SJ4000</category>
-<category id="6689" parentId="6686">SJ5000</category>
-<category id="6964" parentId="6686">SJ5000X</category>
-<category id="6699" parentId="2291">Sony</category>
-<category id="6830" parentId="6699">FDR</category>
-<category id="6700" parentId="6699">HDR</category>
-<category id="6741" parentId="2291">Gmini</category>
-<category id="6847" parentId="2291">Liquid Image</category>
-<category id="6873" parentId="2291">Samsung</category>
-<category id="6876" parentId="2291">Smarterra</category>
-<category id="6897" parentId="2291">Olympus</category>
-<category id="6954" parentId="2291">Nikon</category>
-<category id="6992" parentId="2291">DigiCare</category>
-<category id="3387" parentId="64">Очки виртуальной реальности</category>
-<category id="7254" parentId="3387">Smarterra</category>
-<category id="7580" parentId="3387">Samsung</category>
-<category id="7969" parentId="3387">Rombica</category>
-<category id="7978" parentId="3387">HIPER</category>
+<category id="2948" parentId="64">Watch</category>
+<category id="5484" parentId="2948">Apple Watch S1</category>
+<category id="6909" parentId="2948">Apple Watch S3</category>
+<category id="6911" parentId="6909">Sport 38mm</category>
+<category id="6961" parentId="6909">Sport 42mm</category>
+<category id="6962" parentId="2948">Apple Watch Nike+</category>
 <category id="1338" parentId="64">Смарт браслеты</category>
-<category id="5328" parentId="1338">Jawbone</category>
-<category id="9360" parentId="5328">UP</category>
-<category id="8629" parentId="5328">UP2</category>
-<category id="5329" parentId="5328">UP3</category>
-<category id="6314" parentId="1338">Harper</category>
-<category id="8232" parentId="1338">Razer</category>
-<category id="8673" parentId="1338">Sony</category>
-<category id="8687" parentId="1338">Samsung</category>
-<category id="8978" parentId="1338">Garmin</category>
-<category id="10294" parentId="1338">Mio</category>
-<category id="10295" parentId="10294">LINK</category>
-<category id="10303" parentId="10294">VELO</category>
-<category id="1254" parentId="64">Спортивные часы</category>
-<category id="5457" parentId="1254">Garmin</category>
-<category id="5458" parentId="5457">Fenix</category>
-<category id="5731" parentId="5457">Forerunner</category>
-<category id="5637" parentId="1254">Suunto</category>
-<category id="5638" parentId="5637">Ambit3</category>
-<category id="7578" parentId="5638">Peak</category>
-<category id="5639" parentId="5638">Run</category>
-<category id="5643" parentId="5638">Sport</category>
-<category id="5645" parentId="5638">Vertical</category>
-<category id="9919" parentId="5637">M5</category>
-<category id="10279" parentId="5637">SPARTAN</category>
-<category id="5648" parentId="5637">Traverse</category>
-<category id="10312" parentId="1254">Mio</category>
-<category id="10465" parentId="1254">Polar</category>
-<category id="1347" parentId="64">Для здоровья</category>
-<category id="5030" parentId="1347">Medisana</category>
-<category id="7920" parentId="1347">Redmond</category>
-<category id="7975" parentId="1347">Кнопка Жизни</category>
-<category id="8330" parentId="1347">Gator</category>
-<category id="8794" parentId="1347">Qardio</category>
-<category id="8817" parentId="1347">SBS</category>
-<category id="9491" parentId="1347">Runtastic</category>
-<category id="1339" parentId="64">Фитнес трекеры</category>
-<category id="7990" parentId="1339">Moov</category>
-<category id="9001" parentId="1339">Xiaomi</category>
-<category id="10299" parentId="1339">Mio</category>
-<category id="56">Игрушки</category>
-<category id="3874" parentId="56">Квадрокоптеры</category>
-<category id="5072" parentId="3874">Pilotage</category>
-<category id="6418" parentId="3874">Mioshi</category>
-<category id="6737" parentId="3874">DJI</category>
-<category id="7042" parentId="3874">Hubsan</category>
-<category id="8845" parentId="3874">Parrot</category>
-<category id="9557" parentId="8845">AR.DRONE</category>
-<category id="8860" parentId="8845">Airborne</category>
-<category id="8846" parentId="8845">Bebop</category>
-<category id="9880" parentId="3874">Mixberry</category>
-<category id="3873" parentId="56">Вертолеты</category>
-<category id="3877" parentId="56">Катеры и подводные лодки</category>
-<category id="5901" parentId="3877">Pilotage</category>
-<category id="6416" parentId="3877">Mioshi</category>
-<category id="8889" parentId="3877">Parrot</category>
-<category id="3876" parentId="56">Машины</category>
-<category id="5069" parentId="3876">Pilotage</category>
-<category id="6399" parentId="3876">Mioshi</category>
-<category id="3878" parentId="56">Танки</category>
-<category id="6422" parentId="3878">Mioshi</category>
-<category id="6855" parentId="3878">Pilotage</category>
-<category id="5002">Аксессуары</category>
-<category id="58" parentId="5002">Для телефонов</category>
-<category id="1008" parentId="58">Сетевые зарядные устройства</category>
-<category id="5997" parentId="1008">Apple</category>
-<category id="7423" parentId="1008">Samsung</category>
-<category id="5128" parentId="1008">Cellular Line</category>
-<category id="6564" parentId="1008">InterStep</category>
-<category id="7010" parentId="1008">RivaCase</category>
-<category id="5899" parentId="1008">iconBIT</category>
-<category id="1191" parentId="58">Автомобильные зарядные устройства</category>
-<category id="7492" parentId="1191">Samsung</category>
-<category id="5325" parentId="1191">Cellular Line</category>
-<category id="5092" parentId="1191">InterStep</category>
-<category id="9098" parentId="1191">Nonda</category>
-<category id="6281" parentId="1191">RivaCase</category>
-<category id="7972" parentId="1191">Rombica</category>
-<category id="6091" parentId="1191">Vipe</category>
-<category id="2129" parentId="58">Беспроводные зарядные устройства</category>
-<category id="7403" parentId="2129">Samsung</category>
-<category id="7796" parentId="2129">Harper</category>
-<category id="5788" parentId="2129">Rombica</category>
-<category id="1009" parentId="58">Кабели USB</category>
-<category id="5879" parentId="1009">Apple</category>
-<category id="7069" parentId="1009">Samsung</category>
-<category id="5524" parentId="1009">ADATA</category>
-<category id="5851" parentId="1009">Belkin</category>
-<category id="8105" parentId="5851">2.0</category>
-<category id="8160" parentId="5851">3.0</category>
-<category id="5852" parentId="5851">3.1</category>
-<category id="5505" parentId="1009">Cellular Line</category>
-<category id="5652" parentId="1009">HIPER</category>
-<category id="6372" parentId="1009">InterStep</category>
-<category id="6632" parentId="6372">IS</category>
-<category id="7355" parentId="6372">MFI</category>
-<category id="6373" parentId="6372">USB</category>
-<category id="5791" parentId="1009">Native Union</category>
-<category id="7574" parentId="1009">PNY</category>
-<category id="5144" parentId="1009">Qumo</category>
-<category id="7053" parentId="5144">3</category>
-<category id="7816" parentId="5144">AP200</category>
-<category id="5145" parentId="5144">MFI</category>
-<category id="6165" parentId="1009">Red Line</category>
-<category id="6201" parentId="6165">Lightning</category>
-<category id="6166" parentId="6165">Smart</category>
-<category id="6041" parentId="1009">Rombica</category>
-<category id="1705" parentId="58">Кабели AUX</category>
-<category id="1189" parentId="58">Чехлы</category>
-<category id="5381" parentId="1189">Apple</category>
-<category id="5383" parentId="5381">iPhone 6/6s</category>
-<category id="5384" parentId="5383">Leather</category>
-<category id="5401" parentId="5383">Silicone</category>
-<category id="9892" parentId="5381">iPhone 6S</category>
-<category id="5422" parentId="5381">iPhone 6S Plus</category>
-<category id="5423" parentId="5422">Leather</category>
-<category id="6214" parentId="5422">Silicone</category>
-<category id="5868" parentId="5381">iPhone 7</category>
-<category id="5871" parentId="5868">Leather</category>
-<category id="5869" parentId="5868">Silicone</category>
-<category id="5913" parentId="5381">iPhone 7 Plus</category>
-<category id="5914" parentId="5913">Leather</category>
-<category id="5916" parentId="5913">Silicone</category>
-<category id="6442" parentId="5913">SiliconeCasePRODUCT</category>
-<category id="7930" parentId="5381">iPhone SE</category>
-<category id="5447" parentId="1189">Samsung</category>
-<category id="6983" parentId="5447">A3</category>
-<category id="6216" parentId="5447">A5</category>
-<category id="7514" parentId="5447">A7</category>
-<category id="5512" parentId="5447">Clear</category>
-<category id="7897" parentId="5512">View Cover</category>
-<category id="5513" parentId="5512">View Cover Cover</category>
-<category id="7499" parentId="5447">Clear Cover</category>
-<category id="5448" parentId="5447">Flip</category>
-<category id="5450" parentId="5448">Wallet A3</category>
-<category id="7875" parentId="5448">Wallet A5</category>
-<category id="5556" parentId="5448">Wallet A7</category>
-<category id="6730" parentId="5448">Wallet J1</category>
-<category id="7480" parentId="5448">Wallet J3</category>
-<category id="7407" parentId="5448">Wallet J5</category>
-<category id="6208" parentId="5448">Wallet J7</category>
-<category id="8876" parentId="5447">Flip Cover Cover</category>
-<category id="6355" parentId="5447">Galaxy</category>
-<category id="7074" parentId="6355">J5</category>
-<category id="6356" parentId="6355">S8</category>
-<category id="9392" parentId="6356">2Piece</category>
-<category id="10461" parentId="6356">2Piece Cover</category>
-<category id="6357" parentId="6356">Alcantara</category>
-<category id="9297" parentId="6356">Clear</category>
-<category id="8037" parentId="6356">Clear Cover</category>
-<category id="9295" parentId="6356">LED</category>
-<category id="7526" parentId="6356">Silicone</category>
-<category id="6486" parentId="6355">S8 Plus</category>
-<category id="6487" parentId="6486">Alcantara</category>
-<category id="9293" parentId="6486">Clear</category>
-<category id="9301" parentId="6486">LED</category>
-<category id="8814" parentId="6486">Silicone</category>
-<category id="6363" parentId="6355">S8 Plus Plus</category>
-<category id="9810" parentId="5447">Keyboard Cover</category>
-<category id="5535" parentId="5447">LED</category>
-<category id="6054" parentId="5447">Leather Cover</category>
-<category id="6057" parentId="5447">Leather Cover Cover</category>
-<category id="9901" parentId="5447">Lens Cover</category>
-<category id="9899" parentId="5447">Lens Cover Cover</category>
-<category id="5508" parentId="5447">S</category>
-<category id="5509" parentId="5508">View Cover</category>
-<category id="9445" parentId="5509">S6</category>
-<category id="5510" parentId="5509">S7</category>
-<category id="7398" parentId="5508">View Cover Cover</category>
-<category id="8495" parentId="5447">S8</category>
-<category id="6359" parentId="5447">S8 Plus</category>
-<category id="6273" parentId="1189">Sony</category>
-<category id="8484" parentId="6273">SBC22</category>
-<category id="8997" parentId="6273">SBC26</category>
-<category id="10340" parentId="6273">SBC32</category>
-<category id="10272" parentId="6273">SBC34</category>
-<category id="9656" parentId="6273">SCR42</category>
-<category id="9652" parentId="6273">SCR44</category>
-<category id="10386" parentId="6273">SCR52</category>
-<category id="8013" parentId="6273">SCR54</category>
-<category id="8468" parentId="6273">SCR60</category>
-<category id="6274" parentId="6273">SCSF10</category>
-<category id="8299" parentId="6273">SCSF20</category>
-<category id="9216" parentId="6273">SCTF10</category>
-<category id="5660" parentId="1189">AnyMode</category>
-<category id="5661" parentId="5660">Samsung</category>
-<category id="5935" parentId="5660">Folio</category>
-<category id="6030" parentId="5660">Galaxy</category>
-<category id="5938" parentId="5660">ME</category>
-<category id="8965" parentId="1189">Anycase</category>
-<category id="10355" parentId="1189">Araree</category>
-<category id="5516" parentId="1189">Cellular Line</category>
-<category id="5566" parentId="5516">Samsung</category>
-<category id="10214" parentId="5516">ARMBANDFIT52K</category>
-<category id="10213" parentId="5516">ARMBANDRUN52K</category>
-<category id="9210" parentId="5516">ARMBANDRUN52L</category>
-<category id="10209" parentId="5516">WAISTBANDVIEWB</category>
-<category id="8461" parentId="5516">WAISTBANDVIEWK</category>
-<category id="8462" parentId="5516">WAISTBANDVIEWL</category>
-<category id="8463" parentId="5516">WAISTBANDVIEWP</category>
-<category id="5517" parentId="5516">iPhone</category>
-<category id="7702" parentId="1189">Cozistyle</category>
-<category id="7704" parentId="7702">iPhone 6S</category>
-<category id="7709" parentId="7702">iPhone 6S Plus</category>
-<category id="6084" parentId="1189">Deppa</category>
-<category id="6106" parentId="6084">Art</category>
-<category id="6085" parentId="6084">Wallet</category>
-<category id="6089" parentId="6085">Fold M</category>
-<category id="6087" parentId="6085">Fold S</category>
-<category id="6114" parentId="1189">Glueskin</category>
-<category id="10230" parentId="6114">Galaxy</category>
-<category id="10243" parentId="10230">A5</category>
-<category id="10238" parentId="10230">S7</category>
-<category id="10231" parentId="10230">S7 Edge</category>
-<category id="6115" parentId="6114">iPhone</category>
-<category id="6116" parentId="6115">6</category>
-<category id="6121" parentId="6115">6 Plus</category>
-<category id="7512" parentId="6115">7</category>
-<category id="6175" parentId="6115">7 Plus</category>
-<category id="8936" parentId="1189">Honor</category>
-<category id="8611" parentId="1189">Huawei</category>
-<category id="8621" parentId="8611">P9</category>
-<category id="8612" parentId="8611">P9 Lite Lite</category>
-<category id="8616" parentId="8611">Р9 Cover</category>
-<category id="6075" parentId="1189">InterStep</category>
-<category id="7777" parentId="6075">Folk</category>
-<category id="7781" parentId="6075">Titanium</category>
-<category id="6076" parentId="6075">iPhone</category>
-<category id="6254" parentId="6076">5/5s</category>
-<category id="6077" parentId="6076">7</category>
-<category id="8763" parentId="1189">LG</category>
-<category id="5785" parentId="1189">Moshi</category>
-<category id="7742" parentId="5785">Armour</category>
-<category id="7761" parentId="5785">Kameleon</category>
-<category id="5786" parentId="5785">SenseCover</category>
-<category id="7734" parentId="5785">iGlaze</category>
-<category id="7738" parentId="5785">iPhone</category>
-<category id="7748" parentId="7738">7</category>
-<category id="7751" parentId="7748">Armour</category>
-<category id="7755" parentId="7748">Kameleon</category>
-<category id="7749" parentId="7748">Napa</category>
-<category id="7739" parentId="7738">7 Plus</category>
-<category id="7680" parentId="1189">Native Union</category>
-<category id="6797" parentId="1189">Red Line</category>
-<category id="6909" parentId="6797">Samsung</category>
-<category id="7713" parentId="6797">Element</category>
-<category id="7716" parentId="7713">для iPhone 7</category>
-<category id="7719" parentId="7713">для iPhone 7 Plus</category>
-<category id="6798" parentId="6797">UniMotion</category>
-<category id="9704" parentId="1189">SBS</category>
-<category id="6170" parentId="1189">Takeit</category>
-<category id="6171" parentId="6170">Samsung</category>
-<category id="6186" parentId="6171">Galaxy A3</category>
-<category id="6173" parentId="6171">Galaxy A5</category>
-<category id="10430" parentId="6171">Galaxy A7</category>
-<category id="9158" parentId="6171">Galaxy S6 Edge</category>
-<category id="8131" parentId="6170">Sony</category>
-<category id="5685" parentId="1189">Tech21</category>
-<category id="5484" parentId="1189">Vipe</category>
-<category id="5990" parentId="5484">Apple</category>
-<category id="5992" parentId="5990">iPhone 7</category>
-<category id="7693" parentId="5990">iPhone 7 Plus</category>
-<category id="5485" parentId="5484">Samsung</category>
-<category id="6070" parentId="5484">Sony</category>
-<category id="7658" parentId="5484">6S Plus</category>
-<category id="5832" parentId="5484">Flex</category>
-<category id="5994" parentId="5832">SONY</category>
-<category id="5833" parentId="5832">для</category>
-<category id="7687" parentId="5833">iPhone 7</category>
-<category id="5835" parentId="5833">iPhone 7 Plus</category>
-<category id="5614" parentId="5484">Galaxy</category>
-<category id="6681" parentId="5484">iPhone</category>
-<category id="5805" parentId="1189">iBox</category>
-<category id="6902" parentId="5805">Samsung</category>
-<category id="5806" parentId="5805">6/6s</category>
-<category id="5892" parentId="5805">6/6s Plus</category>
-<category id="1227" parentId="58">Чехлы-аккумуляторы</category>
-<category id="7868" parentId="1227">Apple</category>
-<category id="7916" parentId="1227">Samsung</category>
-<category id="5275" parentId="1227">InterStep</category>
-<category id="6768" parentId="5275">5S/SE</category>
-<category id="10118" parentId="5275">Galaxy</category>
-<category id="10121" parentId="10118">S5</category>
-<category id="10119" parentId="10118">S5mini</category>
-<category id="5276" parentId="5275">IS</category>
-<category id="7503" parentId="5275">iPhone</category>
-<category id="1228" parentId="58">Внешние аккумуляторы</category>
-<category id="5297" parentId="1228">Samsung</category>
-<category id="8751" parentId="1228">Sony</category>
-<category id="5817" parentId="1228">GP</category>
-<category id="5884" parentId="1228">HIPER</category>
-<category id="5885" parentId="5884">EP6600</category>
-<category id="6124" parentId="5884">Matreshka5000</category>
-<category id="10103" parentId="5884">RP11000</category>
-<category id="9028" parentId="5884">RP12500</category>
-<category id="10096" parentId="5884">SLS6300</category>
-<category id="8392" parentId="5884">SP12500</category>
-<category id="9412" parentId="5884">SP20000</category>
-<category id="9326" parentId="5884">SP2600</category>
-<category id="9481" parentId="5884">SP5000</category>
-<category id="6582" parentId="5884">SP7500</category>
-<category id="5984" parentId="5884">SPS10500</category>
-<category id="6832" parentId="5884">XPX6500</category>
-<category id="5185" parentId="1228">Harper</category>
-<category id="5186" parentId="5185">PB</category>
-<category id="5261" parentId="5186">0012</category>
-<category id="5954" parentId="5186">10001</category>
-<category id="9374" parentId="5186">2006</category>
-<category id="10033" parentId="5186">2010</category>
-<category id="5204" parentId="5186">4008</category>
-<category id="5187" parentId="5186">4401</category>
-<category id="8216" parentId="5186">6001</category>
-<category id="9543" parentId="5185">PBS</category>
-<category id="8280" parentId="1228">Huawei</category>
-<category id="5231" parentId="1228">InterStep</category>
-<category id="10152" parentId="1228">LG</category>
-<category id="9972" parentId="1228">Native Union</category>
-<category id="10410" parentId="1228">Red Line</category>
-<category id="10421" parentId="10410">B6000</category>
-<category id="10411" parentId="10410">B8000</category>
-<category id="5569" parentId="1228">RivaCase</category>
-<category id="5578" parentId="1228">Rombica</category>
-<category id="6308" parentId="1228">TP-LINK</category>
-<category id="6334" parentId="1228">Takeit</category>
-<category id="9848" parentId="6334">Rock</category>
-<category id="6335" parentId="6334">Steel</category>
-<category id="8138" parentId="1228">Xiaomi</category>
-<category id="5057" parentId="1228">iconBIT</category>
-<category id="1523" parentId="58">Защитные стекла</category>
-<category id="7981" parentId="1523">Cellular Line</category>
-<category id="5562" parentId="1523">InterStep</category>
-<category id="5563" parentId="5562">Samsung</category>
-<category id="6191" parentId="5562">Sony</category>
-<category id="10329" parentId="6191">X</category>
-<category id="6192" parentId="6191">Xperia</category>
-<category id="10446" parentId="5562">3D</category>
-<category id="8054" parentId="5562">Full Cover</category>
-<category id="8382" parentId="8054">0.3мм</category>
-<category id="8055" parentId="8054">Xiaomi</category>
-<category id="5670" parentId="5562">Galaxy</category>
-<category id="8971" parentId="5562">IS</category>
-<category id="6380" parentId="5562">Xiaomi</category>
-<category id="7822" parentId="5562">iPhone</category>
-<category id="5583" parentId="1523">Red Line</category>
-<category id="5584" parentId="5583">Samsung</category>
-<category id="7051" parentId="5583">6/6s</category>
-<category id="5929" parentId="5583">6/6s Plus</category>
-<category id="10061" parentId="5583">6/6s матовое  розовый</category>
-<category id="6812" parentId="5583">6/6s матовое  черный</category>
-<category id="5857" parentId="5583">iPhone</category>
-<category id="876" parentId="58">Защитные пленки</category>
-<category id="6975" parentId="876">Samsung</category>
-<category id="6149" parentId="876">Red Line</category>
-<category id="2169" parentId="58">Моноподы (селфи-палка)</category>
-<category id="5284" parentId="2169">Harper</category>
-<category id="5180" parentId="2169">InterStep</category>
-<category id="5182" parentId="5180">MP 110B</category>
-<category id="7123" parentId="5180">MP 115B</category>
-<category id="8420" parentId="5180">MP 115PP</category>
-<category id="5311" parentId="5180">MP 125</category>
-<category id="5211" parentId="2169">Kitvision</category>
-<category id="5809" parentId="2169">Rombica</category>
-<category id="10138" parentId="2169">Vipe</category>
-<category id="9828" parentId="2169">iconBIT</category>
-<category id="1097" parentId="58">Адаптеры-Переходники</category>
-<category id="2345" parentId="58">Док-станции</category>
-<category id="5345" parentId="2345">Apple</category>
-<category id="9080" parentId="2345">Samsung</category>
-<category id="1073" parentId="58">Карты памяти</category>
-<category id="6302" parentId="1073">Samsung</category>
-<category id="5027" parentId="1073">Sony</category>
-<category id="5923" parentId="1073">Kingston</category>
-<category id="3388" parentId="58">Перчатки с гарнитурой</category>
-<category id="974" parentId="58">Bluetooth гарнитуры</category>
-<category id="7621" parentId="974">Samsung</category>
-<category id="7342" parentId="974">Sony</category>
-<category id="5061" parentId="974">Jabra</category>
-<category id="5803" parentId="974">Plantronics</category>
-<category id="47" parentId="5002">Для планшетов</category>
-<category id="1259" parentId="47">Автомобильные зарядные устройства</category>
-<category id="5323" parentId="1259">Cellular Line</category>
-<category id="5095" parentId="1259">InterStep</category>
-<category id="6987" parentId="1259">RivaCase</category>
-<category id="1109" parentId="47">Чехлы</category>
-<category id="5350" parentId="1109">Apple</category>
-<category id="7881" parentId="5350">Air</category>
-<category id="5545" parentId="5350">Silicone</category>
-<category id="5547" parentId="5545">Case 9.7</category>
-<category id="5862" parentId="5545">Case iPad</category>
-<category id="5541" parentId="5350">Smart Cover</category>
-<category id="5542" parentId="5541">9.7</category>
-<category id="5864" parentId="5541">iPad</category>
-<category id="5351" parentId="5350">iPad</category>
-<category id="7365" parentId="5351">Smart Cover</category>
-<category id="5352" parentId="5351">mini</category>
-<category id="5355" parentId="5352">4 Silicone</category>
-<category id="5354" parentId="5352">4 Smart Cover</category>
-<category id="8004" parentId="5350">iPad Mini</category>
-<category id="8871" parentId="5350">mini</category>
-<category id="5264" parentId="1109">Samsung</category>
-<category id="5265" parentId="5264">Book Cover</category>
-<category id="7389" parentId="5265">EF</category>
-<category id="5266" parentId="5265">Tab</category>
-<category id="5267" parentId="5266">A</category>
-<category id="5273" parentId="5266">E</category>
-<category id="5280" parentId="5266">S2</category>
-<category id="6438" parentId="5264">Galaxy</category>
-<category id="7419" parentId="5264">Keyboard Cover</category>
-<category id="9088" parentId="1109">Acme Made</category>
-<category id="5369" parentId="1109">Cellular Line</category>
-<category id="6244" parentId="1109">Defender</category>
-<category id="5600" parentId="1109">G-Form</category>
-<category id="8178" parentId="1109">Golla</category>
-<category id="7453" parentId="1109">Huawei</category>
-<category id="5288" parentId="1109">InterStep</category>
-<category id="5289" parentId="5288">Asus</category>
-<category id="6065" parentId="5288">iPad</category>
-<category id="5724" parentId="1109">Lenovo</category>
-<category id="7466" parentId="5724">TAB2</category>
-<category id="6804" parentId="5724">TAB3</category>
-<category id="5725" parentId="5724">Yoga</category>
-<category id="8173" parentId="1109">Port Designs</category>
-<category id="5957" parentId="1109">Riva</category>
-<category id="5716" parentId="1109">Vivacase</category>
-<category id="8257" parentId="5716">Gent</category>
-<category id="5717" parentId="5716">Romb</category>
-<category id="5769" parentId="5716">VUC</category>
-<category id="10026" parentId="5769">CBR07</category>
-<category id="5772" parentId="5769">CBS10</category>
-<category id="10014" parentId="5769">CCR07</category>
-<category id="9997" parentId="5769">CCR10</category>
-<category id="9047" parentId="5769">CCST07</category>
-<category id="9993" parentId="5769">CCW07</category>
-<category id="9999" parentId="5769">CCW10</category>
-<category id="10346" parentId="5769">CDG07</category>
-<category id="10028" parentId="5769">CDG10</category>
-<category id="5933" parentId="5769">CFST07</category>
-<category id="10012" parentId="5769">CGL07</category>
-<category id="10019" parentId="5769">CGL10</category>
-<category id="6268" parentId="5769">CJ010</category>
-<category id="10016" parentId="5769">CLC10</category>
-<category id="9995" parentId="5769">CLN010</category>
-<category id="10029" parentId="5769">CLN07</category>
-<category id="6266" parentId="5769">CMN07</category>
-<category id="10024" parentId="5769">CPR07</category>
-<category id="5770" parentId="5769">CPR10</category>
-<category id="10007" parentId="5769">CST07</category>
-<category id="10021" parentId="5769">CST10</category>
-<category id="5774" parentId="5769">CVN07</category>
-<category id="10001" parentId="5769">CVN10</category>
-<category id="2090" parentId="47">Защитные стекла</category>
-<category id="1110" parentId="47">Защитные пленки</category>
-<category id="1112" parentId="47">Адаптеры-переходники</category>
-<category id="9007" parentId="1112">Apple</category>
-<category id="8737" parentId="1112">PNY</category>
-<category id="6508" parentId="1112">WOLT</category>
-<category id="1221" parentId="47">Клавиатуры</category>
-<category id="7961" parentId="1221">Apple</category>
-<category id="7831" parentId="1221">Logitech</category>
-<category id="3010" parentId="47">Стилусы</category>
-<category id="24" parentId="5002">Компьютерные аксессуары</category>
-<category id="843" parentId="24">Проводные мыши</category>
-<category id="453" parentId="24">Беспроводные мыши</category>
-<category id="7859" parentId="453">Apple</category>
-<category id="5623" parentId="453">Defender</category>
-<category id="5007" parentId="453">HP</category>
-<category id="8524" parentId="453">Intro</category>
-<category id="5528" parentId="453">Lenovo</category>
-<category id="6815" parentId="5528">300</category>
-<category id="5829" parentId="5528">500</category>
-<category id="6288" parentId="5528">N3903</category>
-<category id="10400" parentId="5528">N3903A</category>
-<category id="5529" parentId="5528">N3903А</category>
-<category id="7244" parentId="453">Logitech</category>
-<category id="5107" parentId="453">Rapoo</category>
-<category id="5462" parentId="453">SPEEDLINK</category>
-<category id="6883" parentId="453">Sven</category>
-<category id="8957" parentId="453">Trust</category>
-<category id="852" parentId="24">Проводные клавиатуры</category>
-<category id="597" parentId="24">Беспроводные клавиатуры</category>
-<category id="907" parentId="24">Чехлы для внешнего жесткого диска</category>
-<category id="5708" parentId="907">Riva</category>
-<category id="10402" parentId="907">WD</category>
-<category id="971" parentId="24">Чехлы для ноутбуков</category>
-<category id="5551" parentId="971">Acme Made</category>
-<category id="7190" parentId="971">Case It</category>
-<category id="5665" parentId="971">Cozistyle</category>
-<category id="6146" parentId="971">Defender</category>
-<category id="5014" parentId="971">Esse</category>
-<category id="5598" parentId="971">G-Form</category>
-<category id="5110" parentId="971">HP</category>
-<category id="8376" parentId="971">Moshi</category>
-<category id="10044" parentId="8376">Muse</category>
-<category id="8377" parentId="8376">iGlaze</category>
-<category id="9159" parentId="971">Port Designs</category>
-<category id="5356" parentId="971">Riva</category>
-<category id="8167" parentId="971">Targus</category>
-<category id="826" parentId="24">Коврики для мыши</category>
-<category id="757" parentId="24">Комплекты (клавиатура и мышь)</category>
-<category id="7854" parentId="757">Genius</category>
-<category id="7170" parentId="757">HP</category>
-<category id="7942" parentId="757">Intro</category>
-<category id="6299" parentId="757">Logitech</category>
-<category id="8600" parentId="757">Microsoft</category>
-<category id="5019" parentId="757">Rapoo</category>
-<category id="5981" parentId="757">Sven</category>
-<category id="972" parentId="24">Подставки к ноутбукам</category>
-<category id="6264" parentId="972">RivaCase</category>
-<category id="5331" parentId="972">STM</category>
-<category id="5332" parentId="5331">Cooling</category>
-<category id="6332" parentId="5331">ICEPAD</category>
-<category id="5024" parentId="972">Targus</category>
-<category id="781" parentId="24">Флешки</category>
-<category id="5083" parentId="781">Sony</category>
-<category id="5793" parentId="781">ADATA</category>
-<category id="6103" parentId="5793">AUE710</category>
-<category id="5794" parentId="5793">UV128</category>
-<category id="5800" parentId="5793">UV131</category>
-<category id="5797" parentId="5793">UV150</category>
-<category id="10074" parentId="781">DM</category>
-<category id="9938" parentId="781">Elari</category>
-<category id="5910" parentId="781">Kingston</category>
-<category id="5215" parentId="781">Leef</category>
-<category id="9165" parentId="781">PNY</category>
-<category id="5587" parentId="781">PhotoFast</category>
-<category id="5012" parentId="781">Silicon Power</category>
-<category id="6110" parentId="781">Transcend</category>
-<category id="10453" parentId="6110">16GB</category>
-<category id="9732" parentId="6110">32GB</category>
-<category id="9729" parentId="6110">64GB</category>
-<category id="6111" parentId="6110">JetFlash</category>
-<category id="5435" parentId="781">Trendz</category>
-<category id="10379" parentId="781">Проект 111</category>
-<category id="4368" parentId="5002">Для умных часов</category>
-<category id="8316" parentId="4368">Apple</category>
-<category id="8513" parentId="8316">38mm</category>
-<category id="8317" parentId="8316">42mm</category>
-<category id="8516" parentId="8316">Watch</category>
-<category id="9977" parentId="4368">Native Union</category>
-<category id="1209" parentId="5002">Для экшн камер</category>
-<category id="5033" parentId="1209">GoPro</category>
-<category id="5066" parentId="1209">Sony</category>
-<category id="5085" parentId="1209">SP</category>
-<category id="6650" parentId="1209">DigiCare</category>
-<category id="6864" parentId="6650">DC</category>
-<category id="6651" parentId="6650">GPM</category>
-<category id="6867" parentId="6650">Селфи монопод</category>
-<category id="6785" parentId="1209">Riva</category>
-<category id="6792" parentId="1209">Lowepro</category>
-<category id="6817" parentId="1209">Joby</category>
-<category id="6878" parentId="1209">Manfrotto</category>
-<category id="6918" parentId="1209">Smarterra</category>
-<category id="6965" parentId="1209">Thule</category>
-<category id="3369" parentId="5002">Для радиоуправляемых устройств</category>
-<category id="5734" parentId="3369">DJI</category>
-<category id="6712" parentId="3369">Lowepro</category>
-<category id="6788" parentId="3369">Manfrotto</category>
-<category id="9741" parentId="3369">Parrot</category>
+<category id="7220" parentId="1338">Jawbone</category>
+<category id="7240" parentId="1338">Harper</category>
+<category id="7248" parentId="1338">Sony</category>
+<category id="7282" parentId="1338">Garmin</category>
+<category id="7311" parentId="1338">Mio</category>
+<category id="7312" parentId="7311">LINK</category>
+<category id="7319" parentId="7311">VELO</category>
+<category id="7378" parentId="1338">Onetrak</category>
+<category id="7385" parentId="1338">Huawei</category>
+<category id="7391" parentId="1338">Samsung</category>
+<category id="1233" parentId="64">Смарт-часы</category>
+<category id="5648" parentId="1233">Samsung</category>
+<category id="5927" parentId="1233">LG</category>
+<category id="6051" parentId="1233">Huawei</category>
+<category id="6673" parentId="1233">KREZ</category>
+<category id="1339" parentId="64">Фитнес-трекеры</category>
+<category id="7256" parentId="1339">Medisana</category>
+<category id="7295" parentId="1339">Moov</category>
+<category id="7301" parentId="1339">Mio</category>
+<category id="7347" parentId="7301">Alpha</category>
+<category id="7302" parentId="7301">FUSE</category>
+<category id="7351" parentId="7301">Slice</category>
+<category id="7325" parentId="1339">Xiaomi</category>
+<category id="7372" parentId="1339">Honor</category>
+<category id="5002">Гироскутеры</category>
+<category id="4228" parentId="5002">Гироскутеры 10 дюймов</category>
+<category id="7266" parentId="4228">MoveOn</category>
+<category id="7277" parentId="4228">iconBIT</category>
+<category id="7335" parentId="4228">Gold Wheels</category>
+<category id="3629" parentId="5002">Гироскутеры 6.5 дюймов</category>
+<category id="4809" parentId="5002">Гироскутеры 8 дюймов</category>
 </categories>
 <offers>
 </offers></shop></yml_catalog>

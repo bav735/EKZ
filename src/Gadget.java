@@ -29,11 +29,11 @@ public class Gadget extends Gadgets {
         vendor = getVendor(gadget);
         model = Gadgets.getGadgetName(gadget, Gadgets.MODEL_LINE, Gadgets.COLOR) + " (" +
                 GadgetConst.MAP_QUALITY_NAME.get(quality) + ")";
-        description = getDescriptionByModel(vendor,
+        /*description = getDescriptionByModel(vendor,
                 gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.MODEL_LINE)),
                 gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.MODEL))) +
                 ",\nДоп. информация о товаре: " + GadgetConst.MAP_QUALITY_DESCRIPTION.get(quality);
-        /*String warrantyPrice = Gadgets.getPrice(initialGadget, Gadgets.YEAR_WARRANTY_COST);
+        String warrantyPrice = Gadgets.getPrice(initialGadget, Gadgets.YEAR_WARRANTY_COST);
         if (warrantyPrice.length() > 1) {
             description += ",\n" + Gadgets.YEAR_WARRANTY_COST + ": +" + warrantyPrice + "\u20BD";
         }*/
@@ -50,8 +50,12 @@ public class Gadget extends Gadgets {
         imageUrl = Solution.getValueByTag(offer, "picture");
         description = Solution.getValueByTag(offer, "description");
         price = Solution.getValueByTag(offer, "price");
+        int intPrice = Solution.getNumber(price.substring(0, price.length() - 2)) * 95 / 100;
+        if (!model.startsWith("iPhone 6 ")) {
+            intPrice = intPrice - intPrice % 100 + 90;
+            price = intPrice + "";
+        }
         namePrefix = Solution.getValueByTag(offer, "typePrefix");
-        price = price.substring(0, price.length() - 2);
         id = "" + maxId;
         maxId++;
         params = Solution.getValueByTag(offer, "<param ", "</param>");
@@ -99,10 +103,10 @@ public class Gadget extends Gadgets {
     }
 
     public String getGoogleSheetsName() {
-        if (initialGadget==null) {
+        if (initialGadget == null) {
             return "";
         }
-        return getGadgetName(initialGadget,QUALITY,MEMORY);
+        return getGadgetName(initialGadget, QUALITY, MEMORY);
 //        return quality + " " + vendor + " " + model;
         /*String res = quality;
         res += " " + vendor + " ";
