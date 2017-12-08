@@ -30,7 +30,7 @@ public class AMOLEDGadgets extends Gadgets {
                 if (selectedAvitoItems.contains(getGadgetName(gadget, QUALITY, MEMORY))
                         /*|| selectedAvitoItems.contains(getGadgetName(gadget, QUALITY, COLOR))*/) {
                     gadgets.add(gadget);
-//                    generatePhotos(gadget);
+                    generatePhotos(gadget);
                 }
             }
         }
