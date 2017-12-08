@@ -1,7 +1,5 @@
-import java.util.*;
-
-public class YoulaGadgets extends Gadgets {
-    /*final static String QUALITY = "Качество";
+/*public class YoulaGadgets extends Gadgets {
+    final static String QUALITY = "Качество";
     final static String VENDOR = "Производитель";
     final static String MODEL_LINE = "Модельный ряд";
     final static String MODEL = "Модель";
@@ -19,7 +17,7 @@ public class YoulaGadgets extends Gadgets {
     HashMap<String, ArrayList<String>> mapGadgetModelColor;
     ArrayList<ArrayList<String>> gadgetAttributesVariants;
     int[][] gadgetsDistribution;
-    String[] GADGET_ATTRIBUTE_NAMES = WebSiteGadgets.GADGET_ATTRIBUTE_NAMES;
+    String[] GADGET_ATTRIBUTE_NAMES = ISPARKGadgets.GADGET_ATTRIBUTE_NAMES;
 
     public YoulaGadgets() {
     }
@@ -200,7 +198,7 @@ public class YoulaGadgets extends Gadgets {
         adText += "Описание: " + getYoulaDescription(gadget) + "\n";
 //        adText += "Цена: " + getPrice(gadget) + "\n";
         String imgLink = "https://raw.githubusercontent.com/bav735/AMOLED/master/" +
-                getGadgetPath(gadget, MODEL) + WebSiteGadgets.IMG_FILE_NAME + ".jpg";
+                getGadgetPath(gadget, MODEL) + ISPARKGadgets.IMG_FILE_NAME + ".jpg";
         adText += "Ссылка на картинку: " + imgLink;
         adText = adText.replace(TOUCH_LOCKED, "(без отпечатка)");
         adText = adText.replace("  ", " ");
@@ -237,5 +235,5 @@ public class YoulaGadgets extends Gadgets {
                         + ".txt"), getAdText(gadgets.get(gadgetId)));
             }
         }
-    }*/
-}
+    }
+}*/

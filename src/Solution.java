@@ -60,7 +60,8 @@ public class Solution {
         }
     }
 
-    private static void computeCategoryTreeFromXML() throws Exception {
+    private static void computeCategoryTreeFromXML(ISPARKGadgets isparkGadgets)
+            throws Exception {
         Scanner inScanner = Solution.getInputScanner(Solution.BASE_XML);
         HashSet<String> categories = new HashSet<>();
         CategoryTree root = new CategoryTree(CategoryTree.ROOT_CATEGORY);
@@ -96,8 +97,11 @@ public class Solution {
                 }
                 String catId = getValueByTag(offer, "categoryId");
                 if (categories.contains(catId)) {
-                    Gadget gadget = new Gadget(offer
+                    offer = offer
                             .replaceAll("(?i)gb", "Gb")
+                            .replaceAll("3/32Gb", "32Gb")
+                            .replaceAll("\\s2016\\s", " (2016) ")
+                            .replaceAll("\\s2017\\s", " (2017) ")
                             .replaceAll("GALAXY", "Galaxy")
                             .replaceAll("\\sedge\\s", " Edge ")
                             .replaceAll("Sony XZ", "Sony Xperia  XZ")
@@ -105,7 +109,27 @@ public class Solution {
                             .replaceAll("MOTO", "Moto")
                             .replaceAll("8\\+\\s", "8 Plus ")
                             .replaceAll("\\s6s\\s", " 6S ")
-                            .replaceAll("[\\s(,]+[0-9A-Z/]*[0-9]RU[0-9A-Z/]*[\\s),]*", ""));
+                            .replaceAll("[\\s(,]+[0-9A-Z/]*[0-9]RU[0-9A-Z/]*[\\s),]*", "");
+                    for (String memory : GadgetConst.MEMORIES) {
+                        memory = memory.substring(0, memory.length() - 2);
+                        offer = offer.replaceAll(memory + "\\sGb", memory + "Gb");
+                    }
+                    Gadget gadget = new Gadget(offer);
+//                    System.out.println("# " + gadget.model);
+                    for (String metaModelWithoutMemory : isparkGadgets
+                            .mapGadgetMetaModelWithoutMemorySingle.keySet()) {
+                        if ((gadget.vendor + gadget.model).replaceAll("\\s", "").toLowerCase()
+                                .startsWith(metaModelWithoutMemory.replaceAll("\\s", "")
+                                        .toLowerCase())) {
+                            if (!isparkGadgets.mapGadgetMetaModelWithoutMemoryImages
+                                    .containsKey(metaModelWithoutMemory)) {
+                                isparkGadgets.mapGadgetMetaModelWithoutMemoryImages.put(
+                                        metaModelWithoutMemory, new ArrayList<String>());
+                            }
+                            isparkGadgets.mapGadgetMetaModelWithoutMemoryImages.get(
+                                    metaModelWithoutMemory).add(gadget.imageUrl);
+                        }
+                    }
                     ArrayList<String> modelSplit;
                     modelSplit = new ArrayList<>(Arrays.asList(gadget.model.split("[ ,\\-]")));
                     int j = 0;
@@ -159,7 +183,7 @@ public class Solution {
         }
         inScanner.close();
 
-        /*WebSiteGadgets webSiteGadgets[] = getWebSiteGadgetsArray();
+        /*ISPARKGadgets webSiteGadgets[] = getWebSiteGadgetsArray();
         for (int modelLine = 0; modelLine < webSiteGadgets.length; modelLine++) {
             for (ArrayList<String> webSiteGadget : webSiteGadgets[modelLine].gadgets) {
                 CategoryTree catTree = root.getTreeByCatId("761");
@@ -219,15 +243,6 @@ public class Solution {
         bufferedWriter.flush();
     }
 
-    public static WebSiteGadgets[] getWebSiteGadgetsArray() {
-        WebSiteGadgets webSiteGadgets[] = new WebSiteGadgets[GadgetConst.MODEL_LINES.size()];
-        for (int modelLine = 0; modelLine < GadgetConst.MODEL_LINES.size(); modelLine++) {
-            webSiteGadgets[modelLine] = new WebSiteGadgets(modelLine);
-            webSiteGadgets[modelLine].generateGadgets(0, new ArrayList<String>());
-        }
-        return webSiteGadgets;
-    }
-
     public static LinkedHashSet<String> getHashSetFromInput(String fileName) {
         Scanner inScanner = Solution.getInputScanner(fileName);
         LinkedHashSet<String> selectedItems = new LinkedHashSet<>();
@@ -261,30 +276,23 @@ public class Solution {
         }
     }
 
-    public static void computeAvito() throws IOException {
-
-        System.out.println("printing...");
-        BufferedWriter writer = Solution.getOutputWriter("Output/Avito/", "AdsXML_" +
-                    /*GadgetConst.CITIES_FILE_END[cityId] +*/ "msk.xml");
+    public static void computeAvito(Gadgets gadgets, String fileName)
+            throws IOException {
+        System.out.println("printing..." + fileName);
+        BufferedWriter writer = getOutputWriter("Output/Avito/", fileName + ".xml");
         writer.write("<Ads formatVersion=\"3\" target=\"Avito.ru\">\n");
-        /*for (int cityId = 0; cityId < GadgetConst.CITIES.length; cityId++) {
-            System.out.println("city=" + cityId);
-            AvitoGadgets avitoGadgets = new AvitoGadgets(cityId);
-            writer.write(avitoGadgets.generateXMLAutoload(cityId));
-            writer.write(avitoGadgets.generateXMLArrangement(cityId));
-            writer.write(avitoGadgets.generateXMLGlobal(cityId));
-        }*/
-        AvitoGadgets avitoGadgets = new AvitoGadgets();
-        writer.write(avitoGadgets.generateXMLAutoload());
+        writer.write(gadgets.generateXMLAutoload());
         writer.write("</Ads>");
         writer.flush();
     }
 
     public static void main(String[] args) {
-        Gadgets.initializePrices(Solution.getInputScanner("AMOLED/price_list.txt"));
+        AMOLEDGadgets amoledGadgest = new AMOLEDGadgets();
+        ISPARKGadgets isparkGadgets = new ISPARKGadgets();
         try {
-            computeAvito();
-            computeCategoryTreeFromXML();
+            computeCategoryTreeFromXML(isparkGadgets);
+            computeAvito(amoledGadgest, "AdsXML_msk");
+            computeAvito(isparkGadgets, "AdsXML_tat");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -297,7 +305,7 @@ public class Solution {
 //        iphonesYoula.generateFolders();
 
         //WebSite
-//        AvitoGadgets webSiteGadgets = new AvitoGadgets();
+//        AMOLEDGadgets webSiteGadgets = new AMOLEDGadgets();
 //        webSiteGadgets.initializeFromCSV();
 //        webSiteGadgets.synchronizePrices();
 //        webSiteGadgets.printCSVGadgets(getOutputWriter("Output", "shop_items.csv"));
@@ -306,8 +314,10 @@ public class Solution {
 //        webSiteGadgets.printYMGadgets(getOutputWriter("Output", "yandex_market_items.csv"));
 ////        webSiteGadgets.generateGadgetFiles();
 ////        galaxys.generateGadgetFiles();
-        GadgetConst.GADGET_DB.commit();
-        GadgetConst.GADGET_DB.close();
+        amoledGadgest.GADGET_DB.commit();
+        amoledGadgest.GADGET_DB.close();
+        isparkGadgets.GADGET_DB.commit();
+        isparkGadgets.GADGET_DB.close();
     }
 
     public static String getValueByPrefix(String from, String prefix, char end) {

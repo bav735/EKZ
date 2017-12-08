@@ -8,7 +8,7 @@ import java.util.Scanner;
 /**
  * Created by A on 14.06.2017.
  */
-public class Gadget extends Gadgets {
+public class Gadget {
     public static int maxId = 1;
     String imageUrl;
     String price;
@@ -21,14 +21,16 @@ public class Gadget extends Gadgets {
     String params;
     String namePrefix;
     ArrayList<String> initialGadget;
+    Gadgets parent;
 
-    public Gadget(ArrayList<String> gadget) {
+    public Gadget(ArrayList<String> gadget, Gadgets gadgets) {
+        parent =gadgets;
         initialGadget = gadget;
-        quality = getQuality(gadget);
+        quality = parent.getQuality(gadget);
         namePrefix = "Смартфон";
-        vendor = getVendor(gadget);
-        model = Gadgets.getGadgetName(gadget, Gadgets.MODEL_LINE, Gadgets.COLOR) + " (" +
-                GadgetConst.MAP_QUALITY_NAME.get(quality) + ")";
+        vendor = parent.getVendor(gadget);
+//        model = Gadgets.getGadgetName(gadget, Gadgets.MODEL_LINE, Gadgets.COLOR) + " (" +
+//                GadgetConst.MAP_QUALITY_NAME.get(quality) + ")";
         /*description = getDescriptionByModel(vendor,
                 gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.MODEL_LINE)),
                 gadget.get(Gadgets.mapGadgetAttributeNumber.get(Gadgets.MODEL))) +
@@ -37,7 +39,7 @@ public class Gadget extends Gadgets {
         if (warrantyPrice.length() > 1) {
             description += ",\n" + Gadgets.YEAR_WARRANTY_COST + ": +" + warrantyPrice + "\u20BD";
         }*/
-        imageUrl = WebSiteGadgets.getImageWebsiteUrl(gadget);
+//        imageUrl = ISPARKGadgets.getImageWebsiteUrl(gadget);
         id = "" + maxId;
         maxId++;
         params = "";
@@ -106,7 +108,7 @@ public class Gadget extends Gadgets {
         if (initialGadget == null) {
             return "";
         }
-        return getGadgetName(initialGadget, QUALITY, MEMORY);
+        return parent.getGadgetName(initialGadget, Gadgets.QUALITY, Gadgets.MEMORY);
 //        return quality + " " + vendor + " " + model;
         /*String res = quality;
         res += " " + vendor + " ";
@@ -143,12 +145,7 @@ public class Gadget extends Gadgets {
         String res = "";
         res += getWebSiteName();
         res += ";" + priceName + ";;RUB;";
-        if (priceName.isEmpty()) {
-            res += price;
-        } else {
-//            System.out.println(initialGadget.size());
-            res += Gadgets.getPrice(initialGadget, priceName);
-        }
+        res += price;
         res += ";1;0;0;";
         String present = "0";
         if (namePrefix.equals("Смартфон")) {

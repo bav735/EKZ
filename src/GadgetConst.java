@@ -1,15 +1,11 @@
-import org.mapdb.DB;
-import org.mapdb.DBMaker;
-import org.mapdb.HTreeMap;
-import org.mapdb.Serializer;
-
-import java.io.File;
 import java.util.*;
 
 /**
  * Created by A on 05.08.2017.
  */
 public class GadgetConst {
+    final static String ACT = "ACT";
+    final static String NEW = "NEW";
     final static String RST = "RST";
     final static String RPC = "RPC";
     final static String EST = "EST";
@@ -20,7 +16,23 @@ public class GadgetConst {
 
     public final static String[] CITIES = new String[]{"Москва", "Казань"};
 
-    public final static String[] CITIES_PHONE_NUMBERS = new String[]{"84951252360", "88432118341"};
+    public final static HashMap<String, String[]> MAP_COMPANY_CITIES_PHONE_NUMBERS;
+    public final static HashMap<String, String> MAP_COMPANY_AD_TITLE_END;
+    public final static HashMap<String, String> MAP_AD_ID_BEGIN;
+
+    static {
+        MAP_COMPANY_CITIES_PHONE_NUMBERS = new HashMap<>();
+        MAP_COMPANY_CITIES_PHONE_NUMBERS.put(Gadgets.AMOLED,
+                new String[]{"84951252360", "88432118341"});
+        MAP_COMPANY_CITIES_PHONE_NUMBERS.put(Gadgets.ISPARK,
+                new String[]{"84992292911", "88432110399"});
+        MAP_COMPANY_AD_TITLE_END = new HashMap<>();
+        MAP_COMPANY_AD_TITLE_END.put(Gadgets.AMOLED, " Новый Гарантия");
+        MAP_COMPANY_AD_TITLE_END.put(Gadgets.ISPARK, " Новый Неактивированный");
+        MAP_AD_ID_BEGIN = new HashMap<>();
+        MAP_AD_ID_BEGIN.put(Gadgets.AMOLED, "REF");
+        MAP_AD_ID_BEGIN.put(Gadgets.ISPARK, "NEW");
+    }
 
     public final static String[] CITIES_FILE_END = new String[]{"msk", "kzn"};
 
@@ -32,13 +44,14 @@ public class GadgetConst {
     public final static int[] CITIES_MAX_COUNTRIES = new int[CITIES.length];
 
     public final static ArrayList<String> QUALITIES = new ArrayList<String>(Arrays.asList(
+            NEW,
+            ACT,
             RST,
             RPC,
             EST,
-            REF,
-            REFnoTouchID,
             CPO,
-            DCT));
+            REF,
+            REFnoTouchID));
 
     public final static ArrayList<String> QUALITIES_NAME = new ArrayList<String>(Arrays.asList(
             "новый",
@@ -379,17 +392,17 @@ public class GadgetConst {
         }
     }
 
-    public static final HashMap<String, String> MAP_QUALITY_DESCRIPTION;
-    public static final HashMap<String, String> MAP_QUALITY_NAME;
+//    public static final HashMap<String, String> MAP_QUALITY_DESCRIPTION;
+//    public static final HashMap<String, String> MAP_QUALITY_NAME;
 
-    static {
+    /*static {
         MAP_QUALITY_DESCRIPTION = new HashMap<>();
         MAP_QUALITY_NAME = new HashMap<>();
         for (int i = 0; i < QUALITIES.size(); i++) {
             MAP_QUALITY_DESCRIPTION.put(QUALITIES.get(i), QUALITIES_DESCRIPTION.get(i));
             MAP_QUALITY_NAME.put(QUALITIES.get(i), QUALITIES_NAME.get(i));
         }
-    }
+    }*/
 
     public static final ArrayList<String> COUNTRIES;
     public static final HashMap<String, String> MAP_COUNTRIES_OPERATOR;
@@ -429,24 +442,6 @@ public class GadgetConst {
         inScanner.close();
     }
 
-    public final static DB GADGET_DB;
-    public final static HTreeMap<String, Integer> MAP_META_MODEL_LAST_GADGET_ID;
-    public final static HTreeMap<String, Integer>[] MAP_META_MODEL_CURR_GADGET_ID =
-            new HTreeMap[CITIES.length];
-
-    static {
-        GADGET_DB = DBMaker.fileDB(new File("C:/EKZ/DB/gadget.db")).make();
-        MAP_META_MODEL_LAST_GADGET_ID = GADGET_DB.hashMap("AMOLED" +
-                        "MAP_META_MODEL_LAST_GADGET_ID",
-                Serializer.STRING, Serializer.INTEGER)
-                .createOrOpen();
-        for (int i = 0; i < CITIES.length; i++) {
-            MAP_META_MODEL_CURR_GADGET_ID[i] = GADGET_DB.hashMap("AMOLED" +
-                            "MAP_META_MODEL_CURR_GADGET_ID" + CITIES[i],
-                    Serializer.STRING, Serializer.INTEGER)
-                    .createOrOpen();
-        }
-    }
     /*
     public static final HashMap<String, String> MAP_PRICES_DESCRIPTION;
 

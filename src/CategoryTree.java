@@ -152,9 +152,9 @@ public class CategoryTree {
 //            System.out.println(gadget.getGoogleSheetsName());
             if (selectedItems.contains(gadget.getGoogleSheetsName())) {
                 boolean warranty = true;
-                String price = Gadgets.getPrice(gadget.initialGadget, Gadgets.REGIONS_PRICE);
+//                String price = Gadgets.getPrice(gadget.initialGadget, Gadgets.REGIONS_PRICE);
                 bufferedWriter.write(gadget.id + ";true;" +
-                        price +
+//                        price +
                         ";RUR;Мобильные телефоны;" +
                         gadget.imageUrl +
                         ";http://ispark.info/product/" + gadget.id +
@@ -177,14 +177,14 @@ public class CategoryTree {
         for (CategoryTree child : children) {
             for (Gadget gadget : child.gadgets) {
 //                System.out.println(gadget.getPriceListName() + "$");
-                if (WebSiteGadgets.inPriceList(gadget.getPriceListName())) {
+                if (ISPARKGadgets.inPriceList(gadget.getPriceListName())) {
                     if (true*//*gadget.getSubModel().equals(GadgetConst.MAP_MODEL_SUBMODEL
                             .get(gadget.getPriceListModel()).get(1))*//*) {
-                        gadget.price = WebSiteGadgets.getPriceRetailMax(gadget.getPriceListName(), 1) + "";
+                        gadget.price = ISPARKGadgets.getPriceRetailMax(gadget.getPriceListName(), 1) + "";
                         gadget.description = ("Тип товара: Ростест (NEW)\n").concat(gadget.description);
                         gadget.manufacturerWarranty = true;
                     } else {
-                        gadget.price = WebSiteGadgets.getPriceRetailMax(gadget.getPriceListName(), 0) + "";
+                        gadget.price = ISPARKGadgets.getPriceRetailMax(gadget.getPriceListName(), 0) + "";
                         gadget.description = ("Тип товара: Евротест (RFB)\n").concat(gadget.description);
                         if (gadget.model.contains("Без Отп")) {
                             gadget.description = ("TouchID (отпечаток пальца): не работает\n").concat(gadget.description);
