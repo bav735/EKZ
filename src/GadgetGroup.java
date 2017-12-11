@@ -183,6 +183,12 @@ public class GadgetGroup {
 //        if (!isGlobal) {
         text += parent.getGadgetName(gadgets.get(0), getFirstAttr(),
                 getLastAttr());
+        if (getLastAttr().equals(Gadgets.MEMORY)) {
+            String memoryNumber = gadgets.get(0).get(parent.mapGadgetAttributeNumber
+                    .get(Gadgets.MEMORY));
+            memoryNumber = memoryNumber.substring(0, memoryNumber.length() - 2);
+            text += " (" + memoryNumber + "гб " + memoryNumber + " gb гб)";
+        }
         if (parent.companyName.equals(Gadgets.AMOLED)) {
             String warrantyCost = parent.getPrice(gadgets.get(0),
                     Gadgets.YEAR_WARRANTY_COST);
