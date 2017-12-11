@@ -148,7 +148,7 @@ public abstract class Gadgets {
     }
 
     public String getMetaModelWithoutMemory(String metaModel) {
-        return metaModel.substring(0, metaModel.lastIndexOf(" "));
+        return metaModel.replaceFirst(" [0-9]+Gb?*", "");
     }
 
     public int[] mergeArrays(int[] a1, int[] a2, int[] order) {

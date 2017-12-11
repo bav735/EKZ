@@ -305,7 +305,7 @@ public class AMOLEDGadgets extends Gadgets {
                 }
                 int gadgetGroupId = mapMetaModelCurrGadgetId[cityId]
                         .get(metaModel);
-//                System.out.println(cityId + " " + metaModel + " " + gadgetGroupId);
+                System.out.println(cityId + " " + metaModel + " " + gadgetGroupId);
                 if (gadgetGroupId == -1) {
                     continue;
                 }

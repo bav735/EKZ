@@ -276,7 +276,7 @@ public class Solution {
         }
     }
 
-    public static void computeAvito(Gadgets gadgets, String fileName)
+    public static void computeXMLAutoload(Gadgets gadgets, String fileName)
             throws IOException {
         System.out.println("printing..." + fileName);
         BufferedWriter writer = getOutputWriter("Output/Avito/", fileName + ".xml");
@@ -291,8 +291,8 @@ public class Solution {
         ISPARKGadgets isparkGadgets = new ISPARKGadgets();
         try {
             computeCategoryTreeFromXML(isparkGadgets);
-            computeAvito(amoledGadgest, "AdsXML_msk");
-            computeAvito(isparkGadgets, "AdsXML_tat");
+            computeXMLAutoload(amoledGadgest, "AdsXML_msk");
+            computeXMLAutoload(isparkGadgets, "AdsXML_tat");
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -52,11 +52,8 @@ public class Gadget {
         imageUrl = Solution.getValueByTag(offer, "picture");
         description = Solution.getValueByTag(offer, "description");
         price = Solution.getValueByTag(offer, "price");
+
         int intPrice = Solution.getNumber(price.substring(0, price.length() - 2)) * 95 / 100;
-        if (!model.startsWith("iPhone 6 ")) {
-            intPrice = intPrice - intPrice % 100 + 90;
-            price = intPrice + "";
-        }
         namePrefix = Solution.getValueByTag(offer, "typePrefix");
         id = "" + maxId;
         maxId++;
