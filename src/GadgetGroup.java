@@ -187,7 +187,7 @@ public class GadgetGroup {
             String memoryNumber = gadgets.get(0).get(parent.mapGadgetAttributeNumber
                     .get(Gadgets.MEMORY));
             memoryNumber = memoryNumber.substring(0, memoryNumber.length() - 2);
-            text += " (" + memoryNumber + "гб " + memoryNumber + " gb гб)";
+            text += " (" + memoryNumber + " gb)";
         }
         if (parent.companyName.equals(Gadgets.AMOLED)) {
             String warrantyCost = parent.getPrice(gadgets.get(0),
