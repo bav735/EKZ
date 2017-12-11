@@ -147,8 +147,8 @@ public abstract class Gadgets {
         }
     }
 
-    public String getMetaModelWithoutMemory(String metaModel) {
-        return metaModel.replaceFirst(" [0-9]+Gb?*", "");
+    public static String getMetaModelWithoutMemory(String metaModel) {
+        return metaModel.substring(0, metaModel.lastIndexOf(" "));
     }
 
     public int[] mergeArrays(int[] a1, int[] a2, int[] order) {
@@ -183,6 +183,10 @@ public abstract class Gadgets {
 
     public String getMetaModel(ArrayList<String> gadget) {
         return getGadgetName(gadget, VENDOR, MEMORY);
+    }
+
+    public static String getMetaModel(String model) {
+        return model.substring(0, model.indexOf("Gb") + 2);
     }
 
     public String getVendor(ArrayList<String> gadget) {

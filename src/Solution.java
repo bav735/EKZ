@@ -98,28 +98,29 @@ public class Solution {
                 String catId = getValueByTag(offer, "categoryId");
                 if (categories.contains(catId)) {
                     offer = offer
+                            .replaceAll("\\s+", " ")
                             .replaceAll("(?i)gb", "Gb")
                             .replaceAll("3/32Gb", "32Gb")
-                            .replaceAll("\\s2016\\s", " (2016) ")
-                            .replaceAll("\\s2017\\s", " (2017) ")
+                            .replaceAll("APPLE", "Apple")
+                            .replaceAll(" 2016 ", " (2016) ")
+                            .replaceAll(" 2017 ", " (2017) ")
                             .replaceAll("GALAXY", "Galaxy")
-                            .replaceAll("\\sedge\\s", " Edge ")
+                            .replaceAll(" edge ", " Edge ")
                             .replaceAll("Sony XZ", "Sony Xperia  XZ")
                             .replaceAll("(?i)zenfone", "ZenFone")
                             .replaceAll("MOTO", "Moto")
-                            .replaceAll("8\\+\\s", "8 Plus ")
-                            .replaceAll("\\s6s\\s", " 6S ")
-                            .replaceAll("[\\s(,]+[0-9A-Z/]*[0-9]RU[0-9A-Z/]*[\\s),]*", "");
+                            .replaceAll("8\\+ ", "8 Plus ")
+                            .replaceAll(" 6s ", " 6S ")
+                            .replaceAll("[ (,]+[0-9A-Z/]*[0-9]RU[0-9A-Z/]*[ ),]*", "");
                     for (String memory : GadgetConst.MEMORIES) {
                         memory = memory.substring(0, memory.length() - 2);
-                        offer = offer.replaceAll(memory + "\\sGb", memory + "Gb");
+                        offer = offer.replaceAll(memory + " Gb", memory + "Gb");
                     }
                     Gadget gadget = new Gadget(offer);
-//                    System.out.println("# " + gadget.model);
                     for (String metaModelWithoutMemory : isparkGadgets
                             .mapGadgetMetaModelWithoutMemorySingle.keySet()) {
-                        if ((gadget.vendor + gadget.model).replaceAll("\\s", "").toLowerCase()
-                                .startsWith(metaModelWithoutMemory.replaceAll("\\s", "")
+                        if ((gadget.vendor + gadget.model).replaceAll(" ", "").toLowerCase()
+                                .startsWith(metaModelWithoutMemory.replaceAll(" ", "")
                                         .toLowerCase())) {
                             if (!isparkGadgets.mapGadgetMetaModelWithoutMemoryImages
                                     .containsKey(metaModelWithoutMemory)) {
