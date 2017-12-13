@@ -75,44 +75,4 @@ public class ISPARKGadgets extends Gadgets {
     private String getMetaModel(String modelLine, String model) {
         return modelLine + " " + model;
     }
-
-    public String generateXMLAutoload() {
-//        for (String s : mapGadgetMetaModelWithoutMemoryImages.keySet()) {
-//            System.out.println(s);
-//        }
-        String xml = "";
-        for (int cityId = 0; cityId < GadgetConst.CITIES.length; cityId++) {
-            LinkedHashSet<String> metaModelsUpdate = Solution.getHashSetFromInput(
-                    companyName + "/update_items_" + GadgetConst
-                            .CITIES_FILE_END[cityId] + ".txt");
-            for (String metaModel : metaModelsUpdate) {
-                System.out.println(cityId + " " + metaModel);
-                int metaModelLastId = mapMetaModelLastGadgetId.get(metaModel)
-                        % GadgetConst.COUNTRIES.size();
-                mapMetaModelCurrGadgetId[cityId]
-                        .put(metaModel, metaModelLastId);
-                mapMetaModelLastGadgetId.put(metaModel, metaModelLastId + 1);
-            }
-            LinkedHashSet<String> metaModelsPresent = Solution.getHashSetFromInput(
-                    companyName + "/present_items_" + GadgetConst
-                            .CITIES_FILE_END[cityId] + ".txt");
-            for (String metaModel : metaModelsPresent) {
-                if (!mapMetaModelLastGadgetId.keySet().contains(
-                        metaModel)) {
-                    continue;
-                }
-                int gadgetGroupId = mapMetaModelCurrGadgetId[cityId]
-                        .get(metaModel);
-                System.out.println(cityId + " " + metaModel + " " + gadgetGroupId);
-                if (gadgetGroupId == -1) {
-                    continue;
-                }
-                GadgetGroup gadgetGroup = mapGadgetMetaModelGadgetGroups.get(metaModel)
-                        .get(gadgetGroupId);
-                gadgetGroup.initialize(cityId);
-                xml += gadgetGroup.getXmlAd(false);
-            }
-        }
-        return xml;
-    }
 }

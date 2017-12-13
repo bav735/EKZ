@@ -30,7 +30,7 @@ public class AMOLEDGadgets extends Gadgets {
                 if (selectedAvitoItems.contains(getGadgetName(gadget, QUALITY, MEMORY))
                         /*|| selectedAvitoItems.contains(getGadgetName(gadget, QUALITY, COLOR))*/) {
                     gadgets.add(gadget);
-                    generatePhotos(gadget);
+//                    generatePhotos(gadget);
                 }
             }
         }
@@ -202,10 +202,11 @@ public class AMOLEDGadgets extends Gadgets {
         }
     }
 
-    public String generateXMLGlobal(int cityId) throws IOException {
+    /*public String generateXMLGlobal(int cityId) throws IOException {
         String xml = "";
         for (int i = 0; i < GadgetConst.VENDORS.size(); i++) {
-            GadgetGroup gadgetGroup = new GadgetGroup(GadgetConst.COUNTRIES.get(0), this);
+            GadgetGroup gadgetGroup = new GadgetGroup(GadgetConst.COUNTRIES.get(0),
+                    ,this);
             for (String metaModel : mapMetaModelGadgetsByVendor[i].keySet()) {
                 ArrayList<String> gadget = mapMetaModelGadgetsByVendor[i].get(metaModel).get(0);
                 if (!(getVendor(gadget).equals("Apple") || getVendor(gadget).equals("Samsung"))
@@ -217,7 +218,7 @@ public class AMOLEDGadgets extends Gadgets {
             xml += gadgetGroup.getXmlAd(false);
         }
         return xml;
-    }
+    }*/
 
     private int getMetaModelAdsSize(String vendor, String metaModel, int cityId) {
         if (!GadgetConst.MAP_MODEL_ADS_PER_MONTH[cityId].containsKey(vendor + " " + metaModel)) {
@@ -260,7 +261,7 @@ public class AMOLEDGadgets extends Gadgets {
                     for (int metaModelId = 0; metaModelId < mapMetaModelGadgetsByVendor[i].get(metaModel)
                             .size() && gadgets.size() < getMetaModelAdsSize(vendor, metaModel, cityId); metaModelId++) {
                         String country = GadgetConst.COUNTRIES.get(countryId);
-                        GadgetGroup gadget = new GadgetGroup(country, this);
+                        GadgetGroup gadget = new GadgetGroup(country, metaModel, this);
                         gadget.gadgets.add(mapMetaModelGadgetsByVendor[i]
                                 .get(metaModel).get(metaModelId));
                         gadgets.add(gadget);
@@ -278,43 +279,6 @@ public class AMOLEDGadgets extends Gadgets {
             }
         }
         GadgetConst.CITIES_MAX_COUNTRIES[cityId] = globalMaxCountryCount;
-        return xml;
-    }
-
-
-    public String generateXMLAutoload() {
-        String xml = "";
-        for (int cityId = 0; cityId < GadgetConst.CITIES.length; cityId++) {
-            LinkedHashSet<String> metaModelsUpdate = Solution.getHashSetFromInput(
-                    companyName + "/update_items_" + GadgetConst
-                            .CITIES_FILE_END[cityId] + ".txt");
-            for (String metaModel : metaModelsUpdate) {
-                int metaModelLastId = mapMetaModelLastGadgetId.get(metaModel)
-                        % GadgetConst.COUNTRIES.size();
-                mapMetaModelCurrGadgetId[cityId]
-                        .put(metaModel, metaModelLastId);
-                mapMetaModelLastGadgetId.put(metaModel, metaModelLastId + 1);
-            }
-            LinkedHashSet<String> metaModelsPresent = Solution.getHashSetFromInput(
-                    companyName + "/present_items_" + GadgetConst
-                            .CITIES_FILE_END[cityId] + ".txt");
-            for (String metaModel : metaModelsPresent) {
-                if (!mapMetaModelLastGadgetId.keySet().contains(
-                        metaModel)) {
-                    continue;
-                }
-                int gadgetGroupId = mapMetaModelCurrGadgetId[cityId]
-                        .get(metaModel);
-                System.out.println(cityId + " " + metaModel + " " + gadgetGroupId);
-                if (gadgetGroupId == -1) {
-                    continue;
-                }
-                GadgetGroup gadgetGroup = mapGadgetMetaModelGadgetGroups.get(metaModel)
-                        .get(gadgetGroupId);
-                gadgetGroup.initialize(cityId);
-                xml += gadgetGroup.getXmlAd(false);
-            }
-        }
         return xml;
     }
 

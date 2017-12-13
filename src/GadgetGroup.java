@@ -16,6 +16,7 @@ public class GadgetGroup {
     final static int MINUTE_OFFSET = 33;
     ArrayList<ArrayList<String>> gadgets;
     String country;
+    String metaModel;
     //    String vendor;
 //    String metaModel;
     int xmlDay;
@@ -54,9 +55,10 @@ public class GadgetGroup {
         calendar.set(Calendar.MILLISECOND, 0);
     }
 
-    public GadgetGroup(String country, Gadgets gadgets) {
+    public GadgetGroup(String country, String metaModel, Gadgets gadgets) {
         this.country = country;
         this.gadgets = new ArrayList<>();
+        this.metaModel = metaModel;
         parent = gadgets;
     }
 
@@ -80,8 +82,9 @@ public class GadgetGroup {
     }
 
     private String getLastAttr() {
-        if (parent.mapGadgetMetaModelWithoutMemorySingle.get(parent
-                .getMetaModelWithoutMemory(getMetaModel()))) {
+        if (!metaModel.contains(Gadgets.MEMORY_GB) ||
+                parent.mapGadgetMetaModelWithoutMemorySingle.get(parent
+                        .getMetaModelWithoutMemory(metaModel))) {
             return Gadgets.MODEL;
         }
         return Gadgets.MEMORY;
@@ -163,7 +166,7 @@ public class GadgetGroup {
             imageUrls.add(getImageAvitoUrl(gadgets.get(0)));
         } else {
             imageUrls.add(parent.mapGadgetMetaModelWithoutMemoryImages.get(
-                    parent.getMetaModelWithoutMemory(getMetaModel())).get(0));
+                    parent.getMetaModelWithoutMemory(metaModel)).get(0));
         }
         String res = "";
         for (String url : imageUrls) {
@@ -331,10 +334,6 @@ public class GadgetGroup {
 
     private String getVendor() {
         return parent.getVendor(gadgets.get(0));
-    }
-
-    private String getMetaModel() {
-        return parent.getMetaModel(gadgets.get(0));
     }
 
     public void initialize(int cityId) {
