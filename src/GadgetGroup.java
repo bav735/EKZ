@@ -82,7 +82,7 @@ public class GadgetGroup {
     }
 
     private String getLastAttr() {
-        if (!metaModel.contains(Gadgets.MEMORY_GB) ||
+        if (/*!metaModel.contains(Gadgets.MEMORY_GB) ||*/
                 parent.mapGadgetMetaModelWithoutMemorySingle.get(parent
                         .getMetaModelWithoutMemory(metaModel))) {
             return Gadgets.MODEL;
@@ -102,7 +102,14 @@ public class GadgetGroup {
         } else {
             title += " Оригинал";
         }
-        return title;
+        return transformSpaceMemory(title);
+    }
+
+    private String transformSpaceMemory(String s) {
+        if (metaModel.contains(" Gb")) {
+            return s.replace("Gb", " Gb");
+        }
+        return s;
     }
 
     private String getAdPrice(int cityId) {
@@ -125,7 +132,8 @@ public class GadgetGroup {
         return price1 + "";
     }
 
-    public String getXmlAd(boolean isArrangement) {
+    public String getXmlAd(int cityId, boolean isArrangement) {
+        this.cityId = cityId;
         if (gadgets.isEmpty()) {
             return "";
         }
@@ -184,14 +192,14 @@ public class GadgetGroup {
         String text = "<![CDATA[<p>";
         String quality = parent.getQuality(gadgets.get(0));
 //        if (!isGlobal) {
-        text += parent.getGadgetName(gadgets.get(0), getFirstAttr(),
-                getLastAttr());
-        if (getLastAttr().equals(Gadgets.MEMORY)) {
+        text += transformSpaceMemory(parent.getGadgetName(gadgets.get(0), getFirstAttr(),
+                getLastAttr()));
+        /*if (getLastAttr().equals(Gadgets.MEMORY)) {
             String memoryNumber = gadgets.get(0).get(parent.mapGadgetAttributeNumber
                     .get(Gadgets.MEMORY));
             memoryNumber = memoryNumber.substring(0, memoryNumber.length() - 2);
             text += " (" + memoryNumber + " gb)";
-        }
+        }*/
         if (parent.companyName.equals(Gadgets.AMOLED)) {
             String warrantyCost = parent.getPrice(gadgets.get(0),
                     Gadgets.YEAR_WARRANTY_COST);

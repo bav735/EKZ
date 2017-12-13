@@ -274,7 +274,7 @@ public class AMOLEDGadgets extends Gadgets {
                 for (int gadgetId = 0; gadgetId < gadgets.size(); gadgetId++) {
                     GadgetGroup gadget = gadgets.get(gadgetId);
                     gadget.initialize(gadgets.size() - gadgetId - 1, gadgets.size(), cityId);
-                    xml += gadget.getXmlAd(gadgets.size() > 1);
+                    xml += gadget.getXmlAd(cityId, gadgets.size() > 1);
                 }
             }
         }
