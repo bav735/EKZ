@@ -1,16 +1,3 @@
-Apple iPhone 4S 16Gb
-Apple iPhone 5 16Gb
-Apple iPhone 5S 16Gb
-Apple iPhone 5S 32Gb
-Apple iPhone 5S 64Gb
-Apple iPhone 6 16Gb
-Apple iPhone 6 64Gb
-Apple iPhone 6 Plus 16Gb
-Apple iPhone 6S 16Gb
-Apple iPhone 6S 128Gb
-Apple iPhone 6S Plus 16Gb
-Apple iPhone 6S Plus 64Gb
-Apple iPhone 7 256Gb
 Apple iPhone 4S 16 Gb
 Apple iPhone 5 16 Gb
 Apple iPhone 5S 16 Gb
@@ -24,6 +11,19 @@ Apple iPhone 6S 128 Gb
 Apple iPhone 6S Plus 16 Gb
 Apple iPhone 6S Plus 64 Gb
 Apple iPhone 7 256 Gb
+Apple iPhone 4S 16Gb
+Apple iPhone 5 16Gb
+Apple iPhone 5S 16Gb
+Apple iPhone 5S 32Gb
+Apple iPhone 5S 64Gb
+Apple iPhone 6 16Gb
+Apple iPhone 6 64Gb
+Apple iPhone 6 Plus 16Gb
+Apple iPhone 6S 16Gb
+Apple iPhone 6S 128Gb
+Apple iPhone 6S Plus 16Gb
+Apple iPhone 6S Plus 64Gb
+Apple iPhone 7 256Gb
 Samsung Galaxy S4 16Gb
 Samsung Galaxy S6 32Gb
 Samsung Galaxy A3 (2015) 8Gb
