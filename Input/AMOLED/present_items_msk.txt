@@ -11,6 +11,7 @@ Apple iPhone 5C 16 Gb
 Apple iPhone 5C 32 Gb
 Apple iPhone 5S 16 Gb
 Apple iPhone 5S 32 Gb
+Apple iPhone 5S 64 Gb
 Apple iPhone 6 16 Gb
 Apple iPhone 6 64 Gb
 Apple iPhone 6 128 Gb
@@ -42,6 +43,7 @@ Apple iPhone 5C 16Gb
 Apple iPhone 5C 32Gb
 Apple iPhone 5S 16Gb
 Apple iPhone 5S 32Gb
+Apple iPhone 5S 64Gb
 Apple iPhone 6 16Gb
 Apple iPhone 6 64Gb
 Apple iPhone 6 128Gb
