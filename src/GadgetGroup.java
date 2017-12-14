@@ -98,9 +98,9 @@ public class GadgetGroup {
                 getLastAttr())
                 + GadgetConst.MAP_COMPANY_AD_TITLE_END.get(parent.companyName);
         if (cityId > 0) {
-            title += " Рассрочка";
+            title += " Рассрочка Все Цвета";
         } else {
-            title += " Оригинал";
+            title += " Все Цвета Оригинал";
         }
         return transformSpaceMemory(title);
     }
@@ -253,7 +253,7 @@ public class GadgetGroup {
             text += "</p><p>";
             text += "✔ гарантия на обмен 14 дней при возникновения заводского брака<br>";
             text += "✔ после замены вновь дается гарантия 14 дней с момента замены<br>";
-            text += "✔ стоимость полноценной гарантии на 1 год составляет " + warrantyCost + "\u20BD<br>";
+            text += "✔ по истечению 14 дней действует гарантия на ремонт на 1 год<br>";
             text += "✔ документы к вашей покупке: товарный чек и гарантийный талон<br>";
             text += "<p>Наше местоположение\uD83C\uDF0D<br>" + GadgetConst
                     .CITIES_LOCATION[cityId] + "</p>";

@@ -143,7 +143,7 @@ public class Gadgets {
                 continue;
             }
             line = line.replace(" (Snapdragon 625) ", " ")
-                    .replace(" Dual Sim ", " ");
+                    .replace(" Dual Sim ", " ").replace("ADT", "REF");
             String[] wordsRaw = line.split("\\s+");
             int memoryId = 0;
             for (int i = 0; i < wordsRaw.length; i++) {

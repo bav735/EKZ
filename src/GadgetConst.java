@@ -27,7 +27,7 @@ public class GadgetConst {
         MAP_COMPANY_CITIES_PHONE_NUMBERS.put(Gadgets.ISPARK,
                 new String[]{"84992292911", "88432110399"});
         MAP_COMPANY_AD_TITLE_END = new HashMap<>();
-        MAP_COMPANY_AD_TITLE_END.put(Gadgets.AMOLED, " Новый Гарантия");
+        MAP_COMPANY_AD_TITLE_END.put(Gadgets.AMOLED, " Гарантия 1 Год");
         MAP_COMPANY_AD_TITLE_END.put(Gadgets.ISPARK, " Новый Неактивированный");
         MAP_AD_ID_BEGIN = new HashMap<>();
         MAP_AD_ID_BEGIN.put(Gadgets.AMOLED, "REF");
@@ -37,8 +37,7 @@ public class GadgetConst {
     public final static String[] CITIES_FILE_END = new String[]{"msk", "kzn"};
 
     public final static String[] CITIES_LOCATION = new String[]{
-            "▶ г. Москва, ул. Сущёвский Вал, д. 5с1, время работы (пн-вс): 11.00-20.30<br>" +
-                    "▶ г. Москва, ул. Багратионовский пр-д, д. 7, время работы (пн-вс): 11.00-20.30",
+            "▶ г. Москва, ул. Сущёвский Вал, д. 5с1, время работы (пн-вс): 11.00-20.30<br>",
             "▶ г. Казань, ул. Лушникова, д. 8, время работы (пн-сб): 11.00-19.00"};
 
     public final static int[] CITIES_MAX_COUNTRIES = new int[CITIES.length];
