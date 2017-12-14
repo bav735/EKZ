@@ -198,8 +198,8 @@ public class Gadgets {
         }
         for (Object metaModelObject : new ArrayList<>(mapMetaModelLastGadgetId.keySet())) {
             String metaModel = (String) metaModelObject;
-            System.out.println(companyName + " " + metaModel + " "
-                    + mapMetaModelLastGadgetId.get(metaModel));
+//            System.out.println(companyName + " " + metaModel + " "
+//                    + mapMetaModelLastGadgetId.get(metaModel));
 //            if (!metaModel.contains("Gb") ||
 //                    metaModel.length() > metaModel.indexOf("Gb") + 2 ||
 //                    !mapGadgetMetaModelWithoutMemorySingle.containsKey(
