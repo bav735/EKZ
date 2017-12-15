@@ -26,7 +26,6 @@ public class ISPARKGadgets extends Gadgets {
             gadget.add(model.trim());
             gadget.add(words[memoryId]);
             gadget.add("");
-//            System.out.println(gadget.toString());
             gadgets.add(gadget);
         }
         initMapGadgetMetaModelGadgetGroups();

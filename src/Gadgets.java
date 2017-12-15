@@ -71,9 +71,11 @@ public class Gadgets {
     }
 
     public String generateXMLAutoload() {
-        //        for (String s : mapGadgetMetaModelWithoutMemoryImages.keySet()) {
-//            System.out.println(s);
-//        }
+        /*if (companyName.equals(ISPARK)) {
+            for (String s : mapGadgetMetaModelWithoutMemoryImages.keySet()) {
+                System.out.println(s);
+            }
+        }*/
         String xml = "";
         for (int cityId = 0; cityId < GadgetConst.CITIES.length; cityId++) {
             LinkedHashSet<String> metaModelsUpdate = Solution.getHashSetFromInput(
