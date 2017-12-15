@@ -90,6 +90,9 @@ public class Gadgets {
             }
             for (String metaModel : metaModelsPresent) {
                 isCorrect &= mapMetaModelLastGadgetId.containsKey(metaModel);
+//                if (!isCorrect) {
+//                    System.out.println("check "+metaModel);
+//                }
             }
             if (!isCorrect) {
                 System.out.println("input gadgets " + companyName + " incorrect!");
