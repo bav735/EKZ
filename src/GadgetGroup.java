@@ -83,8 +83,9 @@ public class GadgetGroup {
 
     private String getLastAttr() {
         if (/*!metaModel.contains(Gadgets.MEMORY_GB) ||*/
-                parent.mapGadgetMetaModelWithoutMemorySingle.get(parent
-                        .getMetaModelWithoutMemory(metaModel))) {
+                getVendor().equals("Samsung") ||
+                        parent.mapGadgetMetaModelWithoutMemorySingle.get(parent
+                                .getMetaModelWithoutMemory(metaModel))) {
             return Gadgets.MODEL;
         }
         return Gadgets.MEMORY;
