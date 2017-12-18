@@ -105,7 +105,7 @@ public class AMOLEDGadgets extends Gadgets {
             for (String metaModel : mapMetaModelGadgetsByVendor[i].keySet()) {
                 ArrayList<String> gadget = mapMetaModelGadgetsByVendor[i].get(metaModel).get(0);
                 if (!(getVendor(gadget).equals("Apple") || getVendor(gadget).equals("Samsung"))
-                        || getQuality(gadget).startsWith("REF")) {//УБРАТЬ КОГДА ИСТЕЧЕТ СРОК РАЗМЕЩЕНИЯ!
+                        || getQuality(gadget).startsWith("ADT")) {//УБРАТЬ КОГДА ИСТЕЧЕТ СРОК РАЗМЕЩЕНИЯ!
                     gadgetGroup.gadgets.add(gadget);
                 }
             }

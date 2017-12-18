@@ -9,9 +9,9 @@ public class GadgetConst {
     final static String RST = "RST";
     final static String RPC = "RPC";
     final static String EST = "EST";
-    final static String REFnoTouchID = "REFnoTouchID";
+    final static String ADTnoTouchID = "ADTnoTouchID";
     final static String DCT = "DCT";
-    final static String REF = "REF";
+    final static String ADT = "ADT";
     final static String CPO = "CPO";
 
     public final static String[] CITIES = new String[]{"Москва", "Казань"};
@@ -30,7 +30,7 @@ public class GadgetConst {
         MAP_COMPANY_AD_TITLE_END.put(Gadgets.AMOLED, " Гарантия Год");
         MAP_COMPANY_AD_TITLE_END.put(Gadgets.ISPARK, " Новый Неактивированный Все Цвета");
         MAP_AD_ID_BEGIN = new HashMap<>();
-        MAP_AD_ID_BEGIN.put(Gadgets.AMOLED, "REF");
+        MAP_AD_ID_BEGIN.put(Gadgets.AMOLED, "ADT");
         MAP_AD_ID_BEGIN.put(Gadgets.ISPARK, "NEW");
     }
 
@@ -49,8 +49,8 @@ public class GadgetConst {
             RPC,
             EST,
             CPO,
-            REF,
-            REFnoTouchID));
+            ADT,
+            ADTnoTouchID));
 
     public final static ArrayList<String> QUALITIES_NAME = new ArrayList<String>(Arrays.asList(
             "новый",

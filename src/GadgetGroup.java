@@ -121,7 +121,7 @@ public class GadgetGroup {
         for (ArrayList<String> gadget : gadgets) {
             int price = Solution.getNumber(getPriceByCity(gadget, cityId));
             if (price > price1 && gadget.get(Gadgets.mapGadgetAttributeNumber.get(
-                    Gadgets.QUALITY)).startsWith(GadgetConst.REF)) {
+                    Gadgets.QUALITY)).startsWith(GadgetConst.ADT)) {
                 price2 = Math.min(price2, price);
             }
         }
@@ -219,7 +219,7 @@ public class GadgetGroup {
             text += "<p>\uD83D\uDCDE Звоните: 9:00-21:00 (без выходных) или напишите сообщение</p><p>";
             text += "✅ запечатаны в фабричную пленку, оплата по факту вскрытия и проверки<br>";
             text += "✅ абсолютно без следов эксплуатации, отлично подойдет для подарка<br>";
-            text += "✅ оригинал, активированы, для пользования в " + country + ", версия" +
+            text += "✅ оригинал, активирован, для пользования в " + country + ", версия" +
                     " под оператора " + GadgetConst.MAP_COUNTRIES_OPERATOR.get(country) + ", " +
                     "также имеются другие модели<br>";
             text += "✅ перед визитом в магазин, просим бронировать интересующий вас товар</p>";
