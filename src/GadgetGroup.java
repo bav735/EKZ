@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.HashSet;
+import java.util.*;
 
 /**
  * Created by A on 31.10.2017.
@@ -173,11 +171,15 @@ public class GadgetGroup {
         if (parent.companyName.equals(Gadgets.AMOLED)) {
             imageUrls.add(getImageAvitoUrl(gadgets.get(0)));
         } else {
-            imageUrls.add(parent.mapGadgetMetaModelWithoutMemoryImages.get(
-                    parent.getMetaModelWithoutMemory(metaModel)).get(0));
+            for (String url : parent.mapGadgetMetaModelWithoutMemoryImages.get(
+                    parent.getMetaModelWithoutMemory(metaModel))) {
+                imageUrls.add(url);
+            }
         }
         String res = "";
-        for (String url : imageUrls) {
+        ArrayList<String> imageUrlsArr= new ArrayList<>(imageUrls);
+        Collections.shuffle(imageUrlsArr);
+        for (String url : imageUrlsArr) {
             res += "\t\t\t<Image url=\"" + url + "\"/>\n";
         }
         return res;

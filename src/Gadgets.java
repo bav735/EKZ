@@ -114,8 +114,7 @@ public class Gadgets {
                 if (!mapMetaModelLastGadgetId.keySet().contains(metaModel)) {
                     continue;
                 }
-                int gadgetGroupId = mapMetaModelCurrGadgetId[cityId]
-                        .get(metaModel);
+                int gadgetGroupId = mapMetaModelCurrGadgetId[cityId].get(metaModel);
                 System.out.println(cityId + " " + metaModel + " " + gadgetGroupId);
                 if (gadgetGroupId == -1) {
                     continue;

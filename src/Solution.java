@@ -118,19 +118,30 @@ public class Solution {
                         offer = offer.replaceAll(memory + " Gb", memory + "Gb");
                     }
                     Gadget gadget = new Gadget(offer);
+                    int maxCoincidence = 0;
+                    String metaModelWithoutMemoryMax = "";
                     for (String metaModelWithoutMemory : isparkGadgets
                             .mapGadgetMetaModelWithoutMemorySingle.keySet()) {
                         if ((gadget.vendor + gadget.model).replaceAll(" ", "").toLowerCase()
                                 .startsWith(metaModelWithoutMemory.replaceAll(" ", "")
-                                        .toLowerCase())) {
-//                            String memory =
-                            if (!isparkGadgets.mapGadgetMetaModelWithoutMemoryImages
-                                    .containsKey(metaModelWithoutMemory)) {
-                                isparkGadgets.mapGadgetMetaModelWithoutMemoryImages.put(
-                                        metaModelWithoutMemory, new ArrayList<String>());
-                            }
+                                        .toLowerCase()) &&
+                                metaModelWithoutMemory.length() > maxCoincidence) {
+                            maxCoincidence = metaModelWithoutMemory.length();
+                            metaModelWithoutMemoryMax = metaModelWithoutMemory;
+                        }
+                    }
+                    if (!metaModelWithoutMemoryMax.isEmpty()) {
+                        String memory = getMemory(gadget.model);
+                        if (!isparkGadgets.mapGadgetMetaModelWithoutMemoryImages
+                                .containsKey(metaModelWithoutMemoryMax)) {
+                            mapMetaModelTempMemory.put(metaModelWithoutMemoryMax, memory);
+                            isparkGadgets.mapGadgetMetaModelWithoutMemoryImages.put(
+                                    metaModelWithoutMemoryMax, new ArrayList<String>());
+                        }
+                        if (mapMetaModelTempMemory.get(metaModelWithoutMemoryMax)
+                                .equals(memory)) {
                             isparkGadgets.mapGadgetMetaModelWithoutMemoryImages.get(
-                                    metaModelWithoutMemory).add(gadget.imageUrl);
+                                    metaModelWithoutMemoryMax).add(gadget.imageUrl);
                         }
                     }
                     ArrayList<String> modelSplit;
@@ -216,12 +227,12 @@ public class Solution {
 //        root.recalcIds();
 //        root.synchronizeWithPriceList();
 
-        /*inScanner = Solution.getInputScanner("present_items_kzn.txt");
-        HashSet<String> presentItems = new HashSet<>();
-        while (inScanner.hasNextLine()) {
-            presentItems.add(inScanner.nextLine());
-        }
-        inScanner.close();*/
+    /*inScanner = Solution.getInputScanner("present_items_kzn.txt");
+    HashSet<String> presentItems = new HashSet<>();
+    while (inScanner.hasNextLine()) {
+        presentItems.add(inScanner.nextLine());
+    }
+    inScanner.close();*/
         BufferedWriter bufferedWriter = Solution.getOutputWriter("Output/Website", "shop_items.csv");
         bufferedWriter.write(CategoryTree.CSV_BEGIN);
         root.printCSV(bufferedWriter);
@@ -242,7 +253,9 @@ public class Solution {
 
         bufferedWriter = Solution.getOutputWriter("Output/Website", "ym_shop_items.csv");
         bufferedWriter.write(CategoryTree.YM_BEGIN);
-        root.printYMSelected(bufferedWriter, getHashSetFromInput("selected_ym_items.txt"));
+        root.printYMSelected(bufferedWriter,
+
+                getHashSetFromInput("selected_ym_items.txt"));
         bufferedWriter.flush();
     }
 
@@ -357,7 +370,7 @@ public class Solution {
         return getValueByTag(from, openTag, closeTag);
     }
 
-    private String getMemory(String s) {
+    private static String getMemory(String s) {
         String[] parts = s.split("[ +\\\\/]");
         for (String part : parts) {
             if (part.contains("Gb")) {
