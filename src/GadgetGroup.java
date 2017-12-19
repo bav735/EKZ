@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.HashSet;
 
 /**
  * Created by A on 31.10.2017.
@@ -177,9 +179,9 @@ public class GadgetGroup {
             }
         }
         String res = "";
-        ArrayList<String> imageUrlsArr= new ArrayList<>(imageUrls);
-        Collections.shuffle(imageUrlsArr);
-        for (String url : imageUrlsArr) {
+//        ArrayList<String> imageUrlsArr = new ArrayList<>(imageUrls);
+//        Collections.shuffle(imageUrlsArr);
+        for (String url : imageUrls) {
             res += "\t\t\t<Image url=\"" + url + "\"/>\n";
         }
         return res;
