@@ -84,6 +84,7 @@ public class Solution {
             }
         }
         String offer;
+        HashMap<String, String> mapMetaModelTempMemory = new HashMap<>();
         while (inScanner.hasNextLine()) {
             String line = inScanner.nextLine();
             if (line.contains("<offer")) {
@@ -122,6 +123,7 @@ public class Solution {
                         if ((gadget.vendor + gadget.model).replaceAll(" ", "").toLowerCase()
                                 .startsWith(metaModelWithoutMemory.replaceAll(" ", "")
                                         .toLowerCase())) {
+//                            String memory =
                             if (!isparkGadgets.mapGadgetMetaModelWithoutMemoryImages
                                     .containsKey(metaModelWithoutMemory)) {
                                 isparkGadgets.mapGadgetMetaModelWithoutMemoryImages.put(
@@ -353,6 +355,16 @@ public class Solution {
         String openTag = '<' + tag + '>';
         String closeTag = "</" + tag + ">";
         return getValueByTag(from, openTag, closeTag);
+    }
+
+    private String getMemory(String s) {
+        String[] parts = s.split("[ +\\\\/]");
+        for (String part : parts) {
+            if (part.contains("Gb")) {
+                return part;
+            }
+        }
+        return "";
     }
 
     /*private static void filterXML() {
