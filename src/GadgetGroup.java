@@ -117,7 +117,7 @@ public class GadgetGroup {
         for (ArrayList<String> gadget : gadgets) {
             price1 = Math.min(price1, Solution.getNumber(getPriceByCity(gadget, cityId)));
         }
-        int price2 = 1000000;
+        /*int price2 = 1000000;
         for (ArrayList<String> gadget : gadgets) {
             int price = Solution.getNumber(getPriceByCity(gadget, cityId));
             if (price > price1 && gadget.get(Gadgets.mapGadgetAttributeNumber.get(
@@ -128,7 +128,7 @@ public class GadgetGroup {
         if (price2 < 1000000) {
             price1 = (price1 + price2) / 2;
             price1 = price1 - price1 % 100 + 90;
-        }
+        }*/
         return price1 + "";
     }
 
