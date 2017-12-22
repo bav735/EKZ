@@ -63,14 +63,14 @@ public class GadgetGroup {
     }
 
     private String getIdXML() {
-//        if (isGlobal) {
-//            return cityId + vendor;
-//        } else {
+        String lastAttr = Gadgets.MEMORY;
+        if (!metaModel.contains(Gadgets.MEMORY_GB)) {
+            lastAttr = Gadgets.MODEL;
+        }
         String id = GadgetConst.CITIES[cityId] + GadgetConst
                 .MAP_AD_ID_BEGIN.get(parent.companyName) + parent.getGadgetName(gadgets
-                .get(0), Gadgets.VENDOR, Gadgets.MEMORY) + country;
+                .get(0), Gadgets.VENDOR, lastAttr) + country;
         return id.replace(" ", "");
-//        }
     }
 
     private String getFirstAttr() {
@@ -82,10 +82,10 @@ public class GadgetGroup {
     }
 
     private String getLastAttr() {
-        if (/*!metaModel.contains(Gadgets.MEMORY_GB) ||*/
+        if (!metaModel.contains(Gadgets.MEMORY_GB) ||
                 getVendor().equals("Samsung") ||
-                        parent.mapGadgetMetaModelWithoutMemorySingle.get(parent
-                                .getMetaModelWithoutMemory(metaModel))) {
+                parent.mapGadgetMetaModelWithoutMemorySingle.get(parent
+                        .getMetaModelWithoutMemory(metaModel))) {
             return Gadgets.MODEL;
         }
         return Gadgets.MEMORY;

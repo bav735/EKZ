@@ -99,13 +99,27 @@ public class Gadgets {
                 break;
             }
             for (String metaModel : metaModelsUpdate) {
-                int metaModelLastId = getMaxLastId(metaModel.replace("Gb", ""))
+                int metaModelLastId = getMaxLastIdMemory(metaModel.replace("Gb", ""))
                         % GadgetConst.COUNTRIES.size();
-                for (Object metaModelIncreaseIdObj : new ArrayList<>(mapMetaModelLastGadgetId.keySet())) {
-                    String metaModelIncreaseId = (String) metaModelIncreaseIdObj;
-                    if (metaModelIncreaseId.startsWith(metaModel.replaceAll(" ?Gb", ""))) {
-                        mapMetaModelLastGadgetId.put(metaModelIncreaseId,
-                                metaModelLastId + 1);
+                if (metaModel.contains("Gb")) {
+                    for (Object metaModelIncreaseIdObj : new ArrayList<>(mapMetaModelLastGadgetId.keySet())) {
+                        String metaModelIncreaseId = (String) metaModelIncreaseIdObj;
+                        if (metaModelIncreaseId.startsWith(metaModel
+                                .replaceAll(" ?Gb", ""))) {
+                            mapMetaModelLastGadgetId.put(metaModelIncreaseId,
+                                    metaModelLastId + 1);
+                        }
+                    }
+                } else {
+                    metaModelLastId = getMaxLastIdWithoutMemory(metaModel)
+                            % GadgetConst.COUNTRIES.size();
+                    for (Object metaModelIncreaseIdObj : new ArrayList<>(mapMetaModelLastGadgetId.keySet())) {
+                        String metaModelIncreaseId = (String) metaModelIncreaseIdObj;
+                        if (getMetaModelWithoutMemory(metaModelIncreaseId)
+                                .equals(metaModel)) {
+                            mapMetaModelLastGadgetId.put(metaModelIncreaseId,
+                                    metaModelLastId + 1);
+                        }
                     }
                 }
                 mapMetaModelCurrGadgetId[cityId].put(metaModel, metaModelLastId);
@@ -200,28 +214,37 @@ public class Gadgets {
                 }
             }
         }
-        for (Object metaModelObject : new ArrayList<>(mapMetaModelLastGadgetId.keySet())) {
-            String metaModel = (String) metaModelObject;
-//            System.out.println(companyName + " " + metaModel + " "
-//                    + mapMetaModelLastGadgetId.get(metaModel));
+//        for (Object metaModelObject : new ArrayList<>(mapMetaModelLastGadgetId.keySet())) {
+//            String metaModel = (String) metaModelObject;
 //            if (!metaModel.contains("Gb") ||
 //                    metaModel.length() > metaModel.indexOf("Gb") + 2 ||
 //                    !mapGadgetMetaModelWithoutMemorySingle.containsKey(
 //                            getMetaModelWithoutMemory(metaModel))) {
 //                mapMetaModelLastGadgetId.remove(metaModel);
 //            }
-        }
+//        }
         //because for example 6 16gb and 6 16 gb is very different variants
+        //and to add models without memory
         for (Object metaModelObject : new ArrayList<>(mapMetaModelLastGadgetId.keySet())) {
             String metaModel = (String) metaModelObject;
-//            System.out.println(getMetaModelWithoutMemory(metaModel));
-            if (!mapGadgetMetaModelWithoutMemorySingle.get(getMetaModelWithoutMemory(
-                    metaModel))) {
-                int maxId = getMaxLastId(metaModel.replace("Gb", ""));
-                if (!mapMetaModelLastGadgetId.containsKey(getMetaModelSpaceMemory(metaModel))) {
-                    mapMetaModelLastGadgetId.put(getMetaModelSpaceMemory(metaModel), maxId);
+//            System.out.println(companyName + " " + metaModel + " "
+//                    + mapMetaModelLastGadgetId.get(metaModel));
+            String metaModelWithoutMemory = getMetaModelWithoutMemory(
+                    metaModel);
+            int maxId = getMaxLastIdWithoutMemory(metaModelWithoutMemory);
+            if (!mapMetaModelLastGadgetId.containsKey(metaModelWithoutMemory)) {
+                mapMetaModelLastGadgetId.put(metaModelWithoutMemory, maxId);
+                for (int i = 0; i < GadgetConst.CITIES.length; i++) {
+                    mapMetaModelCurrGadgetId[i].put(metaModelWithoutMemory, -1);
+                }
+            }
+            if (!mapGadgetMetaModelWithoutMemorySingle.get(metaModelWithoutMemory)) {
+                String metaModelSpaceMemory = getMetaModelSpaceMemory(metaModel);
+                maxId = getMaxLastIdMemory(metaModel.replace("Gb", ""));
+                if (!mapMetaModelLastGadgetId.containsKey(metaModelSpaceMemory)) {
+                    mapMetaModelLastGadgetId.put(metaModelSpaceMemory, maxId);
                     for (int i = 0; i < GadgetConst.CITIES.length; i++) {
-                        mapMetaModelCurrGadgetId[i].put(getMetaModelSpaceMemory(metaModel), -1);
+                        mapMetaModelCurrGadgetId[i].put(metaModelSpaceMemory, -1);
                     }
                 }
             }
@@ -236,11 +259,22 @@ public class Gadgets {
         return metaModel.replace("Gb", " Gb").replace("  ", " ");
     }
 
-    private int getMaxLastId(String metaModelCommon) {
+    private int getMaxLastIdMemory(String metaModelCommon) {
         int maxId = -1;
         for (Object metaModelObject : new ArrayList<>(mapMetaModelLastGadgetId.keySet())) {
             String metaModel = (String) metaModelObject;
             if (metaModel.startsWith(metaModelCommon)) {
+                maxId = Math.max(maxId, mapMetaModelLastGadgetId.get(metaModel));
+            }
+        }
+        return maxId;
+    }
+
+    private int getMaxLastIdWithoutMemory(String metaModelCommon) {
+        int maxId = -1;
+        for (Object metaModelObject : new ArrayList<>(mapMetaModelLastGadgetId.keySet())) {
+            String metaModel = (String) metaModelObject;
+            if (getMetaModelWithoutMemory(metaModel).equals(metaModelCommon)) {
                 maxId = Math.max(maxId, mapMetaModelLastGadgetId.get(metaModel));
             }
         }
@@ -307,6 +341,7 @@ public class Gadgets {
         for (ArrayList<String> gadget : gadgets) {
             String metaModel = getMetaModel(gadget);
             String metaModelSpaceMemory = getMetaModelSpaceMemory(metaModel);
+            String metaModelWithoutMemory = getMetaModelWithoutMemory(metaModel);
             if (!mapMetaModelGadgets.containsKey(metaModel)) {
                 mapMetaModelGadgets.put(metaModel,
                         new ArrayList<ArrayList<String>>());
@@ -314,20 +349,13 @@ public class Gadgets {
                         new ArrayList<ArrayList<String>>());
             }
             //if add models without memory
-            /*if (mapGadgetMetaModelWithoutMemorySingle.containsKey(
-                    getMetaModelWithoutMemory(metaModel))
-                    && !mapGadgetMetaModelWithoutMemorySingle.get(
-                    getMetaModelWithoutMemory(metaModel))) {
-                if (!mapMetaModelGadgets.containsKey(getMetaModelWithoutMemory(
-                        metaModel))) {
-                    mapMetaModelGadgets.put(getMetaModelWithoutMemory(metaModel),
-                            new ArrayList<ArrayList<String>>());
-                }
-                mapMetaModelGadgets.get(getMetaModelWithoutMemory(metaModel))
-                        .add(gadget);
-            }*/
+            if (!mapMetaModelGadgets.containsKey(metaModelWithoutMemory)) {
+                mapMetaModelGadgets.put(metaModelWithoutMemory,
+                        new ArrayList<ArrayList<String>>());
+            }
             mapMetaModelGadgets.get(metaModel).add(gadget);
             mapMetaModelGadgets.get(metaModelSpaceMemory).add(gadget);
+            mapMetaModelGadgets.get(metaModelWithoutMemory).add(gadget);
         }
         mapGadgetMetaModelGadgetGroups = new LinkedHashMap<>();
         for (String metaModel : mapMetaModelGadgets.keySet()) {
