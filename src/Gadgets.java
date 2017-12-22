@@ -101,15 +101,17 @@ public class Gadgets {
             for (String metaModel : metaModelsUpdate) {
                 int metaModelLastId = getMaxLastIdMemory(metaModel.replace("Gb", ""))
                         % GadgetConst.COUNTRIES.size();
-                if (metaModel.contains("Gb")) {
+                if (metaModel.contains(Gadgets.MEMORY_GB)) {
                     for (Object metaModelIncreaseIdObj : new ArrayList<>(mapMetaModelLastGadgetId.keySet())) {
                         String metaModelIncreaseId = (String) metaModelIncreaseIdObj;
                         if (metaModelIncreaseId.startsWith(metaModel
-                                .replaceAll(" ?Gb", ""))) {
+                                .replaceAll(" ?" + Gadgets.MEMORY_GB, ""))) {
                             mapMetaModelLastGadgetId.put(metaModelIncreaseId,
                                     metaModelLastId + 1);
                         }
                     }
+                    mapMetaModelLastGadgetId.put(getMetaModelWithoutMemory(metaModel),
+                            metaModelLastId + 1);
                 } else {
                     metaModelLastId = getMaxLastIdWithoutMemory(metaModel)
                             % GadgetConst.COUNTRIES.size();
