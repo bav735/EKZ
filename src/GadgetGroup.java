@@ -97,9 +97,9 @@ public class GadgetGroup {
                 + GadgetConst.MAP_COMPANY_AD_TITLE_END.get(parent.companyName);
         if (parent.companyName.equals(Gadgets.AMOLED)) {
             if (cityId > 0) {
-                title += " Рассрочка Все Цвета";
+                title += " Рассрочка Подарки";
             } else {
-                title += " Оригинал Все Цвета";
+                title += " Оригинал Подарки";
             }
         }
         return transformSpaceMemory(title);
@@ -202,6 +202,7 @@ public class GadgetGroup {
                     Gadgets.YEAR_WARRANTY_COST);
             text += " в наличии в магазине AMOLED\uD83C\uDF08<br>" +
                     "➡У нас в продаже весь модельный ряд производителя!";
+            text += "<p>Акция, к купленному телефону бронь-стекло,<br>";
             text += "<p>✅ запечатаны в фабричную пленку, оплата по факту вскрытия и проверки<br>";
             text += "✅ абсолютно без следов эксплуатации, отлично подойдет для подарка<br>";
             text += "✅ оригинал, активирован, для пользования в " + country + ", версия" +
