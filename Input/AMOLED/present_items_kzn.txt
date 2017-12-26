@@ -102,8 +102,3 @@ Sony Xperia Z2 16Gb
 Sony Xperia Z3 16Gb
 Sony Xperia Z3 Compact 16Gb
 Sony Xperia Z5 Compact 16Gb
-HTC One Mini 2 16Gb
-HTC One M7 32Gb
-HTC One M8 32Gb
-HTC One M9 32Gb
-HTC One A9 32Gb
