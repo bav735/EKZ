@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/AMOLEDgadgets.db" afterPath="$PROJECT_DIR$/DB/AMOLEDgadgets.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/iSPARKgadgets.db" afterPath="$PROJECT_DIR$/DB/iSPARKgadgets.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EKZ_jar/EKZ.jar" afterPath="$PROJECT_DIR$/out/artifacts/EKZ_jar/EKZ.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetGroup.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetGroup.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" afterPath="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Avito/AdsXML_tat.xml" afterPath="$PROJECT_DIR$/Output/Avito/AdsXML_tat.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GadgetGroup.java" afterPath="$PROJECT_DIR$/src/GadgetGroup.java" />
     </list>
     <ignored path="EKZ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,16 +40,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AMOLEDGadgets.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AMOLEDGadgets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -55,12 +50,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update_items_msk.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="update_items_msk.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Input/iSPARK/update_items_msk.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GadgetGroup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GadgetGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="318" column="38" selection-start-line="318" selection-start-column="38" selection-end-line="318" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,7 +88,7 @@
             <state relative-caret-position="64592">
               <caret line="2984" column="9" selection-start-line="2984" selection-start-column="9" selection-end-line="2984" selection-end-column="9" />
               <folding>
-                <marker date="1514443583421" expanded="true" signature="40:341203" ph="..." />
+                <marker date="1514452629698" expanded="true" signature="40:341229" ph="..." />
               </folding>
             </state>
           </provider>
@@ -107,7 +114,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update_items_msk.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="update_items_msk.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Input/AMOLED/update_items_msk.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -117,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="price_list.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Input/AMOLED/price_list.txt">
+      <file leaf-file-name="present_items_msk.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Input/iSPARK/present_items_msk.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="138">
+              <caret line="56" column="19" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -194,15 +201,15 @@
         <option value="$PROJECT_DIR$/Input/iSPARK/present_items_kzn.txt" />
         <option value="$PROJECT_DIR$/Output/Avito/AdsXML_tat.xml" />
         <option value="$PROJECT_DIR$/src/GadgetConst.java" />
-        <option value="$PROJECT_DIR$/src/GadgetGroup.java" />
         <option value="$PROJECT_DIR$/Input/AMOLED/price_list.txt" />
         <option value="$PROJECT_DIR$/Input/AMOLED/present_items_kzn.txt" />
         <option value="$PROJECT_DIR$/src/Gadgets.java" />
         <option value="$PROJECT_DIR$/Input/AMOLED/present_items_msk.txt" />
         <option value="$PROJECT_DIR$/Input/iSPARK/update_items_kzn.txt" />
-        <option value="$PROJECT_DIR$/Input/iSPARK/update_items_msk.txt" />
-        <option value="$PROJECT_DIR$/Input/AMOLED/update_items_kzn.txt" />
+        <option value="$PROJECT_DIR$/src/GadgetGroup.java" />
         <option value="$PROJECT_DIR$/Input/AMOLED/update_items_msk.txt" />
+        <option value="$PROJECT_DIR$/Input/AMOLED/update_items_kzn.txt" />
+        <option value="$PROJECT_DIR$/Input/iSPARK/update_items_msk.txt" />
       </list>
     </option>
   </component>
@@ -1032,14 +1039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Input/iSPARK/present_items_msk.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_tat.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -1062,16 +1061,6 @@
           <caret line="29" column="67" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
           <folding>
             <element signature="e#4614#4622#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GadgetGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="238" column="0" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1113,7 +1102,7 @@
         <state relative-caret-position="64592">
           <caret line="2984" column="9" selection-start-line="2984" selection-start-column="9" selection-end-line="2984" selection-end-column="9" />
           <folding>
-            <marker date="1514443583421" expanded="true" signature="40:341203" ph="..." />
+            <marker date="1514452629698" expanded="true" signature="40:341229" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1134,7 +1123,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Input/iSPARK/update_items_msk.txt">
+    <entry file="file://$PROJECT_DIR$/Input/AMOLED/present_items_msk.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1142,10 +1131,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Input/AMOLED/present_items_msk.txt">
+    <entry file="file://$PROJECT_DIR$/src/GadgetGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="84">
+          <caret line="318" column="38" selection-start-line="318" selection-start-column="38" selection-end-line="318" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/iSPARK/present_items_msk.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="56" column="19" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1159,6 +1158,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Input/AMOLED/update_items_msk.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/iSPARK/update_items_msk.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
