@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/AMOLEDgadgets.db" afterPath="$PROJECT_DIR$/DB/AMOLEDgadgets.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" afterPath="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" />
     </list>
@@ -80,9 +79,22 @@
       <file leaf-file-name="AdsXML_msk.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66704">
-              <caret line="3032" column="9" selection-start-line="3032" selection-start-column="9" selection-end-line="3032" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="34320">
+              <caret line="1560" column="9" selection-start-line="1560" selection-start-column="9" selection-end-line="1560" selection-end-column="9" />
+              <folding>
+                <marker date="1515060626284" expanded="true" signature="40:181992" ph="..." />
+                <marker date="1515060626284" expanded="true" signature="172625:172768" ph="..." />
+                <marker date="1515060626284" expanded="true" signature="172781:174629" ph="..." />
+                <marker date="1515060626284" expanded="true" signature="174472:174622" ph="..." />
+                <marker date="1515060626284" expanded="true" signature="174635:176453" ph="..." />
+                <marker date="1515060626284" expanded="true" signature="176303:176446" ph="..." />
+                <marker date="1515060626284" expanded="true" signature="176459:178277" ph="..." />
+                <marker date="1515060626284" expanded="true" signature="178127:178270" ph="..." />
+                <marker date="1515060626284" expanded="true" signature="178283:180130" ph="..." />
+                <marker date="1515060626284" expanded="true" signature="179973:180123" ph="..." />
+                <marker date="1515060626284" expanded="true" signature="180136:181985" ph="..." />
+                <marker date="1515060626284" expanded="true" signature="181828:181978" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,8 +102,8 @@
       <file leaf-file-name="present_items_msk.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Input/AMOLED/present_items_msk.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="103" column="27" selection-start-line="97" selection-start-column="0" selection-end-line="103" selection-end-column="27" />
+            <state relative-caret-position="208">
+              <caret line="103" column="27" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -1084,9 +1096,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66704">
-          <caret line="3032" column="9" selection-start-line="3032" selection-start-column="9" selection-end-line="3032" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="34320">
+          <caret line="1560" column="9" selection-start-line="1560" selection-start-column="9" selection-end-line="1560" selection-end-column="9" />
+          <folding>
+            <marker date="1515060626284" expanded="true" signature="40:181992" ph="..." />
+            <marker date="1515060626284" expanded="true" signature="172625:172768" ph="..." />
+            <marker date="1515060626284" expanded="true" signature="172781:174629" ph="..." />
+            <marker date="1515060626284" expanded="true" signature="174472:174622" ph="..." />
+            <marker date="1515060626284" expanded="true" signature="174635:176453" ph="..." />
+            <marker date="1515060626284" expanded="true" signature="176303:176446" ph="..." />
+            <marker date="1515060626284" expanded="true" signature="176459:178277" ph="..." />
+            <marker date="1515060626284" expanded="true" signature="178127:178270" ph="..." />
+            <marker date="1515060626284" expanded="true" signature="178283:180130" ph="..." />
+            <marker date="1515060626284" expanded="true" signature="179973:180123" ph="..." />
+            <marker date="1515060626284" expanded="true" signature="180136:181985" ph="..." />
+            <marker date="1515060626284" expanded="true" signature="181828:181978" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1132,18 +1157,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Input/AMOLED/present_items_msk.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="103" column="27" selection-start-line="97" selection-start-column="0" selection-end-line="103" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Input/iSPARK/update_items_kzn.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/AMOLED/present_items_msk.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="103" column="27" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
           <folding />
         </state>
       </provider>
