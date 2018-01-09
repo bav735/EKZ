@@ -23,7 +23,7 @@ public class GadgetConst {
     static {
         MAP_COMPANY_CITIES_PHONE_NUMBERS = new HashMap<>();
         MAP_COMPANY_CITIES_PHONE_NUMBERS.put(Gadgets.AMOLED,
-                new String[]{"84951252360", "88432118341"});
+                new String[]{"84992292911", "88432110399"});
         MAP_COMPANY_CITIES_PHONE_NUMBERS.put(Gadgets.ISPARK,
                 new String[]{"84992292911", "88432110399"});
         MAP_COMPANY_AD_TITLE_END = new HashMap<>();
