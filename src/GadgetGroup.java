@@ -113,6 +113,9 @@ public class GadgetGroup {
     }
 
     private String getAdPrice(int cityId) {
+        if (parent.companyName.equals(Gadgets.ISPARK)) {
+            cityId = 0;
+        }
         int price1 = Solution.getNumber(getPriceByCity(gadgets.get(0), cityId));
         for (ArrayList<String> gadget : gadgets) {
             price1 = Math.min(price1, Solution.getNumber(getPriceByCity(gadget, cityId)));

@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB — копия/AMOLEDgadgets.db" afterPath="$PROJECT_DIR$/DB — копия/AMOLEDgadgets.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB — копия/iSPARKgadgets.db" afterPath="$PROJECT_DIR$/DB — копия/iSPARKgadgets.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/iSPARKgadgets.db" afterPath="$PROJECT_DIR$/DB/iSPARKgadgets.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EKZ_jar/EKZ.jar" afterPath="$PROJECT_DIR$/out/artifacts/EKZ_jar/EKZ.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetConst.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetConst.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetGroup.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetGroup.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/Solution.class" afterPath="$PROJECT_DIR$/out/production/EKZ/Solution.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/AMOLED/present_items_kzn.txt" afterPath="$PROJECT_DIR$/Input/AMOLED/present_items_kzn.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/AMOLED/present_items_msk.txt" afterPath="$PROJECT_DIR$/Input/AMOLED/present_items_msk.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/iSPARK/present_items_kzn.txt" afterPath="$PROJECT_DIR$/Input/iSPARK/present_items_kzn.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/iSPARK/present_items_msk.txt" afterPath="$PROJECT_DIR$/Input/iSPARK/present_items_msk.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" afterPath="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GadgetConst.java" afterPath="$PROJECT_DIR$/src/GadgetConst.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GadgetGroup.java" afterPath="$PROJECT_DIR$/src/GadgetGroup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution.java" afterPath="$PROJECT_DIR$/src/Solution.java" />
     </list>
     <ignored path="EKZ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="present_items_kzn.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="present_items_kzn.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Input/iSPARK/present_items_kzn.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -71,8 +58,8 @@
       <file leaf-file-name="GadgetGroup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GadgetGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="100" column="11" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
+            <state relative-caret-position="66">
+              <caret line="116" column="23" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -108,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdsXML_msk.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AdsXML_msk.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="3230" column="4" selection-start-line="3230" selection-start-column="4" selection-end-line="3230" selection-end-column="4" />
+            <state relative-caret-position="44">
+              <caret line="3035" column="0" selection-start-line="3035" selection-start-column="0" selection-end-line="3035" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -212,8 +199,8 @@
         <option value="$PROJECT_DIR$/Input/iSPARK/update_items_msk.txt" />
         <option value="$PROJECT_DIR$/Input/iSPARK/present_items_msk.txt" />
         <option value="$PROJECT_DIR$/Input/iSPARK/present_items_kzn.txt" />
-        <option value="$PROJECT_DIR$/src/GadgetGroup.java" />
         <option value="$PROJECT_DIR$/src/GadgetConst.java" />
+        <option value="$PROJECT_DIR$/src/GadgetGroup.java" />
       </list>
     </option>
   </component>
@@ -1148,26 +1135,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Input/iSPARK/present_items_kzn.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GadgetGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="100" column="11" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
+        <state relative-caret-position="66">
+          <caret line="116" column="23" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="3230" column="4" selection-start-line="3230" selection-start-column="4" selection-end-line="3230" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Input/iSPARK/present_items_kzn.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="44">
+          <caret line="3035" column="0" selection-start-line="3035" selection-start-column="0" selection-end-line="3035" selection-end-column="0" />
           <folding />
         </state>
       </provider>
