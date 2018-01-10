@@ -179,6 +179,9 @@ public class GadgetGroup {
             for (String url : parent.mapGadgetMetaModelWithoutMemoryImages.get(
                     parent.getMetaModelWithoutMemory(metaModel))) {
                 imageUrls.add(url);
+                if (imageUrls.size() >= 5) {
+                    break;
+                }
             }
         }
         String res = "";
