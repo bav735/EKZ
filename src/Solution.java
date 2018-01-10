@@ -292,12 +292,14 @@ public class Solution {
         }
     }
 
-    public static void computeXMLAutoload(Gadgets gadgets, String fileName)
+    public static void computeXMLAutoload(Gadgets gadgets1, Gadgets gadgets2,
+                                          String fileName)
             throws IOException {
         System.out.println("printing..." + fileName);
         BufferedWriter writer = getOutputWriter("Output/Avito/", fileName + ".xml");
         writer.write("<Ads formatVersion=\"3\" target=\"Avito.ru\">\n");
-        writer.write(gadgets.generateXMLAutoload());
+        writer.write(gadgets1.generateXMLAutoload());
+        writer.write(gadgets2.generateXMLAutoload());
         writer.write("</Ads>");
         writer.flush();
     }
@@ -308,7 +310,7 @@ public class Solution {
 
         try {
             computeCategoryTreeFromXML(isparkGadgets);
-            computeXMLAutoload(amoledGadgets, "AdsXML_msk");
+            computeXMLAutoload(amoledGadgets, isparkGadgets, "AdsXML_msk");
 //            computeXMLAutoload(isparkGadgets, "AdsXML_tat");
         } catch (Exception e) {
             e.printStackTrace();

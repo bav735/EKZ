@@ -28,7 +28,7 @@ public class GadgetConst {
                 new String[]{"84992292911", "88432110399"});
         MAP_COMPANY_AD_TITLE_END = new HashMap<>();
         MAP_COMPANY_AD_TITLE_END.put(Gadgets.AMOLED, " Гарантия Год");
-        MAP_COMPANY_AD_TITLE_END.put(Gadgets.ISPARK, " Новый Неактивированный Все Цвета");
+        MAP_COMPANY_AD_TITLE_END.put(Gadgets.ISPARK, " Новый Гарантия Год");
         MAP_AD_ID_BEGIN = new HashMap<>();
         MAP_AD_ID_BEGIN.put(Gadgets.AMOLED, "ADT");
         MAP_AD_ID_BEGIN.put(Gadgets.ISPARK, "NEW");
