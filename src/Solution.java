@@ -303,11 +303,12 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        AMOLEDGadgets amoledGadgest = new AMOLEDGadgets();
+        AMOLEDGadgets amoledGadgets = new AMOLEDGadgets();
         ISPARKGadgets isparkGadgets = new ISPARKGadgets();
+
         try {
             computeCategoryTreeFromXML(isparkGadgets);
-            computeXMLAutoload(amoledGadgest, "AdsXML_msk");
+            computeXMLAutoload(amoledGadgets, "AdsXML_msk");
 //            computeXMLAutoload(isparkGadgets, "AdsXML_tat");
         } catch (Exception e) {
             e.printStackTrace();
@@ -330,8 +331,8 @@ public class Solution {
 //        webSiteGadgets.printYMGadgets(getOutputWriter("Output", "yandex_market_items.csv"));
 ////        webSiteGadgets.generateGadgetFiles();
 ////        galaxys.generateGadgetFiles();
-        amoledGadgest.GADGET_DB.commit();
-        amoledGadgest.GADGET_DB.close();
+        amoledGadgets.GADGET_DB.commit();
+        amoledGadgets.GADGET_DB.close();
         isparkGadgets.GADGET_DB.commit();
         isparkGadgets.GADGET_DB.close();
     }
