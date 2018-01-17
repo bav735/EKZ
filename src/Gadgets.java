@@ -216,15 +216,14 @@ public class Gadgets {
                 }
             }
         }
-//        for (Object metaModelObject : new ArrayList<>(mapMetaModelLastGadgetId.keySet())) {
-//            String metaModel = (String) metaModelObject;
-//            if (!metaModel.contains("Gb") ||
-//                    metaModel.length() > metaModel.indexOf("Gb") + 2 ||
-//                    !mapGadgetMetaModelWithoutMemorySingle.containsKey(
-//                            getMetaModelWithoutMemory(metaModel))) {
-//                mapMetaModelLastGadgetId.remove(metaModel);
-//            }
-//        }
+        for (Object metaModelObject : new ArrayList<>(mapMetaModelLastGadgetId.keySet())) {
+            String metaModel = (String) metaModelObject;
+            if (!mapGadgetMetaModelWithoutMemorySingle.containsKey(
+                    getMetaModelWithoutMemory(metaModel))) {
+//                System.out.println("test " + metaModel);
+                mapMetaModelLastGadgetId.remove(metaModel);
+            }
+        }
         //because for example 6 16gb and 6 16 gb is very different variants
         //and to add models without memory
         for (Object metaModelObject : new ArrayList<>(mapMetaModelLastGadgetId.keySet())) {
