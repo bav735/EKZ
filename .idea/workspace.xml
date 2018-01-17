@@ -1124,14 +1124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Input/AMOLED/present_items_kzn.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="87" column="29" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Input/iSPARK/present_items_kzn.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1159,6 +1151,14 @@
             <element signature="e#19022#19023#0" expanded="false" />
             <element signature="e#19058#19059#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/AMOLED/present_items_kzn.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="87" column="29" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
