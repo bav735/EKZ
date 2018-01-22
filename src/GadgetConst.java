@@ -37,7 +37,7 @@ public class GadgetConst {
     public final static String[] CITIES_FILE_END = new String[]{"msk", "kzn"};
 
     public final static String[] CITIES_LOCATION = new String[]{
-            "▶ г. Москва, ул. Сущёвский Вал, д. 5с1, время работы (пн-вс): 11.00-20.30<br>",
+            "▶ г. Москва, ул. Новослободская, д. 26с1, время работы (пн-вс): 11.00-19.00<br>",
             "▶ г. Казань, ул. Лушникова, д. 8, время работы (пн-сб): 11.00-19.00"};
 
     public final static int[] CITIES_MAX_COUNTRIES = new int[CITIES.length];
