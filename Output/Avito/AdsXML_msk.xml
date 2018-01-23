@@ -1,7 +1,7 @@
 <Ads formatVersion="3" target="Avito.ru">
 	<Ad>
 		<Id>МоскваADTAppleiPhone4Greece</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -16,7 +16,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone4SNorway</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -31,7 +31,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone5Argentina</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -46,7 +46,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone5CNorway</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -61,7 +61,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone5SEcuador</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -76,7 +76,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6Egypt</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -91,7 +91,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6PlusArgentina</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -106,7 +106,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6SEcuador</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -121,7 +121,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6SPlusNorway</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -136,7 +136,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone7Ecuador</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -151,7 +151,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone7PlusArgentina</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -166,7 +166,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone48GbParaguay</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -181,7 +181,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone416GbEgypt</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -196,7 +196,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone4S8GbEgypt</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -211,7 +211,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone4S16GbIsrael</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -226,7 +226,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone4S32GbGermany</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -241,7 +241,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone4S64GbParaguay</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -256,7 +256,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone516GbIsrael</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -271,7 +271,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone532GbEgypt</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -286,7 +286,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone564GbCambodia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -301,7 +301,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone5C16GbEcuador</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -316,7 +316,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone5C32GbNewZealand</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -331,7 +331,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone5S16GbJordan</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -346,7 +346,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone5S32GbAlgeria</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -361,7 +361,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone5S64GbIreland</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -376,7 +376,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone616GbLithuania</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -391,7 +391,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone664GbJamaica</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -406,7 +406,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6128GbJapan</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -421,7 +421,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6Plus16GbIsrael</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -436,7 +436,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6Plus64GbIsrael</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -451,7 +451,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6Plus128GbParaguay</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -466,7 +466,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6S16GbAruba</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -481,7 +481,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6S64GbJamaica</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -496,7 +496,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6S128GbItaly</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -511,7 +511,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6SPlus16GbIreland</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -526,7 +526,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6SPlus64GbIsrael</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -541,7 +541,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6SPlus128GbPeru</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -556,7 +556,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone732GbMorocco</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -571,7 +571,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone7128GbSriLanka</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -586,7 +586,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone7256GbIsrael</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -601,7 +601,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone7Plus32GbIndonesia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -616,7 +616,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone7Plus128GbIndonesia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -631,7 +631,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone7Plus256GbBulgaria</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -646,7 +646,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone48GbPeru</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -661,7 +661,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone416GbEcuador</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -676,7 +676,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone4S8GbEcuador</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -691,7 +691,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone4S16GbIreland</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -706,7 +706,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone4S32GbCambodia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -721,7 +721,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone4S64GbPeru</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -736,7 +736,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone516GbIreland</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -751,7 +751,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone532GbEcuador</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -766,7 +766,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone564GbEgypt</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -781,7 +781,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone5C16GbCanada</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -796,7 +796,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone5C32GbParaguay</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -811,7 +811,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone5S16GbLibya</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -826,7 +826,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone5S32GbPanama</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -841,7 +841,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone5S64GbDenmark</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -856,7 +856,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone616GbSlovenia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -871,7 +871,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone664GbChile</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -886,7 +886,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6128GbPanama</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -901,7 +901,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6Plus16GbIndia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -916,7 +916,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6Plus64GbIreland</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -931,7 +931,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6Plus128GbEcuador</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -946,7 +946,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6S16GbJordan</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -961,7 +961,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6S64GbChile</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -976,7 +976,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6S128GbAlgeria</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -991,7 +991,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6SPlus16GbIndia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1006,7 +1006,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6SPlus64GbIndia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1021,7 +1021,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone6SPlus128GbCanada</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1036,7 +1036,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone732GbPuertoRico</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1051,7 +1051,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone7128GbPakistan</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1066,7 +1066,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone7256GbColombia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1081,7 +1081,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone7Plus32GbHungary</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1096,7 +1096,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone7Plus128GbFinland</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1111,7 +1111,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTAppleiPhone7Plus256GbEgypt</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1126,7 +1126,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyGrandPrime8GbNorway</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1141,7 +1141,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyAlpha32GbNorway</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1156,7 +1156,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyS316GbTurkey</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1171,7 +1171,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyS416GbPeru</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1186,7 +1186,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyS4Mini8GbArgentina</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1201,7 +1201,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyS516GbParaguay</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1216,7 +1216,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyS632GbBulgaria</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1231,7 +1231,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyS6Edge32GbPeru</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1246,7 +1246,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyS732GbIsrael</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1261,7 +1261,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyS7Edge32GbCanada</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1276,7 +1276,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyA3(2015)8GbPortugal</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1291,7 +1291,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyA3(2016)16GbGermany</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1306,7 +1306,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyA5(2015)16GbGermany</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1321,7 +1321,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyA5(2016)16GbGermany</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1336,7 +1336,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyA7(2016)16GbGermany</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1351,7 +1351,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyJ5(2015)16GbPortugal</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1366,7 +1366,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyJ5(2016)16GbPortugal</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1381,7 +1381,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyJ7(2016)16GbPortugal</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1396,7 +1396,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyNote316GbArgentina</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1411,7 +1411,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyNote432GbArgentina</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1426,7 +1426,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSamsungGalaxyNote532GbArgentina</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1441,7 +1441,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSonyXperiaZ16GbNorway</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1456,7 +1456,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSonyXperiaZ116GbArgentina</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1471,7 +1471,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSonyXperiaZ1Compact16GbNorway</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1486,7 +1486,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSonyXperiaZ216GbNorway</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1501,7 +1501,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSonyXperiaZ316GbTurkey</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1516,7 +1516,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSonyXperiaZ3Compact16GbArgentina</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1531,7 +1531,7 @@
 	</Ad>
 	<Ad>
 		<Id>МоскваADTSonyXperiaZ5Compact16GbNorway</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>84992292911</ContactPhone>
 		<Region>Москва</Region>
@@ -1546,7 +1546,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhoneSE16GbFrance</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1562,7 +1562,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone4Norway</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1578,7 +1578,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone4SArgentina</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1594,7 +1594,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone5Turkey</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1610,7 +1610,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone5CArgentina</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1626,7 +1626,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone5SEgypt</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1642,7 +1642,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6Finland</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1658,7 +1658,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6PlusTurkey</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1674,7 +1674,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6SEgypt</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1690,7 +1690,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6SPlusArgentina</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1706,7 +1706,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone7Egypt</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1722,7 +1722,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone7PlusTurkey</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1738,7 +1738,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone48GbNewZealand</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1754,7 +1754,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone416GbBulgaria</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1770,7 +1770,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone4S8GbBulgaria</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1786,7 +1786,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone4S16GbIndonesia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1802,7 +1802,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone4S32GbParaguay</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1818,7 +1818,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone4S64GbBulgaria</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1834,7 +1834,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone516GbIndia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1850,7 +1850,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone5C16GbCambodia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1866,7 +1866,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone5C32GbGreece</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1882,7 +1882,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone5S16GbChina</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1898,7 +1898,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone5S32GbSaudiArabia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1914,7 +1914,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone5S64GbKorea</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1930,7 +1930,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone616GbSlovakia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1946,7 +1946,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone664GbNepal</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1962,7 +1962,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6128GbDominica</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1978,7 +1978,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6Plus16GbItaly</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -1994,7 +1994,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6Plus64GbIndonesia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2010,7 +2010,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6Plus128GbCambodia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2026,7 +2026,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6S16GbKenya</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2042,7 +2042,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6S64GbPakistan</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2058,7 +2058,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6S128GbPhilippines</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2074,7 +2074,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6SPlus16GbIndonesia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2090,7 +2090,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6SPlus64GbIndonesia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2106,7 +2106,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6SPlus128GbCambodia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2122,7 +2122,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone732GbBahrain</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2138,7 +2138,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone7128GbMorocco</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2154,7 +2154,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone7256GbKorea</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2170,7 +2170,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone7Plus32GbEgypt</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2186,7 +2186,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone7Plus128GbHungary</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2202,7 +2202,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone7Plus256GbEcuador</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2218,7 +2218,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone48GbSingapore</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2234,7 +2234,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone416GbCanada</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2250,7 +2250,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone4S8GbCanada</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2266,7 +2266,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone4S16GbIndia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2282,7 +2282,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone4S32GbBulgaria</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2298,7 +2298,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone4S64GbNewZealand</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2314,7 +2314,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone516GbIndonesia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2330,7 +2330,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone532GbCanada</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2346,7 +2346,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone564GbEcuador</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2362,7 +2362,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone5C16GbBulgaria</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2378,7 +2378,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone5C32GbPeru</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2394,7 +2394,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone5S16GbDominicanRepublic</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2410,7 +2410,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone5S32GbPhilippines</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2426,7 +2426,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone5S64GbMexico</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2442,7 +2442,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone616GbKazakhstan</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2458,7 +2458,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone664GbIvoryCoast</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2474,7 +2474,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6128GbSaudiArabia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2490,7 +2490,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6Plus16GbHungary</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2506,7 +2506,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6Plus64GbIndia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2522,7 +2522,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6Plus128GbCanada</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2538,7 +2538,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6S16GbLibya</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2554,7 +2554,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6S64GbIvoryCoast</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2570,7 +2570,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6S128GbPanama</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2586,7 +2586,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6SPlus16GbFinland</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2602,7 +2602,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6SPlus64GbIreland</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2618,7 +2618,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone6SPlus128GbBulgaria</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2634,7 +2634,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone732GbNepal</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2650,7 +2650,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone7128GbNepal</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2666,7 +2666,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone7256GbDominica</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2682,7 +2682,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone7Plus32GbFinland</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2698,7 +2698,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone7Plus128GbEgypt</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2714,7 +2714,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTAppleiPhone7Plus256GbCanada</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2730,7 +2730,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyGrandPrime8GbGreece</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2746,7 +2746,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyAlpha32GbGreece</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2762,7 +2762,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyS316GbSingapore</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2778,7 +2778,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyS416GbSingapore</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2794,7 +2794,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyS4Mini8GbNorway</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2810,7 +2810,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyS516GbPeru</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2826,7 +2826,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyS632GbNewZealand</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2842,7 +2842,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyS6Edge32GbSingapore</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2858,7 +2858,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyS732GbIreland</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2874,7 +2874,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyS7Edge32GbCambodia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2890,7 +2890,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyA3(2015)8GbGermany</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2906,7 +2906,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyA3(2016)16GbGreece</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2922,7 +2922,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyA5(2015)16GbFrance</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2938,7 +2938,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyA5(2016)16GbGreece</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2954,7 +2954,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyA7(2016)16GbFrance</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2970,7 +2970,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyJ5(2015)16GbFrance</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -2986,7 +2986,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyJ5(2016)16GbGermany</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3002,7 +3002,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyJ7(2016)16GbGermany</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3018,7 +3018,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyNote316GbNorway</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3034,7 +3034,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyNote432GbNorway</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3050,7 +3050,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSamsungGalaxyNote532GbNorway</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3066,7 +3066,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSonyXperiaZ16GbGreece</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3082,7 +3082,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSonyXperiaZ116GbNorway</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3098,7 +3098,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSonyXperiaZ1Compact16GbGreece</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3114,7 +3114,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSonyXperiaZ216GbGreece</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3130,7 +3130,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSonyXperiaZ316GbArgentina</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3146,7 +3146,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSonyXperiaZ3Compact16GbNorway</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3162,7 +3162,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньADTSonyXperiaZ5Compact16GbGreece</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3178,7 +3178,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWAppleiPhone632GbIndia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3194,7 +3194,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWAppleiPhone6S32GbItaly</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3211,7 +3211,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWAppleiPhoneSE32GbCambodia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3230,7 +3230,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWAppleiPhoneSE128GbCambodia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3249,7 +3249,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWAppleiPhone864GbHungary</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3265,7 +3265,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWAppleiPhone8256GbHungary</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3281,7 +3281,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWAppleiPhone8Plus64GbCanada</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3297,7 +3297,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWAppleiPhone8Plus256GbCanada</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3313,7 +3313,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWAppleiPhoneX64GbItaly</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3330,7 +3330,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWAppleiPhoneX256GbIreland</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3347,7 +3347,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWAppleiPhone632GbIndonesia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3363,7 +3363,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWAppleiPhone6S32GbIreland</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3380,7 +3380,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWAppleiPhoneSE32GbCanada</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3399,7 +3399,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWAppleiPhoneSE128GbBulgaria</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3418,7 +3418,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWAppleiPhone864GbIndonesia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3434,7 +3434,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWAppleiPhone8256GbIndonesia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3450,7 +3450,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWAppleiPhone8Plus64GbEgypt</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3466,7 +3466,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWAppleiPhone8Plus256GbCambodia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3482,7 +3482,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWAppleiPhoneX64GbIreland</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3499,7 +3499,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWAppleiPhoneX256GbIsrael</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3516,7 +3516,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWSamsungGalaxyA3(2017)16GbArgentina</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3534,7 +3534,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWSamsungGalaxyA5(2017)32GbArgentina</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3552,7 +3552,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWSamsungGalaxyA7(2017)32GbNorway</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3570,7 +3570,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWSamsungGalaxyS8Plus64GbPeru</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3588,7 +3588,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWSamsungGalaxyS864GbIndia</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3606,7 +3606,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWSamsungGalaxyNote864GbSingapore</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3624,7 +3624,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWSonyXperiaXA16GbPeru</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3644,7 +3644,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWXiaomiRedmi4A16GbPeru</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3661,7 +3661,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWXiaomiRedmi4A32GbSingapore</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3678,7 +3678,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWXiaomiRedmi4X16GbBulgaria</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3694,7 +3694,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWXiaomiRedmi4X32GbParaguay</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3710,7 +3710,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWXiaomiRedmiNote432GbEcuador</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3728,7 +3728,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWXiaomiRedmiNote5A16GbPeru</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3745,7 +3745,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWXiaomiMiMIX128GbArgentina</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>
@@ -3761,7 +3761,7 @@
 	</Ad>
 	<Ad>
 		<Id>КазаньNEWXiaomiMiMIX256GbArgentina</Id>
-		<AllowEmail>Да</AllowEmail>
+		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор-консультант</ManagerName>
 		<ContactPhone>88432110399</ContactPhone>
 		<Region>Татарстан</Region>

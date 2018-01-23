@@ -145,7 +145,7 @@ public class GadgetGroup {
         if (isArrangement /*!isGlobal*/) {
             ad += "\t\t<DateBegin>" + getAdDate() + "</DateBegin>\n";
         }
-        ad += "\t\t<AllowEmail>Да</AllowEmail>\n";
+        ad += "\t\t<AllowEmail>Нет</AllowEmail>\n";
         ad += "\t\t<ManagerName>Оператор-консультант</ManagerName>\n";
         ad += "\t\t<ContactPhone>" + GadgetConst.MAP_COMPANY_CITIES_PHONE_NUMBERS
                 .get(parent.companyName)[cityId] + "</ContactPhone>\n";
