@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/AMOLEDgadgets.db" afterPath="$PROJECT_DIR$/DB/AMOLEDgadgets.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/iSPARKgadgets.db" afterPath="$PROJECT_DIR$/DB/iSPARKgadgets.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EKZ_jar/EKZ.jar" afterPath="$PROJECT_DIR$/out/artifacts/EKZ_jar/EKZ.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetGroup.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetGroup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/Gadgets.class" afterPath="$PROJECT_DIR$/out/production/EKZ/Gadgets.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" afterPath="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GadgetGroup.java" afterPath="$PROJECT_DIR$/src/GadgetGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gadgets.java" afterPath="$PROJECT_DIR$/src/Gadgets.java" />
     </list>
     <ignored path="EKZ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,37 +29,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Gadgets.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AMOLEDGadgets.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AMOLEDGadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="88">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="present_items_kzn.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Input/iSPARK/present_items_kzn.txt">
+      <file leaf-file-name="present_items_msk.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Input/iSPARK/present_items_msk.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="29" column="20" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="20" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GadgetGroup.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GadgetGroup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GadgetGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="147" column="34" selection-start-line="147" selection-start-column="34" selection-end-line="147" selection-end-column="34" />
+            <state relative-caret-position="106">
+              <caret line="146" column="9" selection-start-line="146" selection-start-column="9" selection-end-line="146" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update_items_kzn.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="update_items_kzn.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Input/iSPARK/update_items_kzn.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -77,8 +89,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="price_list.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Input/AMOLED/price_list.txt">
+      <file leaf-file-name="update_items_msk.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Input/iSPARK/update_items_msk.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -87,21 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GadgetConst.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GadgetConst.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="454" column="47" selection-start-line="454" selection-start-column="39" selection-end-line="454" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="present_items_kzn.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Input/AMOLED/present_items_kzn.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="103" column="27" selection-start-line="94" selection-start-column="0" selection-end-line="103" selection-end-column="27" />
+            <state relative-caret-position="138">
+              <caret line="94" column="26" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -120,9 +122,81 @@
       <file leaf-file-name="AdsXML_msk.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="399" column="8" selection-start-line="399" selection-start-column="8" selection-end-line="399" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="69916">
+              <caret line="3178" column="0" selection-start-line="3178" selection-start-column="0" selection-end-line="3178" selection-end-column="0" />
+              <folding>
+                <marker date="1516781307632" expanded="true" signature="40:426982" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="46:362466" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="362389:362459" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="362472:364342" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="364207:364335" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="364348:366342" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="366091:366335" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="366348:368345" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="368094:368338" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="368351:370175" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="370098:370168" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="370181:372008" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="371931:372001" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="372014:373839" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="373762:373832" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="373845:375673" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="375596:375666" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="375679:377546" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="377411:377539" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="377552:379425" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="379290:379418" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="379431:381251" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="381174:381244" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="381257:383128" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="382993:383121" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="383134:385120" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="384869:385113" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="385126:387120" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="386869:387113" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="387126:388946" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="388869:388939" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="388952:390775" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="390698:390768" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="390781:392606" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="392529:392599" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="392612:394444" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="394367:394437" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="394450:396318" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="396183:396311" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="396324:398198" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="398063:398191" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="398204:400168" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="399975:400161" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="400174:402138" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="401945:402131" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="402144:404103" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="403910:404096" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="404109:406058" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="405865:406051" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="406064:408001" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="407808:407994" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="408007:409959" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="409766:409952" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="409965:412004" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="411695:411997" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="412010:413889" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="413754:413882" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="413895:415780" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="415645:415773" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="415786:417614" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="417537:417607" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="417620:419457" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="419380:419450" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="419463:421418" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="421225:421411" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="421424:423307" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="423172:423300" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="423313:425141" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="425064:425134" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="425147:426975" ph="..." />
+                <marker date="1516781307632" expanded="true" signature="426898:426968" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,19 +264,19 @@
         <option value="$PROJECT_DIR$/Output/Avito/AdsXML_tat.xml" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/Input/AMOLED/present_items_msk.txt" />
-        <option value="$PROJECT_DIR$/Input/iSPARK/update_items_msk.txt" />
         <option value="$PROJECT_DIR$/Input/iSPARK/present_items_msk.txt" />
         <option value="$PROJECT_DIR$/Input/AMOLED/present_items_kzn.txt" />
         <option value="$PROJECT_DIR$/src/AMOLEDGadgets.java" />
         <option value="$PROJECT_DIR$/Input/iSPARK/present_items_kzn.txt" />
-        <option value="$PROJECT_DIR$/src/Gadgets.java" />
         <option value="$PROJECT_DIR$/src/GadgetConst.java" />
         <option value="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" />
         <option value="$PROJECT_DIR$/Input/AMOLED/price_list.txt" />
-        <option value="$PROJECT_DIR$/Input/iSPARK/update_items_kzn.txt" />
-        <option value="$PROJECT_DIR$/Input/AMOLED/update_items_kzn.txt" />
-        <option value="$PROJECT_DIR$/Input/AMOLED/update_items_msk.txt" />
         <option value="$PROJECT_DIR$/src/GadgetGroup.java" />
+        <option value="$PROJECT_DIR$/Input/iSPARK/update_items_kzn.txt" />
+        <option value="$PROJECT_DIR$/src/Gadgets.java" />
+        <option value="$PROJECT_DIR$/Input/AMOLED/update_items_msk.txt" />
+        <option value="$PROJECT_DIR$/Input/iSPARK/update_items_msk.txt" />
+        <option value="$PROJECT_DIR$/Input/AMOLED/update_items_kzn.txt" />
       </list>
     </option>
   </component>
@@ -790,14 +864,14 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32286212" sideWeight="0.4941435" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35738832" sideWeight="0.51755726" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34904015" sideWeight="0.48244274" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32635254" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25877863" sideWeight="0.48421052" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24961832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -806,11 +880,11 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.51578945" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1026,13 +1100,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_tat.xml" />
-    <entry file="file://$PROJECT_DIR$/Input/iSPARK/update_items_msk.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Input/countries.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1040,25 +1107,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Input/iSPARK/present_items_msk.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="307" column="0" selection-start-line="307" selection-start-column="0" selection-end-line="307" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="233" column="31" selection-start-line="233" selection-start-column="31" selection-end-line="233" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1071,42 +1123,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Input/iSPARK/present_items_kzn.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Input/AMOLED/present_items_kzn.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="103" column="27" selection-start-line="94" selection-start-column="0" selection-end-line="103" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AMOLEDGadgets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GadgetConst.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="454" column="47" selection-start-line="454" selection-start-column="39" selection-end-line="454" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="399" column="8" selection-start-line="399" selection-start-column="8" selection-end-line="399" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1119,7 +1139,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Input/iSPARK/present_items_kzn.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69916">
+          <caret line="3178" column="0" selection-start-line="3178" selection-start-column="0" selection-end-line="3178" selection-end-column="0" />
+          <folding>
+            <marker date="1516781307632" expanded="true" signature="40:426982" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="46:362466" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="362389:362459" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="362472:364342" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="364207:364335" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="364348:366342" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="366091:366335" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="366348:368345" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="368094:368338" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="368351:370175" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="370098:370168" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="370181:372008" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="371931:372001" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="372014:373839" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="373762:373832" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="373845:375673" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="375596:375666" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="375679:377546" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="377411:377539" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="377552:379425" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="379290:379418" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="379431:381251" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="381174:381244" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="381257:383128" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="382993:383121" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="383134:385120" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="384869:385113" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="385126:387120" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="386869:387113" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="387126:388946" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="388869:388939" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="388952:390775" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="390698:390768" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="390781:392606" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="392529:392599" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="392612:394444" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="394367:394437" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="394450:396318" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="396183:396311" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="396324:398198" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="398063:398191" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="398204:400168" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="399975:400161" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="400174:402138" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="401945:402131" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="402144:404103" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="403910:404096" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="404109:406058" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="405865:406051" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="406064:408001" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="407808:407994" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="408007:409959" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="409766:409952" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="409965:412004" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="411695:411997" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="412010:413889" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="413754:413882" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="413895:415780" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="415645:415773" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="415786:417614" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="417537:417607" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="417620:419457" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="419380:419450" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="419463:421418" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="421225:421411" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="421424:423307" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="423172:423300" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="423313:425141" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="425064:425134" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="425147:426975" ph="..." />
+            <marker date="1516781307632" expanded="true" signature="426898:426968" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/AMOLED/present_items_kzn.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="94" column="26" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GadgetGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="146" column="9" selection-start-line="146" selection-start-column="9" selection-end-line="146" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AMOLEDGadgets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/iSPARK/present_items_msk.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Input/AMOLED/update_items_kzn.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/iSPARK/update_items_msk.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1139,14 +1295,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GadgetGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="147" column="34" selection-start-line="147" selection-start-column="34" selection-end-line="147" selection-end-column="34" />
           <folding />
         </state>
       </provider>
