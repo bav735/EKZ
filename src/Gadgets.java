@@ -91,7 +91,7 @@ public class Gadgets {
             for (String metaModel : metaModelsPresent) {
                 isCorrect &= mapMetaModelLastGadgetId.containsKey(metaModel);
                 if (!isCorrect) {
-                    System.out.println("check "+metaModel);
+                    System.out.println("check " + metaModel);
                 }
             }
             if (!isCorrect) {
@@ -159,7 +159,7 @@ public class Gadgets {
         Scanner inScanner = Solution.getInputScanner(companyName + "/price_list.txt");
         while (inScanner.hasNextLine()) {
             String line = inScanner.nextLine();
-            if (!line.contains(MEMORY_GB)) {
+            if (!line.contains(MEMORY_GB) || line.contains(GadgetConst.ADTnoTouchID)) {
                 continue;
             }
             line = line.replace(" (Snapdragon 625) ", " ")
