@@ -15,15 +15,40 @@ public class GadgetConst {
     final static String CPO = "CPO";
 
     public final static String[] CITIES = new String[]{"Москва", "Казань"};
+    public final static ArrayList<String> DIFFERENCES[];
+    public final static ArrayList<String> VARIANTS;
 
     public final static HashMap<String, String[]> MAP_COMPANY_CITIES_PHONE_NUMBERS;
     public final static HashMap<String, String> MAP_COMPANY_AD_TITLE_END;
     public final static HashMap<String, String> MAP_AD_ID_BEGIN;
-
     public final static Random RANDOM;
 
     static {
-        RANDOM =new Random();
+        DIFFERENCES = new ArrayList[2];
+        DIFFERENCES[0] = new ArrayList<String>(Arrays.asList("центре",
+                "правом верхнем углу",
+                "правом нижнем углу",
+                "левом верхнем углу",
+                "левом нижнем углу"));
+        DIFFERENCES[1] = new ArrayList<String>(Arrays.asList("экрана",
+                "левой грани корпуса",
+                "правой грани корпуса",
+                "нижней грани корпуса",
+                "верхней грани корпуса",
+                "задней грани корпуса"));
+        ArrayList<String> tVariants = new ArrayList<>();
+        for (int i = 0; i < DIFFERENCES[0].size(); i++) {
+            for (int j = 0; j < DIFFERENCES[1].size(); j++) {
+                tVariants.add("в " + DIFFERENCES[0].get(i) + " " + DIFFERENCES[1].get(j));
+            }
+        }
+        VARIANTS = new ArrayList<>();
+        for (int i = 0; i < tVariants.size(); i++) {
+            for (int j = i + 1; j < tVariants.size(); j++) {
+                VARIANTS.add(tVariants.get(i) + " и " + tVariants.get(j));
+            }
+        }
+        RANDOM = new Random();
         MAP_COMPANY_CITIES_PHONE_NUMBERS = new HashMap<>();
         MAP_COMPANY_CITIES_PHONE_NUMBERS.put(Gadgets.AMOLED,
                 new String[]{"84992292911", "88432110399"});
