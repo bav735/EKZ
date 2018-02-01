@@ -155,8 +155,7 @@ public class AMOLEDGadgets extends Gadgets {
                     ArrayList<GadgetGroup> gadgets = gadgetsByMetaModel.get(metaModel);
                     for (int metaModelId = 0; metaModelId < mapMetaModelGadgetsByVendor[i].get(metaModel)
                             .size() && gadgets.size() < getMetaModelAdsSize(vendor, metaModel, cityId); metaModelId++) {
-                        String country = GadgetConst.COUNTRIES.get(countryId);
-                        GadgetGroup gadget = new GadgetGroup(country, metaModel, this);
+                        GadgetGroup gadget = new GadgetGroup(countryId, metaModel, this);
                         gadget.gadgets.add(mapMetaModelGadgetsByVendor[i]
                                 .get(metaModel).get(metaModelId));
                         gadgets.add(gadget);

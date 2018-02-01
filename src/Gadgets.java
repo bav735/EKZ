@@ -361,8 +361,8 @@ public class Gadgets {
         mapGadgetMetaModelGadgetGroups = new LinkedHashMap<>();
         for (String metaModel : mapMetaModelGadgets.keySet()) {
             ArrayList<GadgetGroup> gadgetGroups = new ArrayList<>();
-            for (String country : GadgetConst.COUNTRIES) {
-                GadgetGroup gadgetGroup = new GadgetGroup(country, metaModel, this);
+            for (int i = 0; i < GadgetConst.COUNTRIES.size(); i++) {
+                GadgetGroup gadgetGroup = new GadgetGroup(i, metaModel, this);
                 gadgetGroup.gadgets.addAll(mapMetaModelGadgets.get(metaModel));
                 gadgetGroups.add(gadgetGroup);
             }

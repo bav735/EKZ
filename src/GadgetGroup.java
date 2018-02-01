@@ -16,6 +16,7 @@ public class GadgetGroup {
     final static int MINUTE_OFFSET = 33;
     ArrayList<ArrayList<String>> gadgets;
     String country;
+    int countryId;
     String metaModel;
     //    String vendor;
 //    String metaModel;
@@ -55,8 +56,9 @@ public class GadgetGroup {
         calendar.set(Calendar.MILLISECOND, 0);
     }
 
-    public GadgetGroup(String country, String metaModel, Gadgets gadgets) {
-        this.country = country;
+    public GadgetGroup(int countryId, String metaModel, Gadgets gadgets) {
+        this.countryId = countryId;
+        country = GadgetConst.COUNTRIES.get(countryId);
         this.gadgets = new ArrayList<>();
         this.metaModel = metaModel;
         parent = gadgets;
@@ -97,9 +99,9 @@ public class GadgetGroup {
                 + GadgetConst.MAP_COMPANY_AD_TITLE_END.get(parent.companyName);
 //        if (parent.companyName.equals(Gadgets.AMOLED)) {
         if (cityId > 0) {
-            title += " Рассрочка Все Цвета";
+            title += " Рассрочка Оригинал";
         } else {
-            title += " Оригинал Все Цвета";
+            title += " Оригинал";
         }
 //        }
         return transformSpaceMemory(title);
@@ -165,7 +167,7 @@ public class GadgetGroup {
         ad += "\t\t<Description>" + getAdText() + "</Description>\n";
         ad += "\t\t<Price>" + getAdPrice(cityId) + "</Price>\n";
         ad += "\t\t<Images>\n";
-        ad += getImageAvitoUrls();
+//        ad += getImageAvitoUrls();
         ad += "\t\t</Images>\n";
         ad += "\t</Ad>\n";
         return ad;
@@ -220,24 +222,23 @@ public class GadgetGroup {
         }
         text += "\uD83D\uDD39 ОПЛАТА кредитной/дебетовой КАРТОЙ<br>";
         text += "\uD83D\uDD39 ОПТ, ОПЛАТА ЧЕРЕЗ Р/С (ндс и без ндс)<br>";
-        if (cityId > 0) {
-            text += "\uD83D\uDD39 САМОВЫВОЗ из розничной точки продаж<br>";
-        }
+        text += "\uD83D\uDD39 САМОВЫВОЗ из розничной точки продаж<br>";
         text += "\uD83D\uDD1DМы занимаемся продажей смартфонов более 7 лет!</p>";
-        text += "<p>✅ запечатаны в фабричную пленку, оплата по факту вскрытия и проверки<br>";
-        text += "✅ абсолютно без следов эксплуатации, отлично подойдет для подарка<br>";
-        text += "✅ оригинал, ";
-        if (parent.companyName.equals(Gadgets.ISPARK)) {
-            text += "не";
-        }
-        text += "активирован, для пользования в " + country + ", " +
-                " оператор " + GadgetConst.MAP_COUNTRIES_OPERATOR.get(country) + "<br>";
-        if (cityId > 0) {
-            text += "✅ перед визитом в магазин, просим бронировать интересующий вас товар";
-        }
+        text += "<p>✅ телефон евротест, в идеальном состоянии, отличный подарок<br>";
+        text += "✅ 100% оригинал, оплата только после полной вашей проверки<br>";
+        text += "✅ документы к вашей покупке: товарный чек и гарантийный талон";
+//        if (parent.companyName.equals(Gadgets.ISPARK)) {
+//            text += "не";
+//        }
+//        text += "активирован, для пользования в " + country + ", " +
+//                " оператор " + GadgetConst.MAP_COUNTRIES_OPERATOR.get(country) + "<br>";
+//        if (cityId > 0) {
+//        }
         text += "</p><p>✔ гарантия на обмен 14 дней при возникновении заводского брака<br>";
         text += "✔ по истечению 14 дней действует гарантия на ремонт на 1 год<br>";
-        text += "✔ документы к вашей покупке: товарный чек и гарантийный талон<br>";
+        text += "✔ перед визитом к нам, бронируйте интересующий вас товар<br>";
+        text += "✔ серийный номер: " + countryId
+                + (100000 + GadgetConst.RANDOM.nextInt(900000));
         text += "<p>Наше местоположение\uD83C\uDF0D<br>" +
                 "▶ г. Москва, ул. Новослободская, д. 26с1, время работы: 11.00-19.00<br>" +
                 "▶ г. Казань, ул. Лушникова, д. 8, время работы: 11.00-19.00 (пн-сб)</p>";
