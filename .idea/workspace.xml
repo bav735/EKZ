@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/AMOLEDgadgets.db" afterPath="$PROJECT_DIR$/DB/AMOLEDgadgets.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/AMOLED/present_items_kzn.txt" afterPath="$PROJECT_DIR$/Input/AMOLED/present_items_kzn.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/iSPARK/present_items_kzn.txt" afterPath="$PROJECT_DIR$/Input/iSPARK/present_items_kzn.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/iSPARK/present_items_msk.txt" afterPath="$PROJECT_DIR$/Input/iSPARK/present_items_msk.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" afterPath="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" />
     </list>
     <ignored path="EKZ.iws" />
@@ -25,16 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Gadgets.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="162" column="25" selection-start-line="162" selection-start-column="25" selection-end-line="162" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="price_list.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Input/AMOLED/price_list.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,8 +37,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GadgetConst.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GadgetConst.java">
+      <file leaf-file-name="present_items_msk.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Input/iSPARK/present_items_msk.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -55,17 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update_items_kzn.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Input/iSPARK/update_items_kzn.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update_items_msk.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="update_items_msk.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Input/AMOLED/update_items_msk.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -78,8 +60,18 @@
       <file leaf-file-name="present_items_msk.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Input/AMOLED/present_items_msk.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="present_items_kzn.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Input/iSPARK/present_items_kzn.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -95,11 +87,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdsXML_msk.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml">
+      <file leaf-file-name="present_items_kzn.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Input/AMOLED/present_items_kzn.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdsXML_msk.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2761" column="29" selection-start-line="2761" selection-start-column="29" selection-end-line="2761" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -187,13 +189,10 @@
         <option value="$PROJECT_DIR$/src/ISPARKGadgets.java" />
         <option value="$PROJECT_DIR$/Output/Avito/AdsXML_tat.xml" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
-        <option value="$PROJECT_DIR$/Input/AMOLED/present_items_kzn.txt" />
         <option value="$PROJECT_DIR$/src/AMOLEDGadgets.java" />
-        <option value="$PROJECT_DIR$/Input/iSPARK/present_items_kzn.txt" />
         <option value="$PROJECT_DIR$/src/GadgetConst.java" />
         <option value="$PROJECT_DIR$/Input/iSPARK/update_items_kzn.txt" />
         <option value="$PROJECT_DIR$/Input/iSPARK/update_items_msk.txt" />
-        <option value="$PROJECT_DIR$/Input/iSPARK/present_items_msk.txt" />
         <option value="$PROJECT_DIR$/Input/AMOLED/present_items_msk.txt" />
         <option value="$PROJECT_DIR$/src/GadgetGroup.java" />
         <option value="$PROJECT_DIR$/src/Gadgets.java" />
@@ -201,6 +200,9 @@
         <option value="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" />
         <option value="$PROJECT_DIR$/Input/AMOLED/update_items_kzn.txt" />
         <option value="$PROJECT_DIR$/Input/AMOLED/update_items_msk.txt" />
+        <option value="$PROJECT_DIR$/Input/AMOLED/present_items_kzn.txt" />
+        <option value="$PROJECT_DIR$/Input/iSPARK/present_items_msk.txt" />
+        <option value="$PROJECT_DIR$/Input/iSPARK/present_items_kzn.txt" />
       </list>
     </option>
   </component>
@@ -1032,13 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Input/iSPARK/present_items_kzn.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AMOLEDGadgets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1046,22 +1041,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Input/iSPARK/present_items_msk.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Input/AMOLED/present_items_kzn.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1105,22 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Input/countries.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Input/AMOLED/price_list.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1129,10 +1092,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Input/AMOLED/present_items_msk.txt">
+    <entry file="file://$PROJECT_DIR$/Input/countries.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        <state relative-caret-position="297">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/AMOLED/present_items_kzn.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/AMOLED/update_items_msk.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1145,10 +1124,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Input/AMOLED/update_items_msk.txt">
+    <entry file="file://$PROJECT_DIR$/Input/AMOLED/present_items_msk.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/iSPARK/present_items_msk.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/iSPARK/present_items_kzn.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2761" column="29" selection-start-line="2761" selection-start-column="29" selection-end-line="2761" selection-end-column="29" />
           <folding />
         </state>
       </provider>
