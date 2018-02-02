@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/imei_numbers.txt" afterPath="$PROJECT_DIR$/Input/imei_numbers.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" afterPath="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/countries.txt" afterPath="$PROJECT_DIR$/Input/countries.txt" />
     </list>
     <ignored path="EKZ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,16 +56,6 @@
       <file leaf-file-name="present_items_msk.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Input/AMOLED/present_items_msk.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="present_items_kzn.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Input/iSPARK/present_items_kzn.txt">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
@@ -104,11 +93,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdsXML_msk.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml">
+      <file leaf-file-name="countries.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Input/countries.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdsXML_msk.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="422" column="49" selection-start-line="422" selection-start-column="38" selection-end-line="422" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -163,7 +162,6 @@
         <option value="$PROJECT_DIR$/Input/ads_per_month.txt" />
         <option value="$PROJECT_DIR$/Input/autoload_items_kzn.txt" />
         <option value="$PROJECT_DIR$/Input/autoload_items_msk.txt" />
-        <option value="$PROJECT_DIR$/Input/countries.txt" />
         <option value="$PROJECT_DIR$/Input/selected_autoload_items_msk.txt" />
         <option value="$PROJECT_DIR$/Input/present_items_kzn.txt" />
         <option value="$PROJECT_DIR$/Input/present_items_msk.txt" />
@@ -200,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/GadgetConst.java" />
         <option value="$PROJECT_DIR$/src/GadgetGroup.java" />
         <option value="$PROJECT_DIR$/Input/imei_numbers.txt" />
+        <option value="$PROJECT_DIR$/Input/countries.txt" />
       </list>
     </option>
   </component>
@@ -1063,14 +1062,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Input/countries.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Input/AMOLED/present_items_kzn.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1099,14 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Input/AMOLED/present_items_msk.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1151,7 +1134,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Input/AMOLED/present_items_msk.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="422" column="49" selection-start-line="422" selection-start-column="38" selection-end-line="422" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/countries.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
