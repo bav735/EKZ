@@ -1,3 +1,18 @@
+*35274506183923	DCT Samsung Galaxy S4 16Gb
+*359544057295390	DCT Samsung Galaxy S4 16Gb
+*358661059108370	DCT Samsung Galaxy S4 16Gb
+*358661059108370	DCT Samsung Galaxy S4 16Gb
+*357139050435747	DCT Samsung Galaxy S4 16Gb
+*353514063164555	DCT Samsung Galaxy S4 16Gb
+*352745064456589	DCT Samsung Galaxy S4 16Gb
+*352542000807854	DCT Samsung Galaxy S4 16Gb
+*358904059419805	DCT Samsung Galaxy S4 16Gb
+*359544055166783	DCT Samsung Galaxy S4 16Gb
+*358661055423310	DCT Samsung Galaxy S4 16Gb
+*355172053119481	DCT Samsung Galaxy S4 16Gb
+*358661056319889	DCT Samsung Galaxy S4 16Gb
+*355846061202401	ADT Samsung Galaxy S4 32Gb Black
+*357445054010794	ADT Samsung Galaxy S4 32Gb White
 *358804070987857	DCT Samsung Galaxy A5 (2016) 16Gb
 *990004888436163	ADT Samsung Galaxy Note 4 32Gb Black
 *359520060487802	ADT Samsung Galaxy S6 Edge 32Gb Black
@@ -99,17 +114,15 @@
 *352066068278113	EST Apple iPhone 6 Plus 16Gb Без Отп Gold
 *352023063442707	EST Apple iPhone 5S 32Gb Без Отп Silver
 *355691072268912	DCT Apple iPhone 6S 128Gb Rose Gold
-*352008066488039	Б/У Apple iPhone 5S 16GB Gold
+*352008066488039	Б/У Apple iPhone 5S 16Gb Gold
 *356559084057517	RST Apple iPhone 7 32Gb Rose Gold
 *355329087417733	RST Apple iPhone 7 128Gb Gold
 *355330089689733	RST Apple iPhone 7 32Gb Black
 *353841086900354	RST Apple iPhone 7 128Gb Jet Black
 *356560082206544	RST Apple iPhone 7 128Gb Red
 *356556084112524	RST Apple iPhone 7 128Gb Black
-*354405063365400	Б/У iPhone 6 16gb без отп space gray
+*354405063365400	Б/У iPhone 6 16Gb без отп space gray
 *358810058941980	EST Apple iPhone 5S 16Gb Space Gray
-*352015065101034	EST Apple iPhone 5S 16Gb Space Gray
-*358030055305671	EST Apple iPhone 5S 32Gb Без Отп Space Gray
 *013848009895464	EST Apple iPhone 5S 32Gb Без Отп Silver
 *013137003385817	EST Apple iPhone 4S 16Gb White
 *013145006055998	EST Apple iPhone 4S 16Gb Black
@@ -133,7 +146,7 @@
 *353336072873632	EST Apple iPhone 6S Plus 64Gb Space Gray
 *353350070040409	EST Apple iPhone 6S Plus 64Gb Space Gray
 *352065069942065	EST Apple iPhone 6 64Gb Space Gray
-*356316069412609	Б/У Samsung Galaxy A 5 16GB Black
+*356316069412609	Б/У Samsung Galaxy A 5 16Gb Black
 *353800083603379	RST Apple iPhone 6S 16Gb Gold
 *355210060649403	EST Samsung Galaxy Alpha 32Gb White
 *355322080561995	RST Apple iPhone 7 128Gb Jet Black
@@ -161,7 +174,7 @@
 *355399089038316	RST Apple iPhone 6S 32Gb Silver
 *013991001452486	EST Apple iPhone 5S 16Gb Без Отп Silver
 *35875605139670	EST Apple iPhone 5S 16Gb Без Отп Space Gray
-*990001033775107	Б/У Iphone 4s 8gb black
+*990001033775107	Б/У Iphone 4s 8Gb black
 *355419078234872	EST Apple iPhone 6S 16Gb Space Gray
 *353024051079633	EST Samsung Galaxy S3 16Gb White
 *357334070804077	EST Samsung Galaxy A3 (2016) 16Gb Gold
