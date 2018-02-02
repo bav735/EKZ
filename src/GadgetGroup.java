@@ -202,11 +202,12 @@ public class GadgetGroup {
 
     private String getAdText() {
         String text = "<![CDATA[<p>";
-        String quality = parent.getQuality(gadgets.get(0));
-        text += transformSpaceMemory(parent.getGadgetName(gadgets.get(0), getFirstAttr(),
-                getLastAttr()));
-        String warrantyCost = parent.getPrice(gadgets.get(0),
-                Gadgets.YEAR_WARRANTY_COST);
+//        String quality = parent.getQuality(gadgets.get(0));
+        String gadgetName = transformSpaceMemory(parent.getGadgetName(gadgets.get(0),
+                getFirstAttr(), getLastAttr()));
+        text += gadgetName;
+//        String warrantyCost = parent.getPrice(gadgets.get(0),
+//                Gadgets.YEAR_WARRANTY_COST);
         text += " в магазине AMOLED\uD83C\uDF08<br>" +
                 "➡У нас в продаже весь модельный ряд производителя!</p>";
         text += "<p>\uD83D\uDC9BМы всегда идем навстречу нашим покупателям.<br>" +
@@ -224,7 +225,7 @@ public class GadgetGroup {
         text += "\uD83D\uDD39 ОПТ, ОПЛАТА ЧЕРЕЗ Р/С (ндс и без ндс)<br>";
         text += "\uD83D\uDD39 САМОВЫВОЗ из розничной точки продаж<br>";
         text += "\uD83D\uDD1DМы занимаемся продажей смартфонов более 7 лет!</p>";
-        text += "<p>✅ телефон как новый, в прекрасном состоянии, отличный подарок<br>";
+        text += "<p>✅ телефон как новый, в идеальном состоянии, отличный подарок<br>";
         text += "✅ евротест, все функции протестированы, работает с любыми sim<br>";
         text += "✅ 100% оригинал, оплата только после полной вашей проверки<br>";
         text += "✅ документы к вашей покупке: товарный чек и гарантийный талон";
@@ -238,7 +239,8 @@ public class GadgetGroup {
         text += "</p><p>✔ гарантия на обмен 14 дней при возникновении заводского брака<br>";
         text += "✔ по истечению 14 дней действует гарантия на ремонт на 1 год<br>";
         text += "✔ перед визитом к нам, бронируйте интересующий вас товар<br>";
-        text += "✔ 2 единственных незаметных микроцарапинки: " + GadgetConst.VARIANTS.get(countryId);
+        text += "✔ IMEI-номер: " + getUnusedIMEI(parent.getGadgetName(gadgets.get(0),
+                Gadgets.VENDOR, Gadgets.MEMORY));
         text += "</p><p>Наше местоположение\uD83C\uDF0D<br>" +
                 "▶ г. Москва, ул. Новослободская, д. 26с1, время работы: 11.00-19.00<br>" +
                 "▶ г. Казань, ул. Лушникова, д. 8, время работы: 11.00-19.00 (пн-сб)</p>";
@@ -338,6 +340,14 @@ public class GadgetGroup {
         text += "</p>";
         text += "]]>";
         return text;
+    }
+
+    private String getUnusedIMEI(String gadgetName) {
+        ArrayList<String> IMEIs = GadgetConst.MAP_GADGET_NAME_IMEIS.get(gadgetName);
+        String IMEI = IMEIs.get(0);
+        IMEIs.remove(0);
+        GadgetConst.MAP_GADGET_NAME_IMEIS.put(gadgetName, IMEIs);
+        return IMEI;
     }
 
     private String getAdDate() {

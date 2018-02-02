@@ -15,40 +15,15 @@ public class GadgetConst {
     final static String CPO = "CPO";
 
     public final static String[] CITIES = new String[]{"Москва", "Казань"};
-    public final static ArrayList<String> DIFFERENCES[];
-    public final static ArrayList<String> VARIANTS;
+//    public final static ArrayList<String> DIFFERENCES[];
+//    public final static ArrayList<String> VARIANTS;
+//    public final static Random RANDOM;
 
     public final static HashMap<String, String[]> MAP_COMPANY_CITIES_PHONE_NUMBERS;
     public final static HashMap<String, String> MAP_COMPANY_AD_TITLE_END;
     public final static HashMap<String, String> MAP_AD_ID_BEGIN;
-    public final static Random RANDOM;
 
     static {
-        DIFFERENCES = new ArrayList[2];
-        DIFFERENCES[0] = new ArrayList<String>(Arrays.asList("центре",
-                "правом верхнем углу",
-                "правом нижнем углу",
-                "левом верхнем углу",
-                "левом нижнем углу"));
-        DIFFERENCES[1] = new ArrayList<String>(Arrays.asList("экрана",
-                "левой грани корпуса",
-                "правой грани корпуса",
-                "нижней грани корпуса",
-                "верхней грани корпуса",
-                "задней грани корпуса"));
-        ArrayList<String> tVariants = new ArrayList<>();
-        for (int i = 0; i < DIFFERENCES[0].size(); i++) {
-            for (int j = 0; j < DIFFERENCES[1].size(); j++) {
-                tVariants.add("в " + DIFFERENCES[0].get(i) + " " + DIFFERENCES[1].get(j));
-            }
-        }
-        VARIANTS = new ArrayList<>();
-        for (int i = 0; i < tVariants.size(); i++) {
-            for (int j = i + 1; j < tVariants.size(); j++) {
-                VARIANTS.add(tVariants.get(i) + " и " + tVariants.get(j));
-            }
-        }
-        RANDOM = new Random();
         MAP_COMPANY_CITIES_PHONE_NUMBERS = new HashMap<>();
         MAP_COMPANY_CITIES_PHONE_NUMBERS.put(Gadgets.AMOLED,
                 new String[]{"84992292911", "88432110399"});
@@ -445,6 +420,38 @@ public class GadgetConst {
                 String operator = inScanner.nextLine();
                 MAP_COUNTRIES_OPERATOR.put(potentialCountry, operator);
             }
+        }
+        inScanner.close();
+    }
+
+    public final static HashMap<String, ArrayList<String>> MAP_GADGET_NAME_IMEIS;
+
+    static {
+        MAP_GADGET_NAME_IMEIS = new HashMap<>();
+        Scanner inScanner = Solution.getInputScanner("imei_numbers.txt");
+        while (inScanner.hasNextLine()) {
+            String line = inScanner.nextLine();
+            if (!line.contains(Gadgets.MEMORY_GB)) {
+                continue;
+            }
+            String[] words = line.split("\\s+");
+            int memoryId = 0;
+            for (int i = 0; i < words.length; i++) {
+                if (words[i].contains(Gadgets.MEMORY_GB)) {
+                    words[i] = words[i].replaceAll("[0-9]+[/+]", "");
+                    memoryId = i;
+                }
+            }
+            String IMEI = words[0].substring(1);
+            String gadgetName = String.join(" ",
+                    Arrays.copyOfRange(words, 2, memoryId + 1));
+//            System.out.println("test " + gadgetName);
+            ArrayList<String> currentIMEIs = new ArrayList<>();
+            if (MAP_GADGET_NAME_IMEIS.containsKey(gadgetName)) {
+                currentIMEIs = MAP_GADGET_NAME_IMEIS.get(gadgetName);
+            }
+            currentIMEIs.add(IMEI);
+            MAP_GADGET_NAME_IMEIS.put(gadgetName, currentIMEIs);
         }
         inScanner.close();
     }
