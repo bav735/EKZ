@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.*;
 
 /**
@@ -454,6 +455,26 @@ public class GadgetConst {
             MAP_GADGET_NAME_IMEIS.put(gadgetName, currentIMEIs);
         }
         inScanner.close();
+    }
+
+    public final static HashMap<String, ArrayList<String>> MAP_GADGET_NAME_IMAGES;
+
+    static {
+        MAP_GADGET_NAME_IMAGES = new HashMap<>();
+        File imagesFolder = new File("C:/iSPARK/tempimgs");
+        for (File images : imagesFolder.listFiles()) {
+            String gadgetName = images.getName();
+            gadgetName = gadgetName.substring(0, gadgetName.length() - 4);
+//            System.out.println("test " + gadgetName+"|");
+            for (File image : images.listFiles()) {
+                ArrayList<String> currentImages = new ArrayList<>();
+                if (MAP_GADGET_NAME_IMAGES.containsKey(gadgetName)) {
+                    currentImages = MAP_GADGET_NAME_IMAGES.get(gadgetName);
+                }
+                currentImages.add(image.getName());
+                MAP_GADGET_NAME_IMAGES.put(gadgetName, currentImages);
+            }
+        }
     }
 
     public final static HashMap<String, Integer> MAP_MODEL_ADS_PER_MONTH[];

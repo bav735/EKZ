@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.HashSet;
 
 /**
  * Created by A on 31.10.2017.
@@ -167,14 +166,14 @@ public class GadgetGroup {
         ad += "\t\t<Description>" + getAdText() + "</Description>\n";
         ad += "\t\t<Price>" + getAdPrice(cityId) + "</Price>\n";
         ad += "\t\t<Images>\n";
-//        ad += getImageAvitoUrls();
+        ad += getImageAvitoUrls();
         ad += "\t\t</Images>\n";
         ad += "\t</Ad>\n";
         return ad;
     }
 
     private String getImageAvitoUrls() {
-        HashSet<String> imageUrls = new HashSet<>();
+        /*HashSet<String> imageUrls = new HashSet<>();
         if (parent.companyName.equals(Gadgets.AMOLED)) {
             imageUrls.add(getImageAvitoUrl(gadgets.get(0)));
         } else {
@@ -187,12 +186,17 @@ public class GadgetGroup {
             }
         }
         String res = "";
-//        ArrayList<String> imageUrlsArr = new ArrayList<>(imageUrls);
-//        Collections.shuffle(imageUrlsArr);
         for (String url : imageUrls) {
             res += "\t\t\t<Image url=\"" + url + "\"/>\n";
-        }
-        return res;
+        }*/
+        ArrayList<String> images = GadgetConst.MAP_GADGET_NAME_IMAGES.get(getGadgetName());
+        System.out.println("test " + getGadgetName() + "|" + images.size());
+        String url = images.get(0);
+        images.remove(0);
+        GadgetConst.MAP_GADGET_NAME_IMAGES.put(getGadgetName(), images);
+        url = "https://raw.githubusercontent.com/bav735/iSPARK/master/tempimgs/" +
+                getGadgetName() + " box/" + url;
+        return "\t\t\t<Image url=\"" + url.replaceAll(" ", "%20") + "\"/>\n";
     }
 
     private String getImageAvitoUrl(ArrayList<String> gadget) {
@@ -203,9 +207,8 @@ public class GadgetGroup {
     private String getAdText() {
         String text = "<![CDATA[<p>";
 //        String quality = parent.getQuality(gadgets.get(0));
-        String gadgetName = transformSpaceMemory(parent.getGadgetName(gadgets.get(0),
+        text += transformSpaceMemory(parent.getGadgetName(gadgets.get(0),
                 getFirstAttr(), getLastAttr()));
-        text += gadgetName;
 //        String warrantyCost = parent.getPrice(gadgets.get(0),
 //                Gadgets.YEAR_WARRANTY_COST);
         text += " в магазине AMOLED\uD83C\uDF08<br>" +
@@ -239,8 +242,7 @@ public class GadgetGroup {
         text += "</p><p>✔ гарантия на обмен 14 дней при возникновении заводского брака<br>";
         text += "✔ по истечению 14 дней действует гарантия на ремонт на 1 год<br>";
         text += "✔ перед визитом к нам, бронируйте интересующий вас товар<br>";
-        text += "✔ IMEI-номер: " + getUnusedIMEI(parent.getGadgetName(gadgets.get(0),
-                Gadgets.VENDOR, Gadgets.MEMORY));
+        text += "✔ IMEI-номер: " + getUnusedIMEI();
         text += "</p><p>Наше местоположение\uD83C\uDF0D<br>" +
                 "▶ г. Москва, ул. Новослободская, д. 26с1, время работы: 11.00-19.00<br>" +
                 "▶ г. Казань, ул. Лушникова, д. 8, время работы: 11.00-19.00 (пн-сб)</p>";
@@ -342,11 +344,15 @@ public class GadgetGroup {
         return text;
     }
 
-    private String getUnusedIMEI(String gadgetName) {
-        ArrayList<String> IMEIs = GadgetConst.MAP_GADGET_NAME_IMEIS.get(gadgetName);
+    private String getGadgetName() {
+        return parent.getGadgetName(gadgets.get(0), Gadgets.VENDOR, Gadgets.MEMORY);
+    }
+
+    private String getUnusedIMEI() {
+        ArrayList<String> IMEIs = GadgetConst.MAP_GADGET_NAME_IMEIS.get(getGadgetName());
         String IMEI = IMEIs.get(0);
         IMEIs.remove(0);
-        GadgetConst.MAP_GADGET_NAME_IMEIS.put(gadgetName, IMEIs);
+        GadgetConst.MAP_GADGET_NAME_IMEIS.put(getGadgetName(), IMEIs);
         return IMEI;
     }
 
