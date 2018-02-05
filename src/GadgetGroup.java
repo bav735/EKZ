@@ -114,9 +114,9 @@ public class GadgetGroup {
     }
 
     private String getAdPrice(int cityId) {
-//        if (parent.companyName.equals(Gadgets.ISPARK)) {
-        cityId = 0;
-//        }
+        if (parent.companyName.equals(Gadgets.ISPARK)) {
+            cityId = 0;
+        }
         int price1 = Solution.getNumber(getPriceByCity(gadgets.get(0), cityId));
         for (ArrayList<String> gadget : gadgets) {
             price1 = Math.min(price1, Solution.getNumber(getPriceByCity(gadget, cityId)));
@@ -178,7 +178,6 @@ public class GadgetGroup {
             res += "\t\t\t<Image url=\"" + url + "\"/>\n";
         }*/
         ArrayList<String> images = GadgetConst.MAP_GADGET_NAME_IMAGES.get(getGadgetName());
-        System.out.println("test " + getGadgetName() + "|" + images.size());
         String url = images.get(0);
         images.remove(0);
         GadgetConst.MAP_GADGET_NAME_IMAGES.put(getGadgetName(), images);
