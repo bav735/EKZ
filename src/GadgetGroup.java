@@ -177,12 +177,16 @@ public class GadgetGroup {
         for (String url : imageUrls) {
             res += "\t\t\t<Image url=\"" + url + "\"/>\n";
         }*/
-        ArrayList<String> images = GadgetConst.MAP_GADGET_NAME_IMAGES.get(getGadgetName());
+        String gadgetName = getGadgetName();
+        if (!metaModel.contains(Gadgets.MEMORY_GB)) {
+            gadgetName = gadgetName.substring(0, gadgetName.lastIndexOf(" "));
+        }
+        ArrayList<String> images = GadgetConst.MAP_GADGET_NAME_IMAGES.get(gadgetName);
         String url = images.get(0);
         images.remove(0);
-        GadgetConst.MAP_GADGET_NAME_IMAGES.put(getGadgetName(), images);
+        GadgetConst.MAP_GADGET_NAME_IMAGES.put(gadgetName, images);
         url = "https://raw.githubusercontent.com/bav735/iSPARK/master/tempimgs/" +
-                getGadgetName() + " box/" + url;
+                gadgetName + " box/" + url;
         return "\t\t\t<Image url=\"" + url.replaceAll(" ", "%20") + "\"/>\n";
     }
 
