@@ -5,7 +5,9 @@ Apple iPhone 5C
 Apple iPhone 5S
 Apple iPhone 6
 Apple iPhone 6S
+Apple iPhone 6S Plus
 Apple iPhone 7
+Apple iPhone 7 Plus
 Apple iPhone 4 8 Gb
 Apple iPhone 4 16 Gb
 Apple iPhone 4S 8 Gb
@@ -22,15 +24,22 @@ Apple iPhone 5S 32 Gb
 Apple iPhone 5S 64 Gb
 Apple iPhone 6 16 Gb
 Apple iPhone 6 64 Gb
+Apple iPhone 6 128 Gb
 Apple iPhone 6 Plus 16 Gb
 Apple iPhone 6 Plus 64 Gb
+Apple iPhone 6 Plus 128 Gb
 Apple iPhone 6S 16 Gb
 Apple iPhone 6S 64 Gb
 Apple iPhone 6S 128 Gb
+Apple iPhone 6S Plus 16 Gb
 Apple iPhone 6S Plus 64 Gb
+Apple iPhone 6S Plus 128 Gb
 Apple iPhone 7 32 Gb
 Apple iPhone 7 128 Gb
+Apple iPhone 7 256 Gb
+Apple iPhone 7 Plus 32 Gb
 Apple iPhone 7 Plus 128 Gb
+Apple iPhone 7 Plus 256 Gb
 Apple iPhone 4 8Gb
 Apple iPhone 4 16Gb
 Apple iPhone 4S 8Gb
@@ -47,15 +56,22 @@ Apple iPhone 5S 32Gb
 Apple iPhone 5S 64Gb
 Apple iPhone 6 16Gb
 Apple iPhone 6 64Gb
+Apple iPhone 6 128Gb
 Apple iPhone 6 Plus 16Gb
 Apple iPhone 6 Plus 64Gb
+Apple iPhone 6 Plus 128Gb
 Apple iPhone 6S 16Gb
 Apple iPhone 6S 64Gb
 Apple iPhone 6S 128Gb
+Apple iPhone 6S Plus 16Gb
 Apple iPhone 6S Plus 64Gb
+Apple iPhone 6S Plus 128Gb
 Apple iPhone 7 32Gb
 Apple iPhone 7 128Gb
+Apple iPhone 7 256Gb
+Apple iPhone 7 Plus 32Gb
 Apple iPhone 7 Plus 128Gb
+Apple iPhone 7 Plus 256Gb
 Samsung Galaxy S3 16Gb
 Samsung Galaxy S4 16Gb
 Samsung Galaxy S5 16Gb

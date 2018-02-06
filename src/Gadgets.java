@@ -303,8 +303,10 @@ public class Gadgets {
 
     public String getPrice(ArrayList<String> gadget, String priceName) {
         int priceAttrNumber = mapPriceAttributeNumber.get(priceName);
-        ArrayList<String> pricesArray1 = mapGadgetNamePrices.get(getGadgetName(gadget, QUALITY, MEMORY));
-        ArrayList<String> pricesArray2 = mapGadgetNamePrices.get(getGadgetName(gadget, QUALITY, COLOR));
+        ArrayList<String> pricesArray1 = mapGadgetNamePrices.get(getGadgetName(gadget, QUALITY, MEMORY)
+                .replace("  ", " "));
+        ArrayList<String> pricesArray2 = mapGadgetNamePrices.get(getGadgetName(gadget, QUALITY, COLOR)
+                .replace("  ", " "));
         if (pricesArray1 != null) {
             return pricesArray1.get(priceAttrNumber);
         }
@@ -364,7 +366,7 @@ public class Gadgets {
             for (int i = 0; i < GadgetConst.COUNTRIES.size(); i++) {
                 GadgetGroup gadgetGroup = new GadgetGroup(i, metaModel, this);
                 gadgetGroup.gadgets.addAll(mapMetaModelGadgets.get(metaModel));
-                gadgetGroups.add(gadgetGroup);
+                gadgetGroups.add(gadgetGroup.calcAdGadgetId());
             }
             mapGadgetMetaModelGadgetGroups.put(metaModel, gadgetGroups);
         }

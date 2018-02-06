@@ -181,7 +181,7 @@ public class CategoryTree {
                     if (true*//*gadget.getSubModel().equals(GadgetConst.MAP_MODEL_SUBMODEL
                             .get(gadget.getPriceListModel()).get(1))*//*) {
                         gadget.price = ISPARKGadgets.getPriceRetailMax(gadget.getPriceListName(), 1) + "";
-                        gadget.description = ("Тип товара: Ростест (NEW)\n").concat(gadget.description);
+                        gadget.description = ("Тип товара: Ростест (NEW_EST)\n").concat(gadget.description);
                         gadget.manufacturerWarranty = true;
                     } else {
                         gadget.price = ISPARKGadgets.getPriceRetailMax(gadget.getPriceListName(), 0) + "";

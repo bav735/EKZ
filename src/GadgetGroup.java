@@ -24,6 +24,7 @@ public class GadgetGroup {
     int xmlHour;
     int xmlSecond;
     int cityId;
+    int adGadgetId;
     Gadgets parent;
 
     //    boolean isGlobal;
@@ -63,6 +64,21 @@ public class GadgetGroup {
         parent = gadgets;
     }
 
+    public GadgetGroup calcAdGadgetId() {
+        adGadgetId = 0;
+        if (!gadgets.isEmpty()) {
+            int price1 = Solution.getNumber(getPriceByCity(gadgets.get(0), 0));
+            for (int i = 0; i < gadgets.size(); i++) {
+                int price2 = Solution.getNumber(getPriceByCity(gadgets.get(i), 0));
+                if (price2 < price1) {
+                    price1 = price2;
+                    adGadgetId = i;
+                }
+            }
+        }
+        return this;
+    }
+
     private String getIdXML() {
         String lastAttr = Gadgets.MEMORY;
         if (!metaModel.contains(Gadgets.MEMORY_GB)) {
@@ -93,7 +109,7 @@ public class GadgetGroup {
     }
 
     private String getAdTitle(int cityId) {
-        String title = parent.getGadgetName(gadgets.get(0), getFirstAttr(),
+        String title = parent.getGadgetName(gadgets.get(adGadgetId), getFirstAttr(),
                 getLastAttr())
                 + GadgetConst.MAP_COMPANY_AD_TITLE_END.get(parent.companyName);
 //        if (parent.companyName.equals(Gadgets.AMOLED)) {
@@ -117,11 +133,7 @@ public class GadgetGroup {
         if (parent.companyName.equals(Gadgets.ISPARK)) {
             cityId = 0;
         }
-        int price1 = Solution.getNumber(getPriceByCity(gadgets.get(0), cityId));
-        for (ArrayList<String> gadget : gadgets) {
-            price1 = Math.min(price1, Solution.getNumber(getPriceByCity(gadget, cityId)));
-        }
-        return price1 + "";
+        return getPriceByCity(gadgets.get(adGadgetId), cityId);
     }
 
     public String getXmlAd(int cityId, boolean isArrangement) {
@@ -197,11 +209,8 @@ public class GadgetGroup {
 
     private String getAdText() {
         String text = "<![CDATA[<p>";
-//        String quality = parent.getQuality(gadgets.get(0));
-        text += transformSpaceMemory(parent.getGadgetName(gadgets.get(0),
+        text += transformSpaceMemory(parent.getGadgetName(gadgets.get(adGadgetId),
                 getFirstAttr(), getLastAttr()));
-//        String warrantyCost = parent.getPrice(gadgets.get(0),
-//                Gadgets.YEAR_WARRANTY_COST);
         text += " в магазине AMOLED\uD83C\uDF08<br>" +
                 "➡У нас в продаже весь модельный ряд производителя!</p>";
         text += "<p>\uD83D\uDC9BМы всегда идем навстречу нашим покупателям.<br>" +
@@ -253,7 +262,7 @@ public class GadgetGroup {
             boolean isOnlyNew = true;
             for (ArrayList<String> gadget : gadgets) {
                 isOnlyNew &= !gadget.get(parent.mapGadgetAttributeNumber.get(
-                        Gadgets.QUALITY)).contains(GadgetConst.CPO);
+                        Gadgets.QUALITY)).contains(GadgetConst.CPO_RST);
             }
             if (isOnlyNew) {
                 text += "- Телефон абсолютно новый.<br>";
@@ -336,11 +345,13 @@ public class GadgetGroup {
     }
 
     private String getGadgetName() {
-        return parent.getGadgetName(gadgets.get(0), Gadgets.VENDOR, Gadgets.MEMORY);
+        return parent.getGadgetName(gadgets.get(adGadgetId),
+                Gadgets.VENDOR, Gadgets.MEMORY);
     }
 
     private String getUnusedIMEI() {
         ArrayList<String> IMEIs = GadgetConst.MAP_GADGET_NAME_IMEIS.get(getGadgetName());
+        System.out.println("test " + getGadgetName() + " / " + IMEIs.size());
         String IMEI = IMEIs.get(0);
         IMEIs.remove(0);
         GadgetConst.MAP_GADGET_NAME_IMEIS.put(getGadgetName(), IMEIs);
@@ -396,8 +407,8 @@ public class GadgetGroup {
 //        }
         offer += " = " + getPriceByCity(gadget, cityId) + "\u20BD<br>";
 //        String quality = gadget.get(mapGadgetAttributeNumber.get(QUALITY));
-//        if (cityId == 0 || quality.equals(GadgetConst.CPO)) {
-//            if (quality.equals(GadgetConst.CPO)) {
+//        if (cityId == 0 || quality.equals(GadgetConst.CPO_RST)) {
+//            if (quality.equals(GadgetConst.CPO_RST)) {
 //        offer += " (" + GadgetConst.MAP_QUALITY_DESCRIPTION.get(quality) + ")";
 //            }
 //        }
@@ -413,7 +424,7 @@ public class GadgetGroup {
     }
 
     private String getVendor() {
-        return parent.getVendor(gadgets.get(0));
+        return parent.getVendor(gadgets.get(adGadgetId));
     }
 
     public void initialize(int cityId) {

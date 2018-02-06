@@ -6,14 +6,18 @@ import java.util.*;
  */
 public class GadgetConst {
     final static String ACT = "ACT";
-    final static String NEW = "NEW";
-    final static String RST = "RST";
-    final static String RPC = "RPC";
+    final static String NEW_EST = "NEW EST";
     final static String EST = "EST";
+    final static String RST = "RST";
+    final static String NEW_RST = "NEW RST";
+    final static String RPC = "RPC";
+    final static String CPO = "CPO";
+    final static String CPO_EST = "CPO EST";
     final static String ADTnoTouchID = "ADTnoTouchID";
     final static String DCT = "DCT";
+    final static String NEW = "NEW";
     final static String ADT = "ADT";
-    final static String CPO = "CPO";
+    final static String CPO_RST = "CPO RST";
 
     public final static String[] CITIES = new String[]{"Москва", "Казань"};
 //    public final static ArrayList<String> DIFFERENCES[];
@@ -35,7 +39,7 @@ public class GadgetConst {
         MAP_COMPANY_AD_TITLE_END.put(Gadgets.ISPARK, " Гарантия Год");
         MAP_AD_ID_BEGIN = new HashMap<>();
         MAP_AD_ID_BEGIN.put(Gadgets.AMOLED, "ADT");
-        MAP_AD_ID_BEGIN.put(Gadgets.ISPARK, "NEW");
+        MAP_AD_ID_BEGIN.put(Gadgets.ISPARK, "NEW_EST");
     }
 
     public final static String[] CITIES_FILE_END = new String[]{"msk", "kzn"};
@@ -47,14 +51,19 @@ public class GadgetConst {
     public final static int[] CITIES_MAX_COUNTRIES = new int[CITIES.length];
 
     public final static ArrayList<String> QUALITIES = new ArrayList<String>(Arrays.asList(
+            EST,
+            RST,
+            DCT,
             NEW,
             ACT,
-            RST,
             RPC,
-            EST,
             CPO,
+            ADTnoTouchID,
             ADT,
-            ADTnoTouchID));
+            NEW_EST,
+            NEW_RST,
+            CPO_EST,
+            CPO_RST));
 
     public final static ArrayList<String> QUALITIES_NAME = new ArrayList<String>(Arrays.asList(
             "новый",
@@ -435,6 +444,10 @@ public class GadgetConst {
             if (!line.contains(Gadgets.MEMORY_GB)) {
                 continue;
             }
+            for (String quality : GadgetConst.QUALITIES) {
+                line = line.replace(quality, "");
+            }
+//            System.out.println("test " + line);
             String[] words = line.split("\\s+");
             int memoryId = 0;
             for (int i = 0; i < words.length; i++) {
@@ -445,8 +458,7 @@ public class GadgetConst {
             }
             String IMEI = words[0].substring(1);
             String gadgetName = String.join(" ",
-                    Arrays.copyOfRange(words, 2, memoryId + 1));
-//            System.out.println("test " + gadgetName);
+                    Arrays.copyOfRange(words, 1, memoryId + 1));
             ArrayList<String> currentIMEIs = new ArrayList<>();
             if (MAP_GADGET_NAME_IMEIS.containsKey(gadgetName)) {
                 currentIMEIs = MAP_GADGET_NAME_IMEIS.get(gadgetName);

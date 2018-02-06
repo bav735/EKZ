@@ -1,4 +1,31 @@
 IMEI или S/N	Наименование товара
+*355434076360876	DCT Apple iPhone SE 16Gb
+*353284071005303	DCT Apple iPhone 6S Plus 16Gb
+*355442073021037	DCT Apple iPhone SE 16Gb
+*353408076881513	DCT Samsung Galaxy Note 5 32Gb
+*353817080309651	DCT Apple iPhone 7 Plus 32Gb
+*356572083504462	DCT Apple iPhone 7 Plus 32Gb
+*355351085051850	DCT Apple iPhone 7 Plus 32Gb
+*355349082597511	DCT Apple iPhone 7 Plus 32Gb
+*355345080096308	DCT Apple iPhone 7 Plus 32Gb
+*359172071762433	DCT Apple iPhone 7 Plus 256Gb
+*353808087146790	DCT Apple iPhone 7 Plus 256Gb
+*359175074712669	DCT Apple iPhone 7 Plus 256Gb
+*359213071544205	DCT Apple iPhone 7 256Gb
+*353333074968338	DCT Apple iPhone 6S Plus 16Gb
+*353290071311872	DCT Apple iPhone 6S Plus 128Gb
+*353288072858347	DCT Apple iPhone 6S Plus 128Gb
+*353290077105815	DCT Apple iPhone 6S Plus 128Gb
+*353335072177721	DCT Apple iPhone 6S Plus 128Gb
+*353336072850564	DCT Apple iPhone 6S Plus 16Gb
+*355732072308991	DCT Apple iPhone 6S Plus 16Gb
+*353325070567916	DCT Apple iPhone 6S Plus 16Gb
+*354378063127130	DCT Apple iPhone 6 Plus 128Gb
+*354387062070613	DCT Apple iPhone 6 Plus 128Gb
+*352062063942464	DCT Apple iPhone 6 Plus 128Gb
+*354376060460256	DCT Apple iPhone 6 Plus 128Gb
+*352074064789174	DCT Apple iPhone 6 128Gb
+*359233069811101	DCT Apple iPhone 6 128Gb
 *013267002020774	DCT Apple iPhone 4S 8Gb
 *357997055347302	DCT noTouchID Apple iPhone 5S 16Gb Space Gray
 *013052006004945	DCT Apple iPhone 4S 64Gb
@@ -26,7 +53,6 @@ IMEI или S/N	Наименование товара
 *013554008502263	DCT Apple iPhone 5 64Gb
 *013172009437916	DCT Apple iPhone 4S 32Gb
 *013667001618306	DCT Apple iPhone 4 8Gb
-*35274506183923	DCT Samsung Galaxy S4 16Gb
 *359544057295390	DCT Samsung Galaxy S4 16Gb
 *358661059108370	DCT Samsung Galaxy S4 16Gb
 *357139050435747	DCT Samsung Galaxy S4 16Gb
@@ -68,25 +94,25 @@ IMEI или S/N	Наименование товара
 *354021068814968	ADT Samsung Galaxy Note 4 32Gb Black
 *354952070044742	ADTnoTouchID Apple iPhone 6S Plus 64Gb Space Gray
 *358603070030498	ADTnoTouchID Apple iPhone 6S Plus 16Gb Space Gray
-*356649086371600	RST CPO Apple iPhone 6S 64Gb Space Gray
+*356649086371600	CPO RST Apple iPhone 6S 64Gb Space Gray
 *355318086172613	ACT Apple iPhone 7 32Gb Black
 *358756057995172	ADT Apple iPhone 5S 64Gb Gold
 *013554004808607	ADT Apple iPhone 5 16Gb Black
 *013196001036202	ADT Apple iPhone 4S 16Gb White
 *013142004263922	ADT Apple iPhone 4S 16Gb Black
 *013037009839942	ADT Apple iPhone 4S 16Gb White
-*865815039452946	EST NEW Xiaomi Redmi 4X 32Gb Gold
+*865815039452946	NEW EST Xiaomi Redmi 4X 32Gb Gold
 *359470081729446	ACT Apple iPhone 7 Plus 128Gb Rose Gold
 *353317076380642	DCT Apple iPhone 6S 16Gb Space Gray
 *354607072844305	DCT Samsung Galaxy S6 32Gb Black
 *356978060705925	DCT Apple iPhone 6 64Gb Space Gray
-*865815039453043	EST NEW Xiaomi Redmi 4X 32Gb Gold
-*358606071879441	RST CPO Apple iPhone 6S Plus 64Gb Silver
-*355329083325989	RST NEW Apple iPhone 7 256Gb Rose Gold
-*355315083113368	RST NEW Apple iPhone 7 256Gb Rose Gold
-*359479082915052	RST NEW Apple iPhone 6 32Gb Gold
+*865815039453043	NEW EST Xiaomi Redmi 4X 32Gb Gold
+*358606071879441	CPO RST Apple iPhone 6S Plus 64Gb Silver
+*355329083325989	NEW RST Apple iPhone 7 256Gb Rose Gold
+*355315083113368	NEW RST Apple iPhone 7 256Gb Rose Gold
+*359479082915052	NEW RST Apple iPhone 6 32Gb Gold
 *355694079339496	EST Apple iPhone 6S 16Gb Gold
-*35573207538597	RST CPO Apple iPhone 6S Plus 64Gb Silver
+*35573207538597	CPO RST Apple iPhone 6S Plus 64Gb Silver
 *354782060771883	ADT Samsung Galaxy Note 4 32Gb Black
 *356265066097840	ADT Sony Xperia Z3 Черный
 *358564077367590	ADTnoTouchID Apple iPhone 6S 16Gb Space Gray
@@ -124,7 +150,7 @@ IMEI или S/N	Наименование товара
 *358991077623963	EST Samsung Galaxy S7 32Gb Black
 *355342062223307	DCT Sony Xperia C3 Black
 *356991062224522	EST Apple iPhone 6 16Gb Без Отп Space Gray
-*013057006731504	Б/У Apple iPhone 4S 32Gb Black
+*013057006731504	DCT Apple iPhone 4S 32Gb Black
 *355501070401730	EST Samsung Galaxy S7 32Gb Gold Platinum
 *355330086291079	RST Apple iPhone 7 128Gb Black
 *352719088145742	RST Samsung Galaxy J1 (2016) 8Gb Black
@@ -146,7 +172,7 @@ IMEI или S/N	Наименование товара
 *353841086900354	RST Apple iPhone 7 128Gb Jet Black
 *356560082206544	RST Apple iPhone 7 128Gb Red
 *356556084112524	RST Apple iPhone 7 128Gb Black
-*354405063365400	Б/У iPhone 6 16Gb без отп space gray
+*354405063365400	DCT iPhone 6 16Gb без отп space gray
 *358810058941980	EST Apple iPhone 5S 16Gb Space Gray
 *013848009895464	EST Apple iPhone 5S 32Gb Без Отп Silver
 *013137003385817	EST Apple iPhone 4S 16Gb White
@@ -171,7 +197,7 @@ IMEI или S/N	Наименование товара
 *353336072873632	EST Apple iPhone 6S Plus 64Gb Space Gray
 *353350070040409	EST Apple iPhone 6S Plus 64Gb Space Gray
 *352065069942065	EST Apple iPhone 6 64Gb Space Gray
-*356316069412609	Б/У Samsung Galaxy A 5 16Gb Black
+*356316069412609	DCT Samsung Galaxy A 5 16Gb Black
 *353800083603379	RST Apple iPhone 6S 16Gb Gold
 *355210060649403	EST Samsung Galaxy Alpha 32Gb White
 *355322080561995	RST Apple iPhone 7 128Gb Jet Black
@@ -194,12 +220,12 @@ IMEI или S/N	Наименование товара
 *352066060168783	EST Apple iPhone 6 Plus 16Gb Без Отп Silver
 *355791070830901	EST Apple iPhone 6 16Gb Без Отп Gold
 *013850006783149	EST Apple iPhone 5S 32Gb Gold
-*352040060287539	Б/У Iphone 5s 16Gb Space Gray
+*352040060287539	DCT Iphone 5s 16Gb Space Gray
 *352090078466807	DCT Iphone 6 Space Gray 16Gb
 *355399089038316	RST Apple iPhone 6S 32Gb Silver
 *013991001452486	EST Apple iPhone 5S 16Gb Без Отп Silver
 *35875605139670	EST Apple iPhone 5S 16Gb Без Отп Space Gray
-*990001033775107	Б/У Iphone 4s 8Gb black
+*990001033775107	DCT Iphone 4s 8Gb black
 *355419078234872	EST Apple iPhone 6S 16Gb Space Gray
 *353024051079633	EST Samsung Galaxy S3 16Gb White
 *357334070804077	EST Samsung Galaxy A3 (2016) 16Gb Gold
@@ -214,9 +240,9 @@ IMEI или S/N	Наименование товара
 *355767079760034	EST Apple iPhone 6S 64Gb Gold
 *353562082645252	EST Samsung Galaxy S7 32Gb White
 *358371063494838	EST Apple iPhone 6 16Gb Без Отп Gold
-*358430070261513	Б/У Galaxy s7 32Gb
+*358430070261513	DCT Galaxy s7 32Gb
 *353319078734339	DCT iPhone 6 64Gb silver
-*359230064011778	Б/У iphone 6 64Gb gold
+*359230064011778	DCT iphone 6 64Gb gold
 *355354083503278	RST Apple iPhone 7 Plus 128Gb Rose Gold
 *359218073626264	RST Apple iPhone 7 Plus 128Gb Rose Gold
 *359233068144637	EST Apple iPhone 6 64Gb Space Gray
@@ -232,7 +258,7 @@ IMEI или S/N	Наименование товара
 *013175002476575	EST Apple iPhone 4S 16Gb White
 *359312061731440	DCT Apple iPhone 6 16Gb space gray
 *990001923457964	EST Apple iPhone 4S 16Gb Black
-*013727002591587	Б/У iphone 5
+*013727002591587	DCT iphone 5
 *353411062177029	EST Samsung Galaxy S5 16Gb Black
 *353272072292707	EST Apple iPhone 6S 16Gb Без Отп Space Gray
 *355424079113679	EST Apple iPhone 6S 16Gb Rose Gold
@@ -271,7 +297,7 @@ IMEI или S/N	Наименование товара
 *356555080769972	RST Apple iPhone 7 32Gb Rose Gold
 *355090087908085	RST Samsung Galaxy S8 64Gb Black
 *353808088453989	RST Apple iPhone 7 Plus 32Gb Black
-*013441002763994	Б/У Apple iPhone 5 32Gb Black
+*013441002763994	DCT Apple iPhone 5 32Gb Black
 *352001060279801	EST Apple iPhone 5S 32Gb Black
 *352001063732194	EST Apple iPhone 5S 16Gb Gold
 *359256066674925	EST Apple iPhone 6 64Gb Gold
@@ -301,8 +327,8 @@ IMEI или S/N	Наименование товара
 *355396087079839	RST Apple iPhone 6S 32Gb Rose Gold
 *353845089200480	RST Apple iPhone 7 128Gb Rose Gold
 *355356081954676	RST Apple iPhone 7 Plus 128Gb Black
-*013847000564459	Б/У iPhone 5S Gold 32Gb
-*359271065879326	Б/У iPhone 5S 16Gb Silver
+*013847000564459	DCT iPhone 5S Gold 32Gb
+*359271065879326	DCT iPhone 5S 16Gb Silver
 *013670004594276	EST Apple iPhone 4 16Gb White
 *012966002186557	EST Apple iPhone 4 16Gb White
 *012548008259248	EST Apple iPhone 4 16Gb Black
@@ -311,10 +337,10 @@ IMEI или S/N	Наименование товара
 *354956071591163	EST Apple iPhone 6S 16Gb Без Отп Space Gray
 *358569073957732	EST Apple iPhone 6S 16Gb Gold
 *353253070888506	EST Apple iPhone 6S 16Gb Space Gray
-*013665002794571	Б/У iPhone 4 8Gb Black
-*358128074216760	Б/У Xperia XA dual
-*359864063968644	Б/У Sony Xperia Z3
-*013661006871071	Б/У iPhone 4 Black 8Gb
+*013665002794571	DCT iPhone 4 8Gb Black
+*358128074216760	DCT Xperia XA dual
+*359864063968644	DCT Sony Xperia Z3
+*013661006871071	DCT iPhone 4 Black 8Gb
 *355800077345365	EST Apple iPhone SE 32Gb Space Gray
 *356991063776827	EST Apple iPhone 6 64Gb Gold
 *358372067341942	EST Apple iPhone 6 16Gb Без Отп Space Gray
@@ -322,12 +348,12 @@ IMEI или S/N	Наименование товара
 *354428064919207	EST Apple iPhone 6 16Gb Space Gray
 *352065069726989	EST Apple iPhone 6 16Gb Gold
 *355325086758408	RST Apple iPhone 7 128Gb Красный
-*358982071625658	Б/У Samsung Galaxy S7 edge
-*353797089036366	Б/У iPhone 6S 32Gb
+*358982071625658	DCT Samsung Galaxy S7 edge
+*353797089036366	DCT iPhone 6S 32Gb
 *355396083313612	RST Apple iPhone 6S 32Gb Silver
 *355326086236338	RST Apple iPhone 7 128Gb Rose Gold
 *353808088369565	RST Apple iPhone 7 Plus 128Gb Silver
-*35868705323234318	Б/У Apple iPhone 5S 32Gb Gold
+*35868705323234318	DCT Apple iPhone 5S 32Gb Gold
 *354410065668173	EST Apple iPhone 6 16Gb Space Gray
 *013849004358540	EST Apple iPhone 5S 16Gb Gold
 *013988008292238	EST Apple iPhone 5S 16Gb Space Gray
@@ -335,14 +361,14 @@ IMEI или S/N	Наименование товара
 *355790070035537	EST Apple iPhone 6 16Gb Без Отп Gold
 *356989064360971	EST Apple iPhone 6 16Gb Без Отп Space Gray
 *359300066030413	EST Apple iPhone 6 64Gb Space Gray
-*359222073434562	Б/У Apple iPhone SE 64Gb Space Gray
+*359222073434562	DCT Apple iPhone SE 64Gb Space Gray
 *354408066581437	EST Apple iPhone 6 64Gb Gold
 *355416071227994	EST Apple iPhone 6S 16Gb Gold
 *353316079176049	EST Apple iPhone 6S 16Gb Space Gray
 *359236065050723	EST Apple iPhone 6 64Gb Space Gray
 *359302067866902	EST Apple iPhone 6 64Gb Gold
 *359271067314942	RST Apple iPhone 5S 16Gb Space Gray
-*013888000507916	Б/У Apple iPhone 5S 16Gb Silver
+*013888000507916	DCT Apple iPhone 5S 16Gb Silver
 *355327085926606	RST Apple iPhone 7 128Gb Gold
 *355317086121661	RST Apple iPhone 7 128Gb Black
 *354404065660645	EST Apple iPhone 6 16Gb Space Gray
@@ -352,8 +378,8 @@ IMEI или S/N	Наименование товара
 *354443061120790	EST Apple iPhone 6 16Gb Space Gray
 *354444066755325	EST Apple iPhone 6 64Gb Silver
 *354411067913260	EST Apple iPhone 6 16Gb Gold
-*354314083423159	Б/У Samsung Galaxy S6 32Gb Gold
-*352017063632838	Б/У Apple iPhone 5S 16Gb Space Gray
+*354314083423159	DCT Samsung Galaxy S6 32Gb Gold
+*352017063632838	DCT Apple iPhone 5S 16Gb Space Gray
 *356991062319660	EST Apple iPhone 6 64Gb Gold
 *353263076731055	EST Apple iPhone 6S 16Gb Gold
 *356986068304518	EST Apple iPhone 6 64Gb Gold
@@ -367,12 +393,12 @@ IMEI или S/N	Наименование товара
 *359305068427533	EST Apple iPhone 6 64Gb Без Отп Gold
 *358372069821636	EST Apple iPhone 6 16Gb Gold
 *359232061625345	EST Apple iPhone 6 64Gb Без Отп Space Gray
-*359239066075715	Б/У Apple iPhone 6 64Gb Без Отп Space Gray
+*359239066075715	DCT Apple iPhone 6 64Gb Без Отп Space Gray
 *354411068167007	EST Apple iPhone 6 64Gb Без Отп Space Gray
 *359303069775042	EST Apple iPhone 6 16Gb Без Отп Space Gray
 *355791070027185	EST Apple iPhone 6 64Gb Без Отп Space Gray
 *359286060466564	EST Apple iPhone 6 16Gb Space Gray
-*358371065439864	Б/У Apple iPhone 6 64Gb Без Отп Space Gray
+*358371065439864	DCT Apple iPhone 6 64Gb Без Отп Space Gray
 *352028079914722	EST Apple iPhone 6 16Gb Gold
 *354411060595890	EST Apple iPhone 6 64Gb Gold
 *359234060363829	EST Apple iPhone 6 64Gb Gold
@@ -396,11 +422,11 @@ IMEI или S/N	Наименование товара
 *356988067812566	EST Apple iPhone 6 64Gb Без Отп Gold
 *352019070295203	EST Apple iPhone 6 64Gb Без Отп Gold
 *352065062494882	EST Apple iPhone 6 64Gb Без Отп Silver
-*354449067759820	Б/У Apple iPhone 6 16Gb Без Отп Space Gray
+*354449067759820	DCT Apple iPhone 6 16Gb Без Отп Space Gray
 *352558067829771	EST Samsung Galaxy S5 16Gb White
 *34443062220219	EST Apple iPhone 6 64Gb Без Отп Space Gray
 *013889003147452	EST Apple iPhone 5C 16Gb White
-*352050062783997	Б/У Apple iPhone 5S 16Gb Gold
+*352050062783997	DCT Apple iPhone 5S 16Gb Gold
 *358371069814880	EST Apple iPhone 6 16Gb Space Gray
 *013853008008515	EST Apple iPhone 5S 64Gb Space Gray
 *013997000903569	EST Apple iPhone 5C 16Gb White
@@ -413,7 +439,7 @@ IMEI или S/N	Наименование товара
 *358776054494219	EST Apple iPhone 5S 16Gb Silver
 *358820058627042	EST Apple iPhone 5S 16Gb Без Отп Space Gray
 *358824052194173	EST Apple iPhone 5S 32Gb Без Отп Space Gray
-*990002804188975	Б/У Apple iPhone 5 32Gb White
+*990002804188975	DCT Apple iPhone 5 32Gb White
 *013890001123834	EST Apple iPhone 5S 32Gb Без Отп Space Gray
 *0412161800	EST Apple iPhone 5C 32Gb White
 *0312161410	EST Apple iPhone 6 64Gb Space Gray
@@ -427,10 +453,7 @@ IMEI или S/N	Наименование товара
 *013846009483968	EST Apple iPhone 5S 32Gb Без Отп Gold
 *358764056238487	EST Apple iPhone 5S 16Gb Gold
 *358811052805957	EST Apple iPhone 5S 32Gb Silver
-*312121249328	EST Apple iPhone 5S 32Gb Space Gray
-*0112161040	EST Apple iPhone 6 64Gb Без Отп Gold
-*0112161030	EST Apple iPhone 6 64Gb Gold
-*358826052267073	Б/У Apple iPhone 5S 16Gb Gold
+*358826052267073	DCT Apple iPhone 5S 16Gb Gold
 *358534055411520	EST Apple iPhone 5S 32Gb Без Отп Gold
 *354386061678731	EST Apple iPhone 6 Plus 16Gb Без Отп Gold
 *355876062991447	ADTnoTouchID Apple iPhone 6 Plus 16Gb Space Gray
@@ -460,7 +483,7 @@ IMEI или S/N	Наименование товара
 *356987064000886	EST Apple iPhone 6 64Gb Gold
 *351808070122495	EST Samsung Galaxy S6 32Gb Black
 *357743062914498	EST Samsung Galaxy S6 32Gb Gold
-*357652064130583	Б/У Sony Xperia Z3 White
+*357652064130583	DCT Sony Xperia Z3 White
 *013973002105149	EST Apple iPhone 5S 16Gb Gold
 *358027058181562	EST Apple iPhone 5S 16Gb Без Отп Space Gray
 *354447068300123	EST Apple iPhone 6 64Gb Без Отп Gold
@@ -468,8 +491,8 @@ IMEI или S/N	Наименование товара
 *353502066334945	EST Samsung Galaxy S5 16Gb Black
 *355698061353944	EST Samsung Galaxy A3 8Gb White
 *013849005063206	EST Apple iPhone 5S 32Gb Gold
-*354218072601743	Б/У Samsung Galaxy A5 16Gb Gold
-*351612061780562	Б/У Samsung Galaxy S4 16Gb Красный
+*354218072601743	DCT Samsung Galaxy A5 16Gb Gold
+*351612061780562	DCT Samsung Galaxy S4 16Gb Красный
 *352005062111722	EST Apple iPhone 5S 16Gb Без Отп Silver
 *352000068093446	ADT Apple iPhone 5S 16Gb Space Gray
 *358536056260582	EST Apple iPhone 5S 16Gb Без Отп Space Gray
@@ -513,14 +536,14 @@ IMEI или S/N	Наименование товара
 *358535057110713	EST Apple iPhone 5S 16Gb Без Отп Space Gray
 *358824053777893	EST Apple iPhone 5S 16Gb Без Отп Space Gray
 *358824056708978	ADTnoTouchID Apple iPhone 5S 16Gb Space Gray
-*358982072068239;358983072068237	Б/У Samsung Galaxy S7 Edge 32Gb Black
+*358982072068239;358983072068237	DCT Samsung Galaxy S7 Edge 32Gb Black
 *358760058394625	EST Apple iPhone 5S 16Gb Без Отп Space Gray
 *358805053042610	EST Apple iPhone 5S 16Gb Gold
 *352073069726868	ADT Apple iPhone 6 64Gb Space Gray
 *354450064200388	EST Apple iPhone 6 16Gb Без Отп Space Gray
 *358754057869208	EST Apple iPhone 5S 16Gb Без Отп Space Gray
-*352075063082347	Б/У Apple iPhone 6 64Gb Gold
-*359263062781985	Б/У Apple iPhone 6 16Gb Без Отп Gold
+*352075063082347	DCT Apple iPhone 6 64Gb Gold
+*359263062781985	DCT Apple iPhone 6 16Gb Без Отп Gold
 *354447069933906	EST Apple iPhone 6 16Gb Без Отп Gold
 *359304066259790	EST Apple iPhone 6 16Gb Без Отп Gold
 *354403062409584	EST Apple iPhone 6 16Gb Без Отп Gold
@@ -533,7 +556,7 @@ IMEI или S/N	Наименование товара
 *354406064896070	EST Apple iPhone 6 16Gb Silver
 *353269077249625	EST Apple iPhone 6S 64Gb Space Gray
 *355431071189623	EST Apple iPhone 6S 16Gb Space Gray
-*353255075495047	Б/У Apple iPhone 6S 16Gb Space Gray
+*353255075495047	DCT Apple iPhone 6S 16Gb Space Gray
 *355424073105762	EST Apple iPhone 6S 64Gb Space Gray
 *358751055664805	EST Apple iPhone 5S 16Gb Silver
 *357988057962719	EST Apple iPhone 5S 16Gb Silver
@@ -544,7 +567,7 @@ IMEI или S/N	Наименование товара
 *354446062460560	EST Apple iPhone 6 64Gb Без Отп Gold
 *354444065967137	ADTnoTouchID Apple iPhone 6 16Gb Gold
 *000000000000001	Clone Samsung Galaxy S7
-*013275009587943	Б/У Apple iPhone 4 8Gb Black
+*013275009587943	DCT Apple iPhone 4 8Gb Black
 *354437068755327	EST Apple iPhone 6 Plus 16Gb Space Gray
 *358372063537287	EST Apple iPhone 6 64Gb Без Отп Space Gray
 *358373067528132	EST Apple iPhone 6 64Gb Без Отп Space Gray
@@ -563,7 +586,7 @@ IMEI или S/N	Наименование товара
 *013886007896613	ADTnoTouchID Apple iPhone 5S 32Gb Gold
 *013035000028325	EST Apple iPhone 4S 16Gb Black
 *352745065816716	EST Samsung Galaxy S4 16Gb White
-*358369060526800	Б/У Apple iPhone 6 16Gb Gold
+*358369060526800	DCT Apple iPhone 6 16Gb Gold
 *352745066656939	EST Samsung Galaxy S4 16Gb Black
 *358369061639917	EST Apple iPhone 6 64Gb Без Отп Silver
 *356990066074537	EST Apple iPhone 6 16Gb Без Отп Gold
@@ -592,546 +615,21 @@ IMEI или S/N	Наименование товара
 *358760057416734	ADT Apple iPhone 5S 16Gb Gold
 *358756051379670	EST Apple iPhone 5S 16Gb Без Отп Space Gray
 *013887003160350	EST Apple iPhone 5S 16Gb Space Gray
-*357730060231496	Б/У Samsung Galaxy S6 Edge 32Gb Black
+*357730060231496	DCT Samsung Galaxy S6 Edge 32Gb Black
 *013788000451398	EST Apple iPhone 5C 16Gb White
 *351824070734924;351825070734921	EST Samsung Galaxy A5 16Gb White
-*013847001178549	Б/У Apple iPhone 5S 16Gb Space Gray
-*357095064181216;357096064181214	Б/У Samsung Galaxy A5 16Gb Black
+*013847001178549	DCT Apple iPhone 5S 16Gb Space Gray
+*357095064181216;357096064181214	DCT Samsung Galaxy A5 16Gb Black
 *354451061126477	EST Apple iPhone 6 Plus 16Gb Space Gray
-*357460064929420	Б/У Samsung Galaxy S6 Edge 64Gb Black
+*357460064929420	DCT Samsung Galaxy S6 Edge 64Gb Black
 *353121071222597	RST Samsung Galaxy S6 Edge+ 32Gb Gold
 *013847002833704	EST Apple iPhone 5S 32Gb Без Отп Gold
 *358812059353009	EST Apple iPhone 5S 16Gb Без Отп Silver
 *358760051897384	EST Apple iPhone 5S 16Gb Без Отп Silver
 *013965004878780	EST Apple iPhone 5S 16Gb Gold
-*354925070158621	Б/У Samsung Galaxy S6 Edge 32Gb Black
+*354925070158621	DCT Samsung Galaxy S6 Edge 32Gb Black
 *356990063132270	EST Apple iPhone 6 16Gb Без Отп Gold
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 	
 	
