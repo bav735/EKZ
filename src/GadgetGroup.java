@@ -16,6 +16,7 @@ public class GadgetGroup {
     ArrayList<ArrayList<String>> gadgets;
     String country;
     int countryId;
+    int imeiId;
     String metaModel;
     //    String vendor;
 //    String metaModel;
@@ -57,6 +58,7 @@ public class GadgetGroup {
     }
 
     public GadgetGroup(int countryId, String metaModel, Gadgets gadgets) {
+//        this.imeiId = imeiId;
         this.countryId = countryId;
         country = GadgetConst.COUNTRIES.get(countryId);
         this.gadgets = new ArrayList<>();
@@ -351,7 +353,7 @@ public class GadgetGroup {
 
     private String getUnusedIMEI() {
         ArrayList<String> IMEIs = GadgetConst.MAP_GADGET_NAME_IMEIS.get(getGadgetName());
-        System.out.println("test " + getGadgetName() + " / " + IMEIs.size());
+//        System.out.println("test " + getGadgetName() + " / " + IMEIs.size());
         String IMEI = IMEIs.get(0);
         IMEIs.remove(0);
         GadgetConst.MAP_GADGET_NAME_IMEIS.put(getGadgetName(), IMEIs);

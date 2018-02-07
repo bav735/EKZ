@@ -55,6 +55,7 @@ public class Gadgets {
     public DB GADGET_DB;
     public HTreeMap<String, Integer> mapMetaModelLastGadgetId;
     public HTreeMap<String, Integer>[] mapMetaModelCurrGadgetId;
+    public HTreeMap<String, Integer>[] mapMetaModelCurrGadgetN;
     public String companyName;
     public LinkedHashMap<String, ArrayList<GadgetGroup>> mapGadgetMetaModelGadgetGroups;
     public HashMap<String, ArrayList<String>> mapGadgetMetaModelWithoutMemoryImages;
@@ -70,12 +71,38 @@ public class Gadgets {
         }
     }
 
-    public String generateXMLAutoload() {
-        /*if (companyName.equals(ISPARK)) {
-            for (String s : mapGadgetMetaModelWithoutMemoryImages.keySet()) {
-                System.out.println(s);
+    private String getMinMemory(String metaModel) {
+        for (String memory : GadgetConst.MEMORIES) {
+            if (mapMetaModelLastGadgetId.containsKey(metaModel + " " + memory)) {
+                return memory;
             }
-        }*/
+        }
+        return "";
+    }
+
+    public String generateXMLAutoload() {
+        for (int cityId = 0; cityId < GadgetConst.CITIES.length; cityId++) {
+            LinkedHashSet<String> metaModelsUpdate = Solution.getHashSetFromInput(
+                    "update_items_for_imeis" + cityId + ".txt");
+            for (String metaModel : metaModelsUpdate) {
+                String minMemory = getMinMemory(getMetaModelWithoutMemory(metaModel));
+                int metaModelLastN = getMaxLastIdMemory(metaModel
+                        .replaceAll(" ?Gb", ""), mapMetaModelCurrGadgetN);
+                if (!metaModel.contains(MEMORY_GB) || metaModel.contains(minMemory)
+                        || metaModel.contains(minMemory.replace("Gb", " Gb"))) {
+                    if (!metaModel.contains(MEMORY_GB)) {
+                        metaModelLastN = Math.max(getMaxNByMetaModel(metaModel),
+                                getMaxLastIdMemory((metaModel + " " + minMemory)
+                                        .replaceAll(" ?Gb", ""), mapMetaModelCurrGadgetN));
+                    } else {
+                        metaModelLastN = Math.max(metaModelLastN,
+                                getMaxNByMetaModel(getMetaModelWithoutMemory(metaModel)));
+                    }
+                }
+                mapMetaModelCurrGadgetN[cityId].put(metaModel, metaModelLastN + 1);
+            }
+        }
+
         String xml = "";
         for (int cityId = 0; cityId < GadgetConst.CITIES.length; cityId++) {
             LinkedHashSet<String> metaModelsUpdate = Solution.getHashSetFromInput(
@@ -99,8 +126,8 @@ public class Gadgets {
                 break;
             }
             for (String metaModel : metaModelsUpdate) {
-                int metaModelLastId = getMaxLastIdMemory(metaModel.replace("Gb", ""))
-                        % GadgetConst.COUNTRIES.size();
+                int metaModelLastId = getMaxLastIdMemory(metaModel.replace("Gb", ""),
+                        mapMetaModelLastGadgetId) % GadgetConst.COUNTRIES.size();
                 if (metaModel.contains(Gadgets.MEMORY_GB)) {
                     for (Object metaModelIncreaseIdObj : new ArrayList<>(mapMetaModelLastGadgetId.keySet())) {
                         String metaModelIncreaseId = (String) metaModelIncreaseIdObj;
@@ -113,8 +140,8 @@ public class Gadgets {
                     mapMetaModelLastGadgetId.put(getMetaModelWithoutMemory(metaModel),
                             metaModelLastId + 1);
                 } else {
-                    metaModelLastId = getMaxLastIdWithoutMemory(metaModel)
-                            % GadgetConst.COUNTRIES.size();
+                    metaModelLastId = getMaxLastIdWithoutMemory(metaModel,
+                            mapMetaModelLastGadgetId) % GadgetConst.COUNTRIES.size();
                     for (Object metaModelIncreaseIdObj : new ArrayList<>(mapMetaModelLastGadgetId.keySet())) {
                         String metaModelIncreaseId = (String) metaModelIncreaseIdObj;
                         if (getMetaModelWithoutMemory(metaModelIncreaseId)
@@ -125,18 +152,39 @@ public class Gadgets {
                     }
                 }
                 mapMetaModelCurrGadgetId[cityId].put(metaModel, metaModelLastId);
+                String minMemory = getMinMemory(getMetaModelWithoutMemory(metaModel));
+                int metaModelLastN = getMaxLastIdMemory(metaModel
+                        .replaceAll(" ?Gb", ""), mapMetaModelCurrGadgetN);
+                if (!metaModel.contains(MEMORY_GB) || metaModel.contains(minMemory)
+                        || metaModel.contains(minMemory.replace("Gb", " Gb"))) {
+                    if (!metaModel.contains(MEMORY_GB)) {
+                        metaModelLastN = Math.max(getMaxNByMetaModel(metaModel),
+                                getMaxLastIdMemory((metaModel + " " + minMemory)
+                                        .replaceAll(" ?Gb", ""), mapMetaModelCurrGadgetN));
+                    } else {
+                        metaModelLastN = Math.max(metaModelLastN,
+                                getMaxNByMetaModel(getMetaModelWithoutMemory(metaModel)));
+                    }
+                }
+                mapMetaModelCurrGadgetN[cityId].put(metaModel, metaModelLastN + 1);
             }
             for (String metaModel : metaModelsPresent) {
                 if (!mapMetaModelLastGadgetId.keySet().contains(metaModel)) {
                     continue;
                 }
                 int gadgetGroupId = mapMetaModelCurrGadgetId[cityId].get(metaModel);
-                System.out.println(cityId + " " + metaModel + " " + gadgetGroupId);
+                System.out.print(cityId + " " + metaModel + " curr_id: " + gadgetGroupId);
+                if (mapMetaModelCurrGadgetN[cityId].containsKey(metaModel)) {
+                    int gadgetGroupN = mapMetaModelCurrGadgetN[cityId].get(metaModel);
+                    System.out.print(" curr_imei: " + gadgetGroupN);
+                }
+                System.out.println();
                 if (gadgetGroupId == -1) {
                     continue;
                 }
                 GadgetGroup gadgetGroup = mapGadgetMetaModelGadgetGroups.get(
                         metaModel).get(gadgetGroupId);
+//                gadgetGroup.imeiId = mapMetaModelCurrGadgetN[cityId].get(metaModel);
                 xml += gadgetGroup.getXmlAd(cityId, false);
             }
         }
@@ -145,6 +193,7 @@ public class Gadgets {
 
     public void initialize() {
         mapMetaModelCurrGadgetId = new HTreeMap[GadgetConst.CITIES.length];
+        mapMetaModelCurrGadgetN = new HTreeMap[GadgetConst.CITIES.length];
         GADGET_DB = DBMaker.fileDB(new File("C:/EKZ/DB/" + companyName +
                 "gadgets.db")).make();
         mapMetaModelLastGadgetId = GADGET_DB.hashMap(companyName +
@@ -153,6 +202,9 @@ public class Gadgets {
         for (int i = 0; i < GadgetConst.CITIES.length; i++) {
             mapMetaModelCurrGadgetId[i] = GADGET_DB.hashMap(companyName +
                             "MAP_META_MODEL_CURR_GADGET_ID" + GadgetConst.CITIES[i],
+                    Serializer.STRING, Serializer.INTEGER).createOrOpen();
+            mapMetaModelCurrGadgetN[i] = GADGET_DB.hashMap(companyName +
+                            "MAP_META_MODEL_CURR_GADGET_IMEI" + GadgetConst.CITIES[i],
                     Serializer.STRING, Serializer.INTEGER).createOrOpen();
         }
         mapGadgetNamePrices = new HashMap<>();
@@ -215,6 +267,11 @@ public class Gadgets {
                     mapMetaModelCurrGadgetId[i].put(gadgetName, -1);
                 }
             }
+            if (!mapMetaModelCurrGadgetN[0].containsKey(gadgetName)) {
+                for (int i = 0; i < GadgetConst.CITIES.length; i++) {
+                    mapMetaModelCurrGadgetN[i].put(gadgetName, -1);
+                }
+            }
         }
         for (Object metaModelObject : new ArrayList<>(mapMetaModelLastGadgetId.keySet())) {
             String metaModel = (String) metaModelObject;
@@ -228,55 +285,85 @@ public class Gadgets {
         //and to add models without memory
         for (Object metaModelObject : new ArrayList<>(mapMetaModelLastGadgetId.keySet())) {
             String metaModel = (String) metaModelObject;
-//            System.out.println(companyName + " " + metaModel + " "
-//                    + mapMetaModelLastGadgetId.get(metaModel));
             String metaModelWithoutMemory = getMetaModelWithoutMemory(
                     metaModel);
-            int maxId = getMaxLastIdWithoutMemory(metaModelWithoutMemory);
+            int maxId = getMaxLastIdWithoutMemory(metaModelWithoutMemory,
+                    mapMetaModelLastGadgetId);
             if (!mapMetaModelLastGadgetId.containsKey(metaModelWithoutMemory)) {
                 mapMetaModelLastGadgetId.put(metaModelWithoutMemory, maxId);
                 for (int i = 0; i < GadgetConst.CITIES.length; i++) {
                     mapMetaModelCurrGadgetId[i].put(metaModelWithoutMemory, -1);
                 }
             }
+            if (!mapMetaModelCurrGadgetN[0].containsKey(metaModelWithoutMemory)) {
+                for (int i = 0; i < GadgetConst.CITIES.length; i++) {
+                    mapMetaModelCurrGadgetN[i].put(metaModelWithoutMemory, -1);
+                }
+            }
             if (!mapGadgetMetaModelWithoutMemorySingle.get(metaModelWithoutMemory)) {
                 String metaModelSpaceMemory = getMetaModelSpaceMemory(metaModel);
-                maxId = getMaxLastIdMemory(metaModel.replace("Gb", ""));
+                maxId = getMaxLastIdMemory(metaModel.replace("Gb", ""),
+                        mapMetaModelLastGadgetId);
                 if (!mapMetaModelLastGadgetId.containsKey(metaModelSpaceMemory)) {
                     mapMetaModelLastGadgetId.put(metaModelSpaceMemory, maxId);
                     for (int i = 0; i < GadgetConst.CITIES.length; i++) {
                         mapMetaModelCurrGadgetId[i].put(metaModelSpaceMemory, -1);
                     }
                 }
+                if (!mapMetaModelCurrGadgetN[0].containsKey(metaModelSpaceMemory)) {
+                    for (int i = 0; i < GadgetConst.CITIES.length; i++) {
+                        mapMetaModelCurrGadgetN[i].put(metaModelSpaceMemory, -1);
+                    }
+                }
             }
         }
-//        for (Object metaModel : new ArrayList<>(mapMetaModelLastGadgetId.keySet())) {
-//            System.out.println(companyName + " " + metaModel + " " +
-//                    mapMetaModelLastGadgetId.get(metaModel));
-//        }
     }
 
     private String getMetaModelSpaceMemory(String metaModel) {
         return metaModel.replace("Gb", " Gb").replace("  ", " ");
     }
 
-    private int getMaxLastIdMemory(String metaModelCommon) {
+    private int getMaxLastIdMemory(String metaModelCommon,
+                                   HTreeMap<String, Integer> map) {
         int maxId = -1;
-        for (Object metaModelObject : new ArrayList<>(mapMetaModelLastGadgetId.keySet())) {
+        for (Object metaModelObject : new ArrayList<>(map.keySet())) {
             String metaModel = (String) metaModelObject;
             if (metaModel.startsWith(metaModelCommon)) {
-                maxId = Math.max(maxId, mapMetaModelLastGadgetId.get(metaModel));
+                maxId = Math.max(maxId, map.get(metaModel));
             }
         }
         return maxId;
     }
 
-    private int getMaxLastIdWithoutMemory(String metaModelCommon) {
+    private int getMaxLastIdMemory(String metaModelCommon,
+                                   HTreeMap<String, Integer> map[]) {
         int maxId = -1;
-        for (Object metaModelObject : new ArrayList<>(mapMetaModelLastGadgetId.keySet())) {
+        for (HTreeMap<String, Integer> tMap : map) {
+            for (Object metaModelObject : new ArrayList<>(tMap.keySet())) {
+                String metaModel = (String) metaModelObject;
+                if (metaModel.startsWith(metaModelCommon)) {
+                    maxId = Math.max(maxId, tMap.get(metaModel));
+                }
+            }
+        }
+        return maxId;
+    }
+
+    private int getMaxNByMetaModel(String metaModel) {
+        int maxId = -1;
+        for (int i = 0; i < GadgetConst.CITIES.length; i++) {
+            maxId = Math.max(maxId, mapMetaModelCurrGadgetN[i].get(metaModel));
+        }
+        return maxId;
+    }
+
+    private int getMaxLastIdWithoutMemory(String metaModelCommon,
+                                          HTreeMap<String, Integer> map) {
+        int maxId = -1;
+        for (Object metaModelObject : new ArrayList<>(map.keySet())) {
             String metaModel = (String) metaModelObject;
             if (getMetaModelWithoutMemory(metaModel).equals(metaModelCommon)) {
-                maxId = Math.max(maxId, mapMetaModelLastGadgetId.get(metaModel));
+                maxId = Math.max(maxId, map.get(metaModel));
             }
         }
         return maxId;

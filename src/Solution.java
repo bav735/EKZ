@@ -299,7 +299,7 @@ public class Solution {
         BufferedWriter writer = getOutputWriter("Output/Avito/", fileName + ".xml");
         writer.write("<Ads formatVersion=\"3\" target=\"Avito.ru\">\n");
         writer.write(gadgets1.generateXMLAutoload());
-        writer.write(gadgets2.generateXMLAutoload());
+//        writer.write(gadgets2.generateXMLAutoload());
         writer.write("</Ads>");
         writer.flush();
     }
