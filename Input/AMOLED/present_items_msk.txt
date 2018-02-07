@@ -6,6 +6,7 @@ Apple iPhone 5S
 Apple iPhone 6
 Apple iPhone 6S
 Apple iPhone 6S Plus
+Apple iPhone SE
 Apple iPhone 7
 Apple iPhone 7 Plus
 Apple iPhone 4 8 Gb
@@ -34,6 +35,8 @@ Apple iPhone 6S 128 Gb
 Apple iPhone 6S Plus 16 Gb
 Apple iPhone 6S Plus 64 Gb
 Apple iPhone 6S Plus 128 Gb
+Apple iPhone SE 16 Gb
+Apple iPhone SE 64 Gb
 Apple iPhone 7 32 Gb
 Apple iPhone 7 128 Gb
 Apple iPhone 7 256 Gb
@@ -66,6 +69,8 @@ Apple iPhone 6S 128Gb
 Apple iPhone 6S Plus 16Gb
 Apple iPhone 6S Plus 64Gb
 Apple iPhone 6S Plus 128Gb
+Apple iPhone SE 16Gb
+Apple iPhone SE 64Gb
 Apple iPhone 7 32Gb
 Apple iPhone 7 128Gb
 Apple iPhone 7 256Gb
