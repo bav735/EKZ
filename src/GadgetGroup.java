@@ -100,35 +100,24 @@ public class GadgetGroup {
         return firstAttr;
     }
 
-    private String getLastAttr() {
-        if (!metaModel.contains(Gadgets.MEMORY_GB) ||
-                getVendor().equals("Samsung") ||
+    private String getAdGadgetName() {
+        if (metaModel.contains(Gadgets.MEMORY_GB) &&
                 parent.mapGadgetMetaModelWithoutMemorySingle.get(parent
                         .getMetaModelWithoutMemory(metaModel))) {
-            return Gadgets.MODEL;
+            return metaModel.replaceAll(" [0-9]+Gb", "");
         }
-        return Gadgets.MEMORY;
+        return metaModel;
     }
 
     private String getAdTitle(int cityId) {
-        String title = parent.getGadgetName(gadgets.get(adGadgetId), getFirstAttr(),
-                getLastAttr())
+        String title = getAdGadgetName()
                 + GadgetConst.MAP_COMPANY_AD_TITLE_END.get(parent.companyName);
-//        if (parent.companyName.equals(Gadgets.AMOLED)) {
         if (cityId > 0) {
             title += " Рассрочка Оригинал";
         } else {
             title += " Оригинал";
         }
-//        }
-        return transformSpaceMemory(title);
-    }
-
-    private String transformSpaceMemory(String s) {
-        if (metaModel.contains(" Gb")) {
-            return s.replace("Gb", " Gb");
-        }
-        return s;
+        return title;
     }
 
     private String getAdPrice(int cityId) {
@@ -191,16 +180,9 @@ public class GadgetGroup {
         for (String url : imageUrls) {
             res += "\t\t\t<Image url=\"" + url + "\"/>\n";
         }*/
-        String gadgetName = getGadgetName();
-        if (!metaModel.contains(Gadgets.MEMORY_GB)) {
-            gadgetName = gadgetName.substring(0, gadgetName.lastIndexOf(" "));
-        }
-        ArrayList<String> images = GadgetConst.MAP_GADGET_NAME_IMAGES.get(gadgetName);
-        String url = images.get(0);
-        images.remove(0);
-        GadgetConst.MAP_GADGET_NAME_IMAGES.put(gadgetName, images);
+        String url = GadgetConst.MAP_GADGET_NAME_IMAGES.get(getGadgetName()).get(imeiId);
         url = "https://raw.githubusercontent.com/bav735/iSPARK/master/tempimgs/" +
-                gadgetName + " box/" + url;
+                getGadgetName() + " box/" + url;
         return "\t\t\t<Image url=\"" + url.replaceAll(" ", "%20") + "\"/>\n";
     }
 
@@ -211,8 +193,7 @@ public class GadgetGroup {
 
     private String getAdText() {
         String text = "<![CDATA[<p>";
-        text += transformSpaceMemory(parent.getGadgetName(gadgets.get(adGadgetId),
-                getFirstAttr(), getLastAttr()));
+        text += getAdGadgetName();
         text += " в магазине AMOLED\uD83C\uDF08<br>" +
                 "➡У нас в продаже весь модельный ряд производителя!</p>";
         text += "<p>\uD83D\uDC9BМы всегда идем навстречу нашим покупателям.<br>" +
@@ -244,7 +225,8 @@ public class GadgetGroup {
         text += "</p><p>✔ гарантия на обмен 14 дней при возникновении заводского брака<br>";
         text += "✔ по истечению 14 дней действует гарантия на ремонт на 1 год<br>";
         text += "✔ перед визитом к нам, бронируйте интересующий вас товар<br>";
-        text += "✔ IMEI-номер: " + getUnusedIMEI();
+        text += "✔ IMEI-номер: " + GadgetConst.MAP_GADGET_NAME_IMEIS.get(
+                getGadgetName()).get(imeiId);
         text += "</p><p>Наше местоположение\uD83C\uDF0D<br>" +
                 "▶ г. Москва, ул. Новослободская, д. 26с1, время работы: 11.00-19.00<br>" +
                 "▶ г. Казань, ул. Лушникова, д. 8, время работы: 11.00-19.00 (пн-сб)</p>";
@@ -351,14 +333,14 @@ public class GadgetGroup {
                 Gadgets.VENDOR, Gadgets.MEMORY);
     }
 
-    private String getUnusedIMEI() {
+    /*private String getUnusedIMEI() {
         ArrayList<String> IMEIs = GadgetConst.MAP_GADGET_NAME_IMEIS.get(getGadgetName());
 //        System.out.println("test " + getGadgetName() + " / " + IMEIs.size());
         String IMEI = IMEIs.get(0);
         IMEIs.remove(0);
         GadgetConst.MAP_GADGET_NAME_IMEIS.put(getGadgetName(), IMEIs);
         return IMEI;
-    }
+    }*/
 
     private String getAdDate() {
         Calendar calendar = (Calendar) CALENDAR_ZERO.clone();
@@ -398,26 +380,6 @@ public class GadgetGroup {
             return "0" + num;
         }
         return "" + num;
-    }
-
-    private String getOffer(ArrayList<String> gadget, int cityId) {
-        String offer = "➡ ";
-        offer += String.join(" ", gadget.subList(Gadgets.mapGadgetAttributeNumber
-                .get(Gadgets.VENDOR), Gadgets.mapGadgetAttributeNumber.get(getLastAttr()) + 1));
-//        if (vendor.equals("Apple")) {
-//            offer += " TouchID работает ";
-//        }
-        offer += " = " + getPriceByCity(gadget, cityId) + "\u20BD<br>";
-//        String quality = gadget.get(mapGadgetAttributeNumber.get(QUALITY));
-//        if (cityId == 0 || quality.equals(GadgetConst.CPO_RST)) {
-//            if (quality.equals(GadgetConst.CPO_RST)) {
-//        offer += " (" + GadgetConst.MAP_QUALITY_DESCRIPTION.get(quality) + ")";
-//            }
-//        }
-//        offer += "<br>= " + getPrice(getGadgetName(gadget), REGIONS_PRICE) + "\u20BD от 3 шт, = " +
-//                getMinOptPriceAmoled(gadget) + "\u20BD от 10шт \uD83D\uDCA3</p>";
-//        offer += "высылаем по запросу полный оптовый прайс-лист\uD83D\uDCA3";
-        return offer;
     }
 
     private String getPriceByCity(ArrayList<String> gadget, int cityId) {
