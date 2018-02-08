@@ -174,17 +174,16 @@ public class Gadgets {
                 }
                 int gadgetGroupId = mapMetaModelCurrGadgetId[cityId].get(metaModel);
                 System.out.print(cityId + " " + metaModel + " curr_id: " + gadgetGroupId);
-                if (mapMetaModelCurrGadgetN[cityId].containsKey(metaModel)) {
-                    int gadgetGroupN = mapMetaModelCurrGadgetN[cityId].get(metaModel);
-                    System.out.print(" curr_imei: " + gadgetGroupN);
-                }
-                System.out.println();
                 if (gadgetGroupId == -1) {
                     continue;
                 }
                 GadgetGroup gadgetGroup = mapGadgetMetaModelGadgetGroups.get(
                         metaModel).get(gadgetGroupId);
-//                gadgetGroup.imeiId = mapMetaModelCurrGadgetN[cityId].get(metaModel);
+                if (mapMetaModelCurrGadgetN[cityId].containsKey(metaModel)) {
+                    gadgetGroup.imeiId = mapMetaModelCurrGadgetN[cityId].get(metaModel);
+                    System.out.print(" curr_imei: " + gadgetGroup.imeiId);
+                }
+                System.out.println();
                 xml += gadgetGroup.getXmlAd(cityId, false);
             }
         }
@@ -267,8 +266,8 @@ public class Gadgets {
                     mapMetaModelCurrGadgetId[i].put(gadgetName, -1);
                 }
             }
-            if (!mapMetaModelCurrGadgetN[0].containsKey(gadgetName)) {
-                for (int i = 0; i < GadgetConst.CITIES.length; i++) {
+            for (int i = 0; i < GadgetConst.CITIES.length; i++) {
+                if (!mapMetaModelCurrGadgetN[i].containsKey(gadgetName)) {
                     mapMetaModelCurrGadgetN[i].put(gadgetName, -1);
                 }
             }
@@ -295,8 +294,8 @@ public class Gadgets {
                     mapMetaModelCurrGadgetId[i].put(metaModelWithoutMemory, -1);
                 }
             }
-            if (!mapMetaModelCurrGadgetN[0].containsKey(metaModelWithoutMemory)) {
-                for (int i = 0; i < GadgetConst.CITIES.length; i++) {
+            for (int i = 0; i < GadgetConst.CITIES.length; i++) {
+                if (!mapMetaModelCurrGadgetN[i].containsKey(metaModelWithoutMemory)) {
                     mapMetaModelCurrGadgetN[i].put(metaModelWithoutMemory, -1);
                 }
             }
@@ -310,8 +309,8 @@ public class Gadgets {
                         mapMetaModelCurrGadgetId[i].put(metaModelSpaceMemory, -1);
                     }
                 }
-                if (!mapMetaModelCurrGadgetN[0].containsKey(metaModelSpaceMemory)) {
-                    for (int i = 0; i < GadgetConst.CITIES.length; i++) {
+                for (int i = 0; i < GadgetConst.CITIES.length; i++) {
+                    if (!mapMetaModelCurrGadgetN[i].containsKey(metaModelSpaceMemory)) {
                         mapMetaModelCurrGadgetN[i].put(metaModelSpaceMemory, -1);
                     }
                 }
