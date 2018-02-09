@@ -1,3 +1,7 @@
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 import java.util.Calendar;
 
@@ -157,13 +161,32 @@ public class GadgetGroup {
         ad += "\t\t<Description>" + getAdText() + "</Description>\n";
         ad += "\t\t<Price>" + getAdPrice(cityId) + "</Price>\n";
         ad += "\t\t<Images>\n";
-        ad += getImageAvitoUrls();
+        ad += getImageAvitoUrls(cityId);
+//        generatePhotos(cityId);
         ad += "\t\t</Images>\n";
         ad += "\t</Ad>\n";
         return ad;
     }
 
-    private String getImageAvitoUrls() {
+    private void generatePhotos(int cityId) {
+        for (int i = 0; i < GadgetConst.MAP_GADGET_NAME_IMEIS.
+                get(getGadgetName()).size(); i++) {
+            File avitoImage = new File("C:/iSPARK/images_avito_new/" + getAdGadgetName()
+                    + "/" + cityId + "/" + i + "/img.jpg");
+            avitoImage.mkdirs();
+            String imgToCopyName = GadgetConst.MAP_GADGET_NAME_IMAGES.get(getGadgetName())
+                    .get(imeiId);
+            File imgToCopy = new File("C:/iSPARK/tempimgs/" + getGadgetName() + " box/"
+                    + imgToCopyName);
+            try {
+                Files.copy(imgToCopy.toPath(), avitoImage.toPath(), StandardCopyOption.REPLACE_EXISTING);
+            } catch (IOException e) {
+                System.out.println(e.toString());
+            }
+        }
+    }
+
+    private String getImageAvitoUrls(int cityId) {
         /*HashSet<String> imageUrls = new HashSet<>();
         if (parent.companyName.equals(Gadgets.AMOLED)) {
             imageUrls.add(getImageAvitoUrl(gadgets.get(0)));
@@ -180,9 +203,8 @@ public class GadgetGroup {
         for (String url : imageUrls) {
             res += "\t\t\t<Image url=\"" + url + "\"/>\n";
         }*/
-        String url = GadgetConst.MAP_GADGET_NAME_IMAGES.get(getGadgetName()).get(imeiId);
-        url = "https://raw.githubusercontent.com/bav735/iSPARK/master/tempimgs/" +
-                getGadgetName() + " box/" + url;
+        String url = "https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_new"
+                + "/" + getAdGadgetName() + "/" + cityId + "/" + imeiId + "/img.jpg";
         return "\t\t\t<Image url=\"" + url.replaceAll(" ", "%20") + "\"/>\n";
     }
 
