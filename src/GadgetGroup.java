@@ -104,7 +104,7 @@ public class GadgetGroup {
         return firstAttr;
     }
 
-    private String getAdGadgetName() {
+    private String getFileGadgetName() {
         if (metaModel.contains(Gadgets.MEMORY_GB) &&
                 parent.mapGadgetMetaModelWithoutMemorySingle.get(parent
                         .getMetaModelWithoutMemory(metaModel))) {
@@ -113,14 +113,17 @@ public class GadgetGroup {
         return metaModel;
     }
 
-    private String getAdTitle(int cityId) {
-        String title = getAdGadgetName()
-                + GadgetConst.MAP_COMPANY_AD_TITLE_END.get(parent.companyName);
+    private String getAdGadgetName(int cityId) {
+        String title = getFileGadgetName();
+        if (title.startsWith("Apple iPhone")) {
+            title = title.substring(title.indexOf(" ") + 1, title.length());
+        }
+                /*+ GadgetConst.MAP_COMPANY_AD_TITLE_END.get(parent.companyName);
         if (cityId > 0) {
             title += " Рассрочка Оригинал";
         } else {
             title += " Оригинал";
-        }
+        }*/
         return title;
     }
 
@@ -157,7 +160,7 @@ public class GadgetGroup {
             goodsType = "iPhone";
         }
         ad += "\t\t<GoodsType>" + goodsType + "</GoodsType>\n";
-        ad += "\t\t<Title>" + getAdTitle(cityId) + "</Title>\n";
+        ad += "\t\t<Title>" + getAdGadgetName(cityId) + "</Title>\n";
         ad += "\t\t<Description>" + getAdText() + "</Description>\n";
         ad += "\t\t<Price>" + getAdPrice(cityId) + "</Price>\n";
         ad += "\t\t<Images>\n";
@@ -171,7 +174,7 @@ public class GadgetGroup {
     private void generatePhotos(int cityId) {
         for (int i = 0; i < GadgetConst.MAP_GADGET_NAME_IMEIS.
                 get(getGadgetName()).size(); i++) {
-            File avitoImage = new File("C:/iSPARK/images_avito_new/" + getAdGadgetName()
+            File avitoImage = new File("C:/iSPARK/images_avito_new/" + getFileGadgetName()
                     + "/" + cityId + "/" + i + "/img.jpg");
             avitoImage.mkdirs();
             String imgToCopyName = GadgetConst.MAP_GADGET_NAME_IMAGES.get(getGadgetName())
@@ -204,7 +207,7 @@ public class GadgetGroup {
             res += "\t\t\t<Image url=\"" + url + "\"/>\n";
         }*/
         String url = "https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_new"
-                + "/" + getAdGadgetName() + "/" + cityId + "/" + imeiId + "/img.jpg";
+                + "/" + getFileGadgetName() + "/" + cityId + "/" + imeiId + "/img.jpg";
         return "\t\t\t<Image url=\"" + url.replaceAll(" ", "%20") + "\"/>\n";
     }
 
@@ -215,7 +218,7 @@ public class GadgetGroup {
 
     private String getAdText() {
         String text = "<![CDATA[<p>";
-        text += getAdGadgetName();
+        text += getAdGadgetName(cityId);
         text += " в магазине AMOLED\uD83C\uDF08<br>" +
                 "➡У нас в продаже весь модельный ряд производителя!</p>";
         text += "<p>\uD83D\uDC9BМы всегда идем навстречу нашим покупателям.<br>" +
