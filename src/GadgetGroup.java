@@ -219,8 +219,14 @@ public class GadgetGroup {
     private String getAdText() {
         String text = "<![CDATA[<p>";
         text += getAdGadgetName(cityId);
-        text += " в магазине AMOLED\uD83C\uDF08<br>" +
-                "➡У нас в продаже весь модельный ряд производителя!</p>";
+        text += " в магазине iSPARK\uD83D\uDD25";
+        if (gadgets.get(adGadgetId).get(Gadgets.mapGadgetAttributeNumber.get(
+                Gadgets.QUALITY)).startsWith("ADT")) {
+            text += "Дискаунтер";
+        } else {
+            text += "Электроникс";
+        }
+        text += "<br>➡У нас в продаже весь модельный ряд производителя!</p>";
         text += "<p>\uD83D\uDC9BМы всегда идем навстречу нашим покупателям.<br>" +
                 "\uD83D\uDC49Мы предлагаем вам:<br>";
         if (cityId > 0) {
@@ -252,8 +258,8 @@ public class GadgetGroup {
                 "▶ г. Москва, ул. Новослободская, д. 26с1, время работы: 11.00-19.00<br>" +
                 "▶ г. Казань, ул. Лушникова, д. 8, время работы: 11.00-19.00 (пн-сб)</p>";
         text += "<p>\uD83D\uDCDE Звоните: 9:00-21:00 (без выходных)</p>";
-        text += "<p>В AMOLED\uD83C\uDF08 вы сможете выгодно купить любой " +
-                "интересующий вас смартфон, а также получить массу позитивных эмоций " +
+        text += "<p>В iSPARK\uD83D\uDD25 вы сможете выгодно купить любой " +
+                "интересующий вас гаджет, а также получить массу позитивных эмоций " +
                 "от покупки!\uD83D\uDC4D";
 //        }
         /*} else {
