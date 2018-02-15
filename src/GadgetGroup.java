@@ -253,8 +253,8 @@ public class GadgetGroup {
 //                " оператор " + GadgetConst.MAP_COUNTRIES_OPERATOR.get(country) + "<br>";
 //        if (cityId > 0) {
 //        }
-        text += "</p><p>✔ гарантия на обмен 14 дней при возникновении заводского брака<br>";
-        text += "✔ по истечению 14 дней действует гарантия на ремонт на 1 год<br>";
+        text += "</p><p>✔ гарантия на обмен в течение 14 дней с момента покупки<br>";
+        text += "✔ гарантия на полностью бесплатный ремонт на 1 год по РФ<br>";
         text += "✔ перед визитом к нам, бронируйте интересующий вас товар<br>";
         text += "✔ IMEI-номер: " + GadgetConst.MAP_GADGET_NAME_IMEIS.get(
                 getGadgetName()).get(imeiId);
