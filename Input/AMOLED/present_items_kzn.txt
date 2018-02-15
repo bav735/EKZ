@@ -93,3 +93,9 @@ Samsung Galaxy S8 Plus 64Gb
 Samsung Galaxy Note 3 16Gb
 Samsung Galaxy Note 4 32Gb
 Samsung Galaxy Note 5 32Gb
+Xiaomi Redmi Note 4 64Gb
+Xiaomi Redmi Note 4X 16Gb
+Xiaomi Redmi Note 4X 32Gb
+Xiaomi Redmi 4A 16Gb
+Xiaomi Redmi 4X 16Gb
+Xiaomi Redmi 4X 32Gb
