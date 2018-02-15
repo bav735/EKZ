@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/AMOLEDgadgets.db" afterPath="$PROJECT_DIR$/DB/AMOLEDgadgets.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EKZ_jar/EKZ.jar" afterPath="$PROJECT_DIR$/out/artifacts/EKZ_jar/EKZ.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EKZ/GadgetGroup.class" afterPath="$PROJECT_DIR$/out/production/EKZ/GadgetGroup.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/AMOLED/present_items_kzn.txt" afterPath="$PROJECT_DIR$/Input/AMOLED/present_items_kzn.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/AMOLED/present_items_msk.txt" afterPath="$PROJECT_DIR$/Input/AMOLED/present_items_msk.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/AMOLED/price_list.txt" afterPath="$PROJECT_DIR$/Input/AMOLED/price_list.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Input/imei_numbers.txt" afterPath="$PROJECT_DIR$/Input/imei_numbers.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" afterPath="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GadgetGroup.java" afterPath="$PROJECT_DIR$/src/GadgetGroup.java" />
     </list>
@@ -52,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdsXML_msk.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdsXML_msk.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1487" column="30" selection-start-line="1487" selection-start-column="30" selection-end-line="1487" selection-end-column="30" />
+            <state relative-caret-position="133">
+              <caret line="1510" column="0" selection-start-line="1510" selection-start-column="0" selection-end-line="1510" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GadgetGroup.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GadgetGroup.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GadgetGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="224" column="20" selection-start-line="224" selection-start-column="20" selection-end-line="224" selection-end-column="20" />
+            <state relative-caret-position="56">
+              <caret line="253" column="16" selection-start-line="253" selection-start-column="16" selection-end-line="253" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -202,14 +197,14 @@
         <option value="$PROJECT_DIR$/Input/iSPARK/price_list.txt" />
         <option value="$PROJECT_DIR$/src/AMOLEDGadgets.java" />
         <option value="$PROJECT_DIR$/src/Gadgets.java" />
-        <option value="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" />
-        <option value="$PROJECT_DIR$/src/GadgetGroup.java" />
         <option value="$PROJECT_DIR$/Input/AMOLED/price_list.txt" />
         <option value="$PROJECT_DIR$/Input/imei_numbers.txt" />
         <option value="$PROJECT_DIR$/Input/AMOLED/update_items_msk.txt" />
         <option value="$PROJECT_DIR$/Input/AMOLED/present_items_msk.txt" />
         <option value="$PROJECT_DIR$/Input/AMOLED/update_items_kzn.txt" />
         <option value="$PROJECT_DIR$/Input/AMOLED/present_items_kzn.txt" />
+        <option value="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" />
+        <option value="$PROJECT_DIR$/src/GadgetGroup.java" />
       </list>
     </option>
   </component>
@@ -1033,14 +1028,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GadgetGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="224" column="20" selection-start-line="224" selection-start-column="20" selection-end-line="224" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Input/imei_numbers.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1065,15 +1052,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Input/AMOLED/update_items_kzn.txt">
+    <entry file="file://$PROJECT_DIR$/Input/countries.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Input/AMOLED/update_items_msk.txt">
+    <entry file="file://$PROJECT_DIR$/Input/AMOLED/update_items_kzn.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1089,18 +1076,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Input/countries.txt">
+    <entry file="file://$PROJECT_DIR$/Input/AMOLED/update_items_msk.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="4" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1487" column="30" selection-start-line="1487" selection-start-column="30" selection-end-line="1487" selection-end-column="30" />
+        <state relative-caret-position="133">
+          <caret line="1510" column="0" selection-start-line="1510" selection-start-column="0" selection-end-line="1510" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GadgetGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="253" column="16" selection-start-line="253" selection-start-column="16" selection-end-line="253" selection-end-column="16" />
           <folding />
         </state>
       </provider>
