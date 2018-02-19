@@ -310,7 +310,7 @@ public class Solution {
 
         try {
             computeCategoryTreeFromXML(isparkGadgets);
-            computeXMLAutoload(amoledGadgets, isparkGadgets, "AdsXML_msk");
+            computeXMLAutoload(amoledGadgets, isparkGadgets, "AdsXML_mskold");
 //            computeXMLAutoload(isparkGadgets, "AdsXML_tat");
         } catch (Exception e) {
             e.printStackTrace();

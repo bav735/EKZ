@@ -20,9 +20,6 @@ public class GadgetConst {
     final static String CPO_RST = "CPO RST";
 
     public final static String[] CITIES = new String[]{"Москва", "Казань"};
-//    public final static ArrayList<String> DIFFERENCES[];
-//    public final static ArrayList<String> VARIANTS;
-//    public final static Random RANDOM;
 
     public final static HashMap<String, String[]> MAP_COMPANY_CITIES_PHONE_NUMBERS;
     public final static HashMap<String, String> MAP_COMPANY_AD_TITLE_END;

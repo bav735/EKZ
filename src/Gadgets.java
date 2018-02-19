@@ -328,6 +328,7 @@ public class Gadgets {
             }
         }
         for (String metaModel : mapGadgetMetaModelWithoutMemorySingle.keySet()) {
+//            System.out.println(metaModel + " коробка");
             String minMemory = getMinMemory(metaModel);
             mapMetaModelWithoutMemoryMinMemory.put(metaModel, minMemory);
             if (!minMemory.equals(getMaxMemory(metaModel))) {
