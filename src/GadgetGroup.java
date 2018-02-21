@@ -135,13 +135,23 @@ public class GadgetGroup {
     }
 
     public String getXmlAd(int cityId, boolean isArrangement) {
-        this.cityId = cityId;
+        String xml = "";
+        xml += metaModel + "\n";
+        xml += GadgetConst.CITIES[cityId] + "\n";
+        xml += GadgetConst.MAP_GADGET_NAME_IMEIS.get(
+                getGadgetName()).get(imeiId) + "\n";
+        String url = ("https://raw.githubusercontent.com/bav735/iSPARK/master/images_avito_new"
+                + "/" + getFileGadgetName() + "/" + cityId + "/" + imeiId + "/img.jpg")
+                .replaceAll(" ", "%20");
+        xml += url + "\n-\n";
+        return xml;
+        /*this.cityId = cityId;
         if (gadgets.isEmpty()) {
             return "";
         }
         String ad = "\t<Ad>\n";
         ad += "\t\t<Id>" + getIdXML() + "</Id>\n";
-        if (isArrangement /*!isGlobal*/) {
+        if (isArrangement *//*!isGlobal*//*) {
             ad += "\t\t<DateBegin>" + getAdDate() + "</DateBegin>\n";
         }
         ad += "\t\t<AllowEmail>Нет</AllowEmail>\n";
@@ -170,7 +180,7 @@ public class GadgetGroup {
 //        }
         ad += "\t\t</Images>\n";
         ad += "\t</Ad>\n";
-        return ad;
+        return ad;*/
     }
 
     private void generatePhotos(int cityId) {
