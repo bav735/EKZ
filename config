@@ -1,0 +1,3 @@
+[remote "origin"]
+	url = https://github.com/bav735/EKZ
+	fetch = +refs/heads/*:refs/remotes/origin/*
