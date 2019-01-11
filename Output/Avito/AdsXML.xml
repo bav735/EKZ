@@ -1,2 +1,14 @@
-<Ads formatVersion="3" target="Avito.ru">
+﻿<Ads formatVersion="3" target="Avito.ru">
+<Ad>
+		<Id>testid</Id>
+		<AllowEmail>Нет</AllowEmail>		
+		<ContactPhone>89173929827</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Fly</GoodsType>
+		<Title>Fly test</Title>
+		<Description>test</Description>
+		<Price>1000</Price>		
+	</Ad>
 </Ads>
