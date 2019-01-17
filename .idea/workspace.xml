@@ -2,1118 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a311a98-ac07-4921-b099-f77ecee983be" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/AdsXML_msk_db — копия.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/AdsXML_msk_db.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/ek_shop_items.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/shop_items.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/ym_shop_items.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/youla_new_ads.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Avito/youla_shop_items.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/ads.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/ads.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4/photos/price9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/ads.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/ads.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price38.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price39.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price43.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price44.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price45.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price46.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price48.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price49.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price50.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price51.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price52.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/4S/photos/price53.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/ads.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/ads.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price54.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price55.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price56.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price57.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price58.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price59.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price60.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price61.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price62.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price63.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price65.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price66.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price67.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price68.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price69.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price70.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price71.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price72.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price73.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price75.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price76.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price77.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price78.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price79.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price81.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price82.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price83.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price84.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price85.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price86.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price87.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price88.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5/photos/price89.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/ads.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/ads.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/price100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/price101.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/price90.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/price91.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/price92.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/price93.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/price94.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/price95.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/price96.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/price97.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/price98.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5C/photos/price99.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/ads.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/ads.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/101.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/102.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/103.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/105.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/106.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/107.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/108.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/109.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/110.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/111.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/112.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/113.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/114.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/115.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/116.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/117.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/118.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/119.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/120.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/121.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/122.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/123.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/124.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/125.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/126.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/38.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/39.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/43.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/44.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/45.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/46.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/48.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/49.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/50.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/51.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/52.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/53.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/54.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/55.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/56.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/57.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/58.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/59.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/60.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/61.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/62.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/63.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/65.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/66.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/67.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/68.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/69.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/70.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/71.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/72.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/73.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/75.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/76.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/77.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/78.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/79.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/81.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/82.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/83.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/84.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/85.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/86.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/87.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/88.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/89.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/90.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/91.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/92.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/93.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/94.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/95.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/96.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/97.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/98.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/99.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price102.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price103.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price105.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price106.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price107.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price108.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price109.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price110.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price111.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price112.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price113.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price114.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price115.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price116.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price117.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price118.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price119.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price120.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price121.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price122.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price123.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price124.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price125.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price126.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price127.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price129.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price130.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price131.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price132.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price133.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price134.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price135.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price136.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price137.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price138.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price139.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price140.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price141.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price142.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price143.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price144.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price145.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price146.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price147.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price148.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price149.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price150.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price151.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price152.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price153.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price154.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price155.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price156.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price157.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price158.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price159.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price160.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price161.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price162.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price163.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price164.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price165.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price166.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price167.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price168.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price169.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price170.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price171.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price172.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price173.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price174.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price175.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price176.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price177.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price178.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price179.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price180.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price181.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price182.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price183.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price184.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price185.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price186.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price187.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price188.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price189.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price190.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price191.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price192.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price193.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price194.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price195.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price196.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price197.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price198.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price199.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price201.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price202.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price203.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price204.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price205.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price206.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price207.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price208.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price209.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price210.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price211.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price212.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price213.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price214.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price215.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price216.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price217.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price218.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price219.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price220.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price221.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price222.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price223.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price224.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price225.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price226.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/5S/photos/price227.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/ads.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/ads.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/price318.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/price319.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/price320.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/price321.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/price322.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/price323.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/price324.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/price325.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/price326.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/price327.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/price328.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/price329.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6 Plus/photos/price330.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/ads.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/ads.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/38.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/39.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/43.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/44.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/45.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/46.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/48.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/49.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/50.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/51.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/52.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/53.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/54.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/55.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/56.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/57.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/58.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/59.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/60.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/61.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/62.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/63.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/65.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/66.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/67.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/68.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/69.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/70.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/71.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/72.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/73.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/75.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/76.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/77.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/78.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/79.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/81.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/82.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/83.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/84.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/85.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/86.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/87.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/88.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/89.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/90.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price228.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price229.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price230.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price231.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price232.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price233.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price234.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price235.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price236.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price237.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price238.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price239.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price240.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price241.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price242.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price243.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price244.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price245.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price246.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price247.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price248.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price249.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price250.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price251.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price252.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price253.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price254.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price255.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price257.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price258.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price259.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price260.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price261.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price262.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price263.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price264.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price265.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price266.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price267.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price268.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price269.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price270.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price271.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price272.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price273.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price274.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price275.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price276.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price277.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price278.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price279.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price280.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price281.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price282.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price283.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price284.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price285.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price286.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price287.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price288.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price289.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price290.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price291.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price292.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price293.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price294.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price295.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price296.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price297.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price298.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price299.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price301.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price302.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price303.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price304.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price305.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price306.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price307.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price308.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price309.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price310.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price311.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price312.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price313.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price314.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price315.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price316.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6/photos/price317.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/ads.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/ads.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/photos/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/photos/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/photos/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/photos/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/photos/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/photos/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/photos/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/photos/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/photos/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/photos/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/photos/price404.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/photos/price405.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/photos/price406.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/photos/price407.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/photos/price408.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/photos/price409.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/photos/price410.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/photos/price411.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/photos/price412.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus SE (для порядка)/photos/price413.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/ads.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/ads.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/price393.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/price394.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/price395.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/price396.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/price397.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/price398.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/price399.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/price400.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/price401.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/price402.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S Plus/photos/price403.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/ads.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/ads.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/38.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/39.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/43.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/44.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/45.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/46.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/48.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/49.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/50.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/51.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/52.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/53.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/54.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/55.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/56.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/57.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/58.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/59.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/60.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/61.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/62.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price331.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price332.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price333.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price334.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price335.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price336.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price337.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price338.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price339.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price340.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price341.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price342.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price343.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price344.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price345.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price346.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price347.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price348.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price349.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price350.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price351.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price352.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price353.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price354.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price355.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price356.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price357.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price358.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price359.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price360.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price361.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price362.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price363.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price364.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price365.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price366.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price367.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price368.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price369.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price370.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price371.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price372.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price373.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price374.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price375.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price376.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price377.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price378.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price379.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price380.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price381.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price382.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price383.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price384.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price385.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price386.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price387.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price388.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price389.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price390.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price391.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/6S/photos/price392.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/ads.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/ads.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/price453.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/price454.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/price455.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/price456.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/price457.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/price458.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/price459.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/price460.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/price461.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/price462.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7 Plus/photos/price463.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/ads.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/ads.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/38.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/39.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price414.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price415.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price416.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price417.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price418.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price419.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price420.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price421.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price422.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price423.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price424.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price425.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price426.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price427.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price428.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price429.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price430.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price431.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price432.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price433.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price434.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price435.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price436.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price437.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price438.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price439.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price440.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price441.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price442.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price443.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price444.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price445.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price446.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price447.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price448.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price449.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price450.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price451.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/7/photos/price452.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/AvitoRobot/SE/ads.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Website/galaxys.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Website/iphones.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Website/shop_items — копия.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Website/shop_items.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day01/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day01/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day01/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day01/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day01/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day02/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day02/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day02/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day02/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day02/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day03/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day03/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day03/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day03/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day03/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day04/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day04/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day04/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day04/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day04/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day05/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day05/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day05/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day05/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day05/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day06/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day06/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day06/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day06/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day06/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day07/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day07/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day07/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day07/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day07/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day08/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day08/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day08/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day08/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day08/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day09/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day09/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day09/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day09/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day09/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day10/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day10/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day10/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day10/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day10/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day11/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day11/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day11/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day11/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day11/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day12/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day12/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day12/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day12/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day12/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day13/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day13/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day13/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day13/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day13/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day14/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day14/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day14/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day14/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day14/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day15/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day15/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day15/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day15/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day15/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day16/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day16/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day16/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day16/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day16/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day17/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day17/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day17/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day17/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day17/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day18/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day18/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day18/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day18/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day18/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day19/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day19/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day19/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day19/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day19/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day20/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day20/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day20/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day20/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day20/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day21/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day21/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day21/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day21/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day21/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day22/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day22/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day22/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day22/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day22/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day23/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day23/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day23/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day23/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day23/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day24/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day24/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day24/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day24/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day24/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day25/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day25/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day25/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day25/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day25/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day26/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day26/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day26/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day26/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day26/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day27/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day27/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day27/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day27/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day27/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day28/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day28/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day28/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day28/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day28/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day29/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day29/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day29/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day29/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day29/5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day30/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day30/2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day30/3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day30/4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Youla/Day30/5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Database/AdsXML_msk_db — копия (2).xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Avito/AdsXML.xml" afterPath="$PROJECT_DIR$/Output/Avito/AdsXML.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" afterPath="$PROJECT_DIR$/Output/Avito/AdsXML_msk.xml" />
     </list>
     <ignored path="EKZ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1144,18 +36,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GadgetGroup.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GadgetGroup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GadgetGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7334">
+            <state relative-caret-position="110">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="price_list.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Input/AMOLED/price_list.txt">
+      <file leaf-file-name="update_items_kzn.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Input/iSPARK/update_items_kzn.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1177,7 +69,7 @@
       <file leaf-file-name="ISPARKGadgets.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ISPARKGadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-983">
+            <state relative-caret-position="242">
               <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding />
             </state>
@@ -1187,8 +79,8 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3404">
-              <caret line="366" column="29" selection-start-line="366" selection-start-column="20" selection-end-line="366" selection-end-column="29" />
+            <state relative-caret-position="234">
+              <caret line="335" column="28" selection-start-line="335" selection-start-column="28" selection-end-line="335" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -1197,7 +89,7 @@
       <file leaf-file-name="GadgetsGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GadgetsGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-521">
+            <state relative-caret-position="198">
               <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding />
             </state>
@@ -1207,8 +99,8 @@
       <file leaf-file-name="AMOLEDGadgets.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AMOLEDGadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3674">
-              <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+            <state relative-caret-position="220">
+              <caret line="62" column="58" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -1224,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gadgets.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Gadgets.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9995">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="178">
+              <caret line="209" column="35" selection-start-line="209" selection-start-column="35" selection-end-line="209" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -1378,6 +270,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1438,19 +333,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Output" />
+              <option name="myItemId" value="Input" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EKZ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EKZ" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Avito" />
+              <option name="myItemId" value="Input" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iSPARK" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1983,13 +889,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Output/Website/shop_items.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="551" column="16" selection-start-line="551" selection-start-column="16" selection-end-line="551" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Output/Website/shop_items.csv" />
     <entry file="file://$PROJECT_DIR$/Input/countries_description.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -2009,13 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Input/iSPARK/update_items_kzn.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2086,7 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2200">
           <caret line="100" column="20" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2094,7 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2200">
           <caret line="100" column="20" selection-start-line="92" selection-start-column="0" selection-end-line="100" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2110,7 +1001,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2139,50 +1029,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AMOLEDGadgets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3674">
-          <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ISPARKGadgets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-983">
+        <state relative-caret-position="242">
           <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3404">
-          <caret line="366" column="29" selection-start-line="366" selection-start-column="20" selection-end-line="366" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GadgetsGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-521">
+        <state relative-caret-position="198">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9995">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GadgetGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7334">
+        <state relative-caret-position="110">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/iSPARK/update_items_kzn.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AMOLEDGadgets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="62" column="58" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="335" column="28" selection-start-line="335" selection-start-column="28" selection-end-line="335" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gadgets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="209" column="35" selection-start-line="209" selection-start-column="35" selection-end-line="209" selection-end-column="35" />
           <folding />
         </state>
       </provider>
