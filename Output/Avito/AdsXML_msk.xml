@@ -16,4 +16,38 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/Apple%20iPhone%204S/0_2.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>774326</Id>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89173929827</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Apple</GoodsType>
+		<Title>Apple iPhone 4S</Title>
+		<Description><![CDATA[<p>Apple iPhone 4S<br>aa<br>Арт. 774326</p>]]></Description>
+		<Price>3000</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/Apple%20iPhone%204S/1_1.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/Apple%20iPhone%204S/1_2.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>559572</Id>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89173929827</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Apple</GoodsType>
+		<Title>Apple iPhone 5S</Title>
+		<Description><![CDATA[<p>Apple iPhone 5S<br>asffff<br>Арт. 559572</p>]]></Description>
+		<Price>5400</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/Apple%20iPhone%205S/0_1.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/Apple%20iPhone%205S/0_3.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
