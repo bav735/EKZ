@@ -562,4 +562,20 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/imgs/Apple%20iPhone%207/4_2.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>176430</Id>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Менеджер</ManagerName>
+		<ContactPhone>89173929827</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5S</Title>
+		<Description><![CDATA[<p>iPhone 5S<br>арт.176430</p><p>Драгоценный посетитель, вас приветствует AMOLED,<br>У нас в магазине вы сможете открыть лучшие предложения в товарной группе смартфоны по цене и качеству!</p><p>Преподносим вам:<br>- ОПЛАТА КАРТОЧКОЙ<br>- ДОСТАВКА всего за 2 ч, немедленно<br>- выгодный TRADE-IN и ВЫКУП вашего сотового телефона<br>- замечательная ГАРАНТИЯ 1 ГОД по России<br>- возможность оплатить по Р/С ЮРЛИЦ</p><p>Продаем мобильные телефоны свыше 3х лет!<br>Неизменно идем навстречу всем клиентам и дорожим репутацией!</p><p>- расчет после  всесторонней проверки сотового телефона<br>- гаджет на этой странице б/у, внешне как на фото, подробнее спрашивайте<br>- к вашей покупке вам выдается талон и чек, с штампом</p><p>Прием звонков с 9 до 21 часов каждый день,<br>Можно оставить сообщение в Ватсапп или нашем сообществе VK в любое время.</p>]]></Description>
+		<Price>5900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/imgs/Apple%20iPhone%205S/3_1.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
