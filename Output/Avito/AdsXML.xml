@@ -663,4 +663,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/imgs/Apple%20iPhone%204S/2_2.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>402499</Id>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Менеджер</ManagerName>
+		<ContactPhone>89173929827</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5 32Gb</Title>
+		<Description><![CDATA[<p>iPhone 5 32Gb<br>арт.402499</p><p>Уважаемый покупатель, вас приветствует AMOLED,<br>В нашем ассортименте вы увидите достойные позиции в товарной категории смартфоны по цене и качеству!</p><p>Рекомендуем вам:<br>- замечательная ГОДОВАЯ ГАРАНТИЯ по РФ<br>- ОПЛАТА банковской КАРТОЧКОЙ<br>- перечисление по Р/С для КОМПАНИЙ<br>- ДОСТАВКА всего за два часа, незамедлительно<br>- удобный ВЫКУП и TRADEIN вашего смартфона</p><p>Продаем смартфоны уже более 3х лет!<br>Мы всегда оказываем сотрудничество нашим покупателям и дорожим репутацией!</p><p>- оплата исполняется только после  проверки товара<br>- к вашей покупке предоставим товарный чек и гарантийный талон, заверенные штампом<br>- мобильный телефон на данной странице б/у, внешне как на фотографии, детальнее узнавайте</p><p>Можно написать в сообществе VK или нашем WhatsAp в любое удобное время,<br>Можете позвонить с 9.00 до 21.00 каждый день.</p>]]></Description>
+		<Price>4500</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/imgs/Apple%20iPhone%205/1_1.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/imgs/Apple%20iPhone%205/1_3.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
