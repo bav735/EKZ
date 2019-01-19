@@ -545,4 +545,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/imgs/Samsung%20Galaxy%20Note%204/0_2.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>652708</Id>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Менеджер</ManagerName>
+		<ContactPhone>89173929827</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7</Title>
+		<Description><![CDATA[<p>iPhone 7<br>арт.652708</p><p>Вас рад встретить пункт продаж AMOLED Store,<br>У нас вы увидите хорошие позиции в товарной группе мобильные телефоны по отношению качества/цены!</p><p>Рекомендуем:<br>- РАСЧЕТ КАРТОЧКОЙ<br>- ДОСТАВКА в течение 2 ч, быстро<br>- ВЫКУП и ТРЕЙД-ИН вашего аппарата<br>- ГАРАНТИЯ на 1 ГОД по территории РФ<br>- оплата через Р/С ФИРМ, в частности НДС</p><p>Всегда помогаем всем покупателям!<br>Мы на рынке мобильных телефонов уже свыше трех лет!</p><p>- к покупке вам предоставляется талон и товарный чек, скрепленные печатью<br>- покупка осуществляется только после  проверки товара с вашим присутствием<br>- телефон на данной странице б/у, внешне как на фотографии, детальнее узнавайте</p><p>Работаем 9:00-21:00 каждодневно,<br>Пишите в Ватсапп или группе вконтакт круглосуточно.</p>]]></Description>
+		<Price>18950</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/imgs/Apple%20iPhone%207/4_1.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/imgs/Apple%20iPhone%207/4_2.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
