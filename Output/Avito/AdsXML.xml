@@ -595,4 +595,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/imgs/Apple%20iPhone%206/3_2.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>704560</Id>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Менеджер</ManagerName>
+		<ContactPhone>89173929827</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6S 64Gb</Title>
+		<Description><![CDATA[<p>iPhone 6S 64Gb<br>арт.704560</p><p>Вас приветствует AMOLED Сторе,<br>В нашем магазине вы увидите хорошие позиции в товарной категории смартфоны по качеству/цене!</p><p>Предоставляем:<br>- РАСЧЕТ пластиковой КАРТОЧКОЙ<br>- возможность ДОСТАВКИ всего в процессе двух часов, быстро<br>- перечисление по Р/С ЮРИДИЧЕСКИХ ЛИЦ<br>- доступный ВЫКУП и TRADE-IN вашего смартфона<br>- ГОДОВАЯ ГАРАНТИЯ по территории России</p><p>В сфере продаж мобильных телефонов уже в течение трех лет!<br>Всегда оказываем поддержку всем клиентам и дорожим репутацией!</p><p>- к покупке оформим документ: товарный чек и талон, заверенные печатью<br>- аппарат на текущей странице б/у, состояние как на фото, подробности узнавайте<br>- расчет только после  внимательной проверки сотового телефона с вашим присутствием</p><p>Пишите в нашем WhatsAp или нашей группе вконтакт круглосуточно,<br>Можете позвонить с 9.00 до 21.00 без праздников/выходных.</p>]]></Description>
+		<Price>14500</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/imgs/Apple%20iPhone%206S/5_1.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/imgs/Apple%20iPhone%206S/5_2.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
