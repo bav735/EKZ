@@ -697,4 +697,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/imgs/Apple%20iPhone%207%20Plus/1_2.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>418168</Id>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Менеджер</ManagerName>
+		<ContactPhone>89173929827</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6 Plus 64Gb</Title>
+		<Description><![CDATA[<p>iPhone 6 Plus 64Gb<br>арт.418168</p><p>Уважаемый покупатель, вас приветствует интернет-магазин AMOLED,<br>У нас в продаже вы обнаружите самые удивительные позиции по группе товаров телефоны по отношению предлагаемого цены/качества!</p><p>Предлагаем:<br>- возможность ОПЛАТИТЬ электронной КАРТОЙ<br>- ГАРАНТИЯ на 1 ГОД по РФ<br>- TRADEIN и ВЫКУП вашего гаджета<br>- покупка по Р/С ЮРИДИЧЕСКИХ ЛИЦ (НДС и без НДС)<br>- ДОСТАВКА всего в процессе 2 ч, срочно</p><p>Неизменно помогаем всем нашим покупателям!<br>Реализуем сотовые телефоны уже более трех лет!</p><p>- к покупке предоставляется талон и чек, с штампом<br>- расчет только после  проверки и осмотра устройства с вашей стороны<br>- смартфон на текущей странице б/у, внешне на фото, детальнее уточняйте</p><p>Пишите в группе вк или WhatsAp в любое удобное время,<br>Можно позвонить 9:00-21:00 каждодневно.</p>]]></Description>
+		<Price>14400</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/imgs/Apple%20iPhone%206%20Plus/1_1.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/imgs/Apple%20iPhone%206%20Plus/1_2.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
