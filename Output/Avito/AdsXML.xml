@@ -680,4 +680,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/imgs/Apple%20iPhone%205/1_3.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>912577</Id>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Менеджер</ManagerName>
+		<ContactPhone>89173929827</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7 Plus 128Gb</Title>
+		<Description><![CDATA[<p>iPhone 7 Plus 128Gb<br>арт.912577</p><p>Драгоценный покупатель, вас встречает магазин AMOLED Store,<br>В нашем магазине вы обнаружите выгодные предложения по категории товаров сотовые телефоны!</p><p>Рекомендуем:<br>- ПОКУПКА КАРТОЧКОЙ (Visa и Master Card)<br>- возможность ДОСТАВКИ за два часа, быстро<br>- честный TRADE-IN и ВЫКУП вашего аппарата<br>- настоящая ГАРАНТИЯ на 1 ГОД по России<br>- перечисление по Р/С для ЮРЛИЦ (НДС и без НДС)</p><p>Мы всегда идем навстречу всем нашим покупателям!<br>В сфере продаж смартфонов уже в течение трех лет!</p><p>- расчет после  обязательной проверки и тестирования смартфона с вашей стороны<br>- гаджет на этой странице б/у, состояние как на фотографии, более детально узнавайте<br>- прилагается полный пакет документов: товарный чек и гарантийный талон, скрепленные штампом</p><p>Пишите в нашей группе вконтакт или WhatsAp в любое время,<br>Режим работы с 9 до 21 часов без праздников/выходных.</p>]]></Description>
+		<Price>29800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/imgs/Apple%20iPhone%207%20Plus/1_1.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/imgs/Apple%20iPhone%207%20Plus/1_2.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
