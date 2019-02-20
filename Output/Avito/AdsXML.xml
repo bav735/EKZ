@@ -1,7 +1,7 @@
 <Ads formatVersion="3" target="Avito.ru">
 	<Ad>
 		<Id>138054</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -19,7 +19,7 @@
 	</Ad>
 	<Ad>
 		<Id>774326</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -37,6 +37,7 @@
 	</Ad>
 	<Ad>
 		<Id>559572</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -54,6 +55,7 @@
 	</Ad>
 	<Ad>
 		<Id>932855</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -70,7 +72,7 @@
 	</Ad>
 	<Ad>
 		<Id>989311</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -88,7 +90,7 @@
 	</Ad>
 	<Ad>
 		<Id>641586</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -105,7 +107,7 @@
 	</Ad>
 	<Ad>
 		<Id>912745</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -122,7 +124,7 @@
 	</Ad>
 	<Ad>
 		<Id>655421</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -140,7 +142,7 @@
 	</Ad>
 	<Ad>
 		<Id>154610</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -158,7 +160,7 @@
 	</Ad>
 	<Ad>
 		<Id>301176</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -176,6 +178,7 @@
 	</Ad>
 	<Ad>
 		<Id>351207</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -193,6 +196,7 @@
 	</Ad>
 	<Ad>
 		<Id>136590</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -209,7 +213,7 @@
 	</Ad>
 	<Ad>
 		<Id>633686</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -226,7 +230,7 @@
 	</Ad>
 	<Ad>
 		<Id>863561</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -243,6 +247,7 @@
 	</Ad>
 	<Ad>
 		<Id>554995</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -260,7 +265,7 @@
 	</Ad>
 	<Ad>
 		<Id>622876</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -277,6 +282,7 @@
 	</Ad>
 	<Ad>
 		<Id>709707</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -293,7 +299,7 @@
 	</Ad>
 	<Ad>
 		<Id>261795</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -310,6 +316,7 @@
 	</Ad>
 	<Ad>
 		<Id>771221</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -326,7 +333,7 @@
 	</Ad>
 	<Ad>
 		<Id>125407</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -344,7 +351,7 @@
 	</Ad>
 	<Ad>
 		<Id>577460</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -361,7 +368,7 @@
 	</Ad>
 	<Ad>
 		<Id>185365</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -379,7 +386,7 @@
 	</Ad>
 	<Ad>
 		<Id>968959</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -397,7 +404,7 @@
 	</Ad>
 	<Ad>
 		<Id>934449</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -415,7 +422,7 @@
 	</Ad>
 	<Ad>
 		<Id>401483</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -433,7 +440,7 @@
 	</Ad>
 	<Ad>
 		<Id>133201</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -451,7 +458,7 @@
 	</Ad>
 	<Ad>
 		<Id>640311</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -469,7 +476,7 @@
 	</Ad>
 	<Ad>
 		<Id>212057</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -487,7 +494,7 @@
 	</Ad>
 	<Ad>
 		<Id>662981</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -505,7 +512,7 @@
 	</Ad>
 	<Ad>
 		<Id>265759</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -523,7 +530,7 @@
 	</Ad>
 	<Ad>
 		<Id>554083</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -541,7 +548,7 @@
 	</Ad>
 	<Ad>
 		<Id>609765</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -559,7 +566,7 @@
 	</Ad>
 	<Ad>
 		<Id>652708</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -576,6 +583,7 @@
 	</Ad>
 	<Ad>
 		<Id>176430</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -593,6 +601,7 @@
 	</Ad>
 	<Ad>
 		<Id>468912</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -609,7 +618,7 @@
 	</Ad>
 	<Ad>
 		<Id>704560</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -627,7 +636,7 @@
 	</Ad>
 	<Ad>
 		<Id>745875</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -645,7 +654,7 @@
 	</Ad>
 	<Ad>
 		<Id>959045</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -662,7 +671,7 @@
 	</Ad>
 	<Ad>
 		<Id>676127</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -680,7 +689,7 @@
 	</Ad>
 	<Ad>
 		<Id>402499</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -698,7 +707,7 @@
 	</Ad>
 	<Ad>
 		<Id>912577</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -716,7 +725,7 @@
 	</Ad>
 	<Ad>
 		<Id>418168</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -733,7 +742,7 @@
 	</Ad>
 	<Ad>
 		<Id>457197</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -751,7 +760,7 @@
 	</Ad>
 	<Ad>
 		<Id>664087</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -769,7 +778,7 @@
 	</Ad>
 	<Ad>
 		<Id>658749</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -786,7 +795,7 @@
 	</Ad>
 	<Ad>
 		<Id>711670</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -803,7 +812,7 @@
 	</Ad>
 	<Ad>
 		<Id>311869</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -821,6 +830,7 @@
 	</Ad>
 	<Ad>
 		<Id>696793</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -837,6 +847,7 @@
 	</Ad>
 	<Ad>
 		<Id>484330</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -853,6 +864,7 @@
 	</Ad>
 	<Ad>
 		<Id>308991</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -869,6 +881,7 @@
 	</Ad>
 	<Ad>
 		<Id>225828</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -886,6 +899,7 @@
 	</Ad>
 	<Ad>
 		<Id>181799</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -902,6 +916,7 @@
 	</Ad>
 	<Ad>
 		<Id>267199</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -918,6 +933,7 @@
 	</Ad>
 	<Ad>
 		<Id>979987</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -934,6 +950,7 @@
 	</Ad>
 	<Ad>
 		<Id>619728</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -950,6 +967,7 @@
 	</Ad>
 	<Ad>
 		<Id>978327</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -966,6 +984,7 @@
 	</Ad>
 	<Ad>
 		<Id>238814</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -982,6 +1001,7 @@
 	</Ad>
 	<Ad>
 		<Id>563782</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -998,6 +1018,7 @@
 	</Ad>
 	<Ad>
 		<Id>518102</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1014,6 +1035,7 @@
 	</Ad>
 	<Ad>
 		<Id>716790</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1030,6 +1052,7 @@
 	</Ad>
 	<Ad>
 		<Id>578830</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1046,6 +1069,7 @@
 	</Ad>
 	<Ad>
 		<Id>568495</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1062,6 +1086,7 @@
 	</Ad>
 	<Ad>
 		<Id>923351</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1078,6 +1103,7 @@
 	</Ad>
 	<Ad>
 		<Id>448589</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1094,6 +1120,7 @@
 	</Ad>
 	<Ad>
 		<Id>693816</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1110,6 +1137,7 @@
 	</Ad>
 	<Ad>
 		<Id>311392</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1126,6 +1154,7 @@
 	</Ad>
 	<Ad>
 		<Id>509040</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1142,6 +1171,7 @@
 	</Ad>
 	<Ad>
 		<Id>932984</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1158,6 +1188,7 @@
 	</Ad>
 	<Ad>
 		<Id>433041</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1174,6 +1205,7 @@
 	</Ad>
 	<Ad>
 		<Id>447276</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1190,6 +1222,7 @@
 	</Ad>
 	<Ad>
 		<Id>969811</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1206,6 +1239,7 @@
 	</Ad>
 	<Ad>
 		<Id>542112</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1222,6 +1256,7 @@
 	</Ad>
 	<Ad>
 		<Id>485729</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1238,6 +1273,7 @@
 	</Ad>
 	<Ad>
 		<Id>932717</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1254,6 +1290,7 @@
 	</Ad>
 	<Ad>
 		<Id>594347</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1270,6 +1307,7 @@
 	</Ad>
 	<Ad>
 		<Id>269927</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1286,6 +1324,7 @@
 	</Ad>
 	<Ad>
 		<Id>850487</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1302,6 +1341,7 @@
 	</Ad>
 	<Ad>
 		<Id>462088</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1318,6 +1358,7 @@
 	</Ad>
 	<Ad>
 		<Id>663960</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1334,6 +1375,7 @@
 	</Ad>
 	<Ad>
 		<Id>294893</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1351,6 +1393,7 @@
 	</Ad>
 	<Ad>
 		<Id>339193</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1368,7 +1411,7 @@
 	</Ad>
 	<Ad>
 		<Id>782185</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1386,6 +1429,7 @@
 	</Ad>
 	<Ad>
 		<Id>714379</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1403,7 +1447,7 @@
 	</Ad>
 	<Ad>
 		<Id>640118</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1420,7 +1464,7 @@
 	</Ad>
 	<Ad>
 		<Id>228598</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1438,7 +1482,7 @@
 	</Ad>
 	<Ad>
 		<Id>875544</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1456,6 +1500,7 @@
 	</Ad>
 	<Ad>
 		<Id>117724</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1473,6 +1518,7 @@
 	</Ad>
 	<Ad>
 		<Id>618886</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1489,7 +1535,7 @@
 	</Ad>
 	<Ad>
 		<Id>103179</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1506,6 +1552,7 @@
 	</Ad>
 	<Ad>
 		<Id>909322</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1522,6 +1569,7 @@
 	</Ad>
 	<Ad>
 		<Id>716356</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1538,6 +1586,7 @@
 	</Ad>
 	<Ad>
 		<Id>262249</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1554,6 +1603,7 @@
 	</Ad>
 	<Ad>
 		<Id>490742</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1570,6 +1620,7 @@
 	</Ad>
 	<Ad>
 		<Id>275152</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1586,6 +1637,7 @@
 	</Ad>
 	<Ad>
 		<Id>343264</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1602,6 +1654,7 @@
 	</Ad>
 	<Ad>
 		<Id>940556</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1618,6 +1671,7 @@
 	</Ad>
 	<Ad>
 		<Id>881324</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1634,6 +1688,7 @@
 	</Ad>
 	<Ad>
 		<Id>463733</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1650,6 +1705,7 @@
 	</Ad>
 	<Ad>
 		<Id>318793</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1666,6 +1722,7 @@
 	</Ad>
 	<Ad>
 		<Id>701355</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1682,6 +1739,7 @@
 	</Ad>
 	<Ad>
 		<Id>867782</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1698,6 +1756,7 @@
 	</Ad>
 	<Ad>
 		<Id>379949</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1714,6 +1773,7 @@
 	</Ad>
 	<Ad>
 		<Id>309110</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1730,6 +1790,7 @@
 	</Ad>
 	<Ad>
 		<Id>628144</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1746,6 +1807,7 @@
 	</Ad>
 	<Ad>
 		<Id>148283</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1762,6 +1824,7 @@
 	</Ad>
 	<Ad>
 		<Id>375211</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1778,6 +1841,7 @@
 	</Ad>
 	<Ad>
 		<Id>136293</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1794,6 +1858,7 @@
 	</Ad>
 	<Ad>
 		<Id>889849</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1810,6 +1875,7 @@
 	</Ad>
 	<Ad>
 		<Id>804859</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1826,6 +1892,7 @@
 	</Ad>
 	<Ad>
 		<Id>386480</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1842,6 +1909,7 @@
 	</Ad>
 	<Ad>
 		<Id>247653</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1858,6 +1926,7 @@
 	</Ad>
 	<Ad>
 		<Id>599928</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1874,6 +1943,7 @@
 	</Ad>
 	<Ad>
 		<Id>510374</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1890,6 +1960,7 @@
 	</Ad>
 	<Ad>
 		<Id>155615</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1906,6 +1977,7 @@
 	</Ad>
 	<Ad>
 		<Id>662974</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1923,6 +1995,7 @@
 	</Ad>
 	<Ad>
 		<Id>314228</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1939,6 +2012,7 @@
 	</Ad>
 	<Ad>
 		<Id>458631</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1955,6 +2029,7 @@
 	</Ad>
 	<Ad>
 		<Id>804395</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1971,7 +2046,7 @@
 	</Ad>
 	<Ad>
 		<Id>792733</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -1989,6 +2064,7 @@
 	</Ad>
 	<Ad>
 		<Id>274700</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2005,6 +2081,7 @@
 	</Ad>
 	<Ad>
 		<Id>488464</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2021,6 +2098,7 @@
 	</Ad>
 	<Ad>
 		<Id>333073</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2037,6 +2115,7 @@
 	</Ad>
 	<Ad>
 		<Id>554784</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2053,6 +2132,7 @@
 	</Ad>
 	<Ad>
 		<Id>159868</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2069,6 +2149,7 @@
 	</Ad>
 	<Ad>
 		<Id>439315</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2085,6 +2166,7 @@
 	</Ad>
 	<Ad>
 		<Id>816898</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2101,6 +2183,7 @@
 	</Ad>
 	<Ad>
 		<Id>883258</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2117,6 +2200,7 @@
 	</Ad>
 	<Ad>
 		<Id>335256</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2133,6 +2217,7 @@
 	</Ad>
 	<Ad>
 		<Id>645305</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2149,6 +2234,7 @@
 	</Ad>
 	<Ad>
 		<Id>153060</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2165,6 +2251,7 @@
 	</Ad>
 	<Ad>
 		<Id>222709</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2181,6 +2268,7 @@
 	</Ad>
 	<Ad>
 		<Id>377667</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2197,6 +2285,7 @@
 	</Ad>
 	<Ad>
 		<Id>360715</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2213,6 +2302,7 @@
 	</Ad>
 	<Ad>
 		<Id>396380</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2229,6 +2319,7 @@
 	</Ad>
 	<Ad>
 		<Id>966588</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2245,6 +2336,7 @@
 	</Ad>
 	<Ad>
 		<Id>579596</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2261,6 +2353,7 @@
 	</Ad>
 	<Ad>
 		<Id>790373</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2277,6 +2370,7 @@
 	</Ad>
 	<Ad>
 		<Id>296695</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2293,6 +2387,7 @@
 	</Ad>
 	<Ad>
 		<Id>268781</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2309,6 +2404,7 @@
 	</Ad>
 	<Ad>
 		<Id>337791</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2325,6 +2421,7 @@
 	</Ad>
 	<Ad>
 		<Id>449001</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2341,6 +2438,7 @@
 	</Ad>
 	<Ad>
 		<Id>833898</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2357,6 +2455,7 @@
 	</Ad>
 	<Ad>
 		<Id>379667</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2373,6 +2472,7 @@
 	</Ad>
 	<Ad>
 		<Id>735586</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2389,6 +2489,7 @@
 	</Ad>
 	<Ad>
 		<Id>564499</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2405,6 +2506,7 @@
 	</Ad>
 	<Ad>
 		<Id>486726</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2421,6 +2523,7 @@
 	</Ad>
 	<Ad>
 		<Id>936292</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2437,6 +2540,7 @@
 	</Ad>
 	<Ad>
 		<Id>539407</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2453,6 +2557,7 @@
 	</Ad>
 	<Ad>
 		<Id>584909</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2469,6 +2574,7 @@
 	</Ad>
 	<Ad>
 		<Id>639825</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2485,6 +2591,7 @@
 	</Ad>
 	<Ad>
 		<Id>569675</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2501,6 +2608,7 @@
 	</Ad>
 	<Ad>
 		<Id>615102</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2517,6 +2625,7 @@
 	</Ad>
 	<Ad>
 		<Id>377769</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2533,6 +2642,7 @@
 	</Ad>
 	<Ad>
 		<Id>135874</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2549,6 +2659,7 @@
 	</Ad>
 	<Ad>
 		<Id>920635</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2565,6 +2676,7 @@
 	</Ad>
 	<Ad>
 		<Id>630130</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2581,6 +2693,7 @@
 	</Ad>
 	<Ad>
 		<Id>552679</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2597,6 +2710,7 @@
 	</Ad>
 	<Ad>
 		<Id>449592</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2613,6 +2727,7 @@
 	</Ad>
 	<Ad>
 		<Id>478623</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2629,6 +2744,7 @@
 	</Ad>
 	<Ad>
 		<Id>680307</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2646,6 +2762,7 @@
 	</Ad>
 	<Ad>
 		<Id>694872</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2663,6 +2780,7 @@
 	</Ad>
 	<Ad>
 		<Id>186320</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2679,6 +2797,7 @@
 	</Ad>
 	<Ad>
 		<Id>309366</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2695,6 +2814,7 @@
 	</Ad>
 	<Ad>
 		<Id>536747</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2711,6 +2831,7 @@
 	</Ad>
 	<Ad>
 		<Id>666178</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2727,6 +2848,7 @@
 	</Ad>
 	<Ad>
 		<Id>722464</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2743,6 +2865,7 @@
 	</Ad>
 	<Ad>
 		<Id>990670</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2759,6 +2882,7 @@
 	</Ad>
 	<Ad>
 		<Id>742206</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2775,6 +2899,7 @@
 	</Ad>
 	<Ad>
 		<Id>880943</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2791,6 +2916,7 @@
 	</Ad>
 	<Ad>
 		<Id>983059</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2807,6 +2933,7 @@
 	</Ad>
 	<Ad>
 		<Id>790033</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2823,6 +2950,7 @@
 	</Ad>
 	<Ad>
 		<Id>957391</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2839,6 +2967,7 @@
 	</Ad>
 	<Ad>
 		<Id>408648</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2855,6 +2984,7 @@
 	</Ad>
 	<Ad>
 		<Id>346221</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2872,6 +3002,7 @@
 	</Ad>
 	<Ad>
 		<Id>448768</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2888,6 +3019,7 @@
 	</Ad>
 	<Ad>
 		<Id>905369</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2904,6 +3036,7 @@
 	</Ad>
 	<Ad>
 		<Id>335942</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2920,7 +3053,7 @@
 	</Ad>
 	<Ad>
 		<Id>882950</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2938,6 +3071,7 @@
 	</Ad>
 	<Ad>
 		<Id>460836</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2954,6 +3088,7 @@
 	</Ad>
 	<Ad>
 		<Id>508492</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2970,6 +3105,7 @@
 	</Ad>
 	<Ad>
 		<Id>620481</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -2986,6 +3122,7 @@
 	</Ad>
 	<Ad>
 		<Id>966970</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3002,6 +3139,7 @@
 	</Ad>
 	<Ad>
 		<Id>669906</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3036,6 +3174,7 @@
 	</Ad>
 	<Ad>
 		<Id>139646</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3052,6 +3191,7 @@
 	</Ad>
 	<Ad>
 		<Id>963034</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3068,6 +3208,7 @@
 	</Ad>
 	<Ad>
 		<Id>463774</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3084,6 +3225,7 @@
 	</Ad>
 	<Ad>
 		<Id>129052</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3100,6 +3242,7 @@
 	</Ad>
 	<Ad>
 		<Id>874605</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3116,6 +3259,7 @@
 	</Ad>
 	<Ad>
 		<Id>160684</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3132,6 +3276,7 @@
 	</Ad>
 	<Ad>
 		<Id>552553</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3148,6 +3293,7 @@
 	</Ad>
 	<Ad>
 		<Id>203352</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3164,6 +3310,7 @@
 	</Ad>
 	<Ad>
 		<Id>638848</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3180,6 +3327,7 @@
 	</Ad>
 	<Ad>
 		<Id>364424</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3196,6 +3344,7 @@
 	</Ad>
 	<Ad>
 		<Id>892607</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3212,6 +3361,7 @@
 	</Ad>
 	<Ad>
 		<Id>712994</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3228,7 +3378,7 @@
 	</Ad>
 	<Ad>
 		<Id>428412</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3244,6 +3394,7 @@
 	</Ad>
 	<Ad>
 		<Id>449121</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3261,7 +3412,7 @@
 	</Ad>
 	<Ad>
 		<Id>405671</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3278,6 +3429,7 @@
 	</Ad>
 	<Ad>
 		<Id>715863</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3295,6 +3447,7 @@
 	</Ad>
 	<Ad>
 		<Id>754692</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3311,6 +3464,7 @@
 	</Ad>
 	<Ad>
 		<Id>877452</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3327,7 +3481,7 @@
 	</Ad>
 	<Ad>
 		<Id>917359</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3345,6 +3499,7 @@
 	</Ad>
 	<Ad>
 		<Id>821750</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3362,6 +3517,7 @@
 	</Ad>
 	<Ad>
 		<Id>773199</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3379,6 +3535,7 @@
 	</Ad>
 	<Ad>
 		<Id>713803</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3395,7 +3552,7 @@
 	</Ad>
 	<Ad>
 		<Id>163528</Id>
-		<DateBegin>2025-01-01</DateBegin>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -3411,6 +3568,7 @@
 	</Ad>
 	<Ad>
 		<Id>751003</Id>
+		<DateEnd>2019-03-10T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
