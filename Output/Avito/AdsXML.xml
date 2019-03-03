@@ -4711,7 +4711,7 @@
 	</Ad>
 	<Ad>
 		<Id>PFz1Lo</Id>
-		<DateEnd>2019-03-28T16:16:59+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -5994,6 +5994,23 @@
 		<Price>10800</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/ID_24_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>O4Y3Ru</Id>
+		<DateEnd>2019-04-02T16:59:20+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Менеджер</ManagerName>
+		<ContactPhone>89173929827</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6</Title>
+		<Description><![CDATA[<p>iPhone 6<br>- выглядит: идеальный, к смартфону: зарядка, кабель, коробка, иголка для sim карты, наушники</p><p>Уважаемый покупатель, вас встречает AMOLED,<br>В нашем ассортименте вы сможете обнаружить самые выгодные предложения по группе товаров сотовые телефоны!</p><p>Предоставляем:<br>- бесплатная ДОСТАВКА в течение дня<br>- взаиморасчет через Р/С для КОМПАНИЙ<br>- безупречная ГАРАНТИЯ 1 ГОД, замена/ремонт бесплатно<br>- хороший ПРЕЗЕНТ, защитные бронь и чехол<br>- выгодный ТРЕЙДИН и ВЫКУП вашего устройства</p><p>Продаем телефоны уже в течение 5 лет!<br>Неизменно идем навстречу всем клиентам!</p><p>- ваша оплата производится только после  полной проверки и тестирования устройства с вашим присутствием<br>- сотовый телефон в настоящем объявлении оригинальный б/у, работоспособность совершенно проверена<br>- к покупке предоставляется товарный чек и гарантийный талон, заверенные печатью</p><p>Звоните с 9 до 21 часов каждодневно.</p><p>imei:358369068579694</p>]]></Description>
+		<Price>10800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/ID_25_0.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
