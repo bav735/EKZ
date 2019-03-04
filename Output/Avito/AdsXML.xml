@@ -4061,7 +4061,7 @@
 	</Ad>
 	<Ad>
 		<Id>IRv1uU</Id>
-		<DateEnd>2019-03-27T09:37:11+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -6131,6 +6131,23 @@
 		<Price>7500</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/ID_21_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>UMpoFU</Id>
+		<DateEnd>2019-04-03T05:09:19+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Менеджер</ManagerName>
+		<ContactPhone>89173929827</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5S 16Gb</Title>
+		<Description><![CDATA[<p>iPhone 5S 16Gb<br>- по состоянию: идеальный, комплектация полная: кабель usb, зарядка, аудио-гарнитура, коробка</p><p>Вас приветствует точка реализации AMOLED,<br>В нашем магазине вы обнаружите самые недорогие модели по категории товаров смартфоны!</p><p>Располагаем:<br>- великолепная ГАРАНТИЯ 1 ГОД, замена/ремонт бесплатно<br>- бесплатная ДОСТАВКА в процессе дня<br>- перечисление по Р/С КОМПАНИЙ<br>- замечательный ПОДАРОК, закаленные кейс и стекло<br>- справедливый ВЫКУП и ТРЕЙД вашего сотового телефона</p><p>Неизменно помогаем всем нашим клиентам!<br>На рынке смартфонов более 5 лет!</p><p>- смартфон в настоящем объявлении оригинальный б/у, каждая функция совершенно исправна<br>- к вашей покупке прилагается чек и талон, заверенные печатью<br>- оплата совершается после  проверки и осмотра телефона с вашим присутствием</p><p>Можно позвонить с 9.00 до 21.00 в любой день.</p><p>imei:013968003341016</p>]]></Description>
+		<Price>7500</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/ID_22_0.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
