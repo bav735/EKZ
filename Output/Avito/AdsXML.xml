@@ -4197,7 +4197,7 @@
 	</Ad>
 	<Ad>
 		<Id>j7elHF</Id>
-		<DateEnd>2019-03-27T09:55:11+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -6268,6 +6268,23 @@
 		<Price>10800</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/ID_27_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>27edHZ</Id>
+		<DateEnd>2019-04-03T19:09:20+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Менеджер</ManagerName>
+		<ContactPhone>89173929827</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5S</Title>
+		<Description><![CDATA[<p>iPhone 5S<br>- по состоянию: идеальный, комплект: аудио-гарнитура, блок зарядки, коробка, инструкции, иголка для sim, кабель юсб</p><p>Вас приветствует магазин AMOLED,<br>У нас вы сможете обнаружить самые надежные позиции в товарной группе смартфоны!</p><p>Представляем:<br>- замечательный ВЫКУП и ТРЕЙД вашего устройства<br>- милый ПРЕЗЕНТ, противоударные бронь-стекло и накладка<br>- возможность купить по Р/С для ФИРМ<br>- бесплатная ДОСТАВКА в процессе суток<br>- настоящая ГАРАНТИЯ 1 ГОД, замена/ремонт бесплатно</p><p>Неизменно помогаем нашим покупателям и дорожим репутацией!<br>Мы в нише смартфонов в течение 5 лет!</p><p>- ваш расчет после  проверки и тестирования гаджета с вашим участием<br>- гаджет в текущем объявлении оригинальный б/у, работоспособность подтверждена<br>- к покупке предоставляется полный пакет документов: талон и товарный чек, подтвержденные печатью</p><p>Режим работы с 9 утра до 9 вечера каждодневно.</p><p>imei:013988009477903</p>]]></Description>
+		<Price>7500</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/ID_24_0.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
