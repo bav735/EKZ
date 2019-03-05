@@ -3871,7 +3871,7 @@
 	</Ad>
 	<Ad>
 		<Id>cny4W4</Id>
-		<DateEnd>2019-03-27T09:14:11+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -6332,6 +6332,23 @@
 		<Price>16100</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20S7%20Edge/ID_5_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>rDoFTH</Id>
+		<DateEnd>2019-04-04T09:39:28+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Менеджер</ManagerName>
+		<ContactPhone>89173929827</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7</Title>
+		<Description><![CDATA[<p>iPhone 7<br>- внешне: идеальный, к телефону: наушники, коробка, инструкции, зарядка, кабель usb</p><p>Уважаемый покупатель, вас рад встретить AMOLED,<br>У нас в ассортименте вы найдете самые интересные позиции в товарной группе сотовые телефоны!</p><p>Предлагаем:<br>- возможность оплатить через Р/С для ФИРМ<br>- честная ГАРАНТИЯ 1 ГОД, замена/ремонт бесплатно<br>- великолепный ТРЕЙД и ВЫКУП вашего аппарата<br>- бесплатный БОНУС, противоударные чехол и бронь<br>- бесплатная ДОСТАВКА в течение суток</p><p>Мы неизменно оказываем поддержку нашим покупателям и дорожим своей репутацией!<br>Мы продаем смартфоны уже в течение 5 лет!</p><p>- гаджет на данной странице оригинальный б/у, работоспособность опробована<br>- к покупке вам предоставляется документ: товарный чек и гарантийный талон, скрепленные печатью<br>- ваш расчет только после  всесторонней проверки аппарата с вашей стороны</p><p>Режим работы с 9 до 21 часов каждый день.</p><p>imei:355324086727331</p>]]></Description>
+		<Price>16900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/ID_22_0.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
