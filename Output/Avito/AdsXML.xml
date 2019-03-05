@@ -4134,7 +4134,7 @@
 	</Ad>
 	<Ad>
 		<Id>dCqLQg</Id>
-		<DateEnd>2019-03-22T10:03:43+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -7839,6 +7839,26 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%204S/11.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%204S/11.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add2/Apple%20iPhone%204S/11.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>qkXHXh</Id>
+		<DateEnd>2019-04-05T00:57:17+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Менеджер</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7</Title>
+		<Description><![CDATA[<p>iPhone 7<br>- по состоянию: идеальный, к устройству: кабель, наушники, коробка, зу</p><p>Вас встречает магазин AMOLED,<br>В нашем ассортименте вы найдете самые великолепные модели по категории товаров смартфоны!</p><p>Представляем:<br>- замечательный БОНУС, накладка и бронь-стекло<br>- честная ГАРАНТИЯ 1 ГОД, замена/ремонт бесплатно<br>- честный ВЫКУП и ТРЕЙД-ИН вашего устройства<br>- расчет по Р/С для КОМПАНИЙ<br>- бесплатная ДОСТАВКА на протяжении дня</p><p>Мы всегда оказываем поддержку всем нашим клиентам!<br>Продаем мобильные телефоны более 5 лет!</p><p>- ваша покупка только после  полноценной проверки гаджета с вашей стороны<br>- гаджет на этой странице оригинальный б/у, работоспособность абсолютно опробована<br>- выдадим вам полный пакет документов: чек и талон, скрепленные печатью</p><p>Режим работы 9:00-21:00 ежедневно.</p><p>imei:359205073251789</p>]]></Description>
+		<Price>16900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_23_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/23.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%207/23.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add2/Apple%20iPhone%207/23.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
