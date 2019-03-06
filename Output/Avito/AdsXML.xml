@@ -4104,7 +4104,7 @@
 	</Ad>
 	<Ad>
 		<Id>cny4W4</Id>
-		<DateEnd>2019-03-27T09:14:11+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>89173929827</ContactPhone>
@@ -7277,6 +7277,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_31_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/31.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>ZyQfPK</Id>
+		<DateEnd>2019-04-05T12:27:24+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Менеджер</ManagerName>
+		<ContactPhone>89173929827</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7</Title>
+		<Description><![CDATA[<p>iPhone 7<br>- внешний вид: идеальный, к смартфону: коробка, инструкции, блок зарядки, кабель юсб, наушники</p><p>Вас встречает точка реализации AMOLED,<br>У нас в магазине вы откроете достойные модели по группе товаров телефоны!</p><p>Предлагаем:<br>- удобный ТРЕЙДИН и ВЫКУП вашего мобильного телефона<br>- бесплатная ДОСТАВКА в течение дня<br>- полноценная ГАРАНТИЯ 1 ГОД, замена/ремонт бесплатно<br>- замечательный ПРЕЗЕНТ, закаленные накладка и стекло<br>- оплата через Р/С КОМПАНИЙ</p><p>Мы всегда оказываем сотрудничество всем нашим клиентам и дорожим репутацией!<br>Мы на рынке смартфонов в течение пяти лет!</p><p>- вам выдается полный пакет документов: талон и чек, подтвержденные печатью<br>- гаджет в настоящем объявлении оригинальный б/у, каждая функция совершенно подтверждена<br>- ваш расчет производится только после  проверки и тестирования аппарата</p><p>Можете позвонить с 9 утра до 9 вечера без выходных.</p><p>imei:359166077464440</p>]]></Description>
+		<Price>16900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_26_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/26.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
