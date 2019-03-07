@@ -6727,7 +6727,7 @@
 	</Ad>
 	<Ad>
 		<Id>PqeoHP</Id>
-		<DateEnd>2019-04-02T18:19:19+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -8327,6 +8327,25 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_33_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/Cj8ICB_33.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%206/Cj8ICB_33.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>JDdx2d</Id>
+		<DateEnd>2019-04-06T17:19:51+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Менеджер</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7</Title>
+		<Description><![CDATA[<p>iPhone 7<br>- внешний вид: идеальный, аксессуары: кабель, зу, аудио-гарнитура, коробка, иголка для сим</p><p>Вас рад встретить точка продаж AMOLED,<br>В нашем ассортименте вы сможете открыть выгодные модели по группе товаров телефоны!</p><p>Предлагаем для вас:<br>- оплата через Р/С для ЮРЛИЦ<br>- объективный ВЫКУП и ТРЕЙД вашего гаджета<br>- честная ГАРАНТИЯ 1 ГОД, замена/ремонт бесплатно<br>- бесплатная ДОСТАВКА в процессе дня<br>- великолепный БОНУС, чехол и бронь-стекло</p><p>Мы неизменно помогаем всем клиентам!<br>На рынке сотовых телефонов уже свыше 5 лет!</p><p>- телефон на этой странице оригинальный б/у, работа абсолютно подтверждена<br>- вам оформляется товарный чек и гарантийный талон, скрепленные штампом<br>- ваша оплата после  всесторонней проверки товара</p><p>Прием звонков с 9 утра до 9 вечера без выходных.</p><p>imei:356559081930245</p>]]></Description>
+		<Price>16900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_30_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/Cj8ICB_30.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%207/Cj8ICB_30.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
