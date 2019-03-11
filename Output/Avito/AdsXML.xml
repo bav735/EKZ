@@ -5279,7 +5279,7 @@
 	</Ad>
 	<Ad>
 		<Id>RWmZ8j</Id>
-		<DateEnd>2019-03-28T22:12:12+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Менеджер</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -9561,6 +9561,26 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_49_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/Cj8ICB_49.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%206S/Cj8ICB_49.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>uTBiWm</Id>
+		<DateEnd>2019-04-10T11:50:14+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Менеджер</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 8</Title>
+		<Description><![CDATA[<p>iPhone 8<br>- по состоянию: идеальный, к смартфону: коробка, инструкции, блок зарядки, наушники, кабель</p><p>Вас приветствует пункт продаж AMOLED,<br>В нашем ассортименте вы найдете самые великолепные позиции по категории товаров телефоны!</p><p>Предоставляем для вас:<br>- надежная ГАРАНТИЯ 1 ГОД, замена/ремонт бесплатно<br>- великолепный ТРЕЙД и ВЫКУП вашего аппарата<br>- покупка через Р/С для КОМПАНИЙ<br>- бесплатный ПРЕЗЕНТ, защитные стекло и кейс<br>- бесплатная ДОСТАВКА в процессе дня</p><p>Мы неизменно помогаем всем нашим клиентам и дорожим репутацией!<br>На рынке мобильных телефонов более 5 лет!</p><p>- оплата после  проверки и осмотра аппарата с вашим участием<br>- мы оформим гарантийный талон и чек, с печатью<br>- мобильный телефон в этом объявлении оригинальный б/у, работа абсолютно опробована</p><p>Можно позвонить с 9.00 до 21.00 каждодневно.</p><p>imei:359498089014792</p>]]></Description>
+		<Price>27900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%208/Cj8ICB_11_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%208/Cj8ICB_11_1.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%208/Cj8ICB_11.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%208/Cj8ICB_11.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
