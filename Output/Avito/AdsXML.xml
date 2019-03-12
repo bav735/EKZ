@@ -5184,7 +5184,7 @@
 	</Ad>
 	<Ad>
 		<Id>NsotrR</Id>
-		<DateEnd>2019-03-28T14:20:06+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -10019,6 +10019,25 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S%20Plus/Cj8ICB_23_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S%20Plus/Cj8ICB_23.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%206S%20Plus/Cj8ICB_23.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>y021Ik</Id>
+		<DateEnd>2019-04-11T07:36:22+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone SE</Title>
+		<Description><![CDATA[<p>iPhone SE<br>- внешне: идеальный, к телефону: наушники, зарядное устройство, коробка, кабель юсб</p><p>Драгоценный посетитель, вас приветствует магазин AMOLED,<br>У нас вы откроете самые интересные модели в товарной категории мобильные телефоны!</p><p>Располагаем для вас:<br>- объективный ТРЕЙД и ВЫКУП вашего гаджета<br>- возможность оплатить по Р/С КОМПАНИЙ<br>- бесплатная ДОСТАВКА в процессе суток<br>- замечательная ГАРАНТИЯ 1 ГОД, замена/ремонт бесплатно<br>- великолепный БОНУС, бронь и чехол</p><p>Неизменно оказываем сотрудничество нашим покупателям и дорожим своей репутацией!<br>В сфере продаж телефонов свыше 5 лет!</p><p>- к вашей покупке вам предоставляется талон и товарный чек, заверенные печатью<br>- ваш расчет производится только после  полноценной проверки гаджета<br>- гаджет на текущей странице оригинальный б/у, функциональность протестирована</p><p>Прием звонков 9:00-21:00 в любой день.</p><p>imei:359222078594279</p>]]></Description>
+		<Price>9800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%20SE/Cj8ICB_21_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%20SE/Cj8ICB_21.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%20SE/Cj8ICB_21.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
