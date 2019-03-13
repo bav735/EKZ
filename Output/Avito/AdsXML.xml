@@ -1275,7 +1275,7 @@
 	</Ad>
 	<Ad>
 		<Id>NsotrR</Id>
-		<DateEnd>2019-03-28T14:20:06+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -6664,6 +6664,25 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_55_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/Cj8ICB_55.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%206S/Cj8ICB_55.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>cXKkut</Id>
+		<DateEnd>2019-04-12T18:37:25+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone SE</Title>
+		<Description><![CDATA[<p>iPhone SE<br>(опт от 3шт = 9200, от 10шт = 8700)<br>- по корпусу: совсем в идеале, комплект: кабель, коробка, иголка для сим карты, аудио-гарнитура, зарядное устройство</p><p>Вас рад встретить AMOLED,<br>У нас вы увидите самые привлекательные позиции в товарной категории сотовые телефоны!</p><p>Предоставляем:<br>- безупречная ГАРАНТИЯ до 1 ГОДА (обмен гаджета или ремонт недостатка)<br>- приятный БОНУС, защитные кейс и стекло<br>- удобный КРЕДИТ от банков, переплата 1% в мес<br>- оплата через Р/С для компаний и по любой КАРТЕ<br>- немедленная бесплатная ДОСТАВКА на протяжении дня<br>- партнерство по системе ДРОПШИППИНГ, мы: верный поставщик, вы: продавец (тонкости уточняйте)</p><p>Всегда оказываем поддержку всем клиентам и дорожим репутацией!<br>В сфере продаж мобильных телефонов уже более 5 лет!</p><p>- прилагается полный пакет документов: гарантийный талон и товарный чек, подтвержденные штампом<br>- сотовый телефон на текущей странице б/у оригинал, функциональность абсолютно подтверждена<br>- расчет исполняется после  проверки аппарата с вашей стороны</p><p>Звоните с 9 утра до 9 вечера каждый день,<br>Можно оставить сообщение в нашем Инстаграм или группе ВК в любое удобное время.</p><p>imei:355442077804792</p>]]></Description>
+		<Price>9800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%20SE/Cj8ICB_24_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%20SE/Cj8ICB_24.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%20SE/Cj8ICB_24.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
