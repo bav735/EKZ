@@ -4401,7 +4401,7 @@
 	</Ad>
 	<Ad>
 		<Id>JDdx2d</Id>
-		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
+		<DateEnd>2019-04-06T17:19:51+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -6763,6 +6763,7 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%207/Cj8ICB_43.jpg"/>
 		</Images>
 	</Ad>
+<<<<<<< HEAD
 	<Ad>
 		<Id>Yfd7fH</Id>
 		<DateEnd>2019-04-12T21:42:19+03:00</DateEnd>
@@ -6782,4 +6783,6 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%207/Cj8ICB_44.jpg"/>
 		</Images>
 	</Ad>
+=======
+>>>>>>> parent of 5817d80b... from TrackAds
 </Ads>
