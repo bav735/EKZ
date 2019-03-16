@@ -5392,7 +5392,7 @@
 	</Ad>
 	<Ad>
 		<Id>7O9G7Z</Id>
-		<DateEnd>2019-04-09T14:00:59+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -9220,6 +9220,25 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_58_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/Cj8ICB_58.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%205S/Cj8ICB_58.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>ehhCWM</Id>
+		<DateEnd>2019-04-15T13:38:44+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone SE</Title>
+		<Description><![CDATA[<p>iPhone SE<br>- внешний вид: полностью как новый, аксессуары: кабель юсб, зу, коробка, иголка для sim, наушники</p><p>Вас встречает AMOLED,<br>У нас в ассортименте вы обнаружите самые надежные предложения по группе товаров сотовые телефоны!</p><p>Располагаем вам:<br>- бесплатный ПРЕЗЕНТ, защитные бронь и чехол<br>- работа по схеме ДРОПШИППИНГ, мы: надежный поставщик, вы: продавец (подробности узнавайте)<br>- дешевый КРЕДИТ от банков, переплата всего 1% за мес<br>- расчет через Р/С фирм и по банковской КАРТЕ<br>- оперативная бесплатная ДОСТАВКА на протяжении дня<br>- замечательная ГАРАНТИЯ до 1 ГОДА (замена телефона или ремонт дефекта)</p><p>Неизменно помогаем нашим покупателям!<br>Мы реализуем смартфоны уже в течение 5 лет!</p><p>- ваша покупка после  проверки смартфона с вашей стороны<br>- устройство на текущей странице б/у оригинал, функциональность совершенно проверена<br>- прилагается документ: товарный чек и гарантийный талон, с печатью</p><p>Можно оставить сообщение в нашем сообществе ВК или нашем Instagram круглосуточно,<br>Звоните с 9 утра до 9 вечера без выходных.</p><p>(опт, общий заказ от 3шт = 9250, от 10шт = 8750)<br>imei:359222077867247</p>]]></Description>
+		<Price>9800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%20SE/Cj8ICB_29_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%20SE/Cj8ICB_29.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%20SE/Cj8ICB_29.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
