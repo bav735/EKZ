@@ -628,7 +628,7 @@
 	</Ad>
 	<Ad>
 		<Id>vuevYY</Id>
-		<DateEnd>2019-03-27T09:39:11+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -9467,6 +9467,25 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%204A/Cj8ICB_6_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%204A/Cj8ICB_6.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Xiaomi%20Redmi%204A/Cj8ICB_6.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>W03fW0</Id>
+		<DateEnd>2019-04-15T23:20:12+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 4S</Title>
+		<Description><![CDATA[<p>iPhone 4S<br>- выглядит: абсолютно как новый, аксессуары: аудио-гарнитура, коробка, инструкции, иголка для сим карты, кабель, зарядное устройство</p><p>Вас приветствует AMOLED,<br>У нас вы найдете доступные модели по категории товаров смартфоны!</p><p>Располагаем для вас:<br>- скорейшая бесплатная ДОСТАВКА на протяжении дня<br>- недорогой КРЕДИТ от банков, переплата лишь 1% в мес<br>- сотрудничество по системе ДРОПШИППИНГ/ОПТ, мы: проверенный поставщик, вы: продавец (детали уточняйте)<br>- взаиморасчет через Р/С для юрлиц и по банковской КАРТЕ<br>- замечательный ПРЕЗЕНТ, противоударные стекло и накладка<br>- славная ГАРАНТИЯ до 1 ГОДА (устранение дефекта или обмен гаджета)</p><p>Всегда оказываем поддержку клиентам!<br>Продаем телефоны уже свыше 5 лет!</p><p>- гаджет на текущей странице б/у оригинал, функциональность исправна<br>- ваша покупка после  полной проверки и осмотра аппарата с вашим участием<br>- оформляется полный пакет документов: товарный чек и гарантийный талон, с печатью</p><p>Можно оставить сообщение в нашем Инстаграм или нашем паблике Вконтакте круглосуточно,<br>Звоните с 9 до 21 часов каждый день.</p><p>imei:013536002550752</p>]]></Description>
+		<Price>3000</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%204S/Cj8ICB_19_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%204S/Cj8ICB_19.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%204S/Cj8ICB_19.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
