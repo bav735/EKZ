@@ -1237,7 +1237,7 @@
 	</Ad>
 	<Ad>
 		<Id>jbYasN</Id>
-		<DateEnd>2019-03-28T09:11:03+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -9867,6 +9867,25 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%202/Cj8ICB_2_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%202/Cj8ICB_2.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Xiaomi%20Redmi%202/Cj8ICB_2.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>b462ov</Id>
+		<DateEnd>2019-04-16T17:14:04+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6S Plus</Title>
+		<Description><![CDATA[<p>iPhone 6S Plus<br>- по состоянию: абсолютно идеальный, комплект: коробка, аудио-гарнитура, кабель usb, з/у</p><p>Вас рад приветствовать AMOLED,<br>У нас в ассортименте вы увидите лучшие позиции в товарной категории смартфоны!</p><p>Рекомендуем:<br>- безупречная ГАРАНТИЯ до 1 ГОДА (обмен смартфона или исправление дефекта)<br>- бесплатный ПОДАРОК, накладка и стекло<br>- выгодный КРЕДИТ от банков, переплата всего 1% в месяц<br>- расчет через Р/С для организаций и по электронной КАРТЕ<br>- сотрудничество по модели ДРОПШИППИНГ/ОПТ, мы: опытный поставщик, вы: продавец (подробности узнавайте)<br>- поспешная бесплатная ДОСТАВКА в процессе суток</p><p>Всегда оказываем сотрудничество всем нашим покупателям и дорожим своей репутацией!<br>Мы занимаемся продажей телефонов в течение пяти лет!</p><p>- ваша покупка только после  проверки и тестирования товара<br>- прилагается полный пакет документов: товарный чек и гарантийный талон, заверенные печатью<br>- гаджет в настоящем объявлении б/у оригинал, работа протестирована</p><p>Звоните с 9 до 21 часов в любой день,<br>Пишите в нашем Instagram или группе Вконтакте круглосуточно.</p><p>imei:358604077715644</p>]]></Description>
+		<Price>16100</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S%20Plus/Cj8ICB_31_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S%20Plus/Cj8ICB_31.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%206S%20Plus/Cj8ICB_31.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
