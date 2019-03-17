@@ -8461,7 +8461,7 @@
 	</Ad>
 	<Ad>
 		<Id>Fc14EP</Id>
-		<DateEnd>2019-04-14T11:00:49+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -9543,6 +9543,25 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%20X/Cj8ICB_10_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%20X/Cj8ICB_10.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%20X/Cj8ICB_10.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>FCha7K</Id>
+		<DateEnd>2019-04-16T07:25:12+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7</Title>
+		<Description><![CDATA[<p>iPhone 7<br>- внешне: совсем в идеале, аксессуары: коробка, инструкции, иголка для sim, аудио-гарнитура, кабель, зарядное устройство</p><p>Вас приветствует AMOLED,<br>В нашем магазине вы увидите самые недорогие модели в товарной категории смартфоны!</p><p>Преподносим вам:<br>- недорогой КРЕДИТ от банков-партнеров, переплата всего 1% в мес<br>- хороший ПОДАРОК, защитные кейс и бронь-стекло<br>- оплата по банковской КАРТЕ и через Р/С для юрлиц<br>- оперативная бесплатная ДОСТАВКА на протяжении суток<br>- безупречная ГАРАНТИЯ до 1 ГОДА (обмен устройства или ремонт недостатка)<br>- сотрудничество по схеме ДРОПШИППИНГ/ОПТ, мы: надежный поставщик, вы: продавец (детали уточняйте)</p><p>Мы всегда идем навстречу клиентам!<br>Реализуем сотовые телефоны уже в течение 5 лет!</p><p>- ваша оплата только после  проверки аппарата с вашей стороны<br>- мобильный телефон в этом объявлении б/у оригинал, каждая функция опробована<br>- оформляется чек и гарантийный талон, подтвержденные штампом</p><p>Прием звонков с 9.00 до 21.00 каждодневно,<br>Можно написать в Instagram или нашей группе VK в любое удобное время.</p><p>imei:356557086698536</p>]]></Description>
+		<Price>17200</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_54_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/Cj8ICB_54.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%207/Cj8ICB_54.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
