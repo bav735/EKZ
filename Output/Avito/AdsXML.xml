@@ -6174,7 +6174,7 @@
 	</Ad>
 	<Ad>
 		<Id>ME11VO</Id>
-		<DateEnd>2019-04-11T18:55:10+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -10988,6 +10988,25 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20S9/Cj8ICB_3_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20S9/Cj8ICB_3.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Samsung%20Galaxy%20S9/Cj8ICB_3.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>lQYjEx</Id>
+		<DateEnd>2019-04-18T21:08:36+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7 Plus</Title>
+		<Description><![CDATA[<p>iPhone 7 Plus<br>- по корпусу: вообще без малейших дефектов, весь комплект: наушники, кабель юсб, коробка, инструкции, зарядное устройство</p><p>Вас рад приветствовать AMOLED,<br>У нас в ассортименте вы найдете лучшие модели по группе товаров смартфоны!</p><p>Располагаем для вас:<br>- удобный КРЕДИТ от банков, переплата 1% за месяц<br>- надежная ГАРАНТИЯ до 1 ГОДА (обмен смартфона или исправление дефекта)<br>- славный БОНУС, бронь-стекло и чехол<br>- расчет по пластиковой КАРТЕ и через Р/С для фирм<br>- сотрудничество по схеме ДРОПШИППИНГ/ОПТ, мы: опытный поставщик, вы: продавец (подробности спрашивайте)<br>- скорая бесплатная ДОСТАВКА в течение суток</p><p>Неизменно помогаем всем нашим покупателям!<br>Реализуем мобильные телефоны свыше 5 лет!</p><p>- к вашей покупке выдается документ: талон и чек, заверенные печатью<br>- устройство на настоящей странице б/у оригинал, функциональность полностью опробована<br>- оплата только после  внимательной проверки устройства</p><p>Пишите в Инстаграм или нашем паблике ВК в любое удобное время,<br>Работаем с 9.00 до 21.00 ежедневно.</p><p>imei:355351081657924</p>]]></Description>
+		<Price>22600</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207%20Plus/Cj8ICB_39_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207%20Plus/Cj8ICB_39.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%207%20Plus/Cj8ICB_39.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
