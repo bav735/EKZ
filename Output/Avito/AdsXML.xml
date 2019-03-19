@@ -6040,7 +6040,7 @@
 	</Ad>
 	<Ad>
 		<Id>y021Ik</Id>
-		<DateEnd>2019-04-11T07:36:22+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -10874,6 +10874,25 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_59_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/Cj8ICB_59.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%207/Cj8ICB_59.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>u3z7bT</Id>
+		<DateEnd>2019-04-18T15:00:32+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone SE</Title>
+		<Description><![CDATA[<p>iPhone SE<br>- внешний вид: вообще без царапин или потертостей, аксессуары: наушники, кабель, коробка, зарядное устройство</p><p>Драгоценный посетитель, вас приветствует пункт реализации AMOLED,<br>У нас вы откроете самые различные позиции в товарной категории телефоны!</p><p>Представляем:<br>- партнерство по схеме ДРОПШИППИНГ/ОПТ, мы: опытный поставщик, вы: продавец (подробности уточняйте)<br>- оплата через Р/С фирм и по любой КАРТЕ<br>- недорогой КРЕДИТ от банков, переплата 1% в месяц<br>- скорейшая бесплатная ДОСТАВКА в течение дня<br>- надежная ГАРАНТИЯ до 1 ГОДА (исправление недостатка или обмен аппарата)<br>- приятный ПРЕЗЕНТ, чехол и бронь</p><p>Мы занимаемся продажей смартфонов более пяти лет!<br>Неизменно помогаем всем нашим клиентам и дорожим репутацией!</p><p>- ваш расчет совершается только после  проверки телефона при вас<br>- оформляется документ: чек и гарантийный талон, подтвержденные штампом<br>- сотовый телефон на текущей странице б/у оригинал, функциональность абсолютно без каких-либо проблем</p><p>Можете позвонить с 9 утра до 9 вечера без выходных,<br>Пишите в группе Вконтакте или нашем Instagram круглосуточно.</p><p>imei:355442070509927</p>]]></Description>
+		<Price>9600</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%20SE/Cj8ICB_31_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%20SE/Cj8ICB_31.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%20SE/Cj8ICB_31.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
