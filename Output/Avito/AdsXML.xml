@@ -9338,7 +9338,7 @@
 	</Ad>
 	<Ad>
 		<Id>3guB0M</Id>
-		<DateEnd>2019-04-15T19:31:26+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -11083,6 +11083,25 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20S3/Cj8ICB_2_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20S3/Cj8ICB_2.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Samsung%20Galaxy%20S3/Cj8ICB_2.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>iQD9J8</Id>
+		<DateEnd>2019-04-19T09:12:25+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7</Title>
+		<Description><![CDATA[<p>iPhone 7<br>- по состоянию: абсолютно как новый, комплект: аудио-гарнитура, з/у, коробка, кабель юсб</p><p>Уважаемый покупатель, вас встречает AMOLED,<br>В нашем магазине вы откроете удивительные позиции по категории товаров сотовые телефоны!</p><p>Преподносим:<br>- настоящая ГАРАНТИЯ до 1 ГОДА (замена устройства или устранение недостатка)<br>- милый ПРЕЗЕНТ, защитные кейс и стекло<br>- работа по системе ДРОПШИППИНГ/ОПТ, мы: опытный поставщик, вы: продавец (подробности спрашивайте)<br>- расчет по электронной КАРТЕ и через Р/С фирм<br>- доступный КРЕДИТ от банков-партнеров, переплата лишь 1% в мес<br>- немедленная бесплатная ДОСТАВКА на протяжении суток</p><p>Мы в нише мобильных телефонов в течение 5 лет!<br>Всегда оказываем сотрудничество покупателям и дорожим репутацией!</p><p>- к покупке вам прилагается полный пакет документов: чек и талон, с штампом<br>- гаджет в данном объявлении б/у оригинал, каждая функция полностью опробована<br>- ваша оплата производится после  проверки устройства</p><p>Можете позвонить с 9 до 21 часов ежедневно,<br>Пишите в нашем Instagram или нашей группе ВК круглосуточно.</p><p>imei:359207075236768</p>]]></Description>
+		<Price>16500</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_60_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/Cj8ICB_60.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%207/Cj8ICB_60.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
