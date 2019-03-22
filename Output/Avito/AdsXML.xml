@@ -10194,7 +10194,7 @@
 	</Ad>
 	<Ad>
 		<Id>MGRD08</Id>
-		<DateEnd>2019-04-17T14:24:42+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -11653,6 +11653,25 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%204S/Cj8ICB_22_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%204S/Cj8ICB_22.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%204S/Cj8ICB_22.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>wsErib</Id>
+		<DateEnd>2019-04-21T13:31:03+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7</Title>
+		<Description><![CDATA[<p>iPhone 7<br>- по состоянию: совсем как новый, аксессуары: коробка, инструкции, аудио-гарнитура, кабель usb, блок зарядки</p><p>Вас приветствует AMOLED,<br>У нас вы обнаружите выгодные позиции по группе товаров смартфоны!</p><p>Преподносим:<br>- неотложная бесплатная ДОСТАВКА в течение дня<br>- доступный КРЕДИТ от банков-партнеров, переплата всего 1% в мес<br>- приятный ПОДАРОК, противоударные накладка и бронь-стекло<br>- партнерство по системе ДРОПШИППИНГ/ОПТ, мы: надежный поставщик, вы: продавец (тонкости узнавайте)<br>- великолепная ГАРАНТИЯ до 1 ГОДА (устранение неисправности или обмен аппарата)<br>- расчет по банковской КАРТЕ и через Р/С организаций</p><p>Продаем телефоны более пяти лет!<br>Мы всегда оказываем поддержку нашим покупателям и дорожим репутацией!</p><p>- аппарат в текущем объявлении б/у оригинал, функциональность полностью проверена<br>- ваш расчет после  проверки аппарата с вашей стороны<br>- к покупке мы оформим гарантийный талон и товарный чек, подтвержденные печатью</p><p>Можно оставить сообщение в нашем паблике Вконтакте или Инстаграм круглосуточно,<br>Прием звонков с 9 до 21 часов ежедневно.</p><p>imei:353841088010848</p>]]></Description>
+		<Price>16500</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_65_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/Cj8ICB_65.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%207/Cj8ICB_65.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
