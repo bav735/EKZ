@@ -8422,7 +8422,7 @@
 	</Ad>
 	<Ad>
 		<Id>5ykzDk</Id>
-		<DateEnd>2019-04-14T10:30:51+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -12584,6 +12584,25 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_81_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_81.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%206/add0_81.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>8ABLWu</Id>
+		<DateEnd>2019-04-22T20:52:32+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7 Plus</Title>
+		<Description><![CDATA[iPhone 7 Plus оригинал б/у<br>- по состоянию: абсолютно как новый, аксессуары: коробка, наушники, кабель, блок зарядки<br>- работа совершенно опробована<br>- imei:355375085675814<br>Подробные возможности покупки можете увидеть на фото к объявлению, пишите в Вконтакте/Инстаграм или звоните!]]></Description>
+		<Price>22600</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207%20Plus/Cj8ICB_42_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207%20Plus/add0_42.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%207%20Plus/add0_42.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
