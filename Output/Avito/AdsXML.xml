@@ -191,7 +191,7 @@
 	</Ad>
 	<Ad>
 		<Id>bHjYhI</Id>
-		<DateEnd>2019-03-22T17:35:32+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -12622,6 +12622,25 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_75_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_75.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%205S/add0_75.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>Tx6O97</Id>
+		<DateEnd>2019-04-22T21:22:40+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6 32Gb</Title>
+		<Description><![CDATA[iPhone 6 32Gb оригинал б/у<br>- функциональность полностью без ошибок<br>- выглядит: абсолютно как новый, аксессуары: зу, коробка, аудио-гарнитура, кабель usb<br>- imei:356678086298794<br>Детали покупки можете найти на фото к объявлению, по вопросам звоните или пишите в Вконтакте/Instagram!]]></Description>
+		<Price>11100</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_82_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_82.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%206/add0_82.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
