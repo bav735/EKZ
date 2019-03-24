@@ -12909,4 +12909,23 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Apple%20iPhone%20X/add0_14.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>xJfwG9</Id>
+		<DateEnd>2019-04-23T14:45:57+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi Note 5 64Gb</Title>
+		<Description>Абсолютно как новый! imei 867192030780719 б/у</Description>
+		<Price>12400</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%20Note%205/Cj8ICB_2_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%20Note%205/add0_2.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add1/Xiaomi%20Redmi%20Note%205/add0_2.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
