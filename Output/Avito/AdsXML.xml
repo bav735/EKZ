@@ -11351,7 +11351,7 @@
 	</Ad>
 	<Ad>
 		<Id>5cfcj0</Id>
-		<DateEnd>2019-04-22T02:52:03+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -12283,6 +12283,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206%20Plus/Cj8ICB_26_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206%20Plus/add0_26.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>9i2oJR</Id>
+		<DateEnd>2019-04-24T10:11:23+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5S</Title>
+		<Description>iPhone 5S как новый с TouchID imei 352017067860914 бу оригинал</Description>
+		<Price>6750</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_81_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_81.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
