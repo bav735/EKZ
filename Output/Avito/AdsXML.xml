@@ -8055,7 +8055,7 @@
 	</Ad>
 	<Ad>
 		<Id>7Ya8Iv</Id>
-		<DateEnd>2019-04-14T18:30:50+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -12427,6 +12427,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%204A/Cj8ICB_7_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%204A/add0_7.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>8ahEhV</Id>
+		<DateEnd>2019-04-24T15:13:49+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone SE</Title>
+		<Description>iPhone SE как новый imei 353848081792934 бу оригинал</Description>
+		<Price>9600</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%20SE/Cj8ICB_36_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%20SE/add0_36.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
