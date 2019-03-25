@@ -1,257 +1,5 @@
 <Ads formatVersion="3" target="Avito.ru">
 	<Ad>
-		<Id>dCqLQg</Id>
-		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
-		<AllowEmail>Нет</AllowEmail>
-		<ManagerName>Оператор</ManagerName>
-		<ContactPhone>88432072062</ContactPhone>
-		<Region>Татарстан</Region>
-		<City>Казань</City>
-		<Category>Телефоны</Category>
-		<GoodsType>iPhone</GoodsType>
-		<Title>iPhone 7</Title>
-		<Description>iPhone 7 как новый imei 355324085886328 бу оригинал</Description>
-		<Price>16500</Price>
-		<Images>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_10_0.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/add0_10.jpg"/>
-		</Images>
-	</Ad>
-	<Ad>
-		<Id>zZz19T</Id>
-		<DateEnd>2019-03-22T16:16:53+03:00</DateEnd>
-		<AllowEmail>Нет</AllowEmail>
-		<ManagerName>Оператор</ManagerName>
-		<ContactPhone>88432072062</ContactPhone>
-		<Region>Татарстан</Region>
-		<City>Казань</City>
-		<Category>Телефоны</Category>
-		<GoodsType>iPhone</GoodsType>
-		<Title>iPhone 4S 16Gb</Title>
-		<Description>iPhone 4S 16Gb как новый imei 013037009839942 бу оригинал</Description>
-		<Price>2700</Price>
-		<Images>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%204S/Cj8ICB_6_0.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%204S/add0_6.jpg"/>
-		</Images>
-	</Ad>
-	<Ad>
-		<Id>TM43He</Id>
-		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
-		<AllowEmail>Нет</AllowEmail>
-		<ManagerName>Оператор</ManagerName>
-		<ContactPhone>88432072062</ContactPhone>
-		<Region>Татарстан</Region>
-		<City>Казань</City>
-		<Category>Телефоны</Category>
-		<GoodsType>iPhone</GoodsType>
-		<Title>iPhone 5 16Gb</Title>
-		<Description>iPhone 5 16Gb как новый imei 013424002800032 бу оригинал</Description>
-		<Price>4450</Price>
-		<Images>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205/Cj8ICB_8_0.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205/add0_8.jpg"/>
-		</Images>
-	</Ad>
-	<Ad>
-		<Id>MsM2kR</Id>
-		<DateEnd>2019-03-22T16:30:23+03:00</DateEnd>
-		<AllowEmail>Нет</AllowEmail>
-		<ManagerName>Оператор</ManagerName>
-		<ContactPhone>88432072062</ContactPhone>
-		<Region>Татарстан</Region>
-		<City>Казань</City>
-		<Category>Телефоны</Category>
-		<GoodsType>Samsung</GoodsType>
-		<Title>Samsung Galaxy S8 64Gb</Title>
-		<Description>Samsung Galaxy S8 64Gb как новый imei 359623083393518 бу оригинал</Description>
-		<Price>22250</Price>
-		<Images>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20S8/Cj8ICB_3_0.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20S8/add0_3.jpg"/>
-		</Images>
-	</Ad>
-	<Ad>
-		<Id>yRSeqW</Id>
-		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
-		<AllowEmail>Нет</AllowEmail>
-		<ManagerName>Оператор</ManagerName>
-		<ContactPhone>88432072062</ContactPhone>
-		<Region>Татарстан</Region>
-		<City>Казань</City>
-		<Category>Телефоны</Category>
-		<GoodsType>iPhone</GoodsType>
-		<Title>iPhone 7 32Gb</Title>
-		<Description>iPhone 7 32Gb как новый imei 355324087606120 бу оригинал</Description>
-		<Price>16500</Price>
-		<Images>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_11_0.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/add0_11.jpg"/>
-		</Images>
-	</Ad>
-	<Ad>
-		<Id>sEf5My</Id>
-		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
-		<AllowEmail>Нет</AllowEmail>
-		<ManagerName>Оператор</ManagerName>
-		<ContactPhone>88432072062</ContactPhone>
-		<Region>Татарстан</Region>
-		<City>Казань</City>
-		<Category>Телефоны</Category>
-		<GoodsType>iPhone</GoodsType>
-		<Title>iPhone 6S 32Gb</Title>
-		<Description>iPhone 6S 32Gb как новый с TouchID imei 355399084985677 бу оригинал</Description>
-		<Price>13650</Price>
-		<Images>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_18_0.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_18.jpg"/>
-		</Images>
-	</Ad>
-	<Ad>
-		<Id>F0iybW</Id>
-		<DateEnd>2019-03-22T17:03:33+03:00</DateEnd>
-		<AllowEmail>Нет</AllowEmail>
-		<ManagerName>Оператор</ManagerName>
-		<ContactPhone>88432072062</ContactPhone>
-		<Region>Татарстан</Region>
-		<City>Казань</City>
-		<Category>Телефоны</Category>
-		<GoodsType>iPhone</GoodsType>
-		<Title>iPhone 6 128Gb</Title>
-		<Description>iPhone 6 128Gb как новый imei 353321078797324 бу оригинал</Description>
-		<Price>13050</Price>
-		<Images>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_9_0.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_9.jpg"/>
-		</Images>
-	</Ad>
-	<Ad>
-		<Id>2POHdX</Id>
-		<DateEnd>2019-03-22T17:03:43+03:00</DateEnd>
-		<AllowEmail>Нет</AllowEmail>
-		<ManagerName>Оператор</ManagerName>
-		<ContactPhone>88432072062</ContactPhone>
-		<Region>Татарстан</Region>
-		<City>Казань</City>
-		<Category>Телефоны</Category>
-		<GoodsType>iPhone</GoodsType>
-		<Title>iPhone 6S Plus 32Gb</Title>
-		<Description>iPhone 6S Plus 32Gb как новый imei 355729075887880 бу оригинал</Description>
-		<Price>17100</Price>
-		<Images>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S%20Plus/Cj8ICB_12_0.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S%20Plus/add0_12.jpg"/>
-		</Images>
-	</Ad>
-	<Ad>
-		<Id>ARb1hE</Id>
-		<DateEnd>2019-03-22T17:06:19+03:00</DateEnd>
-		<AllowEmail>Нет</AllowEmail>
-		<ManagerName>Оператор</ManagerName>
-		<ContactPhone>88432072062</ContactPhone>
-		<Region>Татарстан</Region>
-		<City>Казань</City>
-		<Category>Телефоны</Category>
-		<GoodsType>Xiaomi</GoodsType>
-		<Title>Xiaomi Redmi 4X</Title>
-		<Description>Xiaomi Redmi 4X как новый imei 865819031431726 бу оригинал</Description>
-		<Price>6650</Price>
-		<Images>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%204X/Cj8ICB_4_0.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%204X/add0_4.jpg"/>
-		</Images>
-	</Ad>
-	<Ad>
-		<Id>qn9qDD</Id>
-		<DateEnd>2019-03-22T17:35:20+03:00</DateEnd>
-		<AllowEmail>Нет</AllowEmail>
-		<ManagerName>Оператор</ManagerName>
-		<ContactPhone>88432072062</ContactPhone>
-		<Region>Татарстан</Region>
-		<City>Казань</City>
-		<Category>Телефоны</Category>
-		<GoodsType>iPhone</GoodsType>
-		<Title>iPhone SE 64Gb</Title>
-		<Description>iPhone SE 64Gb как новый imei 355437071343524 бу оригинал</Description>
-		<Price>12350</Price>
-		<Images>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%20SE/Cj8ICB_6_0.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%20SE/add0_6.jpg"/>
-		</Images>
-	</Ad>
-	<Ad>
-		<Id>bHjYhI</Id>
-		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
-		<AllowEmail>Нет</AllowEmail>
-		<ManagerName>Оператор</ManagerName>
-		<ContactPhone>88432072062</ContactPhone>
-		<Region>Татарстан</Region>
-		<City>Казань</City>
-		<Category>Телефоны</Category>
-		<GoodsType>iPhone</GoodsType>
-		<Title>iPhone 6 32Gb</Title>
-		<Description>iPhone 6 32Gb как новый imei 356679080178578 бу оригинал</Description>
-		<Price>11100</Price>
-		<Images>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_10_0.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_10.jpg"/>
-		</Images>
-	</Ad>
-	<Ad>
-		<Id>KPhOvQ</Id>
-		<DateEnd>2019-03-22T17:35:39+03:00</DateEnd>
-		<AllowEmail>Нет</AllowEmail>
-		<ManagerName>Оператор</ManagerName>
-		<ContactPhone>88432072062</ContactPhone>
-		<Region>Татарстан</Region>
-		<City>Казань</City>
-		<Category>Телефоны</Category>
-		<GoodsType>iPhone</GoodsType>
-		<Title>iPhone 6S 128Gb</Title>
-		<Description>iPhone 6S 128Gb как новый imei 355428072016896 бу оригинал</Description>
-		<Price>15100</Price>
-		<Images>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_19_0.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_19.jpg"/>
-		</Images>
-	</Ad>
-	<Ad>
-		<Id>MpdyOw</Id>
-		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
-		<AllowEmail>Нет</AllowEmail>
-		<ManagerName>Оператор</ManagerName>
-		<ContactPhone>88432072062</ContactPhone>
-		<Region>Татарстан</Region>
-		<City>Казань</City>
-		<Category>Телефоны</Category>
-		<GoodsType>iPhone</GoodsType>
-		<Title>iPhone 7 Plus</Title>
-		<Description>iPhone 7 Plus как новый imei 356568081096584 бу оригинал</Description>
-		<Price>22650</Price>
-		<Images>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207%20Plus/Cj8ICB_10_0.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207%20Plus/add0_10.jpg"/>
-		</Images>
-	</Ad>
-	<Ad>
-		<Id>4x2DQ4</Id>
-		<DateEnd>2019-03-22T17:57:04+03:00</DateEnd>
-		<AllowEmail>Нет</AllowEmail>
-		<ManagerName>Оператор</ManagerName>
-		<ContactPhone>88432072062</ContactPhone>
-		<Region>Татарстан</Region>
-		<City>Казань</City>
-		<Category>Телефоны</Category>
-		<GoodsType>Samsung</GoodsType>
-		<Title>Samsung Galaxy S8 Plus</Title>
-		<Description>Samsung Galaxy S8 Plus как новый imei 359116081699234 бу оригинал</Description>
-		<Price>23400</Price>
-		<Images>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20S8%20Plus/Cj8ICB_1_0.jpg"/>
-			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20S8%20Plus/add0_1.jpg"/>
-		</Images>
-	</Ad>
-	<Ad>
 		<Id>px7i9b</Id>
 		<DateEnd>2019-03-25T23:10:33+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
@@ -478,8 +226,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый с TouchID imei 353272072292707 бу оригинал</Description>
-		<Price>12500</Price>
+		<Description>iPhone 6S 16Gb как новый без TouchID imei 353272072292707 бу оригинал</Description>
+		<Price>10750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_20_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_20.jpg"/>
@@ -568,8 +316,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S Plus 64Gb</Title>
-		<Description>iPhone 6S Plus 64Gb как новый с TouchID imei 354952070044742 бу оригинал</Description>
-		<Price>17650</Price>
+		<Description>iPhone 6S Plus 64Gb как новый без TouchID imei 354952070044742 бу оригинал</Description>
+		<Price>15350</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S%20Plus/Cj8ICB_13_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S%20Plus/add0_13.jpg"/>
@@ -586,8 +334,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый с TouchID imei 013849004358540 бу оригинал</Description>
-		<Price>6750</Price>
+		<Description>iPhone 5S 16Gb как новый без TouchID imei 013849004358540 бу оригинал</Description>
+		<Price>5600</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_11_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_11.jpg"/>
@@ -676,8 +424,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6 Plus 16Gb</Title>
-		<Description>iPhone 6 Plus 16Gb как новый с TouchID imei 352066060168783 бу оригинал</Description>
-		<Price>13050</Price>
+		<Description>iPhone 6 Plus 16Gb как новый без TouchID imei 352066060168783 бу оригинал</Description>
+		<Price>10750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206%20Plus/Cj8ICB_6_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206%20Plus/add0_6.jpg"/>
@@ -874,8 +622,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6 64Gb</Title>
-		<Description>iPhone 6 64Gb как новый с TouchID imei 359232069967095 бу оригинал</Description>
-		<Price>11350</Price>
+		<Description>iPhone 6 64Gb как новый без TouchID imei 359232069967095 бу оригинал</Description>
+		<Price>9050</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_13_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_13.jpg"/>
@@ -1019,8 +767,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6 Plus 64Gb</Title>
-		<Description>iPhone 6 Plus 64Gb как новый с TouchID imei 354451066856375 бу оригинал</Description>
-		<Price>14800</Price>
+		<Description>iPhone 6 Plus 64Gb как новый без TouchID imei 354451066856375 бу оригинал</Description>
+		<Price>12500</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206%20Plus/Cj8ICB_7_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206%20Plus/add0_7.jpg"/>
@@ -1235,8 +983,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый без TouchID imei 353265079861326 бу оригинал</Description>
-		<Price>10750</Price>
+		<Description>iPhone 6S 16Gb как новый с TouchID imei 353265079861326 бу оригинал</Description>
+		<Price>12500</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_23_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_23.jpg"/>
@@ -1289,8 +1037,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый без TouchID imei 013988008292238 бу оригинал</Description>
-		<Price>5600</Price>
+		<Description>iPhone 5S 16Gb как новый с TouchID imei 013988008292238 бу оригинал</Description>
+		<Price>6750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_14_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_14.jpg"/>
@@ -1362,8 +1110,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый с TouchID imei 354956071591163 бу оригинал</Description>
-		<Price>12500</Price>
+		<Description>iPhone 6S 16Gb как новый без TouchID imei 354956071591163 бу оригинал</Description>
+		<Price>10750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_24_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_24.jpg"/>
@@ -1632,8 +1380,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S</Title>
-		<Description>iPhone 6S как новый с TouchID imei 355694072162416 бу оригинал</Description>
-		<Price>12500</Price>
+		<Description>iPhone 6S как новый без TouchID imei 355694072162416 бу оригинал</Description>
+		<Price>10750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_25_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_25.jpg"/>
@@ -1686,8 +1434,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S</Title>
-		<Description>iPhone 5S как новый с TouchID imei 357997059902805 бу оригинал</Description>
-		<Price>6750</Price>
+		<Description>iPhone 5S как новый без TouchID imei 357997059902805 бу оригинал</Description>
+		<Price>5600</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_16_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_16.jpg"/>
@@ -1830,8 +1578,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6 Plus</Title>
-		<Description>iPhone 6 Plus как новый с TouchID imei 352066064477461 бу оригинал</Description>
-		<Price>13050</Price>
+		<Description>iPhone 6 Plus как новый без TouchID imei 352066064477461 бу оригинал</Description>
+		<Price>10750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206%20Plus/Cj8ICB_8_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206%20Plus/add0_8.jpg"/>
@@ -1920,8 +1668,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6</Title>
-		<Description>iPhone 6 как новый с TouchID imei 359312067618195 бу оригинал</Description>
-		<Price>10200</Price>
+		<Description>iPhone 6 как новый без TouchID imei 359312067618195 бу оригинал</Description>
+		<Price>7900</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_17_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_17.jpg"/>
@@ -1975,8 +1723,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6 64Gb</Title>
-		<Description>iPhone 6 64Gb как новый без TouchID imei 354446067397130 бу оригинал</Description>
-		<Price>9050</Price>
+		<Description>iPhone 6 64Gb как новый с TouchID imei 354446067397130 бу оригинал</Description>
+		<Price>11350</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_18_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_18.jpg"/>
@@ -2389,8 +2137,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый с TouchID imei 359271067314942 бу оригинал</Description>
-		<Price>6750</Price>
+		<Description>iPhone 5S 16Gb как новый без TouchID imei 359271067314942 бу оригинал</Description>
+		<Price>5600</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_18_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_18.jpg"/>
@@ -2407,8 +2155,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6 64Gb</Title>
-		<Description>iPhone 6 64Gb как новый с TouchID imei 354407069746393 бу оригинал</Description>
-		<Price>11350</Price>
+		<Description>iPhone 6 64Gb как новый без TouchID imei 354407069746393 бу оригинал</Description>
+		<Price>9050</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_21_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_21.jpg"/>
@@ -2443,8 +2191,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый без TouchID imei 358569073957732 бу оригинал</Description>
-		<Price>10750</Price>
+		<Description>iPhone 6S 16Gb как новый с TouchID imei 358569073957732 бу оригинал</Description>
+		<Price>12500</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_30_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_30.jpg"/>
@@ -2588,8 +2336,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый без TouchID imei 013888000507916 бу оригинал</Description>
-		<Price>5600</Price>
+		<Description>iPhone 5S 16Gb как новый с TouchID imei 013888000507916 бу оригинал</Description>
+		<Price>6750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_20_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_20.jpg"/>
@@ -2769,8 +2517,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый с TouchID imei 013968003341016 бу оригинал</Description>
-		<Price>6750</Price>
+		<Description>iPhone 5S 16Gb как новый без TouchID imei 013968003341016 бу оригинал</Description>
+		<Price>5600</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_22_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_22.jpg"/>
@@ -2932,8 +2680,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый без TouchID imei 358814059450488 бу оригинал</Description>
-		<Price>5600</Price>
+		<Description>iPhone 5S 16Gb как новый с TouchID imei 358814059450488 бу оригинал</Description>
+		<Price>6750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_25_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_25.jpg"/>
@@ -3168,8 +2916,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый с TouchID imei 353253070888506 бу оригинал</Description>
-		<Price>12500</Price>
+		<Description>iPhone 6S 16Gb как новый без TouchID imei 353253070888506 бу оригинал</Description>
+		<Price>10750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_32_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_32.jpg"/>
@@ -3313,8 +3061,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6 64Gb</Title>
-		<Description>iPhone 6 64Gb как новый без TouchID imei 354411061962149 бу оригинал</Description>
-		<Price>9050</Price>
+		<Description>iPhone 6 64Gb как новый с TouchID imei 354411061962149 бу оригинал</Description>
+		<Price>11350</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_29_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_29.jpg"/>
@@ -3403,8 +3151,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый с TouchID imei 352017063632838 бу оригинал</Description>
-		<Price>6750</Price>
+		<Description>iPhone 5S 16Gb как новый без TouchID imei 352017063632838 бу оригинал</Description>
+		<Price>5600</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_28_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_28.jpg"/>
@@ -3529,8 +3277,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый без TouchID imei 353253070888506 бу оригинал</Description>
-		<Price>10750</Price>
+		<Description>iPhone 6S 16Gb как новый с TouchID imei 353253070888506 бу оригинал</Description>
+		<Price>12500</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_35_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_35.jpg"/>
@@ -3547,8 +3295,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6 64Gb</Title>
-		<Description>iPhone 6 64Gb как новый с TouchID imei 353319078734339 бу оригинал</Description>
-		<Price>11350</Price>
+		<Description>iPhone 6 64Gb как новый без TouchID imei 353319078734339 бу оригинал</Description>
+		<Price>9050</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_31_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_31.jpg"/>
@@ -3619,8 +3367,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый без TouchID imei 358687050846122 бу оригинал</Description>
-		<Price>5600</Price>
+		<Description>iPhone 5S 16Gb как новый с TouchID imei 358687050846122 бу оригинал</Description>
+		<Price>6750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_29_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_29.jpg"/>
@@ -3963,8 +3711,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый с TouchID imei 355416071227994 бу оригинал</Description>
-		<Price>12500</Price>
+		<Description>iPhone 6S 16Gb как новый без TouchID imei 355416071227994 бу оригинал</Description>
+		<Price>10750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_38_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_38_1.jpg"/>
@@ -4000,8 +3748,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый с TouchID imei 358687055251039 бу оригинал</Description>
-		<Price>6750</Price>
+		<Description>iPhone 5S 16Gb как новый без TouchID imei 358687055251039 бу оригинал</Description>
+		<Price>5600</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_31_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_31.jpg"/>
@@ -4324,8 +4072,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый без TouchID imei 352050062783997 бу оригинал</Description>
-		<Price>5600</Price>
+		<Description>iPhone 5S 16Gb как новый с TouchID imei 352050062783997 бу оригинал</Description>
+		<Price>6750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_32_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_32.jpg"/>
@@ -4414,8 +4162,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6 Plus 64Gb</Title>
-		<Description>iPhone 6 Plus 64Gb как новый без TouchID imei 355877067453250 бу оригинал</Description>
-		<Price>12500</Price>
+		<Description>iPhone 6 Plus 64Gb как новый с TouchID imei 355877067453250 бу оригинал</Description>
+		<Price>14800</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206%20Plus/Cj8ICB_12_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206%20Plus/add0_12.jpg"/>
@@ -4432,8 +4180,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый без TouchID imei 353316079176049 бу оригинал</Description>
-		<Price>10750</Price>
+		<Description>iPhone 6S 16Gb как новый с TouchID imei 353316079176049 бу оригинал</Description>
+		<Price>12500</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_42_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_42.jpg"/>
@@ -4450,8 +4198,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6 Plus 16Gb</Title>
-		<Description>iPhone 6 Plus 16Gb как новый без TouchID imei 354386064247047 бу оригинал</Description>
-		<Price>10750</Price>
+		<Description>iPhone 6 Plus 16Gb как новый с TouchID imei 354386064247047 бу оригинал</Description>
+		<Price>13050</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206%20Plus/Cj8ICB_13_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206%20Plus/add0_13.jpg"/>
@@ -4522,8 +4270,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый с TouchID imei 358776054494219 бу оригинал</Description>
-		<Price>6750</Price>
+		<Description>iPhone 5S 16Gb как новый без TouchID imei 358776054494219 бу оригинал</Description>
+		<Price>5600</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_34_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_34.jpg"/>
@@ -4774,8 +4522,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый с TouchID imei 353263076731055 бу оригинал</Description>
-		<Price>12500</Price>
+		<Description>iPhone 6S 16Gb как новый без TouchID imei 353263076731055 бу оригинал</Description>
+		<Price>10750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_45_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_45_1.jpg"/>
@@ -4811,8 +4559,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S Plus 64Gb</Title>
-		<Description>iPhone 6S Plus 64Gb как новый без TouchID imei 358606071879441 бу оригинал</Description>
-		<Price>15350</Price>
+		<Description>iPhone 6S Plus 64Gb как новый с TouchID imei 358606071879441 бу оригинал</Description>
+		<Price>17650</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S%20Plus/Cj8ICB_21_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S%20Plus/add0_21.jpg"/>
@@ -4829,8 +4577,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый без TouchID imei 358820058627042 бу оригинал</Description>
-		<Price>5600</Price>
+		<Description>iPhone 5S 16Gb как новый с TouchID imei 358820058627042 бу оригинал</Description>
+		<Price>6750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_36_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_36.jpg"/>
@@ -5136,8 +4884,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый с TouchID imei 358756055273119 бу оригинал</Description>
-		<Price>6750</Price>
+		<Description>iPhone 5S 16Gb как новый без TouchID imei 358756055273119 бу оригинал</Description>
+		<Price>5600</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_38_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_38.jpg"/>
@@ -5190,8 +4938,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6 64Gb</Title>
-		<Description>iPhone 6 64Gb как новый без TouchID imei 359230064011778 бу оригинал</Description>
-		<Price>9050</Price>
+		<Description>iPhone 6 64Gb как новый с TouchID imei 359230064011778 бу оригинал</Description>
+		<Price>11350</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_40_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_40.jpg"/>
@@ -5262,8 +5010,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый без TouchID imei 355431071189623 бу оригинал</Description>
-		<Price>10750</Price>
+		<Description>iPhone 6S 16Gb как новый с TouchID imei 355431071189623 бу оригинал</Description>
+		<Price>12500</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_48_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_48.jpg"/>
@@ -5389,8 +5137,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый без TouchID imei 358751051638092 бу оригинал</Description>
-		<Price>5600</Price>
+		<Description>iPhone 5S 16Gb как новый с TouchID imei 358751051638092 бу оригинал</Description>
+		<Price>6750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_40_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_40.jpg"/>
@@ -5969,8 +5717,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6 64Gb</Title>
-		<Description>iPhone 6 64Gb как новый с TouchID imei 359233068144637 бу оригинал</Description>
-		<Price>11350</Price>
+		<Description>iPhone 6 64Gb как новый без TouchID imei 359233068144637 бу оригинал</Description>
+		<Price>9050</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_43_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_43.jpg"/>
@@ -6005,8 +5753,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый с TouchID imei 358764056238487 бу оригинал</Description>
-		<Price>6750</Price>
+		<Description>iPhone 5S 16Gb как новый без TouchID imei 358764056238487 бу оригинал</Description>
+		<Price>5600</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_44_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_44.jpg"/>
@@ -6257,8 +6005,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый с TouchID imei 353255075495047 бу оригинал</Description>
-		<Price>12500</Price>
+		<Description>iPhone 6S 16Gb как новый без TouchID imei 353255075495047 бу оригинал</Description>
+		<Price>10750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_55_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_55.jpg"/>
@@ -6583,8 +6331,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый без TouchID imei 355424079113679 бу оригинал</Description>
-		<Price>10750</Price>
+		<Description>iPhone 6S 16Gb как новый с TouchID imei 355424079113679 бу оригинал</Description>
+		<Price>12500</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_56_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_56.jpg"/>
@@ -6854,8 +6602,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S Plus 64Gb</Title>
-		<Description>iPhone 6S Plus 64Gb как новый с TouchID imei 353298074243000 бу оригинал</Description>
-		<Price>17650</Price>
+		<Description>iPhone 6S Plus 64Gb как новый без TouchID imei 353298074243000 бу оригинал</Description>
+		<Price>15350</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S%20Plus/Cj8ICB_26_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S%20Plus/add0_26.jpg"/>
@@ -6998,8 +6746,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый без TouchID imei 358826052267073 бу оригинал</Description>
-		<Price>5600</Price>
+		<Description>iPhone 5S 16Gb как новый с TouchID imei 358826052267073 бу оригинал</Description>
+		<Price>6750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_49_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_49.jpg"/>
@@ -7088,8 +6836,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый с TouchID imei 353267077328555 бу оригинал</Description>
-		<Price>12500</Price>
+		<Description>iPhone 6S 16Gb как новый без TouchID imei 353267077328555 бу оригинал</Description>
+		<Price>10750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_62_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_62.jpg"/>
@@ -7106,8 +6854,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый с TouchID imei 013983001872482 бу оригинал</Description>
-		<Price>6750</Price>
+		<Description>iPhone 5S 16Gb как новый без TouchID imei 013983001872482 бу оригинал</Description>
+		<Price>5600</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_50_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_50.jpg"/>
@@ -7124,8 +6872,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6 Plus 64Gb</Title>
-		<Description>iPhone 6 Plus 64Gb как новый с TouchID imei 354451063261959 бу оригинал</Description>
-		<Price>14800</Price>
+		<Description>iPhone 6 Plus 64Gb как новый без TouchID imei 354451063261959 бу оригинал</Description>
+		<Price>12500</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206%20Plus/Cj8ICB_18_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206%20Plus/add0_18.jpg"/>
@@ -7286,8 +7034,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый без TouchID imei 358757053851443 бу оригинал</Description>
-		<Price>5600</Price>
+		<Description>iPhone 5S 16Gb как новый с TouchID imei 358757053851443 бу оригинал</Description>
+		<Price>6750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_52_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_52.jpg"/>
@@ -7340,8 +7088,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S</Title>
-		<Description>iPhone 5S как новый без TouchID imei 358767052355833 бу оригинал</Description>
-		<Price>5600</Price>
+		<Description>iPhone 5S как новый с TouchID imei 358767052355833 бу оригинал</Description>
+		<Price>6750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_53_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_53.jpg"/>
@@ -7412,8 +7160,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6 Plus</Title>
-		<Description>iPhone 6 Plus как новый без TouchID imei 354451068016762 бу оригинал</Description>
-		<Price>10750</Price>
+		<Description>iPhone 6 Plus как новый с TouchID imei 354451068016762 бу оригинал</Description>
+		<Price>13050</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206%20Plus/Cj8ICB_19_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206%20Plus/add0_19.jpg"/>
@@ -7629,8 +7377,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6</Title>
-		<Description>iPhone 6 как новый без TouchID imei 359301065705625 бу оригинал</Description>
-		<Price>7900</Price>
+		<Description>iPhone 6 как новый с TouchID imei 359301065705625 бу оригинал</Description>
+		<Price>10200</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_50_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_50.jpg"/>
@@ -7683,8 +7431,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S</Title>
-		<Description>iPhone 6S как новый без TouchID imei 355767073792363 бу оригинал</Description>
-		<Price>10750</Price>
+		<Description>iPhone 6S как новый с TouchID imei 355767073792363 бу оригинал</Description>
+		<Price>12500</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_65_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_65.jpg"/>
@@ -7971,8 +7719,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый без TouchID imei 355694079339496 бу оригинал</Description>
-		<Price>10750</Price>
+		<Description>iPhone 6S 16Gb как новый с TouchID imei 355694079339496 бу оригинал</Description>
+		<Price>12500</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_66_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_66.jpg"/>
@@ -8117,8 +7865,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый с TouchID imei 013984003356656 бу оригинал</Description>
-		<Price>6750</Price>
+		<Description>iPhone 5S 16Gb как новый без TouchID imei 013984003356656 бу оригинал</Description>
+		<Price>5600</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_54_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_54.jpg"/>
@@ -8298,8 +8046,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый с TouchID imei 353341070305025 бу оригинал</Description>
-		<Price>12500</Price>
+		<Description>iPhone 6S 16Gb как новый без TouchID imei 353341070305025 бу оригинал</Description>
+		<Price>10750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_69_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_69.jpg"/>
@@ -8388,8 +8136,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S Plus 64Gb</Title>
-		<Description>iPhone 6S Plus 64Gb как новый без TouchID imei 355737071711665 бу оригинал</Description>
-		<Price>15350</Price>
+		<Description>iPhone 6S Plus 64Gb как новый с TouchID imei 355737071711665 бу оригинал</Description>
+		<Price>17650</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S%20Plus/Cj8ICB_30_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S%20Plus/add0_30.jpg"/>
@@ -8442,8 +8190,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый без TouchID imei 013846005460937 бу оригинал</Description>
-		<Price>5600</Price>
+		<Description>iPhone 5S 16Gb как новый с TouchID imei 013846005460937 бу оригинал</Description>
+		<Price>6750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_56_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_56.jpg"/>
@@ -8514,8 +8262,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый без TouchID imei 353800083603379 бу оригинал</Description>
-		<Price>10750</Price>
+		<Description>iPhone 6S 16Gb как новый с TouchID imei 353800083603379 бу оригинал</Description>
+		<Price>12500</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_73_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_73.jpg"/>
@@ -8586,8 +8334,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый с TouchID imei 013990002948096 бу оригинал</Description>
-		<Price>6750</Price>
+		<Description>iPhone 5S 16Gb как новый без TouchID imei 013990002948096 бу оригинал</Description>
+		<Price>5600</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_57_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_57.jpg"/>
@@ -8622,8 +8370,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый с TouchID imei 353314072862707 бу оригинал</Description>
-		<Price>12500</Price>
+		<Description>iPhone 6S 16Gb как новый без TouchID imei 353314072862707 бу оригинал</Description>
+		<Price>10750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_76_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_76.jpg"/>
@@ -8911,8 +8659,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый без TouchID imei 353268072647452 бу оригинал</Description>
-		<Price>10750</Price>
+		<Description>iPhone 6S 16Gb как новый с TouchID imei 353268072647452 бу оригинал</Description>
+		<Price>12500</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_80_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_80.jpg"/>
@@ -9200,8 +8948,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый с TouchID imei 353260070241297 бу оригинал</Description>
-		<Price>12500</Price>
+		<Description>iPhone 6S 16Gb как новый без TouchID imei 353260070241297 бу оригинал</Description>
+		<Price>10750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_83_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_83.jpg"/>
@@ -9218,8 +8966,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый без TouchID imei 013973002105149 бу оригинал</Description>
-		<Price>5600</Price>
+		<Description>iPhone 5S 16Gb как новый с TouchID imei 013973002105149 бу оригинал</Description>
+		<Price>6750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_60_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_60.jpg"/>
@@ -9488,8 +9236,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый без TouchID imei 358564078584102 бу оригинал</Description>
-		<Price>10750</Price>
+		<Description>iPhone 6S 16Gb как новый с TouchID imei 358564078584102 бу оригинал</Description>
+		<Price>12500</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_86_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_86.jpg"/>
@@ -10082,8 +9830,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6 64Gb</Title>
-		<Description>iPhone 6 64Gb как новый без TouchID imei 359232063729012 бу оригинал</Description>
-		<Price>9050</Price>
+		<Description>iPhone 6 64Gb как новый с TouchID imei 359232063729012 бу оригинал</Description>
+		<Price>11350</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_62_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_62.jpg"/>
@@ -10172,8 +9920,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый с TouchID imei 353316076661753 бу оригинал</Description>
-		<Price>12500</Price>
+		<Description>iPhone 6S 16Gb как новый без TouchID imei 353316076661753 бу оригинал</Description>
+		<Price>10750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_92_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_92.jpg"/>
@@ -10190,8 +9938,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый с TouchID imei 358027058181562 бу оригинал</Description>
-		<Price>6750</Price>
+		<Description>iPhone 5S 16Gb как новый без TouchID imei 358027058181562 бу оригинал</Description>
+		<Price>5600</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_62_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_62.jpg"/>
@@ -10658,8 +10406,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый без TouchID imei 352005062111722 бу оригинал</Description>
-		<Price>5600</Price>
+		<Description>iPhone 5S 16Gb как новый с TouchID imei 352005062111722 бу оригинал</Description>
+		<Price>6750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_65_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_65.jpg"/>
@@ -10892,8 +10640,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый без TouchID imei 353260076658445 бу оригинал</Description>
-		<Price>10750</Price>
+		<Description>iPhone 6S 16Gb как новый с TouchID imei 353260076658445 бу оригинал</Description>
+		<Price>12500</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_98_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_98.jpg"/>
@@ -11126,8 +10874,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый с TouchID imei 352000068093446 бу оригинал</Description>
-		<Price>6750</Price>
+		<Description>iPhone 5S 16Gb как новый без TouchID imei 352000068093446 бу оригинал</Description>
+		<Price>5600</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_68_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_68.jpg"/>
@@ -11432,8 +11180,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6 Plus 64Gb</Title>
-		<Description>iPhone 6 Plus 64Gb как новый без TouchID imei 1212161300 бу оригинал</Description>
-		<Price>12500</Price>
+		<Description>iPhone 6 Plus 64Gb как новый с TouchID imei 1212161300 бу оригинал</Description>
+		<Price>14800</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206%20Plus/Cj8ICB_23_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206%20Plus/add0_23.jpg"/>
@@ -11828,8 +11576,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый без TouchID imei 358536056260582 бу оригинал</Description>
-		<Price>5600</Price>
+		<Description>iPhone 5S 16Gb как новый с TouchID imei 358536056260582 бу оригинал</Description>
+		<Price>6750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_74_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_74.jpg"/>
@@ -12026,8 +11774,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый с TouchID imei 358537053492996 бу оригинал</Description>
-		<Price>6750</Price>
+		<Description>iPhone 5S 16Gb как новый без TouchID imei 358537053492996 бу оригинал</Description>
+		<Price>5600</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_76_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_76.jpg"/>
@@ -12098,8 +11846,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый с TouchID imei 355766076988630 бу оригинал</Description>
-		<Price>12500</Price>
+		<Description>iPhone 6S 16Gb как новый без TouchID imei 355766076988630 бу оригинал</Description>
+		<Price>10750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_101_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_101.jpg"/>
@@ -12404,8 +12152,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 6S 16Gb</Title>
-		<Description>iPhone 6S 16Gb как новый без TouchID imei 353341073038458 бу оригинал</Description>
-		<Price>10750</Price>
+		<Description>iPhone 6S 16Gb как новый с TouchID imei 353341073038458 бу оригинал</Description>
+		<Price>12500</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_105_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_105.jpg"/>
@@ -12476,8 +12224,8 @@
 		<Category>Телефоны</Category>
 		<GoodsType>iPhone</GoodsType>
 		<Title>iPhone 5S 16Gb</Title>
-		<Description>iPhone 5S 16Gb как новый без TouchID imei 358559050490666 бу оригинал</Description>
-		<Price>5600</Price>
+		<Description>iPhone 5S 16Gb как новый с TouchID imei 358559050490666 бу оригинал</Description>
+		<Price>6750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_80_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_80.jpg"/>
