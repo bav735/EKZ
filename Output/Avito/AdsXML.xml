@@ -8488,7 +8488,7 @@
 	</Ad>
 	<Ad>
 		<Id>ehhCWM</Id>
-		<DateEnd>2019-04-15T13:38:44+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -12589,6 +12589,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%204S/Cj8ICB_25_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%204S/add0_25.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>R9sGkv</Id>
+		<DateEnd>2019-04-24T19:51:28+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone SE</Title>
+		<Description>iPhone SE как новый imei 355442078231003 бу оригинал</Description>
+		<Price>9600</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%20SE/Cj8ICB_37_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%20SE/add0_37.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
