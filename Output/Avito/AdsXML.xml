@@ -6809,7 +6809,7 @@
 	</Ad>
 	<Ad>
 		<Id>TqERgH</Id>
-		<DateEnd>2019-04-14T01:59:33+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -13381,6 +13381,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_84_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_84.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>3xqHY9</Id>
+		<DateEnd>2019-04-25T19:41:40+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 4S</Title>
+		<Description>iPhone 4S бу как новый imei 012846005492501 см фото😉</Description>
+		<Price>2700</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%204S/Cj8ICB_26_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%204S/add0_26.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
