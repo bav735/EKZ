@@ -11945,7 +11945,7 @@
 	</Ad>
 	<Ad>
 		<Id>kYMuEZ</Id>
-		<DateEnd>2019-04-23T14:31:04+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -13345,6 +13345,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_113_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_113.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>FvgCsk</Id>
+		<DateEnd>2019-04-25T18:18:08+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7</Title>
+		<Description>iPhone 7 бу как новый imei 356554088128190 см фото😉</Description>
+		<Price>16250</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_82_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/add0_82.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
