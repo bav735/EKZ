@@ -10487,7 +10487,7 @@
 	</Ad>
 	<Ad>
 		<Id>2R445n</Id>
-		<DateEnd>2019-04-20T14:31:09+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -13741,6 +13741,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207%20Plus/Cj8ICB_48_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207%20Plus/add0_48.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>XS51An</Id>
+		<DateEnd>2019-04-26T15:13:39+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6 Plus</Title>
+		<Description>iPhone 6 Plus с TouchID б/у | новый imei 354387064691895 см фото😉</Description>
+		<Price>13050</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206%20Plus/Cj8ICB_29_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206%20Plus/add0_29.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
