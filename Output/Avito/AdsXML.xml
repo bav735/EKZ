@@ -12207,7 +12207,7 @@
 	</Ad>
 	<Ad>
 		<Id>wcUmVz</Id>
-		<DateEnd>2019-04-24T00:28:13+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -14057,6 +14057,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20S6/Cj8ICB_8_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20S6/add0_8.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>epUzL3</Id>
+		<DateEnd>2019-04-27T06:44:50+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5S 16Gb</Title>
+		<Description>iPhone 5S 16Gb с TouchID б/у | новый imei 352007064586182 см фото😉</Description>
+		<Price>6750</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_92_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_92.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
