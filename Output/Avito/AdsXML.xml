@@ -3623,7 +3623,7 @@
 	</Ad>
 	<Ad>
 		<Id>7I3h2c</Id>
-		<DateEnd>2019-04-06T04:35:01+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -14919,6 +14919,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205/Cj8ICB_38_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205/add0_38.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>FEYxo0</Id>
+		<DateEnd>2019-04-28T19:25:31+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S7</Title>
+		<Description>Samsung Galaxy S7 б/у | новый imei 359118088870362 см фото</Description>
+		<Price>11550</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20S7/Cj8ICB_11_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20S7/add0_11.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
