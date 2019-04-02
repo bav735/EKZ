@@ -4956,7 +4956,7 @@
 	</Ad>
 	<Ad>
 		<Id>Qn13GK</Id>
-		<DateEnd>2019-04-09T18:25:43+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -15601,6 +15601,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%20SE/Cj8ICB_47_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%20SE/add0_47.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>E4HtYk</Id>
+		<DateEnd>2019-05-02T16:07:44+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5S 32Gb</Title>
+		<Description>iPhone 5S 32Gb б/у | новый imei 013849005299537 см фото</Description>
+		<Price>7350</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_102_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_102.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
