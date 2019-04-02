@@ -15513,4 +15513,22 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_101.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>gfV179</Id>
+		<DateEnd>2019-05-02T14:27:59+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S9</Title>
+		<Description>Samsung Galaxy S9 б/у | новый imei 352712098361730 см фото</Description>
+		<Price>31200</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20S9/Cj8ICB_6_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20S9/add0_6.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
