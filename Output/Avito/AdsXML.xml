@@ -12905,7 +12905,7 @@
 	</Ad>
 	<Ad>
 		<Id>G4s2uY</Id>
-		<DateEnd>2019-04-25T10:04:43+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -15709,6 +15709,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Mi%208%20Lite/Cj8ICB_3_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Mi%208%20Lite/add0_3.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>CRnzcs</Id>
+		<DateEnd>2019-05-02T18:16:35+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5</Title>
+		<Description>iPhone 5 б/у | новый imei 013972006400902 см фото</Description>
+		<Price>4300</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205/Cj8ICB_41_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205/add0_41.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
