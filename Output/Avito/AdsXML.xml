@@ -15981,4 +15981,22 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_114.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>iYwM2l</Id>
+		<DateEnd>2019-05-03T02:48:17+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S3</Title>
+		<Description>Samsung Galaxy S3 б/у | новый imei 354826059458315 см фото</Description>
+		<Price>4300</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20S3/Cj8ICB_4_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20S3/add0_4.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
