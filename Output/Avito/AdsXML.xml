@@ -15819,4 +15819,22 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/add0_97.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>ppeSDv</Id>
+		<DateEnd>2019-05-02T19:16:35+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi Note 3</Title>
+		<Description>Xiaomi Redmi Note 3 б/у | новый imei 868029022860167 см фото</Description>
+		<Price>5800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%20Note%203/Cj8ICB_10_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%20Note%203/add0_10.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
