@@ -15621,4 +15621,22 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_102.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>F6Wt3w</Id>
+		<DateEnd>2019-05-02T16:26:35+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi 4 Pro</Title>
+		<Description>Xiaomi Redmi 4 Pro б/у | новый imei 863285034163272 см фото</Description>
+		<Price>8000</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%204%20Pro/Cj8ICB_5_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%204%20Pro/add0_5.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
