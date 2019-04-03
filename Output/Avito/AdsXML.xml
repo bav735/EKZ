@@ -1962,7 +1962,7 @@
 	</Ad>
 	<Ad>
 		<Id>QDDf2r</Id>
-		<DateEnd>2019-04-01T19:40:11+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16357,6 +16357,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%20Note%205/Cj8ICB_6_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%20Note%205/add0_6.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>mWgHJ9</Id>
+		<DateEnd>2019-05-03T15:25:26+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi Note 4</Title>
+		<Description>Xiaomi Redmi Note 4 б/у идеал imei 866037031385474 см фото</Description>
+		<Price>5900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%20Note%204/Cj8ICB_16_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%20Note%204/add0_16.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
