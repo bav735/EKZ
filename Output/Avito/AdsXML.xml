@@ -13085,7 +13085,7 @@
 	</Ad>
 	<Ad>
 		<Id>TLlLg7</Id>
-		<DateEnd>2019-04-25T14:48:07+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16321,6 +16321,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%20Note%205/Cj8ICB_5_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%20Note%205/add0_5.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>oAUSLj</Id>
+		<DateEnd>2019-05-03T15:05:25+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7 Plus</Title>
+		<Description>iPhone 7 Plus б/у идеал imei 355375089428384 см фото</Description>
+		<Price>22600</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207%20Plus/Cj8ICB_54_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207%20Plus/add0_54.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
