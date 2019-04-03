@@ -14723,7 +14723,7 @@
 	</Ad>
 	<Ad>
 		<Id>xa29xU</Id>
-		<DateEnd>2019-04-28T16:33:34+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16177,6 +16177,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_126_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_126.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>imessR</Id>
+		<DateEnd>2019-05-03T12:48:20+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6</Title>
+		<Description>iPhone 6 без TouchID б/у | новый imei 359238061576461 см фото</Description>
+		<Price>7700</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_116_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_116.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
