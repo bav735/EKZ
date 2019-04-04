@@ -16917,4 +16917,22 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%208/add0_44.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>fTPoLI</Id>
+		<DateEnd>2019-05-04T13:46:38+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi Note 5 32Gb</Title>
+		<Description>Xiaomi Redmi Note 5 32Gb б/у идеал imei 867195034878298 см фото</Description>
+		<Price>11100</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%20Note%205/Cj8ICB_7_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%20Note%205/add0_7.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
