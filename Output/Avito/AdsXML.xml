@@ -881,7 +881,7 @@
 	</Ad>
 	<Ad>
 		<Id>PsmsCn</Id>
-		<DateEnd>2019-03-27T16:50:06+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16969,6 +16969,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207%20Plus/Cj8ICB_55_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207%20Plus/add0_55.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>2LrhLl</Id>
+		<DateEnd>2019-05-04T15:24:53+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 4S 16Gb</Title>
+		<Description>iPhone 4S 16Gb б/у идеал imei 990001083067421 см фото</Description>
+		<Price>2650</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%204S/Cj8ICB_31_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%204S/add0_31.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
