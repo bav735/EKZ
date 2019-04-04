@@ -17025,4 +17025,22 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%208/add0_45.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>JoZtSp</Id>
+		<DateEnd>2019-05-04T15:37:11+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Mi 8</Title>
+		<Description>Xiaomi Mi 8 б/у идеал imei 860758046494391 см фото</Description>
+		<Price>23800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Mi%208/Cj8ICB_3_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Mi%208/add0_3.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
