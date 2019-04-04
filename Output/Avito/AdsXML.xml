@@ -17097,4 +17097,22 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%208%20Plus/add0_23.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>25AEBS</Id>
+		<DateEnd>2019-05-04T22:00:43+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy A5 2016</Title>
+		<Description>Samsung Galaxy A5 2016 б/у идеал imei 358804071550209 см фото</Description>
+		<Price>9900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20A5%202016/Cj8ICB_5_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20A5%202016/add0_5.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
