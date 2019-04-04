@@ -16719,4 +16719,22 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20A5%202017/add0_3.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>nsFuY8</Id>
+		<DateEnd>2019-05-04T11:04:53+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi 5A</Title>
+		<Description>Xiaomi Redmi 5A б/у идеал imei 869269022855069 см фото</Description>
+		<Price>6200</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%205A/Cj8ICB_9_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%205A/add0_9.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
