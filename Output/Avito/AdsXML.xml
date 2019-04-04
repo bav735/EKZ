@@ -15119,7 +15119,7 @@
 	</Ad>
 	<Ad>
 		<Id>zbkmv6</Id>
-		<DateEnd>2019-04-29T01:44:09+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16735,6 +16735,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%205A/Cj8ICB_9_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%205A/add0_9.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>DqbpCN</Id>
+		<DateEnd>2019-05-04T12:04:53+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5S</Title>
+		<Description>iPhone 5S без TouchID б/у идеал imei 358767056420369 см фото</Description>
+		<Price>5450</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_109_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_109.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
