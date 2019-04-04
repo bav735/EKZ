@@ -16611,4 +16611,22 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_120.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>lO8RSb</Id>
+		<DateEnd>2019-05-04T07:55:25+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S6 Edge</Title>
+		<Description>Samsung Galaxy S6 Edge б/у идеал imei 359715068796127 см фото</Description>
+		<Price>11250</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20S6%20Edge/Cj8ICB_7_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20S6%20Edge/add0_7.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
