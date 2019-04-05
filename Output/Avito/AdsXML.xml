@@ -12671,7 +12671,7 @@
 	</Ad>
 	<Ad>
 		<Id>WSfkbD</Id>
-		<DateEnd>2019-04-24T22:00:20+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -17329,6 +17329,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_104_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/add0_104.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>DRUfrS</Id>
+		<DateEnd>2019-05-05T12:55:57+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 8 64Gb</Title>
+		<Description>iPhone 8 64Gb б/у идеал imei 356763086517151 см фото</Description>
+		<Price>26150</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%208/Cj8ICB_47_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%208/add0_47.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
