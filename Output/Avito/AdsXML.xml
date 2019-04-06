@@ -12756,7 +12756,7 @@
 	</Ad>
 	<Ad>
 		<Id>lP687w</Id>
-		<DateEnd>2019-05-03T13:27:07+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -15873,6 +15873,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205/Cj8ICB_49_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205/add0_49.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>NcT4xH</Id>
+		<DateEnd>2019-05-06T11:17:49+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7</Title>
+		<Description>iPhone 7 б/у оригинал imei 356554084081724</Description>
+		<Price>19000</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_110_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/add0_110.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
