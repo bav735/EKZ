@@ -12234,7 +12234,7 @@
 	</Ad>
 	<Ad>
 		<Id>qcTjd5</Id>
-		<DateEnd>2019-05-02T17:47:13+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16017,6 +16017,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_111_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/add0_111.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>Int1Yx</Id>
+		<DateEnd>2019-05-06T15:41:22+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5S 16Gb</Title>
+		<Description><![CDATA[<p>iPhone 5S 16Gb с TouchID</p><p>Дорогой клиент, вас встречает сеть магазинов и сервисных центров AMOLED!<br><p>Рекомендуем вам:<br>- славный ПОДАРОК, кейс и бронь<br>- покупка через Р/С компаний и по электронной КАРТЕ<br>- надежная ГАРАНТИЯ до 1 ГОДА по РФ<br>- поспешная ДОСТАВКА<br>- дешевые КРЕДИТ и РАССРОЧКА от банков<br>- работа по системе ДРОПШИППИНГ и ОПТ</p><p>Реализуем мобильные телефоны уже в течение пяти лет!<br>Мы неизменно идем навстречу нашим клиентам и дорожим своей репутацией!</p><p>- телефон в данном объявлении б/у как новый, каждая функция совершенно протестирована<br>- к аппарату: коробка, кабель usb, наушники, з/у<br>- ваша оплата только после  проверки устройства</p><p>Пишите в Instagram или сообществе ВК круглосуточно,<br>Можете позвонить 9:00-21:00 каждый день.</p><p>imei 358535057110713</p>]]></Description>
+		<Price>7000</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_119_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_119.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
