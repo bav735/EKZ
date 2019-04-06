@@ -12648,7 +12648,7 @@
 	</Ad>
 	<Ad>
 		<Id>S78DZd</Id>
-		<DateEnd>2019-05-03T08:07:42+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16197,6 +16197,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_120_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_120.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>gSvisQ</Id>
+		<DateEnd>2019-05-06T19:51:19+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5</Title>
+		<Description><![CDATA[<p>iPhone 5</p><p>Вас встречает сеть магазинов и сервисных центров AMOLED!<br><p>Располагаем вам:<br>- поспешная ДОСТАВКА<br>- честная ГАРАНТИЯ до 1 ГОДА по РФ<br>- доступные РАССРОЧКА и КРЕДИТ от банков<br>- великолепный ПОДАРОК, защитные бронь-стекло и кейс<br>- сотрудничество по модели ОПТ и ДРОПШИППИНГ<br>- оплата по банковской КАРТЕ и через Р/С фирм</p><p>Всегда идем навстречу нашим клиентам!<br>Реализуем смартфоны свыше 5 лет!</p><p>- расчет совершается после  полной проверки мобильного телефона<br>- аксессуары: коробка, инструкции, аудио-гарнитура, кабель usb, з/у<br>- аппарат в текущем объявлении б/у как новый, работа исправна</p><p>Пишите в Инстаграм или сообществе Вконтакте в любое время,<br>Можете позвонить с 9 до 21 часов каждый день.</p><p>imei 013633005706653</p>]]></Description>
+		<Price>5100</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205/Cj8ICB_51_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205/add0_51.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
