@@ -13026,7 +13026,7 @@
 	</Ad>
 	<Ad>
 		<Id>UplvS2</Id>
-		<DateEnd>2019-05-03T17:44:53+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16107,6 +16107,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_140_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_140.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>X0FkqT</Id>
+		<DateEnd>2019-05-06T16:20:47+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6</Title>
+		<Description><![CDATA[<p>iPhone 6 с TouchID</p><p>Уважаемый клиент, вас встречает сеть магазинов и сервисных центров AMOLED!<br><p>Рекомендуем:<br>- великолепный ПРЕЗЕНТ, кейс и бронь<br>- великолепная ГАРАНТИЯ до 1 ГОДА по РФ<br>- покупка по электронной КАРТЕ и через Р/С компаний<br>- честные КРЕДИТ и РАССРОЧКА от банков<br>- срочная ДОСТАВКА<br>- работа по системе ДРОПШИППИНГ и ОПТ</p><p>Мы неизменно оказываем сотрудничество всем нашим покупателям!<br>На рынке смартфонов уже свыше пяти лет!</p><p>- ваша оплата после  подробной проверки сотового телефона<br>- гаджет в этом объявлении б/у как новый, функциональность совершенно исправна<br>- комплектация полная: коробка, кабель, блок зарядки, наушники</p><p>Прием звонков с 9.00 до 21.00 в любой день,<br>Пишите в Instagram или сообществе ВК в любое время.</p><p>imei 359312062623216</p>]]></Description>
+		<Price>10200</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_132_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_132.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
