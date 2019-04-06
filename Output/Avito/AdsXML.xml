@@ -13314,7 +13314,7 @@
 	</Ad>
 	<Ad>
 		<Id>zjBTpg</Id>
-		<DateEnd>2019-05-04T12:16+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16233,6 +16233,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%20Note%204/Cj8ICB_19_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%20Note%204/add0_19.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>IMywaN</Id>
+		<DateEnd>2019-05-06T20:02:32+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7</Title>
+		<Description><![CDATA[<p>iPhone 7</p><p>Драгоценный клиент, вас приветствует сеть магазинов и сервисных центров AMOLED!<br><p>Представляем вам:<br>- славный БОНУС, бронь-стекло и накладка<br>- дешевые РАССРОЧКА и КРЕДИТ от банков<br>- немедленная ДОСТАВКА<br>- расчет по любой КАРТЕ и через Р/С юрлиц<br>- сотрудничество по схеме ДРОПШИППИНГ и ОПТ<br>- замечательная ГАРАНТИЯ до 1 ГОДА по РФ</p><p>Всегда помогаем всем покупателям и дорожим репутацией!<br>Продаем телефоны свыше 5 лет!</p><p>- аппарат на данной странице б/у как новый, работа совершенно без проблем<br>- ваша оплата после  проверки и тестирования устройства<br>- комплект: кабель юсб, наушники, коробка, з/у</p><p>Пишите в Инстаграм или группе Вконтакте круглосуточно,<br>Можно позвонить с 9.00 до 21.00 в любой день.</p><p>imei 355309085361612</p>]]></Description>
+		<Price>19000</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_113_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/add0_113.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
