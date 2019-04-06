@@ -13188,7 +13188,7 @@
 	</Ad>
 	<Ad>
 		<Id>OKOtBI</Id>
-		<DateEnd>2019-05-04T09:14:53+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -15999,6 +15999,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_118_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_118.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>yV1LnV</Id>
+		<DateEnd>2019-05-06T15:31:25+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7</Title>
+		<Description><![CDATA[<p>iPhone 7</p><p>Драгоценный покупатель, вас приветствует сеть магазинов и сервисных центров AMOLED!<br><p>Рекомендуем вам:<br>- перечисление по кредитной КАРТЕ и через Р/С юрлиц<br>- быстрая ДОСТАВКА<br>- партнерство по системе ДРОПШИППИНГ и ОПТ<br>- настоящая ГАРАНТИЯ до 1 ГОДА по РФ<br>- удобные КРЕДИТ и РАССРОЧКА от банков-партнеров<br>- великолепный БОНУС, бронь и чехол</p><p>Продаем смартфоны уже свыше 5 лет!<br>Всегда оказываем поддержку клиентам!</p><p>- расчет после  проверки и осмотра товара<br>- аппарат в настоящем объявлении б/у как новый, функциональность полностью опробована<br>- аксессуары: кабель юсб, коробка, инструкции, зарядка, наушники</p><p>Звоните с 9.00 до 21.00 каждый день,<br>Можете оставить сообщение в Инстаграм или сообществе ВК круглосуточно.</p><p>imei 356556087794203</p>]]></Description>
+		<Price>16300</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_111_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/add0_111.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
