@@ -13422,7 +13422,7 @@
 	</Ad>
 	<Ad>
 		<Id>R5gzpQ</Id>
-		<DateEnd>2019-05-04T13:14:53+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16089,6 +16089,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_112_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/add0_112.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>QKDTCe</Id>
+		<DateEnd>2019-05-06T16:10:47+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6S</Title>
+		<Description><![CDATA[<p>iPhone 6S без TouchID</p><p>Вас встречает сеть магазинов и сервисных центров AMOLED!<br><p>Располагаем:<br>- надежная ГАРАНТИЯ до 1 ГОДА по РФ<br>- срочная ДОСТАВКА<br>- работа по схеме ДРОПШИППИНГ и ОПТ<br>- возможность купить по кредитной КАРТЕ и через Р/С юрлиц<br>- приятный ПРЕЗЕНТ, стекло и накладка<br>- доступные РАССРОЧКА и КРЕДИТ от банков-партнеров</p><p>Реализуем смартфоны в течение 5 лет!<br>Всегда идем навстречу нашим покупателям и дорожим репутацией!</p><p>- расчет исполняется после  проверки и тестирования товара<br>- весь комплект: аудио-гарнитура, коробка, инструкции, кабель, блок зарядки<br>- аппарат на этой странице б/у как новый, каждая функция опробована</p><p>Прием звонков с 9 до 21 часов ежедневно,<br>Можете написать в Инстаграм или сообществе Вконтакте круглосуточно.</p><p>imei 358564076957946</p>]]></Description>
+		<Price>10900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_140_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_140.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
