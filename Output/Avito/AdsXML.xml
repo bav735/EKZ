@@ -13908,7 +13908,7 @@
 	</Ad>
 	<Ad>
 		<Id>nrNwql</Id>
-		<DateEnd>2019-05-05T13:15:57+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16457,6 +16457,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20S7/Cj8ICB_14_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20S7/add0_14.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>WYyNh9</Id>
+		<DateEnd>2019-05-06T22:46:48+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5S</Title>
+		<Description><![CDATA[<p>iPhone 5S с TouchID</p><p>Уважаемый посетитель, вас приветствует сеть магазинов и сервисных центров AMOLED!<br><p>Представляем для вас:<br>- быстрая бесплатная ДОСТАВКА<br>- партнерство по схеме ДРОПШИППИНГ и ОПТ<br>- недорогие РАССРОЧКА и КРЕДИТ от банков<br>- полноценная ГАРАНТИЯ до 1 ГОДА по РФ<br>- милый ПОДАРОК, защитные бронь-стекло и кейс<br>- взаиморасчет через Р/С организаций и по кредитной КАРТЕ</p><p>Неизменно оказываем поддержку всем покупателям!<br>Продаем смартфоны более пяти лет!</p><p>- аппарат на настоящей странице б/у как новый, работоспособность совершенно исправна<br>- к телефону: кабель юсб, наушники, зу, коробка<br>- ваш расчет осуществляется только после  всесторонней проверки аппарата</p><p>Звоните с 9 до 21 часов каждый день,<br>Можно написать в паблике Вконтакте или Инстаграм в любое время.</p><p>imei 358813052974411</p>]]></Description>
+		<Price>7400</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_122_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_122.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
