@@ -12630,7 +12630,7 @@
 	</Ad>
 	<Ad>
 		<Id>mv7emV</Id>
-		<DateEnd>2019-05-03T08:07:07+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16053,6 +16053,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207%20Plus/Cj8ICB_60_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207%20Plus/add0_60.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>SDvCsF</Id>
+		<DateEnd>2019-05-06T16:01:21+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6 Plus</Title>
+		<Description><![CDATA[<p>iPhone 6 Plus с TouchID</p><p>Вас приветствует сеть магазинов и сервисных центров AMOLED!<br><p>Предоставляем вам:<br>- замечательная ДОСТАВКА<br>- славный БОНУС, чехол и бронь<br>- надежная ГАРАНТИЯ до 1 ГОДА по РФ<br>- удобные КРЕДИТ и РАССРОЧКА от банков-партнеров<br>- оплата по пластиковой КАРТЕ и через Р/С организаций<br>- партнерство по системе ОПТ и ДРОПШИППИНГ</p><p>Мы реализуем смартфоны уже свыше 5 лет!<br>Неизменно идем навстречу нашим покупателям!</p><p>- расчет после  всесторонней проверки аппарата<br>- к телефону: наушники, коробка, инструкции, кабель юсб, зарядка<br>- гаджет в текущем объявлении б/у как новый, работа протестирована</p><p>Пишите в группе VK или Instagram круглосуточно,<br>Прием звонков с 9 до 21 часов каждый день.</p><p>imei 352066066769832</p>]]></Description>
+		<Price>13300</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206%20Plus/Cj8ICB_39_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206%20Plus/add0_39.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
