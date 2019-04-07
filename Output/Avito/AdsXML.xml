@@ -13746,7 +13746,7 @@
 	</Ad>
 	<Ad>
 		<Id>1CMzmO</Id>
-		<DateEnd>2019-05-05T04:27:06+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16709,6 +16709,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%20Note%204/Cj8ICB_21_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%20Note%204/add0_21.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>ai0q57</Id>
+		<DateEnd>2019-05-07T21:39:07+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5</Title>
+		<Description><![CDATA[<p>iPhone 5</p><p>Дорогой клиент, вас встречает сеть магазинов и сервисных центров AMOLED!<br><p>Рекомендуем вам:<br>- честные КРЕДИТ и РАССРОЧКА от банков-партнеров<br>- взаиморасчет по любой КАРТЕ и через Р/С компаний<br>- партнерство по системе ДРОПШИППИНГ и ОПТ<br>- замечательный ПРЕЗЕНТ, противоударные чехол и бронь-стекло<br>- поспешная бесплатная ДОСТАВКА<br>- славная ГАРАНТИЯ до 1 ГОДА по РФ</p><p>Реализуем мобильные телефоны уже свыше пяти лет!<br>Неизменно идем навстречу всем нашим покупателям!</p><p>- аксессуары: коробка, инструкции, наушники, зу, кабель<br>- сотовый телефон на текущей странице б/у как новый, работоспособность совершенно проверена<br>- расчет исполняется после  проверки и тестирования смартфона</p><p>Пишите в Instagram или группе Вконтакте круглосуточно,<br>Прием звонков с 9.00 до 21.00 каждый день.</p><p>imei 013624000359119</p>]]></Description>
+		<Price>4700</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205/Cj8ICB_54_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205/add0_54.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
