@@ -13602,7 +13602,7 @@
 	</Ad>
 	<Ad>
 		<Id>AFyi72</Id>
-		<DateEnd>2019-05-04T16:13:34+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16637,6 +16637,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%20SE/Cj8ICB_60_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%20SE/add0_60.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>vpuNsr</Id>
+		<DateEnd>2019-05-07T17:14:42+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6 Plus</Title>
+		<Description><![CDATA[<p>iPhone 6 Plus с TouchID</p><p>Вас приветствует сеть магазинов и сервисных центров AMOLED!<br><p>Преподносим:<br>- возможность купить через Р/С юрлиц и по электронной КАРТЕ<br>- сотрудничество по модели ДРОПШИППИНГ и ОПТ<br>- неотложная бесплатная ДОСТАВКА<br>- замечательная ГАРАНТИЯ до 1 ГОДА по РФ<br>- хороший БОНУС, закаленные бронь и чехол<br>- выгодные КРЕДИТ и РАССРОЧКА от банков</p><p>Мы неизменно идем навстречу всем клиентам и дорожим своей репутацией!<br>Мы реализуем мобильные телефоны уже более пяти лет!</p><p>- гаджет на настоящей странице б/у как новый, работа абсолютно без ошибок<br>- комплектация: кабель usb, зу, наушники, коробка, инструкции<br>- оплата осуществляется только после  всесторонней проверки устройства</p><p>Можете оставить сообщение в сообществе ВК или Инстаграм круглосуточно,<br>Можете позвонить 9:00-21:00 без выходных.</p><p>imei 352039071761086</p>]]></Description>
+		<Price>12900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206%20Plus/Cj8ICB_41_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206%20Plus/add0_41.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
