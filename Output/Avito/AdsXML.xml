@@ -11820,7 +11820,7 @@
 	</Ad>
 	<Ad>
 		<Id>mzaGHH</Id>
-		<DateEnd>2019-04-29T12:45:09+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16529,6 +16529,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206%20Plus/Cj8ICB_40_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206%20Plus/add0_40.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>AKcJ4y</Id>
+		<DateEnd>2019-05-07T15:36:22+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone X</Title>
+		<Description><![CDATA[<p>iPhone X</p><p>Уважаемый посетитель, вас встречает сеть магазинов и сервисных центров AMOLED!<br><p>Представляем:<br>- дешевые КРЕДИТ и РАССРОЧКА от банков-партнеров<br>- милый ПРЕЗЕНТ, противоударные бронь-стекло и кейс<br>- немедленная бесплатная ДОСТАВКА<br>- оплата по любой КАРТЕ и через Р/С организаций<br>- настоящая ГАРАНТИЯ до 1 ГОДА по РФ<br>- работа по модели ОПТ и ДРОПШИППИНГ</p><p>Мы неизменно оказываем сотрудничество всем нашим клиентам!<br>Реализуем мобильные телефоны уже свыше 5 лет!</p><p>- аппарат в текущем объявлении б/у как новый, работа совершенно протестирована<br>- ваша оплата после  проверки устройства<br>- комплект: кабель, наушники, з/у, коробка</p><p>Прием звонков с 9 утра до 9 вечера каждый день,<br>Можно написать в Инстаграм или группе ВК круглосуточно.</p><p>imei 353057096479079</p>]]></Description>
+		<Price>43800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%20X/Cj8ICB_30_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%20X/add0_30.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
