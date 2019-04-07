@@ -9516,7 +9516,7 @@
 	</Ad>
 	<Ad>
 		<Id>ygCSbT</Id>
-		<DateEnd>2019-04-25T13:19:39+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16727,6 +16727,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205/Cj8ICB_54_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205/add0_54.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>XSjyN3</Id>
+		<DateEnd>2019-05-07T22:39:07+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 8 Plus</Title>
+		<Description><![CDATA[<p>iPhone 8 Plus</p><p>Вас встречает сеть магазинов и сервисных центров AMOLED!<br><p>Располагаем для вас:<br>- замечательная ГАРАНТИЯ до 1 ГОДА по РФ<br>- скорейшая бесплатная ДОСТАВКА<br>- возможность оплатить по банковской КАРТЕ и через Р/С компаний<br>- работа по модели ОПТ и ДРОПШИППИНГ<br>- славный ПРЕЗЕНТ, закаленные бронь-стекло и чехол<br>- недорогие КРЕДИТ и РАССРОЧКА от банков-партнеров</p><p>На рынке смартфонов уже более пяти лет!<br>Всегда идем навстречу нашим клиентам и дорожим своей репутацией!</p><p>- сотовый телефон на этой странице б/у как новый, каждая функция полностью исправна<br>- ваша оплата производится после  строгой проверки и тестирования гаджета<br>- к устройству: аудио-гарнитура, кабель, зарядка, коробка, инструкции</p><p>Прием звонков с 9.00 до 21.00 без выходных,<br>Можете оставить сообщение в сообществе Вконтакте или Инстаграм в любое время.</p><p>imei 356768085079830</p>]]></Description>
+		<Price>35800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%208%20Plus/Cj8ICB_27_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%208%20Plus/add0_27.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
