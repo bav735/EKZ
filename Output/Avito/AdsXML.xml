@@ -9480,7 +9480,7 @@
 	</Ad>
 	<Ad>
 		<Id>OsfD2I</Id>
-		<DateEnd>2019-04-25T10:14:46+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16673,6 +16673,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%204A/Cj8ICB_9_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%204A/add0_9.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>RA4Aic</Id>
+		<DateEnd>2019-05-07T17:54:41+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi Note 4</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi Note 4</p><p>Драгоценный посетитель, вас приветствует сеть магазинов и сервисных центров AMOLED!<br><p>Рекомендуем:<br>- честные РАССРОЧКА и КРЕДИТ от банков<br>- расчет через Р/С фирм и по электронной КАРТЕ<br>- бесплатный БОНУС, бронь-стекло и кейс<br>- немедленная бесплатная ДОСТАВКА<br>- партнерство по схеме ДРОПШИППИНГ и ОПТ<br>- честная ГАРАНТИЯ до 1 ГОДА по РФ</p><p>Всегда идем навстречу всем покупателям и дорожим репутацией!<br>Продаем смартфоны уже в течение пяти лет!</p><p>- устройство на текущей странице б/у как новый (распечатывался для установки европейской прошивки), работоспособность абсолютно исправна<br>- ваша оплата после  проверки телефона<br>- к гаджету: коробка, инструкции, зарядка, кабель юсб, наушники</p><p>Можете позвонить с 9.00 до 21.00 в любой день,<br>Можно написать в Instagram или паблике ВК круглосуточно.</p><p>imei 866037033608816</p>]]></Description>
+		<Price>7100</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%20Note%204/Cj8ICB_20_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%20Note%204/add0_20.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
