@@ -13206,7 +13206,7 @@
 	</Ad>
 	<Ad>
 		<Id>Dm3KRA</Id>
-		<DateEnd>2019-05-04T10:05:27+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16547,6 +16547,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%20X/Cj8ICB_30_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%20X/add0_30.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>BUotKA</Id>
+		<DateEnd>2019-05-07T16:04:37+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5</Title>
+		<Description><![CDATA[<p>iPhone 5</p><p>Драгоценный посетитель, вас встречает сеть магазинов и сервисных центров AMOLED!<br><p>Рекомендуем:<br>- сотрудничество по системе ДРОПШИППИНГ и ОПТ<br>- доступные КРЕДИТ и РАССРОЧКА от банков-партнеров<br>- замечательный БОНУС, кейс и стекло<br>- честная ГАРАНТИЯ до 1 ГОДА по РФ<br>- оперативная бесплатная ДОСТАВКА<br>- взаиморасчет по пластиковой КАРТЕ и через Р/С компаний</p><p>Неизменно помогаем всем покупателям и дорожим репутацией!<br>В сфере продаж смартфонов уже более 5 лет!</p><p>- смартфон в этом объявлении б/у как новый, каждая функция совершенно исправна<br>- к телефону: наушники, блок зарядки, кабель usb, коробка<br>- расчет только после  всесторонней проверки и тестирования сотового телефона</p><p>Можно оставить сообщение в группе Вконтакте или Инстаграм круглосуточно,<br>Можете позвонить с 9 до 21 часов без выходных.</p><p>imei 990002815525629</p>]]></Description>
+		<Price>4700</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205/Cj8ICB_53_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205/add0_53.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
