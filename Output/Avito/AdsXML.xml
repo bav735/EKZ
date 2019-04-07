@@ -13674,7 +13674,7 @@
 	</Ad>
 	<Ad>
 		<Id>xid6kW</Id>
-		<DateEnd>2019-05-04T22:05:57+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16493,6 +16493,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_115_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/add0_115.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>ovvBIM</Id>
+		<DateEnd>2019-05-07T11:46:55+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6S</Title>
+		<Description><![CDATA[<p>iPhone 6S с TouchID</p><p>Вас встречает сеть магазинов и сервисных центров AMOLED!<br><p>Предоставляем для вас:<br>- партнерство по модели ДРОПШИППИНГ и ОПТ<br>- оплата через Р/С фирм и по электронной КАРТЕ<br>- дешевые РАССРОЧКА и КРЕДИТ от банков<br>- скорейшая бесплатная ДОСТАВКА<br>- бесплатный БОНУС, противоударные накладка и стекло<br>- славная ГАРАНТИЯ до 1 ГОДА по РФ</p><p>Реализуем смартфоны уже свыше пяти лет!<br>Мы неизменно идем навстречу нашим покупателям!</p><p>- ваш расчет производится только после  полноценной проверки и осмотра смартфона<br>- сотовый телефон на текущей странице б/у как новый, функциональность полностью без проблем<br>- аксессуары: коробка, инструкции, кабель, зарядка, наушники</p><p>Можете написать в Instagram или сообществе VK круглосуточно,<br>Звоните с 9 до 21 часов каждодневно.</p><p>imei 353316074207468</p>]]></Description>
+		<Price>13600</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_142_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_142.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
