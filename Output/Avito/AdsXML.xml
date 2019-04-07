@@ -10776,7 +10776,7 @@
 	</Ad>
 	<Ad>
 		<Id>MChgSV</Id>
-		<DateEnd>2019-04-27T20:21:43+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16601,6 +16601,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_143_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_143.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>uLI3un</Id>
+		<DateEnd>2019-05-07T16:26:23+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7 128Gb</Title>
+		<Description><![CDATA[<p>iPhone 7 128Gb</p><p>Дорогой посетитель, вас приветствует сеть магазинов и сервисных центров AMOLED!<br><p>Представляем вам:<br>- работа по системе ДРОПШИППИНГ и ОПТ<br>- дешевые РАССРОЧКА и КРЕДИТ от банков<br>- срочная бесплатная ДОСТАВКА<br>- хороший ПРЕЗЕНТ, кейс и бронь-стекло<br>- покупка через Р/С организаций и по кредитной КАРТЕ<br>- честная ГАРАНТИЯ до 1 ГОДА по РФ</p><p>На рынке смартфонов в течение 5 лет!<br>Неизменно идем навстречу клиентам и дорожим репутацией!</p><p>- ваша оплата только после  полноценной проверки товара<br>- весь комплект: блок зарядки, коробка, инструкции, наушники, кабель юсб<br>- гаджет на данной странице б/у как новый, работа полностью проверена</p><p>Можете позвонить с 9 утра до 9 вечера без выходных,<br>Можете оставить сообщение в сообществе VK или Instagram в любое время.</p><p>imei 353841086900354</p>]]></Description>
+		<Price>19900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_116_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/add0_116.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
