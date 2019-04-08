@@ -11028,7 +11028,7 @@
 	</Ad>
 	<Ad>
 		<Id>g31nKp</Id>
-		<DateEnd>2019-04-28T08:43:22+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -17131,6 +17131,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%208/Cj8ICB_53_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%208/add0_53.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>43kEFM</Id>
+		<DateEnd>2019-05-08T15:59:17+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 8 64Gb</Title>
+		<Description><![CDATA[<p>iPhone 8 64Gb</p><p>Вас встречает AMOLED,</p><p>Мы в мире смартфонов более пяти лет!<br>Неизменно оказываем сотрудничество всем покупателям!</p><p>- покупка производится по факту, все подробности на фото<br>- смартфон б/у как новый, распакован для внимательной проверки, полный комплект</p><p>Звоните 9:00-21:00 каждый день.</p><p>imei 356765085194312</p>]]></Description>
+		<Price>26900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%208/Cj8ICB_54_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%208/add0_54.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
