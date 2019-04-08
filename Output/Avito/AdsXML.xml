@@ -8256,7 +8256,7 @@
 	</Ad>
 	<Ad>
 		<Id>Tx6O97</Id>
-		<DateEnd>2019-04-22T21:22:40+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -17239,6 +17239,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_138_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_138.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>kIV27F</Id>
+		<DateEnd>2019-05-08T17:18:46+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6 32Gb</Title>
+		<Description><![CDATA[<p>iPhone 6 32Gb</p><p>Вас встречает AMOLED,</p><p>Мы реализуем гаджеты в течение пяти лет!<br>Неизменно идем навстречу покупателям!</p><p>- расчет совершается по факту, все детали на фото<br>- телефон б/у как новый, распечатан для обязательной проверки, полный комплект</p><p>Прием звонков 9:00-21:00 в любой день.</p><p>imei 356678086059147</p>]]></Description>
+		<Price>10700</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_139_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_139.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
