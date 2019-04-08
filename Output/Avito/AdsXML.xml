@@ -13062,7 +13062,7 @@
 	</Ad>
 	<Ad>
 		<Id>djrq9H</Id>
-		<DateEnd>2019-05-03T18:07:09+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -17365,6 +17365,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20S5/Cj8ICB_9_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20S5/add0_9.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>onTNQY</Id>
+		<DateEnd>2019-05-08T18:59:53+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5S 16Gb</Title>
+		<Description><![CDATA[<p>iPhone 5S 16Gb с TouchID</p><p>Вас приветствует AMOLED,</p><p>Мы реализуем телефоны более пяти лет!<br>Неизменно идем навстречу клиентам!</p><p>- оплата совершается по факту, все возможности в фотоленте<br>- гаджет б/у как новый, распакован для подробной проверки, комплектация полная</p><p>Можете позвонить 9:00-21:00 каждодневно.</p><p>imei 358824056708978</p>]]></Description>
+		<Price>6800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_127_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add0_127.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
