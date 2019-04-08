@@ -13872,7 +13872,7 @@
 	</Ad>
 	<Ad>
 		<Id>L0ccXt</Id>
-		<DateEnd>2019-05-05T12:35:57+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16763,6 +16763,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_144_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_144.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>kX4jS0</Id>
+		<DateEnd>2019-05-08T10:19:38+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7</Title>
+		<Description><![CDATA[<p>iPhone 7</p><p>Вас встречает сеть магазинов и сервисных центров AMOLED!<br><p>Представляем для вас:<br>- хороший ПОДАРОК, кейс и бронь-стекло<br>- полноценная ГАРАНТИЯ до 1 ГОДА по РФ<br>- доступные КРЕДИТ и РАССРОЧКА от банков<br>- работа по схеме ДРОПШИППИНГ и ОПТ<br>- оплата по любой КАРТЕ и через Р/С компаний<br>- неотложная бесплатная ДОСТАВКА</p><p>Мы всегда помогаем всем нашим клиентам!<br>В сфере продаж смартфонов уже свыше пяти лет!</p><p>- расчет после  обязательной проверки устройства<br>- комплектация полная: коробка, инструкции, блок зарядки, наушники, кабель usb<br>- гаджет в текущем объявлении б/у как новый, работоспособность совершенно опробована</p><p>Можно оставить сообщение в Instagram или паблике Вконтакте круглосуточно,<br>Звоните с 9 утра до 9 вечера ежедневно.</p><p>imei 359166074577392</p>]]></Description>
+		<Price>17100</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_117_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/add0_117.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
