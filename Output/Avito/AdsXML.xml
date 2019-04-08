@@ -5648,7 +5648,7 @@
 	</Ad>
 	<Ad>
 		<Id>b462ov</Id>
-		<DateEnd>2019-04-16T17:14:04+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -17095,6 +17095,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_137_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_137.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>4PY6qf</Id>
+		<DateEnd>2019-05-08T15:08:46+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6S Plus</Title>
+		<Description><![CDATA[<p>iPhone 6S Plus</p><p>Вас встречает AMOLED,</p><p>Мы реализуем смартфоны свыше пяти лет!<br>Неизменно идем навстречу всем покупателям!</p><p>- аппарат б/у как новый, распечатан для полноценной проверки, полный комплект<br>- расчет исполняется по факту, все условия в фотоленте</p><p>Прием звонков 9:00-21:00 в любой день.</p><p>imei 355736077793883</p>]]></Description>
+		<Price>15800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S%20Plus/Cj8ICB_41_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S%20Plus/add0_41.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
