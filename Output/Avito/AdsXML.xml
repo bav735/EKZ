@@ -15053,7 +15053,7 @@
 	</Ad>
 	<Ad>
 		<Id>at4pek</Id>
-		<DateEnd>2019-05-05T17:40:12+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16745,6 +16745,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%208%20Plus/Cj8ICB_27_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%208%20Plus/add0_27.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>fBl7kv</Id>
+		<DateEnd>2019-05-08T09:29:07+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6S</Title>
+		<Description><![CDATA[<p>iPhone 6S с TouchID</p><p>Уважаемый посетитель, вас встречает сеть магазинов и сервисных центров AMOLED!<br><p>Располагаем вам:<br>- замечательный ПОДАРОК, защитные чехол и бронь<br>- взаиморасчет через Р/С фирм и по любой КАРТЕ<br>- скорая бесплатная ДОСТАВКА<br>- замечательная ГАРАНТИЯ до 1 ГОДА по РФ<br>- работа по системе ДРОПШИППИНГ и ОПТ<br>- честные КРЕДИТ и РАССРОЧКА от банков-партнеров</p><p>Реализуем мобильные телефоны уже более 5 лет!<br>Мы всегда помогаем всем клиентам!</p><p>- комплектация: аудио-гарнитура, блок зарядки, кабель usb, коробка, инструкции<br>- ваша оплата после  обязательной проверки и осмотра смартфона<br>- сотовый телефон в текущем объявлении б/у как новый, работа полностью протестирована</p><p>Прием звонков с 9.00 до 21.00 без выходных,<br>Можно написать в Instagram или сообществе VK в любое время.</p><p>imei 355419076438939</p>]]></Description>
+		<Price>12400</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_144_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_144.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
