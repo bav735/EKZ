@@ -13116,7 +13116,7 @@
 	</Ad>
 	<Ad>
 		<Id>wvh3oz</Id>
-		<DateEnd>2019-05-04T07:07:13+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -17437,6 +17437,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206%20Plus/Cj8ICB_43_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206%20Plus/add0_43.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>JnMTo3</Id>
+		<DateEnd>2019-05-08T20:13:48+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 8</Title>
+		<Description><![CDATA[<p>iPhone 8<br>- внешне: новый, распечатан для всесторонней проверки, трейд-ин б/у, полный комплект, не топился</p><p>Вам салютует AMOLED,<br>Мы постоянно помогаем клиентам, продаем гаджеты свыше пяти лет!<br>Покупка исполняется по факту, все подробности в фотоленте!</p><p>imei 356763089611746</p>]]></Description>
+		<Price>26900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%208/Cj8ICB_55_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%208/add0_55.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
