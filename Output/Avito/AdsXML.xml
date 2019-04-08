@@ -15913,7 +15913,7 @@
 	</Ad>
 	<Ad>
 		<Id>RPShEy</Id>
-		<DateEnd>2019-05-06T12:07:49+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16871,6 +16871,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%20Note%203/Cj8ICB_12_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%20Note%203/add0_12.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>bbxbPt</Id>
+		<DateEnd>2019-05-08T13:39:19+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6S</Title>
+		<Description><![CDATA[<p>iPhone 6S без TouchID</p><p>Вас встречает AMOLED,</p><p>Мы на рынке смартфонов в течение пяти лет!<br>Всегда оказываем поддержку клиентам!</p><p>- товар б/у как новый, распечатан для полной проверки, весь комплект<br>- оплата совершается по факту, все возможности на фото</p><p>Звоните 9:00-21:00 в любой день.</p><p>imei 353272079905798</p>]]></Description>
+		<Price>10700</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_145_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_145.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
