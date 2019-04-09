@@ -14016,7 +14016,7 @@
 	</Ad>
 	<Ad>
 		<Id>Vg4w8e</Id>
-		<DateEnd>2019-05-05T14:25:23+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -17725,6 +17725,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20S7/Cj8ICB_15_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20S7/add0_15.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>pXpy3v</Id>
+		<DateEnd>2019-05-09T13:18:46+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7 Plus</Title>
+		<Description><![CDATA[<p>iPhone 7 Plus<br>- трейд-ин б/у, комплектация полная, смотрится: новый, не вскрывался, распакован для строгой проверки</p><p>Вам салютует AMOLED,<br>Мы постоянно помогаем покупателям, на рынке гаджетов в течение пяти лет!<br>Оплата совершается по факту, все подробности в фотоленте!</p><p>imei 355375089314667</p>]]></Description>
+		<Price>24100</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207%20Plus/Cj8ICB_64_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207%20Plus/add0_64.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
