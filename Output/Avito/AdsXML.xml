@@ -10902,7 +10902,7 @@
 	</Ad>
 	<Ad>
 		<Id>swTDoE</Id>
-		<DateEnd>2019-04-27T22:41:14+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -18085,6 +18085,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%203S/Cj8ICB_4_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%203S/add0_4.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>9eXKvB</Id>
+		<DateEnd>2019-05-10T01:18:11+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone SE 32Gb</Title>
+		<Description><![CDATA[<p>iPhone SE 32Gb<br>- трейд-ин б/у, распакован для всесторонней проверки, не ремонтировался, комплектация полная, по состоянию: новый</p><p>Вас приветствует AMOLED,<br>Мы всегда помогаем клиентам, реализуем телефоны в течение пяти лет!<br>Расчет осуществляется по факту, все условия в фотоленте!</p><p>imei 355800077345365</p>]]></Description>
+		<Price>11200</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%20SE/Cj8ICB_65_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%20SE/add0_65.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
