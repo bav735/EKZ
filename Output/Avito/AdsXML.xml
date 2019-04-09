@@ -11622,7 +11622,7 @@
 	</Ad>
 	<Ad>
 		<Id>Cspq0z</Id>
-		<DateEnd>2019-04-28T23:24:39+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -17581,6 +17581,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%204X/Cj8ICB_20_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%204X/add0_20.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>lJ72qD</Id>
+		<DateEnd>2019-05-09T10:48:42+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7 128Gb</Title>
+		<Description><![CDATA[<p>iPhone 7 128Gb<br>- трейд-ин б/у, внешне: новый, полный комплект, не вскрывался, распакован для обязательной проверки</p><p>Вас приветствует AMOLED,<br>Мы в нише телефонов свыше пяти лет, неизменно помогаем покупателям!<br>Оплата совершается по факту, все подробности на фото!</p><p>imei 356560082206544</p>]]></Description>
+		<Price>19900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_123_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/add0_123.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
