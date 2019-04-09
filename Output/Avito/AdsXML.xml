@@ -12216,7 +12216,7 @@
 	</Ad>
 	<Ad>
 		<Id>T3p4H8</Id>
-		<DateEnd>2019-05-02T17:36:35+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -17815,6 +17815,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%204X/Cj8ICB_21_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%204X/add0_21.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>0ZGV1Q</Id>
+		<DateEnd>2019-05-09T14:39:17+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone X</Title>
+		<Description><![CDATA[<p>iPhone X<br>- не ремонтировался, трейд-ин б/у, выглядит: новый, весь комплект, распечатан для обязательной проверки</p><p>Вас приветствует AMOLED,<br>Мы всегда оказываем поддержку покупателям, продаем гаджеты в течение пяти лет!<br>Расчет осуществляется по факту, все условия на фото!</p><p>imei 359403085595489</p>]]></Description>
+		<Price>43800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%20X/Cj8ICB_31_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%20X/add0_31.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
