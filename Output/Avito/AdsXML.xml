@@ -13692,7 +13692,7 @@
 	</Ad>
 	<Ad>
 		<Id>PFh4Wy</Id>
-		<DateEnd>2019-05-04T22:26:30+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -17509,6 +17509,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20S9/Cj8ICB_9_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20S9/add0_9.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>dC5xdn</Id>
+		<DateEnd>2019-05-09T07:28:11+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone SE</Title>
+		<Description><![CDATA[<p>iPhone SE<br>- по состоянию: новый, распакован для строгой проверки, не разбирался, трейд-ин б/у, весь комплект</p><p>Вас встречает AMOLED,<br>Мы неизменно оказываем сотрудничество покупателям, на рынке смартфонов в течение пяти лет!<br>Оплата производится по факту, все возможности на фото!</p><p>imei 359222079366966</p>]]></Description>
+		<Price>9500</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%20SE/Cj8ICB_63_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%20SE/add0_63.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
