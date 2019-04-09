@@ -16587,7 +16587,7 @@
 	</Ad>
 	<Ad>
 		<Id>lX54ww</Id>
-		<DateEnd>2019-05-07T16:25:12+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -18013,6 +18013,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207%20Plus/Cj8ICB_65_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207%20Plus/add0_65.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>Nua2KF</Id>
+		<DateEnd>2019-05-09T21:38:46+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6S</Title>
+		<Description><![CDATA[<p>iPhone 6S с TouchID<br>- распечатан для обязательной проверки, весь комплект, по состоянию: новый, трейд-ин б/у, не разбирался</p><p>Вам салютует AMOLED,<br>Мы всегда помогаем покупателям, на рынке телефонов в течение пяти лет!<br>Оплата совершается по факту, все условия в фотоленте!</p><p>imei 355424070481612</p>]]></Description>
+		<Price>12000</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_150_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_150.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
