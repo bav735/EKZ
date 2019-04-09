@@ -1678,7 +1678,7 @@
 	</Ad>
 	<Ad>
 		<Id>wuvBVX</Id>
-		<DateEnd>2019-04-10T13:50:14+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -17563,6 +17563,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_140_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_140.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>IUCY33</Id>
+		<DateEnd>2019-05-09T09:28:11+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi 4X</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi 4X<br>- трейд-ин б/у, выглядит: новый, весь комплект, не вскрывался, распакован для полной проверки</p><p>Вам салютует AMOLED,<br>Мы всегда оказываем сотрудничество клиентам, в сфере продаж телефонов свыше пяти лет!<br>Расчет совершается по факту, все подробности на фото!</p><p>imei 865819031538819</p>]]></Description>
+		<Price>6900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%204X/Cj8ICB_20_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%204X/add0_20.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
