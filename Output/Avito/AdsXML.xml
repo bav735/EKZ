@@ -17081,7 +17081,7 @@
 	</Ad>
 	<Ad>
 		<Id>dTje9Y</Id>
-		<DateEnd>2019-05-08T14:59:56+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -18229,6 +18229,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205/Cj8ICB_60_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205/add0_60.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>1Yi9GG</Id>
+		<DateEnd>2019-05-10T10:39:17+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6</Title>
+		<Description><![CDATA[<p>iPhone 6 с TouchID<br>- не вскрывался, распакован для строгой проверки, трейд-ин б/у, по состоянию: новый, комплектация полная</p><p>Вам салютует AMOLED,<br>Мы постоянно помогаем покупателям, реализуем смартфоны в течение пяти лет!<br>Расчет осуществляется по факту, все подробности в фотоленте!</p><p>imei 353318073197765</p>]]></Description>
+		<Price>9700</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_146_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_146.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
