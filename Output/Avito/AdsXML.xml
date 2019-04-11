@@ -16804,7 +16804,7 @@
 	</Ad>
 	<Ad>
 		<Id>XdCujO</Id>
-		<DateEnd>2019-05-08T10:38:50+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -18608,6 +18608,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%20Note%204X/Cj8ICB_12_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%20Note%204X/add0_12.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>0YKlZF</Id>
+		<DateEnd>2019-05-11T11:57:05+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5</Title>
+		<Description><![CDATA[<p>iPhone 5<br>- полностью протестирован по 36 параметрам, не ремонтировался, трейд-ин б/у, полный комплект, смотрится: новый</p><p>Вас встречает AMOLED,<br>Мы всегда помогаем клиентам, реализуем гаджеты более пяти лет!<br>Расчет производится по факту, все условия в фотоленте!</p><p>imei 013414005038128</p>]]></Description>
+		<Price>4700</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205/Cj8ICB_62_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205/add0_62.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
