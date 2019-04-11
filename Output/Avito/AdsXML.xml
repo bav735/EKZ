@@ -6763,7 +6763,7 @@
 	</Ad>
 	<Ad>
 		<Id>O1O7jt</Id>
-		<DateEnd>2019-04-19T02:27:31+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -18662,6 +18662,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_130_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/add0_130.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>pLUb5m</Id>
+		<DateEnd>2019-05-11T12:47:38+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6S 32Gb</Title>
+		<Description><![CDATA[<p>iPhone 6S 32Gb с TouchID<br>- полный комплект, трейд-ин б/у, полностью проверен по 36 пунктам, не ремонтировался, по состоянию: новый</p><p>Вам салютует AMOLED,<br>Мы продаем гаджеты в течение пяти лет, постоянно оказываем сотрудничество клиентам!<br>Оплата исполняется по факту, все подробности в фотоленте!</p><p>imei 353797089289510</p>]]></Description>
+		<Price>13800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_152_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add0_152.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
