@@ -12847,7 +12847,7 @@
 	</Ad>
 	<Ad>
 		<Id>AAYQPk</Id>
-		<DateEnd>2019-05-03T14:44:53+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -19220,6 +19220,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%20SE/Cj8ICB_69_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%20SE/add0_69.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>pvxVmu</Id>
+		<DateEnd>2019-05-12T17:34:01+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6 64Gb</Title>
+		<Description><![CDATA[<p>iPhone 6 64Gb с TouchID</p><p>- tradein б/у<br>- кредит, рассрочка<br>- презент бронь, чехол<br>- гарантия до 1 года<br>- ремонт любых телефонов<br>- расчет по карте, р/с, опт</p><p>imei 356991062319660</p>]]></Description>
+		<Price>11800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_152_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add0_152.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
