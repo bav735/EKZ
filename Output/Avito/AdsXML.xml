@@ -7987,7 +7987,7 @@
 	</Ad>
 	<Ad>
 		<Id>4z8Hsr</Id>
-		<DateEnd>2019-04-22T08:37:10+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -19058,6 +19058,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_133_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/add0_133.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>kYu10d</Id>
+		<DateEnd>2019-05-12T12:22:59+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5 16Gb</Title>
+		<Description><![CDATA[<p>iPhone 5 16Gb</p><p>- trade-in б/у<br>- ремонт любых устройств<br>- подарок стекло, кейс<br>- гарантия до 1 года<br>- перечисление по карте, р/с, опт<br>- кредит, рассрочка</p><p>imei 990002817982554</p>]]></Description>
+		<Price>4400</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205/Cj8ICB_64_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205/add0_64.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
