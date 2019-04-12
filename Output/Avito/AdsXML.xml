@@ -12343,7 +12343,7 @@
 	</Ad>
 	<Ad>
 		<Id>u0lhk3</Id>
-		<DateEnd>2019-05-02T18:56:35+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -19868,6 +19868,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%20Note%207/Cj8ICB_2_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%20Note%207/add0_2.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>fEoOLS</Id>
+		<DateEnd>2019-05-12T18:38:07+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi Note 4</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi Note 4</p><p>- tradein б/у<br>- расчет по р/с, карте, опт<br>- ремонт любых устройств<br>- бонус накладка, стекло<br>- гарантия до 1 года<br>- рассрочка, кредит</p><p>imei 866037034226253</p>]]></Description>
+		<Price>6500</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%20Note%204/Cj8ICB_23_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%20Note%204/add0_23.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
