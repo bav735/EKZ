@@ -13639,7 +13639,7 @@
 	</Ad>
 	<Ad>
 		<Id>5dDbt7</Id>
-		<DateEnd>2019-05-04T21:09:37+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -20570,6 +20570,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%20SE/Cj8ICB_72_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%20SE/add0_72.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>6tLzBP</Id>
+		<DateEnd>2019-05-13T19:17:53+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 8 Plus</Title>
+		<Description><![CDATA[<p>iPhone 8 Plus</p><p>- трейд-ин б/у<br>- оплата по р/с, карте, опт<br>- ремонт любых телефонов<br>- гарантия до 1 года<br>- подарок кейс, стекло<br>- рассрочка, кредит</p><p>imei 352977092274532</p>]]></Description>
+		<Price>35500</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%208%20Plus/Cj8ICB_34_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%208%20Plus/add0_34.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
