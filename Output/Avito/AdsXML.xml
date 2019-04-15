@@ -1949,7 +1949,7 @@
 	</Ad>
 	<Ad>
 		<Id>Ka0FYs</Id>
-		<DateEnd>2019-04-10T22:21:22+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -21236,6 +21236,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20Note%208/Cj8ICB_9_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20Note%208/add1_9.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>tIe6t2</Id>
+		<DateEnd>2019-05-15T15:51:47+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi 5 Plus</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi 5 Plus</p><p>- трейд-ин б/у<br>- расчет по р/с, карте, опт<br>- ремонт любых устройств<br>- гарантия до 2 лет<br>- рассрочка, кредит</p><p>imei 868947030813359</p>]]></Description>
+		<Price>9800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%205%20Plus/Cj8ICB_16_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%205%20Plus/add1_16.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
