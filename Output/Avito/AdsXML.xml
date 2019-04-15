@@ -17280,7 +17280,7 @@
 	</Ad>
 	<Ad>
 		<Id>Qyw7ew</Id>
-		<DateEnd>2019-05-08T17:48:46+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -21290,6 +21290,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20S5/Cj8ICB_10_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20S5/add1_10.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>HhPw1e</Id>
+		<DateEnd>2019-05-15T21:01:47+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 4S</Title>
+		<Description><![CDATA[<p>iPhone 4S</p><p>- трейд-ин б/у<br>- гарантия до 2 лет<br>- кредит, рассрочка<br>- оплата по карте, р/с, опт<br>- ремонт любых телефонов</p><p>imei 013188003608757</p>]]></Description>
+		<Price>2800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%204S/Cj8ICB_44_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%204S/add1_44.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
