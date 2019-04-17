@@ -15573,4 +15573,22 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add1_167.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>99sym2</Id>
+		<DateEnd>2019-05-17T10:16:57+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone X 64Gb</Title>
+		<Description><![CDATA[<p>iPhone X 64Gb</p><p>- трейд-ин б/у<br>- кредит, рассрочка<br>- взаиморасчет по карте, р/с, опт<br>- ремонт любых гаджетов<br>- гарантия до 2 лет</p><p>imei 353051091661377</p>]]></Description>
+		<Price>45700</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%20X/Cj8ICB_38_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%20X/add1_38.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
