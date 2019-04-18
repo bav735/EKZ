@@ -3312,7 +3312,7 @@
 	</Ad>
 	<Ad>
 		<Id>62zC9v</Id>
-		<DateEnd>2019-04-24T21:17:32+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -15931,6 +15931,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_164_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add1_164.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>7Ku17T</Id>
+		<DateEnd>2019-05-18T17:16:02+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone X 64Gb</Title>
+		<Description><![CDATA[<p>iPhone X 64Gb</p><p>- trade-in б/у<br>- расчет по р/с, карте, опт<br>- ремонт любых устройств<br>- гарантия до 2 лет<br>- кредит, рассрочка</p><p>imei 359408087132454</p>]]></Description>
+		<Price>45700</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%20X/Cj8ICB_40_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%20X/add1_40.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
