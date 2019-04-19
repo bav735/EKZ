@@ -15141,7 +15141,7 @@
 	</Ad>
 	<Ad>
 		<Id>BkvXsD</Id>
-		<DateEnd>2019-05-14T17:24:26+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16145,6 +16145,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20S10%20Plus/Cj8ICB_0_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20S10%20Plus/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>bGI5Aq</Id>
+		<DateEnd>2019-05-19T10:55:02+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6 16Gb</Title>
+		<Description><![CDATA[<p>iPhone 6 16Gb без TouchID</p><p>- trade-in б/у<br>- гарантия до 2 лет<br>- кредит, рассрочка<br>- покупка по карте, р/с, опт<br>- ремонт любых телефонов</p><p>imei 355790070035537</p>]]></Description>
+		<Price>9050</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_165_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add1_165.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
