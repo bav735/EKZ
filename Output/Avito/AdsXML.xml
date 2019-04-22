@@ -10851,7 +10851,7 @@
 	</Ad>
 	<Ad>
 		<Id>XSjyN3</Id>
-		<DateEnd>2019-05-07T22:39:07+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -16847,6 +16847,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%204A/Cj8ICB_12_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%204A/add1_12.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>EE1BnG</Id>
+		<DateEnd>2019-05-22T21:08:47+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 8 Plus</Title>
+		<Description><![CDATA[<p>iPhone 8 Plus</p><p>- tradein б/у<br>- оплата по р/с, карте, опт<br>- рассрочка, кредит<br>- ремонт любых гаджетов<br>- гарантия до 2 лет</p><p>imei 356713087674030</p>]]></Description>
+		<Price>36800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%208%20Plus/Cj8ICB_39_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%208%20Plus/add1_39.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
