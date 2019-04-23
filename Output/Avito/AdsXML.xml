@@ -7686,7 +7686,7 @@
 	</Ad>
 	<Ad>
 		<Id>nv09Ue</Id>
-		<DateEnd>2019-05-04T15:36:37+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -17081,6 +17081,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%205A/Cj8ICB_13_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%205A/add1_13.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>JTJo0p</Id>
+		<DateEnd>2019-05-23T04:38:47+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 8 64Gb</Title>
+		<Description><![CDATA[<p>iPhone 8 64Gb</p><p>- tradein б/у<br>- рассрочка, кредит<br>- гарантия до 2 лет<br>- ремонт любых гаджетов<br>- покупка по карте, р/с, опт</p><p>imei 356759084408161</p>]]></Description>
+		<Price>28300</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%208/Cj8ICB_63_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%208/add1_63.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
