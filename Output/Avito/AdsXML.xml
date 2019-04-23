@@ -13217,7 +13217,7 @@
 	</Ad>
 	<Ad>
 		<Id>87gOKF</Id>
-		<DateEnd>2019-05-12T12:42:59+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -17207,6 +17207,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205/Cj8ICB_69_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205/add1_69.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>VUel5Y</Id>
+		<DateEnd>2019-05-23T10:20:41+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5S</Title>
+		<Description><![CDATA[<p>iPhone 5S с TouchID</p><p>- trade-in б/у<br>- гарантия до 2 лет<br>- ремонт любых устройств<br>- оплата по р/с, карте, опт<br>- кредит, рассрочка</p><p>imei 358823055977162</p>]]></Description>
+		<Price>7650</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_149_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add1_149.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
