@@ -3816,7 +3816,7 @@
 	</Ad>
 	<Ad>
 		<Id>qxSqZ2</Id>
-		<DateEnd>2019-04-25T15:48:40+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -17675,6 +17675,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%204S/Cj8ICB_53_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%204S/add1_53.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>c1qCFv</Id>
+		<DateEnd>2019-05-23T16:00:39+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7 Plus 32Gb</Title>
+		<Description><![CDATA[<p>iPhone 7 Plus 32Gb</p><p>- tradein б/у<br>- ремонт любых устройств<br>- кредит, рассрочка<br>- гарантия до 2 лет<br>- покупка по карте, р/с, опт</p><p>imei 353817080309651</p>]]></Description>
+		<Price>24500</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207%20Plus/Cj8ICB_80_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207%20Plus/add1_80.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
