@@ -11363,7 +11363,7 @@
 	</Ad>
 	<Ad>
 		<Id>kIV27F</Id>
-		<DateEnd>2019-05-08T17:18:46+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -17891,6 +17891,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_147_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/add1_147.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>teovtR</Id>
+		<DateEnd>2019-05-23T20:27:48+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6 32Gb</Title>
+		<Description><![CDATA[<p>iPhone 6 32Gb</p><p>- tradein б/у<br>- гарантия до 2 лет<br>- ремонт любых телефонов<br>- расчет по р/с, карте, опт<br>- кредит, рассрочка</p><p>imei 356678088995736</p>]]></Description>
+		<Price>11400</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_179_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add1_179.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
