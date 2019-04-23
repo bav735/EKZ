@@ -7560,7 +7560,7 @@
 	</Ad>
 	<Ad>
 		<Id>Lgcizt</Id>
-		<DateEnd>2019-05-04T13:26:03+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -17243,6 +17243,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%20Note%207/Cj8ICB_4_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%20Note%207/add1_4.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>4PlYun</Id>
+		<DateEnd>2019-05-23T11:18:54+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6S 32Gb</Title>
+		<Description><![CDATA[<p>iPhone 6S 32Gb с TouchID</p><p>- трейдин б/у<br>- гарантия до 2 лет<br>- ремонт любых гаджетов<br>- кредит, рассрочка<br>- расчет по карте, р/с, опт</p><p>imei 355399088830895</p>]]></Description>
+		<Price>13700</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_178_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add1_178.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
