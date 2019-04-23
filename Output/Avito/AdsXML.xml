@@ -6408,7 +6408,7 @@
 	</Ad>
 	<Ad>
 		<Id>TMxaat</Id>
-		<DateEnd>2019-05-02T18:37:43+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -17945,6 +17945,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%208/Cj8ICB_66_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%208/add1_66.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>ZEvawO</Id>
+		<DateEnd>2019-05-23T21:38:56+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6S 16Gb</Title>
+		<Description><![CDATA[<p>iPhone 6S 16Gb без TouchID</p><p>- трейдин б/у<br>- рассрочка, кредит<br>- оплата по р/с, карте, опт<br>- ремонт любых телефонов<br>- гарантия до 2 лет</p><p>imei 354956071591163</p>]]></Description>
+		<Price>11400</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_181_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add1_181.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
