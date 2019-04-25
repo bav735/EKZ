@@ -19421,4 +19421,22 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add1_159.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>Mr2lHc</Id>
+		<DateEnd>2019-05-25T22:52:40+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S3</Title>
+		<Description><![CDATA[<p>Samsung Galaxy S3 в заводской пленке, оригинал</p><p>- гарантия от 1 года до 2 лет по РФ<br>- взаиморасчет по карте, р/с, опт<br>- ремонт любых гаджетов<br>- рассрочка, кредит до 36 мес<br>- трейд-ин б/у</p><p>imei 354826059442129</p>]]></Description>
+		<Price>5850</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20S3/Cj8ICB_7_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20S3/add1_7.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
