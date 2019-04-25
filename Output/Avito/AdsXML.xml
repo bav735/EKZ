@@ -14509,7 +14509,7 @@
 	</Ad>
 	<Ad>
 		<Id>bTMm3s</Id>
-		<DateEnd>2019-05-13T14:18:46+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -19131,6 +19131,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20S8/Cj8ICB_12_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20S8/add1_12.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>CFZ9Wo</Id>
+		<DateEnd>2019-05-25T17:38:02+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 8 Plus</Title>
+		<Description><![CDATA[<p>iPhone 8 Plus в заводских пленках, оригинал</p><p>- ремонт любых гаджетов<br>- оплата по карте, р/с, опт<br>- трейд-ин б/у<br>- рассрочка, кредит до 36 мес<br>- гарантия от 1 года до 2 лет по РФ</p><p>imei 359401081755966</p>]]></Description>
+		<Price>39350</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%208%20Plus/Cj8ICB_43_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%208%20Plus/add1_43.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
