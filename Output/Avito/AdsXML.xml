@@ -19529,4 +19529,22 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add1_192.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>4lf7ek</Id>
+		<DateEnd>2019-05-26T02:28:02+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi Note 4 64Gb</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi Note 4 64Gb в пленке, оригинал</p><p>- гарантия от 1 года до 2 лет по РФ<br>- оплата по р/с, карте, опт<br>- ремонт любых устройств<br>- рассрочка, кредит до 36 мес<br>- трейдин б/у</p><p>imei 866037035362057</p>]]></Description>
+		<Price>10300</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%20Note%204/Cj8ICB_30_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%20Note%204/add1_30.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
