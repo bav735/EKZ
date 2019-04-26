@@ -7704,7 +7704,7 @@
 	</Ad>
 	<Ad>
 		<Id>JoZtSp</Id>
-		<DateEnd>2019-05-04T15:37:11+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -20103,6 +20103,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_195_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add1_195.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>n2PGAi</Id>
+		<DateEnd>2019-05-26T20:53:59+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Mi 8</Title>
+		<Description><![CDATA[<p>Xiaomi Mi 8 в заводской пленке, оригинал</p><p>- ремонт любых устройств<br>- кредит, рассрочка до 36 мес<br>- трейдин б/у<br>- покупка по р/с, карте, опт<br>- гарантия от 1 года до 2 лет по РФ</p><p>imei 860758041058001</p>]]></Description>
+		<Price>26600</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Mi%208/Cj8ICB_12_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Mi%208/add1_12.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
