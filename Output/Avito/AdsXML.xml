@@ -11290,7 +11290,7 @@
 	</Ad>
 	<Ad>
 		<Id>bgQPYh</Id>
-		<DateEnd>2019-05-08T16:29:17+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -19545,6 +19545,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%20Note%204/Cj8ICB_30_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%20Note%204/add1_30.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>xXTE3j</Id>
+		<DateEnd>2019-05-26T04:38:37+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6 Plus</Title>
+		<Description><![CDATA[<p>iPhone 6 Plus с TouchID в пленке, оригинал</p><p>- ремонт любых телефонов<br>- трейд-ин б/у<br>- оплата по р/с, карте, опт<br>- рассрочка, кредит до 36 мес<br>- гарантия от 1 года до 2 лет по РФ</p><p>imei 354386064727006</p>]]></Description>
+		<Price>14850</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206%20Plus/Cj8ICB_53_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206%20Plus/add1_53.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
