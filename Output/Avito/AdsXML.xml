@@ -16705,7 +16705,7 @@
 	</Ad>
 	<Ad>
 		<Id>DIN28z</Id>
-		<DateEnd>2019-05-22T11:09:19+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -19851,6 +19851,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Mi%20A2%20Lite/Cj8ICB_10_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Mi%20A2%20Lite/add1_10.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>8GvoKl</Id>
+		<DateEnd>2019-05-26T15:35:44+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6 16Gb</Title>
+		<Description><![CDATA[<p>iPhone 6 16Gb с TouchID в заводской пленке, оригинал</p><p>- расчет по карте, р/с, опт<br>- кредит, рассрочка до 36 мес<br>- трейдин б/у<br>- ремонт любых гаджетов<br>- гарантия от 1 года до 2 лет по РФ</p><p>imei 352028079914722</p>]]></Description>
+		<Price>11200</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206/Cj8ICB_194_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206/add1_194.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
