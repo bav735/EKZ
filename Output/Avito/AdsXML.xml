@@ -20231,4 +20231,22 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/add1_161.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>s5e6dB</Id>
+		<DateEnd>2019-05-27T00:56:55+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S10</Title>
+		<Description><![CDATA[<p>Samsung Galaxy S10 в заводской пленке, оригинал</p><p>- ремонт любых гаджетов<br>- trade-in б/у<br>- кредит, рассрочка до 36 мес<br>- покупка по карте, р/с, опт<br>- гарантия от 1 года до 2 лет по РФ</p><p>imei 3519101043548067</p>]]></Description>
+		<Price>62900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20S10/Cj8ICB_1_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20S10/add1_1.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
