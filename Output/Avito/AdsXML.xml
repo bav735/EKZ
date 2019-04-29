@@ -6138,7 +6138,7 @@
 	</Ad>
 	<Ad>
 		<Id>IsRg5T</Id>
-		<DateEnd>2019-05-02T14:09:32+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -20337,6 +20337,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_198_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add1_198.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>oNbzlw</Id>
+		<DateEnd>2019-05-29T08:29:16+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi Note 5</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi Note 5 в заводских пленках, оригинал</p><p>- трейд-ин б/у<br>- ремонт любых телефонов<br>- покупка по карте, р/с, опт<br>- кредит, рассрочка до 36 мес<br>- гарантия от 1 года до 2 лет по РФ</p><p>imei 867195039475694</p>]]></Description>
+		<Price>13550</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%20Note%205/Cj8ICB_15_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%20Note%205/add1_15.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
