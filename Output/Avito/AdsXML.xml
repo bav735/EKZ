@@ -20071,7 +20071,7 @@
 	</Ad>
 	<Ad>
 		<Id>2FAz2K</Id>
-		<DateEnd>2019-05-26T19:53:58+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -21039,6 +21039,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%203S/Cj8ICB_7_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%203S/add1_7.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>Hub1ly</Id>
+		<DateEnd>2019-05-29T21:40:22+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5S</Title>
+		<Description><![CDATA[<p>iPhone 5S без TouchID в заводской пленке, оригинал</p><p>- кредит, рассрочка до 36 мес<br>- ремонт любых гаджетов<br>- гарантия от 1 года до 2 лет по РФ<br>- трейд-ин б/у<br>- оплата по р/с, карте, опт</p><p>imei 013968004142280</p>]]></Description>
+		<Price>7200</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_168_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add1_168.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
