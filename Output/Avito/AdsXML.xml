@@ -5130,7 +5130,7 @@
 	</Ad>
 	<Ad>
 		<Id>rx5jzM</Id>
-		<DateEnd>2019-04-28T02:30:41+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -21129,6 +21129,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%206S/Cj8ICB_202_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%206S/add1_202.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>webi08</Id>
+		<DateEnd>2019-05-30T01:20:57+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy A5 2016</Title>
+		<Description><![CDATA[<p>Samsung Galaxy A5 2016 в пленке, оригинал</p><p>- гарантия от 1 года до 2 лет по РФ<br>- трейд-ин б/у<br>- ремонт любых телефонов<br>- кредит, рассрочка до 36 мес<br>- взаиморасчет по карте, р/с, опт</p><p>imei 357650040817612</p>]]></Description>
+		<Price>12550</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Samsung%20Galaxy%20A5%202016/Cj8ICB_10_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Samsung%20Galaxy%20A5%202016/add1_10.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
