@@ -14563,7 +14563,7 @@
 	</Ad>
 	<Ad>
 		<Id>hhJQgb</Id>
-		<DateEnd>2019-05-13T17:19:30+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -20355,6 +20355,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%20Note%205/Cj8ICB_15_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%20Note%205/add1_15.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>RM65Ok</Id>
+		<DateEnd>2019-05-29T08:29:50+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 8</Title>
+		<Description><![CDATA[<p>iPhone 8 в пленках, оригинал</p><p>- трейдин б/у<br>- ремонт любых телефонов<br>- рассрочка, кредит до 36 мес<br>- гарантия от 1 года до 2 лет по РФ<br>- покупка по карте, р/с, опт</p><p>imei 356763089362928</p>]]></Description>
+		<Price>30250</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%208/Cj8ICB_71_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%208/add1_71.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
