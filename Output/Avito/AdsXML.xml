@@ -252,7 +252,7 @@
 	</Ad>
 	<Ad>
 		<Id>HwSf5z</Id>
-		<DateEnd>2019-04-17T14:44:46+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -20733,6 +20733,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%208%20Plus/Cj8ICB_45_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%208%20Plus/add1_45.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>BAg08d</Id>
+		<DateEnd>2019-05-29T10:31:34+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi 6A</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi 6A в пленках, оригинал</p><p>- рассрочка, кредит до 36 мес<br>- гарантия от 1 года до 2 лет по РФ<br>- трейдин б/у<br>- расчет по р/с, карте, опт<br>- ремонт любых телефонов</p><p>imei 863197043625094</p>]]></Description>
+		<Price>7950</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Xiaomi%20Redmi%206A/Cj8ICB_14_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Xiaomi%20Redmi%206A/add1_14.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
