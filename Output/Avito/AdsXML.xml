@@ -19351,7 +19351,7 @@
 	</Ad>
 	<Ad>
 		<Id>8OsDRm</Id>
-		<DateEnd>2019-05-25T21:48:34+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -21291,6 +21291,24 @@
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%205S/Cj8ICB_169_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%205S/add1_169.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>vhrvUk</Id>
+		<DateEnd>2019-05-30T11:59:16+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7</Title>
+		<Description><![CDATA[<p>iPhone 7 в пленке, оригинал</p><p>- tradein б/у<br>- кредит, рассрочка до 36 мес<br>- ремонт любых телефонов<br>- гарантия от 1 года до 2 лет по РФ<br>- покупка по карте, р/с, опт</p><p>imei 353845081964703</p>]]></Description>
+		<Price>19250</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/by1/Apple%20iPhone%207/Cj8ICB_165_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/add0/Apple%20iPhone%207/add1_165.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
