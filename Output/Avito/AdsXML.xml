@@ -19965,7 +19965,7 @@
 	</Ad>
 	<Ad>
 		<Id>aeOuVH</Id>
-		<DateEnd>2019-05-26T19:14:35+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -23886,6 +23886,23 @@
 		<Price>15000</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%206%20128Gb/kzn/Cj8ICB_1.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>dRiNBF</Id>
+		<DateEnd>2019-06-04T23:52:41+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6</Title>
+		<Description><![CDATA[<p>iPhone 6 без TouchID в пленках, оригинал</p><p>- трейдин б/у<br>- ремонт любых телефонов<br>- оплата по р/с, карте, опт<br>- рассрочка, кредит до 36 мес<br>- гарантия от 1 года до 2 лет по РФ</p><p>imei 353320079776584</p>]]></Description>
+		<Price>8350</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%206/kzn/Cj8ICB_2.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
