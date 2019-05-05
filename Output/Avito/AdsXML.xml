@@ -20289,7 +20289,7 @@
 	</Ad>
 	<Ad>
 		<Id>e0Mrcb</Id>
-		<DateEnd>2019-05-29T08:19:17+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -23342,6 +23342,23 @@
 		<Price>36650</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%208%20Plus/kzn/Cj8ICB_2.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>nyroiK</Id>
+		<DateEnd>2019-06-04T19:02:19+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7 Plus</Title>
+		<Description><![CDATA[<p>iPhone 7 Plus в пленке, оригинал</p><p>- ремонт любых устройств<br>- гарантия от 1 года до 2 лет по РФ<br>- tradein б/у<br>- рассрочка, кредит до 36 мес<br>- покупка по карте, р/с, опт</p><p>imei 356572081526665</p>]]></Description>
+		<Price>26200</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%207%20Plus/kzn/Cj8ICB_2.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
