@@ -20161,7 +20161,7 @@
 	</Ad>
 	<Ad>
 		<Id>qoOAEi</Id>
-		<DateEnd>2019-05-26T21:34:35+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -22917,6 +22917,23 @@
 		<Price>15650</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%206%20128Gb/kzn/Cj8ICB_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>W75U3w</Id>
+		<DateEnd>2019-06-04T16:27:27+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5S</Title>
+		<Description><![CDATA[<p>iPhone 5S с TouchID в заводской пленке, оригинал</p><p>- tradein б/у<br>- кредит, рассрочка до 36 мес<br>- покупка по карте, р/с, опт<br>- гарантия от 1 года до 2 лет по РФ<br>- ремонт любых устройств</p><p>imei 013881002745386</p>]]></Description>
+		<Price>8250</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%205S/kzn/Cj8ICB_0.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
