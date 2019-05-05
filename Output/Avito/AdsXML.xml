@@ -20919,7 +20919,7 @@
 	</Ad>
 	<Ad>
 		<Id>6102Yc</Id>
-		<DateEnd>2019-05-29T15:09:16+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -24073,6 +24073,23 @@
 		<Price>12650</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%206S%2032Gb/kzn/Cj8ICB_2.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>o2RXvV</Id>
+		<DateEnd>2019-06-05T01:23:14+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6</Title>
+		<Description><![CDATA[<p>iPhone 6 с TouchID в заводской пленке, оригинал</p><p>- рассрочка, кредит до 36 мес<br>- tradein б/у<br>- гарантия от 1 года до 2 лет по РФ<br>- взаиморасчет по карте, р/с, опт<br>- ремонт любых устройств</p><p>imei 356990066419427</p>]]></Description>
+		<Price>10950</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%206/kzn/Cj8ICB_3.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
