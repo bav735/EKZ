@@ -11569,7 +11569,7 @@
 	</Ad>
 	<Ad>
 		<Id>dXHY8B</Id>
-		<DateEnd>2019-05-08T20:20:48+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -23716,6 +23716,23 @@
 		<Price>29300</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%208/kzn/Cj8ICB_3.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>hlJ2yP</Id>
+		<DateEnd>2019-06-04T22:43:12+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6S Plus</Title>
+		<Description><![CDATA[<p>iPhone 6S Plus в пленке, оригинал</p><p>- кредит, рассрочка до 36 мес<br>- оплата по р/с, карте, опт<br>- ремонт любых гаджетов<br>- trade-in б/у<br>- гарантия от 1 года до 2 лет по РФ</p><p>imei 355736072464084</p>]]></Description>
+		<Price>18150</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%206S%20Plus/kzn/Cj8ICB_0.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
