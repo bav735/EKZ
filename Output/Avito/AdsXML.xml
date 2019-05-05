@@ -5593,7 +5593,7 @@
 	</Ad>
 	<Ad>
 		<Id>FEYxo0</Id>
-		<DateEnd>2019-04-28T19:25:31+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -23631,6 +23631,23 @@
 		<Price>12300</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%206S/kzn/Cj8ICB_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>U5MuP9</Id>
+		<DateEnd>2019-06-04T19:46:27+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S7</Title>
+		<Description><![CDATA[<p>Samsung Galaxy S7 в заводской пленке, оригинал</p><p>- tradein б/у<br>- ремонт любых телефонов<br>- оплата по карте, р/с, опт<br>- рассрочка, кредит до 36 мес<br>- гарантия от 1 года до 2 лет по РФ</p><p>imei 355504072370721</p>]]></Description>
+		<Price>13750</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Samsung%20Galaxy%20S7/kzn/Cj8ICB_0.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
