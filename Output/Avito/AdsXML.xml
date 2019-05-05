@@ -12505,7 +12505,7 @@
 	</Ad>
 	<Ad>
 		<Id>IjOCmj</Id>
-		<DateEnd>2019-05-10T13:46:02+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -23291,6 +23291,23 @@
 		<Price>5850</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%205%2016Gb/kzn/Cj8ICB_1.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>bXbR7k</Id>
+		<DateEnd>2019-06-04T18:45:10+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S9</Title>
+		<Description><![CDATA[<p>Samsung Galaxy S9 в заводских пленках, оригинал</p><p>- гарантия от 1 года до 2 лет по РФ<br>- кредит, рассрочка до 36 мес<br>- покупка по карте, р/с, опт<br>- ремонт любых телефонов<br>- трейдин б/у</p><p>imei 352712098400314</p>]]></Description>
+		<Price>38000</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Samsung%20Galaxy%20S9/kzn/Cj8ICB_1.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
