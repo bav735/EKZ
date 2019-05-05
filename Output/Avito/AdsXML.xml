@@ -14408,7 +14408,7 @@
 	</Ad>
 	<Ad>
 		<Id>N7VEFy</Id>
-		<DateEnd>2019-05-13T11:17:40+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -23257,6 +23257,23 @@
 		<Price>29950</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%208/kzn/Cj8ICB_2.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>xn1way</Id>
+		<DateEnd>2019-06-04T18:43:28+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6S 32Gb</Title>
+		<Description><![CDATA[<p>iPhone 6S 32Gb с TouchID в пленке, оригинал</p><p>- гарантия от 1 года до 2 лет по РФ<br>- ремонт любых телефонов<br>- кредит, рассрочка до 36 мес<br>- взаиморасчет по карте, р/с, опт<br>- tradein б/у</p><p>imei 353797080596772</p>]]></Description>
+		<Price>14550</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%206S%2032Gb/kzn/Cj8ICB_1.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
