@@ -2934,7 +2934,7 @@
 	</Ad>
 	<Ad>
 		<Id>xVg8W2</Id>
-		<DateEnd>2019-04-24T09:01:23+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -23189,6 +23189,23 @@
 		<Price>38000</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Samsung%20Galaxy%20S9/kzn/Cj8ICB_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>dgP6po</Id>
+		<DateEnd>2019-06-04T18:16:05+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6 Plus 64Gb</Title>
+		<Description><![CDATA[<p>iPhone 6 Plus 64Gb без TouchID в заводских пленках, оригинал</p><p>- tradein б/у<br>- расчет по карте, р/с, опт<br>- гарантия от 1 года до 2 лет по РФ<br>- ремонт любых телефонов<br>- рассрочка, кредит до 36 мес</p><p>imei 354451067542362</p>]]></Description>
+		<Price>14550</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%206%20Plus%2064Gb/kzn/Cj8ICB_0.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
