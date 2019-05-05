@@ -19731,7 +19731,7 @@
 	</Ad>
 	<Ad>
 		<Id>x6xx4a</Id>
-		<DateEnd>2019-05-26T13:03:27+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -23546,6 +23546,23 @@
 		<Price>3700</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%204S/kzn/Cj8ICB_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>9h6PkJ</Id>
+		<DateEnd>2019-06-04T19:41:48+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7</Title>
+		<Description><![CDATA[<p>iPhone 7 в пленках, оригинал</p><p>- рассрочка, кредит до 36 мес<br>- ремонт любых телефонов<br>- гарантия от 1 года до 2 лет по РФ<br>- tradein б/у<br>- оплата по карте, р/с, опт</p><p>imei 355323089992975</p>]]></Description>
+		<Price>19000</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%207/kzn/Cj8ICB_1.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
