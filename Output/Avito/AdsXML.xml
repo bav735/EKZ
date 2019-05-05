@@ -18325,7 +18325,7 @@
 	</Ad>
 	<Ad>
 		<Id>kH7tnO</Id>
-		<DateEnd>2019-05-24T15:06:53+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Отдел продаж</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -23087,6 +23087,23 @@
 		<Price>8250</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%205S%2016Gb/kzn/Cj8ICB_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>WwdFl2</Id>
+		<DateEnd>2019-06-04T17:26:17+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Отдел продаж</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7 32Gb</Title>
+		<Description><![CDATA[<p>iPhone 7 32Gb в заводских пленках, оригинал</p><p>- трейд-ин б/у<br>- гарантия от 1 года до 2 лет по РФ<br>- кредит, рассрочка до 36 мес<br>- ремонт любых устройств<br>- расчет по р/с, карте, опт</p><p>imei 359205072436134</p>]]></Description>
+		<Price>19250</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%207%2032Gb/kzn/Cj8ICB_0.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
