@@ -12037,7 +12037,7 @@
 	</Ad>
 	<Ad>
 		<Id>FPXSoH</Id>
-		<DateEnd>2019-05-09T18:00:29+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -23767,6 +23767,23 @@
 		<Price>7050</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%205S%2016Gb/kzn/Cj8ICB_1.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>yBmctf</Id>
+		<DateEnd>2019-06-04T23:03:16+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 8 Plus 64Gb</Title>
+		<Description><![CDATA[<p>iPhone 8 Plus 64Gb в заводских пленках, оригинал</p><p>- ремонт любых гаджетов<br>- кредит, рассрочка до 36 мес<br>- расчет по р/с, карте, опт<br>- гарантия от 1 года до 2 лет по РФ<br>- трейд-ин б/у</p><p>imei 356713080471038</p>]]></Description>
+		<Price>35850</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%208%20Plus%2064Gb/kzn/Cj8ICB_0.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
