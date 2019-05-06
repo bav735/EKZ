@@ -25786,4 +25786,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>tqdZ4D</Id>
+		<DateEnd>2019-06-05T17:43:48+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Mi 8 Lite 64Gb</Title>
+		<Description><![CDATA[<p>Xiaomi Mi 8 Lite 64Gb в заводских пленках, оригинал</p><p>- трейдин б/у<br>- гарантия от 1 года до 2 лет по РФ<br>- рассрочка, кредит до 36 мес<br>- ремонт любых гаджетов<br>- оплата по р/с, карте, опт</p><p>imei 868453045624568</p>]]></Description>
+		<Price>14350</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Xiaomi%20Mi%208%20Lite%2064Gb/msk/Cj8ICB_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
