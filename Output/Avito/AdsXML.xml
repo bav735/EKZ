@@ -1437,7 +1437,7 @@
 	</Ad>
 	<Ad>
 		<Id>AgqPqh</Id>
-		<DateEnd>2019-04-21T13:26:03+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -24685,6 +24685,23 @@
 		<Price>25350</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Samsung%20Galaxy%20S8/kzn/Cj8ICB_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>hnzb0d</Id>
+		<DateEnd>2019-06-05T06:12:41+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 4S 16Gb</Title>
+		<Description><![CDATA[<p>iPhone 4S 16Gb в заводских пленках, оригинал</p><p>- tradein б/у<br>- рассрочка, кредит до 36 мес<br>- гарантия от 1 года до 2 лет по РФ<br>- ремонт любых устройств<br>- оплата по карте, р/с, опт</p><p>imei 013606003276382</p>]]></Description>
+		<Price>3650</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%204S%2016Gb/kzn/Cj8ICB_0.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
