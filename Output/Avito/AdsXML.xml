@@ -25514,4 +25514,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>rJGJDM</Id>
+		<DateEnd>2019-06-05T16:23:13+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6S 128Gb</Title>
+		<Description><![CDATA[<p>iPhone 6S 128Gb в заводской пленке, оригинал</p><p>- ремонт любых устройств<br>- рассрочка, кредит до 36 мес<br>- трейд-ин б/у<br>- покупка по р/с, карте, опт<br>- гарантия от 1 года до 2 лет по РФ</p><p>imei 353341074752875</p>]]></Description>
+		<Price>14300</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%206S%20128Gb/msk/Cj8ICB_3.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
