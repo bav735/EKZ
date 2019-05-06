@@ -25463,4 +25463,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>emjdZW</Id>
+		<DateEnd>2019-06-05T16:03:44+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy Note 3</Title>
+		<Description><![CDATA[<p>Samsung Galaxy Note 3 в заводской пленке, оригинал</p><p>- рассрочка, кредит до 36 мес<br>- tradein б/у<br>- ремонт любых гаджетов<br>- взаиморасчет по р/с, карте, опт<br>- гарантия от 1 года до 2 лет по РФ</p><p>imei 357518053804761</p>]]></Description>
+		<Price>8800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Samsung%20Galaxy%20Note%203/msk/Cj8ICB_2.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
