@@ -14247,7 +14247,7 @@
 	</Ad>
 	<Ad>
 		<Id>Tf2nEs</Id>
-		<DateEnd>2019-05-13T00:57:37+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -24311,6 +24311,23 @@
 		<Price>17100</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%206%20Plus%20128Gb/kzn/Cj8ICB_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>uNJxKU</Id>
+		<DateEnd>2019-06-05T03:03:13+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7 256Gb</Title>
+		<Description><![CDATA[<p>iPhone 7 256Gb в пленке, оригинал</p><p>- гарантия от 1 года до 2 лет по РФ<br>- trade-in б/у<br>- рассрочка, кредит до 36 мес<br>- ремонт любых гаджетов<br>- оплата по карте, р/с, опт</p><p>imei 359210072123724</p>]]></Description>
+		<Price>23650</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%207%20256Gb/kzn/Cj8ICB_1.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
