@@ -25293,4 +25293,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>94GkDp</Id>
+		<DateEnd>2019-06-05T15:03:13+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Mi 8 128Gb</Title>
+		<Description><![CDATA[<p>Xiaomi Mi 8 128Gb в пленке, оригинал</p><p>- расчет по карте, р/с, опт<br>- гарантия от 1 года до 2 лет по РФ<br>- tradein б/у<br>- кредит, рассрочка до 36 мес<br>- ремонт любых телефонов</p><p>imei 869785030583518</p>]]></Description>
+		<Price>27450</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Xiaomi%20Mi%208%20128Gb/msk/Cj8ICB_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
