@@ -13995,7 +13995,7 @@
 	</Ad>
 	<Ad>
 		<Id>03Dhc5</Id>
-		<DateEnd>2019-05-12T18:59:55+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -24515,6 +24515,23 @@
 		<Price>29300</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%208/kzn/Cj8ICB_7.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>OlUtsY</Id>
+		<DateEnd>2019-06-05T04:43:47+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 8 64Gb</Title>
+		<Description><![CDATA[<p>iPhone 8 64Gb в заводской пленке, оригинал</p><p>- покупка по карте, р/с, опт<br>- рассрочка, кредит до 36 мес<br>- гарантия от 1 года до 2 лет по РФ<br>- trade-in б/у<br>- ремонт любых гаджетов</p><p>imei 359498084804494</p>]]></Description>
+		<Price>29300</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%208%2064Gb/kzn/Cj8ICB_1.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
