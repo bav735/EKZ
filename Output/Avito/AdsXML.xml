@@ -22853,7 +22853,7 @@
 	</Ad>
 	<Ad>
 		<Id>AY2dpT</Id>
-		<DateEnd>2019-06-04T16:16:17+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -24838,6 +24838,23 @@
 		<Price>25650</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%207%20Plus/kzn/Cj8ICB_5.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>jEb3XU</Id>
+		<DateEnd>2019-06-05T07:23:16+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone X</Title>
+		<Description><![CDATA[<p>iPhone X в заводских пленках, оригинал</p><p>- рассрочка, кредит до 36 мес<br>- расчет по карте, р/с, опт<br>- гарантия от 1 года до 2 лет по РФ<br>- ремонт любых гаджетов<br>- трейд-ин б/у</p><p>imei 353040095054358</p>]]></Description>
+		<Price>49600</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%20X/kzn/Cj8ICB_5.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
