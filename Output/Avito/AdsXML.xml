@@ -19174,7 +19174,7 @@
 	</Ad>
 	<Ad>
 		<Id>EEuawA</Id>
-		<DateEnd>2019-05-25T17:58:33+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -24889,6 +24889,23 @@
 		<Price>12950</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%206%20Plus/kzn/Cj8ICB_3.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>XwuCeB</Id>
+		<DateEnd>2019-06-05T07:33:49+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6 16Gb</Title>
+		<Description><![CDATA[<p>iPhone 6 16Gb с TouchID в заводских пленках, оригинал</p><p>- гарантия от 1 года до 2 лет по РФ<br>- покупка по карте, р/с, опт<br>- трейдин б/у<br>- ремонт любых гаджетов<br>- кредит, рассрочка до 36 мес</p><p>imei 359301064022337</p>]]></Description>
+		<Price>10950</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%206%2016Gb/kzn/Cj8ICB_2.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
