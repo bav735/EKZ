@@ -25599,4 +25599,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>lIBitJ</Id>
+		<DateEnd>2019-06-05T16:53:44+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy A5 2017</Title>
+		<Description><![CDATA[<p>Samsung Galaxy A5 2017 в заводской пленке, оригинал</p><p>- оплата по р/с, карте, опт<br>- ремонт любых телефонов<br>- гарантия от 1 года до 2 лет по РФ<br>- tradein б/у<br>- кредит, рассрочка до 36 мес</p><p>imei 354021088749229</p>]]></Description>
+		<Price>12450</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Samsung%20Galaxy%20A5%202017/msk/Cj8ICB_1.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
