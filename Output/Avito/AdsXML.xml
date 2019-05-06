@@ -25582,4 +25582,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>YV8SqC</Id>
+		<DateEnd>2019-06-05T16:53:13+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy Note 4</Title>
+		<Description><![CDATA[<p>Samsung Galaxy Note 4 в пленке, оригинал</p><p>- trade-in б/у<br>- ремонт любых устройств<br>- расчет по р/с, карте, опт<br>- кредит, рассрочка до 36 мес<br>- гарантия от 1 года до 2 лет по РФ</p><p>imei 354483062348255</p>]]></Description>
+		<Price>10050</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Samsung%20Galaxy%20Note%204/msk/Cj8ICB_2.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
