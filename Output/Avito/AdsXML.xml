@@ -23108,7 +23108,7 @@
 	</Ad>
 	<Ad>
 		<Id>APHK6Q</Id>
-		<DateEnd>2019-06-04T18:12:30+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -24362,6 +24362,23 @@
 		<Price>7700</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%205S/kzn/Cj8ICB_4.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>8c9r6U</Id>
+		<DateEnd>2019-06-05T03:13:16+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 8</Title>
+		<Description><![CDATA[<p>iPhone 8 в пленке, оригинал</p><p>- гарантия от 1 года до 2 лет по РФ<br>- рассрочка, кредит до 36 мес<br>- взаиморасчет по карте, р/с, опт<br>- трейд-ин б/у<br>- ремонт любых гаджетов</p><p>imei 359498087406768</p>]]></Description>
+		<Price>29300</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%208/kzn/Cj8ICB_6.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
