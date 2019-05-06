@@ -25769,4 +25769,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>t50aAo</Id>
+		<DateEnd>2019-06-05T17:34:53+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 4S 16Gb</Title>
+		<Description><![CDATA[<p>iPhone 4S 16Gb в пленке, оригинал</p><p>- взаиморасчет по р/с, карте, опт<br>- кредит, рассрочка до 36 мес<br>- трейдин б/у<br>- ремонт любых телефонов<br>- гарантия от 1 года до 2 лет по РФ</p><p>imei 013024008560661</p>]]></Description>
+		<Price>3200</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%204S%2016Gb/msk/Cj8ICB_1.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
