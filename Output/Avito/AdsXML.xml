@@ -17176,7 +17176,7 @@
 	</Ad>
 	<Ad>
 		<Id>Dt66A7</Id>
-		<DateEnd>2019-05-23T10:07:48+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -24736,6 +24736,23 @@
 		<Price>35850</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%208%20Plus/kzn/Cj8ICB_5.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>fsjVR7</Id>
+		<DateEnd>2019-06-05T11:08:23+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5 16Gb</Title>
+		<Description><![CDATA[<p>iPhone 5 16Gb в пленке, оригинал</p><p>- гарантия от 1 года до 2 лет по РФ<br>- рассрочка, кредит до 36 мес<br>- трейд-ин б/у<br>- покупка по карте, р/с, опт<br>- ремонт любых гаджетов</p><p>imei 013349007335207</p>]]></Description>
+		<Price>5700</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%205%2016Gb/kzn/Cj8ICB_3.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
