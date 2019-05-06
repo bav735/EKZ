@@ -26163,4 +26163,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>yC7bSQ</Id>
+		<DateEnd>2019-06-05T22:24:01+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7 32Gb</Title>
+		<Description><![CDATA[<p>iPhone 7 32Gb в заводских пленках, оригинал</p><p>- ремонт любых телефонов<br>- расчет по карте, р/с, опт<br>- гарантия от 1 года до 2 лет по РФ<br>- рассрочка, кредит до 36 мес<br>- трейд-ин б/у</p><p>imei 359210077131789</p>]]></Description>
+		<Price>17100</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%207%2032Gb/msk/Cj8ICB_2.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
