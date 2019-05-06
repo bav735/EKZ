@@ -14283,7 +14283,7 @@
 	</Ad>
 	<Ad>
 		<Id>PxszL9</Id>
-		<DateEnd>2019-05-13T02:18:42+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -24668,6 +24668,23 @@
 		<Price>29300</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%208/kzn/Cj8ICB_8.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>oqRE3K</Id>
+		<DateEnd>2019-06-05T06:04:23+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S8</Title>
+		<Description><![CDATA[<p>Samsung Galaxy S8 в пленке, оригинал</p><p>- покупка по р/с, карте, опт<br>- трейд-ин б/у<br>- рассрочка, кредит до 36 мес<br>- ремонт любых телефонов<br>- гарантия от 1 года до 2 лет по РФ</p><p>imei 353111092457553</p>]]></Description>
+		<Price>25350</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Samsung%20Galaxy%20S8/kzn/Cj8ICB_0.jpg"/>
 		</Images>
 	</Ad>
 </Ads>
