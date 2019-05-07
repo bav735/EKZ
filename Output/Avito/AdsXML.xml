@@ -27328,4 +27328,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>yrYsCT</Id>
+		<DateEnd>2019-06-06T18:01:56+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S9</Title>
+		<Description><![CDATA[<p>Samsung Galaxy S9 в заводской пленке, оригинал</p><p>- tradein б/у<br>- ремонт любых телефонов<br>- кредит, рассрочка до 36 мес<br>- гарантия от 1 года до 2 лет по РФ<br>- взаиморасчет по р/с, карте, опт</p><p>imei 352711094648280</p>]]></Description>
+		<Price>34450</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Samsung%20Galaxy%20S9/msk/Cj8ICB_2.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
