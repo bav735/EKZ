@@ -26810,4 +26810,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>hwIRJJ</Id>
+		<DateEnd>2019-06-06T16:58:24+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 4S 64Gb</Title>
+		<Description><![CDATA[<p>iPhone 4S 64Gb в заводской пленке, оригинал</p><p>- trade-in б/у<br>- ремонт любых гаджетов<br>- кредит, рассрочка до 36 мес<br>- взаиморасчет по карте, р/с, опт<br>- гарантия от 1 года до 2 лет по РФ</p><p>imei 013006004252609</p>]]></Description>
+		<Price>4300</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%204S%2064Gb/msk/Cj8ICB_2.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
