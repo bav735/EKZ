@@ -27191,4 +27191,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>QSgPg4</Id>
+		<DateEnd>2019-06-06T17:52:12+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S7 Edge</Title>
+		<Description><![CDATA[<p>Samsung Galaxy S7 Edge в заводской пленке, оригинал</p><p>- ремонт любых устройств<br>- trade-in б/у<br>- гарантия от 1 года до 2 лет по РФ<br>- расчет по р/с, карте, опт<br>- кредит, рассрочка до 36 мес</p><p>imei 357751079261043</p>]]></Description>
+		<Price>15500</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Samsung%20Galaxy%20S7%20Edge/msk/Cj8ICB_1.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
