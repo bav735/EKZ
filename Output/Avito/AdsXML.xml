@@ -27208,4 +27208,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>Jctf6x</Id>
+		<DateEnd>2019-06-06T17:52:54+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi 3S 16Gb</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi 3S 16Gb в пленках, оригинал</p><p>- гарантия от 1 года до 2 лет по РФ<br>- покупка по карте, р/с, опт<br>- tradein б/у<br>- ремонт любых устройств<br>- рассрочка, кредит до 36 мес</p><p>imei 862584031823297</p>]]></Description>
+		<Price>7000</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Xiaomi%20Redmi%203S%2016Gb/msk/Cj8ICB_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
