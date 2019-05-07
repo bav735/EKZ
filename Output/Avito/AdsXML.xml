@@ -27397,4 +27397,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>dsg132</Id>
+		<DateEnd>2019-06-06T18:26:55+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 8 Plus 256Gb</Title>
+		<Description><![CDATA[<p>iPhone 8 Plus 256Gb в заводской пленке, оригинал</p><p>- покупка по р/с, карте, опт<br>- гарантия от 1 года до 2 лет по РФ<br>- tradein б/у<br>- рассрочка, кредит до 36 мес<br>- ремонт любых устройств</p><p>imei 356711086106384</p>]]></Description>
+		<Price>37500</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%208%20Plus%20256Gb/msk/Cj8ICB_1.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
