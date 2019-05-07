@@ -9780,7 +9780,7 @@
 	</Ad>
 	<Ad>
 		<Id>iceNZn</Id>
-		<DateEnd>2019-05-06T08:13:11+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -26654,6 +26654,23 @@
 		<Price>29550</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Samsung%20Galaxy%20Note%208/msk/Cj8ICB_3.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>LRevz6</Id>
+		<DateEnd>2019-06-06T16:34:58+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 8 Plus 64Gb</Title>
+		<Description><![CDATA[<p>iPhone 8 Plus 64Gb в заводских пленках, оригинал</p><p>- покупка по карте, р/с, опт<br>- кредит, рассрочка до 36 мес<br>- ремонт любых телефонов<br>- гарантия от 1 года до 2 лет по РФ<br>- tradein б/у</p><p>imei 352977099998349</p>]]></Description>
+		<Price>33200</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%208%20Plus%2064Gb/msk/Cj8ICB_4.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
