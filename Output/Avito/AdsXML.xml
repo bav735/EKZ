@@ -23318,7 +23318,7 @@
 	</Ad>
 	<Ad>
 		<Id>UtNNuU</Id>
-		<DateEnd>2019-06-04T18:22:59+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -26980,6 +26980,24 @@
 		<Price>11450</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Xiaomi%20Mi%20A2%20Lite%2032Gb/msk/Cj8ICB_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>iegTMs</Id>
+		<DateEnd>2019-06-06T17:12:41+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7 Plus</Title>
+		<Description><![CDATA[<p>iPhone 7 Plus в заводской пленке, оригинал</p><p>- ремонт любых устройств<br>- гарантия от 1 года до 2 лет по РФ<br>- трейд-ин б/у<br>- оплата по карте, р/с, опт<br>- рассрочка, кредит до 36 мес</p><p>imei 353808080202228</p>]]></Description>
+		<Price>25650</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%207%20Plus/kzn/Cj8ICB_6.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
