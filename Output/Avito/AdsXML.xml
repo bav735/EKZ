@@ -1365,7 +1365,7 @@
 	</Ad>
 	<Ad>
 		<Id>ezOgqF</Id>
-		<DateEnd>2019-04-21T11:26:04+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -27050,6 +27050,24 @@
 		<Price>10050</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Xiaomi%20Redmi%204X%2064Gb/msk/Cj8ICB_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>BscWkA</Id>
+		<DateEnd>2019-06-06T17:27:55+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi 4 Pro</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi 4 Pro в пленке, оригинал</p><p>- кредит, рассрочка до 36 мес<br>- гарантия от 1 года до 2 лет по РФ<br>- ремонт любых устройств<br>- взаиморасчет по карте, р/с, опт<br>- трейдин б/у</p><p>imei 863285037202507</p>]]></Description>
+		<Price>9250</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Xiaomi%20Redmi%204%20Pro/kzn/Cj8ICB_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
