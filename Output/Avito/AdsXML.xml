@@ -9542,7 +9542,7 @@
 	</Ad>
 	<Ad>
 		<Id>EE1jCn</Id>
-		<DateEnd>2019-05-06T08:13:11+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -26569,6 +26569,23 @@
 		<Price>13100</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%206S%2032Gb/msk/Cj8ICB_10.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>U9jyc2</Id>
+		<DateEnd>2019-06-06T16:10:40+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6 128Gb</Title>
+		<Description><![CDATA[<p>iPhone 6 128Gb в пленках, оригинал</p><p>- ремонт любых устройств<br>- гарантия от 1 года до 2 лет по РФ<br>- взаиморасчет по карте, р/с, опт<br>- трейдин б/у<br>- рассрочка, кредит до 36 мес</p><p>imei 352074069257409</p>]]></Description>
+		<Price>13800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Apple%20iPhone%206%20128Gb/msk/Cj8ICB_4.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
