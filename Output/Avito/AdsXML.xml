@@ -26913,4 +26913,22 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>MVS8cE</Id>
+		<DateEnd>2019-06-06T17:08:09+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi 4A</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi 4A в заводской пленке, оригинал</p><p>- tradein б/у<br>- гарантия от 1 года до 2 лет по РФ<br>- кредит, рассрочка до 36 мес<br>- оплата по р/с, карте, опт<br>- ремонт любых телефонов</p><p>imei 865400033955291</p>]]></Description>
+		<Price>7450</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Xiaomi%20Redmi%204A/kzn/Cj8ICB_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
