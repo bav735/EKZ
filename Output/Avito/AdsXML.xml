@@ -26469,4 +26469,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>YXUQck</Id>
+		<DateEnd>2019-06-06T10:43:28+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi 4A 16Gb</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi 4A 16Gb в заводской пленке, оригинал</p><p>- рассрочка, кредит до 36 мес<br>- гарантия от 1 года до 2 лет по РФ<br>- ремонт любых телефонов<br>- трейд-ин б/у<br>- покупка по р/с, карте, опт</p><p>imei 866624033198987</p>]]></Description>
+		<Price>6750</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Xiaomi%20Redmi%204A%2016Gb/msk/Cj8ICB_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
