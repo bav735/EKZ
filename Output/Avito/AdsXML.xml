@@ -26966,4 +26966,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>35ef0k</Id>
+		<DateEnd>2019-06-06T17:11:11+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Mi A2 Lite 32Gb</Title>
+		<Description><![CDATA[<p>Xiaomi Mi A2 Lite 32Gb в пленке, оригинал</p><p>- ремонт любых гаджетов<br>- кредит, рассрочка до 36 мес<br>- гарантия от 1 года до 2 лет по РФ<br>- tradein б/у<br>- покупка по р/с, карте, опт</p><p>imei 863896040345610</p>]]></Description>
+		<Price>11450</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Xiaomi%20Mi%20A2%20Lite%2032Gb/msk/Cj8ICB_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
