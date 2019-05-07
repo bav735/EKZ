@@ -26725,4 +26725,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>JGDWIy</Id>
+		<DateEnd>2019-06-06T16:40:54+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi 4X 32Gb</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi 4X 32Gb в пленках, оригинал</p><p>- рассрочка, кредит до 36 мес<br>- tradein б/у<br>- взаиморасчет по р/с, карте, опт<br>- гарантия от 1 года до 2 лет по РФ<br>- ремонт любых телефонов</p><p>imei 865815032646098</p>]]></Description>
+		<Price>8200</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Xiaomi%20Redmi%204X%2032Gb/msk/Cj8ICB_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
