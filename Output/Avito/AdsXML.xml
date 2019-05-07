@@ -26640,4 +26640,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>C3Rdrp</Id>
+		<DateEnd>2019-06-06T16:18:59+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy Note 8</Title>
+		<Description><![CDATA[<p>Samsung Galaxy Note 8 в заводской пленке, оригинал</p><p>- трейдин б/у<br>- рассрочка, кредит до 36 мес<br>- покупка по карте, р/с, опт<br>- ремонт любых телефонов<br>- гарантия от 1 года до 2 лет по РФ</p><p>imei 358505089619668</p>]]></Description>
+		<Price>29550</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/gen/main/Samsung%20Galaxy%20Note%208/msk/Cj8ICB_3.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosForAvito/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
