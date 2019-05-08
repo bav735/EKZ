@@ -27826,4 +27826,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>RkkZSM</Id>
+		<DateEnd>2019-06-07T10:05+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S8 Plus</Title>
+		<Description><![CDATA[<p>Samsung Galaxy S8 Plus в пленках, оригинал</p><p>- кредит, рассрочка до 36 мес<br>- ремонт любых телефонов<br>- гарантия от 1 года до 2 лет по РФ<br>- tradein б/у<br>- взаиморасчет по р/с, карте, опт</p><p>imei 355980081289096</p>]]></Description>
+		<Price>25300</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20S8%20Plus/msk/Cj8ICB_3.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
