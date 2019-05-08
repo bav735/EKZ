@@ -28497,4 +28497,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>Ex8BkL</Id>
+		<DateEnd>2019-06-07T13:49:37+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5 32Gb</Title>
+		<Description><![CDATA[<p>iPhone 5 32Gb в пленках, оригинал</p><p>- tradein б/у<br>- гарантия от 1 года до 2 лет по РФ<br>- кредит, рассрочка до 36 мес<br>- расчет по карте, р/с, опт<br>- ремонт любых устройств</p><p>imei 013349002575450</p>]]></Description>
+		<Price>5400</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%205%2032Gb/msk/Cj8ICB_3.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
