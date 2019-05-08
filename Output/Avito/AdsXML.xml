@@ -28257,4 +28257,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>RKR1ZN</Id>
+		<DateEnd>2019-06-07T11:41:37+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone SE 16Gb</Title>
+		<Description><![CDATA[<p>iPhone SE 16Gb в заводских пленках, оригинал</p><p>- рассрочка, кредит до 36 мес<br>- трейдин б/у<br>- гарантия от 1 года до 2 лет по РФ<br>- ремонт любых телефонов<br>- расчет по карте, р/с, опт</p><p>imei 359222070774820</p>]]></Description>
+		<Price>10650</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%20SE%2016Gb/msk/Cj8ICB_3.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
