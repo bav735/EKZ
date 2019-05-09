@@ -30505,4 +30505,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>IiHab6</Id>
+		<DateEnd>2019-06-08T15:30:15+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S4</Title>
+		<Description><![CDATA[<p>Samsung Galaxy S4 в пленках, оригинал</p><p>- trade-in б/у<br>- гарантия от 1 года до 2 лет по РФ<br>- ремонт любых гаджетов<br>- кредит, рассрочка до 36 мес<br>- расчет по карте, р/с, опт</p><p>imei 357138053868482</p>]]></Description>
+		<Price>5400</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20S4/msk/Cj8ICB_2.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
