@@ -25040,7 +25040,7 @@
 	</Ad>
 	<Ad>
 		<Id>nicYmn</Id>
-		<DateEnd>2019-06-05T13:03:13+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -30296,6 +30296,23 @@
 		<Price>7600</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20S5/msk/Cj8ICB_3.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>nIwUQp</Id>
+		<DateEnd>2019-06-08T14:43:39+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6S Plus 64Gb</Title>
+		<Description><![CDATA[<p>iPhone 6S Plus 64Gb в заводской пленке, оригинал</p><p>- ремонт любых устройств<br>- кредит, рассрочка до 36 мес<br>- расчет по карте, р/с, опт<br>- гарантия от 1 года до 2 лет по РФ<br>- tradein б/у</p><p>imei 353289078968296</p>]]></Description>
+		<Price>17950</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%206S%20Plus%2064Gb/msk/Cj8ICB_6.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
