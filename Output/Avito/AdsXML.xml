@@ -22699,7 +22699,7 @@
 	</Ad>
 	<Ad>
 		<Id>g1d7ko</Id>
-		<DateEnd>2019-06-04T16:00:22+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -29935,6 +29935,23 @@
 		<Price>26400</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%207%20Plus%20128Gb/msk/Cj8ICB_9.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>7cNLZV</Id>
+		<DateEnd>2019-06-08T13:06:56+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy Note 8</Title>
+		<Description><![CDATA[<p>Samsung Galaxy Note 8 в пленках, оригинал</p><p>- ремонт любых устройств<br>- tradein б/у<br>- рассрочка, кредит до 36 мес<br>- гарантия от 1 года до 2 лет по РФ<br>- взаиморасчет по карте, р/с, опт</p><p>imei 358505088151184</p>]]></Description>
+		<Price>29550</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20Note%208/msk/Cj8ICB_5.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
