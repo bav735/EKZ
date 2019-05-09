@@ -8876,7 +8876,7 @@
 	</Ad>
 	<Ad>
 		<Id>NV4MLr</Id>
-		<DateEnd>2019-05-05T16:42:27+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -30262,6 +30262,23 @@
 		<Price>8800</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20Note%203/msk/Cj8ICB_3.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>I8I947</Id>
+		<DateEnd>2019-06-08T14:42:06+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S6</Title>
+		<Description><![CDATA[<p>Samsung Galaxy S6 в пленке, оригинал</p><p>- покупка по карте, р/с, опт<br>- трейдин б/у<br>- ремонт любых устройств<br>- гарантия от 1 года до 2 лет по РФ<br>- кредит, рассрочка до 36 мес</p><p>imei 358843060148724</p>]]></Description>
+		<Price>10650</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20S6/msk/Cj8ICB_4.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
