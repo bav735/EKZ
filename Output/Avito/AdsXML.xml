@@ -21543,7 +21543,7 @@
 	</Ad>
 	<Ad>
 		<Id>ZFhUJz</Id>
-		<DateEnd>2019-06-04T15:44:19+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -29628,6 +29628,23 @@
 		<Price>33200</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%208%20Plus%2064Gb/msk/Cj8ICB_7.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>MkjqrH</Id>
+		<DateEnd>2019-06-08T09:45:47+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5S 16Gb</Title>
+		<Description><![CDATA[<p>iPhone 5S 16Gb с TouchID в заводских пленках, оригинал</p><p>- trade-in б/у<br>- гарантия от 1 года до 2 лет по РФ<br>- взаиморасчет по р/с, карте, опт<br>- кредит, рассрочка до 36 мес<br>- ремонт любых устройств</p><p>imei 358804050308173</p>]]></Description>
+		<Price>7000</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%205S%2016Gb/msk/Cj8ICB_6.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
