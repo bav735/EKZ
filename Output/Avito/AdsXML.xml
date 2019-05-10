@@ -33100,4 +33100,22 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>7WEALx</Id>
+		<DateEnd>2019-06-09T20:08:40+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi 7</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi 7 в пленках, оригинал</p><p>- оплата по карте, р/с, опт<br>- гарантия от 1 года до 2 лет по РФ<br>- trade-in б/у<br>- ремонт любых телефонов<br>- кредит, рассрочка до 36 мес</p><p>imei 866489040314468</p>]]></Description>
+		<Price>12600</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Xiaomi%20Redmi%207/kzn/Cj8ICB_1.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
