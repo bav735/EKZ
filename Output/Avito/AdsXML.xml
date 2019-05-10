@@ -8740,7 +8740,7 @@
 	</Ad>
 	<Ad>
 		<Id>3bCM95</Id>
-		<DateEnd>2019-05-05T16:42:27+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -31694,6 +31694,23 @@
 		<Price>3200</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%204S%2016Gb/msk/Cj8ICB_5.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>MVnXaC</Id>
+		<DateEnd>2019-06-09T08:27:35+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S6 Edge</Title>
+		<Description><![CDATA[<p>Samsung Galaxy S6 Edge в пленке, оригинал</p><p>- рассрочка, кредит до 36 мес<br>- ремонт любых гаджетов<br>- взаиморасчет по карте, р/с, опт<br>- гарантия от 1 года до 2 лет по РФ<br>- трейдин б/у</p><p>imei 359668061851953</p>]]></Description>
+		<Price>12450</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20S6%20Edge/msk/Cj8ICB_4.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
