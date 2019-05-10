@@ -32767,4 +32767,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>yu6c07</Id>
+		<DateEnd>2019-06-09T16:22:01+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi Note 5A 32Gb</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi Note 5A 32Gb в заводских пленках, оригинал</p><p>- гарантия от 1 года до 2 лет по РФ<br>- трейдин б/у<br>- ремонт любых телефонов<br>- покупка по карте, р/с, опт<br>- кредит, рассрочка до 36 мес</p><p>imei 865396035087002</p>]]></Description>
+		<Price>10250</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Xiaomi%20Redmi%20Note%205A%2032Gb/msk/Cj8ICB_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
