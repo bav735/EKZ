@@ -31543,4 +31543,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>x9r8Vq</Id>
+		<DateEnd>2019-06-09T04:59:19+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi Note 6 Pro 32Gb</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi Note 6 Pro 32Gb в пленке, оригинал</p><p>- ремонт любых устройств<br>- рассрочка, кредит до 36 мес<br>- покупка по карте, р/с, опт<br>- tradein б/у<br>- гарантия от 1 года до 2 лет по РФ</p><p>imei 861250045518247</p>]]></Description>
+		<Price>13100</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Xiaomi%20Redmi%20Note%206%20Pro%2032Gb/msk/Cj8ICB_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
