@@ -15613,7 +15613,7 @@
 	</Ad>
 	<Ad>
 		<Id>CQpD8c</Id>
-		<DateEnd>2019-05-17T13:36:55+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -32781,6 +32781,24 @@
 		<Price>10250</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Xiaomi%20Redmi%20Note%205A%2032Gb/msk/Cj8ICB_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>Q0lPLJ</Id>
+		<DateEnd>2019-06-09T16:23:32+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi Note 3</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi Note 3 в заводской пленке, оригинал</p><p>- трейд-ин б/у<br>- кредит, рассрочка до 36 мес<br>- ремонт любых гаджетов<br>- гарантия от 1 года до 2 лет по РФ<br>- взаиморасчет по р/с, карте, опт</p><p>imei 868029023717556</p>]]></Description>
+		<Price>7450</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Xiaomi%20Redmi%20Note%203/kzn/Cj8ICB_2.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
