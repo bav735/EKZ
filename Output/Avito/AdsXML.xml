@@ -25635,7 +25635,7 @@
 	</Ad>
 	<Ad>
 		<Id>dyIJqL</Id>
-		<DateEnd>2019-06-05T17:13:45+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -31488,6 +31488,23 @@
 		<Price>11350</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%206%2064Gb/msk/Cj8ICB_16.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>t1WOMV</Id>
+		<DateEnd>2019-06-09T03:32:32+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6 Plus 16Gb</Title>
+		<Description><![CDATA[<p>iPhone 6 Plus 16Gb с TouchID в заводской пленке, оригинал</p><p>- оплата по карте, р/с, опт<br>- trade-in б/у<br>- гарантия от 1 года до 2 лет по РФ<br>- рассрочка, кредит до 36 мес<br>- ремонт любых устройств</p><p>imei 354437060698772</p>]]></Description>
+		<Price>13300</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%206%20Plus%2016Gb/msk/Cj8ICB_8.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
