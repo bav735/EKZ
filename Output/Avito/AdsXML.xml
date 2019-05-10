@@ -28070,7 +28070,7 @@
 	</Ad>
 	<Ad>
 		<Id>BGOUu7</Id>
-		<DateEnd>2019-06-07T11:00+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -32295,6 +32295,24 @@
 		<Price>15750</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%206%20Plus%20128Gb/msk/Cj8ICB_3.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>1Ci0Rs</Id>
+		<DateEnd>2019-06-09T12:06:56+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6</Title>
+		<Description><![CDATA[<p>iPhone 6 без TouchID в заводской пленке, оригинал</p><p>- оплата по карте, р/с, опт<br>- гарантия от 1 года до 2 лет по РФ<br>- рассрочка, кредит до 36 мес<br>- ремонт любых гаджетов<br>- tradein б/у</p><p>imei 354393062877338</p>]]></Description>
+		<Price>8350</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%206/kzn/Cj8ICB_12.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
