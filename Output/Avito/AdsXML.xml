@@ -28105,7 +28105,7 @@
 	</Ad>
 	<Ad>
 		<Id>lJLaBt</Id>
-		<DateEnd>2019-06-07T11:03:01+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -34494,6 +34494,24 @@
 		<Price>11350</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%20SE%2032Gb/msk/Cj8ICB_11.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>kacdYR</Id>
+		<DateEnd>2019-06-10T17:46:37+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6S</Title>
+		<Description><![CDATA[<p>iPhone 6S без TouchID в пленке, оригинал</p><p>- кредит, рассрочка до 36 мес<br>- гарантия от 1 года до 2 лет по РФ<br>- ремонт любых телефонов<br>- трейдин б/у<br>- взаиморасчет по карте, р/с, опт</p><p>imei 358569077272930</p>]]></Description>
+		<Price>12150</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%206S/kzn/Cj8ICB_10.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
