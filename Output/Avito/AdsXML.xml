@@ -29119,7 +29119,7 @@
 	</Ad>
 	<Ad>
 		<Id>VmFSId</Id>
-		<DateEnd>2019-06-07T18:21:36+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -33764,6 +33764,23 @@
 		<Price>3650</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%204S/kzn/Cj8ICB_4.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>YC730Z</Id>
+		<DateEnd>2019-06-10T07:46:25+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S10</Title>
+		<Description><![CDATA[<p>Samsung Galaxy S10 в заводских пленках, оригинал</p><p>- оплата по р/с, карте, опт<br>- гарантия от 1 года до 2 лет по РФ<br>- trade-in б/у<br>- рассрочка, кредит до 36 мес<br>- ремонт любых гаджетов</p><p>imei 3519101048576579</p>]]></Description>
+		<Price>58500</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20S10/msk/Cj8ICB_7.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
