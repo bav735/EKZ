@@ -23660,7 +23660,7 @@
 	</Ad>
 	<Ad>
 		<Id>RFmq0G</Id>
-		<DateEnd>2019-06-04T19:33:33+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -33815,6 +33815,24 @@
 		<Price>11250</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%20SE%2032Gb/msk/Cj8ICB_8.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>j55kDL</Id>
+		<DateEnd>2019-06-10T07:48:06+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 4S</Title>
+		<Description><![CDATA[<p>iPhone 4S в пленках, оригинал</p><p>- гарантия от 1 года до 2 лет по РФ<br>- ремонт любых телефонов<br>- кредит, рассрочка до 36 мес<br>- покупка по р/с, карте, опт<br>- трейдин б/у</p><p>imei 990001014787055</p>]]></Description>
+		<Price>3650</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%204S/kzn/Cj8ICB_5.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
