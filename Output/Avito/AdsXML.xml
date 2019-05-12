@@ -25856,7 +25856,7 @@
 	</Ad>
 	<Ad>
 		<Id>VRhA5x</Id>
-		<DateEnd>2019-06-05T18:13:13+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -34721,6 +34721,23 @@
 		<Price>12450</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20S7/msk/Cj8ICB_6.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>i8VfVK</Id>
+		<DateEnd>2019-06-11T13:44:08+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5 16Gb</Title>
+		<Description><![CDATA[<p>iPhone 5 16Gb в заводских пленках, 100% оригинал, не ремонтировался</p><p>- трейд-ин б/у<br>- великолепная гарантия от 1 года до 2 лет по РФ<br>- честные рассрочка, кредит до 36 мес<br>- взаиморасчет по карте, р/с, опт</p><p>imei 013554000020637</p>]]></Description>
+		<Price>5250</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%205%2016Gb/msk/Cj8ICB_11.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
