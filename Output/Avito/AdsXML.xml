@@ -30558,7 +30558,7 @@
 	</Ad>
 	<Ad>
 		<Id>gbcf5a</Id>
-		<DateEnd>2019-06-08T15:46:50+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -34806,6 +34806,23 @@
 		<Price>22000</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%207%20256Gb/msk/Cj8ICB_10.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>auw1zj</Id>
+		<DateEnd>2019-06-11T13:57:28+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6 32Gb</Title>
+		<Description><![CDATA[<p>iPhone 6 32Gb в заводских пленках, 100% оригинал, не разбирался</p><p>- tradein б/у<br>- славная гарантия от 1 года до 2 лет<br>- доступные рассрочка, кредит до 36 мес<br>- взаиморасчет по карте, р/с, опт</p><p>imei 356680080612988</p>]]></Description>
+		<Price>11150</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%206%2032Gb/msk/Cj8ICB_9.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
