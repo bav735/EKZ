@@ -30181,7 +30181,7 @@
 	</Ad>
 	<Ad>
 		<Id>FR8T5d</Id>
-		<DateEnd>2019-06-08T14:36:58+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -34876,6 +34876,23 @@
 		<Price>11350</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%20SE%2032Gb/msk/Cj8ICB_12.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>KhYxNi</Id>
+		<DateEnd>2019-06-11T14:15:46+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 8 64Gb</Title>
+		<Description><![CDATA[<p>iPhone 8 64Gb в заводских пленках, 100% оригинал, не ремонтировался</p><p>- трейд-ин б/у<br>- великолепная гарантия от 1 года до 2 лет по РФ<br>- дешевые рассрочка, кредит до 36 мес<br>- расчет по карте, р/с, опт</p><p>imei 356761084546370</p>]]></Description>
+		<Price>27250</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%208%2064Gb/msk/Cj8ICB_17.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
