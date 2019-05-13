@@ -31373,7 +31373,7 @@
 	</Ad>
 	<Ad>
 		<Id>BWvNAI</Id>
-		<DateEnd>2019-06-09T01:24:20+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -35775,6 +35775,23 @@
 		<Price>4850</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%205%2016Gb/msk/Cj8ICB_12.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>6cefLH</Id>
+		<DateEnd>2019-06-12T11:33:32+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6S 32Gb</Title>
+		<Description><![CDATA[<p>iPhone 6S 32Gb без TouchID в заводских пленках, 100% оригинал, не ремонтировался</p><p>- tradein б/у<br>- замечательная гарантия до 2 лет<br>- выгодные рассрочка, кредит до 36 мес<br>- взаиморасчет по карте, р/с, опт</p><p>imei 355399081329663</p>]]></Description>
+		<Price>10950</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%206S%2032Gb/msk/Cj8ICB_21.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
