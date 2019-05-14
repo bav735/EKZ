@@ -22641,7 +22641,7 @@
 	</Ad>
 	<Ad>
 		<Id>J8vTMG</Id>
-		<DateEnd>2019-06-04T16:00:22+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -37550,6 +37550,23 @@
 		<Price>28450</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%208%20256Gb/msk/Cj8ICB_10.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>ONHfDn</Id>
+		<DateEnd>2019-06-13T13:30:12+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy Note 3</Title>
+		<Description><![CDATA[<p>Samsung Galaxy Note 3 в заводской пленке, 100% оригинал, не разбирался</p><p>- tradein б/у<br>- безупречная гарантия до 2 лет<br>- недорогие рассрочка, кредит до 36 мес<br>- оплата по карте, р/с, опт</p><p>imei 357518053975835</p>]]></Description>
+		<Price>8300</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20Note%203/msk/Cj8ICB_5.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
