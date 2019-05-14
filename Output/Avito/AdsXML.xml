@@ -34976,7 +34976,7 @@
 	</Ad>
 	<Ad>
 		<Id>r2eR97</Id>
-		<DateEnd>2019-06-11T14:35:42+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -37828,6 +37828,23 @@
 		<Price>7150</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%206%2016Gb/msk/Cj8ICB_21.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>38dVNe</Id>
+		<DateEnd>2019-06-13T14:43:28+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7 128Gb</Title>
+		<Description><![CDATA[<p>iPhone 7 128Gb в заводских пленках, оригинал, не ремонтировался</p><p>- tradein б/у<br>- замечательная гарантия до 2 лет<br>- удобные рассрочка, кредит до 36 мес<br>- расчет по карте, р/с, опт</p><p>imei 356560083294721</p>]]></Description>
+		<Price>17750</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%207%20128Gb/msk/Cj8ICB_22.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
