@@ -37675,4 +37675,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>mF2I8F</Id>
+		<DateEnd>2019-06-13T13:46:44+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Mi A2 Lite 64Gb</Title>
+		<Description><![CDATA[<p>Xiaomi Mi A2 Lite 64Gb в заводских пленках, оригинал, не вскрывался</p><p>- tradein б/у<br>- честная гарантия до 2 лет по РФ<br>- удобные рассрочка, кредит до 36 мес<br>- покупка по карте, р/с, опт</p><p>imei 868137036999689</p>]]></Description>
+		<Price>12650</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Xiaomi%20Mi%20A2%20Lite%2064Gb/msk/Cj8ICB_1.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
