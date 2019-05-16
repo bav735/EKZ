@@ -34404,7 +34404,7 @@
 	</Ad>
 	<Ad>
 		<Id>6zM0NC</Id>
-		<DateEnd>2019-06-10T17:31:32+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -39962,6 +39962,23 @@
 		<Price>48650</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20S10/msk/Cj8ICB_13.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>1wDfrM</Id>
+		<DateEnd>2019-06-15T10:03:29+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7 Plus 256Gb</Title>
+		<Description><![CDATA[<p>iPhone 7 Plus 256Gb в заводских пленках, 100% оригинал, не разбирался</p><p>- трейдин б/у<br>- славная гарантия до 2 лет по РФ<br>- выгодные рассрочка, кредит до 36 мес<br>- оплата по карте, р/с, опт</p><p>imei 359172074719307</p>]]></Description>
+		<Price>26350</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%207%20Plus%20256Gb/msk/Cj8ICB_13.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
