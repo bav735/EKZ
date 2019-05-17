@@ -36626,7 +36626,7 @@
 	</Ad>
 	<Ad>
 		<Id>4Slryf</Id>
-		<DateEnd>2019-06-12T18:16:46+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -41267,6 +41267,24 @@
 		<Price>23300</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%207%20Plus/kzn/Cj8ICB_22.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>DLj9Kj</Id>
+		<DateEnd>2019-06-16T10:01:32+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone X</Title>
+		<Description><![CDATA[<p>iPhone X в заводских пленках, 100% оригинал, не вскрывался</p><p>- трейдин б/у<br>- надежная гарантия до 2 лет по РФ<br>- выгодные рассрочка, кредит до 36 мес<br>- покупка по карте, р/с, опт</p><p>imei 359410084464195</p>]]></Description>
+		<Price>44900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%20X/kzn/Cj8ICB_18.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
