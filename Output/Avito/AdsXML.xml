@@ -35591,7 +35591,7 @@
 	</Ad>
 	<Ad>
 		<Id>bZl0JT</Id>
-		<DateEnd>2019-06-12T10:06:49+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -42881,6 +42881,23 @@
 		<Price>4900</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20S3/msk/Cj8ICB_5.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>nzROPs</Id>
+		<DateEnd>2019-06-17T16:30:25+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S7</Title>
+		<Description><![CDATA[<p>Samsung Galaxy S7 в заводских пленках, 100% оригинал, не ремонтировался</p><p>- трейдин б/у<br>- замечательная гарантия до 2 лет<br>- честные рассрочка, кредит до 36 мес<br>- оплата по карте, р/с, опт</p><p>imei 355916072366527</p>]]></Description>
+		<Price>11700</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20S7/msk/Cj8ICB_12.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
