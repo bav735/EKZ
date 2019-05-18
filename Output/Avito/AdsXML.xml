@@ -42529,4 +42529,22 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>tzLvYl</Id>
+		<DateEnd>2019-06-17T09:22+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 4S 32Gb</Title>
+		<Description><![CDATA[<p>iPhone 4S 32Gb в заводских пленках, оригинал, не ремонтировался</p><p>- trade-in б/у<br>- настоящая гарантия до 2 лет по РФ<br>- дешевые рассрочка, кредит до 36 мес<br>- взаиморасчет по карте, р/с, опт</p><p>imei 013044006963964</p>]]></Description>
+		<Price>4100</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%204S%2032Gb/kzn/Cj8ICB_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
