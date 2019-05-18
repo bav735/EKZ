@@ -43181,4 +43181,22 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>sugR2S</Id>
+		<DateEnd>2019-06-17T17:35:23+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy Note 8</Title>
+		<Description><![CDATA[<p>Samsung Galaxy Note 8 в заводских пленках, 100% оригинал, не ремонтировался</p><p>- trade-in б/у<br>- великолепная гарантия до 2 лет<br>- доступные рассрочка, кредит до 36 мес<br>- взаиморасчет по карте, р/с, опт</p><p>imei 358505082215183</p>]]></Description>
+		<Price>29300</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20Note%208/kzn/Cj8ICB_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
