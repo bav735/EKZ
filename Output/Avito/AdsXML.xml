@@ -42565,4 +42565,22 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>CvnUGP</Id>
+		<DateEnd>2019-06-17T09:26:58+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7 Plus 256Gb</Title>
+		<Description><![CDATA[<p>iPhone 7 Plus 256Gb в заводских пленках, 100% оригинал, не разбирался</p><p>- trade-in б/у<br>- славная гарантия до 2 лет<br>- выгодные рассрочка, кредит до 36 мес<br>- покупка по карте, р/с, опт</p><p>imei 359175071154006</p>]]></Description>
+		<Price>27500</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%207%20Plus%20256Gb/kzn/Cj8ICB_0.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
