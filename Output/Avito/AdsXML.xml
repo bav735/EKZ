@@ -20126,7 +20126,7 @@
 	</Ad>
 	<Ad>
 		<Id>YvyCYH</Id>
-		<DateEnd>2019-05-26T21:23:27+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -44759,6 +44759,24 @@
 		<Price>15700</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%207%2032Gb/msk/Cj8ICB_26.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>92LEh7</Id>
+		<DateEnd>2019-06-18T16:31:01+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6S 64Gb</Title>
+		<Description><![CDATA[<p>iPhone 6S 64Gb с TouchID в заводских пленках, оригинал, не разбирался</p><p>- трейдин б/у<br>- великолепная гарантия до 2 лет<br>- честные рассрочка, кредит до 36 мес<br>- оплата по карте, р/с, опт</p><p>imei 355424074582142</p>]]></Description>
+		<Price>13000</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%206S%2064Gb/kzn/Cj8ICB_3.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
