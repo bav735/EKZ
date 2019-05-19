@@ -35346,7 +35346,7 @@
 	</Ad>
 	<Ad>
 		<Id>1lYz3q</Id>
-		<DateEnd>2019-06-12T08:31:54+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -43994,6 +43994,23 @@
 		<Price>24500</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%207%20Plus%20128Gb/msk/Cj8ICB_29.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>Ylx4vF</Id>
+		<DateEnd>2019-06-18T10:49:39+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6S 128Gb</Title>
+		<Description><![CDATA[<p>iPhone 6S 128Gb в заводской пленке, 100% оригинал, не вскрывался</p><p>- tradein б/у<br>- безупречная гарантия до 2 лет по РФ<br>- недорогие рассрочка, кредит до 36 мес<br>- покупка по карте, р/с, опт</p><p>imei 355691073012376</p>]]></Description>
+		<Price>13200</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%206S%20128Gb/msk/Cj8ICB_16.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
