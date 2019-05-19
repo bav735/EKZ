@@ -36644,7 +36644,7 @@
 	</Ad>
 	<Ad>
 		<Id>1WYIya</Id>
-		<DateEnd>2019-06-12T18:33:28+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -44011,6 +44011,23 @@
 		<Price>13200</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%206S%20128Gb/msk/Cj8ICB_16.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>MXR2tO</Id>
+		<DateEnd>2019-06-18T10:52:59+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 8 256Gb</Title>
+		<Description><![CDATA[<p>iPhone 8 256Gb в заводских пленках, 100% оригинал, не вскрывался</p><p>- трейдин б/у<br>- полноценная гарантия до 2 лет по РФ<br>- дешевые рассрочка, кредит до 36 мес<br>- оплата по карте, р/с, опт</p><p>imei 356765086790431</p>]]></Description>
+		<Price>27300</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%208%20256Gb/msk/Cj8ICB_14.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
