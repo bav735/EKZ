@@ -13600,7 +13600,7 @@
 	</Ad>
 	<Ad>
 		<Id>YK4Gbv</Id>
-		<DateEnd>2019-05-12T18:09:53+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -45663,6 +45663,24 @@
 		<Price>6100</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%205S/kzn/Cj8ICB_32.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>e3GQFm</Id>
+		<DateEnd>2019-06-19T12:35:42+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi Note 6 Pro</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi Note 6 Pro в заводских пленках, оригинал, не разбирался</p><p>- tradein б/у<br>- славная гарантия до 2 лет по РФ<br>- доступные рассрочка, кредит до 36 мес<br>- расчет по карте, р/с, опт</p><p>imei 861250046946124</p>]]></Description>
+		<Price>12900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Xiaomi%20Redmi%20Note%206%20Pro/kzn/Cj8ICB_2.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
