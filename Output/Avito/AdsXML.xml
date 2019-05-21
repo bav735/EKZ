@@ -42228,7 +42228,7 @@
 	</Ad>
 	<Ad>
 		<Id>KAubDv</Id>
-		<DateEnd>2019-06-16T18:59:54+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -47267,6 +47267,23 @@
 		<Price>27300</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%208%20256Gb/msk/Cj8ICB_15.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>Bkw5jz</Id>
+		<DateEnd>2019-06-20T11:05:56+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7 32Gb</Title>
+		<Description><![CDATA[<p>iPhone 7 32Gb в заводских пленках, 100% оригинал, не ремонтировался</p><p>- trade-in б/у<br>- замечательная гарантия до 2 лет по РФ<br>- честные рассрочка, кредит до 36 мес<br>- расчет по карте, р/с, опт</p><p>imei 356554083111787</p>]]></Description>
+		<Price>15700</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%207%2032Gb/msk/Cj8ICB_29.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
