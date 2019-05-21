@@ -39817,7 +39817,7 @@
 	</Ad>
 	<Ad>
 		<Id>Lwk3V9</Id>
-		<DateEnd>2019-06-15T09:00:10+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -47476,6 +47476,23 @@
 		<Price>5300</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%205/kzn/Cj8ICB_22.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>MJFMxl</Id>
+		<DateEnd>2019-06-20T14:25:55+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5S 32Gb</Title>
+		<Description><![CDATA[<p>iPhone 5S 32Gb с TouchID в заводской пленке, 100% оригинал, не вскрывался</p><p>- трейд-ин б/у<br>- безупречная гарантия до 2 лет<br>- честные рассрочка, кредит до 36 мес<br>- расчет по карте, р/с, опт</p><p>imei 013847002833704</p>]]></Description>
+		<Price>7800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%205S%2032Gb/msk/Cj8ICB_16.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
