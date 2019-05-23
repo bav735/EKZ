@@ -50093,4 +50093,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>ZjTTlA</Id>
+		<DateEnd>2019-06-22T11:04:24+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Mi Max 2 64Gb</Title>
+		<Description><![CDATA[<p>Xiaomi Mi Max 2 64Gb в заводских пленках, 100% оригинал, не разбирался</p><p>- трейд-ин б/у<br>- надежная гарантия до 2 лет по РФ<br>- выгодные рассрочка, кредит до 36 мес<br>- взаиморасчет по карте, р/с, опт</p><p>imei 864166039606177</p>]]></Description>
+		<Price>13600</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Xiaomi%20Mi%20Max%202%2064Gb/msk/Cj8ICB_2.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
