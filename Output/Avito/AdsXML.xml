@@ -12702,7 +12702,7 @@
 	</Ad>
 	<Ad>
 		<Id>Y8mKue</Id>
-		<DateEnd>2019-05-11T11:28:15+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -50698,6 +50698,24 @@
 		<Price>5100</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%205%2016Gb/msk/Cj8ICB_18.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>7xG9Fu</Id>
+		<DateEnd>2019-06-22T14:27:31+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi Note 4X</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi Note 4X в заводских пленках, оригинал, не разбирался</p><p>- трейд-ин б/у<br>- честная гарантия до 2 лет<br>- доступные рассрочка, кредит до 36 мес<br>- расчет по карте, р/с, опт</p><p>imei 866657037208873</p>]]></Description>
+		<Price>8800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Xiaomi%20Redmi%20Note%204X/kzn/Cj8ICB_0.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
