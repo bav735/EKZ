@@ -44850,7 +44850,7 @@
 	</Ad>
 	<Ad>
 		<Id>uWfMid</Id>
-		<DateEnd>2019-06-18T17:22:44+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -49829,6 +49829,23 @@
 		<Price>6800</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Xiaomi%20Redmi%20Note%203/kzn/Cj8ICB_5.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>GeouZ4</Id>
+		<DateEnd>2019-06-22T09:31:04+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S8</Title>
+		<Description><![CDATA[<p>Samsung Galaxy S8 в заводских пленках, оригинал, не ремонтировался</p><p>- tradein б/у<br>- безупречная гарантия до 2 лет по РФ<br>- честные рассрочка, кредит до 36 мес<br>- расчет по карте, р/с, опт</p><p>imei 357753087002195</p>]]></Description>
+		<Price>21000</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20S8/msk/Cj8ICB_28.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
