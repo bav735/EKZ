@@ -20454,7 +20454,7 @@
 	</Ad>
 	<Ad>
 		<Id>loMNDj</Id>
-		<DateEnd>2019-05-29T09:19:17+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -50862,6 +50862,24 @@
 		<Price>12300</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%206S/kzn/Cj8ICB_33.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>CqDv7p</Id>
+		<DateEnd>2019-06-22T15:10:49+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone SE 32Gb</Title>
+		<Description><![CDATA[<p>iPhone SE 32Gb в заводской пленке, 100% оригинал, не разбирался</p><p>- trade-in б/у<br>- настоящая гарантия до 2 лет по РФ<br>- выгодные рассрочка, кредит до 36 мес<br>- покупка по карте, р/с, опт</p><p>imei 356606086875634</p>]]></Description>
+		<Price>11700</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%20SE%2032Gb/kzn/Cj8ICB_4.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
