@@ -47101,7 +47101,7 @@
 	</Ad>
 	<Ad>
 		<Id>671yTp</Id>
-		<DateEnd>2019-06-20T10:37:37+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -50039,6 +50039,23 @@
 		<Price>10700</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%206/kzn/Cj8ICB_44.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>yDRSXg</Id>
+		<DateEnd>2019-06-22T10:57:44+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6S 64Gb</Title>
+		<Description><![CDATA[<p>iPhone 6S 64Gb с TouchID в заводских пленках, оригинал, не разбирался</p><p>- трейд-ин б/у<br>- надежная гарантия до 2 лет по РФ<br>- честные рассрочка, кредит до 36 мес<br>- оплата по карте, р/с, опт</p><p>imei 353269079439968</p>]]></Description>
+		<Price>12900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%206S%2064Gb/msk/Cj8ICB_41.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
