@@ -31094,7 +31094,7 @@
 	</Ad>
 	<Ad>
 		<Id>cPXE4W</Id>
-		<DateEnd>2019-06-08T22:07:31+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -50490,6 +50490,24 @@
 		<Price>15400</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Xiaomi%20Redmi%20Note%207/kzn/Cj8ICB_5.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>83R5K4</Id>
+		<DateEnd>2019-06-22T13:04:14+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi 4X</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi 4X в заводской пленке, 100% оригинал, не вскрывался</p><p>- трейдин б/у<br>- замечательная гарантия до 2 лет по РФ<br>- доступные рассрочка, кредит до 36 мес<br>- покупка по карте, р/с, опт</p><p>imei 862115039513042</p>]]></Description>
+		<Price>7500</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Xiaomi%20Redmi%204X/kzn/Cj8ICB_6.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
