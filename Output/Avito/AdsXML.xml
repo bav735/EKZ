@@ -45432,7 +45432,7 @@
 	</Ad>
 	<Ad>
 		<Id>Z8fJiP</Id>
-		<DateEnd>2019-06-19T11:19:06+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -51231,6 +51231,23 @@
 		<Price>16600</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%206S%20Plus%2064Gb/msk/Cj8ICB_19.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>BnIXp3</Id>
+		<DateEnd>2019-06-22T17:45:51+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S9</Title>
+		<Description><![CDATA[<p>Samsung Galaxy S9 в заводских пленках, 100% оригинал, не ремонтировался</p><p>- трейд-ин б/у<br>- настоящая гарантия до 2 лет по РФ<br>- выгодные рассрочка, кредит до 36 мес<br>- покупка по карте, р/с, опт</p><p>imei 352711096499328</p>]]></Description>
+		<Price>32900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20S9/msk/Cj8ICB_27.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
