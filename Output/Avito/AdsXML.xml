@@ -52540,4 +52540,22 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>VZHpOj</Id>
+		<DateEnd>2019-06-23T16:24:17+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S10 Plus</Title>
+		<Description><![CDATA[<p>Samsung Galaxy S10 Plus в заводских пленках, оригинал, не разбирался</p><p>- трейдин б/у<br>- надежная гарантия до 2 лет<br>- доступные рассрочка, кредит до 36 мес<br>- оплата по карте, р/с, опт</p><p>imei 354652103145421</p>]]></Description>
+		<Price>59500</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20S10%20Plus/kzn/Cj8ICB_1.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
