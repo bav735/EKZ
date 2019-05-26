@@ -48742,7 +48742,7 @@
 	</Ad>
 	<Ad>
 		<Id>Iots53</Id>
-		<DateEnd>2019-06-21T12:03:25+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -55625,6 +55625,23 @@
 		<Price>16000</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%207%2032Gb/msk/Cj8ICB_41.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>LkI7Bl</Id>
+		<DateEnd>2019-06-25T12:42:06+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 8 Plus 64Gb</Title>
+		<Description><![CDATA[<p>iPhone 8 Plus 64Gb в заводских пленках, оригинал, не вскрывался</p><p>- трейд-ин б/у<br>- славная гарантия до 2 лет<br>- недорогие рассрочка, кредит до 36 мес<br>- расчет по карте, р/с, опт</p><p>imei 356768081090161</p>]]></Description>
+		<Price>31000</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%208%20Plus%2064Gb/msk/Cj8ICB_35.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
