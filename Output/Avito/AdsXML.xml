@@ -51791,7 +51791,7 @@
 	</Ad>
 	<Ad>
 		<Id>aHzTMq</Id>
-		<DateEnd>2019-06-23T09:41:24+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -56719,6 +56719,24 @@
 		<Price>11900</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%206S/kzn/Cj8ICB_41.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>qsHSZo</Id>
+		<DateEnd>2019-06-26T11:19:15+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 8</Title>
+		<Description><![CDATA[<p>iPhone 8 в заводской пленке, 100% оригинал, не разбирался</p><p>- tradein б/у<br>- славная гарантия до 2 лет по РФ<br>- удобные рассрочка, кредит до 36 мес<br>- взаиморасчет по карте, р/с, опт</p><p>imei 356761083737632</p>]]></Description>
+		<Price>26500</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%208/kzn/Cj8ICB_38.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
