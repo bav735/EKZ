@@ -52998,7 +52998,7 @@
 	</Ad>
 	<Ad>
 		<Id>af3xlr</Id>
-		<DateEnd>2019-06-24T09:27:46+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -57854,6 +57854,23 @@
 		<Price>6600</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%205S%2016Gb/msk/Cj8ICB_40.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>6y66ge</Id>
+		<DateEnd>2019-06-26T19:30:01+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 7 Plus 128Gb</Title>
+		<Description><![CDATA[<p>iPhone 7 Plus 128Gb в заводских пленках, 100% оригинал, не ремонтировался</p><p>- трейд-ин б/у<br>- великолепная гарантия до 2 лет<br>- выгодные рассрочка, кредит до 36 мес<br>- расчет по карте, р/с, опт</p><p>imei 359470087201689</p>]]></Description>
+		<Price>25700</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%207%20Plus%20128Gb/msk/Cj8ICB_45.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
