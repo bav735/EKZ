@@ -59109,4 +59109,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>hOMviQ</Id>
+		<DateEnd>2019-06-27T17:17:32+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi 6 32Gb</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi 6 32Gb в заводских пленках, оригинал, не ремонтировался</p><p>- трейд-ин б/у<br>- великолепная гарантия до 2 лет по РФ<br>- дешевые рассрочка, кредит до 36 мес<br>- взаиморасчет по карте, р/с, опт</p><p>imei 868214041239409</p>]]></Description>
+		<Price>9100</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Xiaomi%20Redmi%206%2032Gb/msk/Cj8ICB_2.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
