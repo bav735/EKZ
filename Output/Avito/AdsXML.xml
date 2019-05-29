@@ -50374,7 +50374,7 @@
 	</Ad>
 	<Ad>
 		<Id>JYKHLT</Id>
-		<DateEnd>2019-06-22T12:14:06+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -60483,6 +60483,24 @@
 		<Price>21400</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20S8/msk/Cj8ICB_39.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>FfR1yP</Id>
+		<DateEnd>2019-06-28T16:52:44+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6 Plus</Title>
+		<Description><![CDATA[<p>iPhone 6 Plus без TouchID в заводских пленках, 100% оригинал, не вскрывался</p><p>- трейд-ин б/у<br>- замечательная гарантия до 2 лет по РФ<br>- выгодные рассрочка, кредит до 36 мес<br>- оплата по карте, р/с, опт</p><p>imei 354437069543979</p>]]></Description>
+		<Price>12600</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%206%20Plus/kzn/Cj8ICB_23.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
