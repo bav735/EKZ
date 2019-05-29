@@ -31064,7 +31064,7 @@
 	</Ad>
 	<Ad>
 		<Id>yw5ahk</Id>
-		<DateEnd>2019-06-08T21:52:33+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -59474,6 +59474,23 @@
 		<Price>11900</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Xiaomi%20Mi%20Max%202%2064Gb/msk/Cj8ICB_4.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>lWMCKJ</Id>
+		<DateEnd>2019-06-28T09:10:17+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Mi Max 2 64Gb</Title>
+		<Description><![CDATA[<p>Xiaomi Mi Max 2 64Gb в заводских пленках, оригинал, не разбирался</p><p>- трейд-ин б/у<br>- великолепная гарантия до 2 лет по РФ<br>- выгодные рассрочка, кредит до 36 мес<br>- расчет по карте, р/с, опт</p><p>imei 864166035715949</p>]]></Description>
+		<Price>11900</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Xiaomi%20Mi%20Max%202%2064Gb/msk/Cj8ICB_5.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
