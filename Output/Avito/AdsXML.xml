@@ -60798,4 +60798,21 @@
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
+	<Ad>
+		<Id>27PMEw</Id>
+		<DateEnd>2019-06-28T18:57:46+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Xiaomi</GoodsType>
+		<Title>Xiaomi Redmi Note 5 64Gb</Title>
+		<Description><![CDATA[<p>Xiaomi Redmi Note 5 64Gb в заводских пленках, оригинал, не вскрывался</p><p>- tradein б/у<br>- славная гарантия до 2 лет<br>- доступные рассрочка, кредит до 36 мес<br>- взаиморасчет по карте, р/с, опт</p><p>imei 867192032648500</p>]]></Description>
+		<Price>12800</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Xiaomi%20Redmi%20Note%205%2064Gb/msk/Cj8ICB_3.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
 </Ads>
