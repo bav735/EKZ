@@ -22720,7 +22720,7 @@
 	</Ad>
 	<Ad>
 		<Id>GmIkel</Id>
-		<DateEnd>2019-06-04T16:00:22+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -59906,6 +59906,23 @@
 		<Price>12800</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Xiaomi%20Redmi%20Note%206%20Pro/kzn/Cj8ICB_3.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>7XlYtd</Id>
+		<DateEnd>2019-06-28T11:56:56+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy A3 2016</Title>
+		<Description><![CDATA[<p>Samsung Galaxy A3 2016 в заводской пленке, 100% оригинал, не разбирался</p><p>- трейдин б/у<br>- настоящая гарантия до 2 лет<br>- выгодные рассрочка, кредит до 36 мес<br>- взаиморасчет по карте, р/с, опт</p><p>imei 358979070209120</p>]]></Description>
+		<Price>9200</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20A3%202016/msk/Cj8ICB_5.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
