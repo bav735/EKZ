@@ -58124,7 +58124,7 @@
 	</Ad>
 	<Ad>
 		<Id>AYpBge</Id>
-		<DateEnd>2019-06-27T10:20:45+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -62585,6 +62585,23 @@
 		<Price>18400</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%207%20128Gb/kzn/Cj8ICB_13.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>IUS34o</Id>
+		<DateEnd>2019-06-29T15:57:08+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone X 256Gb</Title>
+		<Description><![CDATA[<p>iPhone X 256Gb 100% оригинал, не вскрывался</p><p>- трейдин б/у<br>- безупречная гарантия от 1 года до 2 лет<br>- выгодные рассрочка, кредит до 36 мес<br>- взаиморасчет по карте, р/с, опт</p><p>imei 353046091855839</p>]]></Description>
+		<Price>49300</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%20X%20256Gb/msk/Cj8ICB_37.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
