@@ -55896,7 +55896,7 @@
 	</Ad>
 	<Ad>
 		<Id>jeJJyZ</Id>
-		<DateEnd>2019-06-25T14:55:20+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -63674,6 +63674,23 @@
 		<Price>6900</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20S5/msk/Cj8ICB_11.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>vDmCkl</Id>
+		<DateEnd>2019-06-30T11:18:54+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>Samsung</GoodsType>
+		<Title>Samsung Galaxy S9 Plus</Title>
+		<Description><![CDATA[<p>Samsung Galaxy S9 Plus оригинал, не вскрывался</p><p>- трейдин б/у<br>- настоящая гарантия от 1 года до 2 лет по РФ<br>- доступные рассрочка, кредит до 36 мес<br>- покупка по карте, р/с, опт</p><p>imei 352420090631833</p>]]></Description>
+		<Price>43200</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20S9%20Plus/msk/Cj8ICB_8.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
