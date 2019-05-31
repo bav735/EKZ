@@ -56573,7 +56573,7 @@
 	</Ad>
 	<Ad>
 		<Id>lBobV0</Id>
-		<DateEnd>2019-06-26T10:49:10+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -63640,6 +63640,23 @@
 		<Price>4600</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%205%2016Gb/msk/Cj8ICB_26.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>hQSaRJ</Id>
+		<DateEnd>2019-06-30T11:17:19+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 6 16Gb</Title>
+		<Description><![CDATA[<p>iPhone 6 16Gb без TouchID 100% оригинал, не вскрывался</p><p>- трейд-ин б/у<br>- безупречная гарантия от 1 года до 2 лет по РФ<br>- удобные рассрочка, кредит до 36 мес<br>- расчет по карте, р/с, опт</p><p>imei 354450063109119</p>]]></Description>
+		<Price>7300</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%206%2016Gb/msk/Cj8ICB_43.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
