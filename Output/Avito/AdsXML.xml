@@ -12212,7 +12212,7 @@
 	</Ad>
 	<Ad>
 		<Id>tGDvoj</Id>
-		<DateEnd>2019-05-10T02:19:20+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>88432072062</ContactPhone>
@@ -64896,6 +64896,24 @@
 		<Price>43200</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20S9%20Plus/msk/Cj8ICB_9.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>oaeR92</Id>
+		<DateEnd>2019-06-30T19:15:34+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>88432072062</ContactPhone>
+		<Region>Татарстан</Region>
+		<City>Казань</City>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 5S 32Gb</Title>
+		<Description><![CDATA[<p>iPhone 5S 32Gb без TouchID 100% оригинал, не разбирался</p><p>- trade-in б/у<br>- славная гарантия от 1 года до 2 лет<br>- честные рассрочка, кредит до 36 мес<br>- покупка по карте, р/с, опт</p><p>imei 358534051399083</p>]]></Description>
+		<Price>7500</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%205S%2032Gb/kzn/Cj8ICB_3.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
