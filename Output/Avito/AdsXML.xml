@@ -60143,7 +60143,7 @@
 	</Ad>
 	<Ad>
 		<Id>XCFhTy</Id>
-		<DateEnd>2019-06-28T13:47:35+03:00</DateEnd>
+		<DateEnd>2019-02-20T08:44:44+03:00</DateEnd>
 		<AllowEmail>Нет</AllowEmail>
 		<ManagerName>Оператор</ManagerName>
 		<ContactPhone>89584983393</ContactPhone>
@@ -67009,6 +67009,23 @@
 		<Price>20600</Price>
 		<Images>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Samsung%20Galaxy%20S8/msk/Cj8ICB_46.jpg"/>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
+		</Images>
+	</Ad>
+	<Ad>
+		<Id>lpKRIP</Id>
+		<DateEnd>2019-07-01T18:55:27+03:00</DateEnd>
+		<AllowEmail>Нет</AllowEmail>
+		<ManagerName>Оператор</ManagerName>
+		<ContactPhone>89584983393</ContactPhone>
+		<Region>Москва</Region>
+		<Category>Телефоны</Category>
+		<GoodsType>iPhone</GoodsType>
+		<Title>iPhone 4S 16Gb</Title>
+		<Description><![CDATA[<p>iPhone 4S 16Gb 100% оригинал, не разбирался</p><p>- трейдин б/у<br>- славная гарантия от 1 года до 2 лет<br>- дешевые рассрочка, кредит до 36 мес<br>- взаиморасчет по карте, р/с, опт</p><p>imei 013195009992978</p>]]></Description>
+		<Price>3000</Price>
+		<Images>
+			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/gen/main/Apple%20iPhone%204S%2016Gb/msk/Cj8ICB_24.jpg"/>
 			<Image url="https://raw.githubusercontent.com/bav735/PhotosGit/master/avito/base/add/add1_0.jpg"/>
 		</Images>
 	</Ad>
